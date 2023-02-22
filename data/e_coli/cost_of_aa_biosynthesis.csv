@@ -1,0 +1,25 @@
+﻿"Supporting information for Akashi and Gojobori (2002) Proc. Natl. Acad. Sci. USA99 (6), 3695–3700. (10.1073/pnas.062526999)",Table 6.Metabolic costs of amino acid biosynthesis in E. coli,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,Energetic cost,,,,,,,,,
+,,,Glucose,Glucose,Glucose,Acetate,Acetate,Acetate,Malate,Malate,Malate,Mean
+Amino acid,One-lettersymbol,Precursor metabolites,~P,H,"Total, ~P",~P,H,"Total, ~P",~P,H,"Total, ~P","Total, ~P"
+Ala,A,pyr,0,5,10.00,2,6,14.00,1,5,11.00,11.67
+Cys,C,3pg,7,8,23.00,8,9,26.00,7,9,25.00,24.67
+Asp,D,oaa,1,5,11.00,2,6,14.00,1,6,13.00,12.67
+Glu,E,αkg,1,5,11.00,5,8,21.00,2,6,14.00,15.33
+Phe,F,"2 pep, eryP",10,18,46.00,18,20,58.00,12,20,52.00,52.00
+Gly,G,3pg,2,4,10.00,3,5,13.00,2,5,12.00,11.67
+His,H,penP,15,9,33.00,27,9,45.00,19,9,37.00,38.33
+Ile,I,"pyr, oaa",3,13,29.00,6,15,36.00,4,14,32.00,32.33
+Lys,K,"oaa, pyr",3,12,27.00,6,14,34.00,4,13,30.00,30.33
+Leu,L,"2 pyr, acCoA",0,11,22.00,5,15,35.00,3,11,25.00,27.33
+Met,M,"oaa, Cys, -pyr",9,11,31.00,11,13,37.00,9,13,35.00,34.33
+Asn,N,oaa,3,5,13.00,4,6,16.00,3,6,15.00,14.67
+Pro,P,αkg,2,7,16.00,6,10,26.00,3,8,19.00,20.33
+Gln,Q,αkg,2,5,12.00,6,8,22.00,3,6,15.00,16.33
+Arg,R,αkg,9,7,23.00,13,10,33.00,10,8,26.00,27.33
+Ser,S,3pg,2,4,10.00,3,5,13.00,2,5,12.00,11.67
+Thr,T,oaa,3,7,17.00,4,8,20.00,3,8,19.00,18.67
+Val,V,2 pyr,0,10,20.00,4,12,28.00,2,10,22.00,23.33
+Trp,W,"2 pep, eryP, PRPP, -pyr",19,22,63.00,39,24,87.00,25,24,73.00,74.33
+Tyr,Y,"eryP, 2 pep",10,17,44.00,18,19,56.00,12,19,50.00,50.00

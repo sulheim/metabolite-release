@@ -1,0 +1,13 @@
+﻿"Supporting information for Akashi and Gojobori (2002) Proc. Natl. Acad. Sci. USA99 (6), 3695–3700. (10.1073/pnas.062526999)",Table 5. Metabolic costs of precursor metabolites in E. coli,,,,,,,,,
+,,Glucose,Glucose,Glucose,Acetate,Acetate,Acetate,Malate,Malate,Malate
+,,~P,H,"Total, ~P",~P,H,"Total, ~P",~P,H,"Total, ~P"
+Precursor,Abbrev.,7,10,27,19,10,39,11,10,31
+Ribose 5-phosphate,penP,9,10,29,21,10,41,13,10,33
+5-Phosphoribosyl pyrophosphate,PRPP,5,8,21,11,8,27,7,8,23
+Erythrose 4-phosphate,eryP,4,6,16,4,6,16,3,6,15
+3-Phosphoglycerate,3pg,2,4,10,3,5,13,2,5,12
+Phosphoenolpyruvate,pep,2,4,10,3,5,13,2,5,12
+Pyruvate,pyr,0,4,8,2,5,12,1,4,9
+Acetyl-CoA,acCoA,0,2,4,1,4,9,1,2,5
+α-ketoglutarate,αkg,1,4,9,5,7,19,2,5,12
+Oxaloacetate,oaa,,,,,,,,,
