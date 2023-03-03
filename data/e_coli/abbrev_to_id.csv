@@ -1,0 +1,40 @@
+﻿Abbreviation,met id
+G6P,g6p
+F6P,f6p
+FBP,fdp
+DHAP,dhap
+GA3P,g3p
+23PG,3pg
+PEP,pep
+R5P,r5p
+RU5P+X5P,"ru5p__D, ru5p__L, xu5p__D, xu5p__L"
+E4P,e4p
+CIT,cit
+ACN,acon
+ICIT,icit
+AKG MS,akg
+FUM MS,fum
+OAS,oaa
+GLU,glu__L
+SER,ser__L
+ASP,asp__L
+THR,thr__L
+HOM,hom__L
+TYR,tyr__L
+GLY,gly
+PRO,pro__L
+ALA,ala__L
+MET,met__L
+VAL,val__L
+PHE,phe__L
+ILEU,ile__L
+LEU,leu__L
+TRP,trp__L
+HIS,his__L
+ARG,arg__L
+PYR,pyr
+ORO,orot
+FUM,fum
+URA,ura
+AKG,akg
+ACT,ac
