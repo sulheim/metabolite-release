@@ -63,4 +63,21 @@ def estimate_leakage_rate_for_met(time, met_abbrv, df_OD, df_exometabolites, df_
     
     
     #
-    
+def estimate_shadow_prices(model, intracellular_only = True, epsilon = 0.1):
+    intracellular_only = True
+    wt_growth_rate = model.slim_optimize()
+    shadow_prices = {}
+    for m in model.metabolites:
+        if intracellular_only:
+            if m.compartment != 'c':
+                continue
+        with model:
+            try:
+                r = model.reactions.get_by_id('DM_{0}'.format(m.id))
+            except KeyError:
+                r = model.add_boundary(m, type = 'demand')
+            old_lb = r.lower_bound
+            r.bounds = (old_lb + epsilon, 1000)
+            shadow_prices[m.id] = (model.slim_optimize()-wt_growth_rate)/epsilon
+        
+    return shadow_prices
