@@ -1,0 +1,428 @@
+,Metabolite name,Metabolite id,Status
+0,"'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'","'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'",Mixed
+1,"'(2R,4S)-2-methyl-2,4-dihydroxydihydrofuran-3-one'","'(2R,4S)-2-methyl-2,4-dihydroxydihydrofuran-3-one'",Mixed
+2,"'1,6-anhydrous-N-Acetylmuramate'","'1,6-anhydrous-N-Acetylmuramate'",Produced
+3,"'1,6-anhydrous-N-Acetylmuramyl-tripeptide'","'1,6-anhydrous-N-Acetylmuramyl-tripeptide'",Mixed
+4,'1-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0)','C018126',Consumed
+5,'3-Aminoacrylate','3-Aminoacrylate',Mixed
+6,"'(R)-2,3-Dihydroxy-3-methylbutanoate'",'C04272',Mixed
+7,'2-Dehydro-L-gulonate','C06473',Mixed
+8,'ATP','C00002',Mixed
+9,'ADP','C00008',Mixed
+10,'Phosphate','C00009',Mixed
+11,'Diphosphate','C00013',Mixed
+12,'Pyridoxal 5''-phosphate','C00018',Mixed
+13,'3''-AMP','C01367',Consumed
+14,'S-Adenosyl-L-homocysteine','C00021',Consumed
+15,'Malonate semialdehyde','C00222',Consumed
+16,'D-Glutamate','C00217',Mixed
+17,'2-Oxoglutarate','C00026',Produced
+18,"'UDP-D-galacto-1,4-furanose'",'C03733',Mixed
+19,'D-Allose','C01487',Consumed
+20,'Acetate','C00033',Mixed
+21,'Glycine','C00037',Mixed
+22,'D-Alanine','C00133',Mixed
+23,'Succinate','C00042',Mixed
+24,'L-Lysine','C00047',Consumed
+25,'Glyoxylate','C00048',Consumed
+26,'L-Aspartate','C00049',Mixed
+27,'Reduced glutathione','C00051',Mixed
+28,"'UDP-D-galacto-1,4-furanose'",'C03733',Mixed
+29,'ADP','C00008',Mixed
+30,'3''-cmp','C05822',Mixed
+31,'Sulfate','C00059',Mixed
+32,'FMN','C00061',Produced
+33,'L-Arginine','C00062',Mixed
+34,'L-Glutamine','C00064',Mixed
+35,'D-Serine','C00740',Mixed
+36,'L-Ascorbate','C00072',Mixed
+37,'D-Methionine','C00855',Mixed
+38,'Phosphoenolpyruvate','C00074',Produced
+39,'L-Tryptophan','C00078',Mixed
+40,'L-Phenylalanine','C00079',Consumed
+41,'ITP','C00081',Mixed
+42,'L-Tyrosine','C00082',Mixed
+43,'1D-myo-Inositol 1-phosphate','C01177',Produced
+44,'Lactose','C00243',Mixed
+45,'1D-myo-Inositol 1-phosphate','C01177',Produced
+46,'Glycerol 2-phosphate','C02979',Mixed
+47,'Sulfite','C00094',Mixed
+48,'Sulfite','C00094',Consumed
+49,'D-Allose','C01487',Consumed
+50,'D-Cysteine','C00793',Consumed
+51,'D-Alanine','C00133',Mixed
+52,'1D-myo-Inositol 1-phosphate','C01177',Produced
+53,'3''-UMP','C01368',Consumed
+54,'Uracil','C00106',Mixed
+55,'4-Aminobenzoate','C00568',Produced
+56,'2-Oxobutanoate','C00109',Mixed
+57,'Dihydroxyacetone phosphate','C00111',Mixed
+58,'D-Arabinose 5-phosphate','C01112',Produced
+59,"'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'","'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'",Mixed
+60,'Fumarate','C00122',Mixed
+61,'L-Isoleucine','C00407',Mixed
+62,'D-Allose','C01487',Consumed
+63,'Oxidized glutathione','C00127',Mixed
+64,'D-Alanine','C00133',Mixed
+65,'L-Histidine','C00135',Mixed
+66,'D-Allose','C01487',Consumed
+67,'N-Acetyl-D-galactosamine','C01132',Mixed
+68,'3-Methyl-2-oxobutanoate','C00141',Mixed
+69,'3''-GMP','C06193',Consumed
+70,'4-Hydroxy-L-threonine','C06056',Mixed
+71,'L-Proline','C00148',Mixed
+72,'D-Malate','C00497',Mixed
+73,'L-Asparagine','C00152',Consumed
+74,'L-Homocysteine','C00155',Mixed
+75,'butanesulfonate','C06840',Mixed
+76,"'2,3-Dioxo-L-gulonate'",'C04575',Mixed
+77,'D-Allose','C01487',Consumed
+78,'Glycolate','C00160',Produced
+79,'Acetol','C05235',Mixed
+80,'2-Oxobutanoate','C00109',Mixed
+81,'3-hydroxycinnamic acid','C12621',Mixed
+82,'Thymine','C00178',Produced
+83,"'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'","'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'",Mixed
+84,'branching glycogen','branching glycogen',Mixed
+85,'Glycine betaine','C00719',Mixed
+86,'3-Hydroxypropanoate','C01013',Consumed
+87,'3-Hydroxypropanoate','C01013',Consumed
+88,'L-Allo-threonine','C05519',Mixed
+89,'2-Dehydro-L-gulonate','C06473',Mixed
+90,"'2,3-Dihydroxybenzoate'",'C00196',Mixed
+91,'3-Phospho-D-glycerate','C00197',Mixed
+92,'D-Arabinose 5-phosphate','C01112',Produced
+93,'2-Dehydro-3-deoxy-D-galactonate','C01216',Mixed
+94,'Lactose','C00243',Mixed
+95,'D-Alanine','C00133',Mixed
+96,'Thymidine','C00214',Consumed
+97,'D-Glutamate','C00217',Mixed
+98,'Malonate semialdehyde','C00222',Consumed
+99,'D-Arabinose 5-phosphate','C01112',Produced
+100,'2-Oxobutanoate','C00109',Mixed
+101,'(S)-3-Methyl-2-oxopentanoate','C00671',Mixed
+102,'dCMP','C00239',Produced
+103,'Guanine','C00242',Mixed
+104,'Lactose','C00243',Mixed
+105,'Nitrate','C00244',Consumed
+106,'Butyrate (n-C4:0)','C00246',Produced
+107,'Hexadecanoate (n-C16:0)','C00249',Mixed
+108,'Pyridoxal','C00250',Produced
+109,'Isochorismate','C00885',Mixed
+110,'Nicotinate','C00253',Mixed
+111,'Isochorismate','C00885',Mixed
+112,'Riboflavin','C00255',Mixed
+113,'3-Hydroxypropanoate','C01013',Consumed
+114,'D-Altronate','C00817',Mixed
+115,'(R)-Glycerate','C00258',Produced
+116,"'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'","'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'",Mixed
+117,'Hypoxanthine','C00262',Mixed
+118,'L-Allo-threonine','C05519',Mixed
+119,'Acetate','C00033',Mixed
+120,'N-Acetylneuraminate','C00270',Consumed
+121,'1D-myo-Inositol 1-phosphate','C01177',Produced
+122,'ATP','C00002',Mixed
+123,'2(alpha-D-Mannosyl)-D-glycerate','C11544',Mixed
+124,'Orotate','C00295',Mixed
+125,'Quinate','C00296',Mixed
+126,'Uridine','C00299',Consumed
+127,"'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'","'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'",Mixed
+128,"'2,3-Dioxo-L-gulonate'",'C04575',Mixed
+129,"'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'","'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'",Mixed
+130,'Thiosulfate','C00320',Consumed
+131,'L-Citrulline','C00327',Mixed
+132,'D-Glucosamine','C00329',Mixed
+133,'2-Dehydro-L-gulonate','C06473',Mixed
+134,'4-Aminobutanoate','C00334',Mixed
+135,'(S)-Dihydroorotate','C00337',Mixed
+136,'Geranyl diphosphate','C00341',Mixed
+137,"'Phosphatidylglycerol (dioctadec-11-enoyl, n-C18:1)'",'C00344',Mixed
+138,'6-Phospho-D-gluconate','C00345',Mixed
+139,'Undecaprenyl phosphate','C00348',Produced
+140,"'phosphatidylethanolamine (dioctadec-11-enoyl, n-C18:1)'",'C00350',Mixed
+141,'D-Glucosamine 1-phosphate','C06156',Mixed
+142,'N-Acetyl-D-galactosamine 1-phosphate','C18060',Consumed
+143,'ADP','C00008',Mixed
+144,'3''-AMP','C01367',Consumed
+145,'Thiamin','C00378',Consumed
+146,'Hydroquinone','C00530',Mixed
+147,'Xanthine','C00385',Mixed
+148,'Guanosine','C00387',Mixed
+149,'L-Tyrosine','C00082',Mixed
+150,'L-Isoleucine','C00407',Mixed
+151,'cis-Aconitate','C00417',Mixed
+152,'trans-Cinnamate','C00423',Mixed
+153,'Acetol','C05235',Mixed
+154,"'5,6-dihydrouracil'",'C00429',Mixed
+155,'5-Amino-4-oxopentanoate','C00430',Produced
+156,'N2-Acetyl-L-ornithine','C00437',Mixed
+157,'N-Carbamoyl-L-aspartate','C00438',Mixed
+158,'L-2-Amino-3-oxobutanoate','C03508',Mixed
+159,'D-Arabinose 5-phosphate','C01112',Produced
+160,'1D-myo-Inositol 1-phosphate','C01177',Produced
+161,'dCTP','C00458',Mixed
+162,'Indole','C00463',Mixed
+163,'Cytidine','C00475',Consumed
+164,'Propanal','C00479',Mixed
+165,'Tyramine','C00483',Produced
+166,'3-Carboxy-4-methyl-2-oxopentanoate','C04236',Consumed
+167,'D-Malate','C00497',Mixed
+168,'Allantoate','C00499',Mixed
+169,'L-Fucose','C01019',Mixed
+170,"'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'","'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'",Mixed
+171,'D-Altronate','C00817',Mixed
+172,"'(R)-2,3-Dihydroxy-3-methylpentanoate'",'C06007',Produced
+173,'Deoxyuridine','C00526',Mixed
+174,'Hydroquinone','C00530',Mixed
+175,'Pyridoxamine','C00534',Mixed
+176,'Methylglyoxal','C00546',Mixed
+177,'2-Dehydro-L-gulonate','C06473',Mixed
+178,'5''-Deoxyadenosine','C05198',Mixed
+179,'4-Aminobenzoate','C00568',Produced
+180,"'2'',3''-Cyclic AMP'",'C02353',Mixed
+181,'3-Hydroxypropanoate','C01013',Consumed
+182,'2-Oxopent-4-enoate','C00596',Consumed
+183,'Phenylacetaldehyde','C00601',Mixed
+184,'2-Dehydro-L-gulonate','C06473',Mixed
+185,'N-Acetyl-L-glutamate','C00624',Mixed
+186,'3-Phospho-D-glycerate','C00197',Mixed
+187,'1D-myo-Inositol 1-phosphate','C01177',Produced
+188,'D-Mannitol 1-phosphate','C00644',Mixed
+189,'N-Acetyl-D-galactosamine','C01132',Mixed
+190,'Dihydroxyacetone phosphate','C00111',Mixed
+191,"'LL-2,6-Diaminoheptanedioate'",'C00666',Consumed
+192,'gamma-L-Glutamyl-L-cysteine','C00669',Mixed
+193,'sn-Glycero-3-phosphocholine','C00670',Mixed
+194,'(S)-3-Methyl-2-oxopentanoate','C00671',Mixed
+195,'1-deoxy-D-xylulose 5-phosphate','C11437',Produced
+196,'1-deoxy-D-xylulose 5-phosphate','C11437',Produced
+197,"'2,3-Dioxo-L-gulonate'",'C04575',Mixed
+198,"'LL-2,6-Diaminoheptanedioate'",'C00666',Consumed
+199,'Maltose 6''-phosphate','C02995',Consumed
+200,"'1,4-alpha-D-glucan'",'C00718',Produced
+201,'Glycine betaine','C00719',Mixed
+202,'2-Methylcitrate','C02225',Mixed
+203,'D-Serine','C00740',Mixed
+204,'D-Altronate','C00817',Mixed
+205,'D-Cysteine','C00793',Consumed
+206,'L-Tyrosine','C00082',Mixed
+207,'D-Altronate','C00817',Mixed
+208,'D-Galactarate','C00879',Mixed
+209,'D-Methionine','C00855',Mixed
+210,'L-Histidinol','C00860',Mixed
+211,'L-Fucose','C01019',Mixed
+212,'(R)-Pantothenate','C00864',Mixed
+213,'D-Galactarate','C00879',Mixed
+214,'D-Altronate','C00817',Mixed
+215,'Isochorismate','C00885',Mixed
+216,'2-Dehydro-L-gulonate','C06473',Mixed
+217,'Porphobilinogen','C00931',Mixed
+218,'Acetol','C05235',Mixed
+219,"'2'',3''-Cyclic GMP'",'C06194',Consumed
+220,'3-Dehydroquinate','C00944',Produced
+221,'Mercaptopyruvate','C00957',Consumed
+222,'(S)-2-Aceto-2-hydroxybutanoate','C06006',Produced
+223,'D-Glutamate','C00217',Mixed
+224,'gamma-hydroxybutyrate','C00989',Mixed
+225,'D-Alanyl-D-alanine','C00993',Mixed
+226,'O-Phospho-L-serine','C01005',Mixed
+227,'Reduced riboflavin','C01007',Mixed
+228,'3-Hydroxypropanoate','C01013',Consumed
+229,'L-Fucose','C01019',Mixed
+230,'Hydroxymethylbilane','C01024',Produced
+231,'2-Dehydro-L-gulonate','C06473',Mixed
+232,'Lactose','C00243',Mixed
+233,'8-Amino-7-oxononanoate','C01092',Mixed
+234,'D-Mannitol 1-phosphate','C00644',Mixed
+235,'1D-myo-Inositol 1-phosphate','C01177',Produced
+236,'L-Fuculose 1-phosphate','C01099',Mixed
+237,'D-Arabinose 5-phosphate','C01112',Produced
+238,'D-Arabinose 5-phosphate','C01112',Produced
+239,'L-Fuculose 1-phosphate','C01099',Mixed
+240,'N-Acetyl-D-galactosamine','C01132',Mixed
+241,'5-Amino-4-oxopentanoate','C00430',Produced
+242,'1D-myo-Inositol 1-phosphate','C01177',Produced
+243,"'2,3-dihydroxicinnamic acid'",'C12623',Produced
+244,'gamma-butyrobetaine','C01181',Consumed
+245,'Nicotinate D-ribonucleotide','C01185',Mixed
+246,'3-Deoxy-D-manno-2-octulosonate','C01187',Produced
+247,'2-Dehydro-3-deoxy-D-galactonate','C01216',Mixed
+248,"'Guanosine 3'',5''-bis(diphosphate)'",'C01228',Consumed
+249,'sn-Glycero-3-phosphoethanolamine','C01233',Consumed
+250,'N-Acetyl-L-glutamate 5-semialdehyde','C01250',Mixed
+251,'XDP','C01337',Consumed
+252,'3''-AMP','C01367',Consumed
+253,'3''-UMP','C01368',Consumed
+254,'Butanal','C01412',Produced
+255,'D-Glucosamine','C00329',Mixed
+256,'p-Cresol','C01468',Mixed
+257,'D-Allose','C01487',Consumed
+258,"'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'","'(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran'",Mixed
+259,'octadecanoate (n-C18:0)','C01530',Mixed
+260,'Decanoate (n-C10:0)','C01571',Mixed
+261,'D-Allose','C01487',Consumed
+262,'Hexanoate (n-C6:0)','C01585',Mixed
+263,'Ornithine','C01602',Consumed
+264,'L-Tyrosine','C00082',Mixed
+265,'L-Fucose','C01019',Mixed
+266,'Xanthosine','C01762',Mixed
+267,'1-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0)','C018126',Consumed
+268,'1-Acyl-sn-glycero-3-phosphoglycerol (n-C18:0)','C018126',Consumed
+269,'Maltotriose','C01835',Consumed
+270,'Aminoacetone','C01888',Consumed
+271,'Dethiobiotin','C01909',Mixed
+272,"'1,4-alpha-D-glucan'",'C00718',Produced
+273,'Maltotetraose','C02052',Produced
+274,'S-Adenosyl-L-homocysteine','C00021',Consumed
+275,'2-Methylcitrate','C02225',Mixed
+276,'cis-Aconitate','C00417',Mixed
+277,"'2'',3''-Cyclic AMP'",'C02353',Mixed
+278,"'2'',3''-Cyclic UMP'",'C02355',Consumed
+279,'dihydrosirohydrochlorin','C02463',Mixed
+280,'3-Carboxy-2-hydroxy-4-methylpentanoate','C04411',Produced
+281,'Maltose 6''-phosphate','C02995',Consumed
+282,'2-Isopropylmaleate','C02631',Produced
+283,'3-Dehydroshikimate','C02637',Produced
+284,'6-Acetyl-D-glucose','C02655',Produced
+285,'Dodecanoate (n-C12:0)','C02679',Mixed
+286,'N-Acetylmuramate','C02713',Produced
+287,'o-Succinylbenzoate','C02730',Mixed
+288,"'2,3-Dioxo-L-gulonate'",'C04575',Mixed
+289,'Propanoyl phosphate','C02876',Produced
+290,'1D-myo-Inositol 1-phosphate','C01177',Produced
+291,'1D-myo-Inositol 1-phosphate','C01177',Produced
+292,'Glycerol 2-phosphate','C02979',Mixed
+293,'L-Methionine Sulfoxide','C02989',Mixed
+294,'Maltose 6''-phosphate','C02995',Consumed
+295,'4-Phospho-L-aspartate','C03082',Mixed
+296,"'2,3-dihydroxicinnamic acid'",'C12623',Produced
+297,'5-Phospho-beta-D-ribosylamine','C03090',Produced
+298,'S-Methyl-L-methionine','C03172',Consumed
+299,'Shikimate 5-phosphate','C03175',Produced
+300,'3-Phosphohydroxypyruvate','C03232',Consumed
+301,'Glycerophosphoglycerol','C03274',Produced
+302,'L-Glutamate 5-phosphate','C03287',Produced
+303,'D-Arabinose 5-phosphate','C01112',Produced
+304,'N2-Succinyl-L-arginine','C03296',Mixed
+305,'dTDP-L-rhamnose','C03319',Produced
+306,'D-Glutamate','C00217',Mixed
+307,'5-amino-1-(5-phospho-D-ribosyl)imidazole','C03373',Consumed
+308,'N2-Succinyl-L-ornithine','C03415',Mixed
+309,'L-2-Amino-3-oxobutanoate','C03508',Mixed
+310,'S-Ribosyl-L-homocysteine','C03539',Mixed
+311,"'(2R,4S)-2-methyl-2,4-dihydroxydihydrofuran-3-one'","'(2R,4S)-2-methyl-2,4-dihydroxydihydrofuran-3-one'",Mixed
+312,"'3-(2,3-Dihydroxyphenyl)propanoate'",'C04044',Consumed
+313,'Quinolinate','C03722',Mixed
+314,"'UDP-D-galacto-1,4-furanose'",'C03733',Mixed
+315,'5-Amino-4-oxopentanoate','C00430',Produced
+316,'Dopamine','C03758',Produced
+317,'4-Hydroxyphenylacetaldehyde','C03765',Mixed
+318,"'Phosphatidylglycerophosphate (ditetradec-7-enoyl, n-C14:1)'",'C03892',Mixed
+319,'1-Pyrroline-5-carboxylate','C03912',Mixed
+320,"'2,3,4,5-Tetrahydrodipicolinate'",'C03972',Mixed
+321,"'3,4-Dihydroxyphenylacetaldehyde'",'C04043',Mixed
+322,"'3-(2,3-Dihydroxyphenyl)propanoate'",'C04044',Produced
+323,"'2,3-Dihydro-2,3-dihydroxybenzoate'",'C04171',Mixed
+324,"'2,3-dihydroxybenzoylserine'",'C04204',Produced
+325,'3-Carboxy-4-methyl-2-oxopentanoate','C04236',Consumed
+326,'N-Acetyl-D-galactosamine 1-phosphate','C18060',Consumed
+327,'N-Acetyl-D-galactosamine 1-phosphate','C18060',Consumed
+328,"'(R)-2,3-Dihydroxy-3-methylbutanoate'",'C04272',Mixed
+329,'N-((R)-4-Phosphopantothenoyl)-L-cysteine','C04352',Consumed
+330,'N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide','C04376',Mixed
+331,'3-Carboxy-2-hydroxy-4-methylpentanoate','C04411',Produced
+332,"'N-Succinyl-LL-2,6-diaminoheptanedioate'",'C04421',Mixed
+333,'S-Adenosyl-4-methylthio-2-oxobutanoate','C04425',Mixed
+334,'5-Amino-6-(5''-phosphoribitylamino)uracil','C04454',Mixed
+335,'4-Amino-2-methyl-5-phosphomethylpyrimidine','C04556',Mixed
+336,"'2,3-Dioxo-L-gulonate'",'C04575',Mixed
+337,'2-Methylcitrate','C02225',Mixed
+338,'5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide','C04677',Mixed
+339,'4-(1-D-Ribitylamino)-5-aminouracil','C04732',Consumed
+340,'5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide','C04734',Mixed
+341,'Dihydromonapterin','Dihydromonapterin',Mixed
+342,'5''-Deoxyadenosine','C05198',Mixed
+343,'Acetol','C05235',Mixed
+344,'D-Glycero-D-manno-heptose 1-phosphate','C07838',Mixed
+345,'3-keto-L-gulonate-6-phosphate','C14899',Mixed
+346,'Lactose','C00243',Mixed
+347,'L-Allo-threonine','C05519',Mixed
+348,'Phenylpropanoate','C05629',Consumed
+349,"'(R)-2,3-Dihydroxy-3-methylbutanoate'",'C04272',Mixed
+350,"'N1-(alpha-D-ribosyl)-5,6-dimethylbenzimidazole'",'C05775',Mixed
+351,'sirohydrochlorin','C05778',Consumed
+352,'Enterochelin','C05821',Produced
+353,'3''-cmp','C05822',Mixed
+354,'N2-Succinyl-L-glutamate','C05931',Mixed
+355,'(S)-2-Aceto-2-hydroxybutanoate','C06006',Produced
+356,"'(R)-2,3-Dihydroxy-3-methylpentanoate'",'C06007',Produced
+357,"'(2R,4S)-2-methyl-2,4-dihydroxydihydrofuran-3-one'","'(2R,4S)-2-methyl-2,4-dihydroxydihydrofuran-3-one'",Mixed
+358,'UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine','C06022',Mixed
+359,'2-Oxo-3-hydroxy-4-phosphobutanoate','C06054',Mixed
+360,'4-Hydroxy-L-threonine','C06056',Mixed
+361,'D-Glucosamine 1-phosphate','C06156',Mixed
+362,'Arbutin','C06186',Consumed
+363,'3''-GMP','C06193',Consumed
+364,"'2'',3''-Cyclic GMP'",'C06194',Consumed
+365,'Ferrichrome','C06228',Produced
+366,"'(R)-2,3-Dihydroxy-3-methylbutanoate'",'C04272',Mixed
+367,'D-Mannitol 1-phosphate','C00644',Mixed
+368,'N-Acetylanthranilate','C06332',Produced
+369,'octanoate (n-C8:0)','C06423',Mixed
+370,'tetradecanoate (n-C14:0)','C06424',Mixed
+371,'2-Dehydro-L-gulonate','C06473',Mixed
+372,'Aminoacetaldehyde','C06735',Produced
+373,'butanesulfonate','C06840',Mixed
+374,'4-Hydroxyphenylacetaldehyde','C03765',Mixed
+375,'minocycline','C07225',Consumed
+376,'ferroxamine','C07597',Consumed
+377,'D-Glycero-D-manno-heptose 1-phosphate','C07838',Mixed
+378,'D-Glycero-D-manno-heptose 1-phosphate','C07838',Mixed
+379,'Hexadecenoate (n-C16:1)','C08362',Mixed
+380,'methanesulfonate','C11145',Mixed
+381,'4-amino-4-deoxychorismate','C11355',Mixed
+382,'2-C-methyl-D-erythritol 4-phosphate','C11434',Consumed
+383,'1-deoxy-D-xylulose 5-phosphate','C11437',Produced
+384,'4-Hydroxyphenylacetaldehyde','C03765',Produced
+385,'3-(3-hydroxy-phenyl)propionate','C11457',Produced
+386,'2(alpha-D-Mannosyl)-D-glycerate','C11544',Mixed
+387,'1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate','C11811',Mixed
+388,"'(2R,4S)-2-methyl-2,4-dihydroxydihydrofuran-3-one'","'(2R,4S)-2-methyl-2,4-dihydroxydihydrofuran-3-one'",Mixed
+389,'3-hydroxycinnamic acid','C12621',Mixed
+390,"'3-(2,3-Dihydroxyphenyl)propanoate'",'C04044',Produced
+391,"'2,3-dihydroxicinnamic acid'",'C12623',Produced
+392,'3-Dehydroquinate','C00944',Mixed
+393,'3-keto-L-gulonate-6-phosphate','C14899',Mixed
+394,"'3,4-dihydroxy-2-butanone 4-phosphate'",'C15556',Mixed
+395,'gamma-glutamyl-putrescine','C15699',Mixed
+396,'gamma-glutamyl-gamma-butyraldehyde','C15700',Consumed
+397,'N2-Succinyl-L-ornithine','C03415',Mixed
+398,'dehydroglycine','C15809',Consumed
+399,'D-Altronate','C00817',Mixed
+400,'7-cyano-7-carbaguanine','C15996',Produced
+401,'L-Methionine Sulfoxide','C02989',Mixed
+402,'fructoselysine','C16488',Consumed
+403,'N-Acetyl-D-galactosamine 1-phosphate','C18060',Consumed
+404,'1D-myo-Inositol 1-phosphate','C01177',Produced
+405,'3''-GMP','C06193',Consumed
+406,'Dihydromonapterin','Dihydromonapterin',Mixed
+407,'Dodecanoly-phosphate (n-C12:0)','Dodecanoly-phosphate (n-C12:0)',Consumed
+408,'Ferrichrome minus Fe(III)','Ferrichrome minus Fe(III)',Mixed
+409,'D-Glucosamine 1-phosphate','C06156',Mixed
+410,'L-Prolinylglycine','L-Prolinylglycine',Consumed
+411,'L-alanine-D-glutamate','L-alanine-D-glutamate',Mixed
+412,"'L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine'","'L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine'",Consumed
+413,'L-alanine-D-glutamate','L-alanine-D-glutamate',Mixed
+414,'N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide','N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide',Mixed
+415,'Tetrahydromonapterin','Tetrahydromonapterin',Mixed
+416,'acyl phosphatidylglycerol (n-C16:0)','acyl phosphatidylglycerol (n-C16:0)',Mixed
+417,'branching glycogen','branching glycogen',Mixed
+418,"'cis-3-(3-carboxyethyl)-3,5-cyclohexadiene-1,2-diol'","'cis-3-(3-carboxyethyl)-3,5-cyclohexadiene-1,2-diol'",Consumed
+419,'coprogen','coprogen',Mixed
+420,"'cyclopropane phosphatidylethanolamine (dihexadec-9,10-cyclo-anoyl, n-C16:0 cyclo)'","'cyclopropane phosphatidylethanolamine (dihexadec-9,10-cyclo-anoyl, n-C16:0 cyclo)'",Mixed
+421,"'cyclopropane phosphatidylglycerol (dihexadec-9,10-cyclo-anoyl, n-C16:0 cyclo)'","'cyclopropane phosphatidylglycerol (dihexadec-9,10-cyclo-anoyl, n-C16:0 cyclo)'",Mixed
+422,'d-biotin d-sulfoxide','d-biotin d-sulfoxide',Consumed
+423,'lipoate (protein bound)','lipoate (protein bound)',Produced
+424,'octadecenoate (n-C18:1)','octadecenoate (n-C18:1)',Mixed
+425,'fructoselysine','C16488',Consumed
+426,'tetradecenoate (n-C14:1)','tetradecenoate (n-C14:1)',Produced
