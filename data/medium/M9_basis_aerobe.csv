@@ -1,0 +1,22 @@
+﻿ID,Name,Concentration [g/l],Comment
+nh4_e,Ammonium,1000,
+ca2_e,Calcium,1000,
+cobalt2_e,Co2+,1000,
+h_e,H+,1000,
+h2o_e,H2O H2O,1000,
+mg2_e,Magnesium,1000,
+o2_e,O2 O2,1000,
+pi_e,Phosphate,1000,
+k_e,Potassium,1000,
+na1_e,Sodium,1000,
+so4_e,Sulfate,1000,
+cu2_e,Copper,1000,
+mn2_e,Manganese,1000,
+cl_e,Chloride,1000,
+fe3_e,Iron (Fe3+),1000,
+zn2_e,Zinc,1000,
+ni2_e,Nickel,1000,
+fe2_e,Iron (Fe2+),1000,
+mobd_e,Molybdate,1000,Required for growth in ??
+btn_e,Biotin,1000,Required for growth in ??
+pqqA_kt_c,Peptide_pqqA_from_Pseudomonas_putida,1000,Required for growth in P. putida GEM

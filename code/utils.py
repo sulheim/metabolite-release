@@ -325,6 +325,6 @@ if __name__ == '__main__':
         get_strain_matrix()
     if 0:
         print(get_project_root())
-    if 1:
+    if 0:
         make_formula_sheet()
         get_formula("glc__D_e")
