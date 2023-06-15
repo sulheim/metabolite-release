@@ -131,3 +131,4 @@ dmypy.json
 *.svg
 *.sublime-workspace
 *.png
+*.pdf
