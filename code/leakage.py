@@ -23,7 +23,7 @@ gDW_per_OD = {
 
 
 
-def get_leakage(data_folder, organism, time, unit = '/gDW'):
+def get_leakage(data_folder, organism, time, unit = '/gDW', method = 'one-way-diff'):
     exometabolites_folder = Path(data_folder)
     
     # Filenames
@@ -42,7 +42,7 @@ def get_leakage(data_folder, organism, time, unit = '/gDW'):
     for met_abbrv in met_abbreviations:
         # leakage, std = estimate_leakage_rate_for_met(time, met_abbrv, df_OD, df_exometabolites, df_exometabolites_std)
         leakage = estimate_leakage_rate_for_met_no_std(time, met_abbrv, df_OD, df_exometabolites, df_exometabolites_std,
-                                                       organism = organism, unit = unit)
+                                                       organism = organism, unit = unit, method = method)
         leakage_list.append(leakage)
         # leakage_uncertainty_list.append(std)
     #print(leakage_list)
@@ -57,7 +57,9 @@ def get_leakage(data_folder, organism, time, unit = '/gDW'):
 def estimate_leakage_rate_for_met_no_std(time, met_abbrv, df_OD, df_exometabolites, df_exometabolites_std, organism, method = 'spline', unit = 'OD'):
 
     if method == 'spline':
-        cs_od = UnivariateSpline(df_OD.index, df_OD['OD mean'] , s=1)
+        w = 1/df_OD['OD std']
+        w[np.isnan(w)] = np.min(w)
+        cs_od = UnivariateSpline(df_OD.index, df_OD['OD mean'], k = 2, s=0.2, ext =3, w=w*1e-1)
         mean_std = np.nanmean(df_exometabolites_std[met_abbrv])
         met_conc =  df_exometabolites[met_abbrv]
         met_conc[np.isnan(met_conc)]=0
@@ -65,8 +67,7 @@ def estimate_leakage_rate_for_met_no_std(time, met_abbrv, df_OD, df_exometabolit
         leakage_per_h = cs_met.derivatives(time)[1]
         leakage_rate_per_h_per_OD = leakage_per_h / cs_od(time)
 
-
-    else:
+    elif method == 'two-ways-diff':
         OD_mean = df_OD.loc[time, "OD mean"]
         
         # met_conc
@@ -75,6 +76,23 @@ def estimate_leakage_rate_for_met_no_std(time, met_abbrv, df_OD, df_exometabolit
 
         # leakage rate
         delta_time = 2 # Divide by delta time = 2 hours
+        leakage_per_h = (met_conc_2 - met_conc_1) / delta_time 
+        leakage_rate_per_h_per_OD = leakage_per_h / OD_mean
+    else:
+        # One-way diff
+        t1 = np.floor(time)
+        t2 = np.ceil(time)
+        if t2==t1:
+            t2 = t1+1
+
+        # OD_mean = df_OD.loc[[time, time+1], "OD mean"].mean()
+        OD = df_OD.loc[t1, 'OD mean'] + (df_OD.loc[t2, 'OD mean']-df_OD.loc[t1, 'OD mean'])*(time-t1)
+        delta_time = 1 # Divide by delta time = 2 hours
+        # met_conc
+        met_conc_1 = df_exometabolites.loc[t1, met_abbrv]
+        met_conc_2 = df_exometabolites.loc[t2, met_abbrv]    
+
+        # leakage rate
         leakage_per_h = (met_conc_2 - met_conc_1) / delta_time 
         leakage_rate_per_h_per_OD = leakage_per_h / OD_mean
 
@@ -134,9 +152,13 @@ def get_glucose_uptake_rate(data_folder, organism, time, unit = 'gDW', method = 
         cs_glc = UnivariateSpline(df_glucose.index, df_glucose['Glucose mean'] , s=0.5)
         glc_per_h = cs_glc.derivatives(time)[1]/cs_od(time)
         glc_per_h_per_od = glc_per_h/cs_od(time)
-    else:
+    elif method == 'two-ways-diff':
         glc_per_h = (df_glucose.loc[time+1, 'Glucose mean']-df_glucose.loc[time-1, 'Glucose mean'])/2
         glc_per_h_per_od = glc_per_h/df_OD.loc[time, "OD mean"]
+    else:
+        # One-way diff
+        raise NotImplementedError
+
     
     Mw_glc = 180.156
     glc_mM_per_h_per_od = glc_per_h_per_od/Mw_glc*1000 # Convert from g/L to mM
@@ -168,13 +190,25 @@ def get_growth_rate(data_folder, organism, time, method = 'spline'):
 
 
     #
+def estimate_shadow_price_for_met(model, m, solution, delta = 0.1):
+    with model:
+        try:
+            r = model.reactions.get_by_id('DM_{0}'.format(m.id))
+        except KeyError:
+            r = model.add_boundary(m, type = 'demand')
+        old_lb = r.lower_bound
+        r.bounds = (old_lb + delta, 1000)
+        sp = (model.slim_optimize()-solution.objective_value)/delta
+    return sp
+    
 def estimate_shadow_prices(model, intracellular_only = True, delta = 0.1, metabolites = []):
     intracellular_only = True
     wt_growth_rate = model.slim_optimize()
     shadow_prices = {}
     if not len(metabolites):
         metabolites = [m.id for m in model.metabolites]
-    for m_id in metabolites:
+    for i, m_id in enumerate(metabolites):
+        # print(i, m_id)
         m = model.metabolites.get_by_id(m_id)
         if intracellular_only:
             if m.compartment != 'c':
