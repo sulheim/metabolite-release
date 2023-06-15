@@ -12,6 +12,8 @@ import cobra
 from pathlib import Path
 import pandas as pd
 from dotenv import find_dotenv
+from itertools import chain, combinations
+
 
 # File names (relative to root folder)
 MODEL_INFO_FN = r"models\list_of_models.csv"
@@ -311,6 +313,15 @@ def get_formula_dict():
     fn = get_data_folder() / "formula.csv"
     s = pd.read_csv(fn, index_col = 0, squeeze = True).to_dict()
     return s    
+
+def powerset(iterable):
+    """
+    powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)
+    """
+    xs = list(iterable)
+    # note we return an iterator rather than a list
+    return chain.from_iterable(combinations(xs,n) for n in range(len(xs)+1))
+
 
 if __name__ == '__main__':
     # print(get_model_info("bacillus subtilis"))
