@@ -133,3 +133,4 @@ dmypy.json
 *.png
 *.pdf
 results/*
+notebooks/e_coli/archive

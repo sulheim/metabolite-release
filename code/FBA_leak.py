@@ -5,7 +5,7 @@ name: dFBA
 date: 02.04.23
 author: Snorre Sulheim
 
-Holds the class used to run dFBA in python. With leakage. Code copied from outcompete prioject
+Holds the class used to run dFBA in python. With leakage. Code copied from outcompete project
 """
 
 import numpy as np
@@ -30,8 +30,8 @@ from collections.abc import MutableMapping
 
 # Default values
 DEFAULT_VALUES = {
- 'Km': 10, # mmol/L (COMETS default is 0.01 mmol/cm^3)
- 'Vmax': 20, #mmol/gDW/h
+ 'Km': 1, # mmol/L (COMETS default is 0.01 mmol/cm^3)
+ 'Vmax': 10, #mmol/gDW/h
  'hill': 1,
  'time_step': 0.1, #h
  'max_cycles': 1000,
@@ -45,10 +45,12 @@ EXCHANGE_FLUX_EPSILON = 1e-6
 RATIO_CONVERGENCE_LIMIT = 0.01
 RATIO_CUTOFF = 0.9
 
+# EXCLUDE_LEAKAGE = ['accoa', 'malcoa', 'lipidX', 'nadh', 'nadph', 'nadp', 'nad']
+
 class dFBA(object):
     def __init__(self, iterations = 100, dt = 1, basis_medium = "M9", folder = "./dFBA", method = "pFBA", 
                  pfba_fraction = 1.0, dilution_interval = None, dilution_factor = 0.1, run_until_convergence = True, save_files = False, discard_padding_on_save = True, store_exchanges_flag = False, 
-                     which_exchanges = "all", store_exchanges_rate = 1):
+                     which_exchanges = "all", store_exchanges_rate = 1, leakage_slope = -1.38):
        self.models = {}
        self.method = method
        self.medium = Medium(iterations, dt, basis_medium)
@@ -64,6 +66,7 @@ class dFBA(object):
        self.store_exchanges_flag = store_exchanges_flag
        self.which_exchanges = which_exchanges
        self.store_exchanges_rate = store_exchanges_rate
+       self.leakage_slope = leakage_slope
 
 
 
@@ -71,14 +74,14 @@ class dFBA(object):
        self.stop_flag = False
        self.save_files = False
        self.discard_padding = True
-       
 
 
-    def add_model(self, model_name, cbmodel, initial_biomass, add_leakage = False, leakage_dict = None):
+    def add_model(self, model_name, cbmodel, initial_biomass):
             model = Model(cbmodel, initial_biomass, self.iterations, self.dt, method = self.method, 
-                          pfba_fraction = self.pfba_fraction, add_leakage = add_leakage, leakage_dict = leakage_dict,
+                          pfba_fraction = self.pfba_fraction,
                           store_exchanges_flag = self.store_exchanges_flag, which_exchanges = self.which_exchanges,
-                          store_exchanges_rate = self.store_exchanges_rate, medium = self.medium)
+                          store_exchanges_rate = self.store_exchanges_rate, medium = self.medium,
+                          leakage_slope = self.leakage_slope)
             
             self.models[model_name] = model
 
@@ -101,6 +104,7 @@ class dFBA(object):
         self.initiate_medium_and_constraints()
         model_names = list(self.models.keys())
         for i in range(1, self.iterations):
+            # print(i)
             if self.stop_flag:
                 break
 
@@ -280,7 +284,7 @@ class dFBA(object):
         biomass_ratios = {key:value/total_biomass for (key, value) in biomass_ratios.items()}
         return biomass_ratios
 
-    # @profile
+    # # @profile
     def simulate_model(self, model_name, i):
         model = self.models[model_name]
         #self._update_constraints(model)
@@ -296,7 +300,7 @@ class dFBA(object):
                 model.status = "infeasible"
             else:
                 model.status = "optimal"
-
+        # print(model.status, fluxes[model.objective_id])
         if model.status in ["optimal", "no growth"]:
             if model.status == "optimal":
                 model.update_biomass(fluxes[model.objective_id], i)
@@ -357,18 +361,18 @@ class Medium(object):
         for m_id, conc in met_conc_dict.items():
             self.concentrations[m_id] = conc
 
-    # @profile
+    # # @profile
     def update_medium(self, fluxes, model, model_biomass):
         # fluxes = fluxes.to_dict()
         mu = fluxes[model.objective_id]
         for r_id, flux in fluxes.items():
             if (r_id == model.objective_id):
                 continue
-            print(model.ex_met_dict)
+            # print(model.ex_met_dict)
             try:
                 m_id = model.ex_met_dict[r_id]
             except KeyError:
-                print('No {0}'.format(m_id))
+                print('No met for {0}'.format(r_id))
                 continue
             if flux!= 0:
                 if self.static_concentrations[m_id]:
@@ -381,7 +385,7 @@ class Medium(object):
                     dS_dt_fun = lambda t, S: model_biomass*np.exp(mu*t)*flux
                     sol = solve_ivp(dS_dt_fun, [0, self.dt], [0], rtol = 1e-5)
                     self.concentrations[m_id] = max(0, sol.y[0][-1] + self.concentrations[m_id])
-    # @profile
+    # # @profile
     def store_medium(self, timestep):
         self.met_conc_array[:, timestep] = [self.concentrations[m_id] for m_id in self.metabolites]
 
@@ -413,16 +417,14 @@ class Model(object):
      - monod equations are currently acting on exchange reactions, but should rather act on transporters
     """
     def __init__(self, cbmodel, initial_biomass, iterations, dt, method = "pFBA", pfba_fraction = 1.0,
-                 add_leakage = False, leakage_dict = None, store_exchanges_flag = True, which_exchanges = "all",
-                 store_exchanges_rate = 1, medium = None, unconstrain_basis_mets = True):
+                  store_exchanges_flag = True, which_exchanges = "all",
+                 store_exchanges_rate = 1, medium = None, unconstrain_basis_mets = True, leakage_slope = -1.38):
         self.cbmodel = cbmodel
         self.method = method
         self.pfba_fraction = pfba_fraction
         self.km_dict = defaultdict(lambda: DEFAULT_VALUES['Km'])
         self.Vmax_dict = defaultdict(lambda: DEFAULT_VALUES['Vmax'])
         self.hill_dict = defaultdict(lambda: DEFAULT_VALUES['hill'])
-        self.leakage_dict = leakage_dict
-        self.add_leakage = add_leakage
         self._lb = {}
         # self.store_original_lower_bounds()
         self.current_biomass = initial_biomass
@@ -439,6 +441,7 @@ class Model(object):
         self.store_exchanges_flag = store_exchanges_flag
         self.store_exchanges_rate = store_exchanges_rate
         self.which_exchanges = which_exchanges
+        self.leakage_slope  = leakage_slope
         self.prep_model()
 
     def prep_model(self):
@@ -454,18 +457,8 @@ class Model(object):
             self.random_model, self.random_objective = make_random_model(self.cbmodel, self.objective_id)
             print(self.cbmodel.id, self.random_objective)
         elif self.method == 'FBA_with_leakage':
-            self.cbmodel = make_leaky_model(self.cbmodel, self.objective_id)
-
-        # if self.add_leakage:
-        #     if self.leakage_dict is None:
-        #         self.leakage_dict = DEFAULT_leakage_DICT
-        #     self.leakage_dict["carbon_sources"] = get_leakage_carbon_sources(self.leakage_dict["carbon_sources"], 
-        #                                                                  self.cbmodel)
-        #     cd = self.leakage_dict
-        #     self.cbmodel, self.leakage_constraint_dict = leakage.add_leakage_constraint(self.cbmodel, self.objective_id, 
-        #                                     cd['carbon_sources'], cd['wc'], cd['we'], cd['wr'], cd['pmax'], 
-        #                                     randomize_we = cd["randomize_we"])
-        
+            print("##### Leakage")
+            self.cbmodel, self.leaky_reactions, self.leaky_mets, new_exchanges = make_leaky_model(self.cbmodel, self.objective_id)
 
         # Map dictionary mapping metabolites to reactions
         self.make_metabolite_reaction_mapping()
@@ -525,7 +518,7 @@ class Model(object):
     #     for r in self.cbmodel.exchanges:
     #         self._lb[r.id] = r.lower_bound
 
-    # @profile
+    # # @profile
     def update_biomass(self, growth_rate, i):
         #print(solution.fluxes)
         #print(self.objective)
@@ -591,50 +584,19 @@ class Model(object):
     
     # @profile
     def update_bounds_from_medium(self, medium):
-        if self.add_leakage:
-            # update_mets = []
-            for m_id, x in medium.concentrations.items():
-                try:
-                    r_id = self.met_ex_dict[m_id]
-                except KeyError:
-                    pass
+        for m_id, x in medium.concentrations.items():
+            try:
+                r_id = self.met_ex_dict[m_id]
+            except KeyError:
+                pass
+            else:
+
+                r = self.cbmodel.reactions.get_by_id(r_id)
+                if np.isinf(x):
+                    r.lower_bound = -1000
                 else:
-                    r = self.cbmodel.reactions.get_by_id(r_id)
-                    if m_id in self.leakage_dict["carbon_sources"]:
-                        if x < MEDIUM_EPSILON:
-                            r.lower_bound = 0
-                            self.leakage_dict['wc'][m_id] = 1000
-                        else:  
-                            r.lower_bound = -1000
-                            self.leakage_dict['wc'][m_id] = self.leakage_dict['wc0'][m_id]*(1 + (self.leakage_dict['Km']/x))
-                    else:
-                        if np.isinf(x):
-                            r.lower_bound = -1000
-                        else:
-                            v_max = monod(x, self.km_dict[r_id], self.Vmax_dict[r_id])
-                            r.lower_bound = -v_max
-
-                # print(self.leakage_dict['wc'])
-            self.leakage_constraint_dict = leakage.update_carbon_constraints(self.cbmodel, self.leakage_constraint_dict, self.leakage_dict["wc"], self.leakage_dict["carbon_sources"])
-            # print(self.leakage_dict["wc"], self.leakage_dict["wc0"])
-            self.cbmodel.constraints.leakage.set_linear_coefficients(coefficients = self.leakage_constraint_dict)
-            
-
-        else:
-
-            for m_id, x in medium.concentrations.items():
-                try:
-                    r_id = self.met_ex_dict[m_id]
-                except KeyError:
-                    pass
-                else:
-
-                    r = self.cbmodel.reactions.get_by_id(r_id)
-                    if np.isinf(x):
-                        r.lower_bound = -1000
-                    else:
-                        v_max = monod(x, self.km_dict[r_id], self.Vmax_dict[r_id])
-                        r.lower_bound = -v_max
+                    v_max = monod(x, self.km_dict[r_id], self.Vmax_dict[r_id])
+                    r.lower_bound = -v_max
 
     def store_exchanges(self, fluxes, i):
         if self.store_exchanges_flag:
@@ -657,40 +619,44 @@ class Model(object):
         return df  
 
 
-def get_leakage_carbon_sources(carbon_sources, cbmodel):
-    if isinstance(carbon_sources, list):
-        if np.all([c[-2:]=="_e" for c in carbon_sources]):
-            return carbon_sources
-    elif isinstance(carbon_sources, str):
-        if carbon_sources[-2:] == "_e":
-            return [carbon_sources]
-        elif carbon_sources == "all":
-            # All exchanges except those in M9 medium
-            carbon_sources = []
-            m9_mets = utils.get_m9_metabolite_ids()
-            for r in cbmodel.exchanges:
-                m, _ = r.metabolites.popitem()
-                if not m.id in m9_mets:
-                    carbon_sources.append(m.id)
-            return carbon_sources
-    # Something is wrong
-    raise ValueError
+# def get_leakage_carbon_sources(carbon_sources, cbmodel):
+#     if isinstance(carbon_sources, list):
+#         if np.all([c[-2:]=="_e" for c in carbon_sources]):
+#             return carbon_sources
+#     elif isinstance(carbon_sources, str):
+#         if carbon_sources[-2:] == "_e":
+#             return [carbon_sources]
+#         elif carbon_sources == "all":
+#             # All exchanges except those in M9 medium
+#             carbon_sources = []
+#             m9_mets = utils.get_m9_metabolite_ids()
+#             for r in cbmodel.exchanges:
+#                 m, _ = r.metabolites.popitem()
+#                 if not m.id in m9_mets:
+#                     carbon_sources.append(m.id)
+#             return carbon_sources
+#     # Something is wrong
+#     raise ValueError
 
 
-
+# @profile
 def solve_model(model, reactions):
     max_growth_rate = model.cbmodel.slim_optimize()
     # print(model.cbmodel.summary())
     if model.method == "FBA":
         fluxes = get_fluxes(model.cbmodel, reactions)
     elif model.method == 'FBA_with_leakage':
-        fluxes = _FBA_with_leakage(model.cbmodel)
+        if not np.isnan(max_growth_rate):
+            fluxes = _FBA_with_leakage(model.cbmodel, model.objective_id, reactions = reactions, ratio_of_optimum = model.pfba_fraction, slope = model.leakage_slope)
+        else:
+            fluxes = get_fluxes(model.cbmodel, reactions)
+
     elif model.method == "pFBA":
         if not np.isnan(max_growth_rate):
             for r in model.cbmodel.exchanges:
                 model.pFBA_model.reactions.get_by_id(r.id).bounds = r.bounds
             model.pFBA_model.reactions.get_by_id(model.objective_id).lower_bound = model.pfba_fraction * max_growth_rate
-            model.pFBA_model.slim_optimize()
+            sol = model.pFBA_model.slim_optimize()
             fluxes = get_fluxes(model.pFBA_model, reactions)
         else:
             fluxes = get_fluxes(model.cbmodel, reactions)
@@ -733,9 +699,22 @@ def make_pfba_model(model, objective_id):
 def make_leaky_model(model, objective_id):
     leaky_model = model.copy()
     leak_reactions = []
-    # leak_mets
+    leak_mets = []
+    new_exchanges = []
     for m in leaky_model.metabolites:
         if (m.compartment == 'c') and (m.id[-2:]=='_c'):
+            if 'R' in m.elements.keys() or 'X' in m.elements.keys():
+                # Usually huge molecules - skip
+                continue
+            if not 'C' in m.elements.keys():
+                continue
+                # Only focusing on carbon-containing compounds
+            if not isinstance(m.formula_weight, float):
+                print("No weight for {0}".format(m.id))
+                continue
+            if m.formula_weight > 350: #Largest measured compound in Paczia et al., 2013 for E. coli is ca. 330
+                # Temporary solution to avoid huge compounds from leaking out
+                continue
             try:
                 m_e = leaky_model.metabolites.get_by_id(m.id.replace('_c','_e'))
             except KeyError:
@@ -744,18 +723,19 @@ def make_leaky_model(model, objective_id):
                 m_e.id = m.id.replace('_c','_e')
                 m_e.compartment = 'e'
                 r_ex = leaky_model.add_boundary(m_e, type='exchange')
+                new_exchanges.append(r_ex)
             else:
                 r_ex = leaky_model.reactions.get_by_id('EX_{0}'.format(m_e))
-            r_ex.upper_bound = 1000
+            r_ex.bounds = (0,1000)
 
             # Add leak reactions
             r = cobra.Reaction('LEAK_{0}'.format(m.id))
             r.add_metabolites({m:-1, m_e:1})
-            r.bounds = (0, 0)
+            r.bounds = (0, 1000)
             leak_reactions.append(r)
-            # leak_mets.append(m)
+            leak_mets.append(m_e.id)
     leaky_model.add_reactions(leak_reactions)
-    return leaky_model
+    return leaky_model, [r.id for r in leak_reactions], leak_mets, new_exchanges
 
 def make_random_model(model, objective_id):
     # Copy model
@@ -818,81 +798,207 @@ class ModelDict(MutableMapping):
         for model_name, model in self.store.items():
             model.__exit__(exc_type, exc_value, tb)
 
+# def calculate_growth_rate_from_reduced_carbon_uptake():
+#     solution = model.optimize()
+#     carbon_uptake = {}
+#     for r in model.exchanges:
+#         flux = solution.fluxes[r.id]
+#         if flux < 0:
+#             m = r.metabolites.popitem()[0]
+#             try:
+#                 Nc = m.elements['C']
+#             except KeyError:
+#                 Nc = 0
+#             else:
+#                 carbon_uptake[r.id] = [-flux * Nc, Nc, flux]
+            
+#     cu = pd.DataFrame(carbon_uptake).T
+#     cu.columns = ['C flux', 'Nc', 'Flux']
+#     cu.sort_values(by='C flux', ascending = False)
+#     reduction = 0.1*cu['C flux'].sum()
+#     new_lower_bounds = {}
+#     for r_id, row in cu.iterrows():
+#         if row['C flux'] > reduction:
+#             new_lower_bounds[r_id] = -(row['C flux']-reduction)/row['Nc']
+            
+#     with model as M:
+#         for key, value in new_lower_bounds.items():
+#             M.reactions.get_by_id(key).lower_bound = value
+#         reduced_solution = M.slim_optimize()
 
-
+# @profile
 def _FBA_with_leakage(model, objective = 'BIOMASS_Ec_iJO1366_core_53p95M', ratio_of_optimum = 0.95, 
-                     max_shadow_price = 1, min_shadow_price = 1e-6, slope = -1.38):
+                     max_shadow_price = 1, min_shadow_price = 1e-6, reactions = None, rapid_shadow_prices = True,
+                     slope = -1.94, intercept = -5.7):
+    # Prev slope: slope = -1.38
+    # Current slope slope = -3.55, intercept = -2.7 (based on log10)
     # Simulate model
-    solution = model.optimize()
-
+    solution = cobra.flux_analysis.pfba(model)
+    no_leakage_growth = solution.fluxes[objective]
+    # Find already exported or imported mets
+    imported_exported_mets = []
+    for r in model.exchanges:
+        if solution.fluxes[r.id] != 0:
+            imported_exported_mets.append(r.metabolites.popitem()[0].id)
+    # print(imported_exported_mets)
     # Create a temporary instance of the model
+    #!!! ToDO consider to remove the already excreted mets from this list
     turnover_mets = get_turnover_mets(model, solution)
-    shadow_prices = leakage.estimate_shadow_prices(model)
+    if rapid_shadow_prices:
+        # Use the shadow prices provided by the solver, some inaccuracy is expected
+        fba_solution = model.optimize()
+        shadow_prices = fba_solution.shadow_prices[fba_solution.shadow_prices.index.isin(turnover_mets)]
+    else:
+        shadow_prices = leakage.estimate_shadow_prices(model)
+
+    # test_mets = ['ac_c', 'gln__L_c', 'gly_c', '4pasp_c','4mop_c', 'glc__D_c']
+    # print([shadow_prices[x] for x in test_mets])
+    # print([(t, t in turnover_mets) for t in test_mets])
+
     with model as M:
         # Create a variable that scales the leakage
         scale = M.problem.Variable('leakage_scale')
         M.add_cons_vars([scale])
         constraints = []
-    
-        # # Add new reactions and mets for leakage
-        # leak_reactions = []
-        # leak_mets = []
+        
         for i, m_id in enumerate(turnover_mets):
+            m_e_id = m_id[:-2]+'_e'
+            if m_e_id in imported_exported_mets:
+                print('Already imported/exported - shouldnt happen')
+                continue
             # Get shadow price
             sp = -1*shadow_prices[m_id]
             if (sp > max_shadow_price) or np.isnan(sp) or (sp < min_shadow_price):
                 # print(m_id, sp)
                 continue
             m = M.metabolites.get_by_id(m_id)
-            # Check if demand reaction exist
-            # for r in m.reactions:
-            #     if r.boundary:
-            #         print(r)
-            # Add excahnge
-            # try:
-            #     m_e = M.metabolites.get_by_id(m_id.replace('_c','_e'))
-            # except KeyError:
-            #     # m_e = cobra.Metabolite(m_id.replace('_c','_e'))
-            #     m_e = m.copy()
-            #     m_e.id = m_id.replace('_c','_e')
-            #     m_e.compartment = 'e'
-            #     M.add_boundary(m_e, type='exchange')
-            # else:
-            #     r_ex = model.reactions.get_by_id('EX_{0}'.format(m_e))
-            #     r_ex.upper_bound = 1000
+            try:
+                r = M.reactions.get_by_id('LEAK_{0}'.format(m_id))
+            except KeyError:
+                # print('No leakage reaction for find {0}'.format(m_id))
+                continue
+            else:
+                r.bounds = (0, 1000)
+                # if i > 90:
+                #     break
                 
-            # Add leak reaction
-            r = M.reactions.get_by_id('LEAK_{0}'.format(m_id))
-            r.bounds = (0, 1000)
-            # if i > 90:
-            #     break
-
-            sp = shadow_prices[m.id]
-            predicted_leakage = np.abs(sp)**(slope)
-            constraint = M.problem.Constraint(
-                r.flux_expression - scale*predicted_leakage,
-                lb=0,
-                ub=1)
-            constraints.append(constraint)
-            # print(m, r, sp)
+                r_ex = M.reactions.get_by_id('EX_{0}'.format(m_e_id))
+                # print(r_ex.id)
+                r_ex.bounds = (0,1000)
+                sp = shadow_prices[m.id]
+                log10_leakage = np.log10(np.abs(sp))*slope + intercept
+                predicted_leakage = 10**log10_leakage
+                constraint = M.problem.Constraint(
+                    r_ex.flux_expression - scale*predicted_leakage,
+                    lb=0,
+                    ub=1)
+                constraints.append(constraint)
+                # print(m, r, sp)
         
         M.reactions.get_by_id(objective).objective_coefficient = 0
-        M.reactions.get_by_id(objective).lower_bound = solution.objective_value*0.95
+        M.reactions.get_by_id(objective).lower_bound = no_leakage_growth*ratio_of_optimum
         M.add_cons_vars(constraints)
         obj = M.problem.Objective(M.solver.variables.leakage_scale, direction = 'max')
         M.objective = obj
 
         # Consider to don't get all fluxes, use get_fluxes
-        new_solution = M.optimize(objective_sense=None)
+        
+        if reactions:
+            M.slim_optimize()
+            fluxes = get_fluxes(M, reactions)
+        else:
+            fluxes = M.optimize(objective_sense=None)
         # print(M.summary())
         # print(new_solution.fluxes['BIOMASS_Ec_iJO1366_core_53p95M'])
-    return new_solution.fluxes
-    
+    # print(fluxes)
+    return fluxes
+
+def _FBA_with_leakage_v2(model, objective = 'BIOMASS_Ec_iJO1366_core_53p95M', ratio_of_optimum = 0.95, 
+                     max_shadow_price = 1, min_shadow_price = 1e-6, slope = -1.38, reactions = None, rapid_shadow_prices = True):
+    # Simulate model
+    solution = cobra.flux_analysis.pfba(model)
+    no_leakage_growth = solution.fluxes[objective]
+    # Find already exported or imported mets
+    imported_exported_mets = []
+    for r in model.exchanges:
+        if solution.fluxes[r.id] != 0:
+            imported_exported_mets.append(r.metabolites.popitem()[0].id)
+    # print(imported_exported_mets)
+    # Create a temporary instance of the model
+    turnover_mets = get_turnover_mets(model, solution)
+    if rapid_shadow_prices:
+        # Use the shadow prices provided by the solver, some inaccuracy is expected
+        fba_solution = model.optimize()
+        shadow_prices = fba_solution.shadow_prices[fba_solution.shadow_prices.index.isin(turnover_mets)]
+    else:
+        shadow_prices = leakage.estimate_shadow_prices(model)
+
+    # test_mets = ['ac_c', 'gln__L_c', 'gly_c', '4pasp_c','4mop_c', 'glc__D_c']
+    # print([shadow_prices[x] for x in test_mets])
+    # print([(t, t in turnover_mets) for t in test_mets])
+
+    with model as M:
+        # Create a variable that scales the leakage
+        scale = M.problem.Variable('leakage_scale')
+        M.add_cons_vars([scale])
+        constraints = []
+        objectives = []
+        for i, m_id in enumerate(turnover_mets):
+            m_e_id = m_id[:-2]+'_e'
+            if m_e_id in imported_exported_mets:
+                print('Already imported/exported - shouldnt happen')
+                continue
+            # Get shadow price
+            sp = -1*shadow_prices[m_id]
+            if (sp > max_shadow_price) or np.isnan(sp) or (sp < min_shadow_price):
+                # print(m_id, sp)
+                continue
+            m = M.metabolites.get_by_id(m_id)
+            try:
+                r = M.reactions.get_by_id('LEAK_{0}'.format(m_id))
+            except KeyError:
+                # print('No leakage reaction for find {0}'.format(m_id))
+                continue
+            else:
+                r.bounds = (0, 1000)
+                # if i > 90:
+                #     break
+                
+                r_ex = M.reactions.get_by_id('EX_{0}'.format(m_e_id))
+                # print(r_ex.id)
+                r_ex.bounds = (0,1000)
+                sp = shadow_prices[m.id]
+                predicted_leakage = np.abs(sp)**(slope)
+
+                constraint = M.problem.Constraint(
+                    r_ex.flux_expression - scale*predicted_leakage,
+                    lb=0,
+                    ub=1)
+                constraints.append(constraint)
+                # print(m, r, sp)
+        
+        M.reactions.get_by_id(objective).objective_coefficient = 0
+        M.reactions.get_by_id(objective).lower_bound = no_leakage_growth*ratio_of_optimum
+        M.add_cons_vars(constraints)
+        obj = M.problem.Objective(M.solver.variables.leakage_scale, direction = 'max')
+        M.objective = obj
+
+        # Consider to don't get all fluxes, use get_fluxes
+        
+        if reactions:
+            M.slim_optimize()
+            fluxes = get_fluxes(M, reactions)
+        else:
+            fluxes = M.optimize(objective_sense=None)
+        # print(M.summary())
+        # print(new_solution.fluxes['BIOMASS_Ec_iJO1366_core_53p95M'])
+    # print(fluxes)
+    return fluxes    
 
 def FBA_with_leakage(model, objective = 'BIOMASS_Ec_iJO1366_core_53p95M', ratio_of_optimum = 0.95, 
                      max_shadow_price = 1, min_shadow_price = 1e-6, slope = -1.38):
     # Simulate model
-    solution = model.optimize()
+    solution = cobra.flux_analysis.pfba(model)
 
     # Create a temporary instance of the model
     turnover_mets = get_turnover_mets(model, solution)
@@ -1004,14 +1110,17 @@ def get_already_exchanged_mets(model, solution):
 
 
 if __name__ == '__main__':
-    model = cobra.io.read_sbml_model('../models/e_coli/momentiJO1366.xml')
+    # model = cobra.io.read_sbml_model('../models/e_coli/momentiJO1366.xml')
+    model = cobra.io.read_sbml_model('../models/e_coli/iJR904.xml')
+    
+    # model = cobra.io.read_sbml_model('../models/e_coli/e_coli_core.xml')
     model.solver = 'gurobi'
     # Initial conditions is 0.013 gDW/L (in total)
     model_name = 'Ecoli'
     model_name_dict = {model_name: [model, 0.006]}
 
     glucose_mM = utils.convert_gL_to_mM("C6H12O6", 4)
-    D = dFBA(iterations = 3, dt = 0.1, method = "FBA_with_leakage", store_exchanges_flag = False)#(, pfba_fraction = 0.95)
+    D = dFBA(iterations = 4, dt = 0.1, method = "FBA_with_leakage", store_exchanges_flag = False)#(, pfba_fraction = 0.95)
     D.add_models(model_name_dict)
     # Set Km and vMax
     D.models[model_name].set_km("glc__D_e", 1)
@@ -1022,3 +1131,5 @@ if __name__ == '__main__':
     D.medium.define_initial_conditions({"glc__D_e": glucose_mM})
     # D.medium.set_store_concentrations(["glc__D_e", "nh3_e"])
     D.run()
+    print(D.biomass_df)
+

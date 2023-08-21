@@ -1,0 +1,833 @@
+,iML1515 metabolite ID,Metabolite name,Membrane,Direction,Transport type,iML1515 transport reaction ID,Genes
+0,26dap__M,"Meso-2,6-Diaminoheptanedioate",inner,Import,ATP-binding cassette transporter,DAPabcpp,
+1,26dap__M,"Meso-2,6-Diaminoheptanedioate",outer,Import and Export,Diffusion,26DAHtex,"b1377, b0929, b2215, b0241"
+2,3hcinnm,3-hydroxycinnamic acid,inner,Import and Export,Proton symport,HCINNMt2rpp,b0353
+3,3hcinnm,3-hydroxycinnamic acid,outer,Import and Export,Diffusion,HCINNMtex,"b1377, b0929, b2215, b0241"
+4,3hpppn,3-(3-hydroxy-phenyl)propionate,outer,Import and Export,Diffusion,HPPPNtex,"b1377, b0241, b0929, b2215"
+5,3hpppn,3-(3-hydroxy-phenyl)propionate,inner,Import and Export,Proton symport,HPPPNt2rpp,b0353
+6,ac,Acetate,inner,Import,Sodium symport,ACt4pp,b4067
+7,ac,Acetate,outer,Import and Export,Diffusion,ACtex,"b1377, b0929, b2215, b0241"
+8,ac,Acetate,inner,Import and Export,Proton symport,ACt2rpp,b0010
+9,acald,Acetaldehyde,inner,Import and Export,Diffusion,ACALDtpp,
+10,acald,Acetaldehyde,outer,Import and Export,Diffusion,ACALDtex,"b1377, b0929, b2215, b0241"
+11,acmana,N-Acetyl-D-mannosamine,outer,Import and Export,Diffusion,ACMANAtex,"b1377, b0929, b2215, b0241"
+12,acmana,N-Acetyl-D-mannosamine,inner,Import,PEP group translocation,ACMANAptspp,"b2415, b1819, b1818, b1817, b2416"
+13,acmum,N-Acetylmuramate,inner,Import,PEP group translocation,ACMUMptspp,"b2417, b2415, b2416, b2429"
+14,acmum,N-Acetylmuramate,outer,Import,Diffusion,ACMUMtex,"b1377, b0929, b2215, b0241"
+15,succ,Succinate,inner,Export,cit antiporter,CITt7pp,b0612
+16,succ,Succinate,inner,Import and Export,asp__L antiporter,SUCASPtpp,"b4138, b4123, b0621"
+17,succ,Succinate,inner,Import and Export,mal__L antiporter,SUCMALtpp,"b4138, b4123, b0621"
+18,succ,Succinate,inner,Import,Proton antiport,SUCCt2_3pp,"b4138, b4123"
+19,succ,Succinate,inner,Import and Export,tartr__D antiporter,SUCTARTtpp,b4123
+20,succ,Succinate,inner,Import and Export,fum antiporter,SUCFUMtpp,"b4138, b4123, b0621"
+21,succ,Succinate,outer,Import and Export,Diffusion,SUCCtex,"b1377, b0929, b2215, b0241"
+22,succ,Succinate,inner,Import,Proton antiport,SUCCt2_2pp,"b0010, b3528"
+23,succ,Succinate,inner,Import and Export,Diffusion,SUCCt1pp,b1206
+24,succ,Succinate,inner,Import and Export,tartr__L antiporter,TARTRt7pp,b3063
+25,fum,Fumarate,inner,Import,Proton antiport,FUMt2_2pp,b3528
+26,fum,Fumarate,outer,Import and Export,Diffusion,FUMtex,"b1377, b0929, b2215, b0241"
+27,fum,Fumarate,inner,Import and Export,succ antiporter,SUCFUMtpp,"b4138, b4123, b0621"
+28,fum,Fumarate,inner,Import,Proton antiport,FUMt2_3pp,"b4138, b4123, b0621"
+29,fum,Fumarate,inner,Import and Export,Diffusion,FUMt1pp,b1206
+30,sucr,Sucrose C12H22O11,inner,Import,PEP group translocation,SUCptspp,"b2417, b2415, b2416, b2429"
+31,sucr,Sucrose C12H22O11,outer,Import and Export,Diffusion,SUCRtex,"b1377, b0929, b2215, b0241"
+32,so4,Sulfate,outer,Import and Export,Diffusion,SO4tex,"b1377, b0929, b2215, b0241"
+33,so4,Sulfate,inner,Import,Proton symport,SO4t2pp,b2413
+34,so4,Sulfate,inner,Import,ATP-binding cassette transporter,SULabcpp,"b2425, b2424, b0763, b3917, b0764, b2423, b2422, b0765"
+35,tsul,Thiosulfate,outer,Import and Export,Diffusion,TSULtex,"b1377, b0929, b2215, b0241"
+36,tsul,Thiosulfate,inner,Import,ATP-binding cassette transporter,TSULabcpp,"b2425, b2424, b2423, b3917, b2422"
+37,tartr__L,L-tartrate,inner,Import and Export,succ antiporter,TARTRt7pp,b3063
+38,tartr__L,L-tartrate,outer,Import and Export,Diffusion,TARTRtex,"b1377, b0929, b2215, b0241"
+39,taur,Taurine C2H7NO3S,inner,Import,ATP-binding cassette transporter,TAURabcpp,"b0365, b0367, b0366"
+40,taur,Taurine C2H7NO3S,outer,Import and Export,Diffusion,TAURtex,"b1377, b0929, b2215, b0241"
+41,thymd,Thymidine C10H14N2O5,inner,Import,Proton symport,THMDt2pp_copy1,"b2964, b2393"
+42,thymd,Thymidine C10H14N2O5,inner,Import and Export,Proton symport,THMDt2pp_copy2,b2406
+43,thymd,Thymidine C10H14N2O5,outer,Import and Export,Diffusion,THMDtex,"b1377, b0929, b2215, b0241"
+44,nmn,NMN C11H14N2O8P,outer,Import and Export,Diffusion,NMNtex,"b1377, b0929, b2215, b0241"
+45,nmn,NMN C11H14N2O8P,inner,Import,Diffusion,NMNPtpp,b0751
+46,nmn,NMN C11H14N2O8P,inner,Import,Other active transport,NMNt7pp,
+47,glu__L,L-Glutamate,inner,Import and Export,4abut antiporter,GLUABUTt7pp,b1492
+48,glu__L,L-Glutamate,outer,Import and Export,Diffusion,GLUtex,"b1377, b0929, b2215, b0241"
+49,glu__L,L-Glutamate,inner,Import,ATP-binding cassette transporter,GLUabcpp,"b0654, b0655, b0653, b0652"
+50,glu__L,L-Glutamate,inner,Import,Sodium symport,GLUt4pp,b3653
+51,glu__L,L-Glutamate,inner,Import and Export,Proton symport,GLUt2rpp,b4077
+52,k,Potassium,inner,Import,Proton symport,Kt2pp,"b1291, b3747, b3290, b1250, b3849, b1363"
+53,k,Potassium,inner,Import,ATP-binding cassette transporter,Kabcpp,"b0696, b0697, b4513, b0698"
+54,k,Potassium,inner,Export,Proton antiport,Kt3pp,"b0047, b0842, b1216, b3350"
+55,k,Potassium,outer,Import and Export,Diffusion,Ktex,"b1377, b0929, b2215, b0241"
+56,gly,Glycine,outer,Import and Export,Diffusion,GLYtex,"b1377, b0929, b2215, b0241"
+57,gly,Glycine,inner,Import,Proton symport,GLYt2pp,"b1801, b4208"
+58,gly,Glycine,inner,Import and Export,Diffusion,GLYtpp,b3927
+59,gly,Glycine,inner,Import,Sodium symport,GLYt4pp,b0007
+60,glyald,D-Glyceraldehyde,outer,Import and Export,Diffusion,GLYALDtex,"b1377, b0929, b2215, b0241"
+61,glyald,D-Glyceraldehyde,inner,Import and Export,Diffusion,GLYALDtpp,b3927
+62,akg,2-Oxoglutarate,outer,Import and Export,Diffusion,AKGtex,"b1377, b0929, b2215, b0241"
+63,akg,2-Oxoglutarate,inner,Import and Export,Proton symport,AKGt2rpp,b2587
+64,xyl__D,D-Xylose,inner,Import,ATP-binding cassette transporter,XYLabcpp,"b3568, b3566, b3567"
+65,xyl__D,D-Xylose,inner,Import,Proton symport,XYLt2pp,b4031
+66,xyl__D,D-Xylose,outer,Import and Export,Diffusion,XYLtex,"b1377, b0929, b2215, b0241"
+67,glyb,Glycine betaine,inner,Import,ATP-binding cassette transporter,GLYBabcpp,"b2677, b2679, b2128, b2678, b2129, b2130, b2131"
+68,glyb,Glycine betaine,inner,Export,Proton antiport,GLYBt3pp,b0543
+69,glyb,Glycine betaine,inner,Import,Proton symport,GLYBt2pp,"b1801, b4111"
+70,glyb,Glycine betaine,outer,Import and Export,Diffusion,GLYBtex,"b1377, b0929, b2215, b0241"
+71,glyc,Glycerol,outer,Import and Export,Diffusion,GLYCtex,"b1377, b0929, b2215, b0241"
+72,glyc,Glycerol,inner,Import and Export,Diffusion,GLYCtpp,b3927
+73,glyc3p,Glycerol 3-phosphate,inner,Import,ATP-binding cassette transporter,GLYC3Pabcpp,"b3452, b3450, b3451, b3453"
+74,glyc3p,Glycerol 3-phosphate,inner,Import,pi antiporter,GLYC3Pt6pp,b2240
+75,glyc3p,Glycerol 3-phosphate,outer,Import and Export,Diffusion,GLYC3Ptex,"b1377, b0929, b2215, b0241"
+76,glyclt,Glycolate C2H3O3,outer,Import and Export,Diffusion,GLYCLTtex,"b1377, b0929, b2215, b0241"
+77,glyclt,Glycolate C2H3O3,inner,Import,Sodium symport,GLYCLTt4pp,b4067
+78,glyclt,Glycolate C2H3O3,inner,Import and Export,Proton symport,GLYCLTt2rpp,"b3603, b2975"
+79,gtp,GTP C10H12N5O14P3,outer,Import and Export,Diffusion,GTPtex,"b1377, b0929, b2215, b0241"
+80,gua,Guanine,inner,Import,Proton symport,GUAt2pp,b3654
+81,gua,Guanine,inner,Import and Export,Diffusion,GUAtpp,"b4064, b4464"
+82,gua,Guanine,outer,Import and Export,Diffusion,GUAtex,b0411
+83,h2,Hydrogen,inner,Import and Export,Diffusion,H2tpp,
+84,h2,Hydrogen,outer,Import and Export,Diffusion,H2tex,"b1377, b0929, b2215, b0241"
+85,h2o,H2O H2O,inner,Import and Export,Diffusion,H2Otpp,b0875
+86,h2o,H2O H2O,outer,Import and Export,Diffusion,H2Otex,"b0241, b0929, b3875, b0957, b1377, b1319, b2215"
+87,hdca,Hexadecanoate (n-C16:0),inner,Import,ATP-binding cassette transporter,FACOAL160t2pp,"b1701, b1805"
+88,hdca,Hexadecanoate (n-C16:0),outer,Import,Diffusion,HDCAtexi,b2344
+89,ocdca,Octadecanoate (n-C18:0),outer,Import,Diffusion,OCDCAtexi,b2344
+90,ocdca,Octadecanoate (n-C18:0),inner,Import,ATP-binding cassette transporter,FACOAL180t2pp,"b1701, b1805"
+91,no3,Nitrate,inner,Import,no2 antiporter,NO3t7pp,"b1469, b1223"
+92,no3,Nitrate,outer,Import and Export,Diffusion,NO3tex,"b1377, b0929, b2215, b0241"
+93,no2,Nitrite,inner,Export,no3 antiporter,NO3t7pp,"b1469, b1223"
+94,no2,Nitrite,outer,Import and Export,Diffusion,NO2tex,"b1377, b0929, b2215, b0241"
+95,no2,Nitrite,inner,Import and Export,Proton symport,NO2t2rpp,"b1223, b3367"
+96,o2,O2 O2,inner,Import and Export,Diffusion,O2tpp,
+97,o2,O2 O2,outer,Import and Export,Diffusion,O2tex,"b1377, b0929, b2215, b0241"
+98,pyr,Pyruvate,outer,Import and Export,Diffusion,PYRtex,"b1377, b0929, b2215, b0241"
+99,pyr,Pyruvate,inner,Import and Export,Proton symport,PYRt2rpp,
+100,thm,Thiamin,outer,Import and Export,Diffusion,THMtex,"b1377, b0929, b2215, b0241"
+101,thm,Thiamin,inner,Import,ATP-binding cassette transporter,THMabcpp,"b0068, b0066, b0067"
+102,thr__L,L-Threonine,inner,Import,ATP-binding cassette transporter,THRabcpp,"b3455, b3457, b3460, b3454, b3456"
+103,thr__L,L-Threonine,inner,Import,Proton symport,THRt2rpp,b3116
+104,thr__L,L-Threonine,inner,Import,Sodium symport,THRt4pp,b3089
+105,thr__L,L-Threonine,outer,Import and Export,Diffusion,THRtex,"b1377, b0929, b2215, b0241"
+106,thr__L,L-Threonine,inner,Export,Proton antiport,THRt2pp,"b0813, b3823"
+107,tre,Trehalose,inner,Import,PEP group translocation,TREptspp,"b2417, b4240, b2416, b2415"
+108,tre,Trehalose,outer,Import and Export,Diffusion,TREtex,"b1377, b0929, b2215, b0241"
+109,tmao,Trimethylamine N-oxide,outer,Import and Export,Diffusion,TMAOtex,"b1377, b0929, b2215, b0241"
+110,tma,Trimethylamine,outer,Import and Export,Diffusion,TMAtex,"b1377, b0929, b2215, b0241"
+111,xan,Xanthine,inner,Import and Export,Diffusion,XANtpp,
+112,xan,Xanthine,outer,Import and Export,Diffusion,XANtex,"b1377, b0929, b2215, b0241"
+113,xan,Xanthine,inner,Import,Proton symport,XANt2pp,"b2882, b2888, b3654"
+114,15dap,"1,5-Diaminopentane",outer,Import and Export,Diffusion,DAPtex,"b1377, b0929, b2215, b0241"
+115,15dap,"1,5-Diaminopentane",inner,Export,Proton antiport,CADVtpp,b4132
+116,trp__L,L-Tryptophan,inner,Export,Diffusion,TRPtipp,b1473
+117,trp__L,L-Tryptophan,outer,Import and Export,Diffusion,TRPtex,"b1377, b0929, b2215, b0241"
+118,trp__L,L-Tryptophan,inner,Import and Export,Proton symport,TRPt2rpp,"b0112, b3161, b3709"
+119,tyr__L,L-Tyrosine,inner,Import and Export,Proton symport,TYRt2rpp,"b0112, b1907"
+120,tyr__L,L-Tyrosine,inner,Export,Diffusion,TYRtipp,b1473
+121,tyr__L,L-Tyrosine,outer,Import and Export,Diffusion,TYRtex,"b1377, b0929, b2215, b0241"
+122,uri,Uridine,outer,Import and Export,Diffusion,URItex,b0411
+123,uri,Uridine,inner,Import and Export,Proton symport,URIt2pp_copy2,b2406
+124,uri,Uridine,inner,Import,Proton symport,URIt2pp_copy1,"b2964, b2393"
+125,val__L,L-Valine,inner,Import,ATP-binding cassette transporter,VALabcpp,"b3455, b3457, b3460, b3454, b3456"
+126,val__L,L-Valine,outer,Import and Export,Diffusion,VALtex,"b1377, b0929, b2215, b0241"
+127,val__L,L-Valine,inner,Import,Proton symport,VALt2rpp,b0401
+128,val__L,L-Valine,inner,Export,Proton antiport,VALt3pp,"b2682, b4141, b2683"
+129,12ppd__S,"(S)-Propane-1,2-diol",outer,Import and Export,Diffusion,12PPDStex,"b1377, b0929, b2215, b0241"
+130,12ppd__S,"(S)-Propane-1,2-diol",inner,Import and Export,Diffusion,12PPDStpp,
+131,2ddglcn,2-Dehydro-3-deoxy-D-gluconate,outer,Import and Export,Diffusion,DDGLCNtex,"b1377, b0929, b2215, b0241"
+132,2ddglcn,2-Dehydro-3-deoxy-D-gluconate,inner,Import and Export,Proton symport,DDGLCNt2rpp,b3909
+133,xtsn,Xanthosine,outer,Import and Export,Diffusion,XTSNtex,"b1377, b0929, b2215, b0241"
+134,xtsn,Xanthosine,inner,Import and Export,Proton symport,XTSNt2rpp,b2406
+135,xylu__L,L-Xylulose,outer,Import and Export,Diffusion,XYLUtex,"b1377, b0929, b2215, b0241"
+136,xylu__L,L-Xylulose,inner,Import,Proton symport,XYLUt2pp,"b3579, b3578, b3577"
+137,na1,Sodium,inner,Import,Sodium symport,PROt4pp,b1015
+138,na1,Sodium,inner,Export,Proton antiport,NAt3_1p5pp,b1186
+139,na1,Sodium,inner,Import,Sodium symport,THRt4pp,b3089
+140,na1,Sodium,inner,Import,Sodium symport,SERt4pp,b3089
+141,na1,Sodium,inner,Import,Sodium symport,INOSTt4pp,b3679
+142,na1,Sodium,inner,Import and Export,Sodium symport,CAt6pp,b3196
+143,na1,Sodium,inner,Import,Sodium symport,PPAt4pp,b1015
+144,na1,Sodium,inner,Import,Sodium symport,ACt4pp,b4067
+145,na1,Sodium,inner,Export,Proton antiport,NAt3_2pp,b0019
+146,na1,Sodium,inner,Import,Sodium symport,ALAt4pp,b0007
+147,na1,Sodium,inner,Export,Proton antiport,NAt3pp,"b0842, b1216"
+148,na1,Sodium,inner,Import,Sodium symport,GLYt4pp,b0007
+149,na1,Sodium,inner,Import,Sodium symport,PNTOt4pp,b3258
+150,na1,Sodium,outer,Import and Export,Diffusion,NAtex,"b1377, b0929, b2215, b0241"
+151,na1,Sodium,inner,Import,Sodium symport,GLUt4pp,b3653
+152,na1,Sodium,inner,Import,Sodium symport,23DOGULNt4pp,"b3579, b3578, b3577"
+153,na1,Sodium,inner,Import,Sodium symport,GLYCLTt4pp,b4067
+154,galur,D-Galacturonate,outer,Import and Export,Diffusion,GALURtex,"b1377, b0929, b2215, b0241"
+155,galur,D-Galacturonate,inner,Import and Export,Proton symport,GALURt2rpp,b3093
+156,feoxam,Generic ferrioxamine-Fe-III,inner,Import,ATP-binding cassette transporter,FEOXAMabcpp,"b0153, b0151, b0152"
+157,feoxam,Generic ferrioxamine-Fe-III,outer,Import,Proton antiport,FEOXAMtonex,"b3005, b0150, b3006, b1252"
+158,gal,D-Galactose,inner,Import,ATP-binding cassette transporter,GALabcpp,"b4230, b4231, b2148, b2150, b2149, b4227, b4485"
+159,gal,D-Galactose,outer,Import and Export,Diffusion,GALtex,"b1377, b0929, b2215, b0241"
+160,gal,D-Galactose,inner,Import,Proton symport,GALt2pp,b2943
+161,cbl1,Cob(I)alamin,outer,Import,Proton antiport,CBL1tonex,"b3005, b3006, b3966, b1252"
+162,cbl1,Cob(I)alamin,inner,Import,ATP-binding cassette transporter,CBL1abcpp,"b1711, b0158, b1709"
+163,acac,Acetoacetate,outer,Import and Export,Diffusion,ACACtex,"b1377, b0929, b2215, b0241"
+164,acac,Acetoacetate,inner,Import and Export,Proton symport,ACACt2pp,b2223
+165,acgam,N-Acetyl-D-glucosamine,inner,Import,PEP group translocation,ACGAptspp,"b0679, b2415, b2417, b1101, b2416"
+166,acgam,N-Acetyl-D-glucosamine,outer,Import and Export,Diffusion,ACGAtex,"b1377, b0929, b2215, b0241"
+167,acnam,N-Acetylneuraminate,inner,Import,Proton symport,ACNAMt2pp,b3224
+168,acnam,N-Acetylneuraminate,outer,Import and Export,Diffusion,ACNAMtex,"b4311, b0929, b2215"
+169,galct__D,D-Galactarate,outer,Import and Export,Diffusion,GALCTtex,"b1377, b0929, b2215, b0241"
+170,galct__D,D-Galactarate,inner,Import and Export,Proton symport,GALCTt2rpp,"b3127, b2789"
+171,galctn__D,D-Galactonate,inner,Import,Proton symport,GALCTNt2pp,b3691
+172,galctn__D,D-Galactonate,outer,Import and Export,Diffusion,GALCTNtex,"b1377, b0929, b2215, b0241"
+173,galt,Galactitol,outer,Import and Export,Diffusion,GALTtex,"b1377, b0929, b2215, b0241"
+174,galt,Galactitol,inner,Import,PEP group translocation,GALTptspp,"b2092, b2415, b2094, b2093, b2416"
+175,feenter,Fe-enterobactin,outer,Import,Proton antiport,FEENTERtonex,"b3005, b3006, b0584, b1252"
+176,feenter,Fe-enterobactin,inner,Import,ATP-binding cassette transporter,FEENTERabcpp,"b0592, b0590, b0589, b0588"
+177,fecrm,Ferrichrome,inner,Import,ATP-binding cassette transporter,FECRMabcpp,"b0153, b0151, b0152"
+178,fecrm,Ferrichrome,outer,Import,Proton antiport,FECRMtonex,"b3005, b0150, b3006, b1252"
+179,gam,D-Glucosamine,inner,Import,PEP group translocation,GAMptspp,"b2415, b1819, b1818, b1817, b2416"
+180,gam,D-Glucosamine,outer,Import and Export,Diffusion,GAMtex,"b1377, b0929, b2215, b0241"
+181,gbbtn,Gamma-butyrobetaine,inner,Export,crn antiporter,CRNt7pp,b0040
+182,gbbtn,Gamma-butyrobetaine,outer,Import and Export,Diffusion,GBBTNtex,"b1377, b0929, b2215, b0241"
+183,indole,Indole,outer,Import and Export,Diffusion,INDOLEtex,"b1377, b0929, b2215, b0241"
+184,indole,Indole,inner,Import,Proton symport,INDOLEt2rpp,b3161
+185,indole,Indole,inner,Export,Proton symport,INDOLEt2pp,"b3035, b3265, b3266"
+186,arab__L,L-Arabinose,inner,Import and Export,Proton symport,ARBt2rpp,b2841
+187,arab__L,L-Arabinose,inner,Export,Proton antiport,ARBt3ipp,b1528
+188,arab__L,L-Arabinose,outer,Import and Export,Diffusion,ARBtex,"b1377, b0929, b2215, b0241"
+189,arab__L,L-Arabinose,inner,Import,ATP-binding cassette transporter,ARBabcpp,"b1900, b1901, b4460"
+190,lac__L,L-Lactate,inner,Import and Export,Proton symport,L_LACt2rpp,"b3603, b2975"
+191,lac__L,L-Lactate,outer,Import and Export,Diffusion,L_LACtex,"b1377, b0241, b0929, b2215"
+192,ade,Adenine,outer,Import and Export,Diffusion,ADEtex,"b1377, b0929, b2215, b0241"
+193,ade,Adenine,inner,Import and Export,Proton symport,ADEt2rpp,"b3714, b3654, b3664"
+194,co2,CO2 CO2,outer,Import and Export,Diffusion,CO2tex,"b1377, b0929, b2215, b0241"
+195,co2,CO2 CO2,inner,Import and Export,Diffusion,CO2tpp,
+196,dha,Dihydroxyacetone,inner,Import and Export,Diffusion,DHAtpp,
+197,dha,Dihydroxyacetone,outer,Import and Export,Diffusion,DHAtex,"b1377, b0929, b2215, b0241"
+198,dmso,Dimethyl sulfoxide,outer,Import and Export,Diffusion,DMSOtex,"b1377, b0929, b2215, b0241"
+199,dmso,Dimethyl sulfoxide,inner,Import and Export,Diffusion,DMSOtpp,
+200,dms,Dimethyl sulfide,outer,Import and Export,Diffusion,DMStex,"b1377, b0929, b2215, b0241"
+201,arg__L,L-Arginine,outer,Import and Export,Diffusion,ARGtex,"b1377, b0929, b2215, b0241"
+202,arg__L,L-Arginine,inner,Import and Export,agm antiporter,ARGAGMt7pp,b4115
+203,arg__L,L-Arginine,inner,Import,ATP-binding cassette transporter,ARGabcpp,"b0861, b2307, b2310, b0864, b2308, b0863, b0860, b0862, b2306"
+204,arg__L,L-Arginine,inner,Export,Proton antiport,ARGt3pp,b2923
+205,arg__L,L-Arginine,inner,Import and Export,orn antiporter,ARGORNt7pp,b1605
+206,adn,Adenosine,inner,Import and Export,Proton symport,ADNt2pp_copy2,b2406
+207,adn,Adenosine,outer,Import and Export,Diffusion,ADNtex,b0411
+208,adn,Adenosine,inner,Import,Proton symport,ADNt2pp_copy1,"b2964, b2393"
+209,ala__L,L-Alanine,inner,Export,Diffusion,ALAtpp,b2670
+210,ala__L,L-Alanine,inner,Import,ATP-binding cassette transporter,ALAabcpp,"b3455, b3457, b3460, b3454, b3456"
+211,ala__L,L-Alanine,inner,Import,Proton symport,ALAt2pp,"b4208, b4130"
+212,ala__L,L-Alanine,inner,Import,Sodium symport,ALAt4pp,b0007
+213,ala__L,L-Alanine,outer,Import and Export,Diffusion,ALAtex,"b1377, b0929, b2215, b0241"
+214,all__D,D-Allose,inner,Import,ATP-binding cassette transporter,ALLabcpp,"b4086, b4087, b4088"
+215,all__D,D-Allose,outer,Import and Export,Diffusion,ALLtex,"b1377, b0241, b0929, b2215"
+216,alltn,Allantoin,outer,Import and Export,Diffusion,ALLTNtex,"b1377, b0929, b2215, b0241"
+217,alltn,Allantoin,inner,Import and Export,Proton symport,ALLTNt2rpp,b0511
+218,agm,Agmatine,outer,Import and Export,Diffusion,AGMtex,"b1377, b0929, b2215, b0241"
+219,agm,Agmatine,inner,Import and Export,arg__L antiporter,ARGAGMt7pp,b4115
+220,ascb__L,L-Ascorbate,inner,Import,PEP group translocation,ASCBptspp,"b2416, b2415, b4194, b4195, b4193"
+221,ascb__L,L-Ascorbate,outer,Import and Export,Diffusion,ASCBtex,"b1377, b0929, b2215, b0241"
+222,asn__L,L-Asparagine,inner,Import and Export,Proton symport,ASNt2rpp,b1453
+223,asn__L,L-Asparagine,outer,Import and Export,Diffusion,ASNtex,"b1377, b0929, b2215, b0241"
+224,asp__L,L-Aspartate,inner,Import,Proton symport,ASPt2pp,b4077
+225,asp__L,L-Aspartate,outer,Import and Export,Diffusion,ASPtex,"b1377, b0929, b2215, b0241"
+226,asp__L,L-Aspartate,inner,Import and Export,succ antiporter,SUCASPtpp,"b4138, b4123, b0621"
+227,asp__L,L-Aspartate,inner,Import,Proton antiport,ASPt2_3pp,"b4138, b4123"
+228,asp__L,L-Aspartate,inner,Import,ATP-binding cassette transporter,ASPabcpp,"b0654, b0655, b0653, b0652"
+229,asp__L,L-Aspartate,inner,Import,Proton antiport,ASPt2_2pp,b3528
+230,asp__L,L-Aspartate,inner,Import and Export,Diffusion,ASPtpp,b1206
+231,glc__D,D-Glucose,outer,Import and Export,Diffusion,GLCtex_copy2,"b1377, b0929, b2215, b0241"
+232,glc__D,D-Glucose,inner,Import,PEP group translocation,GLCptspp,"b2417, b1819, b1101, b2415, b1818, b1621, b1817, b2416"
+233,glc__D,D-Glucose,inner,Import,ATP-binding cassette transporter,GLCabcpp,"b2148, b2150, b2149"
+234,glc__D,D-Glucose,inner,Import,Proton symport,GLCt2pp,b2943
+235,glc__D,D-Glucose,outer,Import,Diffusion,GLCtex_copy1,b4036
+236,glcn,D-Gluconate,inner,Import and Export,Proton symport,GLCNt2rpp,"b3415, b4476, b4265, b4321"
+237,glcn,D-Gluconate,outer,Import and Export,Diffusion,GLCNtex,"b1377, b0929, b2215, b0241"
+238,hxan,Hypoxanthine,inner,Import and Export,Diffusion,HYXNtpp,"b4064, b4464"
+239,hxan,Hypoxanthine,outer,Import and Export,Diffusion,HYXNtex,"b1377, b0929, b2215, b0241"
+240,nac,Nicotinate,outer,Import and Export,Diffusion,NACtex,"b1377, b0929, b2215, b0241"
+241,nac,Nicotinate,inner,Import,Diffusion,NACtpp,
+242,his__L,L-Histidine,inner,Import and Export,Proton symport,HISt2rpp,b0112
+243,his__L,L-Histidine,inner,Import,ATP-binding cassette transporter,HISabcpp,"b2308, b2306, b2307, b2309"
+244,his__L,L-Histidine,outer,Import and Export,Diffusion,HIStex,"b1377, b0929, b2215, b0241"
+245,fe3dcit,Fe(III)dicitrate,outer,Import,Proton antiport,FE3DCITtonex,"b1252, b3005, b3006, b4291"
+246,fe3dcit,Fe(III)dicitrate,inner,Import,ATP-binding cassette transporter,FE3DCITabcpp,"b4290, b4289, b4287, b4288"
+247,hxa,Hexanoate (n-C6:0),inner,Import and Export,Proton symport,HEXt2rpp,b2223
+248,hxa,Hexanoate (n-C6:0),outer,Import and Export,Diffusion,HXAtex,"b1377, b0929, b2215, b0241"
+249,hxa,Hexanoate (n-C6:0),inner,Import,ATP-binding cassette transporter,FACOAL60t2pp,"b1701, b1805"
+250,idon__L,L-Idonate,outer,Import and Export,Diffusion,IDONtex,"b1377, b0929, b2215, b0241"
+251,idon__L,L-Idonate,inner,Import and Export,Proton symport,IDONt2rpp,b4265
+252,ile__L,L-Isoleucine,inner,Export,Proton antiport,ILEt3pp,b4141
+253,ile__L,L-Isoleucine,inner,Import,Proton symport,ILEt2rpp,b0401
+254,ile__L,L-Isoleucine,outer,Import and Export,Diffusion,ILEtex,"b1377, b0929, b2215, b0241"
+255,ile__L,L-Isoleucine,inner,Import,ATP-binding cassette transporter,ILEabcpp,"b3455, b3457, b3460, b3454, b3456"
+256,inost,Myo-Inositol,inner,Import,Sodium symport,INOSTt4pp,b3679
+257,inost,Myo-Inositol,outer,Import and Export,Diffusion,INSTtex,"b1377, b0929, b2215, b0241"
+258,ins,Inosine,inner,Export,Proton antiport,INSt3pp,b3662
+259,ins,Inosine,outer,Import and Export,Diffusion,INStex,b0411
+260,ins,Inosine,inner,Import,Proton symport,INSt2pp,"b2964, b2393, b2406"
+261,cpgn,Coprogen,outer,Import,Proton antiport,CPGNtonex,"b3005, b3006, b1102, b1252"
+262,cpgn,Coprogen,inner,Import,ATP-binding cassette transporter,CPGNabcpp,"b0153, b0151, b0152"
+263,glcr,D-Glucarate,outer,Import and Export,Diffusion,GLCRtex,"b1377, b0929, b2215, b0241"
+264,glcr,D-Glucarate,inner,Import and Export,Proton symport,GLCRt2rpp,"b3127, b2789"
+265,glcur,D-Glucuronate,outer,Import and Export,Diffusion,GLCURtex,"b1377, b0929, b2215, b0241"
+266,glcur,D-Glucuronate,inner,Import and Export,Proton symport,GLCURt2rpp,"b3093, b3909"
+267,gln__L,L-Glutamine,outer,Import and Export,Diffusion,GLNtex,"b1377, b0241, b0929, b2215"
+268,gln__L,L-Glutamine,inner,Import,ATP-binding cassette transporter,GLNabcpp,"b0809, b0811, b0810"
+269,octa,Octanoate (n-C8:0),inner,Import,ATP-binding cassette transporter,FACOAL80t2pp,"b1701, b1805"
+270,octa,Octanoate (n-C8:0),outer,Import and Export,Diffusion,OCTAtex,"b1377, b0929, b2215, b0241"
+271,lac__D,D-Lactate,outer,Import and Export,Diffusion,D_LACtex,"b1377, b0929, b2215, b0241"
+272,lac__D,D-Lactate,inner,Import and Export,Proton symport,D_LACt2pp,"b3603, b2975"
+273,orn,Ornithine,inner,Import and Export,ptrc antiporter,PTRCORNt7pp,b0692
+274,orn,Ornithine,inner,Import,ATP-binding cassette transporter,ORNabcpp,"b2310, b2308, b2306, b2307"
+275,orn,Ornithine,outer,Import and Export,Diffusion,ORNtex,"b1377, b0929, b2215, b0241"
+276,orn,Ornithine,inner,Import and Export,arg__L antiporter,ARGORNt7pp,b1605
+277,frulys,Fructoselysine,outer,Import and Export,Diffusion,FRULYStex,"b1377, b0929, b2215, b0241"
+278,frulys,Fructoselysine,inner,Import,Proton symport,FRULYSt2pp,b3370
+279,malt,Maltose C12H22O11,inner,Import,PEP group translocation,MALTptspp,"b1621, b2417, b2415, b2416"
+280,malt,Maltose C12H22O11,inner,Import,ATP-binding cassette transporter,MALTabcpp,"b4032, b4035, b4033, b4034"
+281,malt,Maltose C12H22O11,outer,Import,Diffusion,MALTtexi,b4036
+282,cit,Citrate,outer,Import and Export,Diffusion,CITtex,"b1377, b0929, b2215, b0241"
+283,cit,Citrate,inner,Import,succ antiporter,CITt7pp,b0612
+284,cit,Citrate,inner,Export,Proton antiport,CITt3pp,
+285,crn,L-Carnitine,outer,Import and Export,Diffusion,CRNtex,"b1377, b0929, b2215, b0241"
+286,crn,L-Carnitine,inner,Import,ATP-binding cassette transporter,CRNabcpp,"b2677, b2679, b2678"
+287,crn,L-Carnitine,inner,Import,crn__D antiporter,CRNt8pp,b0040
+288,crn,L-Carnitine,inner,Import,gbbtn antiporter,CRNt7pp,b0040
+289,crn,L-Carnitine,inner,Import and Export,Proton symport,CRNt2rpp,b4111
+290,chol,Choline C5H14NO,inner,Import,ATP-binding cassette transporter,CHLabcpp,"b2131, b2128, b2129, b2130"
+291,chol,Choline C5H14NO,outer,Import and Export,Diffusion,CHLtex,"b1377, b0929, b2215, b0241"
+292,chol,Choline C5H14NO,inner,Export,Proton antiport,CHLt3pp,b0543
+293,chol,Choline C5H14NO,inner,Import,Proton symport,CHLt2pp,"b1801, b0314"
+294,dgsn,Deoxyguanosine,inner,Import,Proton symport,DGSNt2pp,b2964
+295,dgsn,Deoxyguanosine,outer,Import and Export,Diffusion,DGSNtex,"b1377, b0929, b2215, b0241"
+296,din,Deoxyinosine,inner,Import,Proton symport,DINSt2pp,b2964
+297,din,Deoxyinosine,outer,Import and Export,Diffusion,DINStex,"b1377, b0929, b2215, b0241"
+298,duri,Deoxyuridine,outer,Import and Export,Diffusion,DURItex,b0411
+299,duri,Deoxyuridine,inner,Import,Proton symport,DURIt2pp,"b2964, b2393"
+300,fe2,Fe2+ mitochondria,inner,Import,Diffusion,FE2tpp,b3040
+301,fe2,Fe2+ mitochondria,inner,Import,Proton symport,FE2t2pp,b2392
+302,fe2,Fe2+ mitochondria,inner,Export,Proton antiport,FE2t3pp,b3915
+303,fe2,Fe2+ mitochondria,inner,Import,ATP-binding cassette transporter,FE2abcpp,b3409
+304,fe2,Fe2+ mitochondria,outer,Import and Export,Diffusion,FE2tex,"b1377, b0929, b2215, b0241"
+305,fru,D-Fructose,inner,Import,PEP group translocation,FRUptspp,"b2169, b2415, b2416, b2167"
+306,fru,D-Fructose,outer,Import and Export,Diffusion,FRUtex,"b1377, b0929, b2215, b0241"
+307,fru,D-Fructose,inner,Import,PEP group translocation,FRUpts2pp,"b2415, b1819, b1818, b1817, b2416"
+308,fuc__L,L-Fucose,outer,Import and Export,Diffusion,FUCtex,"b1377, b0929, b2215, b0241"
+309,fuc__L,L-Fucose,inner,Import and Export,Proton symport,FUCtpp,b2801
+310,4abut,4-Aminobutanoate,outer,Import and Export,Diffusion,ABUTtex,"b1377, b0929, b2215, b0241"
+311,4abut,4-Aminobutanoate,inner,Import,Proton symport,ABUTt2pp,b2663
+312,4abut,4-Aminobutanoate,inner,Import and Export,glu__L antiporter,GLUABUTt7pp,b1492
+313,phe__L,L-Phenylalanine,inner,Import and Export,Proton symport,PHEt2rpp,"b0112, b0576"
+314,phe__L,L-Phenylalanine,inner,Export,Diffusion,PHEtipp,b1473
+315,phe__L,L-Phenylalanine,outer,Import and Export,Diffusion,PHEtex,"b1377, b0929, b2215, b0241"
+316,csn,Cytosine,outer,Import and Export,Diffusion,CSNtex,"b1377, b0929, b2215, b0241"
+317,csn,Cytosine,inner,Import,Proton symport,CSNt2pp,b0336
+318,cynt,Cyanate,inner,Import,Proton symport,CYNTt2pp,b0341
+319,cynt,Cyanate,outer,Import and Export,Diffusion,CYNTtex,"b1377, b0929, b2215, b0241"
+320,cys__L,L-Cysteine,outer,Import and Export,Diffusion,CYStex,"b1377, b0929, b2215, b0241"
+321,cys__L,L-Cysteine,inner,Import,ATP-binding cassette transporter,CYSabcpp,"b1920, b1918, b1917"
+322,cys__L,L-Cysteine,inner,Export,ATP-binding cassette transporter,CYSabc2pp,"b0886, b0887"
+323,cys__L,L-Cysteine,inner,Export,Diffusion,CYStpp,"b1533, b2578"
+324,sbt__D,D-Sorbitol,inner,Import,PEP group translocation,SBTptspp,"b2702, b2415, b2416, b2704, b2703"
+325,sbt__D,D-Sorbitol,outer,Import and Export,Diffusion,SBTtex,"b1377, b0929, b2215, b0241"
+326,pi,Phosphate,outer,Import and Export,Diffusion,PItex,"b1377, b0929, b2215, b0241"
+327,pi,Phosphate,inner,Import,ATP-binding cassette transporter,PIuabcpp,"b3728, b3725, b3727, b3726"
+328,pi,Phosphate,inner,Export,f6p antiporter,F6Pt6_2pp,b3666
+329,pi,Phosphate,inner,Export,g6p antiporter,G6Pt6_2pp,b3666
+330,pi,Phosphate,inner,Export,gam6p antiporter,GAM6Pt6_2pp,b3666
+331,pi,Phosphate,inner,Export,glyc3p antiporter,GLYC3Pt6pp,b2240
+332,pi,Phosphate,inner,Export,Diffusion,PItpp,b4020
+333,pi,Phosphate,inner,Import,Proton symport,PIt2rpp,"b3493, b2987"
+334,pi,Phosphate,inner,Export,man6p antiporter,MAN6Pt6_2pp,b3666
+335,cytd,Cytidine,inner,Import,Proton symport,CYTDt2pp_copy1,"b2964, b2393"
+336,cytd,Cytidine,inner,Import and Export,Proton symport,CYTDt2pp_copy2,b2406
+337,cytd,Cytidine,outer,Import and Export,Diffusion,CYTDtex,"b1377, b0929, b2215, b0241"
+338,dad_2,Deoxyadenosine,outer,Import and Export,Diffusion,DADNtex,b0411
+339,dad_2,Deoxyadenosine,inner,Import,Proton symport,DADNt2pp,"b2964, b2393"
+340,dcyt,Deoxycytidine,inner,Import,Proton symport,DCYTt2pp,"b2964, b2393"
+341,dcyt,Deoxycytidine,outer,Import and Export,Diffusion,DCYTtex,b0411
+342,rmn,L-Rhamnose,outer,Import and Export,Diffusion,RMNtex,"b1377, b0929, b2215, b0241"
+343,rmn,L-Rhamnose,inner,Import,Proton symport,RMNtpp,b3907
+344,malttr,Maltotriose C18H32O16,inner,Import,ATP-binding cassette transporter,MALTTRabcpp,"b4032, b4035, b4033, b4034"
+345,malttr,Maltotriose C18H32O16,outer,Import,Diffusion,MALTTRtexi,b4036
+346,maltttr,Maltotetraose,inner,Import,ATP-binding cassette transporter,MALTTTRabcpp,"b4032, b4035, b4033, b4034"
+347,maltttr,Maltotetraose,outer,Import,Diffusion,MALTTTRtexi,b4036
+348,maltpt,Maltopentaose,inner,Import,ATP-binding cassette transporter,MALTPTabcpp,"b4032, b4035, b4033, b4034"
+349,maltpt,Maltopentaose,outer,Import,Diffusion,MALTPTtexi,b4036
+350,lcts,Lactose C12H22O11,inner,Import,Proton symport,LCTStpp,b0343
+351,lcts,Lactose C12H22O11,outer,Import and Export,Diffusion,LCTStex,"b1377, b0929, b2215, b0241"
+352,lcts,Lactose C12H22O11,inner,Export,Proton antiport,LCTSt3ipp,"b2170, b0070, b1528"
+353,leu__L,L-Leucine,inner,Export,Proton antiport,LEUt3pp,"b1798, b4141"
+354,leu__L,L-Leucine,inner,Import,ATP-binding cassette transporter,LEUabcpp,"b3455, b3457, b3458, b3460, b3454, b3456"
+355,leu__L,L-Leucine,inner,Import,Proton symport,LEUt2rpp,b0401
+356,leu__L,L-Leucine,outer,Import and Export,Diffusion,LEUtex,"b1377, b0929, b2215, b0241"
+357,lys__L,L-Lysine,inner,Import,Proton symport,CADVtpp,b4132
+358,lys__L,L-Lysine,outer,Import and Export,Diffusion,LYStex,"b1377, b0929, b2215, b0241"
+359,lys__L,L-Lysine,inner,Import,Proton symport,LYSt2pp,b2156
+360,lys__L,L-Lysine,inner,Export,Proton antiport,LYSt3pp,"b0874, b2923"
+361,lys__L,L-Lysine,inner,Import,ATP-binding cassette transporter,LYSabcpp,"b2310, b2308, b2306, b2307"
+362,lyx__L,L-Lyxose,inner,Import,Proton symport,LYXt2pp,b3907
+363,lyx__L,L-Lyxose,outer,Import and Export,Diffusion,LYXtex,"b1377, b0929, b2215, b0241"
+364,man,D-Mannose,inner,Import,PEP group translocation,MANptspp,"b2415, b1819, b1818, b1817, b2416"
+365,man,D-Mannose,outer,Import and Export,Diffusion,MANtex,"b1377, b0929, b2215, b0241"
+366,man6p,D-Mannose 6-phosphate,outer,Import and Export,Diffusion,MAN6Ptex,"b1377, b0929, b2215, b0241"
+367,man6p,D-Mannose 6-phosphate,inner,Import,pi antiporter,MAN6Pt6_2pp,b3666
+368,butso3,Butanesulfonate,outer,Import and Export,Diffusion,BUTSO3tex,"b1377, b0929, b2215, b0241"
+369,butso3,Butanesulfonate,inner,Import,ATP-binding cassette transporter,BUTSO3abcpp,"b0367, b0365, b0936, b0933, b0366, b0934"
+370,ethso3,Ethanesulfonate,outer,Import and Export,Diffusion,ETHSO3tex,"b1377, b0929, b2215, b0241"
+371,ethso3,Ethanesulfonate,inner,Import,ATP-binding cassette transporter,ETHSO3abcpp,"b0936, b0933, b0934"
+372,melib,Melibiose C12H22O11,inner,Import,Proton symport,MELIBt2pp,"b4120, b0343"
+373,melib,Melibiose C12H22O11,outer,Import and Export,Diffusion,MELIBtex,"b1377, b0929, b2215, b0241"
+374,melib,Melibiose C12H22O11,inner,Export,Proton antiport,MELIBt3ipp,b1528
+375,feoxam_un,Ferroxamine minus Fe(3),inner,Export,Proton antiport,FEOXAMUtpp,
+376,feoxam_un,Ferroxamine minus Fe(3),outer,Export,Proton symport,FEOXAMUtex,
+377,arbtn,Aerobactin minus Fe3,inner,Export,Proton antiport,ARBTNtpp,
+378,arbtn,Aerobactin minus Fe3,outer,Export,Proton symport,ARBTNtex,
+379,but,Butyrate (n-C4:0),outer,Import and Export,Diffusion,BUTtex,"b1377, b0929, b2215, b0241"
+380,but,Butyrate (n-C4:0),inner,Import and Export,Proton symport,BUTt2rpp,b2223
+381,23camp,"2',3'-Cyclic AMP",outer,Import and Export,Diffusion,23CAMPtex,"b1377, b0929, b2215, b0241"
+382,23ccmp,"2',3'-Cyclic CMP",outer,Import and Export,Diffusion,23CCMPtex,"b1377, b0929, b2215, b0241"
+383,23cump,"2',3'-Cyclic UMP",outer,Import and Export,Diffusion,23CUMPtex,"b1377, b0929, b2215, b0241"
+384,23cgmp,"2',3'-Cyclic GMP",outer,Import and Export,Diffusion,23CGMPtex,"b1377, b0929, b2215, b0241"
+385,3amp,3  AMP C10H12N5O7P,outer,Import and Export,Diffusion,3AMPtex,"b1377, b0929, b2215, b0241"
+386,3cmp,3  CMP C9H12N3O8P,outer,Import and Export,Diffusion,3CMPtex,"b1377, b0929, b2215, b0241"
+387,gdp,GDP C10H12N5O11P2,outer,Import and Export,Diffusion,GDPtex,"b1377, b0241, b0929, b2215"
+388,enter,Enterochelin,outer,Export,Proton symport,FEENTERtex,b3035
+389,enter,Enterochelin,inner,Export,Proton antiport,FEENTERtpp,b0591
+390,fe3hox_un,"Fe(III)hydoxamate, unloaded",outer,Export,Proton symport,FE3HOXUtpp,
+391,fe3hox_un,"Fe(III)hydoxamate, unloaded",inner,Export,Proton antiport,FE3HOXUtex,
+392,fecrm_un,Ferrichrome minus Fe(III),inner,Export,Proton antiport,FECRMUtpp,
+393,fecrm_un,Ferrichrome minus Fe(III),outer,Export,Proton symport,FECRMUtex,
+394,ptrc,Putrescine,inner,Import,Proton symport,PTRCt2pp,"b2014, b1296, b0692"
+395,ptrc,Putrescine,inner,Import,ATP-binding cassette transporter,PTRCabcpp,"b0856, b1441, b0857, b0855, b1126, b1443, b1442, b1124, b1123, b0854, b1125, b1440"
+396,ptrc,Putrescine,inner,Import and Export,orn antiporter,PTRCORNt7pp,b0692
+397,ptrc,Putrescine,outer,Import and Export,Diffusion,PTRCtex,"b1377, b0929, b2215, b0241"
+398,pnto__R,(R)-Pantothenate,inner,Import,Sodium symport,PNTOt4pp,b3258
+399,pnto__R,(R)-Pantothenate,outer,Import and Export,Diffusion,PNTOtex,"b1377, b0929, b2215, b0241"
+400,ura,Uracil,inner,Import,Proton symport,URAt2pp,"b2497, b1006"
+401,ura,Uracil,inner,Export,Diffusion,URAtpp,
+402,ura,Uracil,outer,Import and Export,Diffusion,URAtex,"b1377, b0929, b2215, b0241"
+403,urea,Urea CH4N2O,outer,Import and Export,Diffusion,UREAtex,"b1377, b0929, b2215, b0241"
+404,urea,Urea CH4N2O,inner,Import and Export,Diffusion,UREAtpp,b3927
+405,sulfac,Sulfoacetate,inner,Import,ATP-binding cassette transporter,SULFACabcpp,"b0936, b0933, b0934"
+406,sulfac,Sulfoacetate,outer,Import and Export,Diffusion,SULFACtex,"b1377, b0929, b2215, b0241"
+407,lipoate,Lipoate,outer,Import and Export,Diffusion,LIPOtex,"b1377, b0241, b0929, b2215"
+408,lipoate,Lipoate,inner,Import,Proton symport,LIPOt2pp,
+409,pppn,Phenylpropanoate,outer,Import and Export,Diffusion,PPPNtex,"b1377, b0929, b2215, b0241"
+410,pppn,Phenylpropanoate,inner,Import and Export,Proton symport,PPPNt2rpp,b2536
+411,for,Formate,inner,Export,Diffusion,FORtppi,"b2492, b0904"
+412,for,Formate,outer,Import and Export,Diffusion,FORtex,"b1377, b0929, b2215, b0241"
+413,for,Formate,inner,Import,Proton symport,FORt2pp,"b2492, b0904"
+414,pheme,Protoheme C34H30FeN4O4,outer,Export,Diffusion,PHEMEtiex,
+415,pheme,Protoheme C34H30FeN4O4,inner,Export,ATP-binding cassette transporter,PHEMEabcpp,"b2200, b2198, b2199, b2201, b2197"
+416,metsox_S__L,L-Methionine Sulfoxide,outer,Import and Export,Diffusion,METSOX1tex,"b1377, b0929, b2215, b0241"
+417,metsox_S__L,L-Methionine Sulfoxide,inner,Import,ATP-binding cassette transporter,METSOX1abcpp,
+418,ppt,Phosphonate,outer,Import and Export,Diffusion,PPTtex,"b1377, b0929, b2215, b0241"
+419,gal_bD,Beta D-Galactose,outer,Import and Export,Diffusion,GALBDtex,"b1377, b0929, b2215, b0241"
+420,lipa,KDO(2)-lipid (A),outer,Export,ATP-binding cassette transporter,LIPAabctex,"b3199, b0641, b0054, b3201, b3200, b4261, b4262"
+421,lipa,KDO(2)-lipid (A),inner,Export,ATP-binding cassette transporter,LIPAabcpp,b0914
+422,lipa_cold,Cold adapted KDO(2)-lipid (A),outer,Export,ATP-binding cassette transporter,CLIPAabctex,"b3199, b0641, b0054, b3201, b3200, b4261, b4262"
+423,lipa_cold,Cold adapted KDO(2)-lipid (A),inner,Export,ATP-binding cassette transporter,LIPACabcpp,b0914
+424,cu,Cu+,outer,Import and Export,Diffusion,CUtex,"b1377, b0929, b2215, b0241"
+425,cu,Cu+,inner,Export,ATP-binding cassette transporter,CU1abcpp,b0484
+426,cu,Cu+,???,Export,h antiporter,CUt3,"b0575, b0574, b0573, b0572"
+427,cu,Cu+,inner,Export,Diffusion,CUt2pp,"b2924, b4159, b1330, b0577, b0465, b0808, b3291"
+428,hg2,Mercury  charged 2  Hg,inner,Export,Proton antiport,HG2t3pp,b3915
+429,hg2,Mercury  charged 2  Hg,outer,Import and Export,Diffusion,HG2tex,"b1377, b0929, b2215, b0241"
+430,hg2,Mercury  charged 2  Hg,inner,Export,ATP-binding cassette transporter,HG2abcpp,b3469
+431,ser__D,D-Serine,inner,Import,Proton symport,DSERt2pp,b4208
+432,ser__D,D-Serine,outer,Import and Export,Diffusion,DSERtex,"b1377, b0929, b2215, b0241"
+433,ser__L,L-Serine,outer,Import and Export,Diffusion,SERtex,"b1377, b0929, b2215, b0241"
+434,ser__L,L-Serine,inner,Import,Sodium symport,SERt4pp,b3089
+435,ser__L,L-Serine,inner,Export,Diffusion,SERtpp,b1533
+436,ser__L,L-Serine,inner,Import,Proton symport,SERt2rpp,"b2796, b3116"
+437,no,Nitric oxide,inner,Import and Export,Diffusion,NOtpp,
+438,no,Nitric oxide,outer,Import and Export,Diffusion,NOtex,"b1377, b0929, b2215, b0241"
+439,n2o,Nitrous oxide,inner,Import and Export,Diffusion,N2Otpp,
+440,n2o,Nitrous oxide,outer,Import and Export,Diffusion,N2Otex,"b1377, b0929, b2215, b0241"
+441,crn__D,D-Carnitine,outer,Import and Export,Diffusion,CRNDtex,"b1377, b0929, b2215, b0241"
+442,crn__D,D-Carnitine,inner,Export,crn antiporter,CRNt8pp,b0040
+443,crn__D,D-Carnitine,inner,Import and Export,Proton symport,CRNDt2rpp,b4111
+444,crn__D,D-Carnitine,inner,Import,ATP-binding cassette transporter,CRNDabcpp,"b2677, b2679, b2678"
+445,ctbt,Crotonobetaine,inner,Import and Export,Proton symport,CTBTt2rpp,b4111
+446,ctbt,Crotonobetaine,inner,Import,ATP-binding cassette transporter,CTBTabcpp,"b2677, b2679, b2678"
+447,pacald,Phenylacetaldehyde,inner,Import and Export,Proton symport,PACALDt2rpp,
+448,pacald,Phenylacetaldehyde,outer,Import and Export,Diffusion,PACALDtex,"b1377, b0929, b2215, b0241"
+449,peamn,Phenethylamine,outer,Import and Export,Diffusion,PEAMNtex,"b1377, b0929, b2215, b0241"
+450,acgal1p,N-Acetyl-D-galactosamine 1-phosphate,outer,Import and Export,Diffusion,ACGAL1Ptex,"b1377, b0929, b2215, b0241"
+451,acgal,N-Acetyl-D-galactosamine,outer,Import and Export,Diffusion,ACGALtex,"b1377, b0929, b2215, b0241"
+452,glcur1p,D-Glucuronate 1-phosphate,outer,Import and Export,Diffusion,GLCUR1Ptex,"b1377, b0929, b2215, b0241"
+453,udpglcur,UDP-D-glucuronate,outer,Import and Export,Diffusion,UDPGLCURtex,"b1377, b0929, b2215, b0241"
+454,isetac,Isethionic acid,outer,Import and Export,Diffusion,ISETACtex,"b1377, b0929, b2215, b0241"
+455,isetac,Isethionic acid,inner,Import,ATP-binding cassette transporter,ISETACabcpp,"b0367, b0365, b0936, b0933, b0366, b0934"
+456,udpg,UDPglucose,outer,Import and Export,Diffusion,UDPGtex,"b1377, b0929, b2215, b0241"
+457,udpgal,UDPgalactose,outer,Import and Export,Diffusion,UDPGALtex,"b1377, b0241, b0929, b2215"
+458,acgam1p,N-Acetyl-D-glucosamine 1-phosphate,outer,Import and Export,Diffusion,ACGAM1Ptex,"b1377, b0929, b2215, b0241"
+459,uacgam,UDP-N-acetyl-D-glucosamine,outer,Import and Export,Diffusion,UACGAMtex,"b1377, b0929, b2215, b0241"
+460,udpacgal,UDP-N-acetyl-D-galactosamine,outer,Import and Export,Diffusion,UDPACGALtex,"b1377, b0929, b2215, b0241"
+461,nh4,Ammonium,inner,Import and Export,Diffusion,NH4tpp,b0451
+462,nh4,Ammonium,outer,Import and Export,Diffusion,NH4tex,"b1377, b0929, b2215, b0241"
+463,cyan,Hydrogen cyanide,outer,Import and Export,Diffusion,CYANtex,"b1377, b0929, b2215, b0241"
+464,so3,Sulfite,outer,Import and Export,Diffusion,SO3tex,"b1377, b0929, b2215, b0241"
+465,tcynt,Thiocyanate,outer,Import and Export,Diffusion,TCYNTtex,"b1377, b0929, b2215, b0241"
+466,metsox_R__L,L-methionine-R-sulfoxide,inner,Import,ATP-binding cassette transporter,METSOX2abcpp,
+467,metsox_R__L,L-methionine-R-sulfoxide,outer,Import and Export,Diffusion,METSOX2tex,"b1377, b0929, b2215, b0241"
+468,3ump,3  UMP C9H11N2O9P,outer,Import and Export,Diffusion,3UMPtex,"b1377, b0929, b2215, b0241"
+469,mso3,Methanesulfonate,inner,Import,ATP-binding cassette transporter,MSO3abcpp,"b0936, b0933, b0934"
+470,mso3,Methanesulfonate,outer,Import and Export,Diffusion,MSO3tex,"b1377, b0929, b2215, b0241"
+471,LalaDgluMdap,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate",outer,Import and Export,Diffusion,3PEPTtex,"b1377, b0929, b2215, b0241"
+472,LalaDgluMdap,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate",inner,Import,ATP-binding cassette transporter,3PEPTabcpp,"b1244, b1329, b1247, b2180, b1245, b2179, b2177, b1246, b1243, b2178"
+473,LalaDgluMdapDala,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine",outer,Import and Export,Diffusion,4PEPTtex,"b1377, b0929, b2215, b0241"
+474,LalaDgluMdapDala,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine",inner,Import,ATP-binding cassette transporter,4PEPTabcpp,"b1244, b1247, b2180, b1245, b2179, b2177, b1246, b1243, b2178"
+475,3gmp,Guanosine 3  phosphate C10H12N5O8P,outer,Import and Export,Diffusion,3GMPtex,"b1377, b0929, b2215, b0241"
+476,fald,Formaldehyde,outer,Import and Export,Diffusion,FALDtex,"b1377, b0929, b2215, b0241"
+477,fald,Formaldehyde,inner,Import and Export,Diffusion,FALDtpp,
+478,anhgm3p,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide,inner,Import,Proton symport,AGM3Pt2pp,b0433
+479,anhgm4p,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide,inner,Import,Proton symport,AGM4Pt2pp,b0433
+480,anhgm,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid,outer,Import and Export,Diffusion,ANHGMtex,"b1377, b0929, b2215, b0241"
+481,anhgm,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid,inner,Import,Proton symport,AGMt2pp,b0433
+482,dopa,Dopamine,outer,Import and Export,Diffusion,DOPAtex,"b1377, b0929, b2215, b0241"
+483,4hoxpacd,4-Hydroxyphenylacetaldehyde,outer,Import and Export,Diffusion,4HOXPACDtex,"b1377, b0929, b2215, b0241"
+484,spmd,Spermidine,inner,Import,ATP-binding cassette transporter,SPMDabcpp,"b1441, b1126, b1443, b1442, b1124, b1123, b1125, b1440"
+485,spmd,Spermidine,inner,Export,Proton antiport,SPMDt3pp,"b1600, b1599"
+486,spmd,Spermidine,outer,Import and Export,Diffusion,SPMDtex,"b1377, b0929, b2215, b0241"
+487,etha,Ethanolamine,outer,Import and Export,Diffusion,ETHAtex,"b1377, b0929, b2215, b0241"
+488,etha,Ethanolamine,inner,Import,Proton symport,ETHAt2pp,
+489,g3ps,Glycerophosphoserine,inner,Import,ATP-binding cassette transporter,G3PSabcpp,"b3452, b3450, b3451, b3453"
+490,g3ps,Glycerophosphoserine,outer,Import and Export,Diffusion,G3PStex,"b1377, b0929, b2215, b0241"
+491,ag,Silver,???,Export,h antiporter,AGt3,"b0575, b0574, b0573, b0572"
+492,cd2,Cadmium,outer,Import and Export,Diffusion,CD2tex,"b1377, b0929, b2215, b0241"
+493,cd2,Cadmium,inner,Export,ATP-binding cassette transporter,CD2abcpp,b3469
+494,cd2,Cadmium,inner,Import,Diffusion,CD2tpp,b3040
+495,cd2,Cadmium,inner,Export,Proton antiport,CD2t3pp,"b0752, b3915"
+496,zn2,Zinc,inner,Import,Diffusion,ZN2tpp,b3040
+497,zn2,Zinc,outer,Import and Export,Diffusion,Zn2tex,"b1377, b0929, b2215, b0241"
+498,zn2,Zinc,inner,Import,ATP-binding cassette transporter,ZNabcpp,"b1857, b1859, b1858"
+499,zn2,Zinc,inner,Export,ATP-binding cassette transporter,ZN2abcpp,b3469
+500,zn2,Zinc,inner,Export,Proton antiport,ZN2t3pp,"b0752, b3915"
+501,skm,Shikimate,outer,Import and Export,Diffusion,SKMtex,"b1377, b0929, b2215, b0241"
+502,skm,Shikimate,inner,Import,Proton symport,SKMt2pp,b1981
+503,glyc2p,Glycerol 2-phosphate,inner,Import,ATP-binding cassette transporter,GLYC2Pabcpp,"b3452, b3450, b3451, b3453"
+504,glyc2p,Glycerol 2-phosphate,outer,Import and Export,Diffusion,GLYC2Ptex,"b1377, b0929, b2215, b0241"
+505,pser__L,O-Phospho-L-serine,outer,Import and Export,Diffusion,PSERtex,"b1377, b0929, b2215, b0241"
+506,r5p,Alpha-D-Ribose 5-phosphate,outer,Import and Export,Diffusion,R5Ptex,"b1377, b0929, b2215, b0241"
+507,thrp,L-Threonine O-3-phosphate,outer,Import and Export,Diffusion,THRPtex,"b1377, b0929, b2215, b0241"
+508,tyrp,Phosphotyrosine,outer,Import and Export,Diffusion,TYRPtex,"b1377, b0929, b2215, b0241"
+509,mal__L,L-Malate,outer,Import and Export,Diffusion,MALtex,"b1377, b0929, b2215, b0241"
+510,mal__L,L-Malate,inner,Import,Proton antiport,MALt2_3pp,"b4138, b4123"
+511,mal__L,L-Malate,inner,Import and Export,succ antiporter,SUCMALtpp,"b4138, b4123, b0621"
+512,mal__L,L-Malate,inner,Import,Proton antiport,MALt2_2pp,b3528
+513,mal__L,L-Malate,inner,Export,Proton antiport,MALt3pp,
+514,cpgn_un,Coprogen unloaded (no Fe(III)),outer,Export,Proton symport,CPGNUtex,
+515,cpgn_un,Coprogen unloaded (no Fe(III)),inner,Export,Proton antiport,CPGNUtpp,
+516,malthx,Maltohexaose,inner,Import,ATP-binding cassette transporter,MALTHXabcpp,"b4032, b4035, b4033, b4034"
+517,malthx,Maltohexaose,outer,Import,Diffusion,MALTHXtexi,b4036
+518,manglyc,2(alpha-D-Mannosyl)-D-glycerate,outer,Import and Export,Diffusion,MANGLYCtex,"b1377, b0929, b2215, b0241"
+519,manglyc,2(alpha-D-Mannosyl)-D-glycerate,inner,Import,PEP group translocation,MANGLYCptspp,"b0731, b2415, b2416"
+520,cbi,Cobinamide,outer,Import,Proton antiport,CBItonex,"b3005, b3006, b3966, b1252"
+521,cbi,Cobinamide,inner,Import,ATP-binding cassette transporter,CBIuabcpp,"b1711, b0158, b1709"
+522,met__L,L-Methionine,inner,Export,Proton antiport,METt3pp,"b1798, b4141"
+523,met__L,L-Methionine,outer,Import and Export,Diffusion,METtex,"b1377, b0929, b2215, b0241"
+524,met__L,L-Methionine,inner,Import,ATP-binding cassette transporter,METabcpp,"b0197, b0198, b0199"
+525,ddca,Dodecanoate (n-C12:0),outer,Import,Diffusion,DDCAtexi,b2344
+526,ddca,Dodecanoate (n-C12:0),inner,Import,ATP-binding cassette transporter,FACOAL120t2pp,"b1701, b1805"
+527,ttdca,Tetradecanoate (n-C14:0),outer,Import,Diffusion,TTDCAtexi,b2344
+528,ttdca,Tetradecanoate (n-C14:0),inner,Import,ATP-binding cassette transporter,FACOAL140t2pp,"b1701, b1805"
+529,met__D,D-Methionine,inner,Import,ATP-binding cassette transporter,METDabcpp,"b0197, b0198, b0199"
+530,met__D,D-Methionine,outer,Import and Export,Diffusion,METDtex,"b1377, b0929, b2215, b0241"
+531,mnl,D-Mannitol,inner,Import,PEP group translocation,MNLptspp,"b2704, b2702, b2416, b2415, b2933, b3599, b2934, b2703"
+532,mnl,D-Mannitol,outer,Import and Export,Diffusion,MNLtex,"b1377, b0929, b2215, b0241"
+533,pro__L,L-Proline,inner,Import,ATP-binding cassette transporter,PROabcpp,"b2677, b2679, b2678"
+534,pro__L,L-Proline,outer,Import and Export,Diffusion,PROtex,"b1377, b0929, b2215, b0241"
+535,pro__L,L-Proline,inner,Import,Sodium symport,PROt4pp,b1015
+536,pro__L,L-Proline,inner,Import and Export,Proton symport,PROt2rpp,"b4111, b0402"
+537,ocdcea,Octadecenoate (n-C18:1),outer,Import,Diffusion,OCDCEAtexi,b2344
+538,ocdcea,Octadecenoate (n-C18:1),inner,Import,ATP-binding cassette transporter,FACOAL181t2pp,"b1701, b1805"
+539,g6p,D-Glucose 6-phosphate,outer,Import and Export,Diffusion,G6Ptex,"b1377, b0929, b2215, b0241"
+540,g6p,D-Glucose 6-phosphate,inner,Import,pi antiporter,G6Pt6_2pp,b3666
+541,tungs,Tungstate,outer,Import and Export,Diffusion,TUNGStex,"b1377, b0241, b0929, b2215"
+542,tungs,Tungstate,inner,Import,ATP-binding cassette transporter,TUNGSabcpp,"b0765, b0763, b0764"
+543,mobd,Molybdate,outer,Import and Export,Diffusion,MOBDtex,"b1377, b0929, b2215, b0241"
+544,mobd,Molybdate,inner,Import,ATP-binding cassette transporter,MOBDabcpp,"b2425, b2424, b0763, b3917, b0764, b2423, b2422, b0765"
+545,ni2,Nickel,inner,Import,ATP-binding cassette transporter,NI2uabcpp,"b3479, b3476, b3478, b3477, b4242, b3480"
+546,ni2,Nickel,inner,Import,Diffusion,NI2tpp,b3816
+547,ni2,Nickel,inner,Export,Proton antiport,NI2t3pp,"b0752, b3915"
+548,ni2,Nickel,inner,Export,ATP-binding cassette transporter,NI2abcpp,b3469
+549,ni2,Nickel,outer,Import and Export,Diffusion,NI2tex,"b1377, b0929, b2215, b0241"
+550,arbtn_fe3,Aerobactin,outer,Import,Proton antiport,ARBTNtonex,
+551,arbtn_fe3,Aerobactin,inner,Import,ATP-binding cassette transporter,ARBTNabcpp,"b0153, b0151, b0152"
+552,adocbl,Adenosylcobalamin,outer,Import,Proton antiport,ADOCBLtonex,"b3005, b3006, b3966, b1252"
+553,adocbl,Adenosylcobalamin,inner,Import,ATP-binding cassette transporter,ADOCBLabcpp,"b1711, b0158, b1709"
+554,h2o2,Hydrogen peroxide,outer,Import and Export,Diffusion,H2O2tex,"b1377, b0929, b2215, b0241"
+555,aso3,Arsenite,outer,Import and Export,Diffusion,ASO3tex,"b1377, b0929, b2215, b0241"
+556,aso3,Arsenite,inner,Export,ATP-binding cassette transporter,ASO3t8pp,b3502
+557,ala_B,Beta-Alanine,inner,Import,Proton symport,BALAt2pp,b4208
+558,ala_B,Beta-Alanine,outer,Import and Export,Diffusion,BALAtex,"b1377, b0929, b2215, b0241"
+559,ala__D,D-Alanine,outer,Import and Export,Diffusion,DALAtex,"b1377, b0929, b2215, b0241"
+560,ala__D,D-Alanine,inner,Import,Proton symport,DALAt2pp,b4208
+561,amp,AMP C10H12N5O7P,outer,Import and Export,Diffusion,AMPtex,"b1377, b0929, b2215, b0241"
+562,fruur,D-Fructuronate,inner,Import and Export,Proton symport,FRUURt2rpp,b4321
+563,fruur,D-Fructuronate,outer,Import and Export,Diffusion,FRUURtex,"b1377, b0929, b2215, b0241"
+564,dca,Decanoate (n-C10:0),inner,Import,ATP-binding cassette transporter,FACOAL100t2pp,"b1701, b1805"
+565,dca,Decanoate (n-C10:0),outer,Import and Export,Diffusion,DCAtex,"b1377, b0929, b2215, b0241"
+566,rib__D,D-Ribose,outer,Import and Export,Diffusion,RIBtex,"b1377, b0929, b2215, b0241"
+567,rib__D,D-Ribose,inner,Import,ATP-binding cassette transporter,RIBabcpp,"b4231, b4088, b3750, b3749, b4087, b4485, b4230, b4086, b3748, b4227, b3751"
+568,unagamuf,"Undecaprenyl-diphospho N-acetylglucosamine-N-acetylmannosaminuronate-N-acetamido-4,6-dideoxy-D-galactose",inner,Export,Diffusion,ECAtpp,b3792
+569,o16aund,O16 antigen undecaprenyl diphosphate,inner,Export,Diffusion,O16AUNDtpp,b2037
+570,glyc__R,(R)-Glycerate,inner,Import and Export,Proton symport,GLYCAt2rpp,"b3127, b2789"
+571,glyc__R,(R)-Glycerate,outer,Import and Export,Diffusion,GLYCAtex,"b1377, b0929, b2215, b0241"
+572,fe3hox,Fe(III)hydroxamate,inner,Import,ATP-binding cassette transporter,FE3HOXabcpp,"b0153, b0151, b0152"
+573,fe3hox,Fe(III)hydroxamate,outer,Import,Proton antiport,FE3HOXtonex,"b3005, b0150, b3006, b1252"
+574,cu2,Copper,outer,Import and Export,Diffusion,CU2tex,"b1377, b0929, b2215, b0241"
+575,cu2,Copper,inner,Export,ATP-binding cassette transporter,CU2abcpp,b3469
+576,cu2,Copper,inner,Import,Diffusion,CU2tpp,b3040
+577,cobalt2,Co2+,outer,Import and Export,Diffusion,COBALT2tex,"b1377, b0929, b2215, b0241"
+578,cobalt2,Co2+,inner,Import,Diffusion,COBALT2tpp,"b3040, b3816"
+579,cobalt2,Co2+,inner,Export,Proton antiport,COBALT2t3pp,"b0752, b3915"
+580,cobalt2,Co2+,inner,Export,ATP-binding cassette transporter,COBALT2abcpp,b3469
+581,mg2,Magnesium,inner,Import,ATP-binding cassette transporter,MG2uabcpp,b4242
+582,mg2,Magnesium,outer,Import and Export,Diffusion,MG2tex,"b1377, b0929, b2215, b0241"
+583,mg2,Magnesium,inner,Import and Export,Proton antiport,MG2t3_2pp,
+584,mg2,Magnesium,inner,Import,Diffusion,MG2tpp,b3816
+585,mmet,S-Methyl-L-methionine,outer,Import and Export,Diffusion,MMETtex,"b1377, b0929, b2215, b0241"
+586,mmet,S-Methyl-L-methionine,inner,Import,Proton symport,MMETt2pp,b0260
+587,fe3,Iron (Fe3+),outer,Import and Export,Diffusion,FE3tex,"b1377, b0929, b2215, b0241"
+588,fe3,Iron (Fe3+),inner,Import,ATP-binding cassette transporter,FE3abcpp,
+589,14glucan,"1,4-alpha-D-glucan",inner,Import,ATP-binding cassette transporter,14GLUCANabcpp,"b4032, b4035, b4033, b4034"
+590,14glucan,"1,4-alpha-D-glucan",outer,Import,Diffusion,14GLUCANtexi,b4036
+591,dimp,DIMP C10H12N4O7P,outer,Import and Export,Diffusion,DIMPtex,"b1377, b0929, b2215, b0241"
+592,etoh,Ethanol,inner,Import and Export,Diffusion,ETOHtrpp,
+593,etoh,Ethanol,outer,Import and Export,Diffusion,ETOHtex,"b1377, b0929, b2215, b0241"
+594,h2s,Hydrogen sulfide,inner,Export,Diffusion,H2St1pp,
+595,h2s,Hydrogen sulfide,outer,Import and Export,Diffusion,H2Stex,"b1377, b0929, b2215, b0241"
+596,cellb,Cellobiose,???,Import,PEP group translocation,CELBpts,"b1736, b1738, b2415, b1737, b2715, b2416"
+597,cellb,Cellobiose,outer,Import and Export,Diffusion,CLBtex,"b1377, b0929, b2215, b0241"
+598,tym,Tyramine,outer,Import and Export,Diffusion,TYMtex,"b1377, b0929, b2215, b0241"
+599,cmp,CMP C9H12N3O8P,outer,Import and Export,Diffusion,CMPtex,"b1377, b0929, b2215, b0241"
+600,dump,DUMP C9H11N2O8P,outer,Import and Export,Diffusion,DUMPtex,"b1377, b0929, b2215, b0241"
+601,xmp,Xanthosine 5'-phosphate,outer,Import and Export,Diffusion,XMPtex,"b1377, b0929, b2215, b0241"
+602,uLa4n,Undecaprenyl phosphate-4-amino-4-deoxy-L-arabinose,inner,Export,Diffusion,ULA4Ntppi,"b2258, b4544"
+603,cl,Chloride,outer,Import and Export,Diffusion,CLtex,"b1377, b0929, b2215, b0241"
+604,cl,Chloride,inner,Export,Proton antiport,CLt3_2pp,b0155
+605,cl,Chloride,inner,Import,Diffusion,CLtipp,b1592
+606,cys__D,D-Cysteine,inner,Import,ATP-binding cassette transporter,CYSDabcpp,
+607,cys__D,D-Cysteine,outer,Import and Export,Diffusion,CYSDtex,"b1377, b0929, b2215, b0241"
+608,gmp,GMP C10H12N5O8P,outer,Import and Export,Diffusion,GMPtex,"b1377, b0929, b2215, b0241"
+609,imp,IMP C10H11N4O8P,outer,Import and Export,Diffusion,IMPtex,"b1377, b0929, b2215, b0241"
+610,g3pi,Sn-Glycero-3-phospho-1-inositol,outer,Import and Export,Diffusion,G3PItex,"b1377, b0929, b2215, b0241"
+611,g3pi,Sn-Glycero-3-phospho-1-inositol,inner,Import,ATP-binding cassette transporter,G3PIabcpp,"b3452, b3450, b3451, b3453"
+612,g3pg,Glycerophosphoglycerol,inner,Import,ATP-binding cassette transporter,G3PGabcpp,"b3452, b3450, b3451, b3453"
+613,g3pg,Glycerophosphoglycerol,outer,Import and Export,Diffusion,G3PGtex,"b1377, b0929, b2215, b0241"
+614,g3pe,Sn-Glycero-3-phosphoethanolamine,inner,Import,ATP-binding cassette transporter,G3PEabcpp,"b3452, b3450, b3451, b3453"
+615,g3pe,Sn-Glycero-3-phosphoethanolamine,outer,Import and Export,Diffusion,G3PEtex,"b1377, b0241, b0929, b2215"
+616,g3pc,Sn-Glycero-3-phosphocholine,outer,Import and Export,Diffusion,G3PCtex,"b1377, b0929, b2215, b0241"
+617,g3pc,Sn-Glycero-3-phosphocholine,inner,Import,ATP-binding cassette transporter,G3PCabcpp,"b3452, b3450, b3451, b3453"
+618,ump,UMP C9H11N2O9P,outer,Import and Export,Diffusion,UMPtex,"b1377, b0241, b0929, b2215"
+619,g1p,D-Glucose 1-phosphate,outer,Import and Export,Diffusion,G1Ptex,"b1377, b0929, b2215, b0241"
+620,mn2,Manganese,inner,Import,Diffusion,MN2tpp,b3040
+621,mn2,Manganese,inner,Import,Proton symport,MNt2pp,b2392
+622,mn2,Manganese,inner,Export,Proton antiport,MN2t3pp,"b0752, b3915"
+623,mn2,Manganese,outer,Import and Export,Diffusion,MNtex,"b1377, b0929, b2215, b0241"
+624,mn2,Manganese,inner,Export,Diffusion,MN2tipp,b1821
+625,gal1p,Alpha-D-Galactose 1-phosphate,outer,Import and Export,Diffusion,GAL1Ptex,"b1377, b0929, b2215, b0241"
+626,o2s,Superoxide anion,outer,Import and Export,Diffusion,O2Stex,"b1377, b0929, b2215, b0241"
+627,hom__L,L-Homoserine,inner,Export,Proton antiport,HOMt2pp,"b3824, b0813"
+628,hom__L,L-Homoserine,outer,Import and Export,Diffusion,HOMtex,"b1377, b0929, b2215, b0241"
+629,so2,Sulfur dioxide,outer,Import and Export,Diffusion,SO2tex,"b1377, b0929, b2215, b0241"
+630,so2,Sulfur dioxide,inner,Import and Export,Diffusion,SO2tpp,
+631,damp,DAMP C10H12N5O6P,outer,Import and Export,Diffusion,DAMPtex,"b1377, b0929, b2215, b0241"
+632,dcmp,DCMP C9H12N3O7P,outer,Import and Export,Diffusion,DCMPtex,"b1377, b0929, b2215, b0241"
+633,dgmp,DGMP C10H12N5O7P,outer,Import and Export,Diffusion,DGMPtex,"b1377, b0929, b2215, b0241"
+634,dtmp,DTMP C10H13N2O8P,outer,Import and Export,Diffusion,DTMPtex,"b1377, b0929, b2215, b0241"
+635,acser,O-Acetyl-L-serine,outer,Import and Export,Diffusion,ACSERtex,"b1377, b0929, b2215, b0241"
+636,acser,O-Acetyl-L-serine,inner,Export,Diffusion,ACSERtpp,"b1533, b2578"
+637,2agpe120,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0),inner,Import,Diffusion,2AGPE120tipp,b2835
+638,2ddecg3p,2-dodecanoyl-sn-glycerol 3-phosphate,inner,Import,Diffusion,2AGPA120tipp,b2835
+639,2agpg180,2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:0),inner,Import,Diffusion,2AGPG180tipp,b2835
+640,alaala,D-Alanyl-D-alanine,inner,Import,ATP-binding cassette transporter,ALAALAabcpp,"b3543, b1484, b3542, b3540, b1487, b3544, b3541, b1486, b1483, b1485"
+641,alaala,D-Alanyl-D-alanine,outer,Import and Export,Diffusion,ALAALAtex,"b1377, b0929, b2215, b0241"
+642,2agpg141,2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1),inner,Import,Diffusion,2AGPG141tipp,b2835
+643,2agpg161,2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:1),inner,Import,Diffusion,2AGPG161tipp,b2835
+644,2agpg181,2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1),inner,Import,Diffusion,2AGPG181tipp,b2835
+645,pg161,"Phosphatidylglycerol (dihexadec-9-enoyl, n-C16:1)",inner,Export,ATP-binding cassette transporter,PG161abcpp,b0914
+646,pgp120,"Phosphatidylglycerophosphate (didodecanoyl, n-C12:0)",inner,Export,ATP-binding cassette transporter,PGP120abcpp,b0914
+647,pgp161,"Phosphatidylglycerophosphate (dihexadec-9-enoyl, n-C16:1)",inner,Export,ATP-binding cassette transporter,PGP161abcpp,b0914
+648,pgp181,"Phosphatidylglycerophosphate (dioctadec-11-enoyl, n-C18:1)",inner,Export,ATP-binding cassette transporter,PGP181abcpp,b0914
+649,pa120,"1,2-didodecanoyl-sn-glycerol 3-phosphate",inner,Export,ATP-binding cassette transporter,PA120abcpp,b0914
+650,ttdcea,Tetradecenoate (n-C14:1),inner,Import,ATP-binding cassette transporter,FACOAL141t2pp,"b1701, b1805"
+651,ttdcea,Tetradecenoate (n-C14:1),outer,Import,Diffusion,TTDCEAtexi,b2344
+652,hdcea,Hexadecenoate (n-C16:1),outer,Import,Diffusion,HDCEAtexi,b2344
+653,hdcea,Hexadecenoate (n-C16:1),inner,Import,ATP-binding cassette transporter,FACOAL161t2pp,"b1701, b1805"
+654,pa160,"1,2-dihexadecanoyl-sn-glycerol 3-phosphate",inner,Export,ATP-binding cassette transporter,PA160abcpp,b0914
+655,pa181,"1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate",inner,Export,ATP-binding cassette transporter,PA181abcpp,b0914
+656,12dgr141,"1,2-Diacyl-sn-glycerol (ditetradec-7-enoyl, n-C14:1)",inner,Import,Diffusion,12DGR141tipp,
+657,progly,L-Prolinylglycine,inner,Import,ATP-binding cassette transporter,PROGLYabcpp,"b3544, b3543, b3541, b3542, b3540"
+658,progly,L-Prolinylglycine,outer,Import and Export,Diffusion,PROGLYtex,"b1377, b0929, b2215, b0241"
+659,gthrd,Reduced glutathione,inner,Import,ATP-binding cassette transporter,GTHRDabcpp,"b0831, b0829, b0832, b0830"
+660,gthrd,Reduced glutathione,outer,Import and Export,Diffusion,GTHRDtex,"b1377, b0929, b2215, b0241"
+661,gthrd,Reduced glutathione,inner,Export,ATP-binding cassette transporter,GTHRDabc2pp,"b0886, b0887"
+662,2agpg140,2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0),inner,Import,Diffusion,2AGPG140tipp,b2835
+663,2agpg160,2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0),inner,Import,Diffusion,2AGPG160tipp,b2835
+664,pg160,"Phosphatidylglycerol (dihexadecanoyl, n-C16:0)",inner,Export,ATP-binding cassette transporter,PG160abcpp,b0914
+665,pgp140,"Phosphatidylglycerophosphate (ditetradecanoyl, n-C14:0)",inner,Export,ATP-binding cassette transporter,PGP140abcpp,b0914
+666,34dhpac,"3,4-Dihydroxyphenylacetaldehyde",outer,Import and Export,Diffusion,34dhpactex,"b1377, b0929, b2215, b0241"
+667,fe3dhbzs,"Ferric 2,3-dihydroxybenzoylserine",outer,Import,Proton antiport,FE3DHBZStonex,"b0805, b3006, b1252, b3005, b2155"
+668,23dappa,"2,3-diaminopropionate",inner,Import,Proton symport,23DAPPAt2pp,
+669,23dappa,"2,3-diaminopropionate",outer,Import and Export,Diffusion,23DAPPAtex,"b1377, b0929, b2215, b0241"
+670,gsn,Guanosine,inner,Import,Proton symport,GSNt2pp,b2964
+671,gsn,Guanosine,inner,Export,Proton antiport,GSNt3pp,b3662
+672,gsn,Guanosine,outer,Import and Export,Diffusion,GSNtex,"b1377, b0929, b2215, b0241"
+673,udcpp,Undecaprenyl phosphate,inner,Import,Diffusion,UDCPPtppi,
+674,minohp,Myo-Inositol hexakisphosphate,outer,Import,Diffusion,MINOHPtexi,
+675,12ppd__R,"(R)-Propane-1,2-diol",inner,Import and Export,Diffusion,12PPDRtpp,
+676,12ppd__R,"(R)-Propane-1,2-diol",outer,Import and Export,Diffusion,12PPDRtex,"b1377, b0929, b2215, b0241"
+677,kdo2lipid4,KDO(2)-lipid IV(A),outer,Export,ATP-binding cassette transporter,K2L4Aabctex,"b3199, b0641, b0054, b3201, b3200, b4261, b4262"
+678,kdo2lipid4,KDO(2)-lipid IV(A),inner,Export,ATP-binding cassette transporter,K2L4Aabcpp,b0914
+679,colipa,Core oligosaccharide lipid A,inner,Export,ATP-binding cassette transporter,COLIPAabcpp,b0914
+680,colipa,Core oligosaccharide lipid A,outer,Export,ATP-binding cassette transporter,COLIPAabctex,"b3199, b0641, b0054, b3201, b3200, b4261, b4262"
+681,f6p,D-Fructose 6-phosphate,inner,Import,pi antiporter,F6Pt6_2pp,b3666
+682,f6p,D-Fructose 6-phosphate,outer,Import and Export,Diffusion,F6Ptex,"b1377, b0929, b2215, b0241"
+683,ppal,Propanal,outer,Import and Export,Diffusion,PPALtex,"b1377, b0929, b2215, b0241"
+684,ppal,Propanal,inner,Import and Export,Diffusion,PPALtpp,
+685,gam6p,D-Glucosamine 6-phosphate,inner,Import,pi antiporter,GAM6Pt6_2pp,b3666
+686,gam6p,D-Glucosamine 6-phosphate,outer,Import and Export,Diffusion,GAMAN6Ptex,"b1377, b0929, b2215, b0241"
+687,ca2,Calcium,outer,Import and Export,Diffusion,CA2tex,"b1377, b0929, b2215, b0241"
+688,ca2,Calcium,inner,Export,Proton antiport,CA2t3pp,b1216
+689,ca2,Calcium,inner,Import and Export,Sodium antiport,CAt6pp,b3196
+690,pe141,"Phosphatidylethanolamine (ditetradec-7-enoyl, n-C14:1)",inner,Export,ATP-binding cassette transporter,PE141abcpp,b0914
+691,pe160,"Phosphatidylethanolamine (dihexadecanoyl, n-C16:0)",inner,Export,ATP-binding cassette transporter,PE160abcpp,b0914
+692,pe161,"Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)",inner,Export,ATP-binding cassette transporter,PE161abcpp,b0914
+693,pg140,"Phosphatidylglycerol (ditetradecanoyl, n-C14:0)",inner,Export,ATP-binding cassette transporter,PG140abcpp,b0914
+694,pg141,"Phosphatidylglycerol (ditetradec-7-enoyl, n-C14:1)",inner,Export,ATP-binding cassette transporter,PG141abcpp,b0914
+695,12dgr140,"1,2-Diacyl-sn-glycerol (ditetradecanoyl, n-C14:0)",inner,Import,Diffusion,12DGR140tipp,
+696,pg180,"Phosphatidylglycerol (dioctadecanoyl, n-C18:0)",inner,Export,ATP-binding cassette transporter,PG180abcpp,b0914
+697,12dgr160,"1,2-Diacyl-sn-glycerol (dihexadecanoyl, n-C16:0)",inner,Import,Diffusion,12DGR160tipp,
+698,pg181,"Phosphatidylglycerol (dioctadec-11-enoyl, n-C18:1)",inner,Export,ATP-binding cassette transporter,PG181abcpp,b0914
+699,pgp141,"Phosphatidylglycerophosphate (ditetradec-7-enoyl, n-C14:1)",inner,Export,ATP-binding cassette transporter,PGP141abcpp,b0914
+700,pgp160,"Phosphatidylglycerophosphate (dihexadecanoyl, n-C16:0)",inner,Export,ATP-binding cassette transporter,PGP160abcpp,b0914
+701,12dgr180,"1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0)",inner,Import,Diffusion,12DGR180tipp,
+702,pgp180,"Phosphatidylglycerophosphate (dioctadecanoyl, n-C18:0)",inner,Export,ATP-binding cassette transporter,PGP180abcpp,b0914
+703,pa140,"1,2-ditetradecanoyl-sn-glycerol 3-phosphate",inner,Export,ATP-binding cassette transporter,PA140abcpp,b0914
+704,12dgr120,"1,2-Diacyl-sn-glycerol (didodecanoyl, n-C12:0)",inner,Import,Diffusion,12DGR120tipp,
+705,pg120,"Phosphatidylglycerol (didodecanoyl, n-C12:0)",inner,Export,ATP-binding cassette transporter,PG120abcpp,b0914
+706,pe140,"Phosphatidylethanolamine (ditetradecanoyl, n-C14:0)",inner,Export,ATP-binding cassette transporter,PE140abcpp,b0914
+707,2agpe140,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0),inner,Import,Diffusion,2AGPE140tipp,b2835
+708,2agpe160,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0),inner,Import,Diffusion,2AGPE160tipp,b2835
+709,2agpe180,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0),inner,Import,Diffusion,2AGPE180tipp,b2835
+710,2agpe141,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1),inner,Import,Diffusion,2AGPE141tipp,b2835
+711,2agpe161,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:1),inner,Import,Diffusion,2AGPE161tipp,b2835
+712,2hdec9eg3p,2-hexadec-9-enoyl-sn-glycerol 3-phosphate,inner,Import,Diffusion,2AGPA161tipp,b2835
+713,2odec11eg3p,2-octadec-11-enoyl-sn-glycerol 3-phosphate,inner,Import,Diffusion,2AGPA181tipp,b2835
+714,2agpg120,2-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0),inner,Import,Diffusion,2AGPG120tipp,b2835
+715,pa141,"1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate",inner,Export,ATP-binding cassette transporter,PA141abcpp,b0914
+716,pa161,"1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate",inner,Export,ATP-binding cassette transporter,PA161abcpp,b0914
+717,pa180,"1,2-dioctadecanoyl-sn-glycerol 3-phosphate",inner,Export,ATP-binding cassette transporter,PA180abcpp,b0914
+718,pe120,"Phosphatidylethanolamine (didodecanoyl, n-C12:0)",inner,Export,ATP-binding cassette transporter,PE120abcpp,b0914
+719,pe180,"Phosphatidylethanolamine (dioctadecanoyl, n-C18:0)",inner,Export,ATP-binding cassette transporter,PE180abcpp,b0914
+720,cgly,Cys Gly C5H10N2O3S,inner,Import,ATP-binding cassette transporter,CGLYabcpp,"b3544, b3543, b3541, b3542, b3540"
+721,cgly,Cys Gly C5H10N2O3S,outer,Import and Export,Diffusion,CGLYtex,"b1377, b0929, b2215, b0241"
+722,gthox,Oxidized glutathione,outer,Import and Export,Diffusion,GTHOXtex,"b1377, b0929, b2215, b0241"
+723,2agpe181,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1),inner,Import,Diffusion,2AGPE181tipp,b2835
+724,2tdecg3p,2-tetradecanoyl-sn-glycerol 3-phosphate,inner,Import,Diffusion,2AGPA140tipp,b2835
+725,2hdecg3p,2-hexadecanoyl-sn-glycerol 3-phosphate,inner,Import,Diffusion,2AGPA160tipp,b2835
+726,2odecg3p,2-octadecanoyl-sn-glycerol 3-phosphate,inner,Import,Diffusion,2AGPA180tipp,b2835
+727,2tdec7eg3p,2-tetradec-7-enoyl-sn-glycerol 3-phosphate,inner,Import,Diffusion,2AGPA141tipp,b2835
+728,pe181,"Phosphatidylethanolamine (dioctadec-11-enoyl, n-C18:1)",inner,Export,ATP-binding cassette transporter,PE181abcpp,b0914
+729,12dgr161,"1,2-Diacyl-sn-glycerol (dihexadec-9-enoyl, n-C16:1)",inner,Import,Diffusion,12DGR161tipp,
+730,12dgr181,"1,2-Diacyl-sn-glycerol (dioctadec-11-enoyl, n-C18:1)",inner,Import,Diffusion,12DGR181tipp,
+731,5dglcn,5-Dehydro-D-gluconate,outer,Import and Export,Diffusion,5DGLCNtex,"b1377, b0929, b2215, b0241"
+732,5dglcn,5-Dehydro-D-gluconate,inner,Import and Export,Proton symport,5DGLCNt2rpp,b4265
+733,galctn__L,L-Galactonate,outer,Import and Export,Diffusion,GALCTNLtex,"b1377, b0241, b0929, b2215"
+734,galctn__L,L-Galactonate,inner,Import,Proton symport,GALCTNLt2pp,b4356
+735,mal__D,D-Malate,outer,Import and Export,Diffusion,MALDtex,"b1377, b0929, b2215, b0241"
+736,mal__D,D-Malate,inner,Import,Proton antiport,MALDt2_2pp,b3528
+737,orot,Orotate C5H3N2O4,inner,Import,Proton antiport,OROTt2_2pp,b3528
+738,orot,Orotate C5H3N2O4,outer,Import and Export,Diffusion,OROTtex,"b1377, b0241, b0929, b2215"
+739,ppa,Propionate (n-C3:0),outer,Import and Export,Diffusion,PPAtex,"b1377, b0929, b2215, b0241"
+740,ppa,Propionate (n-C3:0),inner,Import,Sodium symport,PPAt4pp,b1015
+741,psclys,Psicoselysine,inner,Import,Proton symport,PSCLYSt2pp,b3370
+742,psclys,Psicoselysine,outer,Import and Export,Diffusion,PSCLYStex,"b1377, b0241, b0929, b2215"
+743,5mtr,5-Methylthio-D-ribose,inner,Export,Proton symport,5MTRtpp,
+744,5mtr,5-Methylthio-D-ribose,outer,Import and Export,Diffusion,5MTRtex,"b1377, b0241, b0929, b2215"
+745,thym,Thymine C5H6N2O2,inner,Export,Proton antiport,THYMt3pp,
+746,thym,Thymine C5H6N2O2,outer,Import and Export,Diffusion,THYMtex,"b1377, b0929, b2215, b0241"
+747,LalaDglu,L-alanine-D-glutamate,inner,Import,Proton symport,LALADGLUtpp,"b1634, b0709, b3496, b4130"
+748,LalaDglu,L-alanine-D-glutamate,outer,Import and Export,Diffusion,LALADGLUtex,"b1377, b0929, b2215, b0241"
+749,LalaLglu,L-alanine-L-glutamate,outer,Import and Export,Diffusion,LALALGLUtex,"b1377, b0929, b2215, b0241"
+750,LalaLglu,L-alanine-L-glutamate,inner,Import,Proton symport,LALALGLUtpp,"b1634, b0709, b3496, b4130"
+751,3hpp,3-Hydroxypropanoate,inner,Export,Proton symport,3HPPtpp,
+752,3hpp,3-Hydroxypropanoate,outer,Import and Export,Diffusion,3HPPtex,"b1377, b0241, b0929, b2215"
+753,cm,Chloramphenicol,outer,Export,Proton symport,CMtpp,"b3035, b0462, b2470, b0463"
+754,cm,Chloramphenicol,outer,Import and Export,Diffusion,CMtex,"b1377, b0241, b0929, b2215"
+755,fusa,Fusidic acid,outer,Export,Proton symport,FUSAtpp,"b3035, b0462, b2470, b0463"
+756,fusa,Fusidic acid,outer,Import and Export,Diffusion,FUSAtex,"b1377, b0241, b0929, b2215"
+757,rfamp,Rifampin,outer,Export,Proton symport,RFAMPtpp,"b3035, b0462, b2470, b0463"
+758,rfamp,Rifampin,outer,Import and Export,Diffusion,RFAMPtex,
+759,mincyc,Minocycline,outer,Import and Export,Diffusion,MINCYCtex,"b1377, b0929, b2215, b0241"
+760,mincyc,Minocycline,outer,Export,Proton symport,MINCYCtpp,"b3035, b0462, b2470, b0463"
+761,meoh,Methanol,outer,Import and Export,Diffusion,MEOHtex,"b1377, b0241, b0929, b2215"
+762,meoh,Methanol,inner,Import and Export,Diffusion,MEOHtrpp,
+763,doxrbcn,Doxorubicin,outer,Import and Export,Diffusion,DOXRBCNtex,"b1377, b0241, b0929, b2215"
+764,doxrbcn,Doxorubicin,outer,Export,Proton symport,DOXRBCNtpp,"b3035, b0462, b2470, b0463"
+765,sel,Selenate,outer,Import and Export,Diffusion,SELtex,"b1377, b0241, b0929, b2215"
+766,sel,Selenate,inner,Import,ATP-binding cassette transporter,SELabcpp,"b2425, b2424, b2423, b3917, b2422"
+767,ttrcyc,Tetracycline,outer,Export,Proton symport,TTRCYCtpp,"b3035, b0462, b2470, b0463"
+768,ttrcyc,Tetracycline,outer,Import and Export,Diffusion,TTRCYCtex,"b1377, b0241, b0929, b2215"
+769,novbcn,Novobiocin,outer,Import and Export,Diffusion,NOVBCNtex,
+770,novbcn,Novobiocin,outer,Export,Proton symport,NOVBCNtpp,"b3035, b0462, b2470, b0463"
+771,slnt,Selenite,inner,Import,ATP-binding cassette transporter,SLNTabcpp,"b2425, b2424, b2423, b3917, b2422"
+772,slnt,Selenite,outer,Import and Export,Diffusion,SLNTtex,"b1377, b0241, b0929, b2215"
+773,acolipa,4-Amino-4-deoxy-L-arabinose modified core oligosaccharide lipid A,outer,Export,ATP-binding cassette transporter,ACOLIPAabctex,"b3199, b0641, b0054, b3201, b3200, b4261, b4262"
+774,eca4colipa,(enterobacterial common antigen)x4 core oligosaccharide lipid A,outer,Export,ATP-binding cassette transporter,ECA4COLIPAabctex,"b3199, b0641, b0054, b3201, b3200, b4261, b4262"
+775,colipap,Core oligosaccharide lipid A diphosphate,outer,Export,ATP-binding cassette transporter,COLIPAPabctex,"b3199, b0641, b0054, b3201, b3200, b4261, b4262"
+776,ch4,Methane,inner,Export,Diffusion,CH4t2pp,
+777,ch4,Methane,outer,Import and Export,Diffusion,CH4tex,
+778,tartr__D,D-tartrate,inner,Import,Proton antiport,TARTt2_3pp,b4123
+779,tartr__D,D-tartrate,outer,Import and Export,Diffusion,TARTRDtex,"b1377, b0929, b2215, b0241"
+780,tartr__D,D-tartrate,inner,Import and Export,succ antiporter,SUCTARTtpp,b4123
+781,btn,Biotin,outer,Import and Export,Diffusion,BTNtex,"b1377, b0929, b2215, b0241"
+782,btn,Biotin,inner,Import,Proton symport,BTNt2ipp,
+783,fe3dhbzs3,2-3-dihydroxybenzoylserine trimer-Fe-III,inner,Import,ATP-binding cassette transporter,DHBSZ3FEabcpp,"b0592, b0590, b0589, b0588"
+784,dxylnt,D-Xylonate,inner,Import and Export,Diffusion,DXYLONtpp,
+785,dxylnt,D-Xylonate,outer,Import and Export,Diffusion,DXYLONtex,"b1377, b0929, b2215"
+786,2dglc,2 Deoxy D glucose C6H12O5,outer,Import and Export,Diffusion,2DGLCtex,"b1377, b0929, b2215, b0241"
+787,2dglc,2 Deoxy D glucose C6H12O5,inner,Import,PEP group translocation,2DGLCptspp,"b2415, b1819, b1818, b1817, b2416"
+788,arbt,Arbutin C12H16O7,outer,Import,Diffusion,ARBTtex,"b1377, b0241, b0929, b2215"
+789,arbt,Arbutin C12H16O7,inner,Import,PEP group translocation,ARBTptspp,"b3722, b2715, b2415, b2416"
+790,pydx,Pyridoxal,outer,Import and Export,Diffusion,PYDXtex,"b1377, b0241, b0929, b2215"
+791,pydx,Pyridoxal,inner,Import,Diffusion,PYDXtpp,
+792,23doguln,"2,3-Dioxo-L-gulonate",inner,Import,Sodium symport,23DOGULNt4pp,"b3579, b3578, b3577"
+793,pydxn,Pyridoxine,inner,Import,Diffusion,PYDXNtpp,
+794,pydxn,Pyridoxine,outer,Import and Export,Diffusion,PYDXNtex,"b1377, b0241, b0929, b2215"
+795,pydam,Pyridoxamine,inner,Import,Diffusion,PYDAMtpp,
+796,pydam,Pyridoxamine,outer,Import and Export,Diffusion,PYDAMtex,"b1377, b0241, b0929, b2215"
+797,psuri,Pseudouridine,outer,Import and Export,Diffusion,PSURItex,"b1377, b0241, b0929, b2215"
+798,psuri,Pseudouridine,inner,Import,Diffusion,PSURItpp,b2164
+799,chtbs,"N,N'-diacetylchitobiose",outer,Import and Export,Diffusion,CHTBStex,"b1377, b0241, b0929, b0681, b2215"
+800,chtbs,"N,N'-diacetylchitobiose",inner,Import,PEP group translocation,CHTBSptspp,"b1736, b1738, b2415, b1737, b2416"
+801,mththf,"(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran",inner,Import,ATP-binding cassette transporter,AI2abcpp,"b1514, b1516, b1515, b1513"
+802,mththf,"(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran",outer,Import and Export,Diffusion,AI2tex,"b1377, b0241, b0929, b2215"
+803,mththf,"(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran",inner,Export,Diffusion,AI2tpp,b1601
+804,f,Fluoride,inner,Export,Diffusion,Ftpp,b0624
+805,f,Fluoride,outer,Import and Export,Diffusion,Ftex,"b1377, b0929, b2215, b0241"
+806,dhps,"2,3-Dihydroxypropane-1-sulfonate",outer,Import and Export,Diffusion,DHPStex,b3875
+807,dhps,"2,3-Dihydroxypropane-1-sulfonate",inner,Export,Diffusion,DHPStr,b3877
+808,sq,Sulphoquinovose,inner,Import,Diffusion,SQtr,b3876
+809,sq,Sulphoquinovose,outer,Import and Export,Diffusion,SQtex,b3875
+810,fmn,FMN C17H19N4O9P,outer,Import and Export,Diffusion,FMNtex,"b1377, b0241, b0929, b2215"
+811,fmn,FMN C17H19N4O9P,inner,Export,Diffusion,FMNt,b1985
+812,quin,Quinate,outer,Import and Export,Diffusion,QUIN2tex,"b1377, b0929, b2215, b0241"
+813,quin,Quinate,inner,Import and Export,Diffusion,QUIN2tpp,
+814,cholate,Cholate c,inner,Export,Proton antiport,CHOLATEtpp,b4337
+815,4abzglu,4-aminobenzoyl-glutamate,outer,Import and Export,Diffusion,4ABZGLUtex,"b1377, b0929, b2215, b0241"
+816,4abzglu,4-aminobenzoyl-glutamate,inner,Import and Export,Proton symport,4ABZGLUtr,b1336
+817,cysi__L,L Cystine C6H12N2O4S2,inner,Export,Diffusion,CYSItpp,b3943
+818,cysi__L,L Cystine C6H12N2O4S2,outer,Import and Export,Diffusion,CYSItex,"b1377, b0241, b0929, b2215"
+819,fad,Flavin adenine dinucleotide oxidized,outer,Import and Export,Diffusion,FADtex,"b1377, b0929, b2215, b0241"
+820,fad,Flavin adenine dinucleotide oxidized,inner,Export,Diffusion,FADt,b1985
+821,puacgam,"Poly-?-1,6-N-acetyl-D-glucosamine",inner,Export,Diffusion,PUACGAMtr,"b1022, b1021"
+822,4hbz,4-Hydroxybenzoate,inner,Export,Proton antiport,4HBZt3pp,"b3240, b3241"
+823,urate,Urate C5H4N4O3,outer,Import and Export,Diffusion,URATEtex,"b1377, b0929, b2215, b0241"
+824,urate,Urate C5H4N4O3,inner,Import,Proton symport,URATEtpp,b2888
+825,metglcur,1-O-methyl-Beta-D-glucuronate,inner,Import,Proton symport,METGLCURt2pp,b1616
+826,metglcur,1-O-methyl-Beta-D-glucuronate,outer,Import and Export,Diffusion,METGLCURtex,"b1377, b0929, b2215, b0241"
+827,cs1,Cesium ion,outer,Import and Export,Diffusion,CS1tex,"b1377, b0241, b0929, b2215"
+828,mepn,Methylphosphonic acid,outer,Import and Export,Diffusion,MEPNtex,"b1377, b0241, b0929, b2215"
+829,mepn,Methylphosphonic acid,inner,Import,ATP-binding cassette transporter,MEPNabcpp,"b4104, b4105, b4106"
+830,o16a4colipa,(O16 antigen)x4 core oligosaccharide lipid A,outer,Export,ATP-binding cassette transporter,O16A4COLIPAabctex,"b3199, b0641, b0054, b3201, b3200, b4261, b4262"
+831,enlipa,Phosphoethanolamine KDO(2)-lipid (A),outer,Export,ATP-binding cassette transporter,ENLIPAabctex,"b3199, b0641, b0054, b3201, b3200, b4261, b4262"

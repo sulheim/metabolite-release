@@ -15,15 +15,19 @@ OD to gDW -  multiple values used
 - https://www.sciencedirect.com/science/article/pii/S1096717618303537?via%3Dihub 0.32 # 
 """
 
+b_subtilis_N_per_OD =  2*1e8 #cells per mL at OD660 = 1 https://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&v=4&id=105286
+b_subtilis_weight = 2.2*1e-13 # https://bionumbers.hms.harvard.edu/bionumber.aspx?id=115203&ver=1&trm=bacillus+weight&org=
 
 gDW_per_OD = {
-    'ecoli': 0.32, # https://www.sciencedirect.com/science/article/pii/S1096717618303537?via%3Dihub
-    'yeast' : np.mean([0.644, 0.848])
+    'e_coli': 0.32, # gDW/L https://www.sciencedirect.com/science/article/pii/S1096717618303537?via%3Dihub
+    'yeast' : np.mean([0.644, 0.848]),
+    'b_licheniformis': 0.32, # Assume same weight as E.coli (but I think it is bigger -> maybe higher number?), calculation is worng #b_subtilis_weight*b_subtilis_N_per_OD*1000
+    'c_glutamicum': 0.32 #Assume same as E. coli
 }
 
 
 
-def get_leakage(data_folder, organism, time, unit = '/gDW', method = 'one-way-diff'):
+def get_leakage(data_folder, organism, time, unit = '/gDW', method = 'one-way-diff', only_significant_changes = True):
     exometabolites_folder = Path(data_folder)
     
     # Filenames
@@ -42,20 +46,22 @@ def get_leakage(data_folder, organism, time, unit = '/gDW', method = 'one-way-di
     for met_abbrv in met_abbreviations:
         # leakage, std = estimate_leakage_rate_for_met(time, met_abbrv, df_OD, df_exometabolites, df_exometabolites_std)
         leakage = estimate_leakage_rate_for_met_no_std(time, met_abbrv, df_OD, df_exometabolites, df_exometabolites_std,
-                                                       organism = organism, unit = unit, method = method)
+                                                       organism = organism, unit = unit, method = method, 
+                                                       only_significant_changes=only_significant_changes)
         leakage_list.append(leakage)
         # leakage_uncertainty_list.append(std)
     #print(leakage_list)
     if unit == 'OD':
-        name = "Leakage (uM/OD/h)"
+        name = "Leakage (mM/OD/h)"
     else:
-        name = "Leakage (mM/gDW/h)"
+        name = "Leakage (mmol/gDW/h)"
     leakage_df = pd.DataFrame({"Metabolite": met_abbreviations, name:leakage_list})#,"Leakage std": leakage_uncertainty_list})#, columns = ["Time", , "Leakage std"])
     return leakage_df
     
     
-def estimate_leakage_rate_for_met_no_std(time, met_abbrv, df_OD, df_exometabolites, df_exometabolites_std, organism, method = 'spline', unit = 'OD'):
-
+def estimate_leakage_rate_for_met_no_std(time, met_abbrv, df_OD, df_exometabolites, df_exometabolites_std, organism, method = 'spline', 
+                                            unit = 'OD', only_significant_changes = True):
+    # print("Method: ", method)     
     if method == 'spline':
         w = 1/df_OD['OD std']
         w[np.isnan(w)] = np.min(w)
@@ -85,22 +91,31 @@ def estimate_leakage_rate_for_met_no_std(time, met_abbrv, df_OD, df_exometabolit
         if t2==t1:
             t2 = t1+1
 
-        # OD_mean = df_OD.loc[[time, time+1], "OD mean"].mean()
-        OD = df_OD.loc[t1, 'OD mean'] + (df_OD.loc[t2, 'OD mean']-df_OD.loc[t1, 'OD mean'])*(time-t1)
+        OD_mean = df_OD.loc[[t1, t2], "OD mean"].mean()
+        # OD = df_OD.loc[t1, 'OD mean'] + (df_OD.loc[t2, 'OD mean']-df_OD.loc[t1, 'OD mean'])*(time-t1)
         delta_time = 1 # Divide by delta time = 2 hours
         # met_conc
         met_conc_1 = df_exometabolites.loc[t1, met_abbrv]
-        met_conc_2 = df_exometabolites.loc[t2, met_abbrv]    
+        met_conc_2 = df_exometabolites.loc[t2, met_abbrv]
+        met_conc_1_std = df_exometabolites_std.loc[t1, met_abbrv]
+        met_conc_2_std = df_exometabolites_std.loc[t2, met_abbrv]
 
-        # leakage rate
-        leakage_per_h = (met_conc_2 - met_conc_1) / delta_time 
-        leakage_rate_per_h_per_OD = leakage_per_h / OD_mean
-
+        # Test stats(Welch's t-test)
+        n_obs = 3
+        t_score, p_val = st.ttest_ind_from_stats(met_conc_1, met_conc_1_std, n_obs, met_conc_2, met_conc_2_std, n_obs, equal_var = False)
+        if only_significant_changes and (p_val > 0.05):
+            leakage_rate_per_h_per_OD = 0
+        else:
+            # leakage rate
+            leakage_per_h = (met_conc_2 - met_conc_1) / delta_time 
+            leakage_rate_per_h_per_OD = leakage_per_h / OD_mean
+            
+    # The /1000 is to convert from uM to mM
     if unit == 'OD':
-        return leakage_rate_per_h_per_OD
+        return leakage_rate_per_h_per_OD/1000
     else:
         # OD to gDW
-        return leakage_rate_per_h_per_OD/gDW_per_OD[organism]
+        return leakage_rate_per_h_per_OD/gDW_per_OD[organism]/1000
 
 def estimate_leakage_rate_for_met(time, met_abbrv, df_OD, df_exometabolites, df_exometabolites_std):
     """
@@ -157,7 +172,15 @@ def get_glucose_uptake_rate(data_folder, organism, time, unit = 'gDW', method = 
         glc_per_h_per_od = glc_per_h/df_OD.loc[time, "OD mean"]
     else:
         # One-way diff
-        raise NotImplementedError
+        # One-way diff
+        t1 = np.floor(time)
+        t2 = np.ceil(time)
+        if t2==t1:
+            t2 = t1+1
+
+        OD_mean = df_OD.loc[[t1, t2], "OD mean"].mean()
+        glc_per_h = (df_glucose.loc[t2, 'Glucose mean']-df_glucose.loc[t1, 'Glucose mean'])/1.0
+        glc_per_h_per_od = glc_per_h/OD_mean
 
     
     Mw_glc = 180.156
@@ -190,15 +213,22 @@ def get_growth_rate(data_folder, organism, time, method = 'spline'):
 
 
     #
-def estimate_shadow_price_for_met(model, m, solution, delta = 0.1):
-    with model:
+def estimate_shadow_price_for_met(model, m, solution, delta = 0.1, existing_flux = None):
+    with model as M:
         try:
-            r = model.reactions.get_by_id('DM_{0}'.format(m.id))
+            r = M.reactions.get_by_id('DM_{0}'.format(m.id))
         except KeyError:
-            r = model.add_boundary(m, type = 'demand')
+            r = M.add_boundary(m, type = 'demand')
         old_lb = r.lower_bound
-        r.bounds = (old_lb + delta, 1000)
-        sp = (model.slim_optimize()-solution.objective_value)/delta
+        if old_lb != 0:
+            print("existing DM with constraints for ", m.id)
+            r.bounds = (old_lb + delta, 1000)
+        else:
+            r.bounds = (delta, 1000)
+        if existing_flux:
+            r_id, flux = existing_flux
+            M.reactions.get_by_id(r_id).bounds = (flux, flux)
+        sp = (M.slim_optimize()-solution.objective_value)/delta
     return sp
     
 def estimate_shadow_prices(model, intracellular_only = True, delta = 0.1, metabolites = []):
