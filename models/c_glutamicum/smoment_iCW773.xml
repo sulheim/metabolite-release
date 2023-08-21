@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" sboTerm="SBO:0000624" level="3" version="1" fbc:required="false">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" metaid="meta_" sboTerm="SBO:0000624" level="3" version="1" fbc:required="false">
   <model metaid="meta_ecCGL1_sMOMENT_style" id="ecCGL1_sMOMENT_style" fbc:strict="true">
     <listOfUnitDefinitions>
       <unitDefinition id="mmol_per_gDW_per_hr">
@@ -972,7 +972,7 @@
       <parameter sboTerm="SBO:0000626" id="cobra_0_bound" value="0" constant="true"/>
       <parameter sboTerm="SBO:0000626" id="minus_inf" value="-INF" constant="true"/>
       <parameter sboTerm="SBO:0000626" id="plus_inf" value="INF" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_glc_e_reverse_upper_bound" value="4.67" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_glc_e_lower_bound" value="-4.67" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_prot_pool_reaction_upper_bound" value="0.129" units="mmol_per_gDW_per_hr" constant="true"/>
     </listOfParameters>
     <listOfReactions>
@@ -10188,7 +10188,7 @@
           <speciesReference species="M_asp__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_ca2_e" name="Calcium exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_ca2_e" name="Calcium exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_ca2_e_reverse</p>
@@ -10213,7 +10213,7 @@
           <speciesReference species="M_cmp_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_co2_e" name="CO2 exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_co2_e" name="CO2 exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_co2_e_reverse</p>
@@ -10223,7 +10223,7 @@
           <speciesReference species="M_co2_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_cobalt2_e" name="Co2+ exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_cobalt2_e" name="Co2+ exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_cobalt2_e_reverse</p>
@@ -10238,7 +10238,7 @@
           <speciesReference species="M_cu_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_cu2_e" name="Cu2+ exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_cu2_e" name="Cu2+ exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_cu2_e_reverse</p>
@@ -10423,7 +10423,7 @@
           <speciesReference species="M_gam6p_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_glc_e" name="D-Glucose exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_glc_e" name="D-Glucose exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_glc_e_lower_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_glc_e_reverse</p>
@@ -10513,7 +10513,7 @@
           <speciesReference species="M_h2_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_h2o_e" name="H2O exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_h2o_e" name="H2O exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_h2o_e_reverse</p>
@@ -10568,7 +10568,7 @@
           <speciesReference species="M_ins_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_k_e" name="K+ exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_k_e" name="K+ exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_k_e_reverse</p>
@@ -10623,7 +10623,7 @@
           <speciesReference species="M_met__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_mg2_e" name="Mg exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_mg2_e" name="Mg exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_mg2_e_reverse</p>
@@ -10633,7 +10633,7 @@
           <speciesReference species="M_mg2_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_mn2_e" name="Mn2+ exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_mn2_e" name="Mn2+ exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_mn2_e_reverse</p>
@@ -10653,7 +10653,7 @@
           <speciesReference species="M_n2o_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_na1_e" name="Sodium exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_na1_e" name="Sodium exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_na1_e_reverse</p>
@@ -10668,7 +10668,7 @@
           <speciesReference species="M_nac_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_nh4_e" name="Ammonia exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_nh4_e" name="Ammonia exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_nh4_e_reverse</p>
@@ -10678,7 +10678,7 @@
           <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_ni2_e" name="Ni2+ exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_ni2_e" name="Ni2+ exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_ni2_e_reverse</p>
@@ -10708,7 +10708,7 @@
           <speciesReference species="M_no3_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_o2_e" name="O2 exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_o2_e" name="O2 exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_o2_e_reverse</p>
@@ -10743,7 +10743,7 @@
           <speciesReference species="M_pheme_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_pi_e" name="Phosphate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_pi_e" name="Phosphate exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_pi_e_reverse</p>
@@ -10813,7 +10813,7 @@
           <speciesReference species="M_so3_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_so4_e" name="Sulfate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_so4_e" name="Sulfate exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_so4_e_reverse</p>
@@ -10943,7 +10943,7 @@
           <speciesReference species="M_xyl__D_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_zn2_e" name="Zinc exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_zn2_e" name="Zinc exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_zn2_e_reverse</p>
@@ -20498,7 +20498,7 @@
           <speciesReference species="M_biomass_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_BIOTIN" name="EX_BIOTIN" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_BIOTIN" name="EX_BIOTIN" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_BIOTIN_reverse</p>
@@ -20508,7 +20508,7 @@
           <speciesReference species="M_btn_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction id="R_EX_cl" name="EX_cl" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_EX_cl" name="EX_cl" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>reflection: EX_cl_reverse</p>
@@ -25834,166 +25834,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_Cgl2563"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_EX_ca2_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_ca2_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_ca2_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_co2_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_co2_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_co2_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_cobalt2_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_cobalt2_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_cobalt2_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_cu2_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_cu2_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_cu2_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_glc_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_EX_glc_e_reverse_upper_bound">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_glc_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_glc__D_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_h2o_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_h2o_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_h2o_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_k_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_k_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_k_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_mg2_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_mg2_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_mg2_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_mn2_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_mn2_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_mn2_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_na1_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_na1_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_na1_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_nh4_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_nh4_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_ni2_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_ni2_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_ni2_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_o2_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_o2_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_o2_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_pi_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_pi_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_so4_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_so4_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_so4_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_zn2_e_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_zn2_e</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_zn2_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
       <reaction id="R_ACBCP_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -28194,26 +28034,6 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_etoh_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_BIOTIN_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_BIOTIN</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_btn_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_EX_cl_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>reflection: EX_cl</p>
-          </html>
-        </notes>
-        <listOfProducts>
-          <speciesReference species="M_cl_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction id="R_F6Ptex_reverse" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
