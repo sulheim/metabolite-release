@@ -132,3 +132,4 @@ dmypy.json
 *.sublime-workspace
 *.png
 *.pdf
+results/*
