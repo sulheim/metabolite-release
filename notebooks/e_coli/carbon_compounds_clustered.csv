@@ -1,0 +1,105 @@
+,Exchange,PCA cluster,tSNE cluster,Metabolite,Metabolite ID
+0,EX_14glucan_e,2,0,"1,4-alpha-D-glucan",14glucan_e
+1,EX_2ddglcn_e,2,0,2-Dehydro-3-deoxy-D-gluconate,2ddglcn_e
+2,EX_4abut_e,1,3,4-Aminobutanoate,4abut_e
+3,EX_5dglcn_e,2,0,5-Dehydro-D-gluconate,5dglcn_e
+4,EX_LalaDglu_e,1,3,L-alanine-D-glutamate,LalaDglu_e
+5,EX_LalaLglu_e,1,3,L-alanine-L-glutamate,LalaLglu_e
+6,EX_ac_e,4,2,Acetate,ac_e
+7,EX_acac_e,1,3,Acetoacetate,acac_e
+8,EX_acald_e,4,2,Acetaldehyde,acald_e
+9,EX_acgam_e,2,0,N-Acetyl-D-glucosamine,acgam_e
+10,EX_acgam1p_e,2,0,N-Acetyl-D-glucosamine 1-phosphate,acgam1p_e
+11,EX_acmana_e,2,0,N-Acetyl-D-mannosamine,acmana_e
+12,EX_acmum_e,2,0,N-Acetylmuramate,acmum_e
+13,EX_acnam_e,2,0,N-Acetylneuraminate,acnam_e
+14,EX_akg_e,1,3,2-Oxoglutarate,akg_e
+15,EX_ala__D_e,3,2,D-Alanine,ala__D_e
+16,EX_ala__L_e,1,3,L-Alanine,ala__L_e
+17,EX_alaala_e,3,2,D-Alanyl-D-alanine,alaala_e
+18,EX_all__D_e,2,0,D-Allose,all__D_e
+19,EX_anhgm_e,2,0,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid,anhgm_e
+20,EX_arab__L_e,2,0,L-Arabinose,arab__L_e
+21,EX_arg__L_e,1,3,L-Arginine,arg__L_e
+22,EX_ascb__L_e,2,0,L-Ascorbate,ascb__L_e
+23,EX_asn__L_e,1,3,L-Asparagine,asn__L_e
+24,EX_asp__L_e,1,3,L-Aspartate,asp__L_e
+25,EX_but_e,3,2,Butyrate (n-C4:0),but_e
+26,EX_chtbs_e,2,0,"N,N'-diacetylchitobiose",chtbs_e
+27,EX_cit_e,2,0,Citrate,cit_e
+28,EX_dha_e,-1,2,Dihydroxyacetone,dha_e
+29,EX_etha_e,4,2,Ethanolamine,etha_e
+30,EX_etoh_e,-1,-1,Ethanol,etoh_e
+31,EX_f6p_e,2,0,D-Fructose 6-phosphate,f6p_e
+32,EX_fald_e,4,2,Formaldehyde,fald_e
+33,EX_fe3dcit_e,2,0,Fe(III)dicitrate,fe3dcit_e
+34,EX_for_e,4,-1,Formate,for_e
+35,EX_fru_e,2,0,D-Fructose,fru_e
+36,EX_fruur_e,-1,-1,D-Fructuronate,fruur_e
+37,EX_fuc__L_e,-1,-1,L-Fucose,fuc__L_e
+38,EX_fum_e,3,2,Fumarate,fum_e
+39,EX_g1p_e,2,0,D-Glucose 1-phosphate,g1p_e
+40,EX_g3pe_e,2,0,Sn-Glycero-3-phosphoethanolamine,g3pe_e
+41,EX_g3pg_e,2,0,Glycerophosphoglycerol,g3pg_e
+42,EX_g6p_e,2,0,D-Glucose 6-phosphate,g6p_e
+43,EX_gal_e,0,1,D-Galactose,gal_e
+44,EX_gal_bD_e,0,1,Beta D-Galactose,gal_bD_e
+45,EX_gal1p_e,0,1,Alpha-D-Galactose 1-phosphate,gal1p_e
+46,EX_galct__D_e,2,0,D-Galactarate,galct__D_e
+47,EX_galctn__D_e,2,0,D-Galactonate,galctn__D_e
+48,EX_galctn__L_e,2,0,L-Galactonate,galctn__L_e
+49,EX_galt_e,2,0,Galactitol,galt_e
+50,EX_galur_e,2,0,D-Galacturonate,galur_e
+51,EX_gam_e,0,1,D-Glucosamine,gam_e
+52,EX_gam6p_e,2,0,D-Glucosamine 6-phosphate,gam6p_e
+53,EX_glc__D_e,2,0,D-Glucose,glc__D_e
+54,EX_glcn_e,2,0,D-Gluconate,glcn_e
+55,EX_glcr_e,2,0,D-Glucarate,glcr_e
+56,EX_glcur_e,1,-1,D-Glucuronate,glcur_e
+57,EX_glcur1p_e,1,-1,D-Glucuronate 1-phosphate,glcur1p_e
+58,EX_gln__L_e,-1,-1,L-Glutamine,gln__L_e
+59,EX_glu__L_e,1,3,L-Glutamate,glu__L_e
+60,EX_gly_e,4,2,Glycine,gly_e
+61,EX_glyald_e,-1,2,D-Glyceraldehyde,glyald_e
+62,EX_glyc_e,-1,2,Glycerol,glyc_e
+63,EX_glyc__R_e,4,2,(R)-Glycerate,glyc__R_e
+64,EX_glyc2p_e,-1,-1,Glycerol 2-phosphate,glyc2p_e
+65,EX_glyc3p_e,-1,-1,Glycerol 3-phosphate,glyc3p_e
+66,EX_glyclt_e,4,2,Glycolate C2H3O3,glyclt_e
+67,EX_idon__L_e,2,0,L-Idonate,idon__L_e
+68,EX_lac__D_e,4,2,D-Lactate,lac__D_e
+69,EX_lac__L_e,3,2,L-Lactate,lac__L_e
+70,EX_lcts_e,0,1,Lactose C12H22O11,lcts_e
+71,EX_lyx__L_e,2,0,L-Lyxose,lyx__L_e
+72,EX_mal__D_e,4,2,D-Malate,mal__D_e
+73,EX_mal__L_e,3,2,L-Malate,mal__L_e
+74,EX_malt_e,2,0,Maltose C12H22O11,malt_e
+75,EX_man_e,0,1,D-Mannose,man_e
+76,EX_man6p_e,2,0,D-Mannose 6-phosphate,man6p_e
+77,EX_manglyc_e,2,0,2(alpha-D-Mannosyl)-D-glycerate,manglyc_e
+78,EX_melib_e,0,1,Melibiose C12H22O11,melib_e
+79,EX_mnl_e,2,0,D-Mannitol,mnl_e
+80,EX_orn_e,1,3,Ornithine,orn_e
+81,EX_pacald_e,2,0,Phenylacetaldehyde,pacald_e
+82,EX_ppa_e,1,3,Propionate (n-C3:0),ppa_e
+83,EX_pppn_e,1,3,Phenylpropanoate,pppn_e
+84,EX_pro__L_e,-1,2,L-Proline,pro__L_e
+85,EX_progly_e,3,-1,L-Prolinylglycine,progly_e
+86,EX_pser__L_e,4,2,O-Phospho-L-serine,pser__L_e
+87,EX_ptrc_e,1,-1,Putrescine,ptrc_e
+88,EX_pyr_e,4,2,Pyruvate,pyr_e
+89,EX_r5p_e,0,1,Alpha-D-Ribose 5-phosphate,r5p_e
+90,EX_rib__D_e,0,1,D-Ribose,rib__D_e
+91,EX_rmn_e,2,0,L-Rhamnose,rmn_e
+92,EX_sbt__D_e,0,1,D-Sorbitol,sbt__D_e
+93,EX_ser__D_e,4,2,D-Serine,ser__D_e
+94,EX_ser__L_e,4,2,L-Serine,ser__L_e
+95,EX_succ_e,1,3,Succinate,succ_e
+96,EX_sucr_e,2,0,Sucrose C12H22O11,sucr_e
+97,EX_tartr__D_e,4,2,D-tartrate,tartr__D_e
+98,EX_tartr__L_e,4,2,L-tartrate,tartr__L_e
+99,EX_thr__L_e,3,2,L-Threonine,thr__L_e
+100,EX_thrp_e,1,2,L-Threonine O-3-phosphate,thrp_e
+101,EX_tre_e,2,0,Trehalose,tre_e
+102,EX_xyl__D_e,2,0,D-Xylose,xyl__D_e
+103,EX_xylu__L_e,2,0,L-Xylulose,xylu__L_e

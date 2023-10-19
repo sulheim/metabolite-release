@@ -25,7 +25,21 @@ gDW_per_OD = {
     'c_glutamicum': 0.32 #Assume same as E. coli
 }
 
-
+def get_concentrations(data_folder, organism, time = None):
+    exometabolites_folder = Path(data_folder)
+    
+    # Filenames
+    fn_exometabolites = exometabolites_folder / "{0}_exometabolites.csv".format(organism)
+    fn_exometabolites_std = exometabolites_folder / "{0}_exometabolites_std.csv".format(organism)
+    
+    # Read files as dataframes
+    df_exometabolites = pd.read_csv(fn_exometabolites, index_col=0)
+    df_exometabolites_std = pd.read_csv(fn_exometabolites_std, index_col=0)
+    
+    met_abbreviations = [x.replace(" MS", "") for x in df_exometabolites.columns]
+    df_exometabolites.columns = met_abbreviations
+    df_exometabolites_std.columns = met_abbreviations
+    return df_exometabolites, df_exometabolites_std
 
 def get_leakage(data_folder, organism, time, unit = '/gDW', method = 'one-way-diff', only_significant_changes = True):
     exometabolites_folder = Path(data_folder)
