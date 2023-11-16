@@ -272,16 +272,16 @@ def get_models(model_names = None):
             models[model_name] = model
     return models
 
-def find_objective(model):
-    objectives =  []
-    for r in model.reactions:
-        if r.objective_coefficient == 1:
-            objectives.append(r.id)
+# def find_objective(model):
+#     objectives =  []
+#     for r in model.reactions:
+#         if r.objective_coefficient == 1:
+#             objectives.append(r.id)
 
-    if len(objectives) == 1:
-        return objectives[0]
-    else:
-        return objectives
+#     if len(objectives) == 1:
+#         return objectives[0]
+#     else:
+#         return objectives
 
 # def is_transport_reaction(r):
 #     base_mets = list(set([m.id.rsplit("_")[0] for m in r.metabolites.keys()]))
