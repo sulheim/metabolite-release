@@ -134,3 +134,6 @@ dmypy.json
 *.pdf
 results/*
 notebooks/e_coli/archive
+notebooks/paczia_et_al_2013/e_coli/ecoli_costless_test_.json
+notebooks/paczia_et_al_2013/e_coli/e_coli_transporters.csv
+notebooks/paczia_et_al_2013/e_coli/archive/*
