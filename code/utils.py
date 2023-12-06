@@ -13,6 +13,8 @@ from pathlib import Path
 import pandas as pd
 from dotenv import find_dotenv
 from itertools import chain, combinations
+import re
+from collections import defaultdict
 
 
 # File names (relative to root folder)
@@ -321,6 +323,30 @@ def powerset(iterable):
     xs = list(iterable)
     # note we return an iterator rather than a list
     return chain.from_iterable(combinations(xs,n) for n in range(len(xs)+1))
+
+def get_element_dict(metabolite):
+    try:
+        formula = metabolite.metadata['FORMULA']
+    except KeyError:
+        return np.nan
+    else:
+        element_count = extract_elements_and_counts(formula)
+        return element_count
+
+
+def extract_elements_and_counts(formula):
+    element_pattern = r'([A-Z][a-z]*)(\d*)'
+    # element_pattern = r'([A-Z][a-z]*)(\d*)'
+    elements = re.findall(element_pattern, formula)
+    element_count = defaultdict(int)
+    
+    current_element = ''
+    for element, count in elements:
+        if element.isalpha():
+            element_count[element] += int(count) if count else 1
+    
+    return element_count
+
 
 
 if __name__ == '__main__':
