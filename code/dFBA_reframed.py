@@ -95,8 +95,7 @@ class dFBA(object):
             model = Model(model_name, cbmodel, initial_biomass, self.iterations, self.dt, method = self.method, 
                           fraction_of_optimum = self.fraction_of_optimum,
                           store_exchanges_flag = self.store_exchanges_flag, which_exchanges = self.which_exchanges,
-                          store_exchanges_rate = self.store_exchanges_rate, medium = self.medium,
-                          leakage_slope = self.leakage_params['slope'])
+                          store_exchanges_rate = self.store_exchanges_rate, medium = self.medium)
             
             self.models[model_name] = model
 
@@ -465,7 +464,7 @@ class Model(object):
     """
     def __init__(self, name, cbmodel, initial_biomass, iterations, dt, method = "pFBA", fraction_of_optimum = 1.0,
                   store_exchanges_flag = True, which_exchanges = "all",
-                 store_exchanges_rate = 1, medium = None, unconstrain_basis_mets = True, leakage_slope = -1.38, lag_time = 0):
+                 store_exchanges_rate = 1, medium = None, unconstrain_basis_mets = True, lag_time = 0):
 
         self.name = name
         self.logger = logging.getLogger(f'Model {self.name}')
@@ -492,12 +491,13 @@ class Model(object):
         self.store_exchanges_flag = store_exchanges_flag
         self.store_exchanges_rate = store_exchanges_rate
         self.which_exchanges = which_exchanges
-        self.leakage_slope  = leakage_slope
         self.uptake_constraints = {}
         self.prep_model(medium)
 
         # Leak parameters
-        self.leak_noise = {'slope': 0.5, 'rates': 0.5}
+        self.log_leakage_rates =  None
+        self.leak_mets =  None
+        self.leak_exchanges =  None
 
 
     def initiate_cobra_specific_model(self, medium = None, auxotrophy_constraints = None):
@@ -521,9 +521,12 @@ class Model(object):
             else:
                 constraints = self.medium_constraints.copy()
 
-            self.leaky_model, self.leaky_solver, self.leaky_lin_obj, self.leaky_quad_obj, self.leaky_reaction_mapping = make_leaky_model(self.cbmodel, 
-                                                constraints, self.fraction_of_optimum, self.leak_noise, slope = self.leakage_slope)
 
+
+            # self.leaky_model, self.leaky_solver, self.leaky_lin_obj, self.leaky_quad_obj, self.leaky_reaction_mapping = make_leaky_model(self.cbmodel, 
+            #                                     constraints, self.fraction_of_optimum, self.leak_noise, slope = self.leakage_slope)
+            leaky_model_tuple = make_leaky_model2(self.cbmodel, constraints, self.fraction_of_optimum, self.log_leakage_rates, self.leak_mets, self.leak_exchanges)
+            self.leaky_model, self.leaky_solver, self.leaky_lin_obj, self.leaky_quad_obj, self.leaky_reaction_mapping = leaky_model_tuple
 
     def prep_model(self, medium):
         # First, close all uptake and open all secretion
@@ -877,6 +880,59 @@ def get_leaky_metabolites(model, constraints, fraction_of_optimum, only_turnover
 
     return leak_mets, leak_exchanges
 
+def make_leaky_model2(model, constraints, fraction_of_optimum, log_leakage_rates, leak_mets, leak_exchanges):
+    model = model.copy()
+
+    # # Make sure exchange reactions are open
+    # for r_id in model.get_exchange_reactions():
+    #     model.reactions[r_id].ub = 1000
+
+    # Split leakage reactions
+    release_suffix = '_r'
+    irreversible_reaction_mapping = split_exchange_reactions(model, leak_exchanges, uptake_suffix='', release_suffix = release_suffix)
+
+    # Now add leakage variables and constraints
+    solver = reframed.solver_instance(model)
+    log_vars = []
+    for m_id, r_ex_id in zip(leak_mets, leak_exchanges):
+        r_release_id = irreversible_reaction_mapping[r_ex_id][1]
+        r_release = model.reactions[r_release_id]
+        
+        if not log_leakage_rates.get(r_ex_id):
+            continue
+        
+        # log_x = problem.addVar(vtype=gp.GRB.CONTINUOUS, name = f'log_{r_ex_id}', lb=-gp.GRB.INFINITY)
+        solver.add_variable(var_id= f'log_{r_ex_id}', lb=-10, ub=4)
+        x = solver.problem.getVarByName(r_release_id)
+        log_x = solver.problem.getVarByName(f'log_{r_ex_id}')
+        log_vars.append(f'log_{r_ex_id}')
+
+        # Constrain log_x to be np.log10(x)
+        # The parameter options are important
+        c = solver.problem.addGenConstrLogA(x, log_x, 10, name = f'logc_{r_ex_id}', options='FuncPieceError=1e-5 FuncPieces=-2')
+        solver.constr_ids.append(f'logc_{r_ex_id}')
+    solver.problem.update()
+    solver.update()
+
+    # Another key parameter
+    solver.problem.params.BarHomogeneous = 1
+    
+
+    # Now make objective
+    lin_obj = {}
+    for log_name in log_vars:
+        r_ex_id = log_name[4:]
+        # This is the linear part of (x-b)^2 = a^2 - 2xb + b^2
+        lin_obj[log_name] = -2*log_leakage_rates[r_ex_id]
+        
+    # This is the quadratic part
+    quad_obj = {}
+    for key, _ in lin_obj.items():
+        quad_obj.update({(key,key):1})
+
+    return model, solver, lin_obj, quad_obj, irreversible_reaction_mapping
+
+
 def make_leaky_model(model, constraints, fraction_of_optimum, only_turnover_metabolites = True, min_turnover = 1e-6, leak_noise = None, slope = -3):
     model = model.copy()
 
@@ -1110,15 +1166,41 @@ def split_exchange_reactions(model, reaction_ids, uptake_suffix= '_u', release_s
     return mapping
 
 
-def predict_log_leakage_rates_from_shadow_prices(model, constraints, leak_mets, leak_exchanges, 
-                                                 slope = -3, intercept = -4, min_metabolite_value = 1e-7, noise = None):
+# def predict_log_leakage_rates_from_shadow_prices(model, constraints, leak_mets, leak_exchanges, 
+#                                                  slope = -3, intercept = -4, min_metabolite_value = 1e-7, noise = None):
 
-    """
-    Noise  can be normal error added to the predicted leakage rates
-    """
+#     """
+#     Noise  can be normal error added to the predicted leakage rates
+#     """
+#     rate_noise = np.zeros(len(leak_mets))
+#     print("####")
+#     print(slope, intercept)
+#     if isinstance(noise, dict):
+#         if noise.get('slope'):
+#             slope_noise = np.random.normal(0, noise['slope'])
+#             slope = slope + slope_noise
+#             logging.info(f'Slope noise: {slope_noise}')
+
+#         if noise.get('rates'):
+#             rate_noise = np.random.normal(0, noise['rates'], len(leak_mets))
+#             logging.info(f"Adding rate noise with std: {noise['rates']}")
+
+#     solution = reframed.FBA(model, constraints=constraints, shadow_prices=True)
+#     predicted_log_leakage_rates = {}
+#     predicted_metabolite_values = {}
+#     for i, (m_id, r_ex_id) in enumerate(zip(leak_mets, leak_exchanges)):
+#         metabolite_value = - solution.shadow_prices[m_id]
+#         if np.isfinite(metabolite_value) and metabolite_value > 1e-7:
+#             # Use trendline from fit 
+#             lograte = intercept + slope*np.log10(metabolite_value) + rate_noise[i]
+#             print(m_id, np.log10(metabolite_value), lograte)
+#             predicted_log_leakage_rates[r_ex_id] = lograte
+#             predicted_metabolite_values[r_ex_id] = metabolite_value
+#     return predicted_metabolite_values, predicted_log_leakage_rates
+
+def predict_leakage_rates_from_sp(model, leak_mets, leak_exchanges, shadow_prices,
+                                  slope, intercept, noise = None):
     rate_noise = np.zeros(len(leak_mets))
-    print("####")
-    print(slope, intercept)
     if isinstance(noise, dict):
         if noise.get('slope'):
             slope_noise = np.random.normal(0, noise['slope'])
@@ -1128,20 +1210,62 @@ def predict_log_leakage_rates_from_shadow_prices(model, constraints, leak_mets, 
         if noise.get('rates'):
             rate_noise = np.random.normal(0, noise['rates'], len(leak_mets))
             logging.info(f"Adding rate noise with std: {noise['rates']}")
-
-    solution = reframed.FBA(model, constraints=constraints, shadow_prices=True)
     predicted_log_leakage_rates = {}
     predicted_metabolite_values = {}
     for i, (m_id, r_ex_id) in enumerate(zip(leak_mets, leak_exchanges)):
-        metabolite_value = - solution.shadow_prices[m_id]
+        metabolite_value = -shadow_prices[m_id]
         if np.isfinite(metabolite_value) and metabolite_value > 1e-7:
             # Use trendline from fit 
             lograte = intercept + slope*np.log10(metabolite_value) + rate_noise[i]
             print(m_id, np.log10(metabolite_value), lograte)
             predicted_log_leakage_rates[r_ex_id] = lograte
-            predicted_metabolite_values[r_ex_id] = metabolite_value
-    return predicted_metabolite_values, predicted_log_leakage_rates
+    return predicted_log_leakage_rates
+    
+def estimate_shadow_prices(model, constraints, intracellular_only = True, delta = 0.01, metabolites = []):
+    intracellular_only = True
+    solution = reframed.FBA(model, constraints=constraints)
+    wt_growth_rate = solution.fobj
+    shadow_prices = {}
+    if not len(metabolites):
+        metabolites = [m for m in model.metabolites]
 
+    temp = model.copy()
+    for i, m_id in enumerate(metabolites):
+        try:
+            r = temp.reactions[f'DM_{m_id}']
+        except KeyError:
+            temp.add_reaction_from_str(f'DM_{m_id}: {m_id} -->  [0, 0]')
+
+    for i, m_id in enumerate(metabolites):
+        # print(i, m_id)
+        m = model.metabolites[m_id]
+        if intracellular_only:
+            if m.compartment != 'c':
+                continue
+        if m.name.startswith('M_prot_'):
+            continue
+        sp_constraints = {f'DM_{m_id}': (delta, 10)}
+        sp_constraints.update(constraints)
+        sp_solution = reframed.FBA(temp, constraints=sp_constraints)
+        if isinstance(sp_solution.fobj, float):
+            shadow_prices[m_id] = (sp_solution.fobj-wt_growth_rate)/delta
+        else:
+            shadow_prices[m_id] = np.nan
+        
+    return shadow_prices
+
+
+def predict_log_leakage_rates(model, constraints, fraction_of_optimum, slope, intercept, noise = None):
+    leak_mets, leak_exchanges = get_leaky_metabolites(model, constraints=constraints,
+                                                      fraction_of_optimum=fraction_of_optimum)
+    
+    shadow_prices = estimate_shadow_prices(model, constraints=constraints,
+                                                            metabolites = leak_mets)
+    log_leakage_rates = predict_leakage_rates_from_sp(model, 
+                                    leak_mets, leak_exchanges, shadow_prices,
+                                    slope, intercept, noise = noise)
+    return log_leakage_rates, leak_mets, leak_exchanges
+    
 
 def monod(X, Km, Vmax, hill = 1):
     return Vmax*(X**hill/(Km+X**hill))
@@ -1161,30 +1285,75 @@ if __name__ == '__main__':
         print(solution.show_values('R_EX'))
         print(solution.show_values('R_BIOMASS'))
 
+    if 0:
+        model = reframed.load_cbmodel('../models/e_coli/iJO1366.xml')
+        model.solver = 'gurobi'
+        for r_id in model.get_exchange_reactions():
+            model.reactions[r_id].ub = 1000
+
+        constraints = {'R_EX_glc__D_e': -10}
+        slope = -3
+        intercept = -4
+        fraction_of_optimum = 0.9
+        log_leakage_rates, leak_mets, leak_exchanges = predict_log_leakage_rates(model, constraints, fraction_of_optimum, slope, intercept)
+        temp = model.copy()
+        solution = FBA_with_leakage2(temp, constraints=constraints, fraction_of_optimum=0.8,
+                           log_leakage_rates=log_leakage_rates, leak_mets=leak_mets,
+                           leak_exchanges = leak_exchanges)
+        print(solution.show_values('EX'))
+
+
+
     if 1:
         # Test dFBA
         # model = cobra.io.read_sbml_model('../models/e_coli/momentiJO1366.xml')
-        model = reframed.load_cbmodel('../models/e_coli/iJO1366.xml')
+        cbmodel = reframed.load_cbmodel('../models/e_coli/iJO1366.xml')
+        # Make sure exchange reactions are open
+        for r_id in cbmodel.get_exchange_reactions():
+            cbmodel.reactions[r_id].ub = 1000
     
-        model.solver = 'gurobi'
+        cbmodel.solver = 'gurobi'
         model_name = 'E_coli'
-        model_name_dict = {model_name: [model, 0.16]}
+        initial_biomass = 0.16
+        fraction_of_optimum = 0.9
+        constraints = {'R_EX_glc__D_e': -10}
+        slope =  -3
+        intercept = -4
+
+        log_leakage_rates, leak_mets, leak_exchanges = predict_log_leakage_rates(cbmodel.copy(), constraints, fraction_of_optimum, slope, intercept)
+
+
+        # model_name_dict = {model_name: [model, 0.16]}
 
         glucose_mM = utils.convert_gL_to_mM("C6H12O6", 20)
-        D = dFBA(iterations = 30, dt = 0.5, method = "FBA_with_leakage", store_exchanges_flag = False, fraction_of_optimum=0.9)#(, fraction_of_optimum = 0.95)
+        D = dFBA(iterations = 30, dt = 0.5, method = "FBA_with_leakage", store_exchanges_flag = False, fraction_of_optimum=fraction_of_optimum)#(, fraction_of_optimum = 0.95)
         D.medium.define_initial_conditions({"M_glc__D_e": glucose_mM})
-        D.add_models(model_name_dict)
+        # D.add_models(model_name_dict)
+        D.add_model(model_name, cbmodel, initial_biomass)
+        model = D.models[model_name]
+        model.set_km("M_glc__D_e", 1)
+        model.set_Vmax("M_glc__D_e", 8)
+
+        model.log_leakage_rates = log_leakage_rates
+        model.leak_mets = leak_mets
+        model.leak_exchanges = leak_exchanges
+        print(leak_mets)
+
+        model.initiate_cobra_specific_model(auxotrophy_constraints= None)
         # Set Km and vMax
-        D.models[model_name].set_km("M_glc__D_e", 1)
-        D.models[model_name].set_Vmax("M_glc__D_e", 8) # Estimated from Paczia data
-        D.models[model_name].lag_time = 2
-        D.models[model_name].leakage_slope = -3
+        # D.models[model_name].set_km("M_glc__D_e", 1)
+        # D.models[model_name].set_Vmax("M_glc__D_e", 8) # Estimated from Paczia data
+        # D.models[model_name].lag_time = 2
+        # D.models[model_name].leakage_slope = -3
 
         
         # D.medium.set_store_concentrations(["glc__D_e", "nh3_e"])
         D.run()
         print(D.biomass_df)
-        print(D.concentrations_df[['M_ac_c', 'M_pyr_e', 'M_ala__L_e']])
+        print(D.concentrations_df)#[['M_ac_c', 'M_pyr_e', 'M_ala__L_e']])
+        print(D.concentrations_df.columns)
+
+
 
     if 0:
         # Test cocultures
