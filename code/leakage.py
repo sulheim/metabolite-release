@@ -25,7 +25,7 @@ gDW_per_OD = {
     'c_glutamicum': 0.32 #Assume same as E. coli
 }
 
-def get_concentrations(data_folder, organism, time = None):
+def get_concentrations(data_folder, organism):
     exometabolites_folder = Path(data_folder)
     
     # Filenames

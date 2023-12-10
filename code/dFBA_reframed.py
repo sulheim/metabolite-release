@@ -55,6 +55,7 @@ RATIO_CONVERGENCE_LIMIT = 0.01
 RATIO_CUTOFF = 0.9
 MAX_UPTAKE = -50
 MIN_LEAKY_GROWTH_RATE = 1e-2
+MINIMUM_BIOMASS = 1e-7
 
 
 # EXCLUDE_LEAKAGE = ['accoa', 'malcoa', 'lipidX', 'nadh', 'nadph', 'nadp', 'nad']
@@ -95,7 +96,7 @@ class dFBA(object):
                           fraction_of_optimum = self.fraction_of_optimum,
                           store_exchanges_flag = self.store_exchanges_flag, which_exchanges = self.which_exchanges,
                           store_exchanges_rate = self.store_exchanges_rate, medium = self.medium,
-                          leakage_slope = self.leakage_slope)
+                          leakage_slope = self.leakage_params['slope'])
             
             self.models[model_name] = model
 
@@ -103,7 +104,7 @@ class dFBA(object):
         for model_name, model_info in model_name_dict.items():
             cbmodel, initial_biomass = model_info
             model = Model(model_name, cbmodel, initial_biomass, self.iterations, self.dt, method = self.method, 
-                          fraction_of_optimum = self.fraction_of_optimum, medium = self.medium)
+                          fraction_of_optimum = self.fraction_of_optimum, medium = self.medium, leakage_slope = self.leakage_params['slope'])
             model.initiate_cobra_specific_model(auxotrophy_constraints= auxotrophy_constraints)
             self.models[model_name] = model
 
@@ -197,7 +198,7 @@ class dFBA(object):
         for model_name, model in self.models.items():
             # self.logger.info('Check models feasability')
             # self.logger.info(f"Name: {model_name}, Status: {model.status}")
-            if model.status == "optimal":
+            if model.status in ["optimal", "growth lag"]:
                 return False
         return True
 
@@ -306,37 +307,56 @@ class dFBA(object):
     # # @profile
     def simulate_model(self, model_name, i):
         model = self.models[model_name]
-        #self._update_constraints(model)
-        model.update_bounds_from_medium(self.medium)
-        # print(i, self.medium.concentrations['M_ac_e'])
-        # try:
-        fluxes = solve_model(model, reactions = model.exchange_reaction_ids + [model.objective_id], constraints = model.medium_constraints)
-        # except cobra.exceptions.Infeasible:
-        #     model.status = "infeasible"
-        # else:
 
-        if fluxes[model.objective_id] < GROWTH_EPSILON:
-            model.status == "no growth"
-            growth = False
-        elif model.solution.status != Status.OPTIMAL:
-            model.status = "infeasible"
-            growth = False
-        else:
-            model.status = "optimal"
-            growth = True
+        if model.status == 'Extinct':
+            model.biomass_array[i] = 0
+            return False
+        
+        # Check that the biomass is above the minimum
+        if model.current_biomass < MINIMUM_BIOMASS:
+            model.status = 'Extinct'
+            model.biomass_array[i] = 0
+            self.logger.info(f'Model {model_name} is extinct at timepoint {i}')
+            return False
+        # Check if the time has passed beyond the lag time
+        elif i*self.dt < model.lag_time:
+            model.status = 'growth lag'
+            model.biomass_array[i] = model.current_biomass
+            self.logger.info(f'Model {model_name} is not growing because of growth lag at timepoint {i}')
+            return True
+        else:         
+            model.update_bounds_from_medium(self.medium)
+            # print(i, self.medium.concentrations['M_ac_e'])
+            # try:
+            fluxes = solve_model(model, reactions = model.exchange_reaction_ids + [model.objective_id], constraints = model.medium_constraints)
+            # except cobra.exceptions.Infeasible:
+            #     model.status = "infeasible"
+            # else:
 
-        # print(model.status, fluxes[model.objective_id])
-        if model.status in ["optimal", "no growth"]:
+            if fluxes[model.objective_id] < GROWTH_EPSILON:
+                model.status == "no growth"
+                growth = False
+            elif model.solution.status != Status.OPTIMAL:
+                model.status = "infeasible"
+                growth = False
+            else:
+                model.status = "optimal"
+                growth = True
+
+            # print(model.status, fluxes[model.objective_id])
+            if model.status in ["optimal", "no growth"]:
+                if self.store_exchanges_flag and (i%self.store_exchanges_rate == 0):
+                    model.store_exchanges(fluxes, i)
+                self.medium.update_medium(fluxes, model, model.current_biomass)
+            else:
+                self.logger.info("Model {0} is not feasible at timepoint {1}".format(model_name, i))
+
             if model.status == "optimal":
                 model.update_biomass(fluxes[model.objective_id], i)
             else:
                 model.biomass_array[i] = model.current_biomass
-            if self.store_exchanges_flag and (i%self.store_exchanges_rate == 0):
-                model.store_exchanges(fluxes, i)
-            self.medium.update_medium(fluxes, model, model.current_biomass)
-        else:
-            logger.info("Model {0} is not feasible at timepoint {1}".format(model_name, i))
-        return True
+                    
+            return True
 
 
     # def _update_constraints(self, model):
@@ -445,12 +465,13 @@ class Model(object):
     """
     def __init__(self, name, cbmodel, initial_biomass, iterations, dt, method = "pFBA", fraction_of_optimum = 1.0,
                   store_exchanges_flag = True, which_exchanges = "all",
-                 store_exchanges_rate = 1, medium = None, unconstrain_basis_mets = True, leakage_slope = -1.38):
+                 store_exchanges_rate = 1, medium = None, unconstrain_basis_mets = True, leakage_slope = -1.38, lag_time = 0):
 
         self.name = name
         self.logger = logging.getLogger(f'Model {self.name}')
         self.cbmodel = cbmodel
         self.method = method
+        self.lag_time = lag_time
         self.fraction_of_optimum = fraction_of_optimum
         self.km_dict = defaultdict(lambda: DEFAULT_VALUES['Km'])
         self.Vmax_dict = defaultdict(lambda: DEFAULT_VALUES['Vmax'])
@@ -494,14 +515,14 @@ class Model(object):
         
         elif self.method == 'FBA_with_leakage':
             self.logger.info("Use FBA with leakage")
-            if auxotrophy_constraints.get(self.name):
+            if auxotrophy_constraints and auxotrophy_constraints.get(self.name):
                 constraints = auxotrophy_constraints[self.name]
                 constraints.update(self.medium_constraints)
             else:
                 constraints = self.medium_constraints.copy()
 
             self.leaky_model, self.leaky_solver, self.leaky_lin_obj, self.leaky_quad_obj, self.leaky_reaction_mapping = make_leaky_model(self.cbmodel, 
-                                                                                                    constraints, self.fraction_of_optimum, self.leak_noise)
+                                                constraints, self.fraction_of_optimum, self.leak_noise, slope = self.leakage_slope)
 
 
     def prep_model(self, medium):
@@ -646,8 +667,12 @@ class Model(object):
                 if np.isinf(x):
                     self.medium_constraints[r_id] = (MAX_UPTAKE, r.ub)
                 else:
-                    v_max = monod(x, self.km_dict[r_id], self.Vmax_dict[r_id])
-                    self.medium_constraints[r_id] = (-v_max, r.ub)
+                    v_monod= monod(x, self.km_dict[r_id], self.Vmax_dict[r_id])
+                    # Make sure that the uptake is not exeeding the available concentration
+                    # i.e. v*X*dt < x
+                    v_max = x/(self.current_biomass*self.dt)
+                    v = min(v_monod, v_max)
+                    self.medium_constraints[r_id] = (-v, r.ub)
 
     def store_exchanges(self, fluxes, i):
         if self.store_exchanges_flag:
@@ -686,7 +711,7 @@ def solve_model(model, reactions, constraints):
             min_growth = max_growth_rate*model.fraction_of_optimum
             model.solution = _FBA_with_leakage(model.leaky_solver, model.leaky_lin_obj, model.leaky_quad_obj, min_growth, constraints, model.objective_id, model.leaky_reaction_mapping)
             fluxes = get_leaky_fluxes(model.solution, reactions, model.leaky_reaction_mapping)
-
+            print(fba_solution.fobj, fluxes[model.objective_id], fluxes[model.objective_id]/fba_solution.fobj)
         else:
             model.solution = fba_solution
             fluxes = get_fluxes(fba_solution, reactions)
@@ -852,7 +877,7 @@ def get_leaky_metabolites(model, constraints, fraction_of_optimum, only_turnover
 
     return leak_mets, leak_exchanges
 
-def make_leaky_model(model, constraints, fraction_of_optimum, only_turnover_metabolites = True, min_turnover = 1e-6, leak_noise = None):
+def make_leaky_model(model, constraints, fraction_of_optimum, only_turnover_metabolites = True, min_turnover = 1e-6, leak_noise = None, slope = -3):
     model = model.copy()
 
     # Make sure exchange reactions are open
@@ -862,7 +887,7 @@ def make_leaky_model(model, constraints, fraction_of_optimum, only_turnover_meta
     leak_mets, leak_exchanges = get_leaky_metabolites(model, constraints, fraction_of_optimum, only_turnover_metabolites, min_turnover)
     print(model.id, 'Leak exchanges: ')
     print(leak_exchanges)
-    metabolite_values, log_leakage_rates = predict_log_leakage_rates_from_shadow_prices(model, constraints, leak_mets, leak_exchanges, noise = leak_noise)
+    metabolite_values, log_leakage_rates = predict_log_leakage_rates_from_shadow_prices(model, constraints, leak_mets, leak_exchanges, noise = leak_noise, slope=slope)
 
     # Split leakage reactions
     release_suffix = '_r'
@@ -886,7 +911,7 @@ def make_leaky_model(model, constraints, fraction_of_optimum, only_turnover_meta
 
         # Constrain log_x to be np.log10(x)
         # The parameter options are important
-        c = solver.problem.addGenConstrLogA(x, log_x, 10, name = f'logc_{r_ex_id}', options='FuncPieceError=1e-4 FuncPieces=-2')
+        c = solver.problem.addGenConstrLogA(x, log_x, 10, name = f'logc_{r_ex_id}', options='FuncPieceError=1e-5 FuncPieces=-2')
         solver.constr_ids.append(f'logc_{r_ex_id}')
     solver.problem.update()
     solver.update()
@@ -922,6 +947,74 @@ def FBA_with_leakage(model, constraints, fraction_of_optimum = 0.9, only_turnove
     leak_mets, leak_exchanges = get_leaky_metabolites(model, constraints, fraction_of_optimum, only_turnover_metabolites, min_turnover)
 
     metabolite_values, log_leakage_rates = predict_log_leakage_rates_from_shadow_prices(model, constraints, leak_mets, leak_exchanges, noise = leak_noise)
+
+    # Split leakage reactions
+    release_suffix = '_r'
+    irreversible_reaction_mapping = split_exchange_reactions(model, leak_exchanges, uptake_suffix='', release_suffix = release_suffix)
+
+    # Now add leakage variables and constraints
+    # selected_mets = ['M_pyr_c', 'M_cit_c']
+    solver = reframed.solver_instance(model)
+    log_vars = []
+    for m_id, r_ex_id in zip(leak_mets, leak_exchanges):
+        r_release_id = irreversible_reaction_mapping[r_ex_id][1]
+        r_release = model.reactions[r_release_id]
+        
+        # This seems like too much but...
+        r_release.ub = 1000
+        # if r_ex.lb < 0:
+        #     # This will be a challenge in dFBA.... but it doesn't work for the log-constraint if r_ex.lb can be < 0
+        #     continue
+        if not log_leakage_rates.get(r_ex_id):
+            continue
+        # log_x = problem.addVar(vtype=gp.GRB.CONTINUOUS, name = f'log_{r_ex_id}', lb=-gp.GRB.INFINITY)
+        solver.add_variable(var_id= f'log_{r_ex_id}', lb=-10, ub=10)
+        x = solver.problem.getVarByName(r_release_id)
+        # x.ub = 1000
+
+        log_x = solver.problem.getVarByName(f'log_{r_ex_id}')
+        log_vars.append(f'log_{r_ex_id}')
+
+        # Constrain log_x to be np.log10(x)
+        # The parameter options are important
+        c = solver.problem.addGenConstrLogA(x, log_x, 10, name = f'logc_{r_ex_id}', options='FuncPieceError=1e-5 FuncPieces=-2')
+        solver.constr_ids.append(f'logc_{r_ex_id}')
+    solver.problem.update()
+    solver.update()
+
+    # Now predict FBA
+    t0 = time.time()
+    r_growth = model.biomass_reaction
+    lin_obj = {}
+    for log_name in log_vars:
+        r_ex_id = log_name[4:]
+        # This is the linear part of (x-b)^2 = a^2 - 2xb + b^2
+        lin_obj[log_name] = -2*log_leakage_rates[r_ex_id]
+        
+    # This is the quadratic part
+    quad_obj = {}
+    for key, _ in lin_obj.items():
+        quad_obj.update({(key,key):1})
+
+    constraints_ = {r_growth:growth*fraction_of_optimum} # Consider to alow a range of values {r_growth: (lb, ub)}
+    constraints_.update(constraints)
+
+    # Another key parameter
+    solver.problem.params.BarHomogeneous = 1
+    solution = solver.solve(lin_obj, quadratic=quad_obj, minimize=True, constraints=constraints_, get_values=True)
+    return solution
+
+def FBA_with_leakage2(model, constraints, log_leakage_rates, leak_mets, leak_exchanges, fraction_of_optimum = 0.9):
+    """
+    The main improvement is that predicted leakage rates are precomputed
+    """
+    # Make sure exchange reactions are open
+    for r_id in model.get_exchange_reactions():
+        model.reactions[r_id].ub = 1000
+
+    # Get pFBA solution
+    pfba_solution = reframed.pFBA(model, constraints=constraints, obj_frac=1)
+    growth = pfba_solution.values[model.biomass_reaction]
 
     # Split leakage reactions
     release_suffix = '_r'
@@ -1019,10 +1112,13 @@ def split_exchange_reactions(model, reaction_ids, uptake_suffix= '_u', release_s
 
 def predict_log_leakage_rates_from_shadow_prices(model, constraints, leak_mets, leak_exchanges, 
                                                  slope = -3, intercept = -4, min_metabolite_value = 1e-7, noise = None):
+
     """
     Noise  can be normal error added to the predicted leakage rates
     """
     rate_noise = np.zeros(len(leak_mets))
+    print("####")
+    print(slope, intercept)
     if isinstance(noise, dict):
         if noise.get('slope'):
             slope_noise = np.random.normal(0, noise['slope'])
@@ -1041,6 +1137,7 @@ def predict_log_leakage_rates_from_shadow_prices(model, constraints, leak_mets, 
         if np.isfinite(metabolite_value) and metabolite_value > 1e-7:
             # Use trendline from fit 
             lograte = intercept + slope*np.log10(metabolite_value) + rate_noise[i]
+            print(m_id, np.log10(metabolite_value), lograte)
             predicted_log_leakage_rates[r_ex_id] = lograte
             predicted_metabolite_values[r_ex_id] = metabolite_value
     return predicted_metabolite_values, predicted_log_leakage_rates
@@ -1064,28 +1161,32 @@ if __name__ == '__main__':
         print(solution.show_values('R_EX'))
         print(solution.show_values('R_BIOMASS'))
 
-    if 0:
+    if 1:
         # Test dFBA
         # model = cobra.io.read_sbml_model('../models/e_coli/momentiJO1366.xml')
         model = reframed.load_cbmodel('../models/e_coli/iJO1366.xml')
     
         model.solver = 'gurobi'
         model_name = 'E_coli'
-        model_name_dict = {model_name: [model, 0.006]}
+        model_name_dict = {model_name: [model, 0.16]}
 
-        glucose_mM = utils.convert_gL_to_mM("C6H12O6", 4)
-        D = dFBA(iterations = 30, dt = 0.1, method = "FBA_with_leakage", store_exchanges_flag = False, fraction_of_optimum=0.9)#(, fraction_of_optimum = 0.95)
+        glucose_mM = utils.convert_gL_to_mM("C6H12O6", 20)
+        D = dFBA(iterations = 30, dt = 0.5, method = "FBA_with_leakage", store_exchanges_flag = False, fraction_of_optimum=0.9)#(, fraction_of_optimum = 0.95)
         D.medium.define_initial_conditions({"M_glc__D_e": glucose_mM})
         D.add_models(model_name_dict)
         # Set Km and vMax
         D.models[model_name].set_km("M_glc__D_e", 1)
-        D.models[model_name].set_Vmax("M_glc__D_e", 8)
+        D.models[model_name].set_Vmax("M_glc__D_e", 8) # Estimated from Paczia data
+        D.models[model_name].lag_time = 2
+        D.models[model_name].leakage_slope = -3
+
         
         # D.medium.set_store_concentrations(["glc__D_e", "nh3_e"])
         D.run()
         print(D.biomass_df)
+        print(D.concentrations_df[['M_ac_c', 'M_pyr_e', 'M_ala__L_e']])
 
-    if 1:
+    if 0:
         # Test cocultures
         model_folder = Path('/Users/ssulheim/git/mwf_gems/models/gf_models/carveme_TFA')
         model1_fn = model_folder / 'gapfilled_At.xml'
