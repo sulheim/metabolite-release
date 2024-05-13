@@ -35,10 +35,16 @@ def get_concentrations(data_folder, organism):
     # Read files as dataframes
     df_exometabolites = pd.read_csv(fn_exometabolites, index_col=0)
     df_exometabolites_std = pd.read_csv(fn_exometabolites_std, index_col=0)
+
+    # Drop columns that ends with 'MS' (They are not reported in paczia's figures)
+    drop_cols = [x for x in df_exometabolites.columns if x.endswith(' MS')]
+    df_exometabolites.drop(columns = drop_cols, inplace= True)
+    df_exometabolites_std.drop(columns = drop_cols, inplace= True)
     
-    met_abbreviations = [x.replace(" MS", "") for x in df_exometabolites.columns]
-    df_exometabolites.columns = met_abbreviations
-    df_exometabolites_std.columns = met_abbreviations
+    # met_abbreviations = [x for x in df_exometabolites.columns]#.replace(" MS", "")
+    # df_exometabolites.columns = met_abbreviations
+    # df_exometabolites_std.columns = met_abbreviations
+    
     return df_exometabolites, df_exometabolites_std
 
 def get_leakage(data_folder, organism, time, unit = '/gDW', method = 'one-way-diff', only_significant_changes = True):

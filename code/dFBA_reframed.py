@@ -39,7 +39,7 @@ logging.captureWarnings(True)
 
 # Default values
 DEFAULT_VALUES = {
- 'Km': 1, # mmol/L (COMETS default is 0.01 mmol/cm^3)
+ 'Km': 0.01, # mmol/L (COMETS default is 0.01 mmol/cm^3 which is 10 mmol/L!!) Based on this paper, 0.1 to 100 uM [1e-4 to 1e-1 mM] seems to be the relevant range. So maybe use 
  'Vmax': 10, #mmol/gDW/h
  'hill': 1,
  'time_step': 0.1, #h
@@ -99,12 +99,12 @@ class dFBA(object):
             
             self.models[model_name] = model
 
-    def add_models(self, model_name_dict, auxotrophy_constraints = None):
+    def add_models(self, model_name_dict):# auxotrophy_constraints = None
         for model_name, model_info in model_name_dict.items():
             cbmodel, initial_biomass = model_info
             model = Model(model_name, cbmodel, initial_biomass, self.iterations, self.dt, method = self.method, 
-                          fraction_of_optimum = self.fraction_of_optimum, medium = self.medium, leakage_slope = self.leakage_params['slope'])
-            model.initiate_cobra_specific_model(auxotrophy_constraints= auxotrophy_constraints)
+                          fraction_of_optimum = self.fraction_of_optimum, medium = self.medium)#, leakage_slope = self.leakage_params['slope']
+            # model.initiate_cobra_specific_model(auxotrophy_constraints= auxotrophy_constraints)
             self.models[model_name] = model
 
 
@@ -331,7 +331,7 @@ class dFBA(object):
             # except cobra.exceptions.Infeasible:
             #     model.status = "infeasible"
             # else:
-
+            # self.logger.info(f'Model {model_name} exchanges: {fluxes}')
             if fluxes[model.objective_id] < GROWTH_EPSILON:
                 model.status == "no growth"
                 growth = False
@@ -531,7 +531,8 @@ class Model(object):
     def prep_model(self, medium):
         # First, close all uptake and open all secretion
         for r_id in self.cbmodel.get_exchange_reactions():
-            self.cbmodel.set_flux_bounds(r_id, 0, 1000)
+            if self.cbmodel.reactions[r_id].ub == 0:
+                self.cbmodel.set_flux_bounds(r_id, 0, 1000)
 
         # Map dictionary mapping metabolites to reactions
         self.make_metabolite_reaction_mapping()
@@ -627,8 +628,7 @@ class Model(object):
         try:
             r_id = self.met_ex_dict[m_id]
         except KeyError:
-            pass
-            #print("Can't set Vmax for {0}; not in model {1}".format(m_id, self.cbmodel.id))
+            print("Can't set Vmax for {0}; not in model {1}".format(m_id, self.cbmodel.id))
         else:
             self.Vmax_dict[r_id] = Vmax
     
@@ -937,8 +937,8 @@ def make_leaky_model(model, constraints, fraction_of_optimum, only_turnover_meta
     model = model.copy()
 
     # Make sure exchange reactions are open
-    for r_id in model.get_exchange_reactions():
-        model.reactions[r_id].ub = 1000
+    # for r_id in model.get_exchange_reactions():
+    #     model.reactions[r_id].ub = 1000
 
     leak_mets, leak_exchanges = get_leaky_metabolites(model, constraints, fraction_of_optimum, only_turnover_metabolites, min_turnover)
     print(model.id, 'Leak exchanges: ')
@@ -1220,6 +1220,32 @@ def predict_leakage_rates_from_sp(model, leak_mets, leak_exchanges, shadow_price
             print(m_id, np.log10(metabolite_value), lograte)
             predicted_log_leakage_rates[r_ex_id] = lograte
     return predicted_log_leakage_rates
+
+def predict_leakage_rates_with_linear_model(model, leak_mets, leak_exchanges, shadow_prices,
+                                  linar_model_dict, add_noise = None):
+    #### Need to read in met_info here
+    
+    # rate_noise = np.zeros(len(leak_mets))
+    # if isinstance(noise, dict):
+    #     if noise.get('slope'):
+    #         slope_noise = np.random.normal(0, noise['slope'])
+    #         slope = slope + slope_noise
+    #         logging.info(f'Slope noise: {slope_noise}')
+
+    #     if noise.get('rates'):
+    #         rate_noise = np.random.normal(0, noise['rates'], len(leak_mets))
+    #         logging.info(f"Adding rate noise with std: {noise['rates']}")
+    # predicted_log_leakage_rates = {}
+    # predicted_metabolite_values = {}
+    for i, (m_id, r_ex_id) in enumerate(zip(leak_mets, leak_exchanges)):
+        metabolite_value = -shadow_prices[m_id]
+
+        if np.isfinite(metabolite_value) and metabolite_value > 1e-7:
+            # Use trendline from fit 
+            lograte = intercept + slope*np.log10(metabolite_value) + rate_noise[i]
+            print(m_id, np.log10(metabolite_value), lograte)
+            predicted_log_leakage_rates[r_ex_id] = lograte
+    return predicted_log_leakage_rates
     
 def estimate_shadow_prices(model, constraints, intracellular_only = True, delta = 0.01, metabolites = []):
     intracellular_only = True
@@ -1265,6 +1291,22 @@ def predict_log_leakage_rates(model, constraints, fraction_of_optimum, slope, in
                                     leak_mets, leak_exchanges, shadow_prices,
                                     slope, intercept, noise = noise)
     return log_leakage_rates, leak_mets, leak_exchanges
+
+def predict_log_leakage_rates2(model, constraints, fraction_of_optimum, linar_model_dict):
+    """
+    Update on April 22
+    """
+    leak_mets, leak_exchanges = get_leaky_metabolites(model, constraints=constraints,
+                                                      fraction_of_optimum=fraction_of_optimum)
+    
+    shadow_prices = estimate_shadow_prices(model, constraints=constraints,
+                                                            metabolites = leak_mets)
+    log_leakage_rates = predict_leakage_rates_from_sp(model, 
+                                    leak_mets, leak_exchanges, shadow_prices,
+                                    slope, intercept, noise = noise)
+    return log_leakage_rates, leak_mets, leak_exchanges
+
+
     
 
 def monod(X, Km, Vmax, hill = 1):
