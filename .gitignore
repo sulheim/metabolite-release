@@ -140,3 +140,6 @@ notebooks/paczia_et_al_2013/e_coli/archive/*
 notebooks/dFBA_191123/biomass_1.csv
 notebooks/dFBA_191123/media_1.csv
 notebooks/ttest_results.csv
+notebooks/ecoli_rates.csv
+notebooks/rates_and_values.csv
+notebooks/sintef_2023/sintef_2023_rates_0824.csv
