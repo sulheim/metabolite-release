@@ -1,0 +1,126 @@
+<datawarrior-fileinfo>
+<version="3.3">
+<created="1724794251483">
+<rowcount="58">
+</datawarrior-fileinfo>
+<column properties>
+<columnName="Structure">
+<columnProperty="specialType	idcode">
+<columnName="idcoordinates2D">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	idcoordinates2D">
+<columnName="FragFp">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	FragFp">
+<columnProperty="version	1.2.1">
+<columnName="Total Molweight">
+<columnProperty="compoundProperty	totalWeight@Structure">
+<columnName="cLogP">
+<columnProperty="compoundProperty	logP@Structure">
+<columnName="cLogS">
+<columnProperty="compoundProperty	logS@Structure">
+<columnName="H-Acceptors">
+<columnProperty="compoundProperty	acceptors@Structure">
+<columnName="H-Donors">
+<columnProperty="compoundProperty	donors@Structure">
+<columnName="Polar Surface Area">
+<columnProperty="compoundProperty	tpsa@Structure">
+</column properties>
+idcoordinates2D	FragFp	Column 1	Structure	Molecular Formula	Total Molweight	cLogP	cLogS	H-Acceptors	H-Donors	Polar Surface Area
+!B@O{~_?x@_?zH__y?b@JH?[]}bGt	:xjSyNaVaEoZYxcYZ0Z17IZ!9L0V!401024KVF0VF0d!1F0F$4V0ZFV8!V*204$7410	2-phosphoglycerate	dmTNbHSBFUCpglddqbbZjfhj`@	C3H6O7P	185.048	-7.113	1.757	7	3	136.93
+!B?[^H?[\B@hbH@hc}?g~H@ox@bOt	:xjxyRira7oZYwsY44XL_VZaV@J#F4#2044#F0d!402G0W#Z044V0D0V(10204!807410	3-phosphoglycerate	dmTNbHSBzUCpWlddqTtZjihZ`@	C3H6O7P	185.048	-7.113	1.757	7	3	136.93
+!B?g~H?[_}	oFc444(1////-6#	Acetate	gC`a@erSM@@	C2H3O2	59.0438	-2.3751	-0.459	2	0	40.13
+!B?g~H?[_}mpK~_p	xPua4K0a020k0G4VW*8J!V0V%4&2)V$4(V.160Y0	Alanine	gGX`BDdwMUM@@	C3H7NO2	89.0936	-2.9911	-0.406	3	2	63.32
+!BbOw~_x`B?`BH?X`BbOvH@ox@bOt	xvyjgzqabA2q9pgVW4Z84V40b0cKk8V0X$1408#F641&V$4#8!8V+@!160V0	Alpha-aminoadipate	dmVBABAIUNWdf{UfjjZLH@	C6H9NO4	159.14	-5.3294	-0.691	5	1	106.28
+!Bb@K~@Hc}?g~H@hc}	xvubBrVa0@2o0pBVW0V%108KF0V0V%4&24(V$4(V.160V0	Alpha-aminobutyrate	gNxaBDnR[mjjX`@	C4H8NO2	102.113	-2.8859	-0.676	3	1	66.15
+!Bb@K~@Hc}?g~H@hc}b@K~@Hc}	xtwbZao4W@0T014Va4c8$W080F84#F#4#a!4(V0F#4$V0808)420806#	Alpha-ketoglutarate	dedJA@PaeNgdf{VZZf@@	C5H4O5	144.082	-5.4172	-0.396	5	0	97.33
+!B?g~H?[_}?g~w@k_}mpJw?[\B?`Bw?P	;j;irQLrOxwcW5Z@6#h0gKk8V0XV#1408$641$20V!F04#4!8V%8F!22!Wq0v0	Arginine	dctd@BE]ADf{UYjjihr@@	C6H14N4O2	174.203	-3.4377	-0.156	6	5	125.22
+!B?g~H?[_}?g~w@k_}?g~w@`	xvyjBrkaVD2o0pCVY4VV!F0108Kk0V0V0V02440F0V!2J1&V!30Z(V.160Y0	Asparagine	diEL@BDDyInvZjZL`@	C4H8N2O3	132.119	-4.2108	-0.227	5	3	106.41
+!B?g~H?[_}?g~w@k_}mpK~_p	xvyjBrkaVD2o0pCVY4VV!F0108KF0V0V#H440F0V!2J(V!10Z(V)2$160V0	Aspartate	diFBABANENGdf{Yjihr@@	C4H5NO4	131.087	-6.2382	-0.151	5	1	106.28
+!B?g~H?[_}mpJw?P	xtu_4_040204054V#V/$4//*2$160Y0	Beta-alanine	gGX`JDdvmT@@	C3H7NO2	89.0936	-2.896	-0.298	3	2	63.32
+	xtwb4ak4V@0R014VXBVV08!10N0F04!HF0F84#o84!V0VV$FF10B10F0V#1#4#F%6030	Cis-aconitate	dctF@@PYWTfyVYijY`cD	C6H6O6	174.108	-1.1343	-0.115	6	3	111.9
+!BbOrH__x@?`BH?[_}b@Jw@ox@bOvw?_x@	xvwjgqoaWDeq0WCVY6mV16F0l08qFc%Sm440F0V!4H08!P0V#12Z0V8!F#3(420806010	Citrate	dkLNC@PiWSSex~R[kVYjjfX@@	C6H5O7	189.099	-8.3577	0.071	7	1	140.62
+!BbOw~_x`BbOvH@oy?bOw~@@	zrzhT_O6VJ7o019934$P$4!V#1024!F0V!2$F&F0V$G!V*2#WL0f0	Creatine	diGD@BxPQImfZjX@@	C4H9N3O2	131.134	-1.388	0.693	5	3	90.41
+!B@hbH[_|_[^HHc}g~HHc}	:xjpuRgnX5RZ0V8a48V2W2ZVV2#40401(aJ09$V0V)V&8&204$3410	Dihydroxyacetonephosphate	dedF`HSBzP|LddqTsUSP@@	C3H7O6P	170.057	-4.7186	1.688	6	3	113.87
+!B@k^H@k_}?XbH?X`B?`BH?_y?b@JH?P	:xjxywiri7o_XxsY4_XL_kZjk@FHJ0F$m5020V0F8dFH402F01#_#V0@#J$2J0204$A450	Erythrose-4-phosphate	dctN`HSBz]CprRSESSMUURcPX@	C4H9O7P	200.082	-5.4671	1.653	7	4	134.1
+!B_vq?Dp	o0V4/////)2010	Ethanol	eMHAIh@	C2H6O	46.0686	0.0505	-0.477	1	1	20.23
+!B?[^H?[_|@hbH@hc}?g~H@ox@bOw~_x`B?`BH?X`BbOtBbHa}_[\	:xjxyyirjrzxexsb7heL_r_ztiFHRJG6V10u512BZiJNhNHJFXNm1010_#V0B!8J80412JF20Z88!3410	Fructose-1,6-bisphosphate	fby@Y@HHpSdmV}ENP^@_CIILUMMMLeHuTuUUMXEEHr@@	C6H14O12P2	340.113	-9.6646	3.655	12	7	230.9
+!B@k^H@k_}?XbH?X`B?`BH?_y?b@K~@Hc}?g~H@hc}	:xjxyyirjrzxexsb7heL_p_zsiFHRJG2V!m512BZDJNhNH4FXN21010_#V0B!8J80412JF2048#3410	Fructose-6-phosphate	f`~AJ@HHpSdmV|CprRSESSSSMUUUMXYAQR@@	C6H13O9P	260.134	-6.4208	2.075	9	6	174.56
+!B?g~H?[_}mpJw?[\B?g|	oFs444%F01#8#8,FF!8%84/8!F0V(4#F%6#	Fumarate	daxBA@QnSnyImYifBL`	C4H2O4	114.056	-5.0708	-0.246	4	0	80.26
+!B?g~H?[_}mpJw?[\B	xty_4_k4V204054V24V%1#V*4///160V0	Gamma-aminobutyrate	gNxaFDnR[Ujh@	C4H8NO2	102.113	-2.7908	-0.568	3	1	66.15
+!B@k^H@k_}?XbH?X`B?`BH?_y?b@K~@Hc}?g~H@hc}	:xjxyyirjrrxexsY7_eL_pZzkiFHRFF2V!m5124Z8FNhNP4F2G018!_#V08!8J$2J0204$A450	Glucose-6-phosphate	f`~AJ@HHpSdmV|CprRSESSSSMUUUTdYAQRM@@	C6H13O9P	260.134	-6.6019	1.911	9	6	174.56
+!B?g~H?[_}?g~w@k_}mpJw?_x@	xvyjgzoa_@2q0pwVY4Z@41!_08Kk8V0V%4$F0641!2!VV!V04#4!8V+208160V0	Glutamate	defBABAAeNgdf{VZjfcH@	C5H7NO4	145.114	-5.7838	-0.421	5	1	106.28
+!B?g~H?[_}?g~w@k_}mpK~@K_}	xvyjgzoa_@2q0pwVY4Z@41!_08Kk8V0V0V#4$F0641!2!VV!V04#4!8V%8$208160Y0	Glutamine	deeL@BdDEInufjihr@@	C5H10N2O3	146.145	-3.7564	-0.497	5	3	106.41
+!B?g~H?[_}mpJw?[\Bm?w~@@	xtw_ZZo4W206014V04V%W$8)4&4(V/+20806#	Glutarate	diDBA@SaSayImVZjX@@	C5H6O4	130.099	-4.3642	-0.744	4	0	80.26
+!B?[^H?[\B@hbH@hc}?g~H@hc}	:xjKyNaWa5oZ2ssY40VF5VZaV8F#F4#2&F0d!4!G0W#Z%20V(10204$A450	Glyceraldehyde-3-phosphate	dedF`HSBzP|LddqTsUULMP@	C3H7O6P	170.057	-4.8997	1.524	6	3	113.87
+!B?g~H?[_}mpH	xFuZ4504#F01/!V/2/(V.160Y0	Glycine	gJX`BDdvu@@	C2H5NO2	75.0667	-3.3504	-0.028	3	2	63.32
+		Hexoses								
+!B?g~H?[_}?g~w@k_}s}Hqorn{wyd	zvyjDrtaWT2o0pCVYBVV090VW0NKs0V0VHF03440F0kF03JW02208VVJ0H0Z1021010V180J%2#1a0nV	Histidine	dmwD@ByPQInvVUZjejL`@	C6H9N3O2	155.156	-3.5054	-0.38	5	3	92
+!B?g~H?[_}?g~w@k_}mpH	xvyjBrkaVD2o0pBVY4V%108KF0V0V#H04&24(V$4(V)2$160Y0	Homoserine	dazL@BANR[mZjhr@@	C4H9NO3	119.119	-3.4634	-0.169	4	3	83.55
+!B?g~H?[_}?g~w@ox@m?vw@hc|mpJw?_x@	xvwjgyoa_Deq0WxVY6pe57F0pF8qHs%8m442F0VF0ZP4!2N0V#W0Z0V840F8J%4#420806010	Isocitrate	dkLNC@PagSSix~rJZZJHqjjZX@@	C6H5O7	189.099	-8.52	0.02	7	1	140.62
+!B?g~H?[_}?g~w@k_}?`Bw@`	xvyjBrkaVD2q0pCVW4l8!F0GF8pmNV0V1!F042F$645&V!104%48V%4$2V0160Y0	Isoleucine	diFD@BADf{ejjdrT`@	C6H13NO2	131.174	-1.864	-1.106	3	2	63.32
+!B?g~H?[_}mpK~_p	xPsa4J0a020k014VW$4$8J+4-F(4/#4$6010	Lactate	gGQa@bnR[fjfH@	C3H5O3	89.0697	-2.9425	-0.33	3	1	60.36
+!B?g~H?[_}?g~w@k_}mpK~_p	xvyjBzkaVD2q0pRVW4k80110108Kk8V0V%5!4#6410F$V!X04&8V+2!160Y0	Leucine	diFD@BADf{Yjjhr@@	C6H13NO2	131.174	-1.864	-1.106	3	2	63.32
+!B?g~H?[_}?g~w@k_}mpJw?[\B	xvyjgzqabA2q9pgVW4Z84V4050cKk8V0X$1408#F641&V$4&8V#8&@!160Y0	Lysine	deeD@BdDR[mUjjjL`@	C6H14N2O2	146.189	-4.6792	-0.785	4	3	89.34
+!B?g~H?[_}?g~w@k_}mpK~_p	xvwjBqkaVD2o0WCVY4VV04F0108JF(m440F0V#F$F%10Z0V/04$6010	Malate	diDJA@PnENGdf{Yjihp`@	C4H4O5	132.071	-5.8404	-0.075	5	1	100.49
+!BbOvw?X`BbOw~_x`B?`BH?P	;jhzoi_D2o0pgkY4Z04#508KF0V0V#204B%24(V$4#2#V.160Y0	Methionine	diFD`JxPBDivzjihI@@	C5H11NO2S	149.213	-2.3875	-1.051	3	2	88.62
+	[r<yzQjzhjUzvxyrbQzxopMbxcrbIrJyEojvvvpMrpVSeBDqV2MWZcl_4Ua4q4@R1f@3k2F734Wk	NAD	ecP~GDDBmkof^]XDLBNAIC@djncePOBcpd{Z\ddrtbvbRbbrTTvTRfVRRegdSPswvKMLkUSUUUUUUTB@@TMTB`EEEBeEeCeGaDQFUCU@q@@	C21H27N7O14P2	663.428	-12.767	-1.013	20	7	340.71
+!BbGvH?Oy?bGvH_X`B?g?~_?x@bGt	zpz_r_UBlG4RIG08DB8V282801F080Z06Hl01A04!a8420V0Xc08VVJ080851F0V10V1!J4#F$Va0F0	Orotate	dmuBBDpAeUyIeYZnZjUh@@	C5H3N2O4	155.089	-3.7244	-0.983	6	2	98.33
+!BbOw~_x`B?`BH?X`B?`BH?P	xtwb4ak4V@0R014Va4VV$1080F04!2F0F04#Z$V!V$F0104$V#8)4$6030	Oxaloacetate	diDJB@PnD^R[mfff@@	C4H3O5	131.063	-3.7956	-0.126	5	1	94.5
+!B?g~H?[_}?g~w@k_}?g~w@k_}m?vw@`	xvurBrkq8@2o0pCVY0VVV8!108KF0V0V4#46#k!HJ!8!10V$Z!2$V%248%160Y0	Phenylalanine	dcND@BADf{YU]Zj@@cH@	C9H11NO2	165.191	-1.5492	-1.541	3	2	63.32
+!B@hbH_[\B[^H@ha}`C~_x`B	zrxhKwNZVV5RZ1l8@40Z092Z&4142G$V!ZF09FV!VFV!J0V%VW(4!204$7430	Phosphoenolpyruvate	dedF`HSBFP|LddqbcURp@@	C3H5O6P	168.041	-3.4407	0.981	6	3	113.87
+!B?g~H?[_}m?s~_{]}mww~_p	;j:rapQ@qYpgVWZZN4264509KkcV0f812014%F641&VV40JJ!8#8V#8&2#a0I0	Pipecolic acid	difD@BADfyWaZjjcB@@	C6H11NO2	129.158	-2.2705	-0.978	3	2	49.33
+!B?g~H?[_}s}Hqorn{wyd	;jyrpaWP@qXpBVWZVN0220W09KkcV0c012!4&641#4!VV4!J!8#8V%80V!2#a0I0	Proline	daFD@BADfyVyjjhr@@	C5H9NO2	115.131	-2.6125	-0.708	3	2	49.33
+!B?g~H?[_}mpK~_p	xNsa4404020F014VV*8(F#4/&4$V#8)4$6#	Pyruvate	gGQa@bnR[ff@@	C3H3O3	87.0538	-2.9737	-0.381	3	0	57.2
+!B_[^H?[\B@hbH@hc}?g~H@ox@bOw~_x`BbOt	:xjxyyirjbrxexsY7_eL_lZzkiFHR0F2#m5124Z8F8hNH4F2F01#_#V08!8J$2J0204$A450	Ribose-5-phosphate	dglA`HSBz]lOCIILUMMLuUUTxtFK@@	C5H11O8P	230.108	-6.0345	1.782	8	5	154.33
+!B_[^H?[\B@hbH@hc}?g~H@ox@bOw~_x`BbOt	:xjxyyirjrzxexsb7heL_k_zsDFHRJG2#m5068V6F8dFH40XN21010_#V0D#J80412J02048#3410	Ribulose-5-phosphate	dglA`HSBz]lOCIILUMMLuUUMHtF@@	C5H11O8P	230.108	-5.8534	1.946	8	5	154.33
+!B?[^H?[_|@hbH@hc}?g~H@ox@bOw~_x`B?`BH?_y?b@JH?P	:xjxyyirjrzxexsb7heL_p_zsiFHRJG2V!mK12BZDJNhNP4JXO01810_#V0B!8J80412JF2048#3410	Sedoheptulose 7-phosphate	fdq@j@HHpSdmV}DGaddfJfffffZjjjihcHJJad@	C7H15O10P	290.16	-6.9882	2.204	10	7	194.79
+!B?g~H?[_}?g~w@k_}	xvubBr0a022o0lBVW!V&8J!V0V%4&X4(V$40V%V.160Y0	Serine	gNy`BDtf{Zjf`@	C3H7NO3	105.093	-3.9178	0.101	4	3	83.55
+	xvwjgyqabEXy9dxVXDhe4h51nFwFPN412FF0mS424BLRJZN!keN#FFV0B0kH9V08J180F44!F02#6030	Shikimate	dcLJ@@PUuInUgzVfjjlXcjIh@	C7H10O5	174.151	-1.6158	-0.324	5	4	97.99
+!B?g~H?[_}mpJw?[\B?g|	xtw_4Zk4V204014V24V%1.4#V//,6#	Succinate	daxBA@QnSnyImYjf@@	C4H4O4	116.072	-4.8186	-0.474	4	0	80.26
+!B?g~H?[_}?g~w@k_}?`@	xvujBrVa0D2o0pCVW0WV04F01F8KHFV0V1!k042F$XJ(V!1040V%Z%4$V!160Y0	Threonine	dazL@BAFR[nZjdrT`@	C4H9NO3	119.119	-3.5585	-0.277	4	3	83.55
+	xtwb4ak4V@0R014VXBVV08!10N0F04!HF0F84#o84!V0VV$FF10B10F0V#1#4#F%6030	Trans-aconitate	dctF@@PYWTfyVYijY`cH	C6H6O6	174.108	-1.1343	-0.115	6	3	111.9
+!B?g~H?[_}?g~w@k_}s}Hqorn{YVC_f]~fwzYeX@	zvyzDrtrdP2q0pEaYBVdVO!W0NKsAV0VHFV54a#kG66J10A3!ZZJk20Z14Y1018X180J1!1!60F5a0nV	Tryptophan	foAP`@BZ@aInvYWejsfjiB@bFH@	C11H12N2O2	204.228	-1.5098	-2.066	4	3	79.11
+!B?g~H?[_}?g~w@k_}?g~w@k_}m?vw@k_}	xvurBrkr8@2o0pCVn0VVV8!108KF0d2V4#46!1k!HJ!8!10V#8Z!2$V%X480F010160Y0	Tyrosine	dknL@BACR[me]]Zj@BHr@@	C9H11NO3	181.19	-1.8949	-1.245	4	3	83.55
+!BmpJw?_x@mpJw@k_}?`@	zpUWMWO4VF4R0F08D80V0828)4Hl01%V84!V02#V0J080810F0V1%4*VV0F0	Uracil	daED@DpFRYVkfjY@@	C4H4N2O2	112.088	-1.0412	-1.252	4	2	58.2
+!B?g~H?[_}?g~w@k_}?`@	xvujBrVa0D2o0pCVW0l#F01F8KHFV0V1!F042F$244&V!104(V%4%V0160Y0	Valine	dazD@BADf{fjjL`@	C5H11NO2	117.147	-2.3184	-0.836	3	2	63.32
+!B_[^H?[\B@hbH@hc}?g~H@ox@bOw~_x`BbOt	:xjxyyirjrzxexsb7heL_k_zsDFHRJG2#m5068V6F8dFH40XN21010_#V0D#J80412J02048#3410	Xylulose-5-phosphate	dglA`HSBz]lOCIILUMMLuUUMHtE@@	C5H11O8P	230.108	-5.8534	1.946	8	5	154.33
+<hitlist data>
+<hitlistName="<selection>">
+<hitlistData="D@@@@@@@@@">
+</hitlist data>
+<datawarrior properties>
+<columnAliasCount="1">
+<columnAlias_0="Column 1	Metabolite">
+<columnFilter_Table="">
+<columnWidth_Table_Column 1="80">
+<columnWidth_Table_H-Acceptors="80">
+<columnWidth_Table_H-Donors="80">
+<columnWidth_Table_Molecular Formula="80">
+<columnWidth_Table_Polar Surface Area="80">
+<columnWidth_Table_Structure="100">
+<columnWidth_Table_Total Molweight="80">
+<columnWidth_Table_cLogP="80">
+<columnWidth_Table_cLogS="80">
+<detailView="height[Data]=0.5;height[Structure]=0.5">
+<filter0="#browser#	#disabled#	Metabolite	2-phosphoglycerate">
+<filter1="#string#	Column 1">
+<filter2="#structure#	Structure">
+<filter3="#string#	Molecular Formula">
+<filterAnimation0="state=stopped">
+<headerLines_Table="2">
+<mainSplitting="0.70768">
+<mainView="Table">
+<mainViewCount="2">
+<mainViewDockInfo0="root">
+<mainViewDockInfo1="Table	center">
+<mainViewInFront0="true">
+<mainViewName0="Table">
+<mainViewName1="Structures">
+<mainViewType0="tableView">
+<mainViewType1="structureView">
+<rightSplitting="0.64276">
+<rowHeight_Table="80">
+<structureGridColumn_Structures="Structure">
+<structureGridColumns_Structures="6">
+</datawarrior properties>

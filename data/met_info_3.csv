@@ -13,7 +13,7 @@ Beta-alanine,89.09318,ala_B,0,0,63.3,0.000012,-3.05,Amino acid,Ishii et al.,http
 Cis-aconitate,171.08442,acon_C,-3,0,112,1.61E-05,-1,Carboxylic acid,"Bennet et al, glucose",
 Citrate,189.0997,cit,-3,0,141,0.00196,0.2,Carboxylic acid,"Bennet et al, glucose",
 Creatine,131.135,,0,0,90.4,,-1.2,Other,,
-Dihydroxyacetonephosphate,168.041961,dhap,-2,1,104,0.000374,-2.5,Phosphorylated sugar,"Bennet et al, glucose",
+Dihydroxyacetone phosphate,168.041961,dhap,-2,1,104,0.000374,-2.5,Phosphorylated sugar,"Bennet et al, glucose",
 Erythrose-4-phosphate,198.067941,e4p,-2,1,124,5.64E-05,-3.3,Phosphorylated sugar,Park et al,
 Ethanol,46.06844,etoh,0,0,20.2,,-0.1,Other,,
 "Fructose-1,6-bisphosphate",336.083922,fdp,-4,2,215,0.0152,-5.9,Phosphorylated sugar,"Bennet et al, glucose",
