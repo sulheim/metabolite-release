@@ -1,0 +1,8 @@
+CHROM	POS	TYPE	REF	ALT	EVIDENCE	FTYPE	STRAND	NT_POS	AA_POS	EFFECT	LOCUS_TAG	GENE	PRODUCT
+CP009273	904878	snp	G	A	A:149 G:1	CDS	-	1628/1719	543/572	missense_variant c.1628C>T p.Ala543Val	BW25113_0871	poxB	pyruvate dehydrogenase (pyruvate oxidase), thiamine triphosphate-binding, FAD-binding
+CP009273	1622605	snp	A	G	G:146 A:0								
+CP009273	1664690	snp	A	C	C:118 A:0	CDS	+	735/1254	245/417	synonymous_variant c.735A>C p.Ala245Ala	BW25113_1596	ynfM	putative arabinose efflux transporter
+CP009273	2235029	snp	A	C	C:129 A:0	CDS	-	119/1041	40/346	missense_variant c.119T>G p.Val40Gly	BW25113_2151	galS	galactose- and fucose-inducible galactose regulon transcriptional isorepressor; mgl operon transcriptional repressor; autorepressor
+CP009273	2719426	snp	T	C	C:93 T:0								
+CP009273	3528650	snp	G	A	A:136 G:0	CDS	-	578/1353	193/450	missense_variant c.578C>T p.Ala193Val	BW25113_3404	envZ	sensory histidine kinase in two-component regulatory system with OmpR
+CP009273	3574489	snp	G	T	T:133 G:0								

@@ -1,0 +1,22 @@
+{
+    "merge_reads":
+    {
+        "mem":"4G",
+        "time":"0:30:0"
+    },
+    "fastqc":
+    {
+        "mem":"4G",
+        "time":"0:30:0"
+    },
+    "fastp":
+    {
+        "mem":"8G",
+        "time":"1:0:0"
+    },
+    "snippy":
+    {
+        "mem":"16G",
+        "time":"1:0:0"
+    }
+}

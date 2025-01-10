@@ -1,0 +1,5 @@
+CHROM	POS	TYPE	REF	ALT	EVIDENCE	FTYPE	STRAND	NT_POS	AA_POS	EFFECT	LOCUS_TAG	GENE	PRODUCT
+CP009273	447145	snp	C	A	A:335 C:0								
+CP009273	1191242	del	CGTGACTCT	C	C:250 CGTGACTCT:5	CDS	+	674/1251	225/416	frameshift_variant c.674_681delTGACTCTG p.Val225fs	BW25113_1136	icd	e14 prophage; isocitrate dehydrogenase, specific for NADP+
+CP009273	2719426	snp	T	C	C:295 T:0								
+CP009273	4538904	snp	G	A	A:320 G:2	CDS	+	280/903	94/300	missense_variant c.280G>A p.Gly94Arg	BW25113_4320	fimH	minor component of type 1 fimbriae

@@ -1,0 +1,54 @@
+from os.path import join
+
+
+work = '/work/FAC/FBM/DMF/smitri/default/leakage/'
+
+
+
+rule fastqc:
+    input:
+        read1 =join(work,'data','isolate_sequencing','{sample}','read1.fq.gz'),
+        read2 = join(work,'data','isolate_sequencing','{sample}','read2.fq.gz')
+    output:
+        report_read1 = join(work,'data','isolate_sequencing','{sample}','fastqc','read1_fastqc.html'),
+        report_read2 = join(work,'data','isolate_sequencing','{sample}','fastqc','read2_fastqc.html'),
+    params:
+        outdir = join(work,'data','isolate_sequencing','{sample}','fastqc')
+    threads:
+        1
+    shell:
+        """
+        mkdir -p {params}
+        fastqc -o {params} {input}
+        """
+
+rule fastp:
+    input:
+        read1 =join(work,'data','isolate_sequencing','{sample}','read1.fq.gz'),
+        read2 = join(work,'data','isolate_sequencing','{sample}','read2.fq.gz')
+    output:
+        read1 =join(work,'data','isolate_sequencing','{sample}','trimmed_read1.fq.gz'),
+        read2 = join(work,'data','isolate_sequencing','{sample}','trimmed_read2.fq.gz')
+    threads:
+        2
+    shell:
+        """
+        fastp -i {input.read1} -I {input.read2} -o {output.read1} -O {output.read2} --thread {threads}
+        """
+
+rule snippy:
+    input:
+        read1 =join(work,'data','isolate_sequencing','{sample}','trimmed_read1.fq.gz'),
+        read2 = join(work,'data','isolate_sequencing','{sample}','trimmed_read2.fq.gz'),
+        reference = join(work,'data','references_sequencing','reference.gbk')
+    output:
+        join(work,'data','isolate_sequencing','{sample}','snippy','snps.tab')
+    params:
+        join(work,'data','isolate_sequencing','{sample}','snippy')
+    threads:
+        8
+    shell:
+        """
+        snippy --force --cpus {threads} --outdir {params} --ref {input.reference} --R1 {input.read1} --R2 {input.read2}
+        """
+
