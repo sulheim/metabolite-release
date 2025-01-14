@@ -1,0 +1,7 @@
+CHROM,POS,TYPE,REF,ALT,EVIDENCE,FTYPE,STRAND,NT_POS,AA_POS,EFFECT,LOCUS_TAG,GENE,PRODUCT
+CP009273,447145,snp,C,A,A:97 C:0,,,,,,,,
+CP009273,2719426,snp,T,C,C:105 T:0,,,,,,,,
+CP009273,3081560,snp,C,A,A:120 C:0,,,,,,,,
+CP009273,3782776,snp,C,A,A:122 C:0,CDS,-,666/1035,222/344,synonymous_variant c.666G>T p.Val222Val,BW25113_3615,waaH,LPS(HepIII)-glucuronic acid glycosyltransferase
+CP009273,4209467,snp,C,A,A:151 C:0,CDS,+,944/1737,315/578,missense_variant c.944C>A p.Ala315Glu,BW25113_4016,aceK,isocitrate dehydrogenase kinase/phosphatase
+CP009273,4538904,snp,G,T,T:146 G:0,CDS,+,280/903,94/300,missense_variant c.280G>T p.Gly94Trp,BW25113_4320,fimH,minor component of type 1 fimbriae

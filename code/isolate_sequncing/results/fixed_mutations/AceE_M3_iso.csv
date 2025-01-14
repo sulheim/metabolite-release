@@ -1,0 +1,6 @@
+CHROM,POS,TYPE,REF,ALT,EVIDENCE,FTYPE,STRAND,NT_POS,AA_POS,EFFECT,LOCUS_TAG,GENE,PRODUCT
+CP009273,696432,snp,C,A,A:147 C:0,CDS,-,619/1221,207/406,missense_variant c.619G>T p.Gly207Cys,BW25113_0676,nagC,N-acetylglucosamine-inducible nag divergent operon transcriptional repressor
+CP009273,1622605,snp,A,G,G:128 A:0,,,,,,,,
+CP009273,1664690,snp,A,C,C:131 A:0,CDS,+,735/1254,245/417,synonymous_variant c.735A>C p.Ala245Ala,BW25113_1596,ynfM,putative arabinose efflux transporter
+CP009273,2719426,snp,T,C,C:124 T:0,,,,,,,,
+CP009273,3652871,snp,C,A,A:160 C:0,CDS,+,280/1158,94/385,missense_variant c.280C>A p.Pro94Thr,BW25113_3513,mdtE,"anaerobic multidrug efflux transporter, ArcA-regulated"

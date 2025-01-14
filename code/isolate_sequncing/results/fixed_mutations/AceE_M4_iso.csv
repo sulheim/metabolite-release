@@ -1,0 +1,274 @@
+CHROM,POS,TYPE,REF,ALT,EVIDENCE,FTYPE,STRAND,NT_POS,AA_POS,EFFECT,LOCUS_TAG,GENE,PRODUCT
+CP009273,1455,snp,A,T,T:178 A:0,CDS,+,1119/2463,373/820,synonymous_variant c.1119A>T p.Ala373Ala,BW25113_0002,thrA,Bifunctional aspartokinase/homoserine dehydrogenase 1
+CP009273,2297,snp,C,T,T:184 C:0,CDS,+,1961/2463,654/820,missense_variant c.1961C>T p.Ser654Phe,BW25113_0002,thrA,Bifunctional aspartokinase/homoserine dehydrogenase 1
+CP009273,9100,snp,A,C,C:166 A:0,CDS,+,863/954,288/317,missense_variant c.863A>C p.Asp288Ala,BW25113_0008,talB,transaldolase B
+CP009273,9125,snp,G,T,T:170 G:0,CDS,+,888/954,296/317,synonymous_variant c.888G>T p.Ala296Ala,BW25113_0008,talB,transaldolase B
+CP009273,22360,snp,A,C,C:171 A:0,,,,,,,,
+CP009273,27823,snp,C,T,T:182 C:1,CDS,+,531/915,177/304,synonymous_variant c.531C>T p.Phe177Phe,BW25113_0030,rihC,ribonucleoside hydrolase 3
+CP009273,64494,snp,G,T,T:191 G:0,CDS,-,1287/2352,429/783,synonymous_variant c.1287C>A p.Arg429Arg,BW25113_0060,polB,DNA polymerase II
+CP009273,67812,snp,T,A,A:180 T:0,,,,,,,,
+CP009273,83578,snp,A,T,T:178 A:0,CDS,+,1462/1725,488/574,missense_variant c.1462A>T p.Ile488Phe,BW25113_0077,ilvI,acetolactate synthase 3 large subunit
+CP009273,88507,snp,A,C,C:173 A:0,CDS,+,608/1767,203/588,missense_variant c.608A>C p.Gln203Pro,BW25113_0084,ftsI,transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3)
+CP009273,107669,snp,G,A,A:175 G:0,CDS,+,139/390,47/129,missense_variant c.139G>A p.Glu47Lys,BW25113_0099,mutT,"nucleoside triphosphate pyrophosphohydrolase, marked preference for dGTP"
+CP009273,117970,snp,G,T,T:149 G:0,CDS,-,69/1374,23/457,synonymous_variant c.69C>A p.Ile23Ile,BW25113_0112,aroP,aromatic amino acid transporter
+CP009273,147600,snp,T,C,C:179 T:1,CDS,-,487/597,163/198,missense_variant c.487A>G p.Asn163Asp,BW25113_0136,yadK,putative fimbrial-like adhesin protein
+CP009273,188232,snp,T,G,G:160 T:0,,,,,,,,
+CP009273,192761,snp,G,A,A:206 G:0,CDS,+,598/858,200/285,missense_variant c.598G>A p.Ala200Thr,BW25113_0175,cdsA,CDP-diglyceride synthase
+CP009273,203801,snp,G,A,A:172 G:0,CDS,+,2189/3483,730/1160,missense_variant c.2189G>A p.Gly730Asp,BW25113_0184,dnaE,DNA polymerase III alpha subunit
+CP009273,205263,snp,T,A,A:175 T:0,CDS,+,156/960,52/319,synonymous_variant c.156T>A p.Arg52Arg,BW25113_0185,accA,"acetyl-CoA carboxylase, carboxytransferase, alpha subunit"
+CP009273,215599,snp,C,T,T:193 C:0,CDS,-,483/708,161/235,missense_variant c.483G>A p.Met161Ile,BW25113_0195,tsaA,"tRNA-Thr(GGU) m(6)t(6)A37 methyltransferase, SAM-dependent"
+CP009273,232593,snp,G,A,A:156 G:0,CDS,+,40/732,14/243,missense_variant c.40G>A p.Glu14Lys,BW25113_0215,dnaQ,DNA polymerase III epsilon subunit
+CP009273,267783,snp,G,A,A:166 G:0,CDS,+,567/684,189/227,synonymous_variant c.567G>A p.Gln189Gln,BW25113_4587,insN,
+CP009273,310401,snp,C,T,T:207 C:0,CDS,+,334/872,112/289,missense_variant c.334C>T p.Leu112Phe,BW25113_0297,eaeH,
+CP009273,313830,snp,C,T,T:161 C:0,CDS,-,201/594,67/197,synonymous_variant c.201G>A p.Leu67Leu,BW25113_0301,rclC,reactive chlorine species (RCS) stress resistance inner membrane protein
+CP009273,324027,snp,G,A,A:192 G:0,CDS,-,418/1473,140/490,missense_variant c.418C>T p.Arg140Cys,BW25113_0312,betB,"betaine aldehyde dehydrogenase, NAD-dependent"
+CP009273,336416,snp,G,A,A:189 G:0,CDS,+,541/951,181/316,missense_variant c.541G>A p.Ala181Thr,BW25113_0323,yahI,carbamate kinase-like protein
+CP009273,345045,snp,C,T,T:167 C:0,CDS,+,653/891,218/296,missense_variant c.653C>T p.Pro218Leu,BW25113_0331,prpB,2-methylisocitrate lyase
+CP009273,356163,snp,A,C,C:167 A:0,CDS,+,461/1155,154/384,missense_variant c.461A>C p.Tyr154Ser,BW25113_0341,cynX,putative cyanate transporter
+CP009273,379298,snp,T,A,A:185 T:0,CDS,-,94/1197,32/398,missense_variant c.94A>T p.Ile32Phe,BW25113_0363,yaiP,putative family 2 glycosyltransferase
+CP009273,392294,snp,G,T,T:204 G:0,CDS,+,200/1221,67/406,missense_variant c.200G>T p.Cys67Phe,BW25113_0377,sbmA,microcin B17 transporter
+CP009273,406407,snp,C,T,T:181 C:0,CDS,+,808/909,270/302,stop_gained c.808C>T p.Gln270*,BW25113_0394,mak,manno(fructo)kinase
+CP009273,438265,snp,G,T,T:164 G:0,CDS,+,1261/1449,421/482,missense_variant c.1261G>T p.Asp421Tyr,BW25113_0423,thiI,tRNA s(4)U8 sulfurtransferase
+CP009273,462390,del,AG,A,A:146 AG:0,CDS,-,378/1701,126/566,frameshift_variant c.378delC p.Tyr127fs,BW25113_0445,ybaE,putative ABC superfamily transporter periplasmic-binding protein
+CP009273,496845,snp,A,G,G:172 A:0,CDS,+,1265/1305,422/434,missense_variant c.1265A>G p.Glu422Gly,BW25113_0477,gsk,inosine/guanosine kinase
+CP009273,509739,snp,G,T,T:199 G:0,CDS,+,291/408,97/135,missense_variant c.291G>T p.Glu97Asp,BW25113_0487,cueR,copper-responsive regulon transcriptional regulator
+CP009273,533606,snp,G,A,A:156 G:1,CDS,+,518/1455,173/484,missense_variant c.518G>A p.Gly173Asp,BW25113_0511,ybbW,putative allantoin transporter
+CP009273,539239,snp,G,A,A:167 G:0,CDS,-,264/786,88/261,synonymous_variant c.264C>T p.Ile88Ile,BW25113_0515,allE,S-ureidoglycine aminohydrolase
+CP009273,540908,snp,A,G,G:155 A:0,CDS,-,912/1050,304/349,synonymous_variant c.912T>C p.Tyr304Tyr,BW25113_0517,allD,ureidoglycolate dehydrogenase
+CP009273,552650,snp,C,A,A:168 C:0,CDS,-,548/867,183/288,missense_variant c.548G>T p.Gly183Val,BW25113_0529,folD,"bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/ 5,10-methylene-tetrahydrofolate cyclohydrolase"
+CP009273,555816,snp,C,T,T:153 C:0,CDS,+,664/2604,222/867,missense_variant c.664C>T p.Arg222Cys,BW25113_0532,sfmD,putative outer membrane export usher protein
+CP009273,562124,snp,T,A,A:156 T:0,CDS,+,293/312,98/103,missense_variant c.293T>A p.Leu98Gln,BW25113_4508,peaD,
+CP009273,573574,snp,A,T,T:189 A:0,CDS,+,12/462,4/153,synonymous_variant c.12A>T p.Val4Val,BW25113_0556,rzpD,DLP12 prophage; putative murein endopeptidase
+CP009273,580161,snp,G,A,A:150 G:0,CDS,-,929/954,310/317,missense_variant c.929C>T p.Thr310Ile,BW25113_0565,ompT,DLP12 prophage; outer membrane protease VII (outer membrane protein 3b)
+CP009273,581129,del,AT,A,A:126 AT:0,,,,,,,,
+CP009273,581325,snp,G,A,A:134 G:0,,,,,,,,
+CP009273,593892,snp,G,T,T:198 G:0,CDS,+,958/1224,320/407,missense_variant c.958G>T p.Ala320Ser,BW25113_0574,cusB,"copper/silver efflux system, membrane fusion protein"
+CP009273,600341,snp,C,A,A:149 C:0,CDS,-,540/654,180/217,missense_variant c.540G>T p.Glu180Asp,BW25113_0578,nfsB,"dihydropteridine reductase, NAD(P)H-dependent, oxygen-insensitive"
+CP009273,601826,snp,G,T,T:149 G:0,CDS,-,1014/1119,338/372,synonymous_variant c.1014C>A p.Val338Val,BW25113_0581,ybdK,weak gamma-glutamyl:cysteine ligase
+CP009273,637509,snp,G,A,A:173 G:0,,,,,,,,
+CP009273,644803,snp,G,A,A:191 G:0,CDS,-,225/1533,75/510,synonymous_variant c.225C>T p.Asp75Asp,BW25113_0615,citF,"citrate lyase, citrate-ACP transferase (alpha) subunit"
+CP009273,678686,snp,T,C,C:133 T:0,CDS,-,164/1671,55/556,missense_variant c.164A>G p.Lys55Arg,BW25113_0650,hscC,"Hsp70 family chaperone Hsc62, binds to RpoD and inhibits transcription"
+CP009273,696861,snp,C,A,A:187 C:0,CDS,-,190/1221,64/406,stop_gained c.190G>T p.Glu64*,BW25113_0676,nagC,N-acetylglucosamine-inducible nag divergent operon transcriptional repressor
+CP009273,702594,snp,C,T,T:172 C:0,CDS,+,1046/1665,349/554,missense_variant c.1046C>T p.Pro349Leu,BW25113_0680,glnS,glutamyl-tRNA synthetase
+CP009273,721662,snp,G,T,T:168 G:0,CDS,-,831/2049,277/682,synonymous_variant c.831C>A p.Ala277Ala,BW25113_0697,kdpB,"potassium translocating ATPase, subunit B"
+CP009273,722821,snp,C,G,G:175 C:0,CDS,-,1368/1674,456/557,synonymous_variant c.1368G>C p.Val456Val,BW25113_0698,kdpA,"potassium translocating ATPase, subunit A"
+CP009273,736269,snp,A,C,C:156 A:0,CDS,+,1307/1419,436/472,missense_variant c.1307A>C p.Lys436Thr,BW25113_0708,phr,"deoxyribodipyrimidine photolyase, FAD-binding"
+CP009273,761607,snp,G,A,A:163 G:0,CDS,+,168/1977,56/658,synonymous_variant c.168G>A p.Gly56Gly,BW25113_0731,mngA,fused 2-O-a-mannosyl-D-glycerate specific PTS enzymes: IIA component/IIB component/IIC component
+CP009273,823880,snp,G,T,T:165 G:0,CDS,-,558/1737,186/578,synonymous_variant c.558C>A p.Gly186Gly,BW25113_0794,ybhF,putative transporter subunit of ABC superfamily: ATP-binding component
+CP009273,856256,snp,T,C,C:167 T:0,CDS,-,1807/2433,603/810,missense_variant c.1807A>G p.Thr603Ala,BW25113_0823,ybiW,putative pyruvate formate lyase
+CP009273,857049,snp,A,T,T:159 A:0,CDS,-,1014/2433,338/810,synonymous_variant c.1014T>A p.Ser338Ser,BW25113_0823,ybiW,putative pyruvate formate lyase
+CP009273,869113,snp,G,A,A:145 G:0,CDS,+,679/2349,227/782,missense_variant c.679G>A p.Ala227Thr,BW25113_0833,yliE,putative membrane-anchored cyclic-di-GMP phosphodiesterase
+CP009273,923742,snp,G,T,T:171 G:0,CDS,-,910/1722,304/573,missense_variant c.910C>A p.Leu304Met,BW25113_0886,cydC,"fused glutathione, cysteine exporter subunits of ABC superfamily: membrane component/ATP-binding component"
+CP009273,933509,snp,G,A,A:155 G:0,CDS,+,60/1344,20/447,missense_variant c.60G>A p.Met20Ile,BW25113_0892,rarA,DNA-dependent ATPase involved in processing recombination intermediates at replication forks
+CP009273,960387,snp,A,G,G:188 A:0,CDS,+,612/2265,204/754,synonymous_variant c.612A>G p.Glu204Glu,BW25113_0913,ycaI,ComEC family inner membrane protein
+CP009273,977328,snp,G,T,T:166 G:1,CDS,+,826/1848,276/615,missense_variant c.826G>T p.Asp276Tyr,BW25113_0925,ldtD,"murein L,D-transpeptidase"
+CP009273,984871,snp,G,A,A:155 G:0,CDS,-,942/1203,314/400,synonymous_variant c.942C>T p.Asp314Asp,BW25113_0931,pncB,nicotinate phosphoribosyltransferase
+CP009273,987651,snp,A,G,G:202 A:0,CDS,+,1574/2613,525/870,missense_variant c.1574A>G p.Tyr525Cys,BW25113_0932,pepN,aminopeptidase N
+CP009273,1015521,snp,C,A,A:171 C:0,,,,,,,,
+CP009273,1019949,snp,T,C,C:187 T:1,CDS,+,23/2055,8/684,missense_variant c.23T>C p.Leu8Pro,BW25113_0962,helD,DNA helicase IV
+CP009273,1023739,snp,C,T,T:146 C:0,CDS,+,338/414,113/137,missense_variant c.338C>T p.Ala113Val,BW25113_0965,yccU,putative CoA-binding protein
+CP009273,1024480,snp,G,T,T:158 G:0,CDS,-,946/1191,316/396,missense_variant c.946C>A p.Arg316Ser,BW25113_0967,rlmI,"23S rRNA m(5)C1962 methyltransferase, SAM-dependent"
+CP009273,1097837,snp,T,C,C:148 T:1,CDS,-,161/390,54/129,missense_variant c.161A>G p.Asp54Gly,BW25113_1039,csgE,curlin secretion specificity factor
+CP009273,1108750,snp,T,A,A:183 T:1,CDS,+,2432/2544,811/847,missense_variant c.2432T>A p.Leu811Gln,BW25113_1049,opgH,"membrane glycosyltransferase; nutrient-dependent cell size regulator, FtsZ assembly antagonist"
+CP009273,1120870,snp,T,C,C:162 T:0,,,,,,,,
+CP009273,1142576,snp,T,A,A:180 T:0,CDS,+,327/522,109/173,synonymous_variant c.327T>A p.Ile109Ile,BW25113_1088,yceD,DUF177 family protein
+CP009273,1186402,snp,G,T,T:168 G:0,CDS,-,1041/1371,347/456,synonymous_variant c.1041C>A p.Gly347Gly,BW25113_1131,purB,adenylosuccinate lyase
+CP009273,1206046,snp,C,A,A:149 C:0,CDS,+,245/834,82/277,missense_variant c.245C>A p.Pro82His,BW25113_1159,mcrA,putative 5-methylcytosine/5-hydroxymethylcytosine-specific restriction nuclease; 5-methylcytosine DNA binding protein; e14 prophage gene
+CP009273,1217296,snp,A,G,G:155 A:0,CDS,+,2240/2648,747/881,missense_variant c.2240A>G p.Tyr747Cys,BW25113_4491,ycgH,
+CP009273,1233372,snp,C,T,T:182 C:1,CDS,+,346/1299,116/432,missense_variant c.346C>T p.Arg116Cys,BW25113_1189,dadA,D-amino acid dehydrogenase
+CP009273,1274030,del,TG,T,T:159 TG:0,CDS,+,621/1392,207/463,frameshift_variant c.621delG p.Thr208fs,BW25113_1223,narK,nitrate/nitrite transporter
+CP009273,1308962,snp,G,T,T:141 G:0,,,,,,,,
+CP009273,1341089,ins,G,GT,GT:105 G:2,CDS,+,46/105,16/34,frameshift_variant c.45dupT p.Ile16fs,BW25113_4672,ymiB,uncharacterized protein
+CP009273,1349568,snp,A,G,G:179 A:1,CDS,-,160/966,54/321,missense_variant c.160T>C p.Trp54Arg,BW25113_1293,sapB,antimicrobial peptide transport ABC transporter permease
+CP009273,1350768,snp,C,A,A:164 C:0,CDS,-,600/1644,200/547,missense_variant c.600G>T p.Glu200Asp,BW25113_1294,sapA,antimicrobial peptide transport ABC transporter periplasmic binding protein
+CP009273,1371174,snp,A,T,T:161 A:0,CDS,+,86/1056,29/351,missense_variant c.86A>T p.Tyr29Phe,BW25113_1315,ycjS,putative NADH-binding oxidoreductase
+CP009273,1436496,snp,G,T,T:160 G:1,CDS,-,605/990,202/329,missense_variant c.605C>A p.Ser202Tyr,BW25113_1380,ldhA,"fermentative D-lactate dehydrogenase, NAD-dependent"
+CP009273,1436705,snp,G,T,T:169 G:0,CDS,-,396/990,132/329,missense_variant c.396C>A p.Phe132Leu,BW25113_1380,ldhA,"fermentative D-lactate dehydrogenase, NAD-dependent"
+CP009273,1483183,snp,C,A,A:169 C:0,CDS,+,695/1440,232/479,missense_variant c.695C>A p.Ser232Tyr,BW25113_1415,aldA,"aldehyde dehydrogenase A, NAD-linked"
+CP009273,1494040,snp,C,A,A:168 C:0,CDS,-,667/981,223/326,missense_variant c.667G>T p.Asp223Tyr,BW25113_1428,ydcK,uncharacterized protein
+CP009273,1503215,snp,T,A,A:147 T:0,mobile_element,+,107/231,36/76,missense_variant c.107A>T p.Asp36Val,,,
+CP009273,1526809,snp,A,C,C:85 A:0,CDS,+,737/1137,246/378,missense_variant c.737A>C p.Glu246Ala,BW25113_1460,ydcC,H repeat-associated putative transposase
+CP009273,1537604,snp,T,A,A:192 T:0,CDS,-,714/1389,238/462,synonymous_variant c.714A>T p.Ser238Ser,BW25113_1469,narU,nitrate/nitrite transporter
+CP009273,1539351,snp,A,G,G:156 A:0,CDS,-,621/1331,207/442,synonymous_variant c.621T>C p.Thr207Thr,BW25113_1471,yddK,
+CP009273,1566263,snp,G,A,A:156 G:0,CDS,-,40/1401,14/466,missense_variant c.40C>T p.Leu14Phe,BW25113_1493,gadB,"glutamate decarboxylase B, PLP-dependent"
+CP009273,1576415,snp,T,A,A:144 T:0,CDS,-,367/1683,123/560,missense_variant c.367A>T p.Thr123Ser,BW25113_1498,ydeN,putative Ser-type periplasmic non-aryl sulfatase
+CP009273,1582473,snp,A,C,C:159 A:0,CDS,-,81/504,27/167,synonymous_variant c.81T>G p.Thr27Thr,BW25113_1503,ydeR,putative fimbrial-like adhesin protein
+CP009273,1583141,snp,A,C,C:157 A:0,CDS,-,1196/1227,399/408,stop_gained c.1196T>G p.Leu399*,BW25113_1505,ydeT,
+CP009273,1592506,snp,A,G,G:136 A:0,,,,,,,,
+CP009273,1604713,snp,G,T,T:164 G:0,CDS,-,225/1452,75/483,synonymous_variant c.225C>A p.Gly75Gly,BW25113_1521,uxaB,"altronate oxidoreductase, NAD-dependent"
+CP009273,1622605,snp,A,G,G:177 A:0,,,,,,,,
+CP009273,1626172,snp,C,T,T:171 C:0,CDS,-,455/1368,152/455,missense_variant c.455G>A p.Arg152His,BW25113_4600,ydfJ,
+CP009273,1642667,snp,T,C,C:174 T:0,,,,,,,,
+CP009273,1649642,snp,C,T,T:153 C:0,CDS,-,289/327,97/108,missense_variant c.289G>A p.Gly97Ser,BW25113_1582,ynfA,UPF0060 family inner membrane protein
+CP009273,1664690,snp,A,C,C:161 A:0,CDS,+,735/1254,245/417,synonymous_variant c.735A>C p.Ala245Ala,BW25113_1596,ynfM,putative arabinose efflux transporter
+CP009273,1669505,snp,T,A,A:153 T:0,CDS,-,1113/1389,371/462,missense_variant c.1113A>T p.Glu371Asp,BW25113_1602,pntB,"pyridine nucleotide transhydrogenase, beta subunit"
+CP009273,1685376,snp,T,G,G:181 T:0,CDS,+,1268/1509,423/502,missense_variant c.1268T>G p.Leu423Arg,BW25113_1614,ydgA,DUF945 family protein
+CP009273,1696366,snp,G,T,T:161 G:0,CDS,+,1153/1173,385/390,missense_variant c.1153G>T p.Ala385Ser,BW25113_1622,malY,"bifunctional beta-cystathionase, PLP-dependent/ regulator of maltose regulon"
+CP009273,1698782,snp,A,T,T:135 A:0,,,,,,,,
+CP009273,1720380,snp,T,A,A:161 T:0,CDS,+,101/600,34/199,stop_gained c.101T>A p.Leu34*,BW25113_1649,nemR,"transcriptional repressor for the nemRA-gloA operon, quinone-, glyoxal-, and HOCl-activated"
+CP009273,1725360,snp,C,T,T:184 C:0,CDS,+,2017/4617,673/1538,missense_variant c.2017C>T p.Arg673Cys,BW25113_1653,lhr,putative ATP-dependent helicase
+CP009273,1736014,snp,C,A,A:145 C:0,CDS,+,345/1149,115/382,synonymous_variant c.345C>A p.Val115Val,BW25113_1661,cfa,cyclopropane fatty acyl phospholipid synthase (unsaturated-phospholipid methyltransferase)
+CP009273,1743894,snp,G,A,A:161 G:0,CDS,-,712/786,238/261,missense_variant c.712C>T p.Leu238Phe,BW25113_1670,ydhU,putative cytochrome b subunit of YdhYVWXUT oxidoreductase complex
+CP009273,1834783,snp,C,T,T:157 C:1,CDS,+,1060/1308,354/435,missense_variant c.1060C>T p.His354Tyr,BW25113_1757,ynjE,molybdopterin synthase sulfurtransferase
+CP009273,1847556,snp,C,A,A:126 C:0,CDS,-,681/1359,227/452,missense_variant c.681G>T p.Glu227Asp,BW25113_1769,ydjE,putative transporter
+CP009273,1881324,snp,C,T,T:143 C:1,CDS,-,925/1128,309/375,missense_variant c.925G>A p.Ala309Thr,BW25113_1804,rnd,ribonuclease D
+CP009273,1883556,snp,T,G,G:158 T:0,CDS,-,448/1686,150/561,missense_variant c.448A>C p.Thr150Pro,BW25113_1805,fadD,acyl-CoA synthetase (long-chain-fatty-acid--CoA ligase)
+CP009273,1914914,snp,C,T,T:152 C:0,CDS,+,435/1440,145/479,synonymous_variant c.435C>T p.Ile145Ile,BW25113_1835,rsmF,"16S rRNA m(5)C1407 methyltransferase, SAM-dependent"
+CP009273,1916011,snp,T,A,A:129 T:0,,,,,,,,
+CP009273,1977516,snp,A,C,C:167 A:0,CDS,-,1035/1515,345/504,missense_variant c.1035T>G p.Ile345Met,BW25113_1900,araG,fused L-arabinose transporter subunits of ABC superfamily: ATP-binding components
+CP009273,1985894,snp,C,T,T:177 C:0,CDS,-,405/549,135/182,missense_variant c.405G>A p.Met135Ile,BW25113_1912,pgsA,phosphatidylglycerophosphate synthetase
+CP009273,2000420,snp,A,G,G:141 A:0,CDS,+,784/1488,262/495,missense_variant c.784A>G p.Ile262Val,BW25113_1927,amyA,cytoplasmic alpha-amylase
+CP009273,2005444,snp,G,A,A:146 G:0,CDS,-,389/1122,130/373,missense_variant c.389C>T p.Thr130Ile,BW25113_4495,yedN,
+CP009273,2006738,snp,C,A,A:186 C:0,CDS,+,29/1659,10/552,missense_variant c.29C>A p.Ser10Tyr,BW25113_1938,fliF,flagellar basal-body MS-ring and collar protein
+CP009273,2034711,snp,C,T,T:176 C:0,,,,,,,,
+CP009273,2048531,snp,A,G,G:152 A:1,,,,,,,,
+CP009273,2118666,snp,C,T,T:198 C:0,CDS,-,562/1224,188/407,missense_variant c.562G>A p.Ala188Thr,BW25113_2050,wcaI,putative glycosyl transferase
+CP009273,2120336,snp,C,A,A:187 C:0,CDS,-,336/966,112/321,synonymous_variant c.336G>T p.Pro112Pro,BW25113_2052,wcaG,bifunctional GDP-fucose synthetase: GDP-4-dehydro-6-deoxy-D-mannose epimerase/ GDP-4-dehydro-6-L-deoxygalactose reductase
+CP009273,2122203,snp,T,C,C:125 T:0,CDS,-,167/549,56/182,missense_variant c.167A>G p.Lys56Arg,BW25113_2054,wcaF,putative acyl transferase
+CP009273,2123924,snp,C,G,G:171 C:0,CDS,-,436/1218,146/405,missense_variant c.436G>C p.Glu146Gln,BW25113_2056,wcaD,putative colanic acid polymerase
+CP009273,2134026,snp,A,G,G:156 A:0,CDS,-,1068/1854,356/617,synonymous_variant c.1068T>C p.Asn356Asn,BW25113_2064,asmA,suppressor of OmpF assembly mutants; putative outer membrane protein assembly factor; inner membrane-anchored periplasmic protein
+CP009273,2161103,snp,C,T,T:128 C:0,CDS,-,193/213,65/70,missense_variant c.193G>A p.Glu65Lys,BW25113_2083,yegZ,
+CP009273,2173128,snp,C,T,T:167 C:0,CDS,+,829/1278,277/425,missense_variant c.829C>T p.Leu277Phe,BW25113_2098,yegT,"nucleoside transporter, low affinity"
+CP009273,2181050,snp,G,A,A:159 G:0,CDS,-,844/1035,282/344,missense_variant c.844C>T p.Pro282Ser,BW25113_2108,yehA,putative fimbrial-like adhesin protein
+CP009273,2185654,snp,C,T,T:114 C:0,CDS,-,48/543,16/180,missense_variant c.48G>A p.Met16Ile,BW25113_2111,yehD,putative fimbrial-like adhesin protein
+CP009273,2211053,snp,C,A,A:162 C:0,CDS,-,984/1158,328/385,synonymous_variant c.984G>T p.Val328Val,BW25113_2130,yehY,inner membrane putative ABC superfamily transporter permease
+CP009273,2234711,snp,C,A,A:172 C:0,CDS,-,437/1041,146/346,missense_variant c.437G>T p.Arg146Leu,BW25113_2151,galS,galactose- and fucose-inducible galactose regulon transcriptional isorepressor; mgl operon transcriptional repressor; autorepressor
+CP009273,2236285,snp,A,G,G:137 A:0,CDS,-,162/1158,54/385,synonymous_variant c.162T>C p.Asp54Asp,BW25113_2152,yeiB,DUF418 family putative inner membrane protein
+CP009273,2315071,snp,C,T,T:148 C:0,CDS,+,1550/1827,517/608,missense_variant c.1550C>T p.Ala517Val,BW25113_2219,atoS,sensory histidine kinase in two-component regulatory system with AtoC
+CP009273,2324219,snp,G,A,A:151 G:0,CDS,-,3663/4605,1221/1534,synonymous_variant c.3663C>T p.Ser1221Ser,BW25113_4500,yfaS,
+CP009273,2325364,snp,C,A,A:185 C:0,CDS,-,2518/4605,840/1534,missense_variant c.2518G>T p.Ala840Ser,BW25113_4500,yfaS,
+CP009273,2360124,snp,G,A,A:138 G:0,CDS,+,718/1140,240/379,missense_variant c.718G>A p.Asp240Asn,BW25113_2253,arnB,"uridine 5'-(beta-1-threo-pentapyranosyl-4-ulose diphosphate) aminotransferase, PLP-dependent"
+CP009273,2417637,snp,T,G,G:173 T:0,CDS,-,352/774,118/257,missense_variant c.352A>C p.Ile118Leu,BW25113_2306,hisP,histidine/lysine/arginine/ornithine transporter subunit
+CP009273,2456436,snp,C,T,T:146 C:0,,,,,,,,
+CP009273,2462257,snp,G,T,T:151 G:1,CDS,+,565/921,189/306,missense_variant c.565G>T p.Asp189Tyr,BW25113_2351,gtrB,CPS-53 (KpLE1) prophage; bactoprenol glucosyl transferase
+CP009273,2463278,snp,A,G,G:135 A:0,CDS,+,669/1332,223/443,synonymous_variant c.669A>G p.Ala223Ala,BW25113_2352,gtrS,"serotype-specific glucosyl transferase, CPS-53 (KpLE1) prophage"
+CP009273,2463918,snp,G,A,A:118 G:0,CDS,+,1309/1332,437/443,missense_variant c.1309G>A p.Asp437Asn,BW25113_2352,gtrS,"serotype-specific glucosyl transferase, CPS-53 (KpLE1) prophage"
+CP009273,2463996,snp,C,A,A:114 C:0,,,,,,,,
+CP009273,2475256,snp,T,C,C:169 T:0,CDS,-,400/1539,134/512,missense_variant c.400A>G p.Asn134Asp,BW25113_2367,emrY,putative multidrug efflux system
+CP009273,2478593,snp,A,G,G:157 A:0,CDS,+,741/3594,247/1197,synonymous_variant c.741A>G p.Lys247Lys,BW25113_2370,evgS,hybrid sensory histidine kinase in two-component regulatory system with EvgA
+CP009273,2482347,snp,A,T,T:156 A:0,CDS,-,301/1146,101/381,missense_variant c.301T>A p.Phe101Ile,BW25113_2371,yfdE,acetyl-CoA:oxalate CoA-transferase
+CP009273,2487470,snp,C,T,T:151 C:0,CDS,-,412/636,138/211,missense_variant c.412G>A p.Glu138Lys,BW25113_2375,yfdX,uncharacterized protein
+CP009273,2510986,snp,C,A,A:188 C:0,CDS,-,326/2190,109/729,missense_variant c.326G>T p.Gly109Val,BW25113_2395,yfeA,putative diguanylate cyclase
+CP009273,2529524,snp,G,A,A:153 G:0,CDS,+,332/510,111/169,missense_variant c.332G>A p.Gly111Asp,BW25113_2417,crr,glucose-specific enzyme IIA component of PTS
+CP009273,2532192,snp,A,G,G:163 A:0,CDS,-,751/912,251/303,missense_variant c.751T>C p.Phe251Leu,BW25113_2421,cysM,cysteine synthase B (O-acetylserine sulfhydrolase B)
+CP009273,2571967,snp,C,A,A:139 C:0,,,,,,,,
+CP009273,2591613,snp,A,G,G:168 A:0,CDS,-,612/1035,204/344,synonymous_variant c.612T>C p.Val204Val,BW25113_2477,bamC,BamABCDE complex OM biogenesis lipoprotein
+CP009273,2600952,snp,T,A,A:161 T:0,CDS,+,677/1581,226/526,missense_variant c.677T>A p.Leu226Gln,BW25113_2486,hyfF,"hydrogenase 4, membrane subunit"
+CP009273,2612635,snp,C,A,A:182 C:0,CDS,-,885/1290,295/429,missense_variant c.885G>T p.Met295Ile,BW25113_2497,uraA,uracil permease
+CP009273,2622562,snp,T,C,C:148 T:0,,,,,,,,
+CP009273,2654461,snp,C,T,T:150 C:0,CDS,-,430/1215,144/404,missense_variant c.430G>A p.Asp144Asn,BW25113_2530,iscS,"cysteine desulfurase (tRNA sulfurtransferase), PLP-dependent"
+CP009273,2658259,snp,C,A,A:148 C:0,CDS,+,511/855,171/284,missense_variant c.511C>A p.Arg171Ser,BW25113_2534,yfhR,putative S9 family prolyl oligopeptidase
+CP009273,2661572,snp,G,T,T:150 G:0,CDS,-,684/891,228/296,synonymous_variant c.684C>A p.Thr228Thr,BW25113_2537,hcaR,hca operon transcriptional regulator
+CP009273,2665654,snp,G,T,T:182 G:0,CDS,+,249/1203,83/400,synonymous_variant c.249G>T p.Thr83Thr,BW25113_2542,hcaD,"phenylpropionate dioxygenase, ferredoxin reductase subunit"
+CP009273,2690259,snp,T,A,A:174 T:0,STS,+,1100/1557,367/518,missense_variant c.1100T>A p.Val367Glu,BW25113_2558,mltF,
+CP009273,2709626,snp,C,A,A:164 C:0,CDS,-,183/384,61/127,synonymous_variant c.183G>T p.Val61Val,BW25113_2579,grcA,autonomous glycyl radical cofactor
+CP009273,2719426,snp,T,C,C:140 T:0,,,,,,,,
+CP009273,2734001,snp,G,T,T:176 G:0,CDS,-,509/1071,170/356,stop_gained c.509C>A p.Ser170*,BW25113_2601,aroF,"3-deoxy-D-arabino-heptulosonate-7-phosphate synthase, tyrosine-repressible"
+CP009273,2738127,snp,T,G,G:172 T:0,CDS,-,572/768,191/255,missense_variant c.572A>C p.Glu191Ala,BW25113_2607,trmD,"tRNA m(1)G37 methyltransferase, SAM-dependent"
+CP009273,2753767,snp,C,T,T:144 C:0,,,,,,,,
+CP009273,2763080,snp,C,T,T:168 C:0,CDS,+,19/702,7/233,missense_variant c.19C>T p.Arg7Cys,BW25113_2634,yfjR,CP4-57 prophage; putative DNA-binding transcriptional regulator
+CP009273,2786576,snp,G,A,A:167 G:0,CDS,+,483/1281,161/426,synonymous_variant c.483G>A p.Leu161Leu,BW25113_2662,gabT,"4-aminobutyrate aminotransferase, PLP-dependent"
+CP009273,2796014,snp,G,T,T:153 G:0,CDS,+,1308/2145,436/714,missense_variant c.1308G>T p.Glu436Asp,BW25113_2675,nrdE,"ribonucleoside-diphosphate reductase 2, alpha subunit"
+CP009273,2802902,snp,G,A,A:180 G:1,,,,,,,,
+CP009273,2815245,snp,G,T,T:163 G:0,CDS,-,126/2631,42/876,synonymous_variant c.126C>A p.Ala42Ala,BW25113_2697,alaS,alanyl-tRNA synthetase
+CP009273,2815648,snp,C,A,A:176 C:0,CDS,-,351/501,117/166,missense_variant c.351G>T p.Trp117Cys,BW25113_2698,recX,regulatory protein for RecA
+CP009273,2843841,snp,G,A,A:165 G:0,,,,,,,,
+CP009273,2844554,snp,G,T,T:183 G:0,CDS,+,195/873,65/290,synonymous_variant c.195G>T p.Ala65Ala,BW25113_2727,hypB,GTP hydrolase involved in nickel liganding into hydrogenases
+CP009273,2849271,snp,G,A,A:174 G:0,CDS,+,1575/2079,525/692,synonymous_variant c.1575G>A p.Leu525Leu,BW25113_2731,fhlA,formate hydrogenlyase transcriptional activator
+CP009273,2876084,snp,G,A,A:155 G:0,CDS,-,1414/1509,472/502,missense_variant c.1414C>T p.His472Tyr,BW25113_2760,casA,CRISP RNA (crRNA) containing Cascade antiviral complex protein
+CP009273,2877611,snp,C,T,T:153 C:0,,,,,,,,
+CP009273,2892708,snp,C,A,A:181 C:0,CDS,-,70/1455,24/484,missense_variant c.70G>T p.Asp24Tyr,BW25113_4463,ygcU,putative FAD-containing dehydrogenase
+CP009273,2941568,snp,C,A,A:179 C:0,CDS,-,802/1254,268/417,missense_variant c.802G>T p.Ala268Ser,BW25113_2817,amiC,N-acetylmuramoyl-L-alanine amidase
+CP009273,2956714,snp,A,G,G:180 A:0,CDS,-,362/564,121/187,missense_variant c.362T>C p.Leu121Pro,BW25113_2825,ppdB,putative prepilin peptidase-dependent protein
+CP009273,2963728,snp,C,A,A:196 C:0,,,,,,,,
+CP009273,2989366,ins,A,AT,AT:114 A:2,CDS,-,13/707,5/234,frameshift_variant c.13dupA p.Ile5fs,BW25113_2859,ygeO,
+CP009273,2999482,snp,C,T,T:160 C:0,,,,,,,,
+CP009273,2999531,snp,A,G,G:168 A:0,,,,,,,,
+CP009273,3004459,snp,C,A,A:163 C:0,CDS,+,1073/1386,358/461,missense_variant c.1073C>A p.Thr358Lys,BW25113_2873,hyuA,D-stereospecific phenylhydantoinase
+CP009273,3046853,snp,C,T,T:169 C:0,CDS,-,25/1179,9/392,missense_variant c.25G>A p.Gly9Ser,BW25113_2907,ubiH,"2-octaprenyl-6-methoxyphenol hydroxylase, FAD/NAD(P)-binding"
+CP009273,3050405,snp,C,T,T:154 C:1,,,,,,,,
+CP009273,3066297,snp,T,C,C:167 T:0,CDS,-,754/1020,252/339,missense_variant c.754A>G p.Lys252Glu,BW25113_2927,epd,D-erythrose 4-phosphate dehydrogenase
+CP009273,3067165,snp,T,C,C:191 T:0,,,,,,,,
+CP009273,3094698,snp,G,T,T:142 G:0,CDS,-,285/720,95/239,synonymous_variant c.285C>A p.Val95Val,BW25113_2958,yggN,DUF2884 family putative periplasmic protein
+CP009273,3119951,snp,C,A,A:177 C:0,CDS,-,1430/1500,477/499,missense_variant c.1430G>T p.Arg477Leu,BW25113_2979,glcD,"glycolate oxidase subunit, FAD-linked"
+CP009273,3128866,snp,G,A,A:166 G:0,CDS,-,865/1500,289/499,missense_variant c.865C>T p.Pro289Ser,BW25113_2987,pitB,phosphate transporter
+CP009273,3172700,snp,G,T,T:142 G:0,CDS,+,1227/1482,409/493,synonymous_variant c.1227G>T p.Ala409Ala,BW25113_3035,tolC,transport channel
+CP009273,3182183,ins,G,GA,GA:135 G:0,CDS,+,1434/2472,478/823,frameshift_variant c.1433dupA p.Asn478fs,BW25113_3046,yqiG,
+CP009273,3243618,snp,G,T,T:161 G:0,CDS,+,183/300,61/99,synonymous_variant c.183G>T p.Ala61Ala,BW25113_3100,yqjK,uncharacterized protein
+CP009273,3245064,snp,C,A,A:170 C:0,CDS,+,682/987,228/328,missense_variant c.682C>A p.Arg228Ser,BW25113_3102,yqjG,putative S-transferase
+CP009273,3340105,snp,C,A,A:138 C:0,CDS,+,169/492,57/163,synonymous_variant c.169C>A p.Arg57Arg,BW25113_3204,ptsN,sugar-specific enzyme IIA component of PTS
+CP009273,3342597,del,CG,C,C:147 CG:0,CDS,-,571/729,191/242,frameshift_variant c.571delC p.Arg191fs,BW25113_3208,mtgA,biosynthetic peptidoglycan transglycosylase
+CP009273,3360572,snp,C,A,A:142 C:0,CDS,+,288/717,96/238,synonymous_variant c.288C>A p.Thr96Thr,BW25113_3219,yhcF,putative transcriptional regulator
+CP009273,3411608,snp,C,T,T:158 C:0,,,,,,,,
+CP009273,3433474,snp,G,T,T:166 G:0,CDS,-,915/990,305/329,missense_variant c.915C>A p.Asp305Glu,BW25113_3295,rpoA,"RNA polymerase, alpha subunit"
+CP009273,3434777,snp,G,T,T:191 G:0,CDS,-,258/621,86/206,synonymous_variant c.258C>A p.Thr86Thr,BW25113_3296,rpsD,30S ribosomal subunit protein S4
+CP009273,3470179,snp,C,T,T:138 C:0,CDS,-,600/813,200/270,synonymous_variant c.600G>A p.Pro200Pro,BW25113_3347,fkpA,FKBP-type peptidyl-prolyl cis-trans isomerase (rotamase)
+CP009273,3524897,snp,G,A,A:186 G:0,CDS,-,902/1725,301/574,missense_variant c.902C>T p.Ala301Val,BW25113_3402,yhgE,DUF4153 family putative inner membrane protein
+CP009273,3544231,snp,T,A,A:170 T:0,CDS,-,1602/2394,534/797,missense_variant c.1602A>T p.Lys534Asn,BW25113_3417,malP,maltodextrin phosphorylase
+CP009273,3598111,snp,C,A,A:163 C:0,CDS,+,359/597,120/198,missense_variant c.359C>A p.Pro120Gln,BW25113_3465,rsmD,"16S rRNA m(2)G966 methyltransferase, SAM-dependent"
+CP009273,3598933,snp,C,T,T:155 C:0,CDS,-,38/360,13/119,missense_variant c.38G>A p.Gly13Asp,BW25113_3467,yhhM,DUF2500 family protein
+CP009273,3601280,snp,C,A,A:185 C:0,CDS,+,1470/2199,490/732,synonymous_variant c.1470C>A p.Leu490Leu,BW25113_3469,zntA,"zinc, cobalt and lead efflux system"
+CP009273,3606966,snp,G,A,A:164 G:0,,,,,,,,
+CP009273,3622757,snp,C,A,A:173 C:0,CDS,-,142/2736,48/911,missense_variant c.142G>T p.Gly48Cys,BW25113_3486,rbbA,ribosome-associated ATPase: ATP-binding protein/ATP-binding membrane protein
+CP009273,3625169,snp,A,G,G:153 A:0,CDS,-,782/1623,261/540,missense_variant c.782T>C p.Ile261Thr,BW25113_3488,yhiJ,DUF4049 family protein
+CP009273,3626122,snp,G,T,T:144 G:0,,,,,,,,
+CP009273,3626956,snp,A,T,T:141 A:1,CDS,-,863/1607,288/534,stop_gained c.863T>A p.Leu288*,BW25113_4660,yhiL,
+CP009273,3647307,snp,A,G,G:141 A:0,,,,,,,,
+CP009273,3661522,snp,A,C,C:147 A:0,CDS,-,1027/1398,343/465,missense_variant c.1027T>G p.Tyr343Asp,BW25113_3518,yhjA,putative cytochrome C peroxidase
+CP009273,3709030,snp,T,A,A:171 T:0,CDS,-,725/2334,242/777,missense_variant c.725A>T p.His242Leu,BW25113_3551,bisC,biotin sulfoxide reductase
+CP009273,3738180,snp,T,C,C:160 T:0,CDS,+,17/1278,6/425,missense_variant c.17T>C p.Phe6Ser,BW25113_3578,yiaN,"2,3-diketo-L-gulonate TRAP transporter large permease protein"
+CP009273,3738993,snp,T,G,G:177 T:0,CDS,+,830/1278,277/425,missense_variant c.830T>G p.Val277Gly,BW25113_3578,yiaN,"2,3-diketo-L-gulonate TRAP transporter large permease protein"
+CP009273,3790557,snp,C,T,T:132 C:0,CDS,+,250/1260,84/419,missense_variant c.250C>T p.Leu84Phe,BW25113_3622,waaL,O-antigen ligase
+CP009273,3792548,snp,G,A,A:125 G:0,CDS,-,125/1074,42/357,missense_variant c.125C>T p.Ser42Leu,BW25113_3623,waaU,lipopolysaccharide core biosynthesis
+CP009273,3809291,snp,C,A,A:178 C:0,CDS,-,619/716,207/237,stop_gained c.619G>T p.Glu207*,BW25113_3643,rph,
+CP009273,3810734,snp,G,A,A:176 G:0,CDS,+,699/864,233/287,synonymous_variant c.699G>A p.Lys233Lys,BW25113_3644,yicC,UPF0701 family protein
+CP009273,3812104,snp,C,T,T:166 C:0,,,,,,,,
+CP009273,3827805,snp,T,A,A:156 T:0,CDS,-,93/2319,31/772,missense_variant c.93A>T p.Glu31Asp,BW25113_3656,yicI,putative alpha-glucosidase
+CP009273,3830802,snp,G,A,A:164 G:0,CDS,+,490/1185,164/394,missense_variant c.490G>A p.Glu164Lys,BW25113_3659,setC,putative arabinose efflux transporter
+CP009273,3847239,snp,G,A,A:163 G:0,,,,,,,,
+CP009273,3886814,snp,G,A,A:173 G:0,CDS,+,690/960,230/319,synonymous_variant c.690G>A p.Thr230Thr,BW25113_3711,yidZ,putative DNA-binding transcriptional regulator
+CP009273,3894950,snp,C,A,A:161 C:0,CDS,-,631/1617,211/538,missense_variant c.631G>T p.Asp211Tyr,BW25113_3720,bglH,"carbohydrate-specific outer membrane porin, cryptic"
+CP009273,3902074,snp,C,A,A:155 C:0,CDS,-,726/891,242/296,missense_variant c.726G>T p.Met242Ile,BW25113_3726,pstA,phosphate transporter subunit
+CP009273,3907230,snp,G,A,A:154 G:0,CDS,-,1331/1371,444/456,missense_variant c.1331C>T p.Thr444Ile,BW25113_3730,glmU,fused N-acetyl glucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyl transferase
+CP009273,3931770,snp,A,C,C:168 A:2,CDS,+,184/993,62/330,missense_variant c.184A>C p.Ile62Leu,BW25113_3753,rbsR,transcriptional repressor of ribose metabolism
+CP009273,3958909,ins,C,CT,CT:109 C:2,CDS,-,81/1266,27/421,frameshift_variant c.81dupA p.Gly28fs,BW25113_3780,rhlB,ATP-dependent RNA helicase
+CP009273,3971684,snp,G,T,T:191 G:1,CDS,+,800/1080,267/359,missense_variant c.800G>T p.Gly267Val,BW25113_4481,wecF,TDP-Fuc4NAc:lipidIIFuc4NAc transferase
+CP009273,3972638,snp,G,A,A:161 G:0,CDS,+,678/1353,226/450,synonymous_variant c.678G>A p.Leu226Leu,BW25113_3793,wzyE,putative ECA polysaccharide chain elongation protein
+CP009273,3972857,snp,C,T,T:170 C:0,CDS,+,897/1353,299/450,synonymous_variant c.897C>T p.Val299Val,BW25113_3793,wzyE,putative ECA polysaccharide chain elongation protein
+CP009273,3987789,snp,C,A,A:169 C:0,,,,,,,,
+CP009273,3996397,snp,G,A,A:131 G:0,CDS,-,157/381,53/126,missense_variant c.157C>T p.His53Tyr,BW25113_3818,yigG,PRK11371 family inner membrane protein
+CP009273,3998521,snp,G,A,A:173 G:1,CDS,+,300/870,100/289,synonymous_variant c.300G>A p.Gly100Gly,BW25113_3821,pldA,outer membrane phospholipase A
+CP009273,4016785,snp,C,A,A:157 C:1,CDS,+,690/777,230/258,synonymous_variant c.690C>A p.Val230Val,BW25113_3839,tatC,TatABCE protein translocation system subunit
+CP009273,4026802,snp,G,T,T:147 G:0,CDS,+,298/1452,100/483,missense_variant c.298G>T p.Asp100Tyr,BW25113_3849,trkH,potassium transporter
+CP009273,4061628,snp,A,C,C:187 A:0,CDS,-,1009/2037,337/678,missense_variant c.1009T>G p.Tyr337Asp,BW25113_3878,yihQ,alpha-glucosidase
+CP009273,4076204,snp,C,T,T:156 C:0,CDS,-,2979/3051,993/1016,synonymous_variant c.2979G>A p.Thr993Thr,BW25113_3894,fdoG,"formate dehydrogenase-O, large subunit"
+CP009273,4086696,snp,A,G,G:178 A:0,CDS,-,103/315,35/104,missense_variant c.103T>C p.Ser35Pro,BW25113_3901,rhaM,L-rhamnose mutarotase
+CP009273,4120213,snp,C,T,T:175 C:0,CDS,+,451/2433,151/810,missense_variant c.451C>T p.Leu151Phe,BW25113_3940,metL,Bifunctional aspartokinase/homoserine dehydrogenase 2
+CP009273,4124473,snp,A,G,G:187 A:0,CDS,+,711/2181,237/726,synonymous_variant c.711A>G p.Glu237Glu,BW25113_3942,katG,"catalase-peroxidase HPI, heme b-containing"
+CP009273,4146016,snp,G,A,A:184 G:1,CDS,+,76/777,26/258,missense_variant c.76G>A p.Ala26Thr,BW25113_3959,argB,acetylglutamate kinase
+CP009273,4180610,del,GT,G,G:132 GT:0,,,,,,,,
+CP009273,4181951,snp,T,A,A:175 T:0,CDS,-,613/771,205/256,missense_variant c.613A>T p.Thr205Ser,BW25113_3991,thiG,thiamine biosynthesis ThiGH complex subunit
+CP009273,4194483,snp,G,T,T:168 G:0,CDS,+,1236/1326,412/441,synonymous_variant c.1236G>T p.Ala412Ala,BW25113_4004,zraR,fused DNA-binding response regulator in two-component regulatory system with ZraS: response regulator/sigma54 interaction protein
+CP009273,4209364,snp,G,T,T:164 G:0,CDS,+,841/1737,281/578,missense_variant c.841G>T p.Ala281Ser,BW25113_4016,aceK,isocitrate dehydrogenase kinase/phosphatase
+CP009273,4245633,snp,C,A,A:176 C:0,CDS,-,762/2424,254/807,missense_variant c.762G>T p.Glu254Asp,BW25113_4041,plsB,glycerol-3-phosphate O-acyltransferase
+CP009273,4274926,snp,A,C,C:167 A:0,CDS,-,216/315,72/104,missense_variant c.216T>G p.Ile72Met,BW25113_4068,yjcH,DUF485 family inner membrane protein
+CP009273,4277352,ins,T,TA,TA:139 T:0,,,,,,,,
+CP009273,4339935,snp,G,A,A:157 G:0,CDS,-,1545/1632,515/543,synonymous_variant c.1545C>T p.Gly515Gly,BW25113_4125,dcuS,"sensory histidine kinase in two-component regulatory system with DcuR, regulator of anaerobic fumarate respiration"
+CP009273,4353352,snp,G,A,A:168 G:0,CDS,-,1508/1698,503/565,missense_variant c.1508C>T p.Thr503Met,BW25113_4136,dsbD,fused thiol:disulfide interchange protein: activator of DsbC/conserved protein
+CP009273,4363074,snp,A,G,G:164 A:0,repeat_region,+,,,intergenic_region n.4363074A>G ,,,
+CP009273,4373521,snp,G,A,A:138 G:0,,,,,,,,
+CP009273,4376355,snp,G,T,T:170 G:0,CDS,-,2833/3324,945/1107,missense_variant c.2833C>A p.Leu945Ile,BW25113_4159,mscM,"mechanosensitive channel protein, miniconductance"
+CP009273,4415006,snp,C,T,T:161 C:0,CDS,+,72/396,24/131,synonymous_variant c.72C>T p.Arg24Arg,BW25113_4200,rpsF,30S ribosomal subunit protein S6
+CP009273,4416936,snp,A,T,T:133 A:0,CDS,-,304/795,102/264,missense_variant c.304T>A p.Tyr102Asn,BW25113_4204,yjfZ,uncharacterized protein
+CP009273,4428333,snp,G,T,T:145 G:0,CDS,+,810/939,270/312,synonymous_variant c.810G>T p.Ala270Ala,BW25113_4215,ytfI,uncharacterized protein
+CP009273,4430817,snp,G,T,T:168 G:0,CDS,-,216/1344,72/447,synonymous_variant c.216C>A p.Gly72Gly,BW25113_4218,ytfL,UPF0053 family inner membrane protein
+CP009273,4432043,snp,G,A,A:146 G:0,,,,,,,,
+CP009273,4442381,snp,G,A,A:198 G:0,,,,,,,,
+CP009273,4465054,snp,G,A,A:144 G:0,CDS,+,376/453,126/150,missense_variant c.376G>A p.Glu126Lys,BW25113_4252,tabA,"biofilm modulator regulated by toxins; DUF386 family protein, cupin superfamily"
+CP009273,4466069,snp,G,A,A:152 G:0,CDS,+,816/1815,272/604,synonymous_variant c.816G>A p.Thr272Thr,BW25113_4253,yjgL,uncharacterized protein
+CP009273,4502966,snp,G,T,T:177 G:0,CDS,-,261/999,87/332,missense_variant c.261C>A p.Asn87Lys,BW25113_4289,fecC,iron-dicitrate transporter subunit
+CP009273,4532543,snp,C,T,T:130 C:0,,,,,,,,
+CP009273,4538883,snp,G,T,T:177 G:0,CDS,+,259/903,87/300,missense_variant c.259G>T p.Gly87Cys,BW25113_4320,fimH,minor component of type 1 fimbriae
+CP009273,4559788,snp,C,T,T:166 C:0,repeat_region,+,,,intergenic_region n.4559788C>T ,,,
+CP009273,4579955,snp,A,C,C:181 A:0,CDS,-,1142/2151,381/716,missense_variant c.1142T>G p.Leu381Arg,BW25113_4354,yjiY,putative transporter
+CP009273,4596332,snp,C,A,A:149 C:0,,,,,,,,
