@@ -42,7 +42,8 @@ rule snippy:
         read2 = join(work,'data','isolate_sequencing','{sample}','trimmed_read2.fq.gz'),
         reference = join(work,'data','references_sequencing','reference.gbk')
     output:
-        join(work,'data','isolate_sequencing','{sample}','snippy','snps.tab')
+        join(work,'data','isolate_sequencing','{sample}','snippy','snps.tab'),
+        join(work,'data','isolate_sequencing','{sample}','snippy','snps.bam')
     params:
         join(work,'data','isolate_sequencing','{sample}','snippy')
     threads:
@@ -51,4 +52,82 @@ rule snippy:
         """
         snippy --force --cpus {threads} --outdir {params} --ref {input.reference} --R1 {input.read1} --R2 {input.read2}
         """
+
+rule bam_stats:
+    input:
+        join(work,'data','isolate_sequencing','{sample}','snippy','snps.bam')
+    output:
+        join(work,'data','isolate_sequencing','{sample}','snippy_aligment.stats')
+    threads:
+        1
+    shell:
+        """
+        samtools flagstats {input} > {output}
+        """
+
+rule mapping:
+    input:
+        reference = join(work,'data','references_sequencing','reference.fasta'),
+        read1 =join(work,'data','isolate_sequencing','{sample}','trimmed_read1.fq.gz'),
+        read2 = join(work,'data','isolate_sequencing','{sample}','trimmed_read2.fq.gz'),
+    output:
+        join(work,'data','isolate_sequencing','{sample}','mapped_reads.sam')
+    threads:
+        8
+    shell:
+        """
+        minimap2 -t {threads} -ax sr {input} > {output}
+        """
+
+# Filters alignent for paired read where reads are mapped in a proper pair and has
+# quality of at least 60
+rule filter_alignment:
+    input:
+        join(work,'data','isolate_sequencing','{sample}','mapped_reads.sam')
+    output:
+        bam = join(work,'data','isolate_sequencing','{sample}','mapped_reads.filtered.bam'),
+        bai = join(work,'data','isolate_sequencing','{sample}','mapped_reads.filtered.bam.bai')
+    threads:
+        8
+    shell:
+        """
+        samtools view -b -f 3 -q 60 --threads {threads} {input} | samtools sort --threads {threads} -o {output.bam}
+        samtools index {output.bam}
+        """ 
+
+rule freebayes:
+    input:
+        reference = join(work,'data','references_sequencing','reference.fasta'),
+        bam = join(work,'data','isolate_sequencing','{sample}','mapped_reads.filtered.bam')
+    output:
+        join(work,'data','isolate_sequencing','{sample}','var.vcf')
+    threads:
+        4
+    shell:
+        """
+        freebayes -f {input.reference} {input.bam} --min-alternate-count 3 \
+        --min-alternate-fraction 0.05 --pooled-continuous --haplotype-length 0 \
+        --standard-filters > {output}
+        """
+
+rule snpEff:
+    input:
+        var = join(work,'data','isolate_sequencing','{sample}','var.vcf'),
+        snpEff = join(work,'data','isolate_sequencing','{sample}','snippy','reference','snpeff.config')
+    output:
+        join(work,'data','isolate_sequencing','{sample}','var.annotated.vcf')
+    threads:
+        1
+    shell:
+        """
+        snpEff ann -noStats -no-downstream -no-upstream -no-intergenic -no-utr -c {input.snpEff} -dataDir . ref {input.var} > {output}
+        """
+
+
+
+
+
+
+
+
 

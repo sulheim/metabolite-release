@@ -18,5 +18,30 @@
     {
         "mem":"16G",
         "time":"1:0:0"
+    },
+    "bam_stats":
+    {
+        "mem":"16G",
+        "time":"0:30:0"
+    },
+    "mapping":
+    {
+        "mem":"16G",
+        "time":"0:30:0"
+    },
+    "filter_alignment":
+    {
+        "mem":"16G",
+        "time":"0:30:0"
+    },
+    "freebayes":
+    {
+        "mem":"16G",
+        "time":"1:0:0"
+    },
+    "snpEff":
+    {
+        "mem":"4G",
+        "time":"0:30:0"
     }
 }
