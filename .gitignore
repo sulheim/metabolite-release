@@ -159,9 +159,11 @@ notebooks/rates_and_values.csv
 # Sequencing data
 data/isolate_sequencing/
 data/references_sequencing/
+data/meta_sequencing
 
 # Workflow logs
 code/isolate_sequncing/.snakemake/
+code/meta_sequencing/.snakemake/
 
 # Cluster logs
 code/isolate_sequncing/slurm*
