@@ -1,0 +1,8 @@
+chrom,pos,qual,depth,freq,alt,alt_count,ref,type,len,eff,gene,product,linegroup,sample
+CP009273,447145,86177.4,2421,0.9995869475423379,"Substitution(type_='SNV', value='A')",2420,C,snp,1,,,,CP009273.447145.SucB_M7,SucB_M7
+CP009273,1934955,50654.2,2610,0.775095785440613,"Substitution(type_='SNV', value='A')",2023,G,snp,1,missense_variant,mepM,"murein DD-endopeptidase, space-maker hydrolase, septation protein",CP009273.1934955.SucB_M7,SucB_M7
+CP009273,2234612,55390.8,1904,0.9553571428571429,"Substitution(type_='INDEL', value='AG')",1819,ATACGTTGATG,del,9,disruptive_inframe_deletion,galS,galactose- and fucose-inducible galactose regulon transcriptional isorepressor; mgl operon transcriptional repressor; autorepressor,CP009273.2234612.SucB_M7,SucB_M7
+CP009273,2719426,75452.7,2141,1.0,"Substitution(type_='SNV', value='C')",2141,T,snp,1,,,,CP009273.2719426.SucB_M7,SucB_M7
+CP009273,3782776,92280.5,2659,0.9879654005265137,"Substitution(type_='SNV', value='A')",2627,C,snp,1,synonymous_variant,waaH,LPS(HepIII)-glucuronic acid glycosyltransferase,CP009273.3782776.SucB_M7,SucB_M7
+CP009273,4209467,102664.0,3016,0.9811007957559682,"Substitution(type_='SNV', value='A')",2959,C,snp,1,missense_variant,aceK,isocitrate dehydrogenase kinase/phosphatase,CP009273.4209467.SucB_M7,SucB_M7
+CP009273,4390294,51517.0,2667,0.7735283089613798,"Substitution(type_='SNV', value='T')",2063,C,snp,1,missense_variant,hfq,"global sRNA chaperone; HF-I, host factor for RNA phage Q beta replication",CP009273.4390294.SucB_M7,SucB_M7

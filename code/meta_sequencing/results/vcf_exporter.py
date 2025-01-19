@@ -2,10 +2,34 @@ import vcfpy
 from os.path import join, exists
 from os import listdir
 import pandas as pd
+from BCBio import GFF
+import numpy as np
 
 """This scrpts parses the vcf file created from freebayes. It showed that the anlaysis is identical to snippy.
 This is a good test that shows that the mapping, freebayes calling and parsing is solid which is 
 what I will use for the metagenomic data."""
+
+
+def parse_gff():
+    gff_f = "/work/FAC/FBM/DMF/smitri/evomicrocomm/seq_snorre/data/references_sequencing/reference.gff"
+    gene_dict = {}
+    with open(gff_f, "r") as handle:
+        for record in GFF.parse(handle):
+            for feature in record.features:
+                if "gene" in feature.qualifiers.keys():
+                    gene = feature.qualifiers["gene"][0]
+                else:
+                    gene = ""
+                if "product" in feature.qualifiers.keys():
+                    product = feature.qualifiers["product"][0]
+                else:
+                    product = ""
+                gene_id = "GENE_" + feature.qualifiers["ID"][0]
+                gene_dict[gene_id] = (gene, product)
+    return gene_dict
+
+
+gene_dict = parse_gff()
 dfs = []
 for d in listdir(
     "/work/FAC/FBM/DMF/smitri/evomicrocomm/seq_snorre/data/meta_sequencing"
@@ -65,13 +89,56 @@ for d in listdir(
                 dfs.append(df)
 
 out = pd.concat(dfs)
+out.insert(12, "product", None)
+out.index = range(len(out))
+for i in out.index:
+    gene_id = out.loc[i, "gene"]
+    # If statement for annotation scenarios where non_coding_transcript_variant is annoted as gene name
+    if gene_id is np.nan:
+        gene, product = "", ""
+    elif gene_id[:4] == "GENE":
+        gene = gene_dict[gene_id][0]
+        product = gene_dict[gene_id][1]
+    else:
+        gene = gene_id
+        product = gene_id
+    out.at[i, "gene"] = gene
+    out.at[i, "product"] = product
+
 for sample in set(out["sample"]):
     df = out[out["sample"] == sample]
-    df.to_csv(sample + ".csv", index=False)
-    filter = (df["freq"] >= 0.05) & (df["qual"] >= 1000) & (df["alt_count"] >= 5)
+    filter = (
+        (df["freq"] >= 0.05)
+        & (df["qual"] >= 30)
+        & (df["alt_count"] >= 5)
+        & (df["depth"] >= 30)
+    )
     df = df[filter]
-    df.to_csv(sample + ".filtered.csv", index=False)
+    df.to_csv(join("all_filtered_variants", sample + ".filtered.csv"), index=False)
 
-filter = (out["freq"] >= 0.05) & (out["qual"] >= 1000) & (out["alt_count"] >= 5)
-out = out[filter]
-out.to_csv("all_samples.filtered.csv", index=False)
+for sample in set(out["sample"]):
+    df = out[out["sample"] == sample]
+    filter = (df["freq"] >= 0.9) & (df["qual"] >= 30) & (df["depth"] >= 30)
+    df = df[filter]
+    df.to_csv(join("fixed_filtered_variants", sample + ".filtered.csv"), index=False)
+
+for sample in set(out["sample"]):
+    df = out[out["sample"] == sample]
+    df.to_csv(join("all_variants", sample + ".csv"), index=False)
+
+filter = (
+    (out["freq"] >= 0.05)
+    & (out["qual"] >= 30)
+    & (out["alt_count"] >= 5)
+    & (out["depth"] >= 30)
+)
+out[filter].to_csv(
+    join("all_filtered_variants", "all_samples.filtered.csv"), index=False
+)
+
+filter = (out["freq"] >= 0.9) & (out["qual"] >= 30) & (out["depth"] >= 30)
+out[filter].to_csv(
+    join("fixed_filtered_variants", "all_samples.filtered.csv"), index=False
+)
+
+out.to_csv(join("all_variants", "all_samples.csv"), index=False)
