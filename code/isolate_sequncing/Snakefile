@@ -29,11 +29,13 @@ rule fastp:
     output:
         read1 =join(work,'data','isolate_sequencing','{sample}','trimmed_read1.fq.gz'),
         read2 = join(work,'data','isolate_sequencing','{sample}','trimmed_read2.fq.gz')
+    params:
+        join(work,'data','isolate_sequencing','{sample}','fastp_report.html')
     threads:
         2
     shell:
         """
-        fastp -i {input.read1} -I {input.read2} -o {output.read1} -O {output.read2} --thread {threads}
+        fastp -i {input.read1} -I {input.read2} -o {output.read1} -O {output.read2} --thread {threads} -a AATGATACGGCGACCACCGAGATCTACACACACTCTTTCCCTACACGACGCTCTTCCGATCT --adapter_sequence_r2 GATCGGAAGAGCACACGTCTGAACTCCAGTCACATCTCGTATGCCGTCTTCTGCTTG  --qualified_quality_phred 20 --cut_front --cut_tail --average_qual 20 --length_required 50 --html {params}
         """
 
 rule snippy:
@@ -122,6 +124,21 @@ rule snpEff:
         """
         snpEff ann -noStats -no-downstream -no-upstream -no-intergenic -no-utr -c {input.snpEff} -dataDir . ref {input.var} > {output}
         """
+
+rule sourmash:
+    input:
+        read1 =join(work,'data','isolate_sequencing','{sample}','trimmed_read1.fq.gz'),
+        read2 = join(work,'data','isolate_sequencing','{sample}','trimmed_read2.fq.gz')
+    output:
+        sig = join(work,'data','isolate_sequencing','{sample}','sourmash.sig')
+    threads:
+        1
+    shell:
+        """
+        sourmash sketch dna -p scaled=10000,k=21 {input} -o {output}    
+        """
+
+
 
 
 

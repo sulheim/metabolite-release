@@ -17,7 +17,7 @@
     "snippy":
     {
         "mem":"16G",
-        "time":"1:0:0"
+        "time":"3:0:0"
     },
     "bam_stats":
     {
@@ -27,17 +27,17 @@
     "mapping":
     {
         "mem":"16G",
-        "time":"0:30:0"
+        "time":"1:0:0"
     },
     "filter_alignment":
     {
         "mem":"16G",
-        "time":"0:30:0"
+        "time":"1:0:0"
     },
     "freebayes":
     {
         "mem":"16G",
-        "time":"1:0:0"
+        "time":"3:0:0"
     },
     "snpEff":
     {
@@ -46,7 +46,12 @@
     },
     "sourmash":
     {
-        "mem":"16G",
+        "mem":"4G",
+        "time":"0:30:0"
+    },
+    "coverage":
+    {
+        "mem":"4G",
         "time":"0:30:0"
     }
 }
