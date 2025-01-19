@@ -1,7 +1,0 @@
-CHROM,POS,TYPE,REF,ALT,EVIDENCE,FTYPE,STRAND,NT_POS,AA_POS,EFFECT,LOCUS_TAG,GENE,PRODUCT
-CP009273,447145,snp,C,A,A:123 C:0,,,,,,,,
-CP009273,752345,snp,C,T,T:146 C:0,CDS,+,983/1767,328/588,missense_variant c.983C>T p.Pro328Leu,BW25113_0723,sdhA,"succinate dehydrogenase, flavoprotein subunit"
-CP009273,2234612,del,ATACGTTGAT,A,A:82 ATACGTTGAT:0,CDS,-,535/1041,176/346,disruptive_inframe_deletion c.527_535delATCAACGTA p.His176_Ile179delinsLeu,BW25113_2151,galS,galactose- and fucose-inducible galactose regulon transcriptional isorepressor; mgl operon transcriptional repressor; autorepressor
-CP009273,2719426,snp,T,C,C:100 T:0,,,,,,,,
-CP009273,3782776,snp,C,A,A:150 C:0,CDS,-,666/1035,222/344,synonymous_variant c.666G>T p.Val222Val,BW25113_3615,waaH,LPS(HepIII)-glucuronic acid glycosyltransferase
-CP009273,4209467,snp,C,A,A:163 C:0,CDS,+,944/1737,315/578,missense_variant c.944C>A p.Ala315Glu,BW25113_4016,aceK,isocitrate dehydrogenase kinase/phosphatase

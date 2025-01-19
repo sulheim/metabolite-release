@@ -39,4 +39,4 @@ def sample_caller(output_file):
     submit(files)
 
 
-sample_caller("coverage.txt")
+sample_caller("var.annotated.vcf")
