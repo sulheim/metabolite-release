@@ -1,128 +1,182 @@
 chrom,pos,qual,depth,freq,alt,alt_count,ref,type,len,eff,gene,product,linegroup,sample
-CP009273,447145,6736.76,193,1.0,"Substitution(type_='SNV', value='A')",193,C,snp,1,,,,CP009273.447145.SucB_M7_iso,SucB_M7_iso
-CP009273,752345,6971.83,198,1.0,"Substitution(type_='SNV', value='T')",198,C,snp,1,missense_variant,sdhA,"succinate dehydrogenase, flavoprotein subunit",CP009273.752345.SucB_M7_iso,SucB_M7_iso
-CP009273,2234612,3502.85,112,1.0,"Substitution(type_='INDEL', value='AG')",112,ATACGTTGATG,del,9,disruptive_inframe_deletion,galS,galactose- and fucose-inducible galactose regulon transcriptional isorepressor; mgl operon transcriptional repressor; autorepressor,CP009273.2234612.SucB_M7_iso,SucB_M7_iso
-CP009273,2719426,5151.6,147,1.0,"Substitution(type_='SNV', value='C')",147,T,snp,1,,,,CP009273.2719426.SucB_M7_iso,SucB_M7_iso
-CP009273,3782776,8405.95,238,1.0,"Substitution(type_='SNV', value='A')",238,C,snp,1,synonymous_variant,waaH,LPS(HepIII)-glucuronic acid glycosyltransferase,CP009273.3782776.SucB_M7_iso,SucB_M7_iso
-CP009273,4209467,7904.26,224,1.0,"Substitution(type_='SNV', value='A')",224,C,snp,1,missense_variant,aceK,isocitrate dehydrogenase kinase/phosphatase,CP009273.4209467.SucB_M7_iso,SucB_M7_iso
-CP009273,1622605,23868.7,682,0.9970674486803519,"Substitution(type_='SNV', value='G')",680,A,snp,1,,,,CP009273.1622605.AceE_anc,AceE_anc
-CP009273,1664690,19680.1,559,1.0,"Substitution(type_='SNV', value='C')",559,A,snp,1,synonymous_variant,ynfM,putative arabinose efflux transporter,CP009273.1664690.AceE_anc,AceE_anc
-CP009273,2719426,17503.0,498,1.0,"Substitution(type_='SNV', value='C')",498,T,snp,1,,,,CP009273.2719426.AceE_anc,AceE_anc
-CP009273,696432,7277.51,209,1.0,"Substitution(type_='SNV', value='A')",209,C,snp,1,missense_variant,nagC,N-acetylglucosamine-inducible nag divergent operon transcriptional repressor,CP009273.696432.AceE_M3_iso,AceE_M3_iso
-CP009273,1622605,7981.89,226,1.0,"Substitution(type_='SNV', value='G')",226,A,snp,1,,,,CP009273.1622605.AceE_M3_iso,AceE_M3_iso
-CP009273,1664690,6762.89,192,1.0,"Substitution(type_='SNV', value='C')",192,A,snp,1,synonymous_variant,ynfM,putative arabinose efflux transporter,CP009273.1664690.AceE_M3_iso,AceE_M3_iso
-CP009273,2719426,6251.79,182,1.0,"Substitution(type_='SNV', value='C')",182,T,snp,1,,,,CP009273.2719426.AceE_M3_iso,AceE_M3_iso
-CP009273,3652871,8123.5,230,1.0,"Substitution(type_='SNV', value='A')",230,C,snp,1,missense_variant,mdtE,"anaerobic multidrug efflux transporter, ArcA-regulated",CP009273.3652871.AceE_M3_iso,AceE_M3_iso
-CP009273,447145,6935.76,198,1.0,"Substitution(type_='SNV', value='A')",198,C,snp,1,,,,CP009273.447145.SucB_anc,SucB_anc
-CP009273,2719426,5898.51,171,0.9941520467836257,"Substitution(type_='SNV', value='C')",170,T,snp,1,,,,CP009273.2719426.SucB_anc,SucB_anc
-CP009273,447145,5191.86,147,1.0,"Substitution(type_='SNV', value='A')",147,C,snp,1,,,,CP009273.447145.SucB_M6_iso,SucB_M6_iso
-CP009273,2719426,5215.55,151,1.0,"Substitution(type_='SNV', value='C')",151,T,snp,1,,,,CP009273.2719426.SucB_M6_iso,SucB_M6_iso
-CP009273,3081560,6450.74,186,1.0,"Substitution(type_='SNV', value='A')",186,C,snp,1,,,,CP009273.3081560.SucB_M6_iso,SucB_M6_iso
-CP009273,3782776,6329.78,179,1.0,"Substitution(type_='SNV', value='A')",179,C,snp,1,synonymous_variant,waaH,LPS(HepIII)-glucuronic acid glycosyltransferase,CP009273.3782776.SucB_M6_iso,SucB_M6_iso
-CP009273,4209467,7773.93,220,1.0,"Substitution(type_='SNV', value='A')",220,C,snp,1,missense_variant,aceK,isocitrate dehydrogenase kinase/phosphatase,CP009273.4209467.SucB_M6_iso,SucB_M6_iso
-CP009273,4538904,7974.41,235,0.9957446808510638,"Substitution(type_='SNV', value='T')",234,G,snp,1,missense_variant,fimH,minor component of type 1 fimbriae,CP009273.4538904.SucB_M6_iso,SucB_M6_iso
-CP009273,447145,17623.4,500,1.0,"Substitution(type_='SNV', value='A')",500,C,snp,1,,,,CP009273.447145.SucB_M5_iso,SucB_M5_iso
-CP009273,1191242,11185.7,350,0.9771428571428571,"Substitution(type_='INDEL', value='CGTGACTCTG')",342,CGTGACTCTGTGACTCTG,del,8,frameshift_variant,icd,"e14 prophage; isocitrate dehydrogenase, specific for NADP+",CP009273.1191242.SucB_M5_iso,SucB_M5_iso
-CP009273,2719426,13575.4,386,1.0,"Substitution(type_='SNV', value='C')",386,T,snp,1,,,,CP009273.2719426.SucB_M5_iso,SucB_M5_iso
-CP009273,4538904,15851.3,469,0.9850746268656716,"Substitution(type_='SNV', value='A')",462,G,snp,1,missense_variant,fimH,minor component of type 1 fimbriae,CP009273.4538904.SucB_M5_iso,SucB_M5_iso
 CP009273,1455,8978.39,255,1.0,"Substitution(type_='SNV', value='T')",255,A,snp,1,synonymous_variant,thrA,Bifunctional aspartokinase/homoserine dehydrogenase 1,CP009273.1455.AceE_M4_iso,AceE_M4_iso
 CP009273,2297,9799.87,278,1.0,"Substitution(type_='SNV', value='T')",278,C,snp,1,missense_variant,thrA,Bifunctional aspartokinase/homoserine dehydrogenase 1,CP009273.2297.AceE_M4_iso,AceE_M4_iso
 CP009273,9100,9030.24,255,1.0,"Substitution(type_='SNV', value='C')",255,A,snp,1,missense_variant,talB,transaldolase B,CP009273.9100.AceE_M4_iso,AceE_M4_iso
 CP009273,9125,9325.63,266,1.0,"Substitution(type_='SNV', value='T')",266,G,snp,1,synonymous_variant,talB,transaldolase B,CP009273.9125.AceE_M4_iso,AceE_M4_iso
+CP009273,15600,1.50676e-17,42,0.07142857142857142,"Substitution(type_='SNV', value='T')",3,C,snp,1,synonymous_variant,insL1,IS186 transposase,CP009273.15600.AceE_M4_iso,AceE_M4_iso
+CP009273,15618,1.38024e-14,37,0.08108108108108109,"Substitution(type_='SNV', value='C')",3,T,snp,1,synonymous_variant,insL1,IS186 transposase,CP009273.15618.AceE_M4_iso,AceE_M4_iso
+CP009273,15665,2.10643e-14,12,0.25,"Substitution(type_='SNV', value='G')",3,A,snp,1,missense_variant,insL1,IS186 transposase,CP009273.15665.AceE_M4_iso,AceE_M4_iso
 CP009273,22360,8742.52,248,0.9959677419354839,"Substitution(type_='SNV', value='C')",247,A,snp,1,,,,CP009273.22360.AceE_M4_iso,AceE_M4_iso
+CP009273,24798,3.7669e-14,218,0.12844036697247707,"Substitution(type_='SNV', value='T')",28,C,snp,1,missense_variant,ileS,isoleucyl-tRNA synthetase,CP009273.24798.AceE_M4_iso,AceE_M4_iso
 CP009273,27823,9586.89,276,0.9927536231884058,"Substitution(type_='SNV', value='T')",274,C,snp,1,synonymous_variant,rihC,ribonucleoside hydrolase 3,CP009273.27823.AceE_M4_iso,AceE_M4_iso
+CP009273,34111,2.84481e-14,239,0.06276150627615062,"Substitution(type_='INDEL', value='GTTTTTTTTTTGCC')",15,GTTTTTTTTTGCC,ins,1,,,,CP009273.34111.AceE_M4_iso,AceE_M4_iso
 CP009273,64494,9315.62,263,1.0,"Substitution(type_='SNV', value='T')",263,G,snp,1,synonymous_variant,polB,DNA polymerase II,CP009273.64494.AceE_M4_iso,AceE_M4_iso
 CP009273,67812,9039.75,256,0.99609375,"Substitution(type_='SNV', value='A')",255,T,snp,1,,,,CP009273.67812.AceE_M4_iso,AceE_M4_iso
+CP009273,72122,0.0,142,0.07746478873239436,"Substitution(type_='SNV', value='C')",11,A,snp,1,,,,CP009273.72122.AceE_M4_iso,AceE_M4_iso
 CP009273,83578,9351.51,267,0.9962546816479401,"Substitution(type_='SNV', value='T')",266,A,snp,1,missense_variant,ilvI,acetolactate synthase 3 large subunit,CP009273.83578.AceE_M4_iso,AceE_M4_iso
 CP009273,88507,8639.23,246,1.0,"Substitution(type_='SNV', value='C')",246,A,snp,1,missense_variant,ftsI,transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3),CP009273.88507.AceE_M4_iso,AceE_M4_iso
 CP009273,107669,8366.88,241,1.0,"Substitution(type_='SNV', value='A')",241,G,snp,1,missense_variant,mutT,"nucleoside triphosphate pyrophosphohydrolase, marked preference for dGTP",CP009273.107669.AceE_M4_iso,AceE_M4_iso
 CP009273,117970,7725.13,222,1.0,"Substitution(type_='SNV', value='T')",222,G,snp,1,synonymous_variant,aroP,aromatic amino acid transporter,CP009273.117970.AceE_M4_iso,AceE_M4_iso
+CP009273,119507,119.557,7,1.0,"Substitution(type_='SNV', value='A')",7,T,snp,1,missense_variant,aceE,"pyruvate dehydrogenase, decarboxylase component E1, thiamine triphosphate-binding",CP009273.119507.AceE_M4_iso,AceE_M4_iso
 CP009273,147600,9482.64,274,0.9963503649635036,"Substitution(type_='SNV', value='C')",273,T,snp,1,missense_variant,yadK,putative fimbrial-like adhesin protein,CP009273.147600.AceE_M4_iso,AceE_M4_iso
 CP009273,188232,7834.43,225,1.0,"Substitution(type_='SNV', value='G')",225,T,snp,1,,,,CP009273.188232.AceE_M4_iso,AceE_M4_iso
 CP009273,192761,10231.9,293,1.0,"Substitution(type_='SNV', value='A')",293,G,snp,1,missense_variant,cdsA,CDP-diglyceride synthase,CP009273.192761.AceE_M4_iso,AceE_M4_iso
 CP009273,203801,8880.49,253,1.0,"Substitution(type_='SNV', value='A')",253,G,snp,1,missense_variant,dnaE,DNA polymerase III alpha subunit,CP009273.203801.AceE_M4_iso,AceE_M4_iso
 CP009273,205263,8595.89,244,1.0,"Substitution(type_='SNV', value='A')",244,T,snp,1,synonymous_variant,accA,"acetyl-CoA carboxylase, carboxytransferase, alpha subunit",CP009273.205263.AceE_M4_iso,AceE_M4_iso
+CP009273,213506,6.0391e-14,149,0.09395973154362416,"Substitution(type_='SNV', value='G')",14,T,snp,1,,,,CP009273.213506.AceE_M4_iso,AceE_M4_iso
 CP009273,215599,9324.81,265,1.0,"Substitution(type_='SNV', value='T')",265,C,snp,1,missense_variant,tsaA,"tRNA-Thr(GGU) m(6)t(6)A37 methyltransferase, SAM-dependent",CP009273.215599.AceE_M4_iso,AceE_M4_iso
+CP009273,220176,0.0,88,0.06818181818181818,"Substitution(type_='SNV', value='A')",6,G,snp,1,,,,CP009273.220176.AceE_M4_iso,AceE_M4_iso
 CP009273,232593,7822.88,223,1.0,"Substitution(type_='SNV', value='A')",223,G,snp,1,missense_variant,dnaQ,DNA polymerase III epsilon subunit,CP009273.232593.AceE_M4_iso,AceE_M4_iso
 CP009273,267783,8376.9,240,1.0,"Substitution(type_='SNV', value='A')",240,G,snp,1,synonymous_variant,insN,,CP009273.267783.AceE_M4_iso,AceE_M4_iso
+CP009273,270900,1.23253e-14,185,0.05405405405405406,"Substitution(type_='SNV', value='C')",10,A,snp,1,,,,CP009273.270900.AceE_M4_iso,AceE_M4_iso
 CP009273,310401,10009.7,287,1.0,"Substitution(type_='SNV', value='T')",287,C,snp,1,missense_variant,eaeH,,CP009273.310401.AceE_M4_iso,AceE_M4_iso
 CP009273,313830,7709.75,219,1.0,"Substitution(type_='SNV', value='T')",219,C,snp,1,synonymous_variant,rclC,reactive chlorine species (RCS) stress resistance inner membrane protein,CP009273.313830.AceE_M4_iso,AceE_M4_iso
 CP009273,324027,9501.1,271,1.0,"Substitution(type_='SNV', value='A')",271,G,snp,1,missense_variant,betB,"betaine aldehyde dehydrogenase, NAD-dependent",CP009273.324027.AceE_M4_iso,AceE_M4_iso
 CP009273,336416,9793.64,279,0.996415770609319,"Substitution(type_='SNV', value='A')",278,G,snp,1,missense_variant,yahI,carbamate kinase-like protein,CP009273.336416.AceE_M4_iso,AceE_M4_iso
 CP009273,345045,9187.29,260,1.0,"Substitution(type_='SNV', value='T')",260,C,snp,1,missense_variant,prpB,2-methylisocitrate lyase,CP009273.345045.AceE_M4_iso,AceE_M4_iso
 CP009273,356163,7746.7,222,1.0,"Substitution(type_='SNV', value='C')",222,A,snp,1,missense_variant,cynX,putative cyanate transporter,CP009273.356163.AceE_M4_iso,AceE_M4_iso
+CP009273,375468,5.51479e-14,169,0.09467455621301775,"Substitution(type_='INDEL', value='AGGGGGGGGGGGCTA')",16,AGGGGGGGGGGCTA,ins,1,,,,CP009273.375468.AceE_M4_iso,AceE_M4_iso
+CP009273,377853,0.0,51,0.058823529411764705,"Substitution(type_='SNV', value='T')",3,C,snp,1,missense_variant,insD1,IS2 transposase TnpB,CP009273.377853.AceE_M4_iso,AceE_M4_iso
+CP009273,377865,8.85976e-15,59,0.06779661016949153,"Substitution(type_='SNV', value='G')",4,A,snp,1,missense_variant,insD1,IS2 transposase TnpB,CP009273.377865.AceE_M4_iso,AceE_M4_iso
 CP009273,379298,9226.31,266,1.0,"Substitution(type_='SNV', value='A')",266,T,snp,1,missense_variant,yaiP,putative family 2 glycosyltransferase,CP009273.379298.AceE_M4_iso,AceE_M4_iso
 CP009273,392294,10623.5,302,1.0,"Substitution(type_='SNV', value='T')",302,G,snp,1,missense_variant,sbmA,microcin B17 transporter,CP009273.392294.AceE_M4_iso,AceE_M4_iso
 CP009273,406407,8780.75,249,1.0,"Substitution(type_='SNV', value='T')",249,C,snp,1,stop_gained,mak,manno(fructo)kinase,CP009273.406407.AceE_M4_iso,AceE_M4_iso
+CP009273,413602,0.0,156,0.05128205128205128,"Substitution(type_='SNV', value='G')",8,T,snp,1,missense_variant,phoR,sensory histidine kinase in two-component regulatory system with PhoB,CP009273.413602.AceE_M4_iso,AceE_M4_iso
+CP009273,417159,5.24377e-15,178,0.05056179775280899,"Substitution(type_='SNV', value='T')",9,C,snp,1,missense_variant,proY,proline-specific permease,CP009273.417159.AceE_M4_iso,AceE_M4_iso
 CP009273,438265,8049.06,238,1.0,"Substitution(type_='SNV', value='T')",238,G,snp,1,missense_variant,thiI,tRNA s(4)U8 sulfurtransferase,CP009273.438265.AceE_M4_iso,AceE_M4_iso
+CP009273,446552,0.0,173,0.057803468208092484,"Substitution(type_='SNV', value='C')",10,T,snp,1,missense_variant,cyoA,cytochrome o ubiquinol oxidase subunit II,CP009273.446552.AceE_M4_iso,AceE_M4_iso
+CP009273,451460,0.0,230,0.09565217391304348,"Substitution(type_='SNV', value='A')",22,T,snp,1,missense_variant,tig,peptidyl-prolyl cis/trans isomerase (trigger factor),CP009273.451460.AceE_M4_iso,AceE_M4_iso
 CP009273,462390,7839.23,226,1.0,"Substitution(type_='INDEL', value='AGGAAT')",226,AGGGAAT,del,1,frameshift_variant,ybaE,putative ABC superfamily transporter periplasmic-binding protein,CP009273.462390.AceE_M4_iso,AceE_M4_iso
 CP009273,496845,8748.87,247,1.0,"Substitution(type_='SNV', value='G')",247,A,snp,1,missense_variant,gsk,inosine/guanosine kinase,CP009273.496845.AceE_M4_iso,AceE_M4_iso
 CP009273,509739,9393.46,268,1.0,"Substitution(type_='SNV', value='T')",268,G,snp,1,missense_variant,cueR,copper-responsive regulon transcriptional regulator,CP009273.509739.AceE_M4_iso,AceE_M4_iso
+CP009273,514130,9.04081e-15,136,0.058823529411764705,"Substitution(type_='SNV', value='G')",8,T,snp,1,missense_variant,ybbO,putative oxidoreductase,CP009273.514130.AceE_M4_iso,AceE_M4_iso
 CP009273,533606,7655.16,223,0.9955156950672646,"Substitution(type_='SNV', value='A')",222,G,snp,1,missense_variant,ybbW,putative allantoin transporter,CP009273.533606.AceE_M4_iso,AceE_M4_iso
 CP009273,539239,8054.79,232,1.0,"Substitution(type_='SNV', value='A')",232,G,snp,1,synonymous_variant,allE,S-ureidoglycine aminohydrolase,CP009273.539239.AceE_M4_iso,AceE_M4_iso
 CP009273,540908,8084.79,231,1.0,"Substitution(type_='SNV', value='G')",231,A,snp,1,synonymous_variant,allD,ureidoglycolate dehydrogenase,CP009273.540908.AceE_M4_iso,AceE_M4_iso
+CP009273,542794,0.0,138,0.050724637681159424,"Substitution(type_='SNV', value='C')",7,T,snp,1,missense_variant,fdrA,putative NAD(P)-binding acyl-CoA synthetase,CP009273.542794.AceE_M4_iso,AceE_M4_iso
 CP009273,552650,8269.84,237,1.0,"Substitution(type_='SNV', value='A')",237,C,snp,1,missense_variant,folD,"bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/ 5,10-methylene-tetrahydrofolate cyclohydrolase",CP009273.552650.AceE_M4_iso,AceE_M4_iso
+CP009273,554208,0.0,158,0.27848101265822783,"Substitution(type_='SNV', value='C')",44,T,snp,1,stop_lost&splice_region_variant,sfmA,FimA homolog,CP009273.554208.AceE_M4_iso,AceE_M4_iso
 CP009273,555816,8664.87,246,1.0,"Substitution(type_='SNV', value='T')",246,C,snp,1,missense_variant,sfmD,,CP009273.555816.AceE_M4_iso,AceE_M4_iso
 CP009273,562124,7722.2,220,0.9954545454545455,"Substitution(type_='SNV', value='A')",219,T,snp,1,missense_variant,peaD,,CP009273.562124.AceE_M4_iso,AceE_M4_iso
+CP009273,572813,0.0,157,0.06369426751592357,"Substitution(type_='SNV', value='G')",10,A,snp,1,,,,CP009273.572813.AceE_M4_iso,AceE_M4_iso
 CP009273,573574,9619.21,272,1.0,"Substitution(type_='SNV', value='T')",272,A,snp,1,synonymous_variant,rzpD,DLP12 prophage; putative murein endopeptidase,CP009273.573574.AceE_M4_iso,AceE_M4_iso
 CP009273,580161,9359.0,266,1.0,"Substitution(type_='SNV', value='A')",266,G,snp,1,missense_variant,ompT,DLP12 prophage; outer membrane protease VII (outer membrane protein 3b),CP009273.580161.AceE_M4_iso,AceE_M4_iso
 CP009273,581129,6620.45,196,0.9897959183673469,"Substitution(type_='INDEL', value='ATTTTTATA')",194,ATTTTTTATA,del,1,,,,CP009273.581129.AceE_M4_iso,AceE_M4_iso
 CP009273,581325,6668.86,193,1.0,"Substitution(type_='SNV', value='A')",193,G,snp,1,,,,CP009273.581325.AceE_M4_iso,AceE_M4_iso
+CP009273,586399,0.0,154,0.1038961038961039,"Substitution(type_='SNV', value='G')",16,A,snp,1,stop_lost&splice_region_variant,nfrB,"bacteriophage N4 receptor, inner membrane subunit",CP009273.586399.AceE_M4_iso,AceE_M4_iso
 CP009273,593892,10127.7,288,1.0,"Substitution(type_='SNV', value='T')",288,G,snp,1,missense_variant,cusB,"copper/silver efflux system, membrane fusion protein",CP009273.593892.AceE_M4_iso,AceE_M4_iso
 CP009273,600341,7455.44,217,0.9953917050691244,"Substitution(type_='SNV', value='A')",216,C,snp,1,missense_variant,nfsB,"dihydropteridine reductase, NAD(P)H-dependent, oxygen-insensitive",CP009273.600341.AceE_M4_iso,AceE_M4_iso
 CP009273,601826,7762.3,222,1.0,"Substitution(type_='SNV', value='T')",222,G,snp,1,synonymous_variant,ybdK,weak gamma-glutamyl:cysteine ligase,CP009273.601826.AceE_M4_iso,AceE_M4_iso
+CP009273,604611,0.0,47,0.06382978723404255,"Substitution(type_='SNV', value='T')",3,C,snp,1,missense_variant,insL1,IS186 transposase,CP009273.604611.AceE_M4_iso,AceE_M4_iso
+CP009273,626523,0.0,161,0.10559006211180125,"Substitution(type_='SNV', value='T')",17,G,snp,1,missense_variant,cstA,carbon starvation protein involved in peptide utilization; APC peptide transporter family protein,CP009273.626523.AceE_M4_iso,AceE_M4_iso
 CP009273,637509,9015.95,258,1.0,"Substitution(type_='SNV', value='A')",258,G,snp,1,,,,CP009273.637509.AceE_M4_iso,AceE_M4_iso
 CP009273,644803,9645.77,275,1.0,"Substitution(type_='SNV', value='A')",275,G,snp,1,synonymous_variant,citF,"citrate lyase, citrate-ACP transferase (alpha) subunit",CP009273.644803.AceE_M4_iso,AceE_M4_iso
+CP009273,651416,2.56173e-15,128,0.109375,"Substitution(type_='SNV', value='C')",14,T,snp,1,synonymous_variant,dcuC,anaerobic C4-dicarboxylate transport,CP009273.651416.AceE_M4_iso,AceE_M4_iso
+CP009273,651417,0.0,121,0.06611570247933884,"Substitution(type_='SNV', value='A')",8,G,snp,1,missense_variant,dcuC,anaerobic C4-dicarboxylate transport,CP009273.651417.AceE_M4_iso,AceE_M4_iso
 CP009273,678686,6572.28,188,1.0,"Substitution(type_='SNV', value='C')",188,T,snp,1,missense_variant,hscC,"Hsp70 family chaperone Hsc62, binds to RpoD and inhibits transcription",CP009273.678686.AceE_M4_iso,AceE_M4_iso
 CP009273,696861,8489.63,243,1.0,"Substitution(type_='SNV', value='A')",243,C,snp,1,stop_gained,nagC,N-acetylglucosamine-inducible nag divergent operon transcriptional repressor,CP009273.696861.AceE_M4_iso,AceE_M4_iso
 CP009273,702594,8598.4,244,1.0,"Substitution(type_='SNV', value='T')",244,C,snp,1,missense_variant,glnS,glutamyl-tRNA synthetase,CP009273.702594.AceE_M4_iso,AceE_M4_iso
 CP009273,721662,8398.93,239,1.0,"Substitution(type_='SNV', value='T')",239,G,snp,1,synonymous_variant,kdpB,"potassium translocating ATPase, subunit B",CP009273.721662.AceE_M4_iso,AceE_M4_iso
 CP009273,722821,10332.0,294,1.0,"Substitution(type_='SNV', value='G')",294,C,snp,1,synonymous_variant,kdpA,"potassium translocating ATPase, subunit A",CP009273.722821.AceE_M4_iso,AceE_M4_iso
+CP009273,730040,1.00958e-14,54,0.05555555555555555,"Substitution(type_='SNV', value='A')",3,T,snp,1,missense_variant,rhsO,,CP009273.730040.AceE_M4_iso,AceE_M4_iso
+CP009273,730169,0.0,52,0.07692307692307693,"Substitution(type_='SNV', value='A')",4,G,snp,1,missense_variant,rhsO,,CP009273.730169.AceE_M4_iso,AceE_M4_iso
 CP009273,736269,7745.63,224,1.0,"Substitution(type_='SNV', value='C')",224,A,snp,1,missense_variant,phr,"deoxyribodipyrimidine photolyase, FAD-binding",CP009273.736269.AceE_M4_iso,AceE_M4_iso
 CP009273,761607,7554.98,214,1.0,"Substitution(type_='SNV', value='A')",214,G,snp,1,synonymous_variant,mngA,fused 2-O-a-mannosyl-D-glycerate specific PTS enzymes: IIA component/IIB component/IIC component,CP009273.761607.AceE_M4_iso,AceE_M4_iso
+CP009273,777650,8.67942e-15,140,0.05,"Substitution(type_='SNV', value='G')",7,T,snp,1,missense_variant,nadA,"quinolinate synthase, subunit A",CP009273.777650.AceE_M4_iso,AceE_M4_iso
 CP009273,823880,8448.8,239,1.0,"Substitution(type_='SNV', value='T')",239,G,snp,1,synonymous_variant,ybhF,putative transporter subunit of ABC superfamily: ATP-binding component,CP009273.823880.AceE_M4_iso,AceE_M4_iso
+CP009273,841012,0.0,185,0.07567567567567568,"Substitution(type_='SNV', value='C')",14,T,snp,1,,,,CP009273.841012.AceE_M4_iso,AceE_M4_iso
+CP009273,843405,0.0,178,0.09550561797752809,"Substitution(type_='SNV', value='A')",17,G,snp,1,missense_variant,glnH,glutamine transporter subunit,CP009273.843405.AceE_M4_iso,AceE_M4_iso
+CP009273,843411,8.19681e-14,184,0.13043478260869565,"Substitution(type_='SNV', value='A')",24,G,snp,1,missense_variant,glnH,glutamine transporter subunit,CP009273.843411.AceE_M4_iso,AceE_M4_iso
 CP009273,856256,8350.73,240,1.0,"Substitution(type_='SNV', value='C')",240,T,snp,1,missense_variant,ybiW,putative pyruvate formate lyase,CP009273.856256.AceE_M4_iso,AceE_M4_iso
 CP009273,857049,7867.71,227,0.9955947136563876,"Substitution(type_='SNV', value='T')",226,A,snp,1,synonymous_variant,ybiW,putative pyruvate formate lyase,CP009273.857049.AceE_M4_iso,AceE_M4_iso
 CP009273,869113,8232.68,234,1.0,"Substitution(type_='SNV', value='A')",234,G,snp,1,missense_variant,yliE,putative membrane-anchored cyclic-di-GMP phosphodiesterase,CP009273.869113.AceE_M4_iso,AceE_M4_iso
+CP009273,910661,1.50676e-17,31,0.0967741935483871,"Substitution(type_='SNV', value='G')",3,C,snp,1,,,,CP009273.910661.AceE_M4_iso,AceE_M4_iso
+CP009273,910674,5.71063e-15,40,0.1,"Substitution(type_='SNV', value='T')",4,C,snp,1,,,,CP009273.910674.AceE_M4_iso,AceE_M4_iso
+CP009273,910683,0.0,39,0.1794871794871795,"Substitution(type_='SNV', value='C')",7,G,snp,1,,,,CP009273.910683.AceE_M4_iso,AceE_M4_iso
 CP009273,923742,9352.54,265,1.0,"Substitution(type_='SNV', value='T')",265,G,snp,1,missense_variant,cydC,"fused glutathione, cysteine exporter subunits of ABC superfamily: membrane component/ATP-binding component",CP009273.923742.AceE_M4_iso,AceE_M4_iso
 CP009273,933509,8151.82,234,1.0,"Substitution(type_='SNV', value='A')",234,G,snp,1,missense_variant,rarA,DNA-dependent ATPase involved in processing recombination intermediates at replication forks,CP009273.933509.AceE_M4_iso,AceE_M4_iso
+CP009273,936223,0.0,170,0.1,"Substitution(type_='SNV', value='T')",17,G,snp,1,,,,CP009273.936223.AceE_M4_iso,AceE_M4_iso
+CP009273,953771,0.0,262,0.05343511450381679,"Substitution(type_='SNV', value='A')",14,G,snp,1,synonymous_variant,serC,3-phosphoserine/phosphohydroxythreonine aminotransferase,CP009273.953771.AceE_M4_iso,AceE_M4_iso
 CP009273,960387,9641.52,275,1.0,"Substitution(type_='SNV', value='G')",275,A,snp,1,synonymous_variant,ycaI,ComEC family inner membrane protein,CP009273.960387.AceE_M4_iso,AceE_M4_iso
 CP009273,977328,8202.2,235,0.9957446808510638,"Substitution(type_='SNV', value='T')",234,G,snp,1,missense_variant,ldtD,"murein L,D-transpeptidase",CP009273.977328.AceE_M4_iso,AceE_M4_iso
 CP009273,984871,8114.99,233,1.0,"Substitution(type_='SNV', value='A')",233,G,snp,1,synonymous_variant,pncB,nicotinate phosphoribosyltransferase,CP009273.984871.AceE_M4_iso,AceE_M4_iso
+CP009273,985661,1.71773e-14,203,0.06896551724137931,"Substitution(type_='SNV', value='A')",14,G,snp,1,missense_variant,pncB,nicotinate phosphoribosyltransferase,CP009273.985661.AceE_M4_iso,AceE_M4_iso
 CP009273,987651,10507.2,296,1.0,"Substitution(type_='SNV', value='G')",296,A,snp,1,missense_variant,pepN,aminopeptidase N,CP009273.987651.AceE_M4_iso,AceE_M4_iso
 CP009273,1015521,8689.38,249,1.0,"Substitution(type_='SNV', value='A')",249,C,snp,1,,,,CP009273.1015521.AceE_M4_iso,AceE_M4_iso
 CP009273,1019949,8926.1,261,0.9846743295019157,"Substitution(type_='SNV', value='C')",257,T,snp,1,missense_variant,helD,DNA helicase IV,CP009273.1019949.AceE_M4_iso,AceE_M4_iso
 CP009273,1023739,7847.46,223,1.0,"Substitution(type_='SNV', value='T')",223,C,snp,1,missense_variant,yccU,putative CoA-binding protein,CP009273.1023739.AceE_M4_iso,AceE_M4_iso
 CP009273,1024480,7923.83,223,1.0,"Substitution(type_='SNV', value='T')",223,G,snp,1,missense_variant,rlmI,"23S rRNA m(5)C1962 methyltransferase, SAM-dependent",CP009273.1024480.AceE_M4_iso,AceE_M4_iso
+CP009273,1062155,1.02507e-15,183,0.060109289617486336,"Substitution(type_='SNV', value='T')",11,C,snp,1,missense_variant,agp,glucose-1-phosphatase/inositol phosphatase,CP009273.1062155.AceE_M4_iso,AceE_M4_iso
+CP009273,1076379,0.0,173,0.05202312138728324,"Substitution(type_='SNV', value='C')",9,T,snp,1,,,,CP009273.1076379.AceE_M4_iso,AceE_M4_iso
+CP009273,1083033,0.0,150,0.08,"Substitution(type_='SNV', value='C')",12,A,snp,1,synonymous_variant,pgaC,"biofilm PGA synthase PgaCD, catalytic subunit; poly-beta-1,6-N-acetyl-D-glucosamine synthase; c-di-GMP-stimulated activity and dimerization",CP009273.1083033.AceE_M4_iso,AceE_M4_iso
+CP009273,1089809,0.0,126,0.06349206349206349,"Substitution(type_='SNV', value='G')",8,A,snp,1,synonymous_variant,insF1,IS3 transposase B,CP009273.1089809.AceE_M4_iso,AceE_M4_iso
 CP009273,1097837,7578.35,224,0.9955357142857143,"Substitution(type_='SNV', value='C')",223,T,snp,1,missense_variant,csgE,curlin secretion specificity factor,CP009273.1097837.AceE_M4_iso,AceE_M4_iso
+CP009273,1105087,0.0,147,0.07482993197278912,"Substitution(type_='MNV', value='CA')",11,TG,complex,2,missense_variant,opgG,osmoregulated periplasmic glucan (OPG) biosynthesis periplasmic protein,CP009273.1105087.AceE_M4_iso,AceE_M4_iso
+CP009273,1105087,0.0,147,0.10204081632653061,"Substitution(type_='MNV', value='TA')",15,TG,snp,1,missense_variant,opgG,osmoregulated periplasmic glucan (OPG) biosynthesis periplasmic protein,CP009273.1105087.AceE_M4_iso,AceE_M4_iso
 CP009273,1108750,8696.51,249,0.9959839357429718,"Substitution(type_='SNV', value='A')",248,T,snp,1,missense_variant,opgH,"membrane glycosyltransferase; nutrient-dependent cell size regulator, FtsZ assembly antagonist",CP009273.1108750.AceE_M4_iso,AceE_M4_iso
+CP009273,1116648,1.20541e-14,180,0.05,"Substitution(type_='SNV', value='G')",9,T,snp,1,,,,CP009273.1116648.AceE_M4_iso,AceE_M4_iso
+CP009273,1116657,0.0,162,0.05555555555555555,"Substitution(type_='SNV', value='G')",9,T,snp,1,,,,CP009273.1116657.AceE_M4_iso,AceE_M4_iso
 CP009273,1120870,7749.58,222,1.0,"Substitution(type_='SNV', value='C')",222,T,snp,1,,,,CP009273.1120870.AceE_M4_iso,AceE_M4_iso
 CP009273,1142576,9053.61,260,1.0,"Substitution(type_='SNV', value='A')",260,T,snp,1,synonymous_variant,yceD,DUF177 family protein,CP009273.1142576.AceE_M4_iso,AceE_M4_iso
+CP009273,1148687,2.99544e-14,131,0.06870229007633588,"Substitution(type_='SNV', value='C')",9,A,snp,1,,,,CP009273.1148687.AceE_M4_iso,AceE_M4_iso
+CP009273,1148694,3.94171e-14,144,0.09027777777777778,"Substitution(type_='SNV', value='C')",13,A,snp,1,,,,CP009273.1148694.AceE_M4_iso,AceE_M4_iso
 CP009273,1186402,8494.83,241,1.0,"Substitution(type_='SNV', value='T')",241,G,snp,1,synonymous_variant,purB,adenylosuccinate lyase,CP009273.1186402.AceE_M4_iso,AceE_M4_iso
+CP009273,1187015,1.59116e-14,172,0.08139534883720931,"Substitution(type_='SNV', value='G')",14,A,snp,1,missense_variant,purB,adenylosuccinate lyase,CP009273.1187015.AceE_M4_iso,AceE_M4_iso
+CP009273,1200164,1.04572e-14,168,0.06547619047619048,"Substitution(type_='SNV', value='C')",11,A,snp,1,missense_variant,aaaE,,CP009273.1200164.AceE_M4_iso,AceE_M4_iso
+CP009273,1203245,0.0,73,0.0958904109589041,"Substitution(type_='SNV', value='G')",7,C,snp,1,missense_variant,stfP,e14 prophage; uncharacterized protein,CP009273.1203245.AceE_M4_iso,AceE_M4_iso
 CP009273,1206046,7157.41,204,1.0,"Substitution(type_='SNV', value='A')",204,C,snp,1,missense_variant,mcrA,putative 5-methylcytosine/5-hydroxymethylcytosine-specific restriction nuclease; 5-methylcytosine DNA binding protein; e14 prophage gene,CP009273.1206046.AceE_M4_iso,AceE_M4_iso
 CP009273,1217296,7943.6,225,1.0,"Substitution(type_='SNV', value='G')",225,A,snp,1,missense_variant,ycgH,,CP009273.1217296.AceE_M4_iso,AceE_M4_iso
 CP009273,1233372,8740.39,256,0.99609375,"Substitution(type_='SNV', value='T')",255,C,snp,1,missense_variant,dadA,D-amino acid dehydrogenase,CP009273.1233372.AceE_M4_iso,AceE_M4_iso
 CP009273,1274030,7618.96,222,0.9954954954954955,"Substitution(type_='INDEL', value='TGGAC')",221,TGGGAC,del,1,frameshift_variant,narK,nitrate/nitrite transporter,CP009273.1274030.AceE_M4_iso,AceE_M4_iso
+CP009273,1283906,2.1097e-15,159,0.05660377358490566,"Substitution(type_='SNV', value='G')",9,T,snp,1,missense_variant,purU,formyltetrahydrofolate hydrolase,CP009273.1283906.AceE_M4_iso,AceE_M4_iso
 CP009273,1308962,6308.97,182,1.0,"Substitution(type_='SNV', value='T')",182,G,snp,1,,,,CP009273.1308962.AceE_M4_iso,AceE_M4_iso
+CP009273,1327958,2.06127e-14,115,0.06956521739130435,"Substitution(type_='SNV', value='C')",8,A,snp,1,,,,CP009273.1327958.AceE_M4_iso,AceE_M4_iso
+CP009273,1329223,0.0,136,0.10294117647058823,"Substitution(type_='SNV', value='C')",14,A,snp,1,,,,CP009273.1329223.AceE_M4_iso,AceE_M4_iso
+CP009273,1329227,1.23858e-14,123,0.056910569105691054,"Substitution(type_='SNV', value='C')",7,A,snp,1,,,,CP009273.1329227.AceE_M4_iso,AceE_M4_iso
+CP009273,1341089,4638.24,154,0.9090909090909091,"Substitution(type_='INDEL', value='GTTTTTTTTTATATA')",140,GTTTTTTTTATATA,ins,1,frameshift_variant,ymiB,uncharacterized protein,CP009273.1341089.AceE_M4_iso,AceE_M4_iso
+CP009273,1342337,0.0,152,0.05921052631578947,"Substitution(type_='SNV', value='G')",9,A,snp,1,missense_variant,rnb,ribonuclease II,CP009273.1342337.AceE_M4_iso,AceE_M4_iso
+CP009273,1342338,9.04528e-16,140,0.08571428571428572,"Substitution(type_='SNV', value='G')",12,C,snp,1,missense_variant,rnb,ribonuclease II,CP009273.1342338.AceE_M4_iso,AceE_M4_iso
+CP009273,1345467,0.0,115,0.09565217391304348,"Substitution(type_='SNV', value='C')",11,A,snp,1,,,,CP009273.1345467.AceE_M4_iso,AceE_M4_iso
+CP009273,1345471,7.09685e-15,107,0.06542056074766354,"Substitution(type_='SNV', value='C')",7,T,snp,1,,,,CP009273.1345471.AceE_M4_iso,AceE_M4_iso
+CP009273,1345472,2.05525e-14,107,0.08411214953271028,"Substitution(type_='SNV', value='C')",9,A,snp,1,,,,CP009273.1345472.AceE_M4_iso,AceE_M4_iso
 CP009273,1349568,8957.34,261,0.9923371647509579,"Substitution(type_='SNV', value='G')",259,A,snp,1,missense_variant,sapB,antimicrobial peptide transport ABC transporter permease,CP009273.1349568.AceE_M4_iso,AceE_M4_iso
 CP009273,1350768,8630.45,247,1.0,"Substitution(type_='SNV', value='A')",247,C,snp,1,missense_variant,sapA,antimicrobial peptide transport ABC transporter periplasmic binding protein,CP009273.1350768.AceE_M4_iso,AceE_M4_iso
 CP009273,1371174,7972.57,231,0.9956709956709957,"Substitution(type_='SNV', value='T')",230,A,snp,1,missense_variant,ycjS,putative NADH-binding oxidoreductase,CP009273.1371174.AceE_M4_iso,AceE_M4_iso
+CP009273,1375548,0.0,163,0.05521472392638037,"Substitution(type_='SNV', value='C')",9,A,snp,1,missense_variant,ycjV,,CP009273.1375548.AceE_M4_iso,AceE_M4_iso
+CP009273,1375567,1.92265e-14,164,0.054878048780487805,"Substitution(type_='SNV', value='C')",9,A,snp,1,missense_variant,ycjV,,CP009273.1375567.AceE_M4_iso,AceE_M4_iso
+CP009273,1391269,0.0,38,0.07894736842105263,"Substitution(type_='SNV', value='G')",3,A,snp,1,missense_variant,insH1,IS5 transposase and trans-activator,CP009273.1391269.AceE_M4_iso,AceE_M4_iso
+CP009273,1423019,2.80863e-14,167,0.09580838323353294,"Substitution(type_='SNV', value='C')",16,T,snp,1,intron_variant,lomR,,CP009273.1423019.AceE_M4_iso,AceE_M4_iso
+CP009273,1423020,2.50428e-14,165,0.07272727272727272,"Substitution(type_='SNV', value='A')",12,G,snp,1,intron_variant,lomR,,CP009273.1423020.AceE_M4_iso,AceE_M4_iso
+CP009273,1423022,0.0,182,0.2802197802197802,"Substitution(type_='SNV', value='C')",51,T,snp,1,intron_variant,lomR,,CP009273.1423022.AceE_M4_iso,AceE_M4_iso
+CP009273,1423024,0.0,164,0.08536585365853659,"Substitution(type_='SNV', value='C')",14,T,snp,1,intron_variant,lomR,,CP009273.1423024.AceE_M4_iso,AceE_M4_iso
 CP009273,1436496,7861.55,227,0.9911894273127754,"Substitution(type_='SNV', value='T')",225,G,snp,1,missense_variant,ldhA,"fermentative D-lactate dehydrogenase, NAD-dependent",CP009273.1436496.AceE_M4_iso,AceE_M4_iso
 CP009273,1436705,10176.4,290,1.0,"Substitution(type_='SNV', value='T')",290,G,snp,1,missense_variant,ldhA,"fermentative D-lactate dehydrogenase, NAD-dependent",CP009273.1436705.AceE_M4_iso,AceE_M4_iso
+CP009273,1460650,1.76597e-14,174,0.06321839080459771,"Substitution(type_='SNV', value='T')",11,C,snp,1,synonymous_variant,ydbA,,CP009273.1460650.AceE_M4_iso,AceE_M4_iso
+CP009273,1462466,1.17307e-09,9,0.3333333333333333,"Substitution(type_='SNV', value='G')",3,A,snp,1,synonymous_variant,insD1,IS2 transposase TnpB,CP009273.1462466.AceE_M4_iso,AceE_M4_iso
 CP009273,1483183,8659.98,248,1.0,"Substitution(type_='SNV', value='A')",248,C,snp,1,missense_variant,aldA,"aldehyde dehydrogenase A, NAD-linked",CP009273.1483183.AceE_M4_iso,AceE_M4_iso
 CP009273,1494040,8485.87,242,1.0,"Substitution(type_='SNV', value='A')",242,C,snp,1,missense_variant,ydcK,uncharacterized protein,CP009273.1494040.AceE_M4_iso,AceE_M4_iso
+CP009273,1497025,0.0,147,0.09523809523809523,"Substitution(type_='SNV', value='A')",14,G,snp,1,synonymous_variant,ydcL,lipoprotein,CP009273.1497025.AceE_M4_iso,AceE_M4_iso
+CP009273,1497027,8.58256e-14,184,0.34782608695652173,"Substitution(type_='SNV', value='C')",64,T,snp,1,missense_variant,ydcL,lipoprotein,CP009273.1497027.AceE_M4_iso,AceE_M4_iso
+CP009273,1497029,0.0,137,0.10218978102189781,"Substitution(type_='SNV', value='A')",14,G,snp,1,missense_variant,ydcL,lipoprotein,CP009273.1497029.AceE_M4_iso,AceE_M4_iso
 CP009273,1503215,7716.19,220,1.0,"Substitution(type_='SNV', value='A')",220,T,snp,1,missense_variant,yncJ,uncharacterized protein,CP009273.1503215.AceE_M4_iso,AceE_M4_iso
 CP009273,1526809,5809.86,167,1.0,"Substitution(type_='SNV', value='C')",167,A,snp,1,missense_variant,ydcC,H repeat-associated putative transposase,CP009273.1526809.AceE_M4_iso,AceE_M4_iso
 CP009273,1537604,9374.91,267,1.0,"Substitution(type_='SNV', value='A')",267,T,snp,1,synonymous_variant,narU,nitrate/nitrite transporter,CP009273.1537604.AceE_M4_iso,AceE_M4_iso
 CP009273,1539351,8338.99,237,1.0,"Substitution(type_='SNV', value='G')",237,A,snp,1,synonymous_variant,yddK,,CP009273.1539351.AceE_M4_iso,AceE_M4_iso
+CP009273,1565773,17.4663,7,0.5714285714285714,"Substitution(type_='SNV', value='G')",4,A,snp,1,missense_variant,gadB,"glutamate decarboxylase B, PLP-dependent",CP009273.1565773.AceE_M4_iso,AceE_M4_iso
 CP009273,1566263,8385.81,240,1.0,"Substitution(type_='SNV', value='A')",240,G,snp,1,missense_variant,gadB,"glutamate decarboxylase B, PLP-dependent",CP009273.1566263.AceE_M4_iso,AceE_M4_iso
 CP009273,1576415,6824.95,196,1.0,"Substitution(type_='SNV', value='A')",196,T,snp,1,missense_variant,ydeN,putative Ser-type periplasmic non-aryl sulfatase,CP009273.1576415.AceE_M4_iso,AceE_M4_iso
 CP009273,1582473,8283.19,234,1.0,"Substitution(type_='SNV', value='C')",234,A,snp,1,synonymous_variant,ydeR,putative fimbrial-like adhesin protein,CP009273.1582473.AceE_M4_iso,AceE_M4_iso
 CP009273,1583141,8262.62,238,1.0,"Substitution(type_='SNV', value='C')",238,A,snp,1,stop_gained,ydeT,,CP009273.1583141.AceE_M4_iso,AceE_M4_iso
 CP009273,1592506,7230.89,205,1.0,"Substitution(type_='SNV', value='G')",205,A,snp,1,,,,CP009273.1592506.AceE_M4_iso,AceE_M4_iso
 CP009273,1604713,8518.47,244,0.9959016393442623,"Substitution(type_='SNV', value='T')",243,G,snp,1,synonymous_variant,uxaB,"altronate oxidoreductase, NAD-dependent",CP009273.1604713.AceE_M4_iso,AceE_M4_iso
+CP009273,1611365,4.26717e-14,187,0.10160427807486631,"Substitution(type_='SNV', value='A')",19,C,snp,1,synonymous_variant,ydeA,"arabinose efflux transporter, arabinose-inducible",CP009273.1611365.AceE_M4_iso,AceE_M4_iso
+CP009273,1617065,0.0,124,0.12096774193548387,"Substitution(type_='SNV', value='C')",15,A,snp,1,,,,CP009273.1617065.AceE_M4_iso,AceE_M4_iso
+CP009273,1617082,0.0,137,0.12408759124087591,"Substitution(type_='SNV', value='A')",17,C,snp,1,non_coding_transcript_variant,mgrR,mgrR,CP009273.1617082.AceE_M4_iso,AceE_M4_iso
 CP009273,1622605,9239.59,262,1.0,"Substitution(type_='SNV', value='G')",262,A,snp,1,,,,CP009273.1622605.AceE_M4_iso,AceE_M4_iso
 CP009273,1626172,8929.15,254,1.0,"Substitution(type_='SNV', value='T')",254,C,snp,1,missense_variant,ydfJ,,CP009273.1626172.AceE_M4_iso,AceE_M4_iso
+CP009273,1627298,1.38024e-14,37,0.08108108108108109,"Substitution(type_='INDEL', value='GAAATC')",3,GAAAATC,del,1,intron_variant,ydfJ,,CP009273.1627298.AceE_M4_iso,AceE_M4_iso
+CP009273,1627505,9.40266e-15,23,0.17391304347826086,"Substitution(type_='SNV', value='G')",4,A,snp,1,synonymous_variant,ydfK,"cold shock protein, function unknown, Qin prophage",CP009273.1627505.AceE_M4_iso,AceE_M4_iso
+CP009273,1635047,6.38867e-15,120,0.05,"Substitution(type_='SNV', value='C')",6,A,snp,1,intron_variant,ydfJ,,CP009273.1635047.AceE_M4_iso,AceE_M4_iso
 CP009273,1642667,8619.8,246,1.0,"Substitution(type_='SNV', value='C')",246,T,snp,1,intron_variant,ydfJ,,CP009273.1642667.AceE_M4_iso,AceE_M4_iso
 CP009273,1649642,7468.1,212,1.0,"Substitution(type_='SNV', value='T')",212,C,snp,1,missense_variant,ynfA,UPF0060 family inner membrane protein,CP009273.1649642.AceE_M4_iso,AceE_M4_iso
 CP009273,1664690,7982.7,230,1.0,"Substitution(type_='SNV', value='C')",230,A,snp,1,synonymous_variant,ynfM,putative arabinose efflux transporter,CP009273.1664690.AceE_M4_iso,AceE_M4_iso
@@ -131,39 +185,65 @@ CP009273,1685376,9429.51,270,1.0,"Substitution(type_='SNV', value='G')",270,T,sn
 CP009273,1696366,9081.27,257,1.0,"Substitution(type_='SNV', value='T')",257,G,snp,1,missense_variant,malY,"bifunctional beta-cystathionase, PLP-dependent/ regulator of maltose regulon",CP009273.1696366.AceE_M4_iso,AceE_M4_iso
 CP009273,1698782,6892.67,196,1.0,"Substitution(type_='SNV', value='T')",196,A,snp,1,,,,CP009273.1698782.AceE_M4_iso,AceE_M4_iso
 CP009273,1720380,8114.07,231,1.0,"Substitution(type_='SNV', value='A')",231,T,snp,1,stop_gained,nemR,"transcriptional repressor for the nemRA-gloA operon, quinone-, glyoxal-, and HOCl-activated",CP009273.1720380.AceE_M4_iso,AceE_M4_iso
+CP009273,1722033,8.95064e-15,184,0.05434782608695652,"Substitution(type_='SNV', value='G')",10,T,snp,1,,,,CP009273.1722033.AceE_M4_iso,AceE_M4_iso
 CP009273,1725360,8922.88,253,1.0,"Substitution(type_='SNV', value='T')",253,C,snp,1,missense_variant,lhr,putative ATP-dependent helicase,CP009273.1725360.AceE_M4_iso,AceE_M4_iso
 CP009273,1736014,7059.8,202,1.0,"Substitution(type_='SNV', value='A')",202,C,snp,1,synonymous_variant,cfa,cyclopropane fatty acyl phospholipid synthase (unsaturated-phospholipid methyltransferase),CP009273.1736014.AceE_M4_iso,AceE_M4_iso
 CP009273,1743894,8575.3,246,1.0,"Substitution(type_='SNV', value='A')",246,G,snp,1,missense_variant,ydhU,putative cytochrome b subunit of YdhYVWXUT oxidoreductase complex,CP009273.1743894.AceE_M4_iso,AceE_M4_iso
+CP009273,1789465,2.08234e-14,162,0.06790123456790123,"Substitution(type_='SNV', value='G')",11,T,snp,1,,,,CP009273.1789465.AceE_M4_iso,AceE_M4_iso
+CP009273,1815287,3.87539e-14,136,0.11764705882352941,"Substitution(type_='SNV', value='G')",16,T,snp,1,missense_variant,chbC,"N,N'-diacetylchitobiose-specific enzyme IIC component of PTS",CP009273.1815287.AceE_M4_iso,AceE_M4_iso
 CP009273,1834783,8252.41,237,0.9957805907172996,"Substitution(type_='SNV', value='T')",236,C,snp,1,missense_variant,ynjE,molybdopterin synthase sulfurtransferase,CP009273.1834783.AceE_M4_iso,AceE_M4_iso
 CP009273,1847556,6820.86,195,1.0,"Substitution(type_='SNV', value='A')",195,C,snp,1,missense_variant,ydjE,putative transporter,CP009273.1847556.AceE_M4_iso,AceE_M4_iso
+CP009273,1848187,0.0,144,0.05555555555555555,"Substitution(type_='SNV', value='A')",8,G,snp,1,missense_variant,ydjE,putative transporter,CP009273.1848187.AceE_M4_iso,AceE_M4_iso
 CP009273,1881324,7176.72,206,0.9951456310679612,"Substitution(type_='SNV', value='T')",205,C,snp,1,missense_variant,rnd,ribonuclease D,CP009273.1881324.AceE_M4_iso,AceE_M4_iso
 CP009273,1883556,8297.93,236,1.0,"Substitution(type_='SNV', value='G')",236,T,snp,1,missense_variant,fadD,acyl-CoA synthetase (long-chain-fatty-acid--CoA ligase),CP009273.1883556.AceE_M4_iso,AceE_M4_iso
+CP009273,1899045,5.95472e-14,186,0.08602150537634409,"Substitution(type_='SNV', value='C')",16,A,snp,1,,,,CP009273.1899045.AceE_M4_iso,AceE_M4_iso
 CP009273,1914914,7403.78,212,1.0,"Substitution(type_='SNV', value='T')",212,C,snp,1,synonymous_variant,rsmF,"16S rRNA m(5)C1407 methyltransferase, SAM-dependent",CP009273.1914914.AceE_M4_iso,AceE_M4_iso
 CP009273,1916011,6444.73,185,1.0,"Substitution(type_='SNV', value='A')",185,T,snp,1,,,,CP009273.1916011.AceE_M4_iso,AceE_M4_iso
+CP009273,1946455,0.0,134,0.05223880597014925,"Substitution(type_='SNV', value='G')",7,A,snp,1,synonymous_variant,yecE,UPF0759 family protein,CP009273.1946455.AceE_M4_iso,AceE_M4_iso
+CP009273,1950377,0.0,172,0.05232558139534884,"Substitution(type_='SNV', value='C')",9,A,snp,1,synonymous_variant,torZ,"trimethylamine N-oxide reductase system III, catalytic subunit",CP009273.1950377.AceE_M4_iso,AceE_M4_iso
+CP009273,1950389,2.77247e-14,170,0.058823529411764705,"Substitution(type_='SNV', value='C')",10,A,snp,1,missense_variant,torZ,"trimethylamine N-oxide reductase system III, catalytic subunit",CP009273.1950389.AceE_M4_iso,AceE_M4_iso
 CP009273,1977516,8412.28,239,1.0,"Substitution(type_='SNV', value='C')",239,A,snp,1,missense_variant,araG,fused L-arabinose transporter subunits of ABC superfamily: ATP-binding components,CP009273.1977516.AceE_M4_iso,AceE_M4_iso
 CP009273,1985894,8327.43,237,1.0,"Substitution(type_='SNV', value='T')",237,C,snp,1,missense_variant,pgsA,phosphatidylglycerophosphate synthetase,CP009273.1985894.AceE_M4_iso,AceE_M4_iso
+CP009273,1996809,0.0,177,0.05649717514124294,"Substitution(type_='SNV', value='C')",10,A,snp,1,synonymous_variant,fliC,flagellar filament structural protein (flagellin),CP009273.1996809.AceE_M4_iso,AceE_M4_iso
 CP009273,2000420,6821.35,193,1.0,"Substitution(type_='SNV', value='G')",193,A,snp,1,missense_variant,amyA,cytoplasmic alpha-amylase,CP009273.2000420.AceE_M4_iso,AceE_M4_iso
 CP009273,2005444,8258.74,234,1.0,"Substitution(type_='SNV', value='A')",234,G,snp,1,missense_variant,yedN,,CP009273.2005444.AceE_M4_iso,AceE_M4_iso
 CP009273,2006738,8999.46,259,1.0,"Substitution(type_='SNV', value='A')",259,C,snp,1,missense_variant,fliF,flagellar basal-body MS-ring and collar protein,CP009273.2006738.AceE_M4_iso,AceE_M4_iso
 CP009273,2034711,8991.64,256,1.0,"Substitution(type_='SNV', value='T')",256,C,snp,1,,,,CP009273.2034711.AceE_M4_iso,AceE_M4_iso
 CP009273,2048531,7537.63,219,0.9908675799086758,"Substitution(type_='SNV', value='G')",217,A,snp,1,,,,CP009273.2048531.AceE_M4_iso,AceE_M4_iso
+CP009273,2063514,0.0,23,0.13043478260869565,"Substitution(type_='SNV', value='T')",3,G,snp,1,missense_variant,insC1,IS2 repressor TnpA,CP009273.2063514.AceE_M4_iso,AceE_M4_iso
+CP009273,2064791,1.72979e-14,214,0.06074766355140187,"Substitution(type_='SNV', value='G')",13,A,snp,1,,,,CP009273.2064791.AceE_M4_iso,AceE_M4_iso
+CP009273,2068174,2.47111e-14,119,0.07563025210084033,"Substitution(type_='SNV', value='G')",9,T,snp,1,,,,CP009273.2068174.AceE_M4_iso,AceE_M4_iso
+CP009273,2076714,2.78452e-14,146,0.06164383561643835,"Substitution(type_='SNV', value='A')",9,G,snp,1,missense_variant,sbcB,exodeoxyribonuclease I; exonuclease I,CP009273.2076714.AceE_M4_iso,AceE_M4_iso
 CP009273,2118666,10305.3,293,1.0,"Substitution(type_='SNV', value='T')",293,C,snp,1,missense_variant,wcaI,putative glycosyl transferase,CP009273.2118666.AceE_M4_iso,AceE_M4_iso
 CP009273,2120336,9756.33,278,1.0,"Substitution(type_='SNV', value='A')",278,C,snp,1,synonymous_variant,wcaG,bifunctional GDP-fucose synthetase: GDP-4-dehydro-6-deoxy-D-mannose epimerase/ GDP-4-dehydro-6-L-deoxygalactose reductase,CP009273.2120336.AceE_M4_iso,AceE_M4_iso
 CP009273,2122203,5742.82,164,1.0,"Substitution(type_='SNV', value='C')",164,T,snp,1,missense_variant,wcaF,putative acyl transferase,CP009273.2122203.AceE_M4_iso,AceE_M4_iso
 CP009273,2123924,8698.67,250,1.0,"Substitution(type_='SNV', value='G')",250,C,snp,1,missense_variant,wcaD,putative colanic acid polymerase,CP009273.2123924.AceE_M4_iso,AceE_M4_iso
 CP009273,2134026,7875.24,224,1.0,"Substitution(type_='SNV', value='G')",224,A,snp,1,synonymous_variant,asmA,suppressor of OmpF assembly mutants; putative outer membrane protein assembly factor; inner membrane-anchored periplasmic protein,CP009273.2134026.AceE_M4_iso,AceE_M4_iso
+CP009273,2144540,0.0,258,0.12403100775193798,"Substitution(type_='SNV', value='A')",32,G,snp,1,,,,CP009273.2144540.AceE_M4_iso,AceE_M4_iso
+CP009273,2156362,8.07671e-15,146,0.13013698630136986,"Substitution(type_='MNV', value='CCC')",19,GTT,complex,3,missense_variant,baeS,sensory histidine kinase in two-component regulatory system with BaeR,CP009273.2156362.AceE_M4_iso,AceE_M4_iso
 CP009273,2161103,6972.43,199,1.0,"Substitution(type_='SNV', value='T')",199,C,snp,1,missense_variant,yegZ,,CP009273.2161103.AceE_M4_iso,AceE_M4_iso
+CP009273,2161500,3.31511e-15,177,0.07344632768361582,"Substitution(type_='SNV', value='T')",13,G,snp,1,synonymous_variant,yegR,uncharacterized protein,CP009273.2161500.AceE_M4_iso,AceE_M4_iso
 CP009273,2173128,8455.56,242,1.0,"Substitution(type_='SNV', value='T')",242,C,snp,1,missense_variant,yegT,"nucleoside transporter, low affinity",CP009273.2173128.AceE_M4_iso,AceE_M4_iso
 CP009273,2181050,8474.98,241,1.0,"Substitution(type_='SNV', value='A')",241,G,snp,1,missense_variant,yehA,putative fimbrial-like adhesin protein,CP009273.2181050.AceE_M4_iso,AceE_M4_iso
 CP009273,2185654,5733.26,167,1.0,"Substitution(type_='SNV', value='T')",167,C,snp,1,missense_variant,yehD,putative fimbrial-like adhesin protein,CP009273.2185654.AceE_M4_iso,AceE_M4_iso
 CP009273,2211053,8181.45,232,1.0,"Substitution(type_='SNV', value='A')",232,C,snp,1,synonymous_variant,yehY,inner membrane putative ABC superfamily transporter permease,CP009273.2211053.AceE_M4_iso,AceE_M4_iso
+CP009273,2222655,0.0,49,0.20408163265306123,"Substitution(type_='SNV', value='G')",10,C,snp,1,,,,CP009273.2222655.AceE_M4_iso,AceE_M4_iso
+CP009273,2222664,1.35159e-14,55,0.05454545454545454,"Substitution(type_='SNV', value='A')",3,G,snp,1,,,,CP009273.2222664.AceE_M4_iso,AceE_M4_iso
 CP009273,2234711,8795.04,249,1.0,"Substitution(type_='SNV', value='A')",249,C,snp,1,missense_variant,galS,galactose- and fucose-inducible galactose regulon transcriptional isorepressor; mgl operon transcriptional repressor; autorepressor,CP009273.2234711.AceE_M4_iso,AceE_M4_iso
 CP009273,2236285,6833.74,203,0.9950738916256158,"Substitution(type_='SNV', value='G')",202,A,snp,1,synonymous_variant,yeiB,DUF418 family putative inner membrane protein,CP009273.2236285.AceE_M4_iso,AceE_M4_iso
+CP009273,2282568,2.59467e-14,63,0.07936507936507936,"Substitution(type_='SNV', value='C')",5,T,snp,1,missense_variant,insH1,IS5 transposase and trans-activator,CP009273.2282568.AceE_M4_iso,AceE_M4_iso
+CP009273,2283506,6.2686e-15,160,0.05,"Substitution(type_='SNV', value='C')",8,A,snp,1,missense_variant,insH1,IS5 transposase and trans-activator,CP009273.2283506.AceE_M4_iso,AceE_M4_iso
+CP009273,2302116,3.01399e-15,153,0.0718954248366013,"Substitution(type_='SNV', value='C')",11,T,snp,1,,,,CP009273.2302116.AceE_M4_iso,AceE_M4_iso
 CP009273,2315071,6911.37,195,1.0,"Substitution(type_='SNV', value='T')",195,C,snp,1,missense_variant,atoS,sensory histidine kinase in two-component regulatory system with AtoC,CP009273.2315071.AceE_M4_iso,AceE_M4_iso
 CP009273,2324219,6902.83,197,1.0,"Substitution(type_='SNV', value='A')",197,G,snp,1,synonymous_variant,yfaS,,CP009273.2324219.AceE_M4_iso,AceE_M4_iso
 CP009273,2325364,9255.1,263,1.0,"Substitution(type_='SNV', value='A')",263,C,snp,1,missense_variant,yfaS,,CP009273.2325364.AceE_M4_iso,AceE_M4_iso
 CP009273,2360124,6716.46,190,1.0,"Substitution(type_='SNV', value='A')",190,G,snp,1,missense_variant,arnB,"uridine 5'-(beta-1-threo-pentapyranosyl-4-ulose diphosphate) aminotransferase, PLP-dependent",CP009273.2360124.AceE_M4_iso,AceE_M4_iso
+CP009273,2376947,0.0,125,0.08,"Substitution(type_='SNV', value='T')",10,C,snp,1,synonymous_variant,elaD,"protease, capable of cleaving an AMC-ubiquitin model substrate",CP009273.2376947.AceE_M4_iso,AceE_M4_iso
+CP009273,2404732,3.737e-15,154,0.05194805194805195,"Substitution(type_='SNV', value='G')",8,T,snp,1,missense_variant,yfbS,putative transporter,CP009273.2404732.AceE_M4_iso,AceE_M4_iso
 CP009273,2417637,9091.96,259,1.0,"Substitution(type_='SNV', value='G')",259,T,snp,1,missense_variant,hisP,histidine/lysine/arginine/ornithine transporter subunit,CP009273.2417637.AceE_M4_iso,AceE_M4_iso
+CP009273,2420455,0.0,166,0.09036144578313253,"Substitution(type_='SNV', value='C')",15,T,snp,1,,,,CP009273.2420455.AceE_M4_iso,AceE_M4_iso
+CP009273,2438237,0.0,157,0.07006369426751592,"Substitution(type_='SNV', value='C')",11,A,snp,1,missense_variant,yfcA,UPF0721 family inner membrane protein,CP009273.2438237.AceE_M4_iso,AceE_M4_iso
+CP009273,2449208,1.08125e-13,213,0.20657276995305165,"Substitution(type_='SNV', value='T')",44,C,snp,1,,,,CP009273.2449208.AceE_M4_iso,AceE_M4_iso
 CP009273,2456436,7807.02,223,1.0,"Substitution(type_='SNV', value='T')",223,C,snp,1,,,,CP009273.2456436.AceE_M4_iso,AceE_M4_iso
 CP009273,2462257,7385.15,213,0.9953051643192489,"Substitution(type_='SNV', value='T')",212,G,snp,1,missense_variant,gtrB,CPS-53 (KpLE1) prophage; bactoprenol glucosyl transferase,CP009273.2462257.AceE_M4_iso,AceE_M4_iso
 CP009273,2463278,7214.73,205,1.0,"Substitution(type_='SNV', value='G')",205,A,snp,1,synonymous_variant,gtrS,"serotype-specific glucosyl transferase, CPS-53 (KpLE1) prophage",CP009273.2463278.AceE_M4_iso,AceE_M4_iso
@@ -173,27 +253,39 @@ CP009273,2475256,8947.33,252,1.0,"Substitution(type_='SNV', value='C')",252,T,sn
 CP009273,2478593,8162.92,232,1.0,"Substitution(type_='SNV', value='G')",232,A,snp,1,synonymous_variant,evgS,hybrid sensory histidine kinase in two-component regulatory system with EvgA,CP009273.2478593.AceE_M4_iso,AceE_M4_iso
 CP009273,2482347,8751.87,249,1.0,"Substitution(type_='SNV', value='T')",249,A,snp,1,missense_variant,yfdE,acetyl-CoA:oxalate CoA-transferase,CP009273.2482347.AceE_M4_iso,AceE_M4_iso
 CP009273,2487470,7899.9,224,1.0,"Substitution(type_='SNV', value='T')",224,C,snp,1,missense_variant,yfdX,uncharacterized protein,CP009273.2487470.AceE_M4_iso,AceE_M4_iso
+CP009273,2507966,7.91073e-15,35,0.08571428571428572,"Substitution(type_='SNV', value='A')",3,G,snp,1,missense_variant,insL1,IS186 transposase,CP009273.2507966.AceE_M4_iso,AceE_M4_iso
+CP009273,2507992,1.1934e-14,32,0.1875,"Substitution(type_='SNV', value='A')",6,T,snp,1,synonymous_variant,insL1,IS186 transposase,CP009273.2507992.AceE_M4_iso,AceE_M4_iso
 CP009273,2510986,10256.4,290,1.0,"Substitution(type_='SNV', value='A')",290,C,snp,1,missense_variant,yfeA,putative diguanylate cyclase,CP009273.2510986.AceE_M4_iso,AceE_M4_iso
+CP009273,2528623,0.0,143,0.06993006993006994,"Substitution(type_='SNV', value='A')",10,G,snp,1,missense_variant,ptsI,PEP-protein phosphotransferase of PTS system (enzyme I),CP009273.2528623.AceE_M4_iso,AceE_M4_iso
 CP009273,2529524,8223.71,237,1.0,"Substitution(type_='SNV', value='A')",237,G,snp,1,missense_variant,crr,glucose-specific enzyme IIA component of PTS,CP009273.2529524.AceE_M4_iso,AceE_M4_iso
 CP009273,2532192,7695.29,222,1.0,"Substitution(type_='SNV', value='G')",222,A,snp,1,missense_variant,cysM,cysteine synthase B (O-acetylserine sulfhydrolase B),CP009273.2532192.AceE_M4_iso,AceE_M4_iso
+CP009273,2559672,1.51884e-14,133,0.07518796992481203,"Substitution(type_='SNV', value='G')",10,T,snp,1,missense_variant,eutA,reactivating factor for ethanolamine ammonia lyase,CP009273.2559672.AceE_M4_iso,AceE_M4_iso
+CP009273,2560289,1.60322e-14,168,0.05952380952380952,"Substitution(type_='SNV', value='T')",10,G,snp,1,missense_variant,eutH,ethanolamine transporter,CP009273.2560289.AceE_M4_iso,AceE_M4_iso
 CP009273,2571967,7983.77,230,0.991304347826087,"Substitution(type_='SNV', value='A')",228,C,snp,1,,,,CP009273.2571967.AceE_M4_iso,AceE_M4_iso
+CP009273,2579139,5.91256e-14,117,0.11965811965811966,"Substitution(type_='SNV', value='C')",14,A,snp,1,missense_variant,narQ,sensory histidine kinase in two-component regulatory system with NarP (NarL),CP009273.2579139.AceE_M4_iso,AceE_M4_iso
 CP009273,2591613,8413.52,239,1.0,"Substitution(type_='SNV', value='G')",239,A,snp,1,synonymous_variant,bamC,BamABCDE complex OM biogenesis lipoprotein,CP009273.2591613.AceE_M4_iso,AceE_M4_iso
 CP009273,2600952,8818.31,258,0.9844961240310077,"Substitution(type_='SNV', value='A')",254,T,snp,1,missense_variant,hyfF,"hydrogenase 4, membrane subunit",CP009273.2600952.AceE_M4_iso,AceE_M4_iso
 CP009273,2612635,9074.11,256,1.0,"Substitution(type_='SNV', value='A')",256,C,snp,1,missense_variant,uraA,uracil permease,CP009273.2612635.AceE_M4_iso,AceE_M4_iso
 CP009273,2622562,7626.11,218,1.0,"Substitution(type_='SNV', value='C')",218,T,snp,1,,,,CP009273.2622562.AceE_M4_iso,AceE_M4_iso
+CP009273,2623996,1.55199e-14,148,0.060810810810810814,"Substitution(type_='SNV', value='A')",9,G,snp,1,synonymous_variant,yfgI,"nalidixic acid resistance protein, putative periplasmic protein",CP009273.2623996.AceE_M4_iso,AceE_M4_iso
+CP009273,2637688,0.0,162,0.05555555555555555,"Substitution(type_='SNV', value='G')",9,T,snp,1,,,,CP009273.2637688.AceE_M4_iso,AceE_M4_iso
 CP009273,2654461,8051.07,229,1.0,"Substitution(type_='SNV', value='T')",229,C,snp,1,missense_variant,iscS,"cysteine desulfurase (tRNA sulfurtransferase), PLP-dependent",CP009273.2654461.AceE_M4_iso,AceE_M4_iso
 CP009273,2658259,7684.58,218,1.0,"Substitution(type_='SNV', value='A')",218,C,snp,1,missense_variant,yfhR,putative S9 family prolyl oligopeptidase,CP009273.2658259.AceE_M4_iso,AceE_M4_iso
 CP009273,2661572,6726.78,191,1.0,"Substitution(type_='SNV', value='T')",191,G,snp,1,synonymous_variant,hcaR,hca operon transcriptional regulator,CP009273.2661572.AceE_M4_iso,AceE_M4_iso
 CP009273,2665654,9423.11,272,1.0,"Substitution(type_='SNV', value='T')",272,G,snp,1,synonymous_variant,hcaD,"phenylpropionate dioxygenase, ferredoxin reductase subunit",CP009273.2665654.AceE_M4_iso,AceE_M4_iso
+CP009273,2675651,8.04634e-15,197,0.06598984771573604,"Substitution(type_='SNV', value='A')",13,G,snp,1,missense_variant,yphG,DUF4380 domain-containing TPR repeat protein,CP009273.2675651.AceE_M4_iso,AceE_M4_iso
 CP009273,2690259,8579.06,247,1.0,"Substitution(type_='SNV', value='A')",247,T,snp,1,missense_variant,mltF,,CP009273.2690259.AceE_M4_iso,AceE_M4_iso
 CP009273,2709626,8947.7,253,1.0,"Substitution(type_='SNV', value='A')",253,C,snp,1,synonymous_variant,grcA,autonomous glycyl radical cofactor,CP009273.2709626.AceE_M4_iso,AceE_M4_iso
 CP009273,2719426,6567.67,188,1.0,"Substitution(type_='SNV', value='C')",188,T,snp,1,,,,CP009273.2719426.AceE_M4_iso,AceE_M4_iso
+CP009273,2723253,53.8604,4,0.75,"Substitution(type_='SNV', value='G')",3,A,snp,1,non_coding_transcript_variant,rrsG,rrsG,CP009273.2723253.AceE_M4_iso,AceE_M4_iso
+CP009273,2729603,0.0,174,0.08045977011494253,"Substitution(type_='SNV', value='G')",14,T,snp,1,missense_variant,bamD,BamABCDE complex OM biogenesis lipoprotein,CP009273.2729603.AceE_M4_iso,AceE_M4_iso
 CP009273,2734001,9606.02,272,0.9963235294117647,"Substitution(type_='SNV', value='T')",271,G,snp,1,stop_gained,aroF,"3-deoxy-D-arabino-heptulosonate-7-phosphate synthase, tyrosine-repressible",CP009273.2734001.AceE_M4_iso,AceE_M4_iso
 CP009273,2738127,8474.43,239,1.0,"Substitution(type_='SNV', value='G')",239,T,snp,1,missense_variant,trmD,"tRNA m(1)G37 methyltransferase, SAM-dependent",CP009273.2738127.AceE_M4_iso,AceE_M4_iso
 CP009273,2753767,8140.63,231,1.0,"Substitution(type_='SNV', value='T')",231,C,snp,1,,,,CP009273.2753767.AceE_M4_iso,AceE_M4_iso
 CP009273,2763080,9854.71,279,1.0,"Substitution(type_='SNV', value='T')",279,C,snp,1,missense_variant,yfjR,CP4-57 prophage; putative DNA-binding transcriptional regulator,CP009273.2763080.AceE_M4_iso,AceE_M4_iso
 CP009273,2786576,8830.86,255,1.0,"Substitution(type_='SNV', value='A')",255,G,snp,1,synonymous_variant,gabT,"4-aminobutyrate aminotransferase, PLP-dependent",CP009273.2786576.AceE_M4_iso,AceE_M4_iso
 CP009273,2796014,6936.43,199,1.0,"Substitution(type_='SNV', value='T')",199,G,snp,1,missense_variant,nrdE,"ribonucleoside-diphosphate reductase 2, alpha subunit",CP009273.2796014.AceE_M4_iso,AceE_M4_iso
+CP009273,2801102,0.0,207,0.0821256038647343,"Substitution(type_='SNV', value='T')",17,G,snp,1,synonymous_variant,proX,glycine betaine transporter subunit,CP009273.2801102.AceE_M4_iso,AceE_M4_iso
 CP009273,2802902,8969.33,256,0.99609375,"Substitution(type_='SNV', value='A')",255,G,snp,1,,,,CP009273.2802902.AceE_M4_iso,AceE_M4_iso
 CP009273,2815245,8325.19,236,1.0,"Substitution(type_='SNV', value='T')",236,G,snp,1,synonymous_variant,alaS,alanyl-tRNA synthetase,CP009273.2815245.AceE_M4_iso,AceE_M4_iso
 CP009273,2815648,9221.84,261,1.0,"Substitution(type_='SNV', value='A')",261,C,snp,1,missense_variant,recX,regulatory protein for RecA,CP009273.2815648.AceE_M4_iso,AceE_M4_iso
@@ -206,29 +298,49 @@ CP009273,2892708,8945.9,254,1.0,"Substitution(type_='SNV', value='A')",254,C,snp
 CP009273,2941568,9320.51,266,1.0,"Substitution(type_='SNV', value='A')",266,C,snp,1,missense_variant,amiC,N-acetylmuramoyl-L-alanine amidase,CP009273.2941568.AceE_M4_iso,AceE_M4_iso
 CP009273,2956714,8999.62,254,1.0,"Substitution(type_='SNV', value='G')",254,A,snp,1,missense_variant,ppdB,putative prepilin peptidase-dependent protein,CP009273.2956714.AceE_M4_iso,AceE_M4_iso
 CP009273,2963728,10304.0,293,1.0,"Substitution(type_='SNV', value='A')",293,C,snp,1,,,,CP009273.2963728.AceE_M4_iso,AceE_M4_iso
+CP009273,2967421,0.0,267,0.052434456928838954,"Substitution(type_='SNV', value='A')",14,G,snp,1,synonymous_variant,aas,fused 2-acylglycerophospho-ethanolamine acyl transferase/acyl-acyl carrier protein synthetase,CP009273.2967421.AceE_M4_iso,AceE_M4_iso
+CP009273,2984208,0.0,152,0.05263157894736842,"Substitution(type_='SNV', value='G')",8,T,snp,1,missense_variant,ygeF,,CP009273.2984208.AceE_M4_iso,AceE_M4_iso
+CP009273,2984245,7.23269e-15,139,0.07194244604316546,"Substitution(type_='SNV', value='G')",10,T,snp,1,missense_variant,ygeF,,CP009273.2984245.AceE_M4_iso,AceE_M4_iso
+CP009273,2986684,0.0,177,0.05649717514124294,"Substitution(type_='SNV', value='G')",10,T,snp,1,missense_variant,ygeH,putative transcriptional regulator,CP009273.2986684.AceE_M4_iso,AceE_M4_iso
+CP009273,2989366,5523.61,180,0.9277777777777778,"Substitution(type_='INDEL', value='ATTTTTTTTTCGC')",167,ATTTTTTTTCGC,ins,1,frameshift_variant,ygeN,,CP009273.2989366.AceE_M4_iso,AceE_M4_iso
+CP009273,2989872,0.0,69,0.057971014492753624,"Substitution(type_='SNV', value='A')",4,C,snp,1,synonymous_variant,insD1,IS2 transposase TnpB,CP009273.2989872.AceE_M4_iso,AceE_M4_iso
 CP009273,2999482,8344.86,236,1.0,"Substitution(type_='SNV', value='T')",236,C,snp,1,,,,CP009273.2999482.AceE_M4_iso,AceE_M4_iso
 CP009273,2999531,8405.0,241,1.0,"Substitution(type_='SNV', value='G')",241,A,snp,1,,,,CP009273.2999531.AceE_M4_iso,AceE_M4_iso
 CP009273,3004459,7747.53,221,1.0,"Substitution(type_='SNV', value='A')",221,C,snp,1,missense_variant,hyuA,D-stereospecific phenylhydantoinase,CP009273.3004459.AceE_M4_iso,AceE_M4_iso
+CP009273,3026191,1.95279e-14,194,0.05670103092783505,"Substitution(type_='SNV', value='T')",11,C,snp,1,missense_variant,yqfG,uncharacterized protein,CP009273.3026191.AceE_M4_iso,AceE_M4_iso
 CP009273,3046853,8367.34,237,1.0,"Substitution(type_='SNV', value='T')",237,C,snp,1,missense_variant,ubiH,"2-octaprenyl-6-methoxyphenol hydroxylase, FAD/NAD(P)-binding",CP009273.3046853.AceE_M4_iso,AceE_M4_iso
+CP009273,3048245,0.0,133,0.05263157894736842,"Substitution(type_='SNV', value='T')",7,G,snp,1,missense_variant,ygfB,UPF0149 family protein,CP009273.3048245.AceE_M4_iso,AceE_M4_iso
 CP009273,3050405,7516.88,218,0.9954128440366973,"Substitution(type_='SNV', value='T')",217,C,snp,1,,,,CP009273.3050405.AceE_M4_iso,AceE_M4_iso
 CP009273,3066297,8721.4,247,1.0,"Substitution(type_='SNV', value='C')",247,T,snp,1,missense_variant,epd,D-erythrose 4-phosphate dehydrogenase,CP009273.3066297.AceE_M4_iso,AceE_M4_iso
 CP009273,3067165,9952.95,289,1.0,"Substitution(type_='SNV', value='C')",289,T,snp,1,,,,CP009273.3067165.AceE_M4_iso,AceE_M4_iso
 CP009273,3094698,7719.83,221,0.995475113122172,"Substitution(type_='SNV', value='T')",220,G,snp,1,synonymous_variant,yggN,DUF2884 family putative periplasmic protein,CP009273.3094698.AceE_M4_iso,AceE_M4_iso
 CP009273,3119951,8652.28,249,1.0,"Substitution(type_='SNV', value='A')",249,C,snp,1,missense_variant,glcD,"glycolate oxidase subunit, FAD-linked",CP009273.3119951.AceE_M4_iso,AceE_M4_iso
+CP009273,3123715,2.74537e-14,41,0.07317073170731707,"Substitution(type_='SNV', value='T')",3,C,snp,1,missense_variant,insH1,IS5 transposase and trans-activator,CP009273.3123715.AceE_M4_iso,AceE_M4_iso
 CP009273,3128866,8237.59,233,1.0,"Substitution(type_='SNV', value='A')",233,G,snp,1,missense_variant,pitB,phosphate transporter,CP009273.3128866.AceE_M4_iso,AceE_M4_iso
 CP009273,3172700,7559.38,213,1.0,"Substitution(type_='SNV', value='T')",213,G,snp,1,synonymous_variant,tolC,transport channel,CP009273.3172700.AceE_M4_iso,AceE_M4_iso
 CP009273,3182183,7728.42,231,0.961038961038961,"Substitution(type_='INDEL', value='GAAATG')",222,GAATG,ins,1,frameshift_variant,yqiG,,CP009273.3182183.AceE_M4_iso,AceE_M4_iso
 CP009273,3243618,8252.27,238,1.0,"Substitution(type_='SNV', value='T')",238,G,snp,1,synonymous_variant,yqjK,uncharacterized protein,CP009273.3243618.AceE_M4_iso,AceE_M4_iso
 CP009273,3245064,8679.7,248,1.0,"Substitution(type_='SNV', value='A')",248,C,snp,1,missense_variant,yqjG,putative S-transferase,CP009273.3245064.AceE_M4_iso,AceE_M4_iso
+CP009273,3256852,0.0,126,0.10317460317460317,"Substitution(type_='SNV', value='G')",13,A,snp,1,synonymous_variant,tdcD,"propionate kinase/acetate kinase C, anaerobic",CP009273.3256852.AceE_M4_iso,AceE_M4_iso
+CP009273,3263540,0.0,76,0.05263157894736842,"Substitution(type_='SNV', value='A')",4,G,snp,1,,,,CP009273.3263540.AceE_M4_iso,AceE_M4_iso
+CP009273,3292748,0.0,176,0.07954545454545454,"Substitution(type_='SNV', value='C')",14,A,snp,1,missense_variant,yhbO,stress-resistance protein,CP009273.3292748.AceE_M4_iso,AceE_M4_iso
+CP009273,3307555,0.0,239,0.05439330543933055,"Substitution(type_='SNV', value='A')",13,G,snp,1,missense_variant,infB,translation initiation factor IF-2,CP009273.3307555.AceE_M4_iso,AceE_M4_iso
+CP009273,3321564,1.95879e-14,176,0.07386363636363637,"Substitution(type_='SNV', value='C')",13,A,snp,1,,,,CP009273.3321564.AceE_M4_iso,AceE_M4_iso
 CP009273,3340105,6871.19,197,1.0,"Substitution(type_='SNV', value='A')",197,C,snp,1,synonymous_variant,ptsN,sugar-specific enzyme IIA component of PTS,CP009273.3340105.AceE_M4_iso,AceE_M4_iso
 CP009273,3342597,7880.32,235,0.9914893617021276,"Substitution(type_='INDEL', value='CGGTA')",233,CGGGTA,del,1,frameshift_variant,mtgA,biosynthetic peptidoglycan transglycosylase,CP009273.3342597.AceE_M4_iso,AceE_M4_iso
+CP009273,3359181,0.0,27,0.14814814814814814,"Substitution(type_='SNV', value='T')",4,G,snp,1,synonymous_variant,insH1,IS5 transposase and trans-activator,CP009273.3359181.AceE_M4_iso,AceE_M4_iso
 CP009273,3360572,7189.31,207,1.0,"Substitution(type_='SNV', value='A')",207,C,snp,1,synonymous_variant,yhcF,putative transcriptional regulator,CP009273.3360572.AceE_M4_iso,AceE_M4_iso
+CP009273,3393898,5.17726e-14,147,0.08163265306122448,"Substitution(type_='SNV', value='A')",12,G,snp,1,synonymous_variant,mreB,"cell wall structural complex MreBCD, actin-like component MreB",CP009273.3393898.AceE_M4_iso,AceE_M4_iso
 CP009273,3411608,8677.19,250,1.0,"Substitution(type_='SNV', value='T')",250,C,snp,1,,,,CP009273.3411608.AceE_M4_iso,AceE_M4_iso
 CP009273,3433474,8543.08,244,1.0,"Substitution(type_='SNV', value='T')",244,G,snp,1,missense_variant,rpoA,"RNA polymerase, alpha subunit",CP009273.3433474.AceE_M4_iso,AceE_M4_iso
 CP009273,3434777,9770.41,277,1.0,"Substitution(type_='SNV', value='T')",277,G,snp,1,synonymous_variant,rpsD,30S ribosomal subunit protein S4,CP009273.3434777.AceE_M4_iso,AceE_M4_iso
+CP009273,3438440,0.0,134,0.07462686567164178,"Substitution(type_='SNV', value='G')",10,T,snp,1,missense_variant,rpsE,30S ribosomal subunit protein S5,CP009273.3438440.AceE_M4_iso,AceE_M4_iso
 CP009273,3470179,6497.67,187,1.0,"Substitution(type_='SNV', value='T')",187,C,snp,1,synonymous_variant,fkpA,FKBP-type peptidyl-prolyl cis-trans isomerase (rotamase),CP009273.3470179.AceE_M4_iso,AceE_M4_iso
 CP009273,3524897,9213.35,267,1.0,"Substitution(type_='SNV', value='A')",267,G,snp,1,missense_variant,yhgE,DUF4153 family putative inner membrane protein,CP009273.3524897.AceE_M4_iso,AceE_M4_iso
+CP009273,3533735,3.61646e-15,165,0.05454545454545454,"Substitution(type_='SNV', value='C')",9,G,snp,1,missense_variant,feoA,"ferrous iron transporter, protein A",CP009273.3533735.AceE_M4_iso,AceE_M4_iso
 CP009273,3544231,8814.99,251,1.0,"Substitution(type_='SNV', value='A')",251,T,snp,1,missense_variant,malP,maltodextrin phosphorylase,CP009273.3544231.AceE_M4_iso,AceE_M4_iso
+CP009273,3577325,0.0,37,0.08108108108108109,"Substitution(type_='SNV', value='G')",3,A,snp,1,missense_variant,insB1,IS1 transposase B,CP009273.3577325.AceE_M4_iso,AceE_M4_iso
+CP009273,3594289,0.0,220,0.06818181818181818,"Substitution(type_='SNV', value='A')",15,C,snp,1,,,,CP009273.3594289.AceE_M4_iso,AceE_M4_iso
 CP009273,3598111,8437.69,238,1.0,"Substitution(type_='SNV', value='A')",238,C,snp,1,missense_variant,rsmD,"16S rRNA m(2)G966 methyltransferase, SAM-dependent",CP009273.3598111.AceE_M4_iso,AceE_M4_iso
 CP009273,3598933,7177.22,206,1.0,"Substitution(type_='SNV', value='T')",206,C,snp,1,missense_variant,yhhM,DUF2500 family protein,CP009273.3598933.AceE_M4_iso,AceE_M4_iso
 CP009273,3601280,9093.82,256,1.0,"Substitution(type_='SNV', value='A')",256,C,snp,1,synonymous_variant,zntA,"zinc, cobalt and lead efflux system",CP009273.3601280.AceE_M4_iso,AceE_M4_iso
@@ -237,11 +349,17 @@ CP009273,3622757,8116.6,231,0.9956709956709957,"Substitution(type_='SNV', value=
 CP009273,3625169,8645.39,247,1.0,"Substitution(type_='SNV', value='G')",247,A,snp,1,missense_variant,yhiJ,DUF4049 family protein,CP009273.3625169.AceE_M4_iso,AceE_M4_iso
 CP009273,3626122,7600.24,216,1.0,"Substitution(type_='SNV', value='T')",216,G,snp,1,,,,CP009273.3626122.AceE_M4_iso,AceE_M4_iso
 CP009273,3626956,6996.81,201,0.9950248756218906,"Substitution(type_='SNV', value='T')",200,A,snp,1,stop_gained,yhiL,,CP009273.3626956.AceE_M4_iso,AceE_M4_iso
+CP009273,3635894,2.38676e-14,197,0.06598984771573604,"Substitution(type_='SNV', value='A')",13,G,snp,1,missense_variant,rsmJ,"16S rRNA m(2)G1516 methyltransferase, SAM-dependent",CP009273.3635894.AceE_M4_iso,AceE_M4_iso
+CP009273,3637198,0.0,132,0.06060606060606061,"Substitution(type_='SNV', value='G')",8,T,snp,1,missense_variant,prlC,oligopeptidase A,CP009273.3637198.AceE_M4_iso,AceE_M4_iso
+CP009273,3646443,1.02462e-14,45,0.06666666666666667,"Substitution(type_='SNV', value='T')",3,C,snp,1,missense_variant,insH1,IS5 transposase and trans-activator,CP009273.3646443.AceE_M4_iso,AceE_M4_iso
 CP009273,3647307,7077.13,201,1.0,"Substitution(type_='SNV', value='G')",201,A,snp,1,,,,CP009273.3647307.AceE_M4_iso,AceE_M4_iso
+CP009273,3653036,0.0,127,0.05511811023622047,"Substitution(type_='SNV', value='A')",7,G,snp,1,missense_variant,mdtE,"anaerobic multidrug efflux transporter, ArcA-regulated",CP009273.3653036.AceE_M4_iso,AceE_M4_iso
 CP009273,3661522,7648.62,215,1.0,"Substitution(type_='SNV', value='C')",215,A,snp,1,missense_variant,yhjA,putative cytochrome C peroxidase,CP009273.3661522.AceE_M4_iso,AceE_M4_iso
 CP009273,3709030,8460.52,242,1.0,"Substitution(type_='SNV', value='A')",242,T,snp,1,missense_variant,bisC,biotin sulfoxide reductase,CP009273.3709030.AceE_M4_iso,AceE_M4_iso
 CP009273,3738180,8102.63,229,1.0,"Substitution(type_='SNV', value='C')",229,T,snp,1,missense_variant,yiaN,"2,3-diketo-L-gulonate TRAP transporter large permease protein",CP009273.3738180.AceE_M4_iso,AceE_M4_iso
 CP009273,3738993,8945.16,258,1.0,"Substitution(type_='SNV', value='G')",258,T,snp,1,missense_variant,yiaN,"2,3-diketo-L-gulonate TRAP transporter large permease protein",CP009273.3738993.AceE_M4_iso,AceE_M4_iso
+CP009273,3752125,0.0,213,0.051643192488262914,"Substitution(type_='SNV', value='A')",11,G,snp,1,missense_variant,selB,selenocysteinyl-tRNA-specific translation factor,CP009273.3752125.AceE_M4_iso,AceE_M4_iso
+CP009273,3774510,0.0,131,0.0916030534351145,"Substitution(type_='SNV', value='G')",12,T,snp,1,,,,CP009273.3774510.AceE_M4_iso,AceE_M4_iso
 CP009273,3790557,6110.47,176,0.9943181818181818,"Substitution(type_='SNV', value='T')",175,C,snp,1,missense_variant,waaL,O-antigen ligase,CP009273.3790557.AceE_M4_iso,AceE_M4_iso
 CP009273,3792548,6957.34,198,1.0,"Substitution(type_='SNV', value='A')",198,G,snp,1,missense_variant,waaU,lipopolysaccharide core biosynthesis,CP009273.3792548.AceE_M4_iso,AceE_M4_iso
 CP009273,3809291,8649.64,246,1.0,"Substitution(type_='SNV', value='A')",246,C,snp,1,stop_gained,rph,,CP009273.3809291.AceE_M4_iso,AceE_M4_iso
@@ -255,6 +373,10 @@ CP009273,3894950,8587.97,249,0.9919678714859438,"Substitution(type_='SNV', value
 CP009273,3902074,7920.67,224,1.0,"Substitution(type_='SNV', value='A')",224,C,snp,1,missense_variant,pstA,phosphate transporter subunit,CP009273.3902074.AceE_M4_iso,AceE_M4_iso
 CP009273,3907230,7749.59,220,1.0,"Substitution(type_='SNV', value='A')",220,G,snp,1,missense_variant,glmU,fused N-acetyl glucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyl transferase,CP009273.3907230.AceE_M4_iso,AceE_M4_iso
 CP009273,3931770,7569.57,223,0.9865470852017937,"Substitution(type_='SNV', value='C')",220,A,snp,1,missense_variant,rbsR,transcriptional repressor of ribose metabolism,CP009273.3931770.AceE_M4_iso,AceE_M4_iso
+CP009273,3937380,0.0,82,0.07317073170731707,"Substitution(type_='SNV', value='A')",6,G,snp,1,non_coding_transcript_variant,rrlC,rrlC,CP009273.3937380.AceE_M4_iso,AceE_M4_iso
+CP009273,3940130,0.0,86,0.05813953488372093,"Substitution(type_='SNV', value='T')",5,C,snp,1,non_coding_transcript_variant,rrfC,rrfC,CP009273.3940130.AceE_M4_iso,AceE_M4_iso
+CP009273,3958909,4231.33,151,0.8874172185430463,"Substitution(type_='INDEL', value='CTTTTTTTTTCAA')",134,CTTTTTTTTCAA,ins,1,frameshift_variant,rhlB,ATP-dependent RNA helicase,CP009273.3958909.AceE_M4_iso,AceE_M4_iso
+CP009273,3958909,4231.33,151,0.052980132450331126,"Substitution(type_='INDEL', value='CTTTTTTTTTTCAA')",8,CTTTTTTTTCAA,ins,2,frameshift_variant,rhlB,ATP-dependent RNA helicase,CP009273.3958909.AceE_M4_iso,AceE_M4_iso
 CP009273,3971684,9256.17,272,0.9926470588235294,"Substitution(type_='SNV', value='T')",270,G,snp,1,missense_variant,wecF,TDP-Fuc4NAc:lipidIIFuc4NAc transferase,CP009273.3971684.AceE_M4_iso,AceE_M4_iso
 CP009273,3972638,8321.07,237,1.0,"Substitution(type_='SNV', value='A')",237,G,snp,1,synonymous_variant,wzyE,putative ECA polysaccharide chain elongation protein,CP009273.3972638.AceE_M4_iso,AceE_M4_iso
 CP009273,3972857,8991.28,255,1.0,"Substitution(type_='SNV', value='T')",255,C,snp,1,synonymous_variant,wzyE,putative ECA polysaccharide chain elongation protein,CP009273.3972857.AceE_M4_iso,AceE_M4_iso
@@ -263,19 +385,32 @@ CP009273,3996397,7311.95,209,0.9904306220095693,"Substitution(type_='SNV', value
 CP009273,3998521,8358.87,240,0.9958333333333333,"Substitution(type_='SNV', value='A')",239,G,snp,1,synonymous_variant,pldA,outer membrane phospholipase A,CP009273.3998521.AceE_M4_iso,AceE_M4_iso
 CP009273,4016785,7471.14,217,0.9953917050691244,"Substitution(type_='SNV', value='A')",216,C,snp,1,synonymous_variant,tatC,TatABCE protein translocation system subunit,CP009273.4016785.AceE_M4_iso,AceE_M4_iso
 CP009273,4026802,7655.95,217,1.0,"Substitution(type_='SNV', value='T')",217,G,snp,1,missense_variant,trkH,potassium transporter,CP009273.4026802.AceE_M4_iso,AceE_M4_iso
+CP009273,4033939,9.79442e-15,78,0.05128205128205128,"Substitution(type_='SNV', value='T')",4,C,snp,1,non_coding_transcript_variant,rrfA,rrfA,CP009273.4033939.AceE_M4_iso,AceE_M4_iso
 CP009273,4061628,9839.05,280,1.0,"Substitution(type_='SNV', value='C')",280,A,snp,1,missense_variant,yihQ,alpha-glucosidase,CP009273.4061628.AceE_M4_iso,AceE_M4_iso
+CP009273,4063836,1.06081e-14,140,0.07142857142857142,"Substitution(type_='SNV', value='G')",10,T,snp,1,,,,CP009273.4063836.AceE_M4_iso,AceE_M4_iso
 CP009273,4076204,7753.8,223,1.0,"Substitution(type_='SNV', value='T')",223,C,snp,1,synonymous_variant,fdoG,"formate dehydrogenase-O, large subunit",CP009273.4076204.AceE_M4_iso,AceE_M4_iso
+CP009273,4081469,0.0,115,0.06086956521739131,"Substitution(type_='SNV', value='C')",7,A,snp,1,stop_lost&splice_region_variant,frvR,putative frv operon regulator; contains a PTS EIIA domain,CP009273.4081469.AceE_M4_iso,AceE_M4_iso
 CP009273,4086696,9172.45,263,0.9961977186311787,"Substitution(type_='SNV', value='G')",262,A,snp,1,missense_variant,rhaM,L-rhamnose mutarotase,CP009273.4086696.AceE_M4_iso,AceE_M4_iso
 CP009273,4120213,8797.72,253,1.0,"Substitution(type_='SNV', value='T')",253,C,snp,1,missense_variant,metL,Bifunctional aspartokinase/homoserine dehydrogenase 2,CP009273.4120213.AceE_M4_iso,AceE_M4_iso
 CP009273,4124473,9229.29,263,1.0,"Substitution(type_='SNV', value='G')",263,A,snp,1,synonymous_variant,katG,"catalase-peroxidase HPI, heme b-containing",CP009273.4124473.AceE_M4_iso,AceE_M4_iso
 CP009273,4146016,9192.55,264,0.9924242424242424,"Substitution(type_='SNV', value='A')",262,G,snp,1,missense_variant,argB,acetylglutamate kinase,CP009273.4146016.AceE_M4_iso,AceE_M4_iso
+CP009273,4166234,1.69061e-14,56,0.05357142857142857,"Substitution(type_='SNV', value='A')",3,G,snp,1,synonymous_variant,tufB,translation elongation factor EF-Tu 2,CP009273.4166234.AceE_M4_iso,AceE_M4_iso
 CP009273,4180610,6042.29,181,1.0,"Substitution(type_='INDEL', value='GTTTTCA')",181,GTTTTTCA,del,1,,,,CP009273.4180610.AceE_M4_iso,AceE_M4_iso
 CP009273,4181951,9265.68,261,1.0,"Substitution(type_='SNV', value='A')",261,T,snp,1,missense_variant,thiG,thiamine biosynthesis ThiGH complex subunit,CP009273.4181951.AceE_M4_iso,AceE_M4_iso
 CP009273,4194483,8006.39,229,1.0,"Substitution(type_='SNV', value='T')",229,G,snp,1,synonymous_variant,zraR,fused DNA-binding response regulator in two-component regulatory system with ZraS: response regulator/sigma54 interaction protein,CP009273.4194483.AceE_M4_iso,AceE_M4_iso
+CP009273,4198168,3.0103,6,0.5,"Substitution(type_='SNV', value='A')",3,G,snp,1,non_coding_transcript_variant,rrsE,rrsE,CP009273.4198168.AceE_M4_iso,AceE_M4_iso
 CP009273,4209364,7788.14,228,1.0,"Substitution(type_='SNV', value='T')",228,G,snp,1,missense_variant,aceK,isocitrate dehydrogenase kinase/phosphatase,CP009273.4209364.AceE_M4_iso,AceE_M4_iso
+CP009273,4209935,0.0,136,0.07352941176470588,"Substitution(type_='SNV', value='G')",10,T,snp,1,missense_variant,aceK,isocitrate dehydrogenase kinase/phosphatase,CP009273.4209935.AceE_M4_iso,AceE_M4_iso
+CP009273,4212152,0.0,144,0.05555555555555555,"Substitution(type_='SNV', value='C')",8,A,snp,1,missense_variant,arpA,ankyrin repeat protein,CP009273.4212152.AceE_M4_iso,AceE_M4_iso
+CP009273,4212176,0.0,169,0.05325443786982249,"Substitution(type_='SNV', value='C')",9,A,snp,1,missense_variant,arpA,ankyrin repeat protein,CP009273.4212176.AceE_M4_iso,AceE_M4_iso
+CP009273,4217840,0.0,160,0.1,"Substitution(type_='SNV', value='A')",16,G,snp,1,missense_variant,yjbB,putative Na+/Pi-cotransporter,CP009273.4217840.AceE_M4_iso,AceE_M4_iso
+CP009273,4241622,0.0,193,0.07253886010362694,"Substitution(type_='SNV', value='T')",14,A,snp,1,missense_variant,yjbI,,CP009273.4241622.AceE_M4_iso,AceE_M4_iso
 CP009273,4245633,9226.31,262,1.0,"Substitution(type_='SNV', value='A')",262,C,snp,1,missense_variant,plsB,glycerol-3-phosphate O-acyltransferase,CP009273.4245633.AceE_M4_iso,AceE_M4_iso
+CP009273,4261675,2.06127e-14,151,0.09271523178807947,"Substitution(type_='SNV', value='G')",14,T,snp,1,missense_variant,uvrA,ATPase and DNA damage recognition protein of nucleotide excision repair excinuclease UvrABC,CP009273.4261675.AceE_M4_iso,AceE_M4_iso
 CP009273,4274926,9440.21,268,1.0,"Substitution(type_='SNV', value='C')",268,A,snp,1,missense_variant,yjcH,DUF485 family inner membrane protein,CP009273.4274926.AceE_M4_iso,AceE_M4_iso
 CP009273,4277352,7267.75,225,0.9555555555555556,"Substitution(type_='INDEL', value='TAAG')",215,TAG,ins,1,,,,CP009273.4277352.AceE_M4_iso,AceE_M4_iso
+CP009273,4327947,0.0,169,0.05325443786982249,"Substitution(type_='SNV', value='C')",9,G,snp,1,,,,CP009273.4327947.AceE_M4_iso,AceE_M4_iso
+CP009273,4333081,0.0,185,0.07027027027027027,"Substitution(type_='SNV', value='G')",13,T,snp,1,stop_lost&splice_region_variant,melA,"alpha-galactosidase, NAD(P)-binding",CP009273.4333081.AceE_M4_iso,AceE_M4_iso
 CP009273,4339935,8262.91,238,1.0,"Substitution(type_='SNV', value='A')",238,G,snp,1,synonymous_variant,dcuS,"sensory histidine kinase in two-component regulatory system with DcuR, regulator of anaerobic fumarate respiration",CP009273.4339935.AceE_M4_iso,AceE_M4_iso
 CP009273,4353352,8014.18,227,1.0,"Substitution(type_='SNV', value='A')",227,G,snp,1,missense_variant,dsbD,fused thiol:disulfide interchange protein: activator of DsbC/conserved protein,CP009273.4353352.AceE_M4_iso,AceE_M4_iso
 CP009273,4363074,7812.56,223,1.0,"Substitution(type_='SNV', value='G')",223,A,snp,1,,,,CP009273.4363074.AceE_M4_iso,AceE_M4_iso
@@ -289,16 +424,12 @@ CP009273,4432043,7499.6,215,1.0,"Substitution(type_='SNV', value='A')",215,G,snp
 CP009273,4442381,10002.0,286,1.0,"Substitution(type_='SNV', value='A')",286,G,snp,1,,,,CP009273.4442381.AceE_M4_iso,AceE_M4_iso
 CP009273,4465054,6884.58,194,1.0,"Substitution(type_='SNV', value='A')",194,G,snp,1,missense_variant,tabA,"biofilm modulator regulated by toxins; DUF386 family protein, cupin superfamily",CP009273.4465054.AceE_M4_iso,AceE_M4_iso
 CP009273,4466069,8577.58,243,1.0,"Substitution(type_='SNV', value='A')",243,G,snp,1,synonymous_variant,yjgL,uncharacterized protein,CP009273.4466069.AceE_M4_iso,AceE_M4_iso
+CP009273,4488204,2.37468e-14,58,0.05172413793103448,"Substitution(type_='SNV', value='G')",3,A,snp,1,missense_variant,insC1,IS2 repressor TnpA,CP009273.4488204.AceE_M4_iso,AceE_M4_iso
+CP009273,4488242,4.88238e-15,33,0.24242424242424243,"Substitution(type_='SNV', value='T')",8,C,snp,1,stop_gained,insC1,IS2 repressor TnpA,CP009273.4488242.AceE_M4_iso,AceE_M4_iso
 CP009273,4502966,8349.2,238,1.0,"Substitution(type_='SNV', value='T')",238,G,snp,1,missense_variant,fecC,iron-dicitrate transporter subunit,CP009273.4502966.AceE_M4_iso,AceE_M4_iso
 CP009273,4532543,7297.24,206,1.0,"Substitution(type_='SNV', value='T')",206,C,snp,1,,,,CP009273.4532543.AceE_M4_iso,AceE_M4_iso
 CP009273,4538883,8557.67,246,0.9959349593495935,"Substitution(type_='SNV', value='T')",245,G,snp,1,missense_variant,fimH,minor component of type 1 fimbriae,CP009273.4538883.AceE_M4_iso,AceE_M4_iso
 CP009273,4559788,8907.8,258,1.0,"Substitution(type_='SNV', value='T')",258,C,snp,1,,,,CP009273.4559788.AceE_M4_iso,AceE_M4_iso
 CP009273,4579955,9584.67,275,0.9927272727272727,"Substitution(type_='SNV', value='C')",273,A,snp,1,missense_variant,yjiY,putative transporter,CP009273.4579955.AceE_M4_iso,AceE_M4_iso
 CP009273,4596332,7189.11,203,1.0,"Substitution(type_='SNV', value='A')",203,C,snp,1,,,,CP009273.4596332.AceE_M4_iso,AceE_M4_iso
-CP009273,904878,7494.39,214,0.9953271028037384,"Substitution(type_='SNV', value='A')",213,G,snp,1,missense_variant,poxB,"pyruvate dehydrogenase (pyruvate oxidase), thiamine triphosphate-binding, FAD-binding",CP009273.904878.AceE_M2_iso,AceE_M2_iso
-CP009273,1622605,7849.48,224,1.0,"Substitution(type_='SNV', value='G')",224,A,snp,1,,,,CP009273.1622605.AceE_M2_iso,AceE_M2_iso
-CP009273,1664690,6102.66,176,1.0,"Substitution(type_='SNV', value='C')",176,A,snp,1,synonymous_variant,ynfM,putative arabinose efflux transporter,CP009273.1664690.AceE_M2_iso,AceE_M2_iso
-CP009273,2235029,5943.62,168,1.0,"Substitution(type_='SNV', value='C')",168,A,snp,1,missense_variant,galS,galactose- and fucose-inducible galactose regulon transcriptional isorepressor; mgl operon transcriptional repressor; autorepressor,CP009273.2235029.AceE_M2_iso,AceE_M2_iso
-CP009273,2719426,5253.59,150,1.0,"Substitution(type_='SNV', value='C')",150,T,snp,1,,,,CP009273.2719426.AceE_M2_iso,AceE_M2_iso
-CP009273,3528650,6552.52,186,1.0,"Substitution(type_='SNV', value='A')",186,G,snp,1,missense_variant,envZ,sensory histidine kinase in two-component regulatory system with OmpR,CP009273.3528650.AceE_M2_iso,AceE_M2_iso
-CP009273,3574489,6674.87,189,1.0,"Substitution(type_='SNV', value='T')",189,G,snp,1,,,,CP009273.3574489.AceE_M2_iso,AceE_M2_iso
+CP009273,4608676,2.92919e-14,139,0.050359712230215826,"Substitution(type_='SNV', value='C')",7,A,snp,1,missense_variant,deoA,thymidine phosphorylase,CP009273.4608676.AceE_M4_iso,AceE_M4_iso

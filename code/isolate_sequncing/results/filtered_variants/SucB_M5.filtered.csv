@@ -1,3 +1,0 @@
-chrom,pos,qual,depth,freq,alt,alt_count,ref,type,len,eff,gene,product,linegroup,sample
-CP009273,447145,77615.0,2193,0.9995440036479708,"Substitution(type_='SNV', value='A')",2192,C,snp,1,,,,CP009273.447145.SucB_M5,SucB_M5
-CP009273,2719426,64387.4,1828,0.9989059080962801,"Substitution(type_='SNV', value='C')",1826,T,snp,1,,,,CP009273.2719426.SucB_M5,SucB_M5

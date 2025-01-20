@@ -1,3 +1,0 @@
-chrom,pos,qual,depth,freq,alt,alt_count,ref,type,len,eff,gene,product,linegroup,sample
-CP009273,1664690,73818.5,2092,0.9995219885277247,"Substitution(type_='SNV', value='C')",2091,A,snp,1,synonymous_variant,ynfM,putative arabinose efflux transporter,CP009273.1664690.AceE_M4_D44,AceE_M4_D44
-CP009273,2719426,62102.7,1762,0.9971623155505108,"Substitution(type_='SNV', value='C')",1757,T,snp,1,,,,CP009273.2719426.AceE_M4_D44,AceE_M4_D44

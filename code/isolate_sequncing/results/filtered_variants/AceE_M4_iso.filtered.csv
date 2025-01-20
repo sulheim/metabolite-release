@@ -1,30 +1,4 @@
 chrom,pos,qual,depth,freq,alt,alt_count,ref,type,len,eff,gene,product,linegroup,sample
-CP009273,447145,6736.76,193,1.0,"Substitution(type_='SNV', value='A')",193,C,snp,1,,,,CP009273.447145.SucB_M7_iso,SucB_M7_iso
-CP009273,752345,6971.83,198,1.0,"Substitution(type_='SNV', value='T')",198,C,snp,1,missense_variant,sdhA,"succinate dehydrogenase, flavoprotein subunit",CP009273.752345.SucB_M7_iso,SucB_M7_iso
-CP009273,2234612,3502.85,112,1.0,"Substitution(type_='INDEL', value='AG')",112,ATACGTTGATG,del,9,disruptive_inframe_deletion,galS,galactose- and fucose-inducible galactose regulon transcriptional isorepressor; mgl operon transcriptional repressor; autorepressor,CP009273.2234612.SucB_M7_iso,SucB_M7_iso
-CP009273,2719426,5151.6,147,1.0,"Substitution(type_='SNV', value='C')",147,T,snp,1,,,,CP009273.2719426.SucB_M7_iso,SucB_M7_iso
-CP009273,3782776,8405.95,238,1.0,"Substitution(type_='SNV', value='A')",238,C,snp,1,synonymous_variant,waaH,LPS(HepIII)-glucuronic acid glycosyltransferase,CP009273.3782776.SucB_M7_iso,SucB_M7_iso
-CP009273,4209467,7904.26,224,1.0,"Substitution(type_='SNV', value='A')",224,C,snp,1,missense_variant,aceK,isocitrate dehydrogenase kinase/phosphatase,CP009273.4209467.SucB_M7_iso,SucB_M7_iso
-CP009273,1622605,23868.7,682,0.9970674486803519,"Substitution(type_='SNV', value='G')",680,A,snp,1,,,,CP009273.1622605.AceE_anc,AceE_anc
-CP009273,1664690,19680.1,559,1.0,"Substitution(type_='SNV', value='C')",559,A,snp,1,synonymous_variant,ynfM,putative arabinose efflux transporter,CP009273.1664690.AceE_anc,AceE_anc
-CP009273,2719426,17503.0,498,1.0,"Substitution(type_='SNV', value='C')",498,T,snp,1,,,,CP009273.2719426.AceE_anc,AceE_anc
-CP009273,696432,7277.51,209,1.0,"Substitution(type_='SNV', value='A')",209,C,snp,1,missense_variant,nagC,N-acetylglucosamine-inducible nag divergent operon transcriptional repressor,CP009273.696432.AceE_M3_iso,AceE_M3_iso
-CP009273,1622605,7981.89,226,1.0,"Substitution(type_='SNV', value='G')",226,A,snp,1,,,,CP009273.1622605.AceE_M3_iso,AceE_M3_iso
-CP009273,1664690,6762.89,192,1.0,"Substitution(type_='SNV', value='C')",192,A,snp,1,synonymous_variant,ynfM,putative arabinose efflux transporter,CP009273.1664690.AceE_M3_iso,AceE_M3_iso
-CP009273,2719426,6251.79,182,1.0,"Substitution(type_='SNV', value='C')",182,T,snp,1,,,,CP009273.2719426.AceE_M3_iso,AceE_M3_iso
-CP009273,3652871,8123.5,230,1.0,"Substitution(type_='SNV', value='A')",230,C,snp,1,missense_variant,mdtE,"anaerobic multidrug efflux transporter, ArcA-regulated",CP009273.3652871.AceE_M3_iso,AceE_M3_iso
-CP009273,447145,6935.76,198,1.0,"Substitution(type_='SNV', value='A')",198,C,snp,1,,,,CP009273.447145.SucB_anc,SucB_anc
-CP009273,2719426,5898.51,171,0.9941520467836257,"Substitution(type_='SNV', value='C')",170,T,snp,1,,,,CP009273.2719426.SucB_anc,SucB_anc
-CP009273,447145,5191.86,147,1.0,"Substitution(type_='SNV', value='A')",147,C,snp,1,,,,CP009273.447145.SucB_M6_iso,SucB_M6_iso
-CP009273,2719426,5215.55,151,1.0,"Substitution(type_='SNV', value='C')",151,T,snp,1,,,,CP009273.2719426.SucB_M6_iso,SucB_M6_iso
-CP009273,3081560,6450.74,186,1.0,"Substitution(type_='SNV', value='A')",186,C,snp,1,,,,CP009273.3081560.SucB_M6_iso,SucB_M6_iso
-CP009273,3782776,6329.78,179,1.0,"Substitution(type_='SNV', value='A')",179,C,snp,1,synonymous_variant,waaH,LPS(HepIII)-glucuronic acid glycosyltransferase,CP009273.3782776.SucB_M6_iso,SucB_M6_iso
-CP009273,4209467,7773.93,220,1.0,"Substitution(type_='SNV', value='A')",220,C,snp,1,missense_variant,aceK,isocitrate dehydrogenase kinase/phosphatase,CP009273.4209467.SucB_M6_iso,SucB_M6_iso
-CP009273,4538904,7974.41,235,0.9957446808510638,"Substitution(type_='SNV', value='T')",234,G,snp,1,missense_variant,fimH,minor component of type 1 fimbriae,CP009273.4538904.SucB_M6_iso,SucB_M6_iso
-CP009273,447145,17623.4,500,1.0,"Substitution(type_='SNV', value='A')",500,C,snp,1,,,,CP009273.447145.SucB_M5_iso,SucB_M5_iso
-CP009273,1191242,11185.7,350,0.9771428571428571,"Substitution(type_='INDEL', value='CGTGACTCTG')",342,CGTGACTCTGTGACTCTG,del,8,frameshift_variant,icd,"e14 prophage; isocitrate dehydrogenase, specific for NADP+",CP009273.1191242.SucB_M5_iso,SucB_M5_iso
-CP009273,2719426,13575.4,386,1.0,"Substitution(type_='SNV', value='C')",386,T,snp,1,,,,CP009273.2719426.SucB_M5_iso,SucB_M5_iso
-CP009273,4538904,15851.3,469,0.9850746268656716,"Substitution(type_='SNV', value='A')",462,G,snp,1,missense_variant,fimH,minor component of type 1 fimbriae,CP009273.4538904.SucB_M5_iso,SucB_M5_iso
 CP009273,1455,8978.39,255,1.0,"Substitution(type_='SNV', value='T')",255,A,snp,1,synonymous_variant,thrA,Bifunctional aspartokinase/homoserine dehydrogenase 1,CP009273.1455.AceE_M4_iso,AceE_M4_iso
 CP009273,2297,9799.87,278,1.0,"Substitution(type_='SNV', value='T')",278,C,snp,1,missense_variant,thrA,Bifunctional aspartokinase/homoserine dehydrogenase 1,CP009273.2297.AceE_M4_iso,AceE_M4_iso
 CP009273,9100,9030.24,255,1.0,"Substitution(type_='SNV', value='C')",255,A,snp,1,missense_variant,talB,transaldolase B,CP009273.9100.AceE_M4_iso,AceE_M4_iso
@@ -295,10 +269,3 @@ CP009273,4538883,8557.67,246,0.9959349593495935,"Substitution(type_='SNV', value
 CP009273,4559788,8907.8,258,1.0,"Substitution(type_='SNV', value='T')",258,C,snp,1,,,,CP009273.4559788.AceE_M4_iso,AceE_M4_iso
 CP009273,4579955,9584.67,275,0.9927272727272727,"Substitution(type_='SNV', value='C')",273,A,snp,1,missense_variant,yjiY,putative transporter,CP009273.4579955.AceE_M4_iso,AceE_M4_iso
 CP009273,4596332,7189.11,203,1.0,"Substitution(type_='SNV', value='A')",203,C,snp,1,,,,CP009273.4596332.AceE_M4_iso,AceE_M4_iso
-CP009273,904878,7494.39,214,0.9953271028037384,"Substitution(type_='SNV', value='A')",213,G,snp,1,missense_variant,poxB,"pyruvate dehydrogenase (pyruvate oxidase), thiamine triphosphate-binding, FAD-binding",CP009273.904878.AceE_M2_iso,AceE_M2_iso
-CP009273,1622605,7849.48,224,1.0,"Substitution(type_='SNV', value='G')",224,A,snp,1,,,,CP009273.1622605.AceE_M2_iso,AceE_M2_iso
-CP009273,1664690,6102.66,176,1.0,"Substitution(type_='SNV', value='C')",176,A,snp,1,synonymous_variant,ynfM,putative arabinose efflux transporter,CP009273.1664690.AceE_M2_iso,AceE_M2_iso
-CP009273,2235029,5943.62,168,1.0,"Substitution(type_='SNV', value='C')",168,A,snp,1,missense_variant,galS,galactose- and fucose-inducible galactose regulon transcriptional isorepressor; mgl operon transcriptional repressor; autorepressor,CP009273.2235029.AceE_M2_iso,AceE_M2_iso
-CP009273,2719426,5253.59,150,1.0,"Substitution(type_='SNV', value='C')",150,T,snp,1,,,,CP009273.2719426.AceE_M2_iso,AceE_M2_iso
-CP009273,3528650,6552.52,186,1.0,"Substitution(type_='SNV', value='A')",186,G,snp,1,missense_variant,envZ,sensory histidine kinase in two-component regulatory system with OmpR,CP009273.3528650.AceE_M2_iso,AceE_M2_iso
-CP009273,3574489,6674.87,189,1.0,"Substitution(type_='SNV', value='T')",189,G,snp,1,,,,CP009273.3574489.AceE_M2_iso,AceE_M2_iso

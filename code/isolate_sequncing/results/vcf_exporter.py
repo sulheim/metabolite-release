@@ -31,11 +31,9 @@ def parse_gff():
 
 gene_dict = parse_gff()
 dfs = []
-for d in listdir(
-    "/work/FAC/FBM/DMF/smitri/evomicrocomm/seq_snorre/data/meta_sequencing"
-):
+for d in listdir("/work/FAC/FBM/DMF/smitri/default/leakage/data/isolate_sequencing"):
     f = join(
-        "/work/FAC/FBM/DMF/smitri/evomicrocomm/seq_snorre/data/meta_sequencing",
+        "/work/FAC/FBM/DMF/smitri/default/leakage/data/isolate_sequencing",
         d,
         "var.annotated.vcf",
     )
