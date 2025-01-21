@@ -105,7 +105,7 @@ for i in out.index:
 
 for sample in set(out["sample"]):
     df = out[out["sample"] == sample]
-    filter = (df["freq"] >= 0.95) & (df["qual"] >= 30) & (df["alt_count"] >= 30)
+    filter = (df["freq"] >= 0.95) & (df["depth"] >= 100)
     df = df[filter]
     df.to_csv(join("filtered_variants", sample + ".filtered.csv"), index=False)
 
@@ -114,7 +114,7 @@ for sample in set(out["sample"]):
     df.to_csv(join("all_variants", sample + ".csv"), index=False)
 
 
-filter = (out["freq"] >= 0.95) & (out["qual"] >= 30) & (out["alt_count"] >= 30)
+filter = (out["freq"] >= 0.95) & (out["depth"] >= 100)
 out[filter].to_csv(join("filtered_variants", "all_samples.filtered.csv"), index=False)
 
 out.to_csv(join("all_variants", "all_samples.csv"), index=False)
