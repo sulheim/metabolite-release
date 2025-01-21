@@ -107,18 +107,13 @@ for i in out.index:
 
 for sample in set(out["sample"]):
     df = out[out["sample"] == sample]
-    filter = (
-        (df["freq"] >= 0.05)
-        & (df["qual"] >= 30)
-        & (df["alt_count"] >= 5)
-        & (df["depth"] >= 30)
-    )
+    filter = (df["freq"] >= 0.05) & (df["depth"] >= 100)
     df = df[filter]
     df.to_csv(join("all_filtered_variants", sample + ".filtered.csv"), index=False)
 
 for sample in set(out["sample"]):
     df = out[out["sample"] == sample]
-    filter = (df["freq"] >= 0.9) & (df["qual"] >= 30) & (df["depth"] >= 30)
+    filter = (df["freq"] >= 0.9) & (df["depth"] >= 100)
     df = df[filter]
     df.to_csv(join("fixed_filtered_variants", sample + ".filtered.csv"), index=False)
 
@@ -126,17 +121,12 @@ for sample in set(out["sample"]):
     df = out[out["sample"] == sample]
     df.to_csv(join("all_variants", sample + ".csv"), index=False)
 
-filter = (
-    (out["freq"] >= 0.05)
-    & (out["qual"] >= 30)
-    & (out["alt_count"] >= 5)
-    & (out["depth"] >= 30)
-)
+filter = (out["freq"] >= 0.05) & (out["depth"] >= 100)
 out[filter].to_csv(
     join("all_filtered_variants", "all_samples.filtered.csv"), index=False
 )
 
-filter = (out["freq"] >= 0.9) & (out["qual"] >= 30) & (out["depth"] >= 30)
+filter = (out["freq"] >= 0.9) & (out["depth"] >= 100)
 out[filter].to_csv(
     join("fixed_filtered_variants", "all_samples.filtered.csv"), index=False
 )
