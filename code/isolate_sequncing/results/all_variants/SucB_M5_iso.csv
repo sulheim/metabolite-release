@@ -1,0 +1,135 @@
+chrom,pos,qual,depth,freq,alt,alt_count,ref,type,len,eff,gene,product,linegroup,sample
+CP009273,20005,1.68157e-14,54,0.07407407407407407,"Substitution(type_='SNV', value='A')",4,G,snp,1,missense_variant,insB1,IS1 transposase B,CP009273.20005.SucB_M5_iso,SucB_M5_iso
+CP009273,72119,0.0,321,0.08099688473520249,"Substitution(type_='SNV', value='C')",26,A,snp,1,,,,CP009273.72119.SucB_M5_iso,SucB_M5_iso
+CP009273,72122,4.2069e-14,365,0.07671232876712329,"Substitution(type_='SNV', value='C')",28,A,snp,1,,,,CP009273.72122.SucB_M5_iso,SucB_M5_iso
+CP009273,213506,2.36267e-14,306,0.10457516339869281,"Substitution(type_='SNV', value='G')",32,T,snp,1,,,,CP009273.213506.SucB_M5_iso,SucB_M5_iso
+CP009273,267070,6.96124e-15,35,0.08571428571428572,"Substitution(type_='SNV', value='T')",3,C,snp,1,stop_gained,insI1,IS30 transposase,CP009273.267070.SucB_M5_iso,SucB_M5_iso
+CP009273,270579,0.0,18,0.16666666666666666,"Substitution(type_='SNV', value='A')",3,G,snp,1,synonymous_variant,insH1,IS5 transposase and trans-activator,CP009273.270579.SucB_M5_iso,SucB_M5_iso
+CP009273,270610,2.74537e-14,41,0.07317073170731707,"Substitution(type_='SNV', value='C')",3,T,snp,1,synonymous_variant,insH1,IS5 transposase and trans-activator,CP009273.270610.SucB_M5_iso,SucB_M5_iso
+CP009273,270624,0.0,44,0.06818181818181818,"Substitution(type_='SNV', value='A')",3,G,snp,1,synonymous_variant,insH1,IS5 transposase and trans-activator,CP009273.270624.SucB_M5_iso,SucB_M5_iso
+CP009273,311986,1.1934e-14,78,0.05128205128205128,"Substitution(type_='SNV', value='C')",4,T,snp,1,missense_variant,insF1,IS3 transposase B,CP009273.311986.SucB_M5_iso,SucB_M5_iso
+CP009273,375468,2.32649e-14,318,0.07547169811320754,"Substitution(type_='INDEL', value='AGGGGGGGGGGGCTA')",24,AGGGGGGGGGGCTA,ins,1,,,,CP009273.375468.SucB_M5_iso,SucB_M5_iso
+CP009273,376973,0.0,25,0.12,"Substitution(type_='SNV', value='T')",3,G,snp,1,missense_variant,insC1,IS2 repressor TnpA,CP009273.376973.SucB_M5_iso,SucB_M5_iso
+CP009273,431071,1.12104e-13,376,0.09042553191489362,"Substitution(type_='SNV', value='C')",34,A,snp,1,,,,CP009273.431071.SucB_M5_iso,SucB_M5_iso
+CP009273,446551,0.0,299,0.07023411371237458,"Substitution(type_='SNV', value='C')",21,G,snp,1,missense_variant,cyoA,cytochrome o ubiquinol oxidase subunit II,CP009273.446551.SucB_M5_iso,SucB_M5_iso
+CP009273,446552,5.71366e-14,357,0.056022408963585436,"Substitution(type_='SNV', value='C')",20,T,snp,1,missense_variant,cyoA,cytochrome o ubiquinol oxidase subunit II,CP009273.446552.SucB_M5_iso,SucB_M5_iso
+CP009273,447145,17623.4,500,1.0,"Substitution(type_='SNV', value='A')",500,C,snp,1,,,,CP009273.447145.SucB_M5_iso,SucB_M5_iso
+CP009273,514130,0.0,298,0.050335570469798654,"Substitution(type_='SNV', value='G')",15,T,snp,1,missense_variant,ybbO,putative oxidoreductase,CP009273.514130.SucB_M5_iso,SucB_M5_iso
+CP009273,554208,1.75026e-13,339,0.26253687315634217,"Substitution(type_='SNV', value='C')",89,T,snp,1,stop_lost&splice_region_variant,sfmA,FimA homolog,CP009273.554208.SucB_M5_iso,SucB_M5_iso
+CP009273,586399,0.0,291,0.09965635738831616,"Substitution(type_='SNV', value='G')",29,A,snp,1,stop_lost&splice_region_variant,nfrB,"bacteriophage N4 receptor, inner membrane subunit",CP009273.586399.SucB_M5_iso,SucB_M5_iso
+CP009273,586402,0.0,273,0.0695970695970696,"Substitution(type_='SNV', value='T')",19,C,snp,1,missense_variant,nfrB,"bacteriophage N4 receptor, inner membrane subunit",CP009273.586402.SucB_M5_iso,SucB_M5_iso
+CP009273,604582,3.27874e-14,65,0.07692307692307693,"Substitution(type_='SNV', value='A')",5,G,snp,1,synonymous_variant,insL1,IS186 transposase,CP009273.604582.SucB_M5_iso,SucB_M5_iso
+CP009273,626523,4.35155e-14,345,0.0782608695652174,"Substitution(type_='SNV', value='T')",27,G,snp,1,missense_variant,cstA,carbon starvation protein involved in peptide utilization; APC peptide transporter family protein,CP009273.626523.SucB_M5_iso,SucB_M5_iso
+CP009273,651416,5.91858e-14,269,0.10780669144981413,"Substitution(type_='SNV', value='C')",29,T,snp,1,synonymous_variant,dcuC,anaerobic C4-dicarboxylate transport,CP009273.651416.SucB_M5_iso,SucB_M5_iso
+CP009273,651417,0.0,228,0.05701754385964912,"Substitution(type_='SNV', value='A')",13,G,snp,1,missense_variant,dcuC,anaerobic C4-dicarboxylate transport,CP009273.651417.SucB_M5_iso,SucB_M5_iso
+CP009273,656261,2.16373e-14,283,0.06007067137809187,"Substitution(type_='SNV', value='C')",17,T,snp,1,missense_variant,ybeF,LysR family putative transcriptional regulator,CP009273.656261.SucB_M5_iso,SucB_M5_iso
+CP009273,656263,3.72474e-14,310,0.06774193548387097,"Substitution(type_='SNV', value='C')",21,A,snp,1,stop_gained,ybeF,LysR family putative transcriptional regulator,CP009273.656263.SucB_M5_iso,SucB_M5_iso
+CP009273,688942,0.0,271,0.06273062730627306,"Substitution(type_='SNV', value='G')",17,T,snp,1,,,,CP009273.688942.SucB_M5_iso,SucB_M5_iso
+CP009273,701419,2.56755e-14,397,0.060453400503778336,"Substitution(type_='INDEL', value='CTTTTTTTTTTCATCA')",24,CTTTTTTTTTCATCA,ins,1,,,,CP009273.701419.SucB_M5_iso,SucB_M5_iso
+CP009273,820691,6.00296e-14,278,0.09352517985611511,"Substitution(type_='SNV', value='G')",26,T,snp,1,missense_variant,ybhR,inner membrane putative ABC superfamily transporter permease,CP009273.820691.SucB_M5_iso,SucB_M5_iso
+CP009273,835787,0.0,283,0.06713780918727916,"Substitution(type_='SNV', value='G')",19,T,snp,1,missense_variant,fiu,catecholate siderophore receptor Fiu,CP009273.835787.SucB_M5_iso,SucB_M5_iso
+CP009273,841012,0.0,344,0.06976744186046512,"Substitution(type_='SNV', value='C')",24,T,snp,1,,,,CP009273.841012.SucB_M5_iso,SucB_M5_iso
+CP009273,843405,0.0,256,0.09765625,"Substitution(type_='SNV', value='A')",25,G,snp,1,missense_variant,glnH,glutamine transporter subunit,CP009273.843405.SucB_M5_iso,SucB_M5_iso
+CP009273,843411,1.64659e-13,277,0.22382671480144403,"Substitution(type_='SNV', value='A')",62,G,snp,1,missense_variant,glnH,glutamine transporter subunit,CP009273.843411.SucB_M5_iso,SucB_M5_iso
+CP009273,910661,3.1642e-16,73,0.0547945205479452,"Substitution(type_='SNV', value='G')",4,C,snp,1,,,,CP009273.910661.SucB_M5_iso,SucB_M5_iso
+CP009273,910676,0.0,78,0.08974358974358974,"Substitution(type_='SNV', value='C')",7,G,snp,1,,,,CP009273.910676.SucB_M5_iso,SucB_M5_iso
+CP009273,910682,0.0,85,0.08235294117647059,"Substitution(type_='SNV', value='C')",7,T,snp,1,,,,CP009273.910682.SucB_M5_iso,SucB_M5_iso
+CP009273,910683,0.0,85,0.16470588235294117,"Substitution(type_='SNV', value='C')",14,G,snp,1,,,,CP009273.910683.SucB_M5_iso,SucB_M5_iso
+CP009273,936223,6.41278e-14,320,0.121875,"Substitution(type_='SNV', value='T')",39,G,snp,1,,,,CP009273.936223.SucB_M5_iso,SucB_M5_iso
+CP009273,1008794,2.14568e-14,348,0.07183908045977011,"Substitution(type_='SNV', value='T')",25,C,snp,1,missense_variant,pqiB,"paraquat-inducible, SoxRS-regulated MCE domain protein",CP009273.1008794.SucB_M5_iso,SucB_M5_iso
+CP009273,1008796,2.45908e-14,276,0.07246376811594203,"Substitution(type_='SNV', value='T')",20,C,snp,1,missense_variant,pqiB,"paraquat-inducible, SoxRS-regulated MCE domain protein",CP009273.1008796.SucB_M5_iso,SucB_M5_iso
+CP009273,1083033,0.0,242,0.1115702479338843,"Substitution(type_='SNV', value='C')",27,A,snp,1,synonymous_variant,pgaC,"biofilm PGA synthase PgaCD, catalytic subunit; poly-beta-1,6-N-acetyl-D-glucosamine synthase; c-di-GMP-stimulated activity and dimerization",CP009273.1083033.SucB_M5_iso,SucB_M5_iso
+CP009273,1092862,0.0,79,0.05063291139240506,"Substitution(type_='SNV', value='C')",4,T,snp,1,,,,CP009273.1092862.SucB_M5_iso,SucB_M5_iso
+CP009273,1105087,8.37807e-15,282,0.07446808510638298,"Substitution(type_='SNV', value='C')",21,T,snp,1,synonymous_variant,opgG,osmoregulated periplasmic glucan (OPG) biosynthesis periplasmic protein,CP009273.1105087.SucB_M5_iso,SucB_M5_iso
+CP009273,1105088,9.40222e-14,269,0.12267657992565056,"Substitution(type_='SNV', value='A')",33,G,snp,1,missense_variant,opgG,osmoregulated periplasmic glucan (OPG) biosynthesis periplasmic protein,CP009273.1105088.SucB_M5_iso,SucB_M5_iso
+CP009273,1116657,0.0,326,0.05828220858895705,"Substitution(type_='SNV', value='G')",19,T,snp,1,,,,CP009273.1116657.SucB_M5_iso,SucB_M5_iso
+CP009273,1148694,4.77347e-14,278,0.05755395683453238,"Substitution(type_='SNV', value='C')",16,A,snp,1,,,,CP009273.1148694.SucB_M5_iso,SucB_M5_iso
+CP009273,1187015,8.31756e-15,422,0.12559241706161137,"Substitution(type_='SNV', value='G')",53,A,snp,1,missense_variant,purB,adenylosuccinate lyase,CP009273.1187015.SucB_M5_iso,SucB_M5_iso
+CP009273,1191242,11185.7,350,0.9771428571428571,"Substitution(type_='INDEL', value='CGTGACTCTG')",342,CGTGACTCTGTGACTCTG,del,8,frameshift_variant,icd,"e14 prophage; isocitrate dehydrogenase, specific for NADP+",CP009273.1191242.SucB_M5_iso,SucB_M5_iso
+CP009273,1217391,4.79758e-14,313,0.054313099041533544,"Substitution(type_='SNV', value='A')",17,G,snp,1,missense_variant,ycgH,,CP009273.1217391.SucB_M5_iso,SucB_M5_iso
+CP009273,1218044,0.0,279,0.053763440860215055,"Substitution(type_='SNV', value='G')",15,A,snp,1,missense_variant,ymgD,uncharacterized protein,CP009273.1218044.SucB_M5_iso,SucB_M5_iso
+CP009273,1283906,0.0,329,0.05167173252279635,"Substitution(type_='SNV', value='G')",17,T,snp,1,missense_variant,purU,formyltetrahydrofolate hydrolase,CP009273.1283906.SucB_M5_iso,SucB_M5_iso
+CP009273,1327958,3.49569e-14,268,0.05970149253731343,"Substitution(type_='SNV', value='C')",16,A,snp,1,,,,CP009273.1327958.SucB_M5_iso,SucB_M5_iso
+CP009273,1329223,1.60925e-14,334,0.05089820359281437,"Substitution(type_='SNV', value='C')",17,A,snp,1,,,,CP009273.1329223.SucB_M5_iso,SucB_M5_iso
+CP009273,1329227,3.20641e-14,343,0.0728862973760933,"Substitution(type_='SNV', value='C')",25,A,snp,1,,,,CP009273.1329227.SucB_M5_iso,SucB_M5_iso
+CP009273,1342337,2.71224e-14,298,0.06375838926174497,"Substitution(type_='MNV', value='GG')",19,AC,complex,2,missense_variant,rnb,ribonuclease II,CP009273.1342337.SucB_M5_iso,SucB_M5_iso
+CP009273,1342337,2.71224e-14,298,0.053691275167785234,"Substitution(type_='MNV', value='AG')",16,AC,snp,1,missense_variant,rnb,ribonuclease II,CP009273.1342337.SucB_M5_iso,SucB_M5_iso
+CP009273,1345461,0.0,287,0.05574912891986063,"Substitution(type_='SNV', value='T')",16,C,snp,1,,,,CP009273.1345461.SucB_M5_iso,SucB_M5_iso
+CP009273,1345467,0.0,271,0.05166051660516605,"Substitution(type_='SNV', value='C')",14,A,snp,1,,,,CP009273.1345467.SucB_M5_iso,SucB_M5_iso
+CP009273,1345477,4.80958e-14,288,0.0625,"Substitution(type_='SNV', value='C')",18,T,snp,1,,,,CP009273.1345477.SucB_M5_iso,SucB_M5_iso
+CP009273,1364292,0.0,368,0.051630434782608696,"Substitution(type_='INDEL', value='GTTTTTTTTTTCTGTCA')",19,GTTTTTTTTTCTGTCA,ins,1,,,,CP009273.1364292.SucB_M5_iso,SucB_M5_iso
+CP009273,1375548,0.0,290,0.08620689655172414,"Substitution(type_='SNV', value='C')",25,A,snp,1,missense_variant,ycjV,,CP009273.1375548.SucB_M5_iso,SucB_M5_iso
+CP009273,1375567,0.0,345,0.08115942028985507,"Substitution(type_='SNV', value='C')",28,A,snp,1,missense_variant,ycjV,,CP009273.1375567.SucB_M5_iso,SucB_M5_iso
+CP009273,1423019,3.4716e-14,281,0.10320284697508897,"Substitution(type_='MNV', value='CA')",29,TG,mnp,2,intron_variant,lomR,,CP009273.1423019.SucB_M5_iso,SucB_M5_iso
+CP009273,1423022,0.0,310,0.2903225806451613,"Substitution(type_='SNV', value='C')",90,T,snp,1,intron_variant,lomR,,CP009273.1423022.SucB_M5_iso,SucB_M5_iso
+CP009273,1423024,0.0,275,0.12727272727272726,"Substitution(type_='SNV', value='C')",35,T,snp,1,intron_variant,lomR,,CP009273.1423024.SucB_M5_iso,SucB_M5_iso
+CP009273,1463819,3.85731e-15,16,0.1875,"Substitution(type_='SNV', value='A')",3,G,snp,1,missense_variant,insI1,IS30 transposase,CP009273.1463819.SucB_M5_iso,SucB_M5_iso
+CP009273,1497027,6.37666e-14,417,0.1223021582733813,"Substitution(type_='SNV', value='C')",51,T,snp,1,missense_variant,ydcL,lipoprotein,CP009273.1497027.SucB_M5_iso,SucB_M5_iso
+CP009273,1526580,1.36517e-14,46,0.06521739130434782,"Substitution(type_='SNV', value='G')",3,A,snp,1,missense_variant,ydcC,H repeat-associated putative transposase,CP009273.1526580.SucB_M5_iso,SucB_M5_iso
+CP009273,1565897,0.0,30,0.1,"Substitution(type_='SNV', value='T')",3,C,snp,1,missense_variant,gadB,"glutamate decarboxylase B, PLP-dependent",CP009273.1565897.SucB_M5_iso,SucB_M5_iso
+CP009273,1617065,0.0,232,0.05172413793103448,"Substitution(type_='SNV', value='C')",12,A,snp,1,,,,CP009273.1617065.SucB_M5_iso,SucB_M5_iso
+CP009273,1617082,0.0,276,0.06521739130434782,"Substitution(type_='SNV', value='A')",18,C,snp,1,non_coding_transcript_variant,mgrR,mgrR,CP009273.1617082.SucB_M5_iso,SucB_M5_iso
+CP009273,1635509,4.94823e-14,251,0.07569721115537849,"Substitution(type_='SNV', value='G')",19,T,snp,1,intron_variant,ydfJ,,CP009273.1635509.SucB_M5_iso,SucB_M5_iso
+CP009273,1782506,3.74885e-14,286,0.06293706293706294,"Substitution(type_='SNV', value='G')",18,A,snp,1,missense_variant,ppsR,bifunctional regulatory protein: PEP synthase kinase and PEP synthase pyrophosphorylase,CP009273.1782506.SucB_M5_iso,SucB_M5_iso
+CP009273,1789465,2.38676e-14,284,0.07042253521126761,"Substitution(type_='SNV', value='G')",20,T,snp,1,,,,CP009273.1789465.SucB_M5_iso,SucB_M5_iso
+CP009273,1815287,0.0,253,0.10276679841897234,"Substitution(type_='SNV', value='G')",26,T,snp,1,missense_variant,chbC,"N,N'-diacetylchitobiose-specific enzyme IIC component of PTS",CP009273.1815287.SucB_M5_iso,SucB_M5_iso
+CP009273,1816125,0.0,316,0.05063291139240506,"Substitution(type_='SNV', value='A')",16,C,snp,1,,,,CP009273.1816125.SucB_M5_iso,SucB_M5_iso
+CP009273,1827896,0.0,297,0.05723905723905724,"Substitution(type_='SNV', value='G')",17,T,snp,1,stop_gained,ydjX,TVP38/TMEM64 family inner membrane protein,CP009273.1827896.SucB_M5_iso,SucB_M5_iso
+CP009273,1859021,0.0,114,0.05263157894736842,"Substitution(type_='SNV', value='C')",6,T,snp,1,,,,CP009273.1859021.SucB_M5_iso,SucB_M5_iso
+CP009273,1892615,5.81612e-14,307,0.06188925081433225,"Substitution(type_='SNV', value='G')",19,T,snp,1,,,,CP009273.1892615.SucB_M5_iso,SucB_M5_iso
+CP009273,1899045,0.0,259,0.07335907335907337,"Substitution(type_='SNV', value='C')",19,A,snp,1,,,,CP009273.1899045.SucB_M5_iso,SucB_M5_iso
+CP009273,1950377,0.0,343,0.09620991253644315,"Substitution(type_='SNV', value='C')",33,A,snp,1,synonymous_variant,torZ,"trimethylamine N-oxide reductase system III, catalytic subunit",CP009273.1950377.SucB_M5_iso,SucB_M5_iso
+CP009273,1950389,2.06127e-14,319,0.050156739811912224,"Substitution(type_='SNV', value='C')",16,A,snp,1,missense_variant,torZ,"trimethylamine N-oxide reductase system III, catalytic subunit",CP009273.1950389.SucB_M5_iso,SucB_M5_iso
+CP009273,1952697,0.0,274,0.11313868613138686,"Substitution(type_='SNV', value='G')",31,T,snp,1,,,,CP009273.1952697.SucB_M5_iso,SucB_M5_iso
+CP009273,1992474,3.63433e-14,239,0.06276150627615062,"Substitution(type_='SNV', value='A')",15,G,snp,1,missense_variant,dcyD,"D-cysteine desulfhydrase, PLP-dependent",CP009273.1992474.SucB_M5_iso,SucB_M5_iso
+CP009273,1996809,0.0,304,0.0756578947368421,"Substitution(type_='SNV', value='C')",23,A,snp,1,synonymous_variant,fliC,flagellar filament structural protein (flagellin),CP009273.1996809.SucB_M5_iso,SucB_M5_iso
+CP009273,2060248,1.75992e-14,106,0.05660377358490566,"Substitution(type_='SNV', value='T')",6,C,snp,1,stop_gained,insH1,IS5 transposase and trans-activator,CP009273.2060248.SucB_M5_iso,SucB_M5_iso
+CP009273,2063561,2.03114e-14,57,0.05263157894736842,"Substitution(type_='SNV', value='G')",3,A,snp,1,missense_variant,insC1,IS2 repressor TnpA,CP009273.2063561.SucB_M5_iso,SucB_M5_iso
+CP009273,2076714,0.0,330,0.051515151515151514,"Substitution(type_='SNV', value='A')",17,G,snp,1,missense_variant,sbcB,exodeoxyribonuclease I; exonuclease I,CP009273.2076714.SucB_M5_iso,SucB_M5_iso
+CP009273,2156362,7.09991e-14,324,0.10802469135802469,"Substitution(type_='MNV', value='CCC')",35,GTT,complex,3,missense_variant,baeS,sensory histidine kinase in two-component regulatory system with BaeR,CP009273.2156362.SucB_M5_iso,SucB_M5_iso
+CP009273,2222655,2.80863e-14,80,0.2,"Substitution(type_='SNV', value='G')",16,C,snp,1,,,,CP009273.2222655.SucB_M5_iso,SucB_M5_iso
+CP009273,2222656,0.0,75,0.14666666666666667,"Substitution(type_='SNV', value='G')",11,A,snp,1,,,,CP009273.2222656.SucB_M5_iso,SucB_M5_iso
+CP009273,2222656,0.0,75,0.05333333333333334,"Substitution(type_='SNV', value='T')",4,A,snp,1,,,,CP009273.2222656.SucB_M5_iso,SucB_M5_iso
+CP009273,2302116,0.0,319,0.07210031347962383,"Substitution(type_='SNV', value='C')",23,T,snp,1,,,,CP009273.2302116.SucB_M5_iso,SucB_M5_iso
+CP009273,2359319,1.14537e-15,302,0.09271523178807947,"Substitution(type_='SNV', value='G')",28,T,snp,1,,,,CP009273.2359319.SucB_M5_iso,SucB_M5_iso
+CP009273,2376947,0.0,293,0.11945392491467577,"Substitution(type_='SNV', value='T')",35,C,snp,1,synonymous_variant,elaD,"protease, capable of cleaving an AMC-ubiquitin model substrate",CP009273.2376947.SucB_M5_iso,SucB_M5_iso
+CP009273,2420455,0.0,354,0.06497175141242938,"Substitution(type_='SNV', value='C')",23,T,snp,1,,,,CP009273.2420455.SucB_M5_iso,SucB_M5_iso
+CP009273,2470743,0.0,239,0.058577405857740586,"Substitution(type_='SNV', value='C')",14,T,snp,1,synonymous_variant,dsdC,dsd operon activator; autorepressor,CP009273.2470743.SucB_M5_iso,SucB_M5_iso
+CP009273,2470744,0.0,241,0.07053941908713693,"Substitution(type_='SNV', value='C')",17,A,snp,1,stop_gained,dsdC,dsd operon activator; autorepressor,CP009273.2470744.SucB_M5_iso,SucB_M5_iso
+CP009273,2510396,0.0,314,0.07006369426751592,"Substitution(type_='SNV', value='A')",22,G,snp,1,missense_variant,yfeA,putative diguanylate cyclase,CP009273.2510396.SucB_M5_iso,SucB_M5_iso
+CP009273,2579139,0.0,295,0.08135593220338982,"Substitution(type_='SNV', value='C')",24,A,snp,1,missense_variant,narQ,sensory histidine kinase in two-component regulatory system with NarP (NarL),CP009273.2579139.SucB_M5_iso,SucB_M5_iso
+CP009273,2637688,1.19938e-14,295,0.06440677966101695,"Substitution(type_='SNV', value='G')",19,T,snp,1,,,,CP009273.2637688.SucB_M5_iso,SucB_M5_iso
+CP009273,2691871,4.46001e-15,384,0.0546875,"Substitution(type_='SNV', value='G')",21,T,snp,1,missense_variant,pgpC,"phosphatidylglycerophosphatase C, membrane bound",CP009273.2691871.SucB_M5_iso,SucB_M5_iso
+CP009273,2697241,5.97883e-14,399,0.07268170426065163,"Substitution(type_='SNV', value='T')",29,G,snp,1,missense_variant,rnc,RNase III,CP009273.2697241.SucB_M5_iso,SucB_M5_iso
+CP009273,2719426,13575.4,386,1.0,"Substitution(type_='SNV', value='C')",386,T,snp,1,,,,CP009273.2719426.SucB_M5_iso,SucB_M5_iso
+CP009273,2729603,0.0,338,0.0650887573964497,"Substitution(type_='SNV', value='G')",22,T,snp,1,missense_variant,bamD,BamABCDE complex OM biogenesis lipoprotein,CP009273.2729603.SucB_M5_iso,SucB_M5_iso
+CP009273,2816016,0.0,321,0.06853582554517133,"Substitution(type_='SNV', value='G')",22,T,snp,1,,,,CP009273.2816016.SucB_M5_iso,SucB_M5_iso
+CP009273,2891234,0.0,337,0.05341246290801187,"Substitution(type_='SNV', value='G')",18,A,snp,1,,,,CP009273.2891234.SucB_M5_iso,SucB_M5_iso
+CP009273,2989939,3.28521e-15,52,0.057692307692307696,"Substitution(type_='SNV', value='A')",3,G,snp,1,missense_variant,insD1,IS2 transposase TnpB,CP009273.2989939.SucB_M5_iso,SucB_M5_iso
+CP009273,3025666,0.0,282,0.08865248226950355,"Substitution(type_='SNV', value='T')",25,C,snp,1,missense_variant,uacT,uric acid permease,CP009273.3025666.SucB_M5_iso,SucB_M5_iso
+CP009273,3026191,0.0,334,0.0718562874251497,"Substitution(type_='SNV', value='T')",24,C,snp,1,missense_variant,yqfG,uncharacterized protein,CP009273.3026191.SucB_M5_iso,SucB_M5_iso
+CP009273,3048245,0.0,321,0.056074766355140186,"Substitution(type_='SNV', value='T')",18,G,snp,1,missense_variant,ygfB,UPF0149 family protein,CP009273.3048245.SucB_M5_iso,SucB_M5_iso
+CP009273,3256852,6.02707e-14,272,0.09926470588235294,"Substitution(type_='SNV', value='G')",27,A,snp,1,synonymous_variant,tdcD,"propionate kinase/acetate kinase C, anaerobic",CP009273.3256852.SucB_M5_iso,SucB_M5_iso
+CP009273,3275086,2.50727e-14,359,0.06406685236768803,"Substitution(type_='SNV', value='C')",23,A,snp,1,,,,CP009273.3275086.SucB_M5_iso,SucB_M5_iso
+CP009273,3292748,2.85684e-14,364,0.06043956043956044,"Substitution(type_='SNV', value='C')",22,A,snp,1,missense_variant,yhbO,stress-resistance protein,CP009273.3292748.SucB_M5_iso,SucB_M5_iso
+CP009273,3321564,1.60322e-14,342,0.0935672514619883,"Substitution(type_='SNV', value='C')",32,A,snp,1,,,,CP009273.3321564.SucB_M5_iso,SucB_M5_iso
+CP009273,3422036,1.70288e-15,75,0.05333333333333334,"Substitution(type_='SNV', value='T')",4,C,snp,1,non_coding_transcript_variant,rrsD,rrsD,CP009273.3422036.SucB_M5_iso,SucB_M5_iso
+CP009273,3533735,0.0,381,0.05249343832020997,"Substitution(type_='SNV', value='C')",20,G,snp,1,missense_variant,feoA,"ferrous iron transporter, protein A",CP009273.3533735.SucB_M5_iso,SucB_M5_iso
+CP009273,3536504,1.49475e-14,330,0.06363636363636363,"Substitution(type_='SNV', value='C')",21,A,snp,1,,,,CP009273.3536504.SucB_M5_iso,SucB_M5_iso
+CP009273,3573261,5.62328e-14,332,0.06927710843373494,"Substitution(type_='SNV', value='G')",23,T,snp,1,missense_variant,yhhX,putative oxidoreductase,CP009273.3573261.SucB_M5_iso,SucB_M5_iso
+CP009273,3612799,0.0,59,0.05084745762711865,"Substitution(type_='SNV', value='A')",3,C,snp,1,missense_variant,rhsB,"Rhs family putative polymorphic toxin, putative neighboring cell growth inhibitor",CP009273.3612799.SucB_M5_iso,SucB_M5_iso
+CP009273,3646367,0.0,31,0.0967741935483871,"Substitution(type_='SNV', value='T')",3,C,snp,1,synonymous_variant,insH1,IS5 transposase and trans-activator,CP009273.3646367.SucB_M5_iso,SucB_M5_iso
+CP009273,3659837,0.0,47,0.06382978723404255,"Substitution(type_='SNV', value='T')",3,C,snp,1,synonymous_variant,gadA,"glutamate decarboxylase A, PLP-dependent",CP009273.3659837.SucB_M5_iso,SucB_M5_iso
+CP009273,3703784,0.0,327,0.0581039755351682,"Substitution(type_='SNV', value='C')",19,T,snp,1,missense_variant,eptB,"KDO phosphoethanolamine transferase, Ca(2+)-inducible",CP009273.3703784.SucB_M5_iso,SucB_M5_iso
+CP009273,3774510,4.06228e-14,210,0.07142857142857142,"Substitution(type_='SNV', value='G')",15,T,snp,1,,,,CP009273.3774510.SucB_M5_iso,SucB_M5_iso
+CP009273,3935114,0.0,46,0.06521739130434782,"Substitution(type_='SNV', value='C')",3,A,snp,1,,,,CP009273.3935114.SucB_M5_iso,SucB_M5_iso
+CP009273,3939896,2.92919e-14,65,0.06153846153846154,"Substitution(type_='SNV', value='C')",4,T,snp,1,non_coding_transcript_variant,rrlC,rrlC,CP009273.3939896.SucB_M5_iso,SucB_M5_iso
+CP009273,3970867,4.37566e-14,335,0.06865671641791045,"Substitution(type_='SNV', value='C')",23,A,snp,1,missense_variant,wzxE,O-antigen translocase,CP009273.3970867.SucB_M5_iso,SucB_M5_iso
+CP009273,3979316,0.0,258,0.050387596899224806,"Substitution(type_='SNV', value='A')",13,G,snp,1,missense_variant,aslA,putative Ser-type periplasmic non-aryl sulfatase,CP009273.3979316.SucB_M5_iso,SucB_M5_iso
+CP009273,4028726,1.53692e-14,79,0.05063291139240506,"Substitution(type_='SNV', value='A')",4,T,snp,1,,,,CP009273.4028726.SucB_M5_iso,SucB_M5_iso
+CP009273,4030827,0.0,112,0.05357142857142857,"Substitution(type_='SNV', value='C')",6,T,snp,1,,,,CP009273.4030827.SucB_M5_iso,SucB_M5_iso
+CP009273,4158607,0.0,29,0.10344827586206896,"Substitution(type_='SNV', value='A')",3,G,snp,1,non_coding_transcript_variant,rrlB,rrlB,CP009273.4158607.SucB_M5_iso,SucB_M5_iso
+CP009273,4212152,0.0,342,0.06140350877192982,"Substitution(type_='SNV', value='C')",21,A,snp,1,missense_variant,arpA,ankyrin repeat protein,CP009273.4212152.SucB_M5_iso,SucB_M5_iso
+CP009273,4261675,0.0,339,0.061946902654867256,"Substitution(type_='SNV', value='G')",21,T,snp,1,missense_variant,uvrA,ATPase and DNA damage recognition protein of nucleotide excision repair excinuclease UvrABC,CP009273.4261675.SucB_M5_iso,SucB_M5_iso
+CP009273,4496383,0.0,277,0.09386281588447654,"Substitution(type_='SNV', value='T')",26,C,snp,1,missense_variant,ythA,uncharacterized protein,CP009273.4496383.SucB_M5_iso,SucB_M5_iso
+CP009273,4538904,15851.3,469,0.9850746268656716,"Substitution(type_='SNV', value='A')",462,G,snp,1,missense_variant,fimH,minor component of type 1 fimbriae,CP009273.4538904.SucB_M5_iso,SucB_M5_iso

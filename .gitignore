@@ -155,3 +155,15 @@ notebooks/ecoli_rates.csv
 notebooks/paczia_et_al_2013/paczia_13_rates_ecoli_130524.csv
 notebooks/ecoli_rates.csv
 notebooks/rates_and_values.csv
+
+# Sequencing data
+data/isolate_sequencing/
+data/references_sequencing/
+data/meta_sequencing
+
+# Workflow logs
+code/isolate_sequncing/.snakemake/
+code/meta_sequencing/.snakemake/
+
+# Cluster logs
+code/isolate_sequncing/slurm*

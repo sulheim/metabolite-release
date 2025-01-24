@@ -1,0 +1,162 @@
+from os.path import join
+
+
+work = '/work/FAC/FBM/DMF/smitri/evomicrocomm/seq_snorre/'
+
+
+
+rule fastqc:
+    input:
+        read1 =join(work,'data','meta_sequencing','{sample}','read1.fq.gz'),
+        read2 = join(work,'data','meta_sequencing','{sample}','read2.fq.gz')
+    output:
+        report_read1 = join(work,'data','meta_sequencing','{sample}','fastqc','read1_fastqc.html'),
+        report_read2 = join(work,'data','meta_sequencing','{sample}','fastqc','read2_fastqc.html'),
+    params:
+        outdir = join(work,'data','meta_sequencing','{sample}','fastqc')
+    threads:
+        1
+    shell:
+        """
+        mkdir -p {params}
+        fastqc -o {params} {input}
+        """
+
+rule fastp:
+    input:
+        read1 =join(work,'data','meta_sequencing','{sample}','read1.fq.gz'),
+        read2 = join(work,'data','meta_sequencing','{sample}','read2.fq.gz')
+    output:
+        read1 =join(work,'data','meta_sequencing','{sample}','trimmed_read1.fq.gz'),
+        read2 = join(work,'data','meta_sequencing','{sample}','trimmed_read2.fq.gz')
+    params:
+        join(work,'data','meta_sequencing','{sample}','fastp_report.html')
+    threads:
+        2
+    shell:
+        """
+        fastp -i {input.read1} -I {input.read2} -o {output.read1} -O {output.read2} --thread {threads} -a AATGATACGGCGACCACCGAGATCTACACACACTCTTTCCCTACACGACGCTCTTCCGATCT --adapter_sequence_r2 GATCGGAAGAGCACACGTCTGAACTCCAGTCACATCTCGTATGCCGTCTTCTGCTTG  --qualified_quality_phred 20 --cut_front --cut_tail --average_qual 20 --length_required 50 --html {params}
+        """
+
+rule snippy:
+    input:
+        read1 =join(work,'data','meta_sequencing','{sample}','trimmed_read1.fq.gz'),
+        read2 = join(work,'data','meta_sequencing','{sample}','trimmed_read2.fq.gz'),
+        reference = join(work,'data','references_sequencing','reference.gbk')
+    output:
+        tab =join(work,'data','meta_sequencing','{sample}','snippy','snps.tab'),
+        bam = join(work,'data','meta_sequencing','{sample}','snippy','snps.bam'),
+        snpEff = join(work,'data','meta_sequencing','{sample}','snippy','reference','snpeff.config')
+    params:
+        join(work,'data','meta_sequencing','{sample}','snippy')
+    threads:
+        8
+    shell:
+        """
+        snippy --force --cpus {threads} --outdir {params} --ref {input.reference} --R1 {input.read1} --R2 {input.read2}
+        """
+
+rule bam_stats:
+    input:
+        join(work,'data','meta_sequencing','{sample}','snippy','snps.bam')
+    output:
+        join(work,'data','meta_sequencing','{sample}','snippy_aligment.stats')
+    threads:
+        1
+    shell:
+        """
+        samtools flagstats {input} > {output}
+        """
+
+rule mapping:
+    input:
+        reference = join(work,'data','references_sequencing','reference.fasta'),
+        read1 =join(work,'data','meta_sequencing','{sample}','trimmed_read1.fq.gz'),
+        read2 = join(work,'data','meta_sequencing','{sample}','trimmed_read2.fq.gz'),
+    output:
+        join(work,'data','meta_sequencing','{sample}','mapped_reads.sam')
+    threads:
+        8
+    shell:
+        """
+        minimap2 -t {threads} -ax sr {input} > {output}
+        """
+
+# Filters alignent for paired read where reads are mapped in a proper pair and has
+# quality of at least 60
+rule filter_alignment:
+    input:
+        join(work,'data','meta_sequencing','{sample}','mapped_reads.sam')
+    output:
+        bam = join(work,'data','meta_sequencing','{sample}','mapped_reads.filtered.bam'),
+        bai = join(work,'data','meta_sequencing','{sample}','mapped_reads.filtered.bam.bai')
+    threads:
+        8
+    shell:
+        """
+        samtools view -b -f 3 -q 60 --threads {threads} {input} | samtools sort --threads {threads} -o {output.bam}
+        samtools index {output.bam}
+        """ 
+
+rule freebayes:
+    input:
+        reference = join(work,'data','references_sequencing','reference.fasta'),
+        bam = join(work,'data','meta_sequencing','{sample}','mapped_reads.filtered.bam')
+    output:
+        join(work,'data','meta_sequencing','{sample}','var.vcf')
+    threads:
+        4
+    shell:
+        """
+        freebayes -f {input.reference} {input.bam} --min-alternate-count 3 -p 1\
+        --min-alternate-fraction 0.05 --pooled-continuous --haplotype-length 0 \
+        --standard-filters > {output}
+        """
+
+rule snpEff:
+    input:
+        var = join(work,'data','meta_sequencing','{sample}','var.vcf'),
+        snpEff = join(work,'data','meta_sequencing','{sample}','snippy','reference','snpeff.config')
+    output:
+        join(work,'data','meta_sequencing','{sample}','var.annotated.vcf')
+    threads:
+        1
+    shell:
+        """
+        snpEff ann -noStats -no-downstream -no-upstream -no-intergenic -no-utr -c {input.snpEff} -dataDir . ref {input.var} > {output}
+        """
+
+rule sourmash:
+    input:
+        read1 =join(work,'data','meta_sequencing','{sample}','trimmed_read1.fq.gz'),
+        read2 = join(work,'data','meta_sequencing','{sample}','trimmed_read2.fq.gz')
+    output:
+        sig = join(work,'data','meta_sequencing','{sample}','sourmash.sig')
+    threads:
+        1
+    shell:
+        """
+        sourmash sketch dna -p scaled=10000,k=31 {input} -o {output}    
+        """
+
+rule coverage:
+    input:
+        bam = join(work,'data','meta_sequencing','{sample}','mapped_reads.filtered.bam')
+    output:
+        coverage = join(work,'data','meta_sequencing','{sample}','coverage.txt')
+    threads:
+        1
+    shell:
+        """
+        samtools depth -a {input} > {output}
+        """
+
+
+
+
+
+
+
+
+
+
