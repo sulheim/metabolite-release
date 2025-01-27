@@ -1,0 +1,49 @@
+﻿Abbreviation,Metabolite name,Ecoli metabolite,Yeast metabolite,Bacillus metabolite,Cglutamicum metabolite
+G6P,Glucose-6-phosphate,g6p,s_0568,g6p_A,g6p
+F6P,Fructose-6-phosphate,f6p,s_0557,f6p_B,f6p
+FBP,"Fructose-1,6-bisphosphate",fdp,s_0555,fdp_B,fdp
+DHAP,Dihydroxyacetonephosphate,dhap,s_0629,dhap,dhap
+GA3P,Glyceraldehyde-3-phosphate,g3p,s_0764,g3p,g3p
+23PG,2/3-phosphoglycerate,"2pg, 3pg","s_0188, s_0260","2pg, 3pg","2pg, 3pg"
+PEP,Phosphoenolpyruvate,pep,s_1360,pep,pep
+R5P,Ribose-5-phosphate,r5p,s_1408,r5p,r5p
+RU5P+X5P,Ribu-/Xylulose-5-phosphate,"ru5p__D, ru5p__L, xu5p__D, xu5p__L","s_0577, s_0581","ru5p__D, ru5p__L, xu5p__D","ru5p__D, xu5p__D"
+E4P,Erythrose-4-phosphate,e4p,s_0551,e4p,e4p
+CIT,Citrate,cit,s_0522,cit,cit
+ACN,Cis-aconitate,acon_C,s_0516,acon,acon_C
+ICIT,Isocitrate,icit,s_0940,icit,icit
+AKG MS,,,,,
+SUC,Succinate,succ,s_1458,succ,succ
+FUM MS,,,,,
+OAS,Oxaloacetate,oaa,s_1271,oaa,oaa
+GLU,Glutamate,glu__L,s_0991,glu__L,glu__L
+SER,L-serine,ser__L,s_1039,ser__L,ser__L
+ASP,Aspartate,asp__L,s_0973,asp__L,asp__L
+THR,Threonine,thr__L,s_1045,thr__L,thr__L
+HOM,Homoserine,hom__L,s_1014,hom__L,hom__L
+TYR,Tyrosine,tyr__L,s_1051,tyr__L,tyr__L
+GLY,Glycine,gly,s_1003,gly,gly
+PRO,Proline,pro__L,s_1035,pro__L,pro__L
+ALA,Alanine,ala__L,s_0955,ala__L,ala__L
+MET,Methionine,met__L,s_1029,met__L,met__L
+VAL,Valine,val__L,s_1056,val__L,val__L
+LEU+ILEU,Leucine/Isoleucine,"leu__L, ile__L","s_1021, s_1016","leu__L, ile__L","leu__L, ile__L"
+PHE,Phenylalanine,phe__L,s_1032,phe__L,phe__L
+ILEU,Isoleucine,ile__L,s_1016,ile__L,ile__L
+LEU,Leucine,leu__L,s_1021,leu__L,leu__L
+TRP,Tryptophane,trp__L,s_1048,trp__L,trp__L
+HIS,Histidine,his__L,s_1006,his__L,his__L
+ARG,Arginine,arg__L,s_0965,arg__L,arg__L
+PYR,Pyruvate,pyr,s_1399,pyr,pyr
+ORO,Orotate,orot,s_1269,orot,orot
+FUM,Fumarate,fum,s_0725,fum,fum
+URA,Uracil,ura,s_1550,ura,ura
+AKG,alpha-ketoglutarate,akg,s_0180,akg,akg
+ACT,Acetate,ac,s_0362,ac,ac
+LYS,Lysine,lys__L,s_1025,lys__L,lys__L
+GLN,Glutamine,gln__L,s_0999,gln__L,gln__L
+ETH,Ethanol,etoh,s_0680,etoh,etoh
+ASN,Asparagine,asn__L,s_0969,asn__L,asn__L
+SHI,Shikimate,skm,s_1429,skm,skm
+"PYR MS			",,,,,
+S7P,Sedoheptulose 7-phosphate,s7p,s_1427,s7p,s7p

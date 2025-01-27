@@ -1,0 +1,61 @@
+,Metabolite,Mass,Metabolite id,Charge,Phosphate,Intracellular concentration [M],Compound class,Ref,Comment,Hydrogen Bond Donor Count,Hydrogen Bond Acceptor Count,Rotatable Bond Count,Topological Polar Surface Area,Charge (pubchem),xlogP,pubchem id
+0,2-phosphoglycerate,183.033421,2pg,-3.0,1.0,0.000322,Other,Park et al,,4.0,7.0,4.0,124.0,0.0,-2.6,59.0
+1,3-phosphoglycerate,183.033421,3pg,-3.0,1.0,0.00154,Other,"Bennet et al, glucose",,4.0,7.0,4.0,124.0,0.0,-2.6,724.0
+2,Acetate,59.04402,ac,-1.0,0.0,0.000658,Carboxylic acid,https://ecmdb.ca/compounds/M2MDB000012,"LB, stationary phase overnight",0.0,2.0,0.0,40.1,-1.0,0.4,175.0
+3,Alanine,89.09318,ala__L,0.0,0.0,0.00255,Amino acid,"Bennet et al, glucose",,2.0,3.0,1.0,63.3,0.0,-3.0,5950.0
+4,Alpha-aminoadipate,161.156,,0.0,0.0,,Other,,,3.0,5.0,5.0,101.0,0.0,-3.1,469.0
+5,Alpha-aminobutyrate,103.12,,-1.0,0.0,,Other,,,1.0,3.0,1.0,66.2,-1.0,-1.9,21889526.0
+6,Alpha-ketoglutarate,144.08226,akg,-2.0,0.0,0.000443,Other,"Bennet et al, glucose",,2.0,5.0,4.0,91.7,0.0,-0.9,51.0
+7,Arginine,175.2089,arg__L,1.0,0.0,0.000569,Amino acid,"Bennet et al, glucose",,4.0,4.0,5.0,128.0,0.0,-4.2,6322.0
+8,Asparagine,132.11792,asn__L,0.0,0.0,0.000511,Amino acid,"Bennet et al, glucose",,3.0,4.0,3.0,106.0,0.0,-3.4,6267.0
+9,Aspartate,132.09474,asp__L,-1.0,0.0,0.00423,Amino acid,"Bennet et al, glucose",,3.0,5.0,3.0,101.0,0.0,-2.8,5960.0
+10,Beta-alanine,89.09318,ala_B,0.0,0.0,1.2e-05,Amino acid,Ishii et al.,https://ecmdb.ca/compounds/M2MDB000019,2.0,3.0,2.0,63.3,0.0,-3.0,239.0
+11,Cis-aconitate,171.08442,acon_C,-3.0,0.0,1.61e-05,Carboxylic acid,"Bennet et al, glucose",,3.0,6.0,4.0,112.0,0.0,-1.0,643757.0
+12,Citrate,189.0997,cit,-3.0,0.0,0.00196,Carboxylic acid,"Bennet et al, glucose",,1.0,7.0,2.0,141.0,-3.0,0.2,31348.0
+13,Creatine,131.135,,0.0,0.0,,Other,,,3.0,3.0,3.0,90.4,0.0,-1.2,586.0
+14,Dihydroxyacetone phosphate,168.041961,dhap,-2.0,1.0,0.000374,Phosphorylated sugar,"Bennet et al, glucose",,3.0,6.0,4.0,104.0,0.0,-2.5,668.0
+15,Erythrose-4-phosphate,198.067941,e4p,-2.0,1.0,5.64e-05,Phosphorylated sugar,Park et al,,4.0,7.0,5.0,124.0,0.0,-3.3,122357.0
+16,Ethanol,46.06844,etoh,0.0,0.0,,Other,,,1.0,1.0,0.0,20.2,0.0,-0.1,702.0
+17,Formate,,for,-1.0,0.0,0.000184,Carboxylic acid,https://ecmdb.ca/compounds/M2MDB000053,"LB, stationary phase overnight",0.0,2.0,0.0,40.1,-1.0,0.5,283.0
+18,"Fructose-1,6-bisphosphate",336.083922,fdp,-4.0,2.0,0.0152,Phosphorylated sugar,"Bennet et al, glucose",,7.0,12.0,6.0,203.0,0.0,-5.6,10267.0
+19,Fructose-6-phosphate,258.119901,f6p,-2.0,1.0,0.002916667,Phosphorylated sugar,"Bennet et al, glucose",,6.0,9.0,7.0,165.0,0.0,-4.3,69507.0
+20,Fumarate,114.05628,fum,-2.0,0.0,0.000115,Carboxylic acid,"Bennet et al, glucose",,0.0,4.0,0.0,80.3,-2.0,1.0,5460307.0
+21,Gamma-aminobutyrate,103.11976,,0.0,0.0,4.4e-05,Other,Ishii et al.,https://ecmdb.ca/compounds/M2MDB000561,2.0,3.0,3.0,63.3,0.0,-3.2,119.0
+22,Glucose-6-phosphate,258.119901,g6p,-2.0,1.0,0.002916667,Phosphorylated sugar,"Bennet et al, glucose",,6.0,9.0,3.0,157.0,0.0,-4.2,5958.0
+23,Glutamate,146.12132,glu__L,-1.0,0.0,0.096,Amino acid,"Bennet et al, glucose",,3.0,5.0,4.0,101.0,0.0,-3.7,33032.0
+24,Glutamine,146.1445,gln__L,0.0,0.0,0.00381,Amino acid,"Bennet et al, glucose",,3.0,4.0,4.0,106.0,0.0,-3.1,5961.0
+25,Glutarate,132.12,glutar,-2.0,0.0,,Carboxylic acid,,"Charge from ECMDB, not in iML1515",2.0,4.0,4.0,74.6,0.0,-0.3,743.0
+26,Glyceraldehyde-3-phosphate,168.041961,g3p,-2.0,1.0,0.000289,Phosphorylated sugar,Park et al,,3.0,6.0,4.0,104.0,0.0,-2.7,439168.0
+27,Glycine,75.0666,gly,0.0,0.0,0.000318,Amino acid,Ishii et al.,https://ecmdb.ca/compounds/M2MDB000046,2.0,3.0,1.0,63.3,0.0,-3.2,750.0
+28,Hexoses,180.15588,,,,,Other,,,5.0,6.0,5.0,118.0,0.0,-2.9,24749.0
+29,Histidine,155.15456,his__L,0.0,0.0,6.76e-05,Amino acid,"Bennet et al, glucose",,3.0,4.0,3.0,92.0,0.0,-3.2,6274.0
+30,Homoserine,119.11916,hom__L,0.0,0.0,1.6e-05,Amino acid,Ishii et al.,https://ecmdb.ca/compounds/M2MDB000449,3.0,4.0,3.0,83.6,0.0,-4.4,779.0
+31,Isocitrate,189.0997,icit,-3.0,0.0,4.29e-05,Carboxylic acid,Park et al,,4.0,7.0,5.0,132.0,0.0,-1.8,1198.0
+32,Isoleucine,131.17292,ile__L,0.0,0.0,0.000152,Amino acid,"Bennet et al, glucose",,2.0,3.0,3.0,63.3,0.0,-1.7,6306.0
+33,Lactate,89.07,lac__L,-1.0,0.0,,Carboxylic acid,,,1.0,3.0,0.0,60.4,-1.0,0.2,91435.0
+34,Leucine,131.17292,leu__L,0.0,0.0,0.000152,Amino acid,"Bennet et al, glucose",,2.0,3.0,3.0,63.3,0.0,-1.5,6106.0
+35,Lysine,147.1955,lys__L,1.0,0.0,0.000405,Amino acid,"Bennet et al, glucose",,3.0,4.0,5.0,89.3,0.0,-3.0,5962.0
+36,Malate,132.07156,mal__L,-2.0,0.0,0.00168,Carboxylic acid,"Bennet et al, glucose",,3.0,5.0,3.0,94.8,0.0,-1.3,525.0
+37,Methionine,149.21134,met__L,0.0,0.0,0.000145,Amino acid,"Bennet et al, glucose",,2.0,4.0,4.0,88.6,0.0,-1.9,6137.0
+38,NAD,663.43,nad,-1.0,2.0,0.00255,Nucleosides and nucleotides,"Bennet et al, glucose",,7.0,18.0,11.0,321.0,0.0,-6.0,5892.0
+39,Orotate,155.08832,orot,-1.0,0.0,,Other,,,2.0,4.0,0.0,98.3,-1.0,-0.8,1492348.0
+40,Oxaloacetate,130.05568,oaa,0.0,0.0,8.55e-07,Carboxylic acid,Park et al,,2.0,5.0,3.0,91.7,0.0,-0.6,970.0
+41,Phenylalanine,165.18914,phe__L,0.0,0.0,1.82e-05,Amino acid,"Bennet et al, glucose",,2.0,3.0,3.0,63.3,0.0,-1.5,6140.0
+42,Phosphoenolpyruvate,165.018141,pep,-3.0,1.0,0.000184,Other,"Bennet et al, glucose",,3.0,6.0,3.0,104.0,0.0,-1.1,1005.0
+43,Pipecolic acid,129.15704,,0.0,0.0,6e-06,Other,Ishii et al.,https://ecmdb.ca/compounds/M2MDB001780,2.0,3.0,1.0,49.3,0.0,-2.3,849.0
+44,Propionate,73.07,ppa,-1.0,0.0,,Carboxylic acid,,,0.0,2.0,0.0,40.1,-1.0,0.9,104745.0
+45,Proline,115.13046,pro__L,0.0,0.0,0.000385,Amino acid,"Bennet et al, glucose",,2.0,3.0,1.0,49.3,0.0,-2.5,145742.0
+46,Pyruvate,87.05412,pyr,-1.0,0.0,0.0009,Carboxylic acid,https://ecmdb.ca/e_coli_stats,,0.0,3.0,0.0,57.2,-1.0,-0.6,107735.0
+47,Ribose-5-phosphate,228.093921,r5p,-2.0,1.0,0.00045,Phosphorylated sugar,"Bennet et al, glucose",,5.0,8.0,6.0,145.0,0.0,-3.4,77982.0
+48,Ribulose-5-phosphate,228.093921,ru5p__D,-2.0,1.0,0.0009,Phosphorylated sugar,"Bennet et al, glucose",,5.0,8.0,6.0,145.0,0.0,-3.7,439184.0
+49,Sedoheptulose 7-phosphate,288.145881,s7p,-2.0,1.0,0.000924,Phosphorylated sugar,Park et al,,7.0,10.0,8.0,185.0,0.0,-5.0,165007.0
+50,Serine,105.09258,ser__L,0.0,0.0,6.8e-05,Amino acid,"Bennet et al, glucose",,3.0,4.0,2.0,83.6,0.0,-3.1,5951.0
+51,Shikimate,173.14336,skm,-1.0,0.0,1.41e-05,Other,"Bennet et al, glucose",,4.0,5.0,1.0,98.0,0.0,-1.7,8742.0
+52,Succinate,116.07216,succ,-2.0,0.0,0.000569,Carboxylic acid,"Bennet et al, glucose",,0.0,4.0,1.0,80.3,-2.0,0.7,160419.0
+53,Threonine,119.11916,thr__L,0.0,0.0,0.000179,Amino acid,"Bennet et al, glucose",,3.0,4.0,2.0,83.6,0.0,-2.9,6288.0
+54,Trans-aconitate,171.08442,acon_T,-3.0,0.0,9.6e-05,Carboxylic acid,"Bennet et al., glycerol",,3.0,6.0,4.0,112.0,0.0,-1.0,444212.0
+55,Tryptophan,204.22518,trp__L,0.0,0.0,1.21e-05,Amino acid,"Bennet et al, glucose",,3.0,3.0,3.0,79.1,0.0,-1.1,6305.0
+56,Tyrosine,181.18854,tyr__L,0.0,0.0,2.89e-05,Amino acid,"Bennet et al, glucose",,3.0,4.0,3.0,83.6,0.0,-2.3,6057.0
+57,Uracil,112.08676,ura,0.0,0.0,0.001013,Pyrimidine,https://ecmdb.ca/compounds/M2MDB000126,"LB, stationary phase overnight",2.0,2.0,0.0,58.2,0.0,-1.1,1174.0
+58,Valine,117.14634,val__L,0.0,0.0,0.00402,Amino acid,"Bennet et al, glucose",,2.0,3.0,2.0,63.3,0.0,-2.3,6287.0
+59,Xylulose-5-phosphate,228.093921,xu5p__D,-2.0,1.0,0.0009,Phosphorylated sugar,"Bennet et al, glucose",,5.0,8.0,6.0,145.0,0.0,-3.7,439190.0
