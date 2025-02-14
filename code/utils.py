@@ -154,6 +154,20 @@ elements_and_molecular_weights = {
     "Uuq": 289.000000,
     "Uuh": 292.000000,
 }
+
+def extract_elements_and_counts(formula):
+    element_pattern = r'([A-Z][a-z]*)(\d*)'
+    # element_pattern = r'([A-Z][a-z]*)(\d*)'
+    elements = re.findall(element_pattern, formula)
+    element_count = defaultdict(int)
+    
+    current_element = ''
+    for element, count in elements:
+        if element.isalpha():
+            element_count[element] += int(count) if count else 1
+    
+    return element_count
+    
 # import cobra
 # from pathlib import Path
 # import pandas as pd
@@ -480,18 +494,7 @@ elements_and_molecular_weights = {
 #         return element_count
 
 
-# def extract_elements_and_counts(formula):
-#     element_pattern = r'([A-Z][a-z]*)(\d*)'
-#     # element_pattern = r'([A-Z][a-z]*)(\d*)'
-#     elements = re.findall(element_pattern, formula)
-#     element_count = defaultdict(int)
-    
-#     current_element = ''
-#     for element, count in elements:
-#         if element.isalpha():
-#             element_count[element] += int(count) if count else 1
-    
-#     return element_count
+
 
 
 
