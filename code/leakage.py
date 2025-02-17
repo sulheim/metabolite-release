@@ -259,6 +259,7 @@ def estimate_shadow_prices(model, intracellular_only = True, delta = 0.1, metabo
             old_lb = r.lower_bound
             r.bounds = (old_lb + delta, 1000)
             shadow_prices[m.id] = (model.slim_optimize()-wt_growth_rate)/delta
+    return shadow_prices
 
 
 def estimate_shadow_prices_reframed(model, constraints, intracellular_only = True, delta = 0.01, metabolites = []):

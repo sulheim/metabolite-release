@@ -1,0 +1,44 @@
+﻿Metabolite,BiGG ID
+Sebacoyl-l-carnitine (c10-dc),
+Deoxycarnitine (deoxy-c0),gbbtn
+Glutarylcarnitine (c5-dc),
+Alpha-aminobutyrate,
+Creatine,crn
+Alpha-aminoadipate,
+Cis-aconitate,acon_C
+Citrate,cit
+Hexoses including glucose and fructose,fru
+Glutarate,glutar
+Isocitrate,icit
+Lactate,lac__L
+Malate,mal__L
+NAD,nad
+Succinate,succ
+Trans-aconitate,acon_T
+Asparagine,asn__L
+Aspartate,asp__L
+Beta-alanine,ala_B
+Gamma-aminobutyrate,4abut
+Glutamate,glu__L
+Glutamine,gln__L
+Glycine,gly
+Isoleucine,ile__L
+Leucine,leu__L
+Lysine,lys__L
+Methionine,met__L
+Phenylalanine,phe__L
+Pipecolic acid,
+Proline,pro__L
+Serine,ser__L
+Tyrosine,tyr__L
+Valine,val__L
+Alanine,ala__L
+Pyruvate,pyr
+Citrulline,citr__L
+Histidine,his__L
+Malonylcarnitine (c3:dc),
+Fructose-6-phosphate,f6p
+Glucose-6-phosphate,g6p
+Propionate,ppa
+Formate,for
+Acetate,ac
