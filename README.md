@@ -23,6 +23,11 @@ These are the key files and folders used in this project.
 - 2_keio_strains_screening: Selection of KO strains and analyses of experimental data
 - 9_other: Div notebooks used in this project
 
+## Code
+- Matlab: Convert matlab files from Paczia et al. 2012 to csv-files
+- isolate_sequencing: Processing and analyses of whole genome sequencing of selected isolate
+- meta_sequencing: Processing and analyses of metagenome sequencing of chemostat samples
+  
 ## Models
 This folder contains the original and modified genome-scale metabolic models used in this project. This include the following species:
 - _E. coli_
