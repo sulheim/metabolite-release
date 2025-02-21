@@ -31,6 +31,6 @@ This folder contains the original and modified genome-scale metabolic models use
 - _P. putida_
 - _C. glutamicum_
 - _B. subtilis_ / _B. licheniformis_
-
+- _P. aeruginosa_
 
 
