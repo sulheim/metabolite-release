@@ -1,697 +1,699 @@
-,Carbon source,Phase,Metabolite,Intracellular concentration [uM],Error [uM],# values,idx concentration sheet,SEM [uM],Min,Max
-0,L-malate,Stationary,Alanine,358.0,0.0,1.0,10,0.0,358.0,358.0
-1,L-malate,Exponential,Alanine,1197.9,825.7523757037847,5.0,"16,15,13,12,14",421.302232501931,349.1666666666667,2550.0
-2,L-malate,Stationary,Alpha-aminoadipate,,,,,,,
-3,L-malate,Exponential,Alpha-aminoadipate,,,,,,,
-4,L-malate,Stationary,Asparagine,103.0,0.0,1.0,34,0.0,103.0,103.0
-5,L-malate,Exponential,Asparagine,447.5333333333333,314.725535684313,5.0,"37,36,35,32,31",160.5742529001597,105.25,970.0
-6,L-malate,Stationary,Aspartate,337.0,0.0,1.0,45,0.0,337.0,337.0
-7,L-malate,Exponential,Aspartate,353.36499749999996,50.13708470903704,1.0,292,25.580145259712776,353.36499749999996,353.36499749999996
-8,L-malate,Stationary,Beta-alanine,11.5,0.0,1.0,47,0.0,11.5,11.5
-9,L-malate,Exponential,Beta-alanine,11.5,0.0,1.0,47,0.0,11.5,11.5
-10,L-malate,Stationary,Cis-aconitate,18.31231125,10.27907648106993,1.0,293,5.244426776056087,18.31231125,18.31231125
-11,L-malate,Exponential,Cis-aconitate,18.31231125,10.27907648106993,1.0,293,5.244426776056087,18.31231125,18.31231125
-12,L-malate,Stationary,Creatine,,,,,,,
-13,L-malate,Exponential,Creatine,,,,,,,
-14,L-malate,Stationary,Deoxycarnitine (deoxy-c0),,,,,,,
-15,L-malate,Exponential,Deoxycarnitine (deoxy-c0),,,,,,,
-16,L-malate,Stationary,Gamma-aminobutyrate,43.6,0.0,1.0,86,0.0,43.6,43.6
-17,L-malate,Exponential,Gamma-aminobutyrate,43.6,0.0,1.0,86,0.0,43.6,43.6
-18,L-malate,Stationary,Glutamate,4270.0,0.0,1.0,97,0.0,4270.0,4270.0
-19,L-malate,Exponential,Glutamate,6359.60966625,934.0979393554258,1.0,295,476.5805813037887,6359.60966625,6359.60966625
-20,L-malate,Stationary,Glutamine,494.0,0.0,1.0,103,0.0,494.0,494.0
-21,L-malate,Exponential,Glutamine,2556.3666666666663,1763.3840725685498,5.0,"102,105,107,108,106",899.6857513104845,383.5,4950.0
-22,L-malate,Stationary,Glutarate,,,,,,,
-23,L-malate,Exponential,Glutarate,,,,,,,
-24,L-malate,Stationary,Glutarylcarnitine (c5-dc),,,,,,,
-25,L-malate,Exponential,Glutarylcarnitine (c5-dc),,,,,,,
-26,L-malate,Stationary,Isocitrate,14.29277777777778,21.971615244870872,3.0,"129,128,127",11.210007777995344,2.433333333333333,36.7
-27,L-malate,Exponential,Isocitrate,14.29277777777778,21.971615244870872,3.0,"129,128,127",11.210007777995344,2.433333333333333,36.7
-28,L-malate,Stationary,Isoleucine,33.1,0.0,1.0,133,0.0,33.1,33.1
-29,L-malate,Exponential,Isoleucine,125.81000000000002,70.35794078522892,5.0,"139,138,136,135,134",35.8969085638923,21.083333333333332,219.0
-30,L-malate,Stationary,Lactate,,,,,,,
-31,L-malate,Exponential,Lactate,,,,,,,
-32,L-malate,Stationary,Leucine,120.0,0.0,1.0,142,0.0,120.0,120.0
-33,L-malate,Exponential,Leucine,140.93082,60.772518027194536,1.0,296,31.00638674856864,140.93082,140.93082
-34,L-malate,Stationary,Lysine,361.0,0.0,1.0,153,0.0,361.0,361.0
-35,L-malate,Exponential,Lysine,512.2333333333333,145.19448109499356,5.0,"149,150,151,152,156",74.0788168852008,327.50000000000006,762.0
-36,L-malate,Stationary,Malate,1832.8666666666668,1334.0284107476039,5.0,"161,160,159,158,157",680.6267401773489,341.8333333333333,3450.0
-37,L-malate,Exponential,Malate,1832.8666666666668,1334.0284107476039,5.0,"161,160,159,158,157",680.6267401773489,341.8333333333333,3450.0
-38,L-malate,Stationary,Methionine,30.3,0.0,1.0,171,0.0,30.3,30.3
-39,L-malate,Exponential,Methionine,98.74666666666667,31.82669830008203,5.0,"166,165,164,163,168",16.238111377592872,65.9,145.0
-40,L-malate,Stationary,NAD,2171.5,2701.8599999999997,2.0,"178,174",1378.4999999999998,793.0,3550.0
-41,L-malate,Exponential,NAD,2099.666666666667,1246.027768978953,5.0,"172,179,177,176,173",635.7284535606902,581.6666666666666,4080.0
-42,L-malate,Stationary,Phenylalanine,65.7,0.0,1.0,188,0.0,65.7,65.7
-43,L-malate,Exponential,Phenylalanine,56.06,40.75560886476582,5.0,"183,185,190,189,184",20.793677992227458,18.2,134.76666666666668
-44,L-malate,Stationary,Pipecolic acid,6.05,0.0,1.0,199,0.0,6.05,6.05
-45,L-malate,Exponential,Pipecolic acid,6.05,0.0,1.0,199,0.0,6.05,6.05
-46,L-malate,Stationary,Proline,143.0,0.0,1.0,206,0.0,143.0,143.0
-47,L-malate,Exponential,Proline,283.83333333333337,141.71784935803487,5.0,"200,202,203,207,208",72.30502518267085,91.83333333333334,451.0
-48,L-malate,Stationary,Pyruvate,8050.0,0.0,1.0,213,0.0,8050.0,8050.0
-49,L-malate,Exponential,Pyruvate,8050.0,0.0,1.0,213,0.0,8050.0,8050.0
-50,L-malate,Stationary,Sebacoyl-l-carnitine (c10-dc),,,,,,,
-51,L-malate,Exponential,Sebacoyl-l-carnitine (c10-dc),,,,,,,
-52,L-malate,Stationary,Serine,343.0,0.0,1.0,231,0.0,343.0,343.0
-53,L-malate,Exponential,Serine,171.63333333333335,84.79082480237275,5.0,"233,229,230,234,236",43.26062489916977,68.0,280.8333333333334
-54,L-malate,Stationary,Succinate,1251.0666666666668,483.1952982552707,5.0,"239,240,242,243,244",246.5282133955463,569.0,1841.6666666666667
-55,L-malate,Exponential,Succinate,1251.0666666666668,483.1952982552707,5.0,"239,240,242,243,244",246.5282133955463,569.0,1841.6666666666667
-56,L-malate,Stationary,Trans-aconitate,42.05,11.564000000000004,2.0,"252,251",5.900000000000002,36.15,47.95
-57,L-malate,Exponential,Trans-aconitate,42.05,11.564000000000004,2.0,"252,251",5.900000000000002,36.15,47.95
-58,L-malate,Stationary,Tyrosine,37.8,0.0,1.0,262,0.0,37.8,37.8
-59,L-malate,Exponential,Tyrosine,91.20333333333333,46.3701307052048,5.0,"261,263,264,265,266",23.658229951635104,28.9,155.0
-60,L-malate,Stationary,Valine,181.0,0.0,1.0,275,0.0,181.0,181.0
-61,L-malate,Exponential,Valine,1549.6,1427.7234997211467,5.0,"270,272,273,274,278",728.4303570005851,157.5,4020.0
-62,L-malate,Stationary,Citrate,5333.833333333333,8160.724914638406,5.0,"57,54,53,52,51",4163.635160529799,165.83333333333334,21900.0
-63,L-malate,Exponential,Citrate,5333.833333333333,8160.724914638406,5.0,"57,54,53,52,51",4163.635160529799,165.83333333333334,21900.0
-64,L-malate,Stationary,Acetate,658.0,25.0,1.0,4,12.755102040816327,658.0,658.0
-65,L-malate,Exponential,Acetate,658.0,25.0,1.0,4,12.755102040816327,658.0,658.0
-66,L-malate,Stationary,Formate,184.0,25.0,1.0,64,12.755102040816327,184.0,184.0
-67,L-malate,Exponential,Formate,184.0,25.0,1.0,64,12.755102040816327,184.0,184.0
-68,L-malate,Stationary,Propanoate,,,,,,,
-69,L-malate,Exponential,Propanoate,,,,,,,
-70,L-malate,Stationary,Pyruvate (gc-ms),,,,,,,
-71,L-malate,Exponential,Pyruvate (gc-ms),,,,,,,
-72,L-alanine,Stationary,Alanine,358.0,0.0,1.0,10,0.0,358.0,358.0
-73,L-alanine,Exponential,Alanine,1197.9,825.7523757037847,5.0,"16,15,13,12,14",421.302232501931,349.1666666666667,2550.0
-74,L-alanine,Stationary,Alpha-aminoadipate,,,,,,,
-75,L-alanine,Exponential,Alpha-aminoadipate,,,,,,,
-76,L-alanine,Stationary,Alpha-aminobutyrate,,,,,,,
-77,L-alanine,Exponential,Alpha-aminobutyrate,,,,,,,
-78,L-alanine,Stationary,Asparagine,103.0,0.0,1.0,34,0.0,103.0,103.0
-79,L-alanine,Exponential,Asparagine,447.5333333333333,314.725535684313,5.0,"37,36,35,32,31",160.5742529001597,105.25,970.0
-80,L-alanine,Stationary,Aspartate,337.0,0.0,1.0,45,0.0,337.0,337.0
-81,L-alanine,Exponential,Aspartate,432.80451,279.1422158016348,1.0,287,142.41949785797695,432.80451,432.80451
-82,L-alanine,Stationary,Beta-alanine,11.5,0.0,1.0,47,0.0,11.5,11.5
-83,L-alanine,Exponential,Beta-alanine,11.5,0.0,1.0,47,0.0,11.5,11.5
-84,L-alanine,Stationary,Cis-aconitate,10.74069,7.465974303235401,1.0,288,3.809170562875205,10.74069,10.74069
-85,L-alanine,Exponential,Cis-aconitate,10.74069,7.465974303235401,1.0,288,3.809170562875205,10.74069,10.74069
-86,L-alanine,Stationary,Creatine,,,,,,,
-87,L-alanine,Exponential,Creatine,,,,,,,
-88,L-alanine,Stationary,Deoxycarnitine (deoxy-c0),,,,,,,
-89,L-alanine,Exponential,Deoxycarnitine (deoxy-c0),,,,,,,
-90,L-alanine,Stationary,Gamma-aminobutyrate,43.6,0.0,1.0,86,0.0,43.6,43.6
-91,L-alanine,Exponential,Gamma-aminobutyrate,43.6,0.0,1.0,86,0.0,43.6,43.6
-92,L-alanine,Stationary,Glutamate,4270.0,0.0,1.0,97,0.0,4270.0,4270.0
-93,L-alanine,Exponential,Glutamate,7936.29954,3259.320788004924,1.0,290,1662.9187693902675,7936.29954,7936.29954
-94,L-alanine,Stationary,Glutamine,494.0,0.0,1.0,103,0.0,494.0,494.0
-95,L-alanine,Exponential,Glutamine,2556.3666666666663,1763.3840725685498,5.0,"102,105,107,108,106",899.6857513104845,383.5,4950.0
-96,L-alanine,Stationary,Glutarylcarnitine (c5-dc),,,,,,,
-97,L-alanine,Exponential,Glutarylcarnitine (c5-dc),,,,,,,
-98,L-alanine,Stationary,Glycine,318.0,0.0,1.0,113,0.0,318.0,318.0
-99,L-alanine,Exponential,Glycine,427.9166666666667,69.41666666666659,2.0,"116,115",35.41666666666663,392.50000000000006,463.3333333333333
-100,L-alanine,Stationary,Hexoses,,,,,,,
-101,L-alanine,Exponential,Hexoses,,,,,,,
-102,L-alanine,Stationary,Isocitrate,14.29277777777778,21.971615244870872,3.0,"129,128,127",11.210007777995344,2.433333333333333,36.7
-103,L-alanine,Exponential,Isocitrate,14.29277777777778,21.971615244870872,3.0,"129,128,127",11.210007777995344,2.433333333333333,36.7
-104,L-alanine,Stationary,Isoleucine,33.1,0.0,1.0,133,0.0,33.1,33.1
-105,L-alanine,Exponential,Isoleucine,125.81000000000002,70.35794078522892,5.0,"139,138,136,135,134",35.8969085638923,21.083333333333332,219.0
-106,L-alanine,Stationary,Lactate,,,,,,,
-107,L-alanine,Exponential,Lactate,,,,,,,
-108,L-alanine,Stationary,Leucine,120.0,0.0,1.0,142,0.0,120.0,120.0
-109,L-alanine,Exponential,Leucine,146.364705,131.56056030122022,1.0,291,67.12273484756133,146.364705,146.364705
-110,L-alanine,Stationary,Lysine,361.0,0.0,1.0,153,0.0,361.0,361.0
-111,L-alanine,Exponential,Lysine,512.2333333333333,145.19448109499356,5.0,"149,150,151,152,156",74.0788168852008,327.50000000000006,762.0
-112,L-alanine,Stationary,Malate,1832.8666666666668,1334.0284107476039,5.0,"161,160,159,158,157",680.6267401773489,341.8333333333333,3450.0
-113,L-alanine,Exponential,Malate,1832.8666666666668,1334.0284107476039,5.0,"161,160,159,158,157",680.6267401773489,341.8333333333333,3450.0
-114,L-alanine,Stationary,Methionine,30.3,0.0,1.0,171,0.0,30.3,30.3
-115,L-alanine,Exponential,Methionine,98.74666666666667,31.82669830008203,5.0,"166,165,164,163,168",16.238111377592872,65.9,145.0
-116,L-alanine,Stationary,NAD,2171.5,2701.8599999999997,2.0,"178,174",1378.4999999999998,793.0,3550.0
-117,L-alanine,Exponential,NAD,2099.666666666667,1246.027768978953,5.0,"172,179,177,176,173",635.7284535606902,581.6666666666666,4080.0
-118,L-alanine,Stationary,Phenylalanine,65.7,0.0,1.0,188,0.0,65.7,65.7
-119,L-alanine,Exponential,Phenylalanine,56.06,40.75560886476582,5.0,"183,185,190,189,184",20.793677992227458,18.2,134.76666666666668
-120,L-alanine,Stationary,Pipecolic acid,6.05,0.0,1.0,199,0.0,6.05,6.05
-121,L-alanine,Exponential,Pipecolic acid,6.05,0.0,1.0,199,0.0,6.05,6.05
-122,L-alanine,Stationary,Proline,143.0,0.0,1.0,206,0.0,143.0,143.0
-123,L-alanine,Exponential,Proline,283.83333333333337,141.71784935803487,5.0,"200,202,203,207,208",72.30502518267085,91.83333333333334,451.0
-124,L-alanine,Stationary,Pyruvate,8050.0,0.0,1.0,213,0.0,8050.0,8050.0
-125,L-alanine,Exponential,Pyruvate,8050.0,0.0,1.0,213,0.0,8050.0,8050.0
-126,L-alanine,Stationary,Sebacoyl-l-carnitine (c10-dc),,,,,,,
-127,L-alanine,Exponential,Sebacoyl-l-carnitine (c10-dc),,,,,,,
-128,L-alanine,Stationary,Serine,343.0,0.0,1.0,231,0.0,343.0,343.0
-129,L-alanine,Exponential,Serine,171.63333333333335,84.79082480237275,5.0,"233,229,230,234,236",43.26062489916977,68.0,280.8333333333334
-130,L-alanine,Stationary,Succinate,1251.0666666666668,483.1952982552707,5.0,"239,240,242,243,244",246.5282133955463,569.0,1841.6666666666667
-131,L-alanine,Exponential,Succinate,1251.0666666666668,483.1952982552707,5.0,"239,240,242,243,244",246.5282133955463,569.0,1841.6666666666667
-132,L-alanine,Stationary,Trans-aconitate,42.05,11.564000000000004,2.0,"252,251",5.900000000000002,36.15,47.95
-133,L-alanine,Exponential,Trans-aconitate,42.05,11.564000000000004,2.0,"252,251",5.900000000000002,36.15,47.95
-134,L-alanine,Stationary,Tyrosine,37.8,0.0,1.0,262,0.0,37.8,37.8
-135,L-alanine,Exponential,Tyrosine,91.20333333333333,46.3701307052048,5.0,"261,263,264,265,266",23.658229951635104,28.9,155.0
-136,L-alanine,Stationary,Valine,181.0,0.0,1.0,275,0.0,181.0,181.0
-137,L-alanine,Exponential,Valine,1549.6,1427.7234997211467,5.0,"270,272,273,274,278",728.4303570005851,157.5,4020.0
-138,L-alanine,Stationary,Citrate,5333.833333333333,8160.724914638406,5.0,"57,54,53,52,51",4163.635160529799,165.83333333333334,21900.0
-139,L-alanine,Exponential,Citrate,5333.833333333333,8160.724914638406,5.0,"57,54,53,52,51",4163.635160529799,165.83333333333334,21900.0
-140,L-alanine,Stationary,Acetate,658.0,25.0,1.0,4,12.755102040816327,658.0,658.0
-141,L-alanine,Exponential,Acetate,658.0,25.0,1.0,4,12.755102040816327,658.0,658.0
-142,L-alanine,Stationary,Formate,184.0,25.0,1.0,64,12.755102040816327,184.0,184.0
-143,L-alanine,Exponential,Formate,184.0,25.0,1.0,64,12.755102040816327,184.0,184.0
-144,L-alanine,Stationary,Propanoate,,,,,,,
-145,L-alanine,Exponential,Propanoate,,,,,,,
-146,L-alanine,Stationary,Pyruvate (gc-ms),,,,,,,
-147,L-alanine,Exponential,Pyruvate (gc-ms),,,,,,,
-148,Galactose,Stationary,Alanine,358.0,0.0,1.0,10,0.0,358.0,358.0
-149,Galactose,Exponential,Alanine,1197.9,825.7523757037847,5.0,"16,15,13,12,14",421.302232501931,349.1666666666667,2550.0
-150,Galactose,Stationary,Alpha-aminoadipate,,,,,,,
-151,Galactose,Exponential,Alpha-aminoadipate,,,,,,,
-152,Galactose,Stationary,Alpha-aminobutyrate,,,,,,,
-153,Galactose,Exponential,Alpha-aminobutyrate,,,,,,,
-154,Galactose,Stationary,Asparagine,103.0,0.0,1.0,34,0.0,103.0,103.0
-155,Galactose,Exponential,Asparagine,447.5333333333333,314.725535684313,5.0,"37,36,35,32,31",160.5742529001597,105.25,970.0
-156,Galactose,Stationary,Aspartate,337.0,0.0,1.0,45,0.0,337.0,337.0
-157,Galactose,Exponential,Aspartate,153.6165675,33.6323573605283,1.0,282,17.159366000269543,153.6165675,153.6165675
-158,Galactose,Stationary,Beta-alanine,11.5,0.0,1.0,47,0.0,11.5,11.5
-159,Galactose,Exponential,Beta-alanine,11.5,0.0,1.0,47,0.0,11.5,11.5
-160,Galactose,Stationary,Cis-aconitate,10.57671,3.341001848503557,1.0,283,1.7045927798487537,10.57671,10.57671
-161,Galactose,Exponential,Cis-aconitate,10.57671,3.341001848503557,1.0,283,1.7045927798487537,10.57671,10.57671
-162,Galactose,Stationary,Creatine,,,,,,,
-163,Galactose,Exponential,Creatine,,,,,,,
-164,Galactose,Stationary,Deoxycarnitine (deoxy-c0),,,,,,,
-165,Galactose,Exponential,Deoxycarnitine (deoxy-c0),,,,,,,
-166,Galactose,Stationary,Gamma-aminobutyrate,43.6,0.0,1.0,86,0.0,43.6,43.6
-167,Galactose,Exponential,Gamma-aminobutyrate,43.6,0.0,1.0,86,0.0,43.6,43.6
-168,Galactose,Stationary,Glutamate,4270.0,0.0,1.0,97,0.0,4270.0,4270.0
-169,Galactose,Exponential,Glutamate,6146.60211,452.83834001478976,1.0,285,231.03996939530091,6146.60211,6146.60211
-170,Galactose,Stationary,Glutamine,494.0,0.0,1.0,103,0.0,494.0,494.0
-171,Galactose,Exponential,Glutamine,2556.3666666666663,1763.3840725685498,5.0,"102,105,107,108,106",899.6857513104845,383.5,4950.0
-172,Galactose,Stationary,Glutarylcarnitine (c5-dc),,,,,,,
-173,Galactose,Exponential,Glutarylcarnitine (c5-dc),,,,,,,
-174,Galactose,Stationary,Hexoses,,,,,,,
-175,Galactose,Exponential,Hexoses,,,,,,,
-176,Galactose,Stationary,Isocitrate,14.29277777777778,21.971615244870872,3.0,"129,128,127",11.210007777995344,2.433333333333333,36.7
-177,Galactose,Exponential,Isocitrate,14.29277777777778,21.971615244870872,3.0,"129,128,127",11.210007777995344,2.433333333333333,36.7
-178,Galactose,Stationary,Isoleucine,33.1,0.0,1.0,133,0.0,33.1,33.1
-179,Galactose,Exponential,Isoleucine,125.81000000000002,70.35794078522892,5.0,"139,138,136,135,134",35.8969085638923,21.083333333333332,219.0
-180,Galactose,Stationary,Lactate,,,,,,,
-181,Galactose,Exponential,Lactate,,,,,,,
-182,Galactose,Stationary,Leucine,120.0,0.0,1.0,142,0.0,120.0,120.0
-183,Galactose,Exponential,Leucine,55.12492125,26.927659621176396,1.0,286,13.738601847538979,55.12492125,55.12492125
-184,Galactose,Stationary,Lysine,361.0,0.0,1.0,153,0.0,361.0,361.0
-185,Galactose,Exponential,Lysine,512.2333333333333,145.19448109499356,5.0,"149,150,151,152,156",74.0788168852008,327.50000000000006,762.0
-186,Galactose,Stationary,Malate,1832.8666666666668,1334.0284107476039,5.0,"161,160,159,158,157",680.6267401773489,341.8333333333333,3450.0
-187,Galactose,Exponential,Malate,1832.8666666666668,1334.0284107476039,5.0,"161,160,159,158,157",680.6267401773489,341.8333333333333,3450.0
-188,Galactose,Stationary,Methionine,30.3,0.0,1.0,171,0.0,30.3,30.3
-189,Galactose,Exponential,Methionine,98.74666666666667,31.82669830008203,5.0,"166,165,164,163,168",16.238111377592872,65.9,145.0
-190,Galactose,Stationary,NAD,2171.5,2701.8599999999997,2.0,"178,174",1378.4999999999998,793.0,3550.0
-191,Galactose,Exponential,NAD,2099.666666666667,1246.027768978953,5.0,"172,179,177,176,173",635.7284535606902,581.6666666666666,4080.0
-192,Galactose,Stationary,Phenylalanine,65.7,0.0,1.0,188,0.0,65.7,65.7
-193,Galactose,Exponential,Phenylalanine,56.06,40.75560886476582,5.0,"183,185,190,189,184",20.793677992227458,18.2,134.76666666666668
-194,Galactose,Stationary,Pipecolic acid,6.05,0.0,1.0,199,0.0,6.05,6.05
-195,Galactose,Exponential,Pipecolic acid,6.05,0.0,1.0,199,0.0,6.05,6.05
-196,Galactose,Stationary,Proline,143.0,0.0,1.0,206,0.0,143.0,143.0
-197,Galactose,Exponential,Proline,283.83333333333337,141.71784935803487,5.0,"200,202,203,207,208",72.30502518267085,91.83333333333334,451.0
-198,Galactose,Stationary,Pyruvate,8050.0,0.0,1.0,213,0.0,8050.0,8050.0
-199,Galactose,Exponential,Pyruvate,8050.0,0.0,1.0,213,0.0,8050.0,8050.0
-200,Galactose,Stationary,Sebacoyl-l-carnitine (c10-dc),,,,,,,
-201,Galactose,Exponential,Sebacoyl-l-carnitine (c10-dc),,,,,,,
-202,Galactose,Stationary,Serine,343.0,0.0,1.0,231,0.0,343.0,343.0
-203,Galactose,Exponential,Serine,171.63333333333335,84.79082480237275,5.0,"233,229,230,234,236",43.26062489916977,68.0,280.8333333333334
-204,Galactose,Stationary,Succinate,1251.0666666666668,483.1952982552707,5.0,"239,240,242,243,244",246.5282133955463,569.0,1841.6666666666667
-205,Galactose,Exponential,Succinate,1251.0666666666668,483.1952982552707,5.0,"239,240,242,243,244",246.5282133955463,569.0,1841.6666666666667
-206,Galactose,Stationary,Trans-aconitate,42.05,11.564000000000004,2.0,"252,251",5.900000000000002,36.15,47.95
-207,Galactose,Exponential,Trans-aconitate,42.05,11.564000000000004,2.0,"252,251",5.900000000000002,36.15,47.95
-208,Galactose,Stationary,Tyrosine,37.8,0.0,1.0,262,0.0,37.8,37.8
-209,Galactose,Exponential,Tyrosine,91.20333333333333,46.3701307052048,5.0,"261,263,264,265,266",23.658229951635104,28.9,155.0
-210,Galactose,Stationary,Valine,181.0,0.0,1.0,275,0.0,181.0,181.0
-211,Galactose,Exponential,Valine,1549.6,1427.7234997211467,5.0,"270,272,273,274,278",728.4303570005851,157.5,4020.0
-212,Galactose,Stationary,Citrate,5333.833333333333,8160.724914638406,5.0,"57,54,53,52,51",4163.635160529799,165.83333333333334,21900.0
-213,Galactose,Exponential,Citrate,5333.833333333333,8160.724914638406,5.0,"57,54,53,52,51",4163.635160529799,165.83333333333334,21900.0
-214,Galactose,Stationary,Acetate,658.0,25.0,1.0,4,12.755102040816327,658.0,658.0
-215,Galactose,Exponential,Acetate,658.0,25.0,1.0,4,12.755102040816327,658.0,658.0
-216,Galactose,Stationary,Formate,184.0,25.0,1.0,64,12.755102040816327,184.0,184.0
-217,Galactose,Exponential,Formate,184.0,25.0,1.0,64,12.755102040816327,184.0,184.0
-218,Galactose,Stationary,Propanoate,,,,,,,
-219,Galactose,Exponential,Propanoate,,,,,,,
-220,Galactose,Stationary,Pyruvate (gc-ms),,,,,,,
-221,Galactose,Exponential,Pyruvate (gc-ms),,,,,,,
-222,Glucose,Stationary,Glucose-6-phosphate,200.0,39.2,2.0,"92,90",20.0,180.0,220.0
-223,Glucose,Exponential,Glucose-6-phosphate,589.4444444444445,167.78431628171765,3.0,"91,87,93",85.60424300087635,418.3333333333333,680.0
-224,Glucose,Stationary,Fructose-6-phosphate,250.0,19.0,1.0,75,9.693877551020408,250.0,250.0
-225,Glucose,Exponential,Fructose-6-phosphate,398.4444444444444,148.3760051647232,3.0,"76,78,77",75.7020434513894,290.0,544.1666666666666
-226,Glucose,Stationary,"Fructose-1,6-bisphosphate",1647.35,3219.5939999999996,2.0,"65,66",1642.6499999999999,4.7,3290.0
-227,Glucose,Exponential,"Fructose-1,6-bisphosphate",3718.673333333333,5639.313048712077,5.0,"71,73,68,67,70",2877.200535057182,85.2,15200.0
-228,Glucose,Stationary,Dihydroxyacetonephosphate,,,,,,,
-229,Glucose,Exponential,Dihydroxyacetonephosphate,,,,,,,
-230,Glucose,Stationary,Glyceraldehyde-3-phosphate,271.0,32.999999999999986,1.0,111,16.836734693877546,271.0,271.0
-231,Glucose,Exponential,Glyceraldehyde-3-phosphate,271.0,32.999999999999986,1.0,111,16.836734693877546,271.0,271.0
-232,Glucose,Stationary,2/3-phosphoglycerate,,,,,,,
-233,Glucose,Exponential,2/3-phosphoglycerate,,,,,,,
-234,Glucose,Stationary,Phosphoenolpyruvate,10.9,0.0,1.0,194,0.0,10.9,10.9
-235,Glucose,Exponential,Phosphoenolpyruvate,121.9375,48.30284178770974,4.0,"198,197,195,193",24.644307034545786,70.0,184.0
-236,Glucose,Stationary,Ribose-5-phosphate,277.72222222222223,160.92551073381208,3.0,"220,219,218",82.10485241521025,174.83333333333334,440.0
-237,Glucose,Exponential,Ribose-5-phosphate,277.72222222222223,160.92551073381208,3.0,"220,219,218",82.10485241521025,174.83333333333334,440.0
-238,Glucose,Stationary,Ribu-/Xylulose-5-phosphate,,,,,,,
-239,Glucose,Exponential,Ribu-/Xylulose-5-phosphate,,,,,,,
-240,Glucose,Stationary,Erythrose-4-phosphate,2.8,0.0,1.0,62,0.0,2.8,2.8
-241,Glucose,Exponential,Erythrose-4-phosphate,25.15,46.745999999999995,2.0,"61,63",23.849999999999998,1.3,49.0
-242,Glucose,Stationary,Citrate,816.3888888888888,1124.276195855761,3.0,"53,52,51",573.6103040080413,165.83333333333334,1960.0
-243,Glucose,Exponential,Citrate,816.3888888888888,1124.276195855761,3.0,"53,52,51",573.6103040080413,165.83333333333334,1960.0
-244,Glucose,Stationary,Cis-aconitate,16.1,0.0,2.0,"49,48",0.0,16.1,16.1
-245,Glucose,Exponential,Cis-aconitate,16.1,0.0,2.0,"49,48",0.0,16.1,16.1
-246,Glucose,Stationary,Isocitrate,14.29277777777778,21.971615244870872,3.0,"129,128,127",11.210007777995344,2.433333333333333,36.7
-247,Glucose,Exponential,Isocitrate,14.29277777777778,21.971615244870872,3.0,"129,128,127",11.210007777995344,2.433333333333333,36.7
-248,Glucose,Stationary,Oxaloacetate,15.2435,28.922739999999997,2.0,"182,181",14.756499999999999,0.4869999999999999,30.0
-249,Glucose,Exponential,Oxaloacetate,15.2435,28.922739999999997,2.0,"182,181",14.756499999999999,0.4869999999999999,30.0
-250,Glucose,Stationary,Glutamate,4270.0,0.0,1.0,97,0.0,4270.0,4270.0
-251,Glucose,Exponential,Glutamate,33484.444444444445,61265.978342721864,3.0,"94,100,95",31258.15221567442,1961.6666666666667,96000.0
-252,Glucose,Stationary,L-serine,,,,,,,
-253,Glucose,Exponential,L-serine,,,,,,,
-254,Glucose,Stationary,Aspartate,337.0,0.0,1.0,45,0.0,337.0,337.0
-255,Glucose,Exponential,Aspartate,1534.3999999999999,2641.802478160137,3.0,"40,43,41",1347.8584072245596,164.86666666666667,4230.0
-256,Glucose,Stationary,Threonine,147.0,0.0,1.0,247,0.0,147.0,147.0
-257,Glucose,Exponential,Threonine,211.0,31.77074755179678,3.0,"245,250,248",16.209565077447337,179.0,231.50000000000003
-258,Glucose,Stationary,Homoserine,16.1,0.0,1.0,126,0.0,16.1,16.1
-259,Glucose,Exponential,Homoserine,16.1,0.0,1.0,126,0.0,16.1,16.1
-260,Glucose,Stationary,Tyrosine,37.8,0.0,1.0,262,0.0,37.8,37.8
-261,Glucose,Exponential,Tyrosine,105.47222222222223,76.11140399716558,3.0,"261,265,266",38.8323489781457,28.9,155.0
-262,Glucose,Stationary,Glycine,318.0,0.0,1.0,113,0.0,318.0,318.0
-263,Glucose,Exponential,Glycine,427.9166666666667,69.41666666666659,2.0,"116,115",35.41666666666663,392.50000000000006,463.3333333333333
-264,Glucose,Stationary,Proline,143.0,0.0,1.0,206,0.0,143.0,143.0
-265,Glucose,Exponential,Proline,202.3888888888889,180.2797868472198,3.0,"202,203,207",91.97948308531623,91.83333333333334,385.0
-266,Glucose,Stationary,Alanine,358.0,0.0,1.0,10,0.0,358.0,358.0
-267,Glucose,Exponential,Alanine,1113.5,1408.7355350626135,3.0,"16,13,14",718.7426199299049,349.1666666666667,2550.0
-268,Glucose,Stationary,Methionine,30.3,0.0,1.0,171,0.0,30.3,30.3
-269,Glucose,Exponential,Methionine,99.6111111111111,45.806418454239996,3.0,"166,165,168",23.370621660326528,67.25,145.0
-270,Glucose,Stationary,Valine,181.0,0.0,1.0,275,0.0,181.0,181.0
-271,Glucose,Exponential,Valine,1462.6666666666667,2506.3660671799535,3.0,"270,272,278",1278.7581975407927,157.5,4020.0
-272,Glucose,Stationary,Phenylalanine,65.7,0.0,1.0,188,0.0,65.7,65.7
-273,Glucose,Exponential,Phenylalanine,70.26666666666667,67.06988814441027,3.0,"183,185,184",34.21933068592361,18.2,134.76666666666668
-274,Glucose,Stationary,Isoleucine,33.1,0.0,1.0,133,0.0,33.1,33.1
-275,Glucose,Exponential,Isoleucine,79.85000000000001,74.86252388161867,3.0,"138,135,134",38.195165245723814,21.083333333333332,151.5
-276,Glucose,Stationary,Leucine,120.0,0.0,1.0,142,0.0,120.0,120.0
-277,Glucose,Exponential,Leucine,141.08333333333331,58.375692842267945,3.0,"140,146,147",29.783516756259157,85.08333333333333,186.66666666666663
-278,Glucose,Stationary,Tryptophan,9.39,0.0,1.0,255,0.0,9.39,9.39
-279,Glucose,Exponential,Tryptophan,22.605555555555554,11.948326722047321,3.0,"257,260,258",6.096085062269042,12.1,33.21666666666666
-280,Glucose,Stationary,Histidine,52.4,0.0,1.0,117,0.0,52.4,52.4
-281,Glucose,Exponential,Histidine,72.54444444444444,11.040565500367336,3.0,"122,124,125",5.632941581820069,66.25,83.78333333333335
-282,Glucose,Stationary,Arginine,57.5,0.0,1.0,28,0.0,57.5,57.5
-283,Glucose,Exponential,Arginine,306.0555555555556,259.0832807714706,3.0,"26,29,30",132.18534733238295,150.83333333333334,569.0
-284,Glucose,Stationary,Pyruvate,8050.0,0.0,1.0,213,0.0,8050.0,8050.0
-285,Glucose,Exponential,Pyruvate,8050.0,0.0,1.0,213,0.0,8050.0,8050.0
-286,Glucose,Stationary,Orotate,,,,,,,
-287,Glucose,Exponential,Orotate,,,,,,,
-288,Glucose,Stationary,Fumarate,214.2777777777778,99.74240053356213,3.0,"81,80,83",50.888979864062314,115.0,283.33333333333337
-289,Glucose,Exponential,Fumarate,214.2777777777778,99.74240053356213,3.0,"81,80,83",50.888979864062314,115.0,283.33333333333337
-290,Glucose,Stationary,Uracil,1013.0,99.0,1.0,269,50.51020408163265,1013.0,1013.0
-291,Glucose,Exponential,Uracil,1013.0,99.0,1.0,269,50.51020408163265,1013.0,1013.0
-292,Glucose,Stationary,Alpha-ketoglutarate,234.2444444444444,204.61805251278162,3.0,"23,24,19",104.39696556774572,126.4,443.0
-293,Glucose,Exponential,Alpha-ketoglutarate,234.2444444444444,204.61805251278162,3.0,"23,24,19",104.39696556774572,126.4,443.0
-294,Glucose,Stationary,Acetate,658.0,25.0,1.0,4,12.755102040816327,658.0,658.0
-295,Glucose,Exponential,Acetate,658.0,25.0,1.0,4,12.755102040816327,658.0,658.0
-296,D-Fructose,Unknown,Acetic acid,,,,,,,
-297,D-Fructose,Unknown,Acetic acid,,,,,,,
-298,D-Fructose,Unknown,Acetic acid,,,,,,,
-299,D-Fructose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-300,D-Fructose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-301,D-Fructose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-302,D-Fructose,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-303,D-Fructose,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-304,D-Fructose,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-305,D-Fructose,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-306,D-Fructose,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-307,D-Fructose,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-308,D-Fructose,Unknown,Butyric acid,,,,,,,
-309,D-Fructose,Unknown,Butyric acid,,,,,,,
-310,D-Fructose,Unknown,Butyric acid,,,,,,,
-311,D-Fructose,Unknown,Citric acid,,,,,,,
-312,D-Fructose,Unknown,Citric acid,,,,,,,
-313,D-Fructose,Unknown,Citric acid,,,,,,,
-314,D-Fructose,Unknown,Fumaric acid,,,,,,,
-315,D-Fructose,Unknown,Fumaric acid,,,,,,,
-316,D-Fructose,Unknown,Fumaric acid,,,,,,,
-317,D-Fructose,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-318,D-Fructose,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-319,D-Fructose,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-320,D-Fructose,Unknown,Hippuric acid,,,,,,,
-321,D-Fructose,Unknown,Hippuric acid,,,,,,,
-322,D-Fructose,Unknown,Hippuric acid,,,,,,,
-323,D-Fructose,Unknown,Lactic acid,,,,,,,
-324,D-Fructose,Unknown,Lactic acid,,,,,,,
-325,D-Fructose,Unknown,Lactic acid,,,,,,,
-326,D-Fructose,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-327,D-Fructose,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-328,D-Fructose,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-329,D-Fructose,Unknown,Propionic acid,,,,,,,
-330,D-Fructose,Unknown,Propionic acid,,,,,,,
-331,D-Fructose,Unknown,Propionic acid,,,,,,,
-332,D-Fructose,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-333,D-Fructose,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-334,D-Fructose,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-335,D-Fructose,Unknown,Pyruvic acid,,,,,,,
-336,D-Fructose,Unknown,Pyruvic acid,,,,,,,
-337,D-Fructose,Unknown,Pyruvic acid,,,,,,,
-338,D-Fructose,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-339,D-Fructose,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-340,D-Fructose,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-341,D-Fructose,Unknown,Succinic acid,,,,,,,
-342,D-Fructose,Unknown,Succinic acid,,,,,,,
-343,D-Fructose,Unknown,Succinic acid,,,,,,,
-344,D-Fructose,Unknown,Valeric acid,,,,,,,
-345,D-Fructose,Unknown,Valeric acid,,,,,,,
-346,D-Fructose,Unknown,Valeric acid,,,,,,,
-347,D-Fructose,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-348,D-Fructose,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-349,D-Fructose,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-350,D-Fructose,Unknown,alpha-Ketoglutaric acid,,,,,,,
-351,D-Fructose,Unknown,alpha-Ketoglutaric acid,,,,,,,
-352,D-Fructose,Unknown,alpha-Ketoglutaric acid,,,,,,,
-353,D-Fructose,Unknown,beta-Hydroxybutyric acid,,,,,,,
-354,D-Fructose,Unknown,beta-Hydroxybutyric acid,,,,,,,
-355,D-Fructose,Unknown,beta-Hydroxybutyric acid,,,,,,,
-356,D-Galactose,Unknown,Acetic acid,,,,,,,
-357,D-Galactose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-358,D-Galactose,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-359,D-Galactose,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-360,D-Galactose,Unknown,Butyric acid,,,,,,,
-361,D-Galactose,Unknown,Citric acid,,,,,,,
-362,D-Galactose,Unknown,Fumaric acid,,,,,,,
-363,D-Galactose,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-364,D-Galactose,Unknown,Hippuric acid,,,,,,,
-365,D-Galactose,Unknown,Lactic acid,,,,,,,
-366,D-Galactose,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-367,D-Galactose,Unknown,Propionic acid,,,,,,,
-368,D-Galactose,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-369,D-Galactose,Unknown,Pyruvic acid,,,,,,,
-370,D-Galactose,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-371,D-Galactose,Unknown,Succinic acid,,,,,,,
-372,D-Galactose,Unknown,Valeric acid,,,,,,,
-373,D-Galactose,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-374,D-Galactose,Unknown,alpha-Ketoglutaric acid,,,,,,,
-375,D-Galactose,Unknown,beta-Hydroxybutyric acid,,,,,,,
-376,D-Glucose,Unknown,Acetic acid,,,,,,,
-377,D-Glucose,Unknown,Acetic acid,,,,,,,
-378,D-Glucose,Unknown,Acetic acid,,,,,,,
-379,D-Glucose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-380,D-Glucose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-381,D-Glucose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-382,D-Glucose,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-383,D-Glucose,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-384,D-Glucose,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-385,D-Glucose,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-386,D-Glucose,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-387,D-Glucose,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-388,D-Glucose,Unknown,Butyric acid,,,,,,,
-389,D-Glucose,Unknown,Butyric acid,,,,,,,
-390,D-Glucose,Unknown,Butyric acid,,,,,,,
-391,D-Glucose,Unknown,Citric acid,,,,,,,
-392,D-Glucose,Unknown,Citric acid,,,,,,,
-393,D-Glucose,Unknown,Citric acid,,,,,,,
-394,D-Glucose,Unknown,Fumaric acid,,,,,,,
-395,D-Glucose,Unknown,Fumaric acid,,,,,,,
-396,D-Glucose,Unknown,Fumaric acid,,,,,,,
-397,D-Glucose,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-398,D-Glucose,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-399,D-Glucose,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-400,D-Glucose,Unknown,Hippuric acid,,,,,,,
-401,D-Glucose,Unknown,Hippuric acid,,,,,,,
-402,D-Glucose,Unknown,Hippuric acid,,,,,,,
-403,D-Glucose,Unknown,Lactic acid,,,,,,,
-404,D-Glucose,Unknown,Lactic acid,,,,,,,
-405,D-Glucose,Unknown,Lactic acid,,,,,,,
-406,D-Glucose,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-407,D-Glucose,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-408,D-Glucose,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-409,D-Glucose,Unknown,Propionic acid,,,,,,,
-410,D-Glucose,Unknown,Propionic acid,,,,,,,
-411,D-Glucose,Unknown,Propionic acid,,,,,,,
-412,D-Glucose,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-413,D-Glucose,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-414,D-Glucose,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-415,D-Glucose,Unknown,Pyruvic acid,,,,,,,
-416,D-Glucose,Unknown,Pyruvic acid,,,,,,,
-417,D-Glucose,Unknown,Pyruvic acid,,,,,,,
-418,D-Glucose,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-419,D-Glucose,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-420,D-Glucose,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-421,D-Glucose,Unknown,Succinic acid,,,,,,,
-422,D-Glucose,Unknown,Succinic acid,,,,,,,
-423,D-Glucose,Unknown,Succinic acid,,,,,,,
-424,D-Glucose,Unknown,Valeric acid,,,,,,,
-425,D-Glucose,Unknown,Valeric acid,,,,,,,
-426,D-Glucose,Unknown,Valeric acid,,,,,,,
-427,D-Glucose,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-428,D-Glucose,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-429,D-Glucose,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-430,D-Glucose,Unknown,alpha-Ketoglutaric acid,,,,,,,
-431,D-Glucose,Unknown,alpha-Ketoglutaric acid,,,,,,,
-432,D-Glucose,Unknown,alpha-Ketoglutaric acid,,,,,,,
-433,D-Glucose,Unknown,beta-Hydroxybutyric acid,,,,,,,
-434,D-Glucose,Unknown,beta-Hydroxybutyric acid,,,,,,,
-435,D-Glucose,Unknown,beta-Hydroxybutyric acid,,,,,,,
-436,D-Ribose,Unknown,Acetic acid,,,,,,,
-437,D-Ribose,Unknown,Acetic acid,,,,,,,
-438,D-Ribose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-439,D-Ribose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-440,D-Ribose,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-441,D-Ribose,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-442,D-Ribose,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-443,D-Ribose,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-444,D-Ribose,Unknown,Butyric acid,,,,,,,
-445,D-Ribose,Unknown,Butyric acid,,,,,,,
-446,D-Ribose,Unknown,Citric acid,,,,,,,
-447,D-Ribose,Unknown,Citric acid,,,,,,,
-448,D-Ribose,Unknown,Fumaric acid,,,,,,,
-449,D-Ribose,Unknown,Fumaric acid,,,,,,,
-450,D-Ribose,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-451,D-Ribose,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-452,D-Ribose,Unknown,Hippuric acid,,,,,,,
-453,D-Ribose,Unknown,Hippuric acid,,,,,,,
-454,D-Ribose,Unknown,Lactic acid,,,,,,,
-455,D-Ribose,Unknown,Lactic acid,,,,,,,
-456,D-Ribose,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-457,D-Ribose,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-458,D-Ribose,Unknown,Propionic acid,,,,,,,
-459,D-Ribose,Unknown,Propionic acid,,,,,,,
-460,D-Ribose,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-461,D-Ribose,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-462,D-Ribose,Unknown,Pyruvic acid,,,,,,,
-463,D-Ribose,Unknown,Pyruvic acid,,,,,,,
-464,D-Ribose,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-465,D-Ribose,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-466,D-Ribose,Unknown,Succinic acid,,,,,,,
-467,D-Ribose,Unknown,Succinic acid,,,,,,,
-468,D-Ribose,Unknown,Valeric acid,,,,,,,
-469,D-Ribose,Unknown,Valeric acid,,,,,,,
-470,D-Ribose,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-471,D-Ribose,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-472,D-Ribose,Unknown,alpha-Ketoglutaric acid,,,,,,,
-473,D-Ribose,Unknown,alpha-Ketoglutaric acid,,,,,,,
-474,D-Ribose,Unknown,beta-Hydroxybutyric acid,,,,,,,
-475,D-Ribose,Unknown,beta-Hydroxybutyric acid,,,,,,,
-476,Glycerol,Unknown,Acetic acid,,,,,,,
-477,Glycerol,Unknown,Acetic acid,,,,,,,
-478,Glycerol,Unknown,Acetic acid,,,,,,,
-479,Glycerol,Unknown,Acetyl-ornithine,398.0,1321.9999999999998,1.0,9,674.4897959183672,398.0,398.0
-480,Glycerol,Unknown,Acetyl-ornithine,398.0,1321.9999999999998,1.0,9,674.4897959183672,398.0,398.0
-481,Glycerol,Unknown,Acetyl-ornithine,398.0,1321.9999999999998,1.0,9,674.4897959183672,398.0,398.0
-482,Glycerol,Unknown,Alanine,1770.0,319.9999999999998,1.0,15,163.26530612244886,1770.0,1770.0
-483,Glycerol,Unknown,Alanine,1770.0,319.9999999999998,1.0,15,163.26530612244886,1770.0,1770.0
-484,Glycerol,Unknown,Alanine,1770.0,319.9999999999998,1.0,15,163.26530612244886,1770.0,1770.0
-485,Glycerol,Unknown,Asparagine,970.0,579.9999999999999,1.0,36,295.91836734693874,970.0,970.0
-486,Glycerol,Unknown,Asparagine,970.0,579.9999999999999,1.0,36,295.91836734693874,970.0,970.0
-487,Glycerol,Unknown,Asparagine,970.0,579.9999999999999,1.0,36,295.91836734693874,970.0,970.0
-488,Glycerol,Unknown,Butyric acid,,,,,,,
-489,Glycerol,Unknown,Butyric acid,,,,,,,
-490,Glycerol,Unknown,Butyric acid,,,,,,,
-491,Glycerol,Unknown,Citric acid,,,,,,,
-492,Glycerol,Unknown,Citric acid,,,,,,,
-493,Glycerol,Unknown,Citric acid,,,,,,,
-494,Glycerol,Unknown,Fumaric acid,,,,,,,
-495,Glycerol,Unknown,Fumaric acid,,,,,,,
-496,Glycerol,Unknown,Fumaric acid,,,,,,,
-497,Glycerol,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-498,Glycerol,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-499,Glycerol,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-500,Glycerol,Unknown,Hippuric acid,,,,,,,
-501,Glycerol,Unknown,Hippuric acid,,,,,,,
-502,Glycerol,Unknown,Hippuric acid,,,,,,,
-503,Glycerol,Unknown,Lactic acid,,,,,,,
-504,Glycerol,Unknown,Lactic acid,,,,,,,
-505,Glycerol,Unknown,Lactic acid,,,,,,,
-506,Glycerol,Unknown,Methionine,129.0,39.0,1.0,164,19.89795918367347,129.0,129.0
-507,Glycerol,Unknown,Methionine,129.0,39.0,1.0,164,19.89795918367347,129.0,129.0
-508,Glycerol,Unknown,Methionine,129.0,39.0,1.0,164,19.89795918367347,129.0,129.0
-509,Glycerol,Unknown,Propionic acid,,,,,,,
-510,Glycerol,Unknown,Propionic acid,,,,,,,
-511,Glycerol,Unknown,Propionic acid,,,,,,,
-512,Glycerol,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-513,Glycerol,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-514,Glycerol,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-515,Glycerol,Unknown,Pyruvic acid,,,,,,,
-516,Glycerol,Unknown,Pyruvic acid,,,,,,,
-517,Glycerol,Unknown,Pyruvic acid,,,,,,,
-518,Glycerol,Unknown,Serine,150.0,277.0,1.0,229,141.3265306122449,150.0,150.0
-519,Glycerol,Unknown,Serine,150.0,277.0,1.0,229,141.3265306122449,150.0,150.0
-520,Glycerol,Unknown,Serine,150.0,277.0,1.0,229,141.3265306122449,150.0,150.0
-521,Glycerol,Unknown,Succinic acid,,,,,,,
-522,Glycerol,Unknown,Succinic acid,,,,,,,
-523,Glycerol,Unknown,Succinic acid,,,,,,,
-524,Glycerol,Unknown,Valeric acid,,,,,,,
-525,Glycerol,Unknown,Valeric acid,,,,,,,
-526,Glycerol,Unknown,Valeric acid,,,,,,,
-527,Glycerol,Unknown,Valine,2290.0,789.9999999999999,1.0,273,403.06122448979585,2290.0,2290.0
-528,Glycerol,Unknown,Valine,2290.0,789.9999999999999,1.0,273,403.06122448979585,2290.0,2290.0
-529,Glycerol,Unknown,Valine,2290.0,789.9999999999999,1.0,273,403.06122448979585,2290.0,2290.0
-530,Glycerol,Unknown,alpha-Ketoglutaric acid,,,,,,,
-531,Glycerol,Unknown,alpha-Ketoglutaric acid,,,,,,,
-532,Glycerol,Unknown,alpha-Ketoglutaric acid,,,,,,,
-533,Glycerol,Unknown,beta-Hydroxybutyric acid,,,,,,,
-534,Glycerol,Unknown,beta-Hydroxybutyric acid,,,,,,,
-535,Glycerol,Unknown,beta-Hydroxybutyric acid,,,,,,,
-536,L-Arabinose,Unknown,Acetic acid,,,,,,,
-537,L-Arabinose,Unknown,Acetic acid,,,,,,,
-538,L-Arabinose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-539,L-Arabinose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-540,L-Arabinose,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-541,L-Arabinose,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-542,L-Arabinose,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-543,L-Arabinose,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-544,L-Arabinose,Unknown,Butyric acid,,,,,,,
-545,L-Arabinose,Unknown,Butyric acid,,,,,,,
-546,L-Arabinose,Unknown,Citric acid,,,,,,,
-547,L-Arabinose,Unknown,Citric acid,,,,,,,
-548,L-Arabinose,Unknown,Fumaric acid,,,,,,,
-549,L-Arabinose,Unknown,Fumaric acid,,,,,,,
-550,L-Arabinose,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-551,L-Arabinose,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-552,L-Arabinose,Unknown,Hippuric acid,,,,,,,
-553,L-Arabinose,Unknown,Hippuric acid,,,,,,,
-554,L-Arabinose,Unknown,Lactic acid,,,,,,,
-555,L-Arabinose,Unknown,Lactic acid,,,,,,,
-556,L-Arabinose,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-557,L-Arabinose,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-558,L-Arabinose,Unknown,Propionic acid,,,,,,,
-559,L-Arabinose,Unknown,Propionic acid,,,,,,,
-560,L-Arabinose,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-561,L-Arabinose,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-562,L-Arabinose,Unknown,Pyruvic acid,,,,,,,
-563,L-Arabinose,Unknown,Pyruvic acid,,,,,,,
-564,L-Arabinose,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-565,L-Arabinose,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-566,L-Arabinose,Unknown,Succinic acid,,,,,,,
-567,L-Arabinose,Unknown,Succinic acid,,,,,,,
-568,L-Arabinose,Unknown,Valeric acid,,,,,,,
-569,L-Arabinose,Unknown,Valeric acid,,,,,,,
-570,L-Arabinose,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-571,L-Arabinose,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-572,L-Arabinose,Unknown,alpha-Ketoglutaric acid,,,,,,,
-573,L-Arabinose,Unknown,alpha-Ketoglutaric acid,,,,,,,
-574,L-Arabinose,Unknown,beta-Hydroxybutyric acid,,,,,,,
-575,L-Arabinose,Unknown,beta-Hydroxybutyric acid,,,,,,,
-576,L-Malate,Unknown,Acetic acid,,,,,,,
-577,L-Malate,Unknown,Acetic acid,,,,,,,
-578,L-Malate,Unknown,Acetic acid,,,,,,,
-579,L-Malate,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-580,L-Malate,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-581,L-Malate,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-582,L-Malate,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-583,L-Malate,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-584,L-Malate,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-585,L-Malate,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-586,L-Malate,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-587,L-Malate,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-588,L-Malate,Unknown,Butyric acid,,,,,,,
-589,L-Malate,Unknown,Butyric acid,,,,,,,
-590,L-Malate,Unknown,Butyric acid,,,,,,,
-591,L-Malate,Unknown,Citric acid,,,,,,,
-592,L-Malate,Unknown,Citric acid,,,,,,,
-593,L-Malate,Unknown,Citric acid,,,,,,,
-594,L-Malate,Unknown,Fumaric acid,,,,,,,
-595,L-Malate,Unknown,Fumaric acid,,,,,,,
-596,L-Malate,Unknown,Fumaric acid,,,,,,,
-597,L-Malate,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-598,L-Malate,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-599,L-Malate,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-600,L-Malate,Unknown,Hippuric acid,,,,,,,
-601,L-Malate,Unknown,Hippuric acid,,,,,,,
-602,L-Malate,Unknown,Hippuric acid,,,,,,,
-603,L-Malate,Unknown,Lactic acid,,,,,,,
-604,L-Malate,Unknown,Lactic acid,,,,,,,
-605,L-Malate,Unknown,Lactic acid,,,,,,,
-606,L-Malate,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-607,L-Malate,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-608,L-Malate,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-609,L-Malate,Unknown,Propionic acid,,,,,,,
-610,L-Malate,Unknown,Propionic acid,,,,,,,
-611,L-Malate,Unknown,Propionic acid,,,,,,,
-612,L-Malate,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-613,L-Malate,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-614,L-Malate,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-615,L-Malate,Unknown,Pyruvic acid,,,,,,,
-616,L-Malate,Unknown,Pyruvic acid,,,,,,,
-617,L-Malate,Unknown,Pyruvic acid,,,,,,,
-618,L-Malate,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-619,L-Malate,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-620,L-Malate,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-621,L-Malate,Unknown,Succinic acid,,,,,,,
-622,L-Malate,Unknown,Succinic acid,,,,,,,
-623,L-Malate,Unknown,Succinic acid,,,,,,,
-624,L-Malate,Unknown,Valeric acid,,,,,,,
-625,L-Malate,Unknown,Valeric acid,,,,,,,
-626,L-Malate,Unknown,Valeric acid,,,,,,,
-627,L-Malate,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-628,L-Malate,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-629,L-Malate,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-630,L-Malate,Unknown,alpha-Ketoglutaric acid,,,,,,,
-631,L-Malate,Unknown,alpha-Ketoglutaric acid,,,,,,,
-632,L-Malate,Unknown,alpha-Ketoglutaric acid,,,,,,,
-633,L-Malate,Unknown,beta-Hydroxybutyric acid,,,,,,,
-634,L-Malate,Unknown,beta-Hydroxybutyric acid,,,,,,,
-635,L-Malate,Unknown,beta-Hydroxybutyric acid,,,,,,,
-636,Pyruvate,Unknown,Acetic acid,,,,,,,
-637,Pyruvate,Unknown,Acetic acid,,,,,,,
-638,Pyruvate,Unknown,Acetic acid,,,,,,,
-639,Pyruvate,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-640,Pyruvate,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-641,Pyruvate,Unknown,Acetyl-ornithine,151.85,171.00743531983244,4.0,"5,7,8,9",87.24869148971042,14.1,398.0
-642,Pyruvate,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-643,Pyruvate,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-644,Pyruvate,Unknown,Alanine,1057.9166666666667,727.9116871256252,6.0,"16,15,10,13,12,14",371.38351383960475,349.1666666666667,2550.0
-645,Pyruvate,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-646,Pyruvate,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-647,Pyruvate,Unknown,Asparagine,390.1111111111111,280.5382816468774,6.0,"37,36,35,32,31,34",143.13177635044767,103.0,970.0
-648,Pyruvate,Unknown,Butyric acid,,,,,,,
-649,Pyruvate,Unknown,Butyric acid,,,,,,,
-650,Pyruvate,Unknown,Butyric acid,,,,,,,
-651,Pyruvate,Unknown,Citric acid,,,,,,,
-652,Pyruvate,Unknown,Citric acid,,,,,,,
-653,Pyruvate,Unknown,Citric acid,,,,,,,
-654,Pyruvate,Unknown,Fumaric acid,,,,,,,
-655,Pyruvate,Unknown,Fumaric acid,,,,,,,
-656,Pyruvate,Unknown,Fumaric acid,,,,,,,
-657,Pyruvate,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-658,Pyruvate,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-659,Pyruvate,Unknown,Glycine,391.2777777777778,82.23879739837436,3.0,"116,115,113",41.95857010121141,318.0,463.3333333333333
-660,Pyruvate,Unknown,Hippuric acid,,,,,,,
-661,Pyruvate,Unknown,Hippuric acid,,,,,,,
-662,Pyruvate,Unknown,Hippuric acid,,,,,,,
-663,Pyruvate,Unknown,Lactic acid,,,,,,,
-664,Pyruvate,Unknown,Lactic acid,,,,,,,
-665,Pyruvate,Unknown,Lactic acid,,,,,,,
-666,Pyruvate,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-667,Pyruvate,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-668,Pyruvate,Unknown,Methionine,87.33888888888889,34.281602868730964,6.0,"171,166,165,164,163,168",17.490613708536205,30.3,145.0
-669,Pyruvate,Unknown,Propionic acid,,,,,,,
-670,Pyruvate,Unknown,Propionic acid,,,,,,,
-671,Pyruvate,Unknown,Propionic acid,,,,,,,
-672,Pyruvate,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-673,Pyruvate,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-674,Pyruvate,Unknown,Putrescine,1626.3325,1171.697735844114,4.0,"211,209,212,210",597.8049672674051,281.0,3060.0
-675,Pyruvate,Unknown,Pyruvic acid,,,,,,,
-676,Pyruvate,Unknown,Pyruvic acid,,,,,,,
-677,Pyruvate,Unknown,Pyruvic acid,,,,,,,
-678,Pyruvate,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-679,Pyruvate,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-680,Pyruvate,Unknown,Serine,200.19444444444446,89.03215617869289,6.0,"233,229,230,231,234,236",45.424569478924944,68.0,343.0
-681,Pyruvate,Unknown,Succinic acid,,,,,,,
-682,Pyruvate,Unknown,Succinic acid,,,,,,,
-683,Pyruvate,Unknown,Succinic acid,,,,,,,
-684,Pyruvate,Unknown,Valeric acid,,,,,,,
-685,Pyruvate,Unknown,Valeric acid,,,,,,,
-686,Pyruvate,Unknown,Valeric acid,,,,,,,
-687,Pyruvate,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-688,Pyruvate,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-689,Pyruvate,Unknown,Valine,1321.5,1248.5217435885263,6.0,"270,272,273,274,278,275",637.0008895859828,157.5,4020.0
-690,Pyruvate,Unknown,alpha-Ketoglutaric acid,,,,,,,
-691,Pyruvate,Unknown,alpha-Ketoglutaric acid,,,,,,,
-692,Pyruvate,Unknown,alpha-Ketoglutaric acid,,,,,,,
-693,Pyruvate,Unknown,beta-Hydroxybutyric acid,,,,,,,
-694,Pyruvate,Unknown,beta-Hydroxybutyric acid,,,,,,,
-695,Pyruvate,Unknown,beta-Hydroxybutyric acid,,,,,,,
+,Carbon source,Phase,Metabolite,Intracellular concentration [uM],Error [uM],SEM [uM],# values,idx concentration sheet,Min,Max,LB,Min LB,UB,Max UB
+0,L-malate,Stationary,Alanine,358.0,0.0,0.0,1.0,15,358.0,358.0,358.0,358.0,358.0,358.0
+1,L-malate,Exponential,Alanine,1197.9,825.7523757037847,421.302232501931,5.0,"18,16,10,13,14",349.1666666666667,2550.0,372.14762429621544,240.52391744077343,2023.6523757037849,2800.0
+2,L-malate,Stationary,Alpha-aminoadipate,,,,,,,,,,,
+3,L-malate,Exponential,Alpha-aminoadipate,,,,,,,,,,,
+4,L-malate,Stationary,Asparagine,103.0,0.0,0.0,1.0,35,103.0,103.0,103.0,103.0,103.0,103.0
+5,L-malate,Exponential,Asparagine,447.5333333333333,314.725535684313,160.5742529001597,5.0,"38,37,33,31,34",105.25,970.0,132.8077976490203,81.47672660141086,762.2588690176462,1550.0
+6,L-malate,Stationary,Aspartate,337.0,0.0,0.0,1.0,45,337.0,337.0,337.0,337.0,337.0,337.0
+7,L-malate,Exponential,Aspartate,4250.639999999999,3617.6811631306687,1845.7556954748309,5.0,"46,42,40,39,43",164.86666666666667,9300.0,632.9588368693308,149.98041254490127,7868.321163130668,16500.0
+8,L-malate,Stationary,Beta-alanine,11.5,0.0,0.0,1.0,47,11.5,11.5,11.5,11.5,11.5,11.5
+9,L-malate,Exponential,Beta-alanine,11.5,0.0,0.0,1.0,47,11.5,11.5,11.5,11.5,11.5,11.5
+10,L-malate,Stationary,Cis-aconitate,21.349999999999998,26.068000000000005,13.300000000000002,3.0,"49,48,50",8.049999999999999,47.95,-4.718000000000007,13.8,47.418000000000006,174.0
+11,L-malate,Exponential,Cis-aconitate,21.349999999999998,26.068000000000005,13.300000000000002,3.0,"49,48,50",8.049999999999999,47.95,-4.718000000000007,13.8,47.418000000000006,174.0
+12,L-malate,Stationary,Creatine,,,,,,,,,,,
+13,L-malate,Exponential,Creatine,,,,,,,,,,,
+14,L-malate,Stationary,Deoxycarnitine (deoxy-c0),,,,,,,,,,,
+15,L-malate,Exponential,Deoxycarnitine (deoxy-c0),,,,,,,,,,,
+16,L-malate,Stationary,Gamma-aminobutyrate,43.6,0.0,0.0,1.0,86,43.6,43.6,43.6,43.6,43.6,43.6
+17,L-malate,Exponential,Gamma-aminobutyrate,43.6,0.0,0.0,1.0,86,43.6,43.6,43.6,43.6,43.6,43.6
+18,L-malate,Stationary,Glutamate,4270.0,0.0,0.0,1.0,101,4270.0,4270.0,4270.0,4270.0,4270.0,4270.0
+19,L-malate,Exponential,Glutamate,58850.666666666664,55639.652895900304,28387.5780081124,5.0,"94,100,98,96,95",1961.6666666666667,149000.0,3211.01377076636,1825.8345971428937,114490.31956256696,168000.0
+20,L-malate,Stationary,Glutamine,494.0,0.0,0.0,1.0,108,494.0,494.0,494.0,494.0,494.0,494.0
+21,L-malate,Exponential,Glutamine,2556.3666666666663,1763.38407256855,899.6857513104846,5.0,"103,105,107,110,106",383.5,4950.0,792.9825940981164,325.1179856462626,4319.750739235216,5630.0
+22,L-malate,Stationary,Glutarate,,,,,,,,,,,
+23,L-malate,Exponential,Glutarate,,,,,,,,,,,
+24,L-malate,Stationary,Glutarylcarnitine (c5-dc),,,,,,,,,,,
+25,L-malate,Exponential,Glutarylcarnitine (c5-dc),,,,,,,,,,,
+26,L-malate,Stationary,Isocitrate,14.292777777777777,21.971615244870872,11.210007777995344,3.0,"129,128,130",2.433333333333333,36.7,-7.678837467093095,4.68e-06,36.26439302264865,4.688263787778018
+27,L-malate,Exponential,Isocitrate,14.292777777777777,21.971615244870872,11.210007777995344,3.0,"129,128,130",2.433333333333333,36.7,-7.678837467093095,4.68e-06,36.26439302264865,4.688263787778018
+28,L-malate,Stationary,Isoleucine,33.1,0.0,0.0,1.0,137,33.1,33.1,33.1,33.1,33.1,33.1
+29,L-malate,Exponential,Isoleucine,125.81000000000002,70.35794078522892,35.8969085638923,5.0,"136,135,134,133,131",21.083333333333332,219.0,55.4520592147711,-1.972608799338758,196.16794078522895,548.0
+30,L-malate,Stationary,Lactate,,,,,,,,,,,
+31,L-malate,Exponential,Lactate,,,,,,,,,,,
+32,L-malate,Stationary,Leucine,120.0,0.0,0.0,1.0,148,120.0,120.0,120.0,120.0,120.0,120.0
+33,L-malate,Exponential,Leucine,162.55,43.727344249463755,22.309869515032528,5.0,"141,142,145,146,147",85.08333333333333,219.0,118.82265575053626,70.38985136035646,206.27734424946377,548.0
+34,L-malate,Stationary,Lysine,361.0,0.0,0.0,1.0,151,361.0,361.0,361.0,361.0,361.0,361.0
+35,L-malate,Exponential,Lysine,512.2333333333333,145.19448109499356,74.0788168852008,5.0,"149,152,153,154,155",327.50000000000006,762.0,367.0388522383398,231.0777262272777,657.4278144283269,1060.0
+36,L-malate,Stationary,Malate,1832.8666666666668,1334.0284107476039,680.6267401773489,5.0,"161,160,159,158,157",341.8333333333333,3450.0,498.83825591906293,308.16764291844487,3166.8950774142704,3890.0
+37,L-malate,Exponential,Malate,1832.8666666666668,1334.0284107476039,680.6267401773489,5.0,"161,160,159,158,157",341.8333333333333,3450.0,498.83825591906293,308.16764291844487,3166.8950774142704,3890.0
+38,L-malate,Stationary,Methionine,30.3,0.0,0.0,1.0,171,30.3,30.3,30.3,30.3,30.3,30.3
+39,L-malate,Exponential,Methionine,98.74666666666667,31.82669830008203,16.238111377592872,5.0,"166,164,163,167,168",65.9,145.0,66.91996836658464,43.8,130.5733649667487,168.0
+40,L-malate,Stationary,NAD,2171.5,2701.8599999999997,1378.4999999999998,2.0,"172,176",793.0,3550.0,-530.3599999999997,793.0,4873.36,3769.0
+41,L-malate,Exponential,NAD,2099.666666666667,1246.027768978953,635.7284535606904,5.0,"178,177,175,174,173",581.6666666666666,4080.000000000001,853.638897687714,514.6402705396349,3345.6944356456197,13000.0
+42,L-malate,Stationary,Phenylalanine,65.7,0.0,0.0,1.0,189,65.7,65.7,65.7,65.7,65.7,65.7
+43,L-malate,Exponential,Phenylalanine,56.06,40.75560886476582,20.793677992227458,5.0,"183,187,188,186,184",18.2,134.76666666666668,15.304391135234184,17.7,96.81560886476582,223.85805169973884
+44,L-malate,Stationary,Pipecolic acid,6.05,0.0,0.0,1.0,199,6.05,6.05,6.05,6.05,6.05,6.05
+45,L-malate,Exponential,Pipecolic acid,6.05,0.0,0.0,1.0,199,6.05,6.05,6.05,6.05,6.05,6.05
+46,L-malate,Stationary,Proline,143.0,0.0,0.0,1.0,202,143.0,143.0,143.0,143.0,143.0,143.0
+47,L-malate,Exponential,Proline,283.83333333333337,141.71784935803487,72.30502518267085,5.0,"200,201,206,207,208",91.83333333333334,451.0,142.1154839752985,87.6340463568204,425.55118269136824,505.0
+48,L-malate,Stationary,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+49,L-malate,Exponential,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+50,L-malate,Stationary,Sebacoyl-l-carnitine (c10-dc),,,,,,,,,,,
+51,L-malate,Exponential,Sebacoyl-l-carnitine (c10-dc),,,,,,,,,,,
+52,L-malate,Stationary,Serine,343.0,0.0,0.0,1.0,236,343.0,343.0,343.0,343.0,343.0,343.0
+53,L-malate,Exponential,Serine,171.63333333333335,84.79082480237275,43.26062489916977,5.0,"233,229,230,234,235",68.0,280.8333333333334,86.8425085309606,25.700000000000003,256.4241581357061,427.0
+54,L-malate,Stationary,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+55,L-malate,Exponential,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+56,L-malate,Stationary,Trans-aconitate,42.05,11.564000000000004,5.900000000000002,2.0,"252,251",36.15,47.95,30.485999999999994,36.6,53.614000000000004,174.0
+57,L-malate,Exponential,Trans-aconitate,42.05,11.564000000000004,5.900000000000002,2.0,"252,251",36.15,47.95,30.485999999999994,36.6,53.614000000000004,174.0
+58,L-malate,Stationary,Tyrosine,37.8,0.0,0.0,1.0,261,37.8,37.8,37.8,37.8,37.8,37.8
+59,L-malate,Exponential,Tyrosine,91.20333333333333,46.37013070520481,23.658229951635107,5.0,"262,263,264,265,267",28.9,155.0,44.833202628128525,18.7,137.57346403853813,170.75129624295516
+60,L-malate,Stationary,Valine,181.0,0.0,0.0,1.0,275,181.0,181.0,181.0,181.0,181.0,181.0
+61,L-malate,Exponential,Valine,1549.6,1427.7234997211467,728.4303570005851,5.0,"270,272,273,274,278",157.5,4020.0,121.8765002788532,119.7013561041062,2977.3234997211466,4580.0
+62,L-malate,Stationary,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+63,L-malate,Exponential,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+64,L-malate,Stationary,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+65,L-malate,Exponential,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+66,L-malate,Stationary,Formate,184.0,25.0,12.755102040816327,1.0,64,184.0,184.0,159.0,159.0,209.0,209.0
+67,L-malate,Exponential,Formate,184.0,25.0,12.755102040816327,1.0,64,184.0,184.0,159.0,159.0,209.0,209.0
+68,L-malate,Stationary,Propanoate,,,,,,,,,,,
+69,L-malate,Exponential,Propanoate,,,,,,,,,,,
+70,L-malate,Stationary,Pyruvate (gc-ms),,,,,,,,,,,
+71,L-malate,Exponential,Pyruvate (gc-ms),,,,,,,,,,,
+72,L-alanine,Stationary,Alanine,358.0,0.0,0.0,1.0,15,358.0,358.0,358.0,358.0,358.0,358.0
+73,L-alanine,Exponential,Alanine,1197.9,825.7523757037847,421.302232501931,5.0,"18,16,10,13,14",349.1666666666667,2550.0,372.14762429621544,240.52391744077343,2023.6523757037849,2800.0
+74,L-alanine,Stationary,Alpha-aminoadipate,,,,,,,,,,,
+75,L-alanine,Exponential,Alpha-aminoadipate,,,,,,,,,,,
+76,L-alanine,Stationary,Alpha-aminobutyrate,,,,,,,,,,,
+77,L-alanine,Exponential,Alpha-aminobutyrate,,,,,,,,,,,
+78,L-alanine,Stationary,Asparagine,103.0,0.0,0.0,1.0,35,103.0,103.0,103.0,103.0,103.0,103.0
+79,L-alanine,Exponential,Asparagine,447.5333333333333,314.725535684313,160.5742529001597,5.0,"38,37,33,31,34",105.25,970.0,132.8077976490203,81.47672660141086,762.2588690176462,1550.0
+80,L-alanine,Stationary,Aspartate,337.0,0.0,0.0,1.0,45,337.0,337.0,337.0,337.0,337.0,337.0
+81,L-alanine,Exponential,Aspartate,4250.639999999999,3617.6811631306687,1845.7556954748309,5.0,"46,42,40,39,43",164.86666666666667,9300.0,632.9588368693308,149.98041254490127,7868.321163130668,16500.0
+82,L-alanine,Stationary,Beta-alanine,11.5,0.0,0.0,1.0,47,11.5,11.5,11.5,11.5,11.5,11.5
+83,L-alanine,Exponential,Beta-alanine,11.5,0.0,0.0,1.0,47,11.5,11.5,11.5,11.5,11.5,11.5
+84,L-alanine,Stationary,Cis-aconitate,21.349999999999998,26.068000000000005,13.300000000000002,3.0,"49,48,50",8.049999999999999,47.95,-4.718000000000007,13.8,47.418000000000006,174.0
+85,L-alanine,Exponential,Cis-aconitate,21.349999999999998,26.068000000000005,13.300000000000002,3.0,"49,48,50",8.049999999999999,47.95,-4.718000000000007,13.8,47.418000000000006,174.0
+86,L-alanine,Stationary,Creatine,,,,,,,,,,,
+87,L-alanine,Exponential,Creatine,,,,,,,,,,,
+88,L-alanine,Stationary,Deoxycarnitine (deoxy-c0),,,,,,,,,,,
+89,L-alanine,Exponential,Deoxycarnitine (deoxy-c0),,,,,,,,,,,
+90,L-alanine,Stationary,Gamma-aminobutyrate,43.6,0.0,0.0,1.0,86,43.6,43.6,43.6,43.6,43.6,43.6
+91,L-alanine,Exponential,Gamma-aminobutyrate,43.6,0.0,0.0,1.0,86,43.6,43.6,43.6,43.6,43.6,43.6
+92,L-alanine,Stationary,Glutamate,4270.0,0.0,0.0,1.0,101,4270.0,4270.0,4270.0,4270.0,4270.0,4270.0
+93,L-alanine,Exponential,Glutamate,58850.666666666664,55639.652895900304,28387.5780081124,5.0,"94,100,98,96,95",1961.6666666666667,149000.0,3211.01377076636,1825.8345971428937,114490.31956256696,168000.0
+94,L-alanine,Stationary,Glutamine,494.0,0.0,0.0,1.0,108,494.0,494.0,494.0,494.0,494.0,494.0
+95,L-alanine,Exponential,Glutamine,2556.3666666666663,1763.38407256855,899.6857513104846,5.0,"103,105,107,110,106",383.5,4950.0,792.9825940981164,325.1179856462626,4319.750739235216,5630.0
+96,L-alanine,Stationary,Glutarylcarnitine (c5-dc),,,,,,,,,,,
+97,L-alanine,Exponential,Glutarylcarnitine (c5-dc),,,,,,,,,,,
+98,L-alanine,Stationary,Glycine,318.0,0.0,0.0,1.0,115,318.0,318.0,318.0,318.0,318.0,318.0
+99,L-alanine,Exponential,Glycine,427.9166666666667,69.41666666666659,35.41666666666663,2.0,"113,112",392.50000000000006,463.3333333333333,358.5000000000001,350.8259873142347,497.33333333333326,572.8032277234248
+100,L-alanine,Stationary,Hexoses,,,,,,,,,,,
+101,L-alanine,Exponential,Hexoses,,,,,,,,,,,
+102,L-alanine,Stationary,Isocitrate,14.292777777777777,21.971615244870872,11.210007777995344,3.0,"129,128,130",2.433333333333333,36.7,-7.678837467093095,4.68e-06,36.26439302264865,4.688263787778018
+103,L-alanine,Exponential,Isocitrate,14.292777777777777,21.971615244870872,11.210007777995344,3.0,"129,128,130",2.433333333333333,36.7,-7.678837467093095,4.68e-06,36.26439302264865,4.688263787778018
+104,L-alanine,Stationary,Isoleucine,33.1,0.0,0.0,1.0,137,33.1,33.1,33.1,33.1,33.1,33.1
+105,L-alanine,Exponential,Isoleucine,125.81000000000002,70.35794078522892,35.8969085638923,5.0,"136,135,134,133,131",21.083333333333332,219.0,55.4520592147711,-1.972608799338758,196.16794078522895,548.0
+106,L-alanine,Stationary,Lactate,,,,,,,,,,,
+107,L-alanine,Exponential,Lactate,,,,,,,,,,,
+108,L-alanine,Stationary,Leucine,120.0,0.0,0.0,1.0,148,120.0,120.0,120.0,120.0,120.0,120.0
+109,L-alanine,Exponential,Leucine,162.55,43.727344249463755,22.309869515032528,5.0,"141,142,145,146,147",85.08333333333333,219.0,118.82265575053626,70.38985136035646,206.27734424946377,548.0
+110,L-alanine,Stationary,Lysine,361.0,0.0,0.0,1.0,151,361.0,361.0,361.0,361.0,361.0,361.0
+111,L-alanine,Exponential,Lysine,512.2333333333333,145.19448109499356,74.0788168852008,5.0,"149,152,153,154,155",327.50000000000006,762.0,367.0388522383398,231.0777262272777,657.4278144283269,1060.0
+112,L-alanine,Stationary,Malate,1832.8666666666668,1334.0284107476039,680.6267401773489,5.0,"161,160,159,158,157",341.8333333333333,3450.0,498.83825591906293,308.16764291844487,3166.8950774142704,3890.0
+113,L-alanine,Exponential,Malate,1832.8666666666668,1334.0284107476039,680.6267401773489,5.0,"161,160,159,158,157",341.8333333333333,3450.0,498.83825591906293,308.16764291844487,3166.8950774142704,3890.0
+114,L-alanine,Stationary,Methionine,30.3,0.0,0.0,1.0,171,30.3,30.3,30.3,30.3,30.3,30.3
+115,L-alanine,Exponential,Methionine,98.74666666666667,31.82669830008203,16.238111377592872,5.0,"166,164,163,167,168",65.9,145.0,66.91996836658464,43.8,130.5733649667487,168.0
+116,L-alanine,Stationary,NAD,2171.5,2701.8599999999997,1378.4999999999998,2.0,"172,176",793.0,3550.0,-530.3599999999997,793.0,4873.36,3769.0
+117,L-alanine,Exponential,NAD,2099.666666666667,1246.027768978953,635.7284535606904,5.0,"178,177,175,174,173",581.6666666666666,4080.000000000001,853.638897687714,514.6402705396349,3345.6944356456197,13000.0
+118,L-alanine,Stationary,Phenylalanine,65.7,0.0,0.0,1.0,189,65.7,65.7,65.7,65.7,65.7,65.7
+119,L-alanine,Exponential,Phenylalanine,56.06,40.75560886476582,20.793677992227458,5.0,"183,187,188,186,184",18.2,134.76666666666668,15.304391135234184,17.7,96.81560886476582,223.85805169973884
+120,L-alanine,Stationary,Pipecolic acid,6.05,0.0,0.0,1.0,199,6.05,6.05,6.05,6.05,6.05,6.05
+121,L-alanine,Exponential,Pipecolic acid,6.05,0.0,0.0,1.0,199,6.05,6.05,6.05,6.05,6.05,6.05
+122,L-alanine,Stationary,Proline,143.0,0.0,0.0,1.0,202,143.0,143.0,143.0,143.0,143.0,143.0
+123,L-alanine,Exponential,Proline,283.83333333333337,141.71784935803487,72.30502518267085,5.0,"200,201,206,207,208",91.83333333333334,451.0,142.1154839752985,87.6340463568204,425.55118269136824,505.0
+124,L-alanine,Stationary,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+125,L-alanine,Exponential,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+126,L-alanine,Stationary,Sebacoyl-l-carnitine (c10-dc),,,,,,,,,,,
+127,L-alanine,Exponential,Sebacoyl-l-carnitine (c10-dc),,,,,,,,,,,
+128,L-alanine,Stationary,Serine,343.0,0.0,0.0,1.0,236,343.0,343.0,343.0,343.0,343.0,343.0
+129,L-alanine,Exponential,Serine,171.63333333333335,84.79082480237275,43.26062489916977,5.0,"233,229,230,234,235",68.0,280.8333333333334,86.8425085309606,25.700000000000003,256.4241581357061,427.0
+130,L-alanine,Stationary,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+131,L-alanine,Exponential,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+132,L-alanine,Stationary,Trans-aconitate,42.05,11.564000000000004,5.900000000000002,2.0,"252,251",36.15,47.95,30.485999999999994,36.6,53.614000000000004,174.0
+133,L-alanine,Exponential,Trans-aconitate,42.05,11.564000000000004,5.900000000000002,2.0,"252,251",36.15,47.95,30.485999999999994,36.6,53.614000000000004,174.0
+134,L-alanine,Stationary,Tyrosine,37.8,0.0,0.0,1.0,261,37.8,37.8,37.8,37.8,37.8,37.8
+135,L-alanine,Exponential,Tyrosine,91.20333333333333,46.37013070520481,23.658229951635107,5.0,"262,263,264,265,267",28.9,155.0,44.833202628128525,18.7,137.57346403853813,170.75129624295516
+136,L-alanine,Stationary,Valine,181.0,0.0,0.0,1.0,275,181.0,181.0,181.0,181.0,181.0,181.0
+137,L-alanine,Exponential,Valine,1549.6,1427.7234997211467,728.4303570005851,5.0,"270,272,273,274,278",157.5,4020.0,121.8765002788532,119.7013561041062,2977.3234997211466,4580.0
+138,L-alanine,Stationary,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+139,L-alanine,Exponential,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+140,L-alanine,Stationary,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+141,L-alanine,Exponential,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+142,L-alanine,Stationary,Formate,184.0,25.0,12.755102040816327,1.0,64,184.0,184.0,159.0,159.0,209.0,209.0
+143,L-alanine,Exponential,Formate,184.0,25.0,12.755102040816327,1.0,64,184.0,184.0,159.0,159.0,209.0,209.0
+144,L-alanine,Stationary,Propanoate,,,,,,,,,,,
+145,L-alanine,Exponential,Propanoate,,,,,,,,,,,
+146,L-alanine,Stationary,Pyruvate (gc-ms),,,,,,,,,,,
+147,L-alanine,Exponential,Pyruvate (gc-ms),,,,,,,,,,,
+148,Galactose,Stationary,Alanine,358.0,0.0,0.0,1.0,15,358.0,358.0,358.0,358.0,358.0,358.0
+149,Galactose,Exponential,Alanine,1197.9,825.7523757037847,421.302232501931,5.0,"18,16,10,13,14",349.1666666666667,2550.0,372.14762429621544,240.52391744077343,2023.6523757037849,2800.0
+150,Galactose,Stationary,Alpha-aminoadipate,,,,,,,,,,,
+151,Galactose,Exponential,Alpha-aminoadipate,,,,,,,,,,,
+152,Galactose,Stationary,Alpha-aminobutyrate,,,,,,,,,,,
+153,Galactose,Exponential,Alpha-aminobutyrate,,,,,,,,,,,
+154,Galactose,Stationary,Asparagine,103.0,0.0,0.0,1.0,35,103.0,103.0,103.0,103.0,103.0,103.0
+155,Galactose,Exponential,Asparagine,447.5333333333333,314.725535684313,160.5742529001597,5.0,"38,37,33,31,34",105.25,970.0,132.8077976490203,81.47672660141086,762.2588690176462,1550.0
+156,Galactose,Stationary,Aspartate,337.0,0.0,0.0,1.0,45,337.0,337.0,337.0,337.0,337.0,337.0
+157,Galactose,Exponential,Aspartate,4250.639999999999,3617.6811631306687,1845.7556954748309,5.0,"46,42,40,39,43",164.86666666666667,9300.0,632.9588368693308,149.98041254490127,7868.321163130668,16500.0
+158,Galactose,Stationary,Beta-alanine,11.5,0.0,0.0,1.0,47,11.5,11.5,11.5,11.5,11.5,11.5
+159,Galactose,Exponential,Beta-alanine,11.5,0.0,0.0,1.0,47,11.5,11.5,11.5,11.5,11.5,11.5
+160,Galactose,Stationary,Cis-aconitate,21.349999999999998,26.068000000000005,13.300000000000002,3.0,"49,48,50",8.049999999999999,47.95,-4.718000000000007,13.8,47.418000000000006,174.0
+161,Galactose,Exponential,Cis-aconitate,21.349999999999998,26.068000000000005,13.300000000000002,3.0,"49,48,50",8.049999999999999,47.95,-4.718000000000007,13.8,47.418000000000006,174.0
+162,Galactose,Stationary,Creatine,,,,,,,,,,,
+163,Galactose,Exponential,Creatine,,,,,,,,,,,
+164,Galactose,Stationary,Deoxycarnitine (deoxy-c0),,,,,,,,,,,
+165,Galactose,Exponential,Deoxycarnitine (deoxy-c0),,,,,,,,,,,
+166,Galactose,Stationary,Gamma-aminobutyrate,43.6,0.0,0.0,1.0,86,43.6,43.6,43.6,43.6,43.6,43.6
+167,Galactose,Exponential,Gamma-aminobutyrate,43.6,0.0,0.0,1.0,86,43.6,43.6,43.6,43.6,43.6,43.6
+168,Galactose,Stationary,Glutamate,4270.0,0.0,0.0,1.0,101,4270.0,4270.0,4270.0,4270.0,4270.0,4270.0
+169,Galactose,Exponential,Glutamate,58850.666666666664,55639.652895900304,28387.5780081124,5.0,"94,100,98,96,95",1961.6666666666667,149000.0,3211.01377076636,1825.8345971428937,114490.31956256696,168000.0
+170,Galactose,Stationary,Glutamine,494.0,0.0,0.0,1.0,108,494.0,494.0,494.0,494.0,494.0,494.0
+171,Galactose,Exponential,Glutamine,2556.3666666666663,1763.38407256855,899.6857513104846,5.0,"103,105,107,110,106",383.5,4950.0,792.9825940981164,325.1179856462626,4319.750739235216,5630.0
+172,Galactose,Stationary,Glutarylcarnitine (c5-dc),,,,,,,,,,,
+173,Galactose,Exponential,Glutarylcarnitine (c5-dc),,,,,,,,,,,
+174,Galactose,Stationary,Hexoses,,,,,,,,,,,
+175,Galactose,Exponential,Hexoses,,,,,,,,,,,
+176,Galactose,Stationary,Isocitrate,14.292777777777777,21.971615244870872,11.210007777995344,3.0,"129,128,130",2.433333333333333,36.7,-7.678837467093095,4.68e-06,36.26439302264865,4.688263787778018
+177,Galactose,Exponential,Isocitrate,14.292777777777777,21.971615244870872,11.210007777995344,3.0,"129,128,130",2.433333333333333,36.7,-7.678837467093095,4.68e-06,36.26439302264865,4.688263787778018
+178,Galactose,Stationary,Isoleucine,33.1,0.0,0.0,1.0,137,33.1,33.1,33.1,33.1,33.1,33.1
+179,Galactose,Exponential,Isoleucine,125.81000000000002,70.35794078522892,35.8969085638923,5.0,"136,135,134,133,131",21.083333333333332,219.0,55.4520592147711,-1.972608799338758,196.16794078522895,548.0
+180,Galactose,Stationary,Lactate,,,,,,,,,,,
+181,Galactose,Exponential,Lactate,,,,,,,,,,,
+182,Galactose,Stationary,Leucine,120.0,0.0,0.0,1.0,148,120.0,120.0,120.0,120.0,120.0,120.0
+183,Galactose,Exponential,Leucine,162.55,43.727344249463755,22.309869515032528,5.0,"141,142,145,146,147",85.08333333333333,219.0,118.82265575053626,70.38985136035646,206.27734424946377,548.0
+184,Galactose,Stationary,Lysine,361.0,0.0,0.0,1.0,151,361.0,361.0,361.0,361.0,361.0,361.0
+185,Galactose,Exponential,Lysine,512.2333333333333,145.19448109499356,74.0788168852008,5.0,"149,152,153,154,155",327.50000000000006,762.0,367.0388522383398,231.0777262272777,657.4278144283269,1060.0
+186,Galactose,Stationary,Malate,1832.8666666666668,1334.0284107476039,680.6267401773489,5.0,"161,160,159,158,157",341.8333333333333,3450.0,498.83825591906293,308.16764291844487,3166.8950774142704,3890.0
+187,Galactose,Exponential,Malate,1832.8666666666668,1334.0284107476039,680.6267401773489,5.0,"161,160,159,158,157",341.8333333333333,3450.0,498.83825591906293,308.16764291844487,3166.8950774142704,3890.0
+188,Galactose,Stationary,Methionine,30.3,0.0,0.0,1.0,171,30.3,30.3,30.3,30.3,30.3,30.3
+189,Galactose,Exponential,Methionine,98.74666666666667,31.82669830008203,16.238111377592872,5.0,"166,164,163,167,168",65.9,145.0,66.91996836658464,43.8,130.5733649667487,168.0
+190,Galactose,Stationary,NAD,2171.5,2701.8599999999997,1378.4999999999998,2.0,"172,176",793.0,3550.0,-530.3599999999997,793.0,4873.36,3769.0
+191,Galactose,Exponential,NAD,2099.666666666667,1246.027768978953,635.7284535606904,5.0,"178,177,175,174,173",581.6666666666666,4080.000000000001,853.638897687714,514.6402705396349,3345.6944356456197,13000.0
+192,Galactose,Stationary,Phenylalanine,65.7,0.0,0.0,1.0,189,65.7,65.7,65.7,65.7,65.7,65.7
+193,Galactose,Exponential,Phenylalanine,56.06,40.75560886476582,20.793677992227458,5.0,"183,187,188,186,184",18.2,134.76666666666668,15.304391135234184,17.7,96.81560886476582,223.85805169973884
+194,Galactose,Stationary,Pipecolic acid,6.05,0.0,0.0,1.0,199,6.05,6.05,6.05,6.05,6.05,6.05
+195,Galactose,Exponential,Pipecolic acid,6.05,0.0,0.0,1.0,199,6.05,6.05,6.05,6.05,6.05,6.05
+196,Galactose,Stationary,Proline,143.0,0.0,0.0,1.0,202,143.0,143.0,143.0,143.0,143.0,143.0
+197,Galactose,Exponential,Proline,283.83333333333337,141.71784935803487,72.30502518267085,5.0,"200,201,206,207,208",91.83333333333334,451.0,142.1154839752985,87.6340463568204,425.55118269136824,505.0
+198,Galactose,Stationary,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+199,Galactose,Exponential,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+200,Galactose,Stationary,Sebacoyl-l-carnitine (c10-dc),,,,,,,,,,,
+201,Galactose,Exponential,Sebacoyl-l-carnitine (c10-dc),,,,,,,,,,,
+202,Galactose,Stationary,Serine,343.0,0.0,0.0,1.0,236,343.0,343.0,343.0,343.0,343.0,343.0
+203,Galactose,Exponential,Serine,171.63333333333335,84.79082480237275,43.26062489916977,5.0,"233,229,230,234,235",68.0,280.8333333333334,86.8425085309606,25.700000000000003,256.4241581357061,427.0
+204,Galactose,Stationary,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+205,Galactose,Exponential,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+206,Galactose,Stationary,Trans-aconitate,42.05,11.564000000000004,5.900000000000002,2.0,"252,251",36.15,47.95,30.485999999999994,36.6,53.614000000000004,174.0
+207,Galactose,Exponential,Trans-aconitate,42.05,11.564000000000004,5.900000000000002,2.0,"252,251",36.15,47.95,30.485999999999994,36.6,53.614000000000004,174.0
+208,Galactose,Stationary,Tyrosine,37.8,0.0,0.0,1.0,261,37.8,37.8,37.8,37.8,37.8,37.8
+209,Galactose,Exponential,Tyrosine,91.20333333333333,46.37013070520481,23.658229951635107,5.0,"262,263,264,265,267",28.9,155.0,44.833202628128525,18.7,137.57346403853813,170.75129624295516
+210,Galactose,Stationary,Valine,181.0,0.0,0.0,1.0,275,181.0,181.0,181.0,181.0,181.0,181.0
+211,Galactose,Exponential,Valine,1549.6,1427.7234997211467,728.4303570005851,5.0,"270,272,273,274,278",157.5,4020.0,121.8765002788532,119.7013561041062,2977.3234997211466,4580.0
+212,Galactose,Stationary,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+213,Galactose,Exponential,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+214,Galactose,Stationary,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+215,Galactose,Exponential,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+216,Galactose,Stationary,Formate,184.0,25.0,12.755102040816327,1.0,64,184.0,184.0,159.0,159.0,209.0,209.0
+217,Galactose,Exponential,Formate,184.0,25.0,12.755102040816327,1.0,64,184.0,184.0,159.0,159.0,209.0,209.0
+218,Galactose,Stationary,Propanoate,,,,,,,,,,,
+219,Galactose,Exponential,Propanoate,,,,,,,,,,,
+220,Galactose,Stationary,Pyruvate (gc-ms),,,,,,,,,,,
+221,Galactose,Exponential,Pyruvate (gc-ms),,,,,,,,,,,
+222,Glucose,Stationary,Glucose-6-phosphate,200.0,39.2,20.0,2.0,"92,88",180.0,220.0,160.8,180.0,239.2,235.0
+223,Glucose,Exponential,Glucose-6-phosphate,589.4444444444445,167.78431628171765,85.60424300087635,3.0,"91,90,87",418.3333333333333,680.0,421.6601281627268,338.3,757.2287607261621,861.6227891805496
+224,Glucose,Stationary,Fructose-6-phosphate,250.0,19.0,9.693877551020408,1.0,79,250.0,250.0,231.0,231.0,269.0,269.0
+225,Glucose,Exponential,Fructose-6-phosphate,398.4444444444444,148.3760051647232,75.7020434513894,3.0,"76,78,75",290.0,544.1666666666666,250.0684392797212,230.0,546.8204496091676,692.260559555979
+226,Glucose,Stationary,"Fructose-1,6-bisphosphate",1647.35,3219.5939999999996,1642.6499999999999,2.0,"69,70",4.7,3290.0,-1572.2439999999997,4.7,4866.9439999999995,3469.0
+227,Glucose,Exponential,"Fructose-1,6-bisphosphate",3718.673333333333,5639.313048712077,2877.200535057182,5.0,"72,68,67,65,66",85.2,15200.0,-1920.6397153787439,85.2,9357.98638204541,16400.0
+228,Glucose,Stationary,Dihydroxyacetone phosphate,374.0,30.5,15.561224489795919,1.0,60,374.0,374.0,344.0,344.0,405.0,405.0
+229,Glucose,Exponential,Dihydroxyacetone phosphate,374.0,30.5,15.561224489795919,1.0,60,374.0,374.0,344.0,344.0,405.0,405.0
+230,Glucose,Stationary,Glyceraldehyde-3-phosphate,271.0,1.6499999999999994e-05,8.418367346938773e-06,1.0,111,271.0,271.0,0.000256,0.000256,0.000289,0.000289
+231,Glucose,Exponential,Glyceraldehyde-3-phosphate,271.0,1.6499999999999994e-05,8.418367346938773e-06,1.0,111,271.0,271.0,0.000256,0.000256,0.000289,0.000289
+232,Glucose,Stationary,Glyceraldehyde-3-phosphate,271.0,1.6499999999999994e-05,8.418367346938773e-06,1.0,111,271.0,271.0,0.000256,0.000256,0.000289,0.000289
+233,Glucose,Exponential,Glyceraldehyde-3-phosphate,271.0,1.6499999999999994e-05,8.418367346938773e-06,1.0,111,271.0,271.0,0.000256,0.000256,0.000289,0.000289
+234,Glucose,Stationary,Phosphoenolpyruvate,10.9,0.0,0.0,1.0,198,10.9,10.9,10.9,10.9,10.9,10.9
+235,Glucose,Exponential,Phosphoenolpyruvate,121.9375,48.30284178770974,24.644307034545786,4.0,"197,196,195,192",70.0,184.0,73.63465821229026,64.0,170.24034178770972,231.0
+236,Glucose,Stationary,Ribose-5-phosphate,277.72222222222223,160.9255107338121,82.10485241521026,3.0,"220,219,215",174.83333333333334,440.0,116.79671148841012,155.97982673346945,438.64773295603436,1770.0
+237,Glucose,Exponential,Ribose-5-phosphate,277.72222222222223,160.9255107338121,82.10485241521026,3.0,"220,219,215",174.83333333333334,440.0,116.79671148841012,155.97982673346945,438.64773295603436,1770.0
+238,Glucose,Stationary,Ribulose-5-phosphate,78.2,0.0,0.0,1.0,222,78.2,78.2,78.2,78.2,78.2,78.2
+239,Glucose,Exponential,Ribulose-5-phosphate,440.0,393.5,200.76530612244898,1.0,221,440.0,440.0,983.0,983.0,1770.0,1770.0
+240,Glucose,Stationary,Xylulose-5-phosphate,440.0,393.5,200.76530612244898,1.0,279,440.0,440.0,983.0,983.0,1770.0,1770.0
+241,Glucose,Exponential,Xylulose-5-phosphate,440.0,393.5,200.76530612244898,1.0,279,440.0,440.0,983.0,983.0,1770.0,1770.0
+242,Glucose,Stationary,Erythrose-4-phosphate,2.8,0.0,0.0,1.0,61,2.8,2.8,2.8,2.8,2.8,2.8
+243,Glucose,Exponential,Erythrose-4-phosphate,25.15,46.745999999999995,23.849999999999998,2.0,"62,63",1.3,49.0,-21.595999999999997,4.19e-05,71.89599999999999,1.3
+244,Glucose,Stationary,Citrate,816.388888888889,1124.276195855761,573.6103040080413,3.0,"56,57,52",165.83333333333334,1960.0,-307.88730696687196,154.40000000000003,1940.66508474465,3480.0
+245,Glucose,Exponential,Citrate,816.388888888889,1124.276195855761,573.6103040080413,3.0,"56,57,52",165.83333333333334,1960.0,-307.88730696687196,154.40000000000003,1940.66508474465,3480.0
+246,Glucose,Stationary,Cis-aconitate,8.049999999999999,0.0,0.0,2.0,"49,50",8.049999999999999,8.049999999999999,8.049999999999999,13.8,8.049999999999999,18.8
+247,Glucose,Exponential,Cis-aconitate,8.049999999999999,0.0,0.0,2.0,"49,50",8.049999999999999,8.049999999999999,8.049999999999999,13.8,8.049999999999999,18.8
+248,Glucose,Stationary,Isocitrate,14.292777777777777,21.971615244870872,11.210007777995344,3.0,"129,128,130",2.433333333333333,36.7,-7.678837467093095,4.68e-06,36.26439302264865,4.688263787778018
+249,Glucose,Exponential,Isocitrate,14.292777777777777,21.971615244870872,11.210007777995344,3.0,"129,128,130",2.433333333333333,36.7,-7.678837467093095,4.68e-06,36.26439302264865,4.688263787778018
+250,Glucose,Stationary,Oxaloacetate,15.2435,28.922739999999997,14.756499999999999,2.0,"182,181",0.4869999999999999,30.0,-13.679239999999998,2.81e-07,44.166239999999995,31.0
+251,Glucose,Exponential,Oxaloacetate,15.2435,28.922739999999997,14.756499999999999,2.0,"182,181",0.4869999999999999,30.0,-13.679239999999998,2.81e-07,44.166239999999995,31.0
+252,Glucose,Stationary,Glutamate,4270.0,0.0,0.0,1.0,101,4270.0,4270.0,4270.0,4270.0,4270.0,4270.0
+253,Glucose,Exponential,Glutamate,33484.444444444445,61265.97834272186,31258.152215674418,3.0,"100,98,96",1961.6666666666667,96000.0,-27781.533898277412,1825.8345971428937,94750.4227871663,99800.0
+254,Glucose,Stationary,Serine,343.0,0.0,0.0,1.0,236,343.0,343.0,343.0,343.0,343.0,343.0
+255,Glucose,Exponential,Serine,204.22222222222226,133.8438463469213,68.28767670761292,3.0,"233,229,230",68.0,280.8333333333334,70.37837587530095,25.700000000000003,338.06606856914357,306.5031816209862
+256,Glucose,Stationary,Aspartate,337.0,0.0,0.0,1.0,45,337.0,337.0,337.0,337.0,337.0,337.0
+257,Glucose,Exponential,Aspartate,1534.3999999999999,2641.802478160137,1347.8584072245596,3.0,"42,40,43",164.86666666666667,4230.0,-1107.4024781601372,149.98041254490127,4176.202478160137,5040.0
+258,Glucose,Stationary,Threonine,147.0,0.0,0.0,1.0,248,147.0,147.0,147.0,147.0,147.0,147.0
+259,Glucose,Exponential,Threonine,211.0,31.77074755179678,16.209565077447337,3.0,"247,245,250",179.0,231.50000000000003,179.22925244820323,174.0,242.77074755179677,277.59473867301267
+260,Glucose,Stationary,Homoserine,16.1,0.0,0.0,1.0,126,16.1,16.1,16.1,16.1,16.1,16.1
+261,Glucose,Exponential,Homoserine,16.1,0.0,0.0,1.0,126,16.1,16.1,16.1,16.1,16.1,16.1
+262,Glucose,Stationary,Tyrosine,37.8,0.0,0.0,1.0,261,37.8,37.8,37.8,37.8,37.8,37.8
+263,Glucose,Exponential,Tyrosine,105.47222222222223,76.11140399716558,38.8323489781457,3.0,"263,264,265",28.9,155.0,29.360818225056647,18.7,181.5836262193878,170.75129624295516
+264,Glucose,Stationary,Glycine,318.0,0.0,0.0,1.0,115,318.0,318.0,318.0,318.0,318.0,318.0
+265,Glucose,Exponential,Glycine,427.9166666666667,69.41666666666659,35.41666666666663,2.0,"113,112",392.50000000000006,463.3333333333333,358.5000000000001,350.8259873142347,497.33333333333326,572.8032277234248
+266,Glucose,Stationary,Proline,143.0,0.0,0.0,1.0,202,143.0,143.0,143.0,143.0,143.0,143.0
+267,Glucose,Exponential,Proline,202.3888888888889,180.2797868472198,91.97948308531623,3.0,"206,207,208",91.83333333333334,385.0,22.109102041669104,87.6340463568204,382.66867573610875,399.0
+268,Glucose,Stationary,Alanine,358.0,0.0,0.0,1.0,15,358.0,358.0,358.0,358.0,358.0,358.0
+269,Glucose,Exponential,Alanine,1113.5,1408.7355350626135,718.7426199299049,3.0,"10,13,14",349.1666666666667,2550.0,-295.2355350626135,240.52391744077343,2522.2355350626135,2800.0
+270,Glucose,Stationary,Methionine,30.3,0.0,0.0,1.0,171,30.3,30.3,30.3,30.3,30.3,30.3
+271,Glucose,Exponential,Methionine,99.6111111111111,45.806418454239996,23.370621660326528,3.0,"164,163,168",67.25,145.0,53.804692656871104,51.85166078826609,145.4175295653511,161.0
+272,Glucose,Stationary,Valine,181.0,0.0,0.0,1.0,275,181.0,181.0,181.0,181.0,181.0,181.0
+273,Glucose,Exponential,Valine,1462.6666666666667,2506.3660671799535,1278.7581975407927,3.0,"270,272,278",157.5,4020.0,-1043.6994005132867,119.7013561041062,3969.0327338466204,4580.0
+274,Glucose,Stationary,Phenylalanine,65.7,0.0,0.0,1.0,189,65.7,65.7,65.7,65.7,65.7,65.7
+275,Glucose,Exponential,Phenylalanine,70.26666666666667,67.06988814441027,34.21933068592361,3.0,"183,186,184",18.2,134.76666666666668,3.1967785222563947,17.7,137.33655481107695,223.85805169973884
+276,Glucose,Stationary,Isoleucine,33.1,0.0,0.0,1.0,137,33.1,33.1,33.1,33.1,33.1,33.1
+277,Glucose,Exponential,Isoleucine,79.85000000000001,74.86252388161867,38.195165245723814,3.0,"134,133,131",21.083333333333332,151.5,4.987476118381338,-1.972608799338758,154.71252388161867,308.0
+278,Glucose,Stationary,Leucine,120.0,0.0,0.0,1.0,148,120.0,120.0,120.0,120.0,120.0,120.0
+279,Glucose,Exponential,Leucine,141.08333333333331,58.375692842267945,29.783516756259157,3.0,"141,142,147",85.08333333333333,186.66666666666663,82.70764049106538,70.38985136035646,199.45902617560125,308.0
+280,Glucose,Stationary,Tryptophan,9.39,0.0,0.0,1.0,260,9.39,9.39,9.39,9.39,9.39,9.39
+281,Glucose,Exponential,Tryptophan,22.605555555555554,11.948326722047321,6.096085062269042,3.0,"258,255,256",12.1,33.21666666666666,10.657228833508233,11.4,34.553882277602874,43.405263320660666
+282,Glucose,Stationary,Histidine,52.4,0.0,0.0,1.0,119,52.4,52.4,52.4,52.4,52.4,52.4
+283,Glucose,Exponential,Histidine,72.54444444444447,11.040565500367332,5.632941581820067,3.0,"117,123,124",66.25,83.78333333333335,61.50387894407713,45.8,83.5850099448118,110.04698797451212
+284,Glucose,Stationary,Arginine,57.5,0.0,0.0,1.0,29,57.5,57.5,57.5,57.5,57.5,57.5
+285,Glucose,Exponential,Arginine,306.0555555555556,259.0832807714706,132.18534733238295,3.0,"26,27,28",150.83333333333334,569.0,46.972274784085016,93.64698698811452,565.1388363270262,675.0
+286,Glucose,Stationary,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+287,Glucose,Exponential,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+288,Glucose,Stationary,Orotate,,,,,,,,,,,
+289,Glucose,Exponential,Orotate,,,,,,,,,,,
+290,Glucose,Stationary,Fumarate,214.2777777777778,99.74240053356213,50.888979864062314,3.0,"85,81,80",115.0,283.33333333333337,114.53537724421567,3.0,314.0201783113399,4420.0
+291,Glucose,Exponential,Fumarate,214.2777777777778,99.74240053356213,50.888979864062314,3.0,"85,81,80",115.0,283.33333333333337,114.53537724421567,3.0,314.0201783113399,4420.0
+292,Glucose,Stationary,Uracil,1013.0,99.0,50.51020408163265,1.0,269,1013.0,1013.0,914.0,914.0,1112.0,1112.0
+293,Glucose,Exponential,Uracil,1013.0,99.0,50.51020408163265,1.0,269,1013.0,1013.0,914.0,914.0,1112.0,1112.0
+294,Glucose,Stationary,Alpha-ketoglutarate,234.24444444444444,204.61805251278162,104.39696556774572,3.0,"22,21,20",126.4,443.0,29.626391931662823,105.80507208072824,438.8624969572261,631.0
+295,Glucose,Exponential,Alpha-ketoglutarate,234.24444444444444,204.61805251278162,104.39696556774572,3.0,"22,21,20",126.4,443.0,29.626391931662823,105.80507208072824,438.8624969572261,631.0
+296,Glucose,Stationary,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+297,Glucose,Exponential,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+298,D-Fructose,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+299,D-Fructose,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+300,D-Fructose,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+301,D-Fructose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+302,D-Fructose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+303,D-Fructose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+304,D-Fructose,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+305,D-Fructose,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+306,D-Fructose,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+307,D-Fructose,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+308,D-Fructose,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+309,D-Fructose,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+310,D-Fructose,Unknown,Butyrate,,,,,,,,,,,
+311,D-Fructose,Unknown,Butyrate,,,,,,,,,,,
+312,D-Fructose,Unknown,Butyrate,,,,,,,,,,,
+313,D-Fructose,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+314,D-Fructose,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+315,D-Fructose,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+316,D-Fructose,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+317,D-Fructose,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+318,D-Fructose,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+319,D-Fructose,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+320,D-Fructose,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+321,D-Fructose,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+322,D-Fructose,Unknown,,,,,,,,,,,,
+323,D-Fructose,Unknown,,,,,,,,,,,,
+324,D-Fructose,Unknown,,,,,,,,,,,,
+325,D-Fructose,Unknown,Lactate,,,,,,,,,,,
+326,D-Fructose,Unknown,Lactate,,,,,,,,,,,
+327,D-Fructose,Unknown,Lactate,,,,,,,,,,,
+328,D-Fructose,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+329,D-Fructose,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+330,D-Fructose,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+331,D-Fructose,Unknown,Propionate,,,,,,,,,,,
+332,D-Fructose,Unknown,Propionate,,,,,,,,,,,
+333,D-Fructose,Unknown,Propionate,,,,,,,,,,,
+334,D-Fructose,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+335,D-Fructose,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+336,D-Fructose,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+337,D-Fructose,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+338,D-Fructose,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+339,D-Fructose,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+340,D-Fructose,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+341,D-Fructose,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+342,D-Fructose,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+343,D-Fructose,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+344,D-Fructose,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+345,D-Fructose,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+346,D-Fructose,Unknown,Valerate,,,,,,,,,,,
+347,D-Fructose,Unknown,Valerate,,,,,,,,,,,
+348,D-Fructose,Unknown,Valerate,,,,,,,,,,,
+349,D-Fructose,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+350,D-Fructose,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+351,D-Fructose,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+352,D-Fructose,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+353,D-Fructose,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+354,D-Fructose,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+355,D-Fructose,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+356,D-Fructose,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+357,D-Fructose,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+358,D-Galactose,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+359,D-Galactose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+360,D-Galactose,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+361,D-Galactose,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+362,D-Galactose,Unknown,Butyrate,,,,,,,,,,,
+363,D-Galactose,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+364,D-Galactose,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+365,D-Galactose,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+366,D-Galactose,Unknown,,,,,,,,,,,,
+367,D-Galactose,Unknown,Lactate,,,,,,,,,,,
+368,D-Galactose,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+369,D-Galactose,Unknown,Propionate,,,,,,,,,,,
+370,D-Galactose,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+371,D-Galactose,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+372,D-Galactose,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+373,D-Galactose,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+374,D-Galactose,Unknown,Valerate,,,,,,,,,,,
+375,D-Galactose,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+376,D-Galactose,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+377,D-Galactose,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+378,D-Glucose,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+379,D-Glucose,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+380,D-Glucose,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+381,D-Glucose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+382,D-Glucose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+383,D-Glucose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+384,D-Glucose,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+385,D-Glucose,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+386,D-Glucose,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+387,D-Glucose,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+388,D-Glucose,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+389,D-Glucose,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+390,D-Glucose,Unknown,Butyrate,,,,,,,,,,,
+391,D-Glucose,Unknown,Butyrate,,,,,,,,,,,
+392,D-Glucose,Unknown,Butyrate,,,,,,,,,,,
+393,D-Glucose,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+394,D-Glucose,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+395,D-Glucose,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+396,D-Glucose,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+397,D-Glucose,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+398,D-Glucose,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+399,D-Glucose,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+400,D-Glucose,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+401,D-Glucose,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+402,D-Glucose,Unknown,,,,,,,,,,,,
+403,D-Glucose,Unknown,,,,,,,,,,,,
+404,D-Glucose,Unknown,,,,,,,,,,,,
+405,D-Glucose,Unknown,Lactate,,,,,,,,,,,
+406,D-Glucose,Unknown,Lactate,,,,,,,,,,,
+407,D-Glucose,Unknown,Lactate,,,,,,,,,,,
+408,D-Glucose,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+409,D-Glucose,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+410,D-Glucose,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+411,D-Glucose,Unknown,Propionate,,,,,,,,,,,
+412,D-Glucose,Unknown,Propionate,,,,,,,,,,,
+413,D-Glucose,Unknown,Propionate,,,,,,,,,,,
+414,D-Glucose,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+415,D-Glucose,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+416,D-Glucose,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+417,D-Glucose,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+418,D-Glucose,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+419,D-Glucose,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+420,D-Glucose,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+421,D-Glucose,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+422,D-Glucose,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+423,D-Glucose,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+424,D-Glucose,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+425,D-Glucose,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+426,D-Glucose,Unknown,Valerate,,,,,,,,,,,
+427,D-Glucose,Unknown,Valerate,,,,,,,,,,,
+428,D-Glucose,Unknown,Valerate,,,,,,,,,,,
+429,D-Glucose,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+430,D-Glucose,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+431,D-Glucose,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+432,D-Glucose,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+433,D-Glucose,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+434,D-Glucose,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+435,D-Glucose,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+436,D-Glucose,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+437,D-Glucose,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+438,D-Ribose,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+439,D-Ribose,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+440,D-Ribose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+441,D-Ribose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+442,D-Ribose,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+443,D-Ribose,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+444,D-Ribose,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+445,D-Ribose,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+446,D-Ribose,Unknown,Butyrate,,,,,,,,,,,
+447,D-Ribose,Unknown,Butyrate,,,,,,,,,,,
+448,D-Ribose,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+449,D-Ribose,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+450,D-Ribose,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+451,D-Ribose,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+452,D-Ribose,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+453,D-Ribose,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+454,D-Ribose,Unknown,,,,,,,,,,,,
+455,D-Ribose,Unknown,,,,,,,,,,,,
+456,D-Ribose,Unknown,Lactate,,,,,,,,,,,
+457,D-Ribose,Unknown,Lactate,,,,,,,,,,,
+458,D-Ribose,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+459,D-Ribose,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+460,D-Ribose,Unknown,Propionate,,,,,,,,,,,
+461,D-Ribose,Unknown,Propionate,,,,,,,,,,,
+462,D-Ribose,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+463,D-Ribose,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+464,D-Ribose,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+465,D-Ribose,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+466,D-Ribose,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+467,D-Ribose,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+468,D-Ribose,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+469,D-Ribose,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+470,D-Ribose,Unknown,Valerate,,,,,,,,,,,
+471,D-Ribose,Unknown,Valerate,,,,,,,,,,,
+472,D-Ribose,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+473,D-Ribose,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+474,D-Ribose,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+475,D-Ribose,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+476,D-Ribose,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+477,D-Ribose,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+478,Glycerol,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+479,Glycerol,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+480,Glycerol,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+481,Glycerol,Unknown,Acetyl-ornithine,398.0,814.1,415.3571428571429,1.0,5,398.0,398.0,91.8,91.8,1720.0,1720.0
+482,Glycerol,Unknown,Acetyl-ornithine,398.0,814.1,415.3571428571429,1.0,5,398.0,398.0,91.8,91.8,1720.0,1720.0
+483,Glycerol,Unknown,Acetyl-ornithine,398.0,814.1,415.3571428571429,1.0,5,398.0,398.0,91.8,91.8,1720.0,1720.0
+484,Glycerol,Unknown,Alanine,1770.0,300.0,153.06122448979593,1.0,18,1770.0,1770.0,1490.0,1490.0,2090.0,2090.0
+485,Glycerol,Unknown,Alanine,1770.0,300.0,153.06122448979593,1.0,18,1770.0,1770.0,1490.0,1490.0,2090.0,2090.0
+486,Glycerol,Unknown,Alanine,1770.0,300.0,153.06122448979593,1.0,18,1770.0,1770.0,1490.0,1490.0,2090.0,2090.0
+487,Glycerol,Unknown,Asparagine,970.0,470.5,240.05102040816328,1.0,33,970.0,970.0,609.0,609.0,1550.0,1550.0
+488,Glycerol,Unknown,Asparagine,970.0,470.5,240.05102040816328,1.0,33,970.0,970.0,609.0,609.0,1550.0,1550.0
+489,Glycerol,Unknown,Asparagine,970.0,470.5,240.05102040816328,1.0,33,970.0,970.0,609.0,609.0,1550.0,1550.0
+490,Glycerol,Unknown,Butyrate,,,,,,,,,,,
+491,Glycerol,Unknown,Butyrate,,,,,,,,,,,
+492,Glycerol,Unknown,Butyrate,,,,,,,,,,,
+493,Glycerol,Unknown,Citrate,2320.0,1570.0,801.0204081632653,1.0,55,2320.0,2320.0,1230.0,1230.0,4370.0,4370.0
+494,Glycerol,Unknown,Citrate,2320.0,1570.0,801.0204081632653,1.0,55,2320.0,2320.0,1230.0,1230.0,4370.0,4370.0
+495,Glycerol,Unknown,Citrate,2320.0,1570.0,801.0204081632653,1.0,55,2320.0,2320.0,1230.0,1230.0,4370.0,4370.0
+496,Glycerol,Unknown,Fumarate,255.00000000000003,4956.71,2528.933673469388,1.0,83,255.00000000000003,255.00000000000003,6.58,6.58,9920.0,9920.0
+497,Glycerol,Unknown,Fumarate,255.00000000000003,4956.71,2528.933673469388,1.0,83,255.00000000000003,255.00000000000003,6.58,6.58,9920.0,9920.0
+498,Glycerol,Unknown,Fumarate,255.00000000000003,4956.71,2528.933673469388,1.0,83,255.00000000000003,255.00000000000003,6.58,6.58,9920.0,9920.0
+499,Glycerol,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+500,Glycerol,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+501,Glycerol,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+502,Glycerol,Unknown,,,,,,,,,,,,
+503,Glycerol,Unknown,,,,,,,,,,,,
+504,Glycerol,Unknown,,,,,,,,,,,,
+505,Glycerol,Unknown,Lactate,,,,,,,,,,,
+506,Glycerol,Unknown,Lactate,,,,,,,,,,,
+507,Glycerol,Unknown,Lactate,,,,,,,,,,,
+508,Glycerol,Unknown,Methionine,129.0,34.65,17.678571428571427,1.0,166,129.0,129.0,98.7,98.7,168.0,168.0
+509,Glycerol,Unknown,Methionine,129.0,34.65,17.678571428571427,1.0,166,129.0,129.0,98.7,98.7,168.0,168.0
+510,Glycerol,Unknown,Methionine,129.0,34.65,17.678571428571427,1.0,166,129.0,129.0,98.7,98.7,168.0,168.0
+511,Glycerol,Unknown,Propionate,,,,,,,,,,,
+512,Glycerol,Unknown,Propionate,,,,,,,,,,,
+513,Glycerol,Unknown,Propionate,,,,,,,,,,,
+514,Glycerol,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+515,Glycerol,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+516,Glycerol,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+517,Glycerol,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+518,Glycerol,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+519,Glycerol,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+520,Glycerol,Unknown,Serine,150.0,187.2,95.51020408163265,1.0,234,150.0,150.0,52.599999999999994,52.599999999999994,427.0,427.0
+521,Glycerol,Unknown,Serine,150.0,187.2,95.51020408163265,1.0,234,150.0,150.0,52.599999999999994,52.599999999999994,427.0,427.0
+522,Glycerol,Unknown,Serine,150.0,187.2,95.51020408163265,1.0,234,150.0,150.0,52.599999999999994,52.599999999999994,427.0,427.0
+523,Glycerol,Unknown,Succinate,1140.0,732.0,373.46938775510205,1.0,239,1140.0,1140.0,626.0,626.0,2090.0,2090.0
+524,Glycerol,Unknown,Succinate,1140.0,732.0,373.46938775510205,1.0,239,1140.0,1140.0,626.0,626.0,2090.0,2090.0
+525,Glycerol,Unknown,Succinate,1140.0,732.0,373.46938775510205,1.0,239,1140.0,1140.0,626.0,626.0,2090.0,2090.0
+526,Glycerol,Unknown,Valerate,,,,,,,,,,,
+527,Glycerol,Unknown,Valerate,,,,,,,,,,,
+528,Glycerol,Unknown,Valerate,,,,,,,,,,,
+529,Glycerol,Unknown,Valine,2290.0,690.0,352.0408163265306,1.0,273,2290.0,2290.0,1700.0,1700.0,3080.0,3080.0
+530,Glycerol,Unknown,Valine,2290.0,690.0,352.0408163265306,1.0,273,2290.0,2290.0,1700.0,1700.0,3080.0,3080.0
+531,Glycerol,Unknown,Valine,2290.0,690.0,352.0408163265306,1.0,273,2290.0,2290.0,1700.0,1700.0,3080.0,3080.0
+532,Glycerol,Unknown,Alpha-ketoglutarate,616.0,351.5,179.33673469387756,1.0,23,616.0,616.0,357.0,357.0,1060.0,1060.0
+533,Glycerol,Unknown,Alpha-ketoglutarate,616.0,351.5,179.33673469387756,1.0,23,616.0,616.0,357.0,357.0,1060.0,1060.0
+534,Glycerol,Unknown,Alpha-ketoglutarate,616.0,351.5,179.33673469387756,1.0,23,616.0,616.0,357.0,357.0,1060.0,1060.0
+535,Glycerol,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+536,Glycerol,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+537,Glycerol,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+538,L-Arabinose,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+539,L-Arabinose,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+540,L-Arabinose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+541,L-Arabinose,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+542,L-Arabinose,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+543,L-Arabinose,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+544,L-Arabinose,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+545,L-Arabinose,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+546,L-Arabinose,Unknown,Butyrate,,,,,,,,,,,
+547,L-Arabinose,Unknown,Butyrate,,,,,,,,,,,
+548,L-Arabinose,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+549,L-Arabinose,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+550,L-Arabinose,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+551,L-Arabinose,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+552,L-Arabinose,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+553,L-Arabinose,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+554,L-Arabinose,Unknown,,,,,,,,,,,,
+555,L-Arabinose,Unknown,,,,,,,,,,,,
+556,L-Arabinose,Unknown,Lactate,,,,,,,,,,,
+557,L-Arabinose,Unknown,Lactate,,,,,,,,,,,
+558,L-Arabinose,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+559,L-Arabinose,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+560,L-Arabinose,Unknown,Propionate,,,,,,,,,,,
+561,L-Arabinose,Unknown,Propionate,,,,,,,,,,,
+562,L-Arabinose,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+563,L-Arabinose,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+564,L-Arabinose,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+565,L-Arabinose,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+566,L-Arabinose,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+567,L-Arabinose,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+568,L-Arabinose,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+569,L-Arabinose,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+570,L-Arabinose,Unknown,Valerate,,,,,,,,,,,
+571,L-Arabinose,Unknown,Valerate,,,,,,,,,,,
+572,L-Arabinose,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+573,L-Arabinose,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+574,L-Arabinose,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+575,L-Arabinose,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+576,L-Arabinose,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+577,L-Arabinose,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+578,L-Malate,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+579,L-Malate,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+580,L-Malate,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+581,L-Malate,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+582,L-Malate,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+583,L-Malate,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+584,L-Malate,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+585,L-Malate,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+586,L-Malate,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+587,L-Malate,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+588,L-Malate,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+589,L-Malate,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+590,L-Malate,Unknown,Butyrate,,,,,,,,,,,
+591,L-Malate,Unknown,Butyrate,,,,,,,,,,,
+592,L-Malate,Unknown,Butyrate,,,,,,,,,,,
+593,L-Malate,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+594,L-Malate,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+595,L-Malate,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+596,L-Malate,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+597,L-Malate,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+598,L-Malate,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+599,L-Malate,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+600,L-Malate,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+601,L-Malate,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+602,L-Malate,Unknown,,,,,,,,,,,,
+603,L-Malate,Unknown,,,,,,,,,,,,
+604,L-Malate,Unknown,,,,,,,,,,,,
+605,L-Malate,Unknown,Lactate,,,,,,,,,,,
+606,L-Malate,Unknown,Lactate,,,,,,,,,,,
+607,L-Malate,Unknown,Lactate,,,,,,,,,,,
+608,L-Malate,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+609,L-Malate,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+610,L-Malate,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+611,L-Malate,Unknown,Propionate,,,,,,,,,,,
+612,L-Malate,Unknown,Propionate,,,,,,,,,,,
+613,L-Malate,Unknown,Propionate,,,,,,,,,,,
+614,L-Malate,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+615,L-Malate,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+616,L-Malate,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+617,L-Malate,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+618,L-Malate,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+619,L-Malate,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+620,L-Malate,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+621,L-Malate,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+622,L-Malate,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+623,L-Malate,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+624,L-Malate,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+625,L-Malate,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+626,L-Malate,Unknown,Valerate,,,,,,,,,,,
+627,L-Malate,Unknown,Valerate,,,,,,,,,,,
+628,L-Malate,Unknown,Valerate,,,,,,,,,,,
+629,L-Malate,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+630,L-Malate,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+631,L-Malate,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+632,L-Malate,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+633,L-Malate,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+634,L-Malate,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+635,L-Malate,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+636,L-Malate,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+637,L-Malate,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+638,Pyruvate,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+639,Pyruvate,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+640,Pyruvate,Unknown,Acetate,658.0,25.0,12.755102040816327,1.0,4,658.0,658.0,633.0,633.0,683.0,683.0
+641,Pyruvate,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+642,Pyruvate,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+643,Pyruvate,Unknown,Acetyl-ornithine,151.85,171.00743531983244,87.24869148971042,4.0,"5,6,8,9",14.1,398.0,-19.157435319832445,14.1,322.85743531983246,1720.0
+644,Pyruvate,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+645,Pyruvate,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+646,Pyruvate,Unknown,Alanine,1057.9166666666667,727.9116871256252,371.38351383960475,6.0,"18,16,15,10,13,14",349.1666666666667,2550.0,330.0049795410415,240.52391744077343,1785.828353792292,2800.0
+647,Pyruvate,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+648,Pyruvate,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+649,Pyruvate,Unknown,Asparagine,390.1111111111111,280.5382816468774,143.13177635044767,6.0,"38,37,35,33,31,34",103.0,970.0,109.57282946423368,81.47672660141086,670.6493927579885,1550.0
+650,Pyruvate,Unknown,Butyrate,,,,,,,,,,,
+651,Pyruvate,Unknown,Butyrate,,,,,,,,,,,
+652,Pyruvate,Unknown,Butyrate,,,,,,,,,,,
+653,Pyruvate,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+654,Pyruvate,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+655,Pyruvate,Unknown,Citrate,5333.833333333334,8160.724914638404,4163.635160529798,5.0,"56,57,52,51,55",165.83333333333334,21900.0,-2826.89158130507,154.40000000000003,13494.558247971738,27300.0
+656,Pyruvate,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+657,Pyruvate,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+658,Pyruvate,Unknown,Fumarate,232.9666666666667,59.17396929206099,30.19080065921479,5.0,"85,81,80,83,84",115.0,283.33333333333337,173.79269737460572,3.0,292.14063595872767,10600.0
+659,Pyruvate,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+660,Pyruvate,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+661,Pyruvate,Unknown,Glycine,391.27777777777777,82.23879739837436,41.95857010121141,3.0,"115,113,112",318.0,463.3333333333333,309.0389803794034,318.0,473.5165751761521,572.8032277234248
+662,Pyruvate,Unknown,,,,,,,,,,,,
+663,Pyruvate,Unknown,,,,,,,,,,,,
+664,Pyruvate,Unknown,,,,,,,,,,,,
+665,Pyruvate,Unknown,Lactate,,,,,,,,,,,
+666,Pyruvate,Unknown,Lactate,,,,,,,,,,,
+667,Pyruvate,Unknown,Lactate,,,,,,,,,,,
+668,Pyruvate,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+669,Pyruvate,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+670,Pyruvate,Unknown,Methionine,87.33888888888889,34.281602868730964,17.490613708536205,6.0,"171,166,164,163,167,168",30.3,145.0,53.057286020157925,30.3,121.62049175761985,168.0
+671,Pyruvate,Unknown,Propionate,,,,,,,,,,,
+672,Pyruvate,Unknown,Propionate,,,,,,,,,,,
+673,Pyruvate,Unknown,Propionate,,,,,,,,,,,
+674,Pyruvate,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+675,Pyruvate,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+676,Pyruvate,Unknown,Putrescine,1626.3325,1171.697735844114,597.8049672674051,4.0,"211,209,212,210",281.0,3060.0,454.63476415588593,257.0,2798.030235844114,3060.0
+677,Pyruvate,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+678,Pyruvate,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+679,Pyruvate,Unknown,Pyruvate,8050.0,0.0,0.0,1.0,213,8050.0,8050.0,8050.0,8050.0,8050.0,8050.0
+680,Pyruvate,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+681,Pyruvate,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+682,Pyruvate,Unknown,Serine,200.19444444444446,89.03215617869289,45.424569478924944,6.0,"233,229,230,234,235,236",68.0,343.0,111.16228826575157,25.700000000000003,289.22660062313736,427.0
+683,Pyruvate,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+684,Pyruvate,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+685,Pyruvate,Unknown,Succinate,1251.0666666666668,483.1952982552707,246.5282133955463,5.0,"238,239,240,242,243",569.0,1841.6666666666667,767.8713684113961,341.0,1734.2619649219375,2190.0
+686,Pyruvate,Unknown,Valerate,,,,,,,,,,,
+687,Pyruvate,Unknown,Valerate,,,,,,,,,,,
+688,Pyruvate,Unknown,Valerate,,,,,,,,,,,
+689,Pyruvate,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+690,Pyruvate,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+691,Pyruvate,Unknown,Valine,1321.5,1248.5217435885263,637.0008895859828,6.0,"270,272,273,274,278,275",157.5,4020.0,72.9782564114737,119.7013561041062,2570.021743588526,4580.0
+692,Pyruvate,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+693,Pyruvate,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+694,Pyruvate,Unknown,Alpha-ketoglutarate,352.94666666666666,188.77099258594907,96.31173091119851,5.0,"23,24,22,21,20",126.4,616.0,164.17567408071758,105.80507208072824,541.7176592526157,1060.0
+695,Pyruvate,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+696,Pyruvate,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
+697,Pyruvate,Unknown,Beta-hydroxybutyrate,,,,,,,,,,,
