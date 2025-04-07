@@ -1,0 +1,3201 @@
+Metabolite_Conc,Metabolite,Carbon_Source,Strain,Replicate,Timepoint,OD
+0,alpha-Ketoglutaric acid,D-Glucose,Ecoli,1,16,0.0342
+0,Butyric acid,D-Glucose,Ecoli,1,16,0.0342
+0,Valine,D-Glucose,Ecoli,1,16,0.0342
+5.85,Pyruvic acid,D-Glucose,Ecoli,1,16,0.0342
+3.94,Propionic acid,D-Glucose,Ecoli,1,16,0.0342
+0,Acetyl-ornithine,D-Glucose,Ecoli,1,16,0.0342
+0,Alanine,D-Glucose,Ecoli,1,16,0.0342
+952,Acetic acid,D-Glucose,Ecoli,1,16,0.0342
+0,Asparagine,D-Glucose,Ecoli,1,16,0.0342
+0,beta-Hydroxybutyric acid,D-Glucose,Ecoli,1,16,0.0342
+0,Serine,D-Glucose,Ecoli,1,16,0.0342
+3.08,Glycine,D-Glucose,Ecoli,1,16,0.0342
+0.633,Succinic acid,D-Glucose,Ecoli,1,16,0.0342
+0.0933,Methionine,D-Glucose,Ecoli,1,16,0.0342
+0.924,Fumaric acid,D-Glucose,Ecoli,1,16,0.0342
+0.23,Valeric acid,D-Glucose,Ecoli,1,16,0.0342
+0.796,Citric acid,D-Glucose,Ecoli,1,16,0.0342
+0,Lactic acid,D-Glucose,Ecoli,1,16,0.0342
+0.327,Putrescine,D-Glucose,Ecoli,1,16,0.0342
+0,Hippuric acid,D-Glucose,Ecoli,1,16,0.0342
+0,Lactic acid,D-Glucose,Ecoli,2,16,0.0423
+0,alpha-Ketoglutaric acid,D-Glucose,Ecoli,2,16,0.0423
+3.93,Pyruvic acid,D-Glucose,Ecoli,2,16,0.0423
+0.574,Succinic acid,D-Glucose,Ecoli,2,16,0.0423
+0,beta-Hydroxybutyric acid,D-Glucose,Ecoli,2,16,0.0423
+0,Valine,D-Glucose,Ecoli,2,16,0.0423
+0.181,Valeric acid,D-Glucose,Ecoli,2,16,0.0423
+0,Serine,D-Glucose,Ecoli,2,16,0.0423
+4.28,Propionic acid,D-Glucose,Ecoli,2,16,0.0423
+0.6,Asparagine,D-Glucose,Ecoli,2,16,0.0423
+0.379,Acetyl-ornithine,D-Glucose,Ecoli,2,16,0.0423
+0.289,Putrescine,D-Glucose,Ecoli,2,16,0.0423
+2.97,Glycine,D-Glucose,Ecoli,2,16,0.0423
+0.727,Citric acid,D-Glucose,Ecoli,2,16,0.0423
+0,Alanine,D-Glucose,Ecoli,2,16,0.0423
+0.856,Fumaric acid,D-Glucose,Ecoli,2,16,0.0423
+0,Hippuric acid,D-Glucose,Ecoli,2,16,0.0423
+0,Butyric acid,D-Glucose,Ecoli,2,16,0.0423
+0.141,Methionine,D-Glucose,Ecoli,2,16,0.0423
+913,Acetic acid,D-Glucose,Ecoli,2,16,0.0423
+0.439,beta-Hydroxybutyric acid,D-Glucose,Ecoli,1,28,0.2317
+3030,Lactic acid,D-Glucose,Ecoli,1,28,0.2317
+0,Methionine,D-Glucose,Ecoli,1,28,0.2317
+348,Succinic acid,D-Glucose,Ecoli,1,28,0.2317
+0,Butyric acid,D-Glucose,Ecoli,1,28,0.2317
+386,Pyruvic acid,D-Glucose,Ecoli,1,28,0.2317
+13.4,Valine,D-Glucose,Ecoli,1,28,0.2317
+129,Alanine,D-Glucose,Ecoli,1,28,0.2317
+25.1,Propionic acid,D-Glucose,Ecoli,1,28,0.2317
+0,Asparagine,D-Glucose,Ecoli,1,28,0.2317
+35.8,Fumaric acid,D-Glucose,Ecoli,1,28,0.2317
+0.109,Serine,D-Glucose,Ecoli,1,28,0.2317
+5.98,Glycine,D-Glucose,Ecoli,1,28,0.2317
+2.86,Citric acid,D-Glucose,Ecoli,1,28,0.2317
+6.63,Acetyl-ornithine,D-Glucose,Ecoli,1,28,0.2317
+2.86,Putrescine,D-Glucose,Ecoli,1,28,0.2317
+3.9,Valeric acid,D-Glucose,Ecoli,1,28,0.2317
+0,alpha-Ketoglutaric acid,D-Glucose,Ecoli,1,28,0.2317
+0,Hippuric acid,D-Glucose,Ecoli,1,28,0.2317
+5100,Acetic acid,D-Glucose,Ecoli,1,28,0.2317
+2.97,Putrescine,D-Glucose,Ecoli,2,28,0.2275
+9.05,Valine,D-Glucose,Ecoli,2,28,0.2275
+0,alpha-Ketoglutaric acid,D-Glucose,Ecoli,2,28,0.2275
+0.129,Methionine,D-Glucose,Ecoli,2,28,0.2275
+4.41,Acetyl-ornithine,D-Glucose,Ecoli,2,28,0.2275
+0,Butyric acid,D-Glucose,Ecoli,2,28,0.2275
+266,Succinic acid,D-Glucose,Ecoli,2,28,0.2275
+0.168,beta-Hydroxybutyric acid,D-Glucose,Ecoli,2,28,0.2275
+57.3,Alanine,D-Glucose,Ecoli,2,28,0.2275
+18.5,Propionic acid,D-Glucose,Ecoli,2,28,0.2275
+360,Pyruvic acid,D-Glucose,Ecoli,2,28,0.2275
+2.59,Citric acid,D-Glucose,Ecoli,2,28,0.2275
+0.428,Serine,D-Glucose,Ecoli,2,28,0.2275
+4.34,Glycine,D-Glucose,Ecoli,2,28,0.2275
+0,Asparagine,D-Glucose,Ecoli,2,28,0.2275
+0,Hippuric acid,D-Glucose,Ecoli,2,28,0.2275
+1350,Lactic acid,D-Glucose,Ecoli,2,28,0.2275
+34.1,Fumaric acid,D-Glucose,Ecoli,2,28,0.2275
+4400,Acetic acid,D-Glucose,Ecoli,2,28,0.2275
+3.73,Valeric acid,D-Glucose,Ecoli,2,28,0.2275
+2.96,beta-Hydroxybutyric acid,D-Glucose,Ecoli,1,48,0.2522
+3.45,Citric acid,D-Glucose,Ecoli,1,48,0.2522
+0.0622,Serine,D-Glucose,Ecoli,1,48,0.2522
+1.68,Putrescine,D-Glucose,Ecoli,1,48,0.2522
+58.5,Alanine,D-Glucose,Ecoli,1,48,0.2522
+0,alpha-Ketoglutaric acid,D-Glucose,Ecoli,1,48,0.2522
+430,Lactic acid,D-Glucose,Ecoli,1,48,0.2522
+24.3,Valine,D-Glucose,Ecoli,1,48,0.2522
+334,Succinic acid,D-Glucose,Ecoli,1,48,0.2522
+0.732,Butyric acid,D-Glucose,Ecoli,1,48,0.2522
+104,Fumaric acid,D-Glucose,Ecoli,1,48,0.2522
+46.9,Propionic acid,D-Glucose,Ecoli,1,48,0.2522
+0,Pyruvic acid,D-Glucose,Ecoli,1,48,0.2522
+0.45,Asparagine,D-Glucose,Ecoli,1,48,0.2522
+4.51,Glycine,D-Glucose,Ecoli,1,48,0.2522
+26.6,Acetyl-ornithine,D-Glucose,Ecoli,1,48,0.2522
+6460,Acetic acid,D-Glucose,Ecoli,1,48,0.2522
+0,Methionine,D-Glucose,Ecoli,1,48,0.2522
+0,Hippuric acid,D-Glucose,Ecoli,1,48,0.2522
+4.07,Valeric acid,D-Glucose,Ecoli,1,48,0.2522
+28.3,Valine,D-Glucose,Ecoli,2,48,0.207
+90.8,Fumaric acid,D-Glucose,Ecoli,2,48,0.207
+5.48,Glycine,D-Glucose,Ecoli,2,48,0.207
+1.96,beta-Hydroxybutyric acid,D-Glucose,Ecoli,2,48,0.207
+0,Methionine,D-Glucose,Ecoli,2,48,0.207
+0,alpha-Ketoglutaric acid,D-Glucose,Ecoli,2,48,0.207
+0,Serine,D-Glucose,Ecoli,2,48,0.207
+752,Lactic acid,D-Glucose,Ecoli,2,48,0.207
+407,Succinic acid,D-Glucose,Ecoli,2,48,0.207
+0.833,Butyric acid,D-Glucose,Ecoli,2,48,0.207
+167,Alanine,D-Glucose,Ecoli,2,48,0.207
+47.8,Propionic acid,D-Glucose,Ecoli,2,48,0.207
+0,Pyruvic acid,D-Glucose,Ecoli,2,48,0.207
+3.28,Citric acid,D-Glucose,Ecoli,2,48,0.207
+28.8,Acetyl-ornithine,D-Glucose,Ecoli,2,48,0.207
+7340,Acetic acid,D-Glucose,Ecoli,2,48,0.207
+0.177,Asparagine,D-Glucose,Ecoli,2,48,0.207
+4.66,Valeric acid,D-Glucose,Ecoli,2,48,0.207
+2.35,Putrescine,D-Glucose,Ecoli,2,48,0.207
+0,Hippuric acid,D-Glucose,Ecoli,2,48,0.207
+382,Pyruvic acid,D-Glucose,Enterobacter,1,16,0.3708
+6.39,Citric acid,D-Glucose,Enterobacter,1,16,0.3708
+0,Serine,D-Glucose,Enterobacter,1,16,0.3708
+17.9,Valine,D-Glucose,Enterobacter,1,16,0.3708
+5.28,Glycine,D-Glucose,Enterobacter,1,16,0.3708
+62.5,Alanine,D-Glucose,Enterobacter,1,16,0.3708
+0,Butyric acid,D-Glucose,Enterobacter,1,16,0.3708
+0,beta-Hydroxybutyric acid,D-Glucose,Enterobacter,1,16,0.3708
+48.4,Fumaric acid,D-Glucose,Enterobacter,1,16,0.3708
+0.386,Valeric acid,D-Glucose,Enterobacter,1,16,0.3708
+199,Succinic acid,D-Glucose,Enterobacter,1,16,0.3708
+4700,Lactic acid,D-Glucose,Enterobacter,1,16,0.3708
+0,Putrescine,D-Glucose,Enterobacter,1,16,0.3708
+2.85,Acetyl-ornithine,D-Glucose,Enterobacter,1,16,0.3708
+4380,Acetic acid,D-Glucose,Enterobacter,1,16,0.3708
+5.55,alpha-Ketoglutaric acid,D-Glucose,Enterobacter,1,16,0.3708
+0,Methionine,D-Glucose,Enterobacter,1,16,0.3708
+0,Asparagine,D-Glucose,Enterobacter,1,16,0.3708
+0.508,Propionic acid,D-Glucose,Enterobacter,1,16,0.3708
+0,Hippuric acid,D-Glucose,Enterobacter,1,16,0.3708
+209,Succinic acid,D-Glucose,Enterobacter,2,16,0.3395
+85.5,Alanine,D-Glucose,Enterobacter,2,16,0.3395
+1.29,Propionic acid,D-Glucose,Enterobacter,2,16,0.3395
+0.235,Serine,D-Glucose,Enterobacter,2,16,0.3395
+22,Valine,D-Glucose,Enterobacter,2,16,0.3395
+6.18,Glycine,D-Glucose,Enterobacter,2,16,0.3395
+393,Pyruvic acid,D-Glucose,Enterobacter,2,16,0.3395
+6.09,alpha-Ketoglutaric acid,D-Glucose,Enterobacter,2,16,0.3395
+0,beta-Hydroxybutyric acid,D-Glucose,Enterobacter,2,16,0.3395
+53.1,Fumaric acid,D-Glucose,Enterobacter,2,16,0.3395
+4575,Acetic acid,D-Glucose,Enterobacter,2,16,0.3395
+4910,Lactic acid,D-Glucose,Enterobacter,2,16,0.3395
+0,Putrescine,D-Glucose,Enterobacter,2,16,0.3395
+3.56,Acetyl-ornithine,D-Glucose,Enterobacter,2,16,0.3395
+0,Hippuric acid,D-Glucose,Enterobacter,2,16,0.3395
+0,Butyric acid,D-Glucose,Enterobacter,2,16,0.3395
+0,Methionine,D-Glucose,Enterobacter,2,16,0.3395
+6.96,Citric acid,D-Glucose,Enterobacter,2,16,0.3395
+0.394,Valeric acid,D-Glucose,Enterobacter,2,16,0.3395
+0,Asparagine,D-Glucose,Enterobacter,2,16,0.3395
+1.31,Asparagine,D-Glucose,Enterobacter,1,28,0.4076
+0,Serine,D-Glucose,Enterobacter,1,28,0.4076
+5.08,Propionic acid,D-Glucose,Enterobacter,1,28,0.4076
+2470,Lactic acid,D-Glucose,Enterobacter,1,28,0.4076
+14.4,Alanine,D-Glucose,Enterobacter,1,28,0.4076
+10.6,Valine,D-Glucose,Enterobacter,1,28,0.4076
+250,Succinic acid,D-Glucose,Enterobacter,1,28,0.4076
+0.631,Butyric acid,D-Glucose,Enterobacter,1,28,0.4076
+0.666,beta-Hydroxybutyric acid,D-Glucose,Enterobacter,1,28,0.4076
+4.85,Glycine,D-Glucose,Enterobacter,1,28,0.4076
+7.28,Citric acid,D-Glucose,Enterobacter,1,28,0.4076
+0,Hippuric acid,D-Glucose,Enterobacter,1,28,0.4076
+1.2,alpha-Ketoglutaric acid,D-Glucose,Enterobacter,1,28,0.4076
+0,Putrescine,D-Glucose,Enterobacter,1,28,0.4076
+4.34,Pyruvic acid,D-Glucose,Enterobacter,1,28,0.4076
+0.489,Valeric acid,D-Glucose,Enterobacter,1,28,0.4076
+0.0461,Methionine,D-Glucose,Enterobacter,1,28,0.4076
+10.3,Acetyl-ornithine,D-Glucose,Enterobacter,1,28,0.4076
+5900,Acetic acid,D-Glucose,Enterobacter,1,28,0.4076
+33.5,Fumaric acid,D-Glucose,Enterobacter,1,28,0.4076
+6.07,Pyruvic acid,D-Glucose,Enterobacter,2,28,0.3364
+0,Serine,D-Glucose,Enterobacter,2,28,0.3364
+0.129,Asparagine,D-Glucose,Enterobacter,2,28,0.3364
+0.513,Butyric acid,D-Glucose,Enterobacter,2,28,0.3364
+2.5,alpha-Ketoglutaric acid,D-Glucose,Enterobacter,2,28,0.3364
+0.603,beta-Hydroxybutyric acid,D-Glucose,Enterobacter,2,28,0.3364
+16.6,Alanine,D-Glucose,Enterobacter,2,28,0.3364
+7.99,Citric acid,D-Glucose,Enterobacter,2,28,0.3364
+265,Succinic acid,D-Glucose,Enterobacter,2,28,0.3364
+0.0219,Methionine,D-Glucose,Enterobacter,2,28,0.3364
+14.3,Valine,D-Glucose,Enterobacter,2,28,0.3364
+6130,Acetic acid,D-Glucose,Enterobacter,2,28,0.3364
+2300,Lactic acid,D-Glucose,Enterobacter,2,28,0.3364
+40.6,Fumaric acid,D-Glucose,Enterobacter,2,28,0.3364
+5.62,Glycine,D-Glucose,Enterobacter,2,28,0.3364
+0,Hippuric acid,D-Glucose,Enterobacter,2,28,0.3364
+4.68,Propionic acid,D-Glucose,Enterobacter,2,28,0.3364
+0,Putrescine,D-Glucose,Enterobacter,2,28,0.3364
+9.33,Acetyl-ornithine,D-Glucose,Enterobacter,2,28,0.3364
+0.426,Valeric acid,D-Glucose,Enterobacter,2,28,0.3364
+182,Succinic acid,D-Glucose,Enterobacter,1,48,0.3792
+0.468,Pyruvic acid,D-Glucose,Enterobacter,1,48,0.3792
+0,alpha-Ketoglutaric acid,D-Glucose,Enterobacter,1,48,0.3792
+5.58,Glycine,D-Glucose,Enterobacter,1,48,0.3792
+0,Alanine,D-Glucose,Enterobacter,1,48,0.3792
+12,Propionic acid,D-Glucose,Enterobacter,1,48,0.3792
+0,Serine,D-Glucose,Enterobacter,1,48,0.3792
+6.16,beta-Hydroxybutyric acid,D-Glucose,Enterobacter,1,48,0.3792
+0,Valine,D-Glucose,Enterobacter,1,48,0.3792
+0.72,Asparagine,D-Glucose,Enterobacter,1,48,0.3792
+309,Lactic acid,D-Glucose,Enterobacter,1,48,0.3792
+0,Putrescine,D-Glucose,Enterobacter,1,48,0.3792
+30.3,Acetyl-ornithine,D-Glucose,Enterobacter,1,48,0.3792
+5900,Acetic acid,D-Glucose,Enterobacter,1,48,0.3792
+1.66,Butyric acid,D-Glucose,Enterobacter,1,48,0.3792
+17.1,Fumaric acid,D-Glucose,Enterobacter,1,48,0.3792
+0,Hippuric acid,D-Glucose,Enterobacter,1,48,0.3792
+0.557,Valeric acid,D-Glucose,Enterobacter,1,48,0.3792
+0.0382,Methionine,D-Glucose,Enterobacter,1,48,0.3792
+13.1,Citric acid,D-Glucose,Enterobacter,1,48,0.3792
+6.97,beta-Hydroxybutyric acid,D-Glucose,Enterobacter,2,48,0.3406
+319,Lactic acid,D-Glucose,Enterobacter,2,48,0.3406
+198,Succinic acid,D-Glucose,Enterobacter,2,48,0.3406
+0.491,Pyruvic acid,D-Glucose,Enterobacter,2,48,0.3406
+0,Alanine,D-Glucose,Enterobacter,2,48,0.3406
+0.505,Asparagine,D-Glucose,Enterobacter,2,48,0.3406
+14,Propionic acid,D-Glucose,Enterobacter,2,48,0.3406
+3.03,Glycine,D-Glucose,Enterobacter,2,48,0.3406
+0,Valine,D-Glucose,Enterobacter,2,48,0.3406
+2.07,Butyric acid,D-Glucose,Enterobacter,2,48,0.3406
+0.36,Serine,D-Glucose,Enterobacter,2,48,0.3406
+25.1,Acetyl-ornithine,D-Glucose,Enterobacter,2,48,0.3406
+0.486,Valeric acid,D-Glucose,Enterobacter,2,48,0.3406
+19.7,Fumaric acid,D-Glucose,Enterobacter,2,48,0.3406
+0,alpha-Ketoglutaric acid,D-Glucose,Enterobacter,2,48,0.3406
+0,Putrescine,D-Glucose,Enterobacter,2,48,0.3406
+0,Hippuric acid,D-Glucose,Enterobacter,2,48,0.3406
+6160,Acetic acid,D-Glucose,Enterobacter,2,48,0.3406
+0.189,Methionine,D-Glucose,Enterobacter,2,48,0.3406
+14.5,Citric acid,D-Glucose,Enterobacter,2,48,0.3406
+0,Valine,D-Glucose,Pputida,1,16,0.1458
+0,beta-Hydroxybutyric acid,D-Glucose,Pputida,1,16,0.1458
+0.0412,Fumaric acid,D-Glucose,Pputida,1,16,0.1458
+0,Serine,D-Glucose,Pputida,1,16,0.1458
+0,Alanine,D-Glucose,Pputida,1,16,0.1458
+0.833,Succinic acid,D-Glucose,Pputida,1,16,0.1458
+0,Lactic acid,D-Glucose,Pputida,1,16,0.1458
+105,Acetic acid,D-Glucose,Pputida,1,16,0.1458
+22.7,Pyruvic acid,D-Glucose,Pputida,1,16,0.1458
+0.154,alpha-Ketoglutaric acid,D-Glucose,Pputida,1,16,0.1458
+0,Putrescine,D-Glucose,Pputida,1,16,0.1458
+3.26,Glycine,D-Glucose,Pputida,1,16,0.1458
+0,Asparagine,D-Glucose,Pputida,1,16,0.1458
+0,Butyric acid,D-Glucose,Pputida,1,16,0.1458
+0,Methionine,D-Glucose,Pputida,1,16,0.1458
+0,Propionic acid,D-Glucose,Pputida,1,16,0.1458
+0.873,Citric acid,D-Glucose,Pputida,1,16,0.1458
+0,Valeric acid,D-Glucose,Pputida,1,16,0.1458
+0,Acetyl-ornithine,D-Glucose,Pputida,1,16,0.1458
+0,Hippuric acid,D-Glucose,Pputida,1,16,0.1458
+2.93,Glycine,D-Glucose,Pputida,2,16,0.048
+0,Alanine,D-Glucose,Pputida,2,16,0.048
+0,Serine,D-Glucose,Pputida,2,16,0.048
+37.2,Pyruvic acid,D-Glucose,Pputida,2,16,0.048
+0,beta-Hydroxybutyric acid,D-Glucose,Pputida,2,16,0.048
+0.033,Fumaric acid,D-Glucose,Pputida,2,16,0.048
+0,Lactic acid,D-Glucose,Pputida,2,16,0.048
+0,Hippuric acid,D-Glucose,Pputida,2,16,0.048
+0,Propionic acid,D-Glucose,Pputida,2,16,0.048
+1.16,Succinic acid,D-Glucose,Pputida,2,16,0.048
+0.274,alpha-Ketoglutaric acid,D-Glucose,Pputida,2,16,0.048
+0,Acetyl-ornithine,D-Glucose,Pputida,2,16,0.048
+0,Valine,D-Glucose,Pputida,2,16,0.048
+0,Asparagine,D-Glucose,Pputida,2,16,0.048
+0,Butyric acid,D-Glucose,Pputida,2,16,0.048
+85.6,Acetic acid,D-Glucose,Pputida,2,16,0.048
+0,Putrescine,D-Glucose,Pputida,2,16,0.048
+0.994,Citric acid,D-Glucose,Pputida,2,16,0.048
+0,Methionine,D-Glucose,Pputida,2,16,0.048
+0,Valeric acid,D-Glucose,Pputida,2,16,0.048
+0,Alanine,D-Glucose,Pputida,1,28,0.4046
+1.58,beta-Hydroxybutyric acid,D-Glucose,Pputida,1,28,0.4046
+0.912,Acetyl-ornithine,D-Glucose,Pputida,1,28,0.4046
+0.342,Succinic acid,D-Glucose,Pputida,1,28,0.4046
+3.14,Glycine,D-Glucose,Pputida,1,28,0.4046
+0,Propionic acid,D-Glucose,Pputida,1,28,0.4046
+1.73,Pyruvic acid,D-Glucose,Pputida,1,28,0.4046
+0,Serine,D-Glucose,Pputida,1,28,0.4046
+0,Valine,D-Glucose,Pputida,1,28,0.4046
+6.12,Citric acid,D-Glucose,Pputida,1,28,0.4046
+0,alpha-Ketoglutaric acid,D-Glucose,Pputida,1,28,0.4046
+1.33,Asparagine,D-Glucose,Pputida,1,28,0.4046
+0,Valeric acid,D-Glucose,Pputida,1,28,0.4046
+0,Butyric acid,D-Glucose,Pputida,1,28,0.4046
+0.55,Methionine,D-Glucose,Pputida,1,28,0.4046
+0,Hippuric acid,D-Glucose,Pputida,1,28,0.4046
+466,Acetic acid,D-Glucose,Pputida,1,28,0.4046
+67.5,Lactic acid,D-Glucose,Pputida,1,28,0.4046
+0.0413,Fumaric acid,D-Glucose,Pputida,1,28,0.4046
+0,Putrescine,D-Glucose,Pputida,1,28,0.4046
+0,Valine,D-Glucose,Pputida,2,28,0.3459
+0,Butyric acid,D-Glucose,Pputida,2,28,0.3459
+2.11,beta-Hydroxybutyric acid,D-Glucose,Pputida,2,28,0.3459
+0.465,Asparagine,D-Glucose,Pputida,2,28,0.3459
+555,Acetic acid,D-Glucose,Pputida,2,28,0.3459
+0,Alanine,D-Glucose,Pputida,2,28,0.3459
+0.294,Succinic acid,D-Glucose,Pputida,2,28,0.3459
+0,Serine,D-Glucose,Pputida,2,28,0.3459
+0.0584,Fumaric acid,D-Glucose,Pputida,2,28,0.3459
+0,Valeric acid,D-Glucose,Pputida,2,28,0.3459
+0.693,Pyruvic acid,D-Glucose,Pputida,2,28,0.3459
+80.5,Lactic acid,D-Glucose,Pputida,2,28,0.3459
+0.954,Acetyl-ornithine,D-Glucose,Pputida,2,28,0.3459
+3.32,Glycine,D-Glucose,Pputida,2,28,0.3459
+8.53,Citric acid,D-Glucose,Pputida,2,28,0.3459
+0,alpha-Ketoglutaric acid,D-Glucose,Pputida,2,28,0.3459
+0,Putrescine,D-Glucose,Pputida,2,28,0.3459
+0,Propionic acid,D-Glucose,Pputida,2,28,0.3459
+0.517,Methionine,D-Glucose,Pputida,2,28,0.3459
+0,Hippuric acid,D-Glucose,Pputida,2,28,0.3459
+0,Pyruvic acid,D-Glucose,Pputida,1,48,0.3035
+0,Valine,D-Glucose,Pputida,1,48,0.3035
+0,Alanine,D-Glucose,Pputida,1,48,0.3035
+0.771,Propionic acid,D-Glucose,Pputida,1,48,0.3035
+1.34,beta-Hydroxybutyric acid,D-Glucose,Pputida,1,48,0.3035
+0,Serine,D-Glucose,Pputida,1,48,0.3035
+3.26,Glycine,D-Glucose,Pputida,1,48,0.3035
+0,alpha-Ketoglutaric acid,D-Glucose,Pputida,1,48,0.3035
+0.132,Succinic acid,D-Glucose,Pputida,1,48,0.3035
+5.65,Acetyl-ornithine,D-Glucose,Pputida,1,48,0.3035
+0.0168,Fumaric acid,D-Glucose,Pputida,1,48,0.3035
+0,Asparagine,D-Glucose,Pputida,1,48,0.3035
+0,Lactic acid,D-Glucose,Pputida,1,48,0.3035
+0.416,Methionine,D-Glucose,Pputida,1,48,0.3035
+0,Hippuric acid,D-Glucose,Pputida,1,48,0.3035
+0.233,Valeric acid,D-Glucose,Pputida,1,48,0.3035
+0.227,Butyric acid,D-Glucose,Pputida,1,48,0.3035
+730,Acetic acid,D-Glucose,Pputida,1,48,0.3035
+0,Putrescine,D-Glucose,Pputida,1,48,0.3035
+1.01,Citric acid,D-Glucose,Pputida,1,48,0.3035
+0.155,Succinic acid,D-Glucose,Pputida,2,48,0.2635
+0.48,Asparagine,D-Glucose,Pputida,2,48,0.2635
+0,Lactic acid,D-Glucose,Pputida,2,48,0.2635
+0,Alanine,D-Glucose,Pputida,2,48,0.2635
+4.67,Acetyl-ornithine,D-Glucose,Pputida,2,48,0.2635
+0.715,Methionine,D-Glucose,Pputida,2,48,0.2635
+2.67,Glycine,D-Glucose,Pputida,2,48,0.2635
+1.23,Propionic acid,D-Glucose,Pputida,2,48,0.2635
+0,Pyruvic acid,D-Glucose,Pputida,2,48,0.2635
+0,Valine,D-Glucose,Pputida,2,48,0.2635
+0,Serine,D-Glucose,Pputida,2,48,0.2635
+0,Hippuric acid,D-Glucose,Pputida,2,48,0.2635
+1.03,Citric acid,D-Glucose,Pputida,2,48,0.2635
+0,alpha-Ketoglutaric acid,D-Glucose,Pputida,2,48,0.2635
+0,Putrescine,D-Glucose,Pputida,2,48,0.2635
+1.14,beta-Hydroxybutyric acid,D-Glucose,Pputida,2,48,0.2635
+0.298,Valeric acid,D-Glucose,Pputida,2,48,0.2635
+0.557,Butyric acid,D-Glucose,Pputida,2,48,0.2635
+0.0229,Fumaric acid,D-Glucose,Pputida,2,48,0.2635
+732,Acetic acid,D-Glucose,Pputida,2,48,0.2635
+0,beta-Hydroxybutyric acid,D-Glucose,Pseudomonas,1,16,0.0949
+0.0387,Succinic acid,D-Glucose,Pseudomonas,1,16,0.0949
+0,Serine,D-Glucose,Pseudomonas,1,16,0.0949
+0,Pyruvic acid,D-Glucose,Pseudomonas,1,16,0.0949
+0,Lactic acid,D-Glucose,Pseudomonas,1,16,0.0949
+0.511,Asparagine,D-Glucose,Pseudomonas,1,16,0.0949
+0,alpha-Ketoglutaric acid,D-Glucose,Pseudomonas,1,16,0.0949
+0.0154,Fumaric acid,D-Glucose,Pseudomonas,1,16,0.0949
+0,Alanine,D-Glucose,Pseudomonas,1,16,0.0949
+2.91,Glycine,D-Glucose,Pseudomonas,1,16,0.0949
+0,Propionic acid,D-Glucose,Pseudomonas,1,16,0.0949
+0,Valine,D-Glucose,Pseudomonas,1,16,0.0949
+0,Valeric acid,D-Glucose,Pseudomonas,1,16,0.0949
+0,Putrescine,D-Glucose,Pseudomonas,1,16,0.0949
+0,Butyric acid,D-Glucose,Pseudomonas,1,16,0.0949
+0,Acetyl-ornithine,D-Glucose,Pseudomonas,1,16,0.0949
+0.218,Methionine,D-Glucose,Pseudomonas,1,16,0.0949
+0,Hippuric acid,D-Glucose,Pseudomonas,1,16,0.0949
+1.51,Citric acid,D-Glucose,Pseudomonas,1,16,0.0949
+98.6,Acetic acid,D-Glucose,Pseudomonas,1,16,0.0949
+0,beta-Hydroxybutyric acid,D-Glucose,Pseudomonas,2,16,0.2019
+0,Valine,D-Glucose,Pseudomonas,2,16,0.2019
+0.0385,Succinic acid,D-Glucose,Pseudomonas,2,16,0.2019
+0.565,Acetyl-ornithine,D-Glucose,Pseudomonas,2,16,0.2019
+0.0194,Fumaric acid,D-Glucose,Pseudomonas,2,16,0.2019
+0,Alanine,D-Glucose,Pseudomonas,2,16,0.2019
+0,Pyruvic acid,D-Glucose,Pseudomonas,2,16,0.2019
+0,Lactic acid,D-Glucose,Pseudomonas,2,16,0.2019
+0.0609,Methionine,D-Glucose,Pseudomonas,2,16,0.2019
+0,Serine,D-Glucose,Pseudomonas,2,16,0.2019
+0,Asparagine,D-Glucose,Pseudomonas,2,16,0.2019
+0,Propionic acid,D-Glucose,Pseudomonas,2,16,0.2019
+0,alpha-Ketoglutaric acid,D-Glucose,Pseudomonas,2,16,0.2019
+2.95,Glycine,D-Glucose,Pseudomonas,2,16,0.2019
+56.1,Acetic acid,D-Glucose,Pseudomonas,2,16,0.2019
+0,Butyric acid,D-Glucose,Pseudomonas,2,16,0.2019
+1.22,Citric acid,D-Glucose,Pseudomonas,2,16,0.2019
+0,Hippuric acid,D-Glucose,Pseudomonas,2,16,0.2019
+0,Valeric acid,D-Glucose,Pseudomonas,2,16,0.2019
+0,Putrescine,D-Glucose,Pseudomonas,2,16,0.2019
+0,Alanine,D-Glucose,Pseudomonas,1,28,0.1358
+0.123,Succinic acid,D-Glucose,Pseudomonas,1,28,0.1358
+0.0542,beta-Hydroxybutyric acid,D-Glucose,Pseudomonas,1,28,0.1358
+0,Propionic acid,D-Glucose,Pseudomonas,1,28,0.1358
+0,Pyruvic acid,D-Glucose,Pseudomonas,1,28,0.1358
+0,Putrescine,D-Glucose,Pseudomonas,1,28,0.1358
+0,Valine,D-Glucose,Pseudomonas,1,28,0.1358
+0,Asparagine,D-Glucose,Pseudomonas,1,28,0.1358
+1.62,Acetyl-ornithine,D-Glucose,Pseudomonas,1,28,0.1358
+0.1,Methionine,D-Glucose,Pseudomonas,1,28,0.1358
+0,Hippuric acid,D-Glucose,Pseudomonas,1,28,0.1358
+2.78,Glycine,D-Glucose,Pseudomonas,1,28,0.1358
+0,Lactic acid,D-Glucose,Pseudomonas,1,28,0.1358
+0.0192,Fumaric acid,D-Glucose,Pseudomonas,1,28,0.1358
+0,Serine,D-Glucose,Pseudomonas,1,28,0.1358
+96.1,Acetic acid,D-Glucose,Pseudomonas,1,28,0.1358
+0,alpha-Ketoglutaric acid,D-Glucose,Pseudomonas,1,28,0.1358
+1.27,Citric acid,D-Glucose,Pseudomonas,1,28,0.1358
+0,Butyric acid,D-Glucose,Pseudomonas,1,28,0.1358
+0,Valeric acid,D-Glucose,Pseudomonas,1,28,0.1358
+0,Valine,D-Glucose,Pseudomonas,2,28,0.2042
+0.286,Succinic acid,D-Glucose,Pseudomonas,2,28,0.2042
+0,Alanine,D-Glucose,Pseudomonas,2,28,0.2042
+1.34,Pyruvic acid,D-Glucose,Pseudomonas,2,28,0.2042
+0,Serine,D-Glucose,Pseudomonas,2,28,0.2042
+0,Fumaric acid,D-Glucose,Pseudomonas,2,28,0.2042
+0,Valeric acid,D-Glucose,Pseudomonas,2,28,0.2042
+0.0492,Asparagine,D-Glucose,Pseudomonas,2,28,0.2042
+1.26,beta-Hydroxybutyric acid,D-Glucose,Pseudomonas,2,28,0.2042
+0,Putrescine,D-Glucose,Pseudomonas,2,28,0.2042
+0,Propionic acid,D-Glucose,Pseudomonas,2,28,0.2042
+2.95,Glycine,D-Glucose,Pseudomonas,2,28,0.2042
+0,Lactic acid,D-Glucose,Pseudomonas,2,28,0.2042
+0.0842,Methionine,D-Glucose,Pseudomonas,2,28,0.2042
+2.12,Acetyl-ornithine,D-Glucose,Pseudomonas,2,28,0.2042
+2.99,Citric acid,D-Glucose,Pseudomonas,2,28,0.2042
+0,alpha-Ketoglutaric acid,D-Glucose,Pseudomonas,2,28,0.2042
+0,Hippuric acid,D-Glucose,Pseudomonas,2,28,0.2042
+0,Butyric acid,D-Glucose,Pseudomonas,2,28,0.2042
+225,Acetic acid,D-Glucose,Pseudomonas,2,28,0.2042
+0,Alanine,D-Glucose,Pseudomonas,1,48,0.2271
+0,Valine,D-Glucose,Pseudomonas,1,48,0.2271
+1.62,Serine,D-Glucose,Pseudomonas,1,48,0.2271
+0.0134,Fumaric acid,D-Glucose,Pseudomonas,1,48,0.2271
+0.178,Succinic acid,D-Glucose,Pseudomonas,1,48,0.2271
+0.0642,beta-Hydroxybutyric acid,D-Glucose,Pseudomonas,1,48,0.2271
+3.51,Acetyl-ornithine,D-Glucose,Pseudomonas,1,48,0.2271
+3.49,Glycine,D-Glucose,Pseudomonas,1,48,0.2271
+0.458,Asparagine,D-Glucose,Pseudomonas,1,48,0.2271
+0.0443,Butyric acid,D-Glucose,Pseudomonas,1,48,0.2271
+0,Lactic acid,D-Glucose,Pseudomonas,1,48,0.2271
+0,Putrescine,D-Glucose,Pseudomonas,1,48,0.2271
+0,Hippuric acid,D-Glucose,Pseudomonas,1,48,0.2271
+0,Propionic acid,D-Glucose,Pseudomonas,1,48,0.2271
+0,alpha-Ketoglutaric acid,D-Glucose,Pseudomonas,1,48,0.2271
+0.155,Methionine,D-Glucose,Pseudomonas,1,48,0.2271
+111,Acetic acid,D-Glucose,Pseudomonas,1,48,0.2271
+3.38,Citric acid,D-Glucose,Pseudomonas,1,48,0.2271
+0,Pyruvic acid,D-Glucose,Pseudomonas,1,48,0.2271
+0.444,Valeric acid,D-Glucose,Pseudomonas,1,48,0.2271
+6.06,Acetyl-ornithine,D-Glucose,Pseudomonas,2,48,0.3857
+0,Lactic acid,D-Glucose,Pseudomonas,2,48,0.3857
+0,Pyruvic acid,D-Glucose,Pseudomonas,2,48,0.3857
+0,Serine,D-Glucose,Pseudomonas,2,48,0.3857
+2.78,Propionic acid,D-Glucose,Pseudomonas,2,48,0.3857
+0,Asparagine,D-Glucose,Pseudomonas,2,48,0.3857
+0,alpha-Ketoglutaric acid,D-Glucose,Pseudomonas,2,48,0.3857
+2.64,Glycine,D-Glucose,Pseudomonas,2,48,0.3857
+0,Valine,D-Glucose,Pseudomonas,2,48,0.3857
+1.02,Butyric acid,D-Glucose,Pseudomonas,2,48,0.3857
+0.816,beta-Hydroxybutyric acid,D-Glucose,Pseudomonas,2,48,0.3857
+0,Hippuric acid,D-Glucose,Pseudomonas,2,48,0.3857
+1040,Acetic acid,D-Glucose,Pseudomonas,2,48,0.3857
+0,Alanine,D-Glucose,Pseudomonas,2,48,0.3857
+0.0263,Fumaric acid,D-Glucose,Pseudomonas,2,48,0.3857
+5.42,Citric acid,D-Glucose,Pseudomonas,2,48,0.3857
+0,Putrescine,D-Glucose,Pseudomonas,2,48,0.3857
+0.456,Valeric acid,D-Glucose,Pseudomonas,2,48,0.3857
+0,Methionine,D-Glucose,Pseudomonas,2,48,0.3857
+0.166,Succinic acid,D-Glucose,Pseudomonas,2,48,0.3857
+0,Valine,L-Malate,Ecoli,1,16,0.0058
+0,Asparagine,L-Malate,Ecoli,1,16,0.0058
+26.1,Succinic acid,L-Malate,Ecoli,1,16,0.0058
+0,Alanine,L-Malate,Ecoli,1,16,0.0058
+0.511,Pyruvic acid,L-Malate,Ecoli,1,16,0.0058
+0.385,Serine,L-Malate,Ecoli,1,16,0.0058
+0,beta-Hydroxybutyric acid,L-Malate,Ecoli,1,16,0.0058
+0.592,Valeric acid,L-Malate,Ecoli,1,16,0.0058
+1.72,Citric acid,L-Malate,Ecoli,1,16,0.0058
+0,Butyric acid,L-Malate,Ecoli,1,16,0.0058
+0.251,Acetyl-ornithine,L-Malate,Ecoli,1,16,0.0058
+0.18,Hippuric acid,L-Malate,Ecoli,1,16,0.0058
+0.293,Propionic acid,L-Malate,Ecoli,1,16,0.0058
+0,Glycine,L-Malate,Ecoli,1,16,0.0058
+0,Lactic acid,L-Malate,Ecoli,1,16,0.0058
+17,Fumaric acid,L-Malate,Ecoli,1,16,0.0058
+0,Acetic acid,L-Malate,Ecoli,1,16,0.0058
+0,alpha-Ketoglutaric acid,L-Malate,Ecoli,1,16,0.0058
+0,Putrescine,L-Malate,Ecoli,1,16,0.0058
+0.225,Methionine,L-Malate,Ecoli,1,16,0.0058
+0,Valine,L-Malate,Ecoli,2,16,0.0022
+0,Alanine,L-Malate,Ecoli,2,16,0.0022
+0.237,Pyruvic acid,L-Malate,Ecoli,2,16,0.0022
+26.5,Succinic acid,L-Malate,Ecoli,2,16,0.0022
+0.81,Serine,L-Malate,Ecoli,2,16,0.0022
+0.5,beta-Hydroxybutyric acid,L-Malate,Ecoli,2,16,0.0022
+0.329,Valeric acid,L-Malate,Ecoli,2,16,0.0022
+1.69,Citric acid,L-Malate,Ecoli,2,16,0.0022
+0,alpha-Ketoglutaric acid,L-Malate,Ecoli,2,16,0.0022
+0,Methionine,L-Malate,Ecoli,2,16,0.0022
+0,Glycine,L-Malate,Ecoli,2,16,0.0022
+0,Butyric acid,L-Malate,Ecoli,2,16,0.0022
+0,Lactic acid,L-Malate,Ecoli,2,16,0.0022
+19.7,Fumaric acid,L-Malate,Ecoli,2,16,0.0022
+0.196,Acetyl-ornithine,L-Malate,Ecoli,2,16,0.0022
+0.906,Propionic acid,L-Malate,Ecoli,2,16,0.0022
+0.362,Asparagine,L-Malate,Ecoli,2,16,0.0022
+0.14,Putrescine,L-Malate,Ecoli,2,16,0.0022
+0,Acetic acid,L-Malate,Ecoli,2,16,0.0022
+0.16,Hippuric acid,L-Malate,Ecoli,2,16,0.0022
+2.59,Propionic acid,L-Malate,Ecoli,1,28,0.0091
+0,Glycine,L-Malate,Ecoli,1,28,0.0091
+1.07,Serine,L-Malate,Ecoli,1,28,0.0091
+0.603,beta-Hydroxybutyric acid,L-Malate,Ecoli,1,28,0.0091
+40.1,Succinic acid,L-Malate,Ecoli,1,28,0.0091
+0,Lactic acid,L-Malate,Ecoli,1,28,0.0091
+0.102,Putrescine,L-Malate,Ecoli,1,28,0.0091
+0,Valine,L-Malate,Ecoli,1,28,0.0091
+0,alpha-Ketoglutaric acid,L-Malate,Ecoli,1,28,0.0091
+0,Alanine,L-Malate,Ecoli,1,28,0.0091
+0,Acetyl-ornithine,L-Malate,Ecoli,1,28,0.0091
+0.428,Pyruvic acid,L-Malate,Ecoli,1,28,0.0091
+0,Butyric acid,L-Malate,Ecoli,1,28,0.0091
+0.426,Asparagine,L-Malate,Ecoli,1,28,0.0091
+35.8,Fumaric acid,L-Malate,Ecoli,1,28,0.0091
+0.229,Hippuric acid,L-Malate,Ecoli,1,28,0.0091
+52.5,Acetic acid,L-Malate,Ecoli,1,28,0.0091
+0.475,Valeric acid,L-Malate,Ecoli,1,28,0.0091
+0.0768,Methionine,L-Malate,Ecoli,1,28,0.0091
+1.98,Citric acid,L-Malate,Ecoli,1,28,0.0091
+0,Alanine,L-Malate,Ecoli,2,28,0.0074
+36.2,Fumaric acid,L-Malate,Ecoli,2,28,0.0074
+1.93,Serine,L-Malate,Ecoli,2,28,0.0074
+0,Asparagine,L-Malate,Ecoli,2,28,0.0074
+0.805,Butyric acid,L-Malate,Ecoli,2,28,0.0074
+0,Lactic acid,L-Malate,Ecoli,2,28,0.0074
+6.22,Propionic acid,L-Malate,Ecoli,2,28,0.0074
+39.8,Succinic acid,L-Malate,Ecoli,2,28,0.0074
+0,alpha-Ketoglutaric acid,L-Malate,Ecoli,2,28,0.0074
+0,Glycine,L-Malate,Ecoli,2,28,0.0074
+0,Valine,L-Malate,Ecoli,2,28,0.0074
+1.97,Citric acid,L-Malate,Ecoli,2,28,0.0074
+0.206,Pyruvic acid,L-Malate,Ecoli,2,28,0.0074
+0.643,beta-Hydroxybutyric acid,L-Malate,Ecoli,2,28,0.0074
+0.398,Acetyl-ornithine,L-Malate,Ecoli,2,28,0.0074
+1.39,Valeric acid,L-Malate,Ecoli,2,28,0.0074
+94,Acetic acid,L-Malate,Ecoli,2,28,0.0074
+0,Putrescine,L-Malate,Ecoli,2,28,0.0074
+0.277,Hippuric acid,L-Malate,Ecoli,2,28,0.0074
+0,Methionine,L-Malate,Ecoli,2,28,0.0074
+53,Pyruvic acid,L-Malate,Ecoli,1,48,0.05
+0,alpha-Ketoglutaric acid,L-Malate,Ecoli,1,48,0.05
+1.28,Serine,L-Malate,Ecoli,1,48,0.05
+0,Valine,L-Malate,Ecoli,1,48,0.05
+0.114,Asparagine,L-Malate,Ecoli,1,48,0.05
+1.08,Butyric acid,L-Malate,Ecoli,1,48,0.05
+0,Lactic acid,L-Malate,Ecoli,1,48,0.05
+0,Glycine,L-Malate,Ecoli,1,48,0.05
+0,Alanine,L-Malate,Ecoli,1,48,0.05
+5.01,Citric acid,L-Malate,Ecoli,1,48,0.05
+194,Succinic acid,L-Malate,Ecoli,1,48,0.05
+1.81,beta-Hydroxybutyric acid,L-Malate,Ecoli,1,48,0.05
+0.872,Acetyl-ornithine,L-Malate,Ecoli,1,48,0.05
+700,Acetic acid,L-Malate,Ecoli,1,48,0.05
+0,Methionine,L-Malate,Ecoli,1,48,0.05
+176,Fumaric acid,L-Malate,Ecoli,1,48,0.05
+1.72,Valeric acid,L-Malate,Ecoli,1,48,0.05
+0.302,Hippuric acid,L-Malate,Ecoli,1,48,0.05
+12.3,Propionic acid,L-Malate,Ecoli,1,48,0.05
+0,Putrescine,L-Malate,Ecoli,1,48,0.05
+0,Alanine,L-Malate,Ecoli,2,48,0.0464
+0,Lactic acid,L-Malate,Ecoli,2,48,0.0464
+0,Valine,L-Malate,Ecoli,2,48,0.0464
+716,Succinic acid,L-Malate,Ecoli,2,48,0.0464
+0.0432,alpha-Ketoglutaric acid,L-Malate,Ecoli,2,48,0.0464
+0,Glycine,L-Malate,Ecoli,2,48,0.0464
+49.5,Pyruvic acid,L-Malate,Ecoli,2,48,0.0464
+0.433,Asparagine,L-Malate,Ecoli,2,48,0.0464
+0.822,Serine,L-Malate,Ecoli,2,48,0.0464
+2.61,beta-Hydroxybutyric acid,L-Malate,Ecoli,2,48,0.0464
+22.3,Propionic acid,L-Malate,Ecoli,2,48,0.0464
+980,Acetic acid,L-Malate,Ecoli,2,48,0.0464
+0,Putrescine,L-Malate,Ecoli,2,48,0.0464
+3.79,Acetyl-ornithine,L-Malate,Ecoli,2,48,0.0464
+0.385,Hippuric acid,L-Malate,Ecoli,2,48,0.0464
+0.107,Methionine,L-Malate,Ecoli,2,48,0.0464
+465,Fumaric acid,L-Malate,Ecoli,2,48,0.0464
+2.44,Butyric acid,L-Malate,Ecoli,2,48,0.0464
+7.26,Citric acid,L-Malate,Ecoli,2,48,0.0464
+1.99,Valeric acid,L-Malate,Ecoli,2,48,0.0464
+0.491,Serine,L-Malate,Enterobacter,1,16,0.0317
+0.196,Putrescine,L-Malate,Enterobacter,1,16,0.0317
+0,Asparagine,L-Malate,Enterobacter,1,16,0.0317
+0,Methionine,L-Malate,Enterobacter,1,16,0.0317
+0,Valine,L-Malate,Enterobacter,1,16,0.0317
+0,Alanine,L-Malate,Enterobacter,1,16,0.0317
+0,Glycine,L-Malate,Enterobacter,1,16,0.0317
+0,Acetyl-ornithine,L-Malate,Enterobacter,1,16,0.0317
+2.79,Propionic acid,L-Malate,Enterobacter,1,16,0.0317
+80.2,Succinic acid,L-Malate,Enterobacter,1,16,0.0317
+0,Lactic acid,L-Malate,Enterobacter,1,16,0.0317
+0.636,beta-Hydroxybutyric acid,L-Malate,Enterobacter,1,16,0.0317
+0.564,Valeric acid,L-Malate,Enterobacter,1,16,0.0317
+260,Pyruvic acid,L-Malate,Enterobacter,1,16,0.0317
+2.73,alpha-Ketoglutaric acid,L-Malate,Enterobacter,1,16,0.0317
+0.165,Hippuric acid,L-Malate,Enterobacter,1,16,0.0317
+4.16,Citric acid,L-Malate,Enterobacter,1,16,0.0317
+0,Butyric acid,L-Malate,Enterobacter,1,16,0.0317
+23,Fumaric acid,L-Malate,Enterobacter,1,16,0.0317
+766,Acetic acid,L-Malate,Enterobacter,1,16,0.0317
+0,Valine,L-Malate,Enterobacter,2,16,0.0404
+1.6,Serine,L-Malate,Enterobacter,2,16,0.0404
+0.76,beta-Hydroxybutyric acid,L-Malate,Enterobacter,2,16,0.0404
+30.7,Fumaric acid,L-Malate,Enterobacter,2,16,0.0404
+0,Alanine,L-Malate,Enterobacter,2,16,0.0404
+0,Asparagine,L-Malate,Enterobacter,2,16,0.0404
+0,Putrescine,L-Malate,Enterobacter,2,16,0.0404
+0,Lactic acid,L-Malate,Enterobacter,2,16,0.0404
+0,Glycine,L-Malate,Enterobacter,2,16,0.0404
+1.5,Propionic acid,L-Malate,Enterobacter,2,16,0.0404
+109,Succinic acid,L-Malate,Enterobacter,2,16,0.0404
+3.48,alpha-Ketoglutaric acid,L-Malate,Enterobacter,2,16,0.0404
+1030,Acetic acid,L-Malate,Enterobacter,2,16,0.0404
+304,Pyruvic acid,L-Malate,Enterobacter,2,16,0.0404
+0,Butyric acid,L-Malate,Enterobacter,2,16,0.0404
+4.82,Citric acid,L-Malate,Enterobacter,2,16,0.0404
+0.153,Hippuric acid,L-Malate,Enterobacter,2,16,0.0404
+0,Methionine,L-Malate,Enterobacter,2,16,0.0404
+0,Valeric acid,L-Malate,Enterobacter,2,16,0.0404
+0.552,Acetyl-ornithine,L-Malate,Enterobacter,2,16,0.0404
+0,Alanine,L-Malate,Enterobacter,1,28,0.1474
+0,Serine,L-Malate,Enterobacter,1,28,0.1474
+0,Glycine,L-Malate,Enterobacter,1,28,0.1474
+2.52,Acetyl-ornithine,L-Malate,Enterobacter,1,28,0.1474
+9.07,Propionic acid,L-Malate,Enterobacter,1,28,0.1474
+2.78,beta-Hydroxybutyric acid,L-Malate,Enterobacter,1,28,0.1474
+101,Fumaric acid,L-Malate,Enterobacter,1,28,0.1474
+0,Lactic acid,L-Malate,Enterobacter,1,28,0.1474
+103,Pyruvic acid,L-Malate,Enterobacter,1,28,0.1474
+0,Valine,L-Malate,Enterobacter,1,28,0.1474
+472,Succinic acid,L-Malate,Enterobacter,1,28,0.1474
+1.32,alpha-Ketoglutaric acid,L-Malate,Enterobacter,1,28,0.1474
+0.205,Hippuric acid,L-Malate,Enterobacter,1,28,0.1474
+0.117,Putrescine,L-Malate,Enterobacter,1,28,0.1474
+0,Asparagine,L-Malate,Enterobacter,1,28,0.1474
+2.02,Butyric acid,L-Malate,Enterobacter,1,28,0.1474
+0.212,Methionine,L-Malate,Enterobacter,1,28,0.1474
+3320,Acetic acid,L-Malate,Enterobacter,1,28,0.1474
+3.5,Citric acid,L-Malate,Enterobacter,1,28,0.1474
+0.277,Valeric acid,L-Malate,Enterobacter,1,28,0.1474
+487,Succinic acid,L-Malate,Enterobacter,2,28,0.125
+0,Asparagine,L-Malate,Enterobacter,2,28,0.125
+102,Pyruvic acid,L-Malate,Enterobacter,2,28,0.125
+0,Glycine,L-Malate,Enterobacter,2,28,0.125
+3430,Acetic acid,L-Malate,Enterobacter,2,28,0.125
+0,Alanine,L-Malate,Enterobacter,2,28,0.125
+2.87,beta-Hydroxybutyric acid,L-Malate,Enterobacter,2,28,0.125
+2.61,Acetyl-ornithine,L-Malate,Enterobacter,2,28,0.125
+0.177,Methionine,L-Malate,Enterobacter,2,28,0.125
+0.228,Hippuric acid,L-Malate,Enterobacter,2,28,0.125
+10.6,Propionic acid,L-Malate,Enterobacter,2,28,0.125
+3.42,Citric acid,L-Malate,Enterobacter,2,28,0.125
+0,Lactic acid,L-Malate,Enterobacter,2,28,0.125
+1.15,Serine,L-Malate,Enterobacter,2,28,0.125
+0,Valine,L-Malate,Enterobacter,2,28,0.125
+1.36,alpha-Ketoglutaric acid,L-Malate,Enterobacter,2,28,0.125
+0.102,Putrescine,L-Malate,Enterobacter,2,28,0.125
+0.849,Valeric acid,L-Malate,Enterobacter,2,28,0.125
+2.82,Butyric acid,L-Malate,Enterobacter,2,28,0.125
+101,Fumaric acid,L-Malate,Enterobacter,2,28,0.125
+0,Valine,L-Malate,Enterobacter,1,48,0.2362
+0,Pyruvic acid,L-Malate,Enterobacter,1,48,0.2362
+0.165,Succinic acid,L-Malate,Enterobacter,1,48,0.2362
+6.03,beta-Hydroxybutyric acid,L-Malate,Enterobacter,1,48,0.2362
+0.132,Fumaric acid,L-Malate,Enterobacter,1,48,0.2362
+0,Asparagine,L-Malate,Enterobacter,1,48,0.2362
+1010,Acetic acid,L-Malate,Enterobacter,1,48,0.2362
+5.26,Butyric acid,L-Malate,Enterobacter,1,48,0.2362
+5.6,Citric acid,L-Malate,Enterobacter,1,48,0.2362
+2.11,Serine,L-Malate,Enterobacter,1,48,0.2362
+0,Putrescine,L-Malate,Enterobacter,1,48,0.2362
+0,Alanine,L-Malate,Enterobacter,1,48,0.2362
+13.7,Propionic acid,L-Malate,Enterobacter,1,48,0.2362
+0,Lactic acid,L-Malate,Enterobacter,1,48,0.2362
+2.81,Acetyl-ornithine,L-Malate,Enterobacter,1,48,0.2362
+1.02,Valeric acid,L-Malate,Enterobacter,1,48,0.2362
+0.272,Hippuric acid,L-Malate,Enterobacter,1,48,0.2362
+0,alpha-Ketoglutaric acid,L-Malate,Enterobacter,1,48,0.2362
+0,Glycine,L-Malate,Enterobacter,1,48,0.2362
+0.241,Methionine,L-Malate,Enterobacter,1,48,0.2362
+0.2,Succinic acid,L-Malate,Enterobacter,2,48,0.1801
+0,Alanine,L-Malate,Enterobacter,2,48,0.1801
+0,Pyruvic acid,L-Malate,Enterobacter,2,48,0.1801
+0,Valine,L-Malate,Enterobacter,2,48,0.1801
+0,Glycine,L-Malate,Enterobacter,2,48,0.1801
+6.41,beta-Hydroxybutyric acid,L-Malate,Enterobacter,2,48,0.1801
+0.16,Fumaric acid,L-Malate,Enterobacter,2,48,0.1801
+0.545,Serine,L-Malate,Enterobacter,2,48,0.1801
+16.3,Propionic acid,L-Malate,Enterobacter,2,48,0.1801
+0,alpha-Ketoglutaric acid,L-Malate,Enterobacter,2,48,0.1801
+0,Asparagine,L-Malate,Enterobacter,2,48,0.1801
+2.83,Acetyl-ornithine,L-Malate,Enterobacter,2,48,0.1801
+0.264,Hippuric acid,L-Malate,Enterobacter,2,48,0.1801
+6.53,Butyric acid,L-Malate,Enterobacter,2,48,0.1801
+1.11,Valeric acid,L-Malate,Enterobacter,2,48,0.1801
+0,Lactic acid,L-Malate,Enterobacter,2,48,0.1801
+0.12,Methionine,L-Malate,Enterobacter,2,48,0.1801
+5.74,Citric acid,L-Malate,Enterobacter,2,48,0.1801
+1160,Acetic acid,L-Malate,Enterobacter,2,48,0.1801
+0,Putrescine,L-Malate,Enterobacter,2,48,0.1801
+5.4,alpha-Ketoglutaric acid,L-Malate,Pputida,1,16,0.371
+0,Butyric acid,L-Malate,Pputida,1,16,0.371
+0,Glycine,L-Malate,Pputida,1,16,0.371
+39.3,Succinic acid,L-Malate,Pputida,1,16,0.371
+0.394,Serine,L-Malate,Pputida,1,16,0.371
+1.49,beta-Hydroxybutyric acid,L-Malate,Pputida,1,16,0.371
+0,Alanine,L-Malate,Pputida,1,16,0.371
+338,Pyruvic acid,L-Malate,Pputida,1,16,0.371
+7.03,Citric acid,L-Malate,Pputida,1,16,0.371
+0,Putrescine,L-Malate,Pputida,1,16,0.371
+0,Valine,L-Malate,Pputida,1,16,0.371
+0,Asparagine,L-Malate,Pputida,1,16,0.371
+1.48,Propionic acid,L-Malate,Pputida,1,16,0.371
+0.473,Acetyl-ornithine,L-Malate,Pputida,1,16,0.371
+0.181,Hippuric acid,L-Malate,Pputida,1,16,0.371
+25.1,Acetic acid,L-Malate,Pputida,1,16,0.371
+0.494,Valeric acid,L-Malate,Pputida,1,16,0.371
+6.06,Fumaric acid,L-Malate,Pputida,1,16,0.371
+0,Lactic acid,L-Malate,Pputida,1,16,0.371
+0.245,Methionine,L-Malate,Pputida,1,16,0.371
+0,Valine,L-Malate,Pputida,2,16,0.1382
+0,Lactic acid,L-Malate,Pputida,2,16,0.1382
+6.21,alpha-Ketoglutaric acid,L-Malate,Pputida,2,16,0.1382
+1.14,beta-Hydroxybutyric acid,L-Malate,Pputida,2,16,0.1382
+41.5,Succinic acid,L-Malate,Pputida,2,16,0.1382
+2.05,Serine,L-Malate,Pputida,2,16,0.1382
+0,Alanine,L-Malate,Pputida,2,16,0.1382
+353,Pyruvic acid,L-Malate,Pputida,2,16,0.1382
+0.92,Propionic acid,L-Malate,Pputida,2,16,0.1382
+0,Glycine,L-Malate,Pputida,2,16,0.1382
+17.1,Acetic acid,L-Malate,Pputida,2,16,0.1382
+0,Asparagine,L-Malate,Pputida,2,16,0.1382
+0,Putrescine,L-Malate,Pputida,2,16,0.1382
+6.82,Fumaric acid,L-Malate,Pputida,2,16,0.1382
+1.1,Acetyl-ornithine,L-Malate,Pputida,2,16,0.1382
+0.0838,Methionine,L-Malate,Pputida,2,16,0.1382
+0,Butyric acid,L-Malate,Pputida,2,16,0.1382
+0.297,Valeric acid,L-Malate,Pputida,2,16,0.1382
+0.147,Hippuric acid,L-Malate,Pputida,2,16,0.1382
+7.44,Citric acid,L-Malate,Pputida,2,16,0.1382
+1.48,Pyruvic acid,L-Malate,Pputida,1,28,0.2389
+0,Lactic acid,L-Malate,Pputida,1,28,0.2389
+0,Alanine,L-Malate,Pputida,1,28,0.2389
+0,Valine,L-Malate,Pputida,1,28,0.2389
+0.244,Succinic acid,L-Malate,Pputida,1,28,0.2389
+2.06,Acetyl-ornithine,L-Malate,Pputida,1,28,0.2389
+0.444,Glycine,L-Malate,Pputida,1,28,0.2389
+0.825,beta-Hydroxybutyric acid,L-Malate,Pputida,1,28,0.2389
+0,Asparagine,L-Malate,Pputida,1,28,0.2389
+2.87,Butyric acid,L-Malate,Pputida,1,28,0.2389
+0.156,Fumaric acid,L-Malate,Pputida,1,28,0.2389
+0.467,Valeric acid,L-Malate,Pputida,1,28,0.2389
+7.65,Propionic acid,L-Malate,Pputida,1,28,0.2389
+0.258,Methionine,L-Malate,Pputida,1,28,0.2389
+2.97,Serine,L-Malate,Pputida,1,28,0.2389
+110,Acetic acid,L-Malate,Pputida,1,28,0.2389
+0,alpha-Ketoglutaric acid,L-Malate,Pputida,1,28,0.2389
+0.215,Hippuric acid,L-Malate,Pputida,1,28,0.2389
+0,Putrescine,L-Malate,Pputida,1,28,0.2389
+2.61,Citric acid,L-Malate,Pputida,1,28,0.2389
+0,Alanine,L-Malate,Pputida,2,28,0.3023
+0,Valine,L-Malate,Pputida,2,28,0.3023
+1.96,Acetyl-ornithine,L-Malate,Pputida,2,28,0.3023
+0.245,Succinic acid,L-Malate,Pputida,2,28,0.3023
+8.68,Propionic acid,L-Malate,Pputida,2,28,0.3023
+1.94,Pyruvic acid,L-Malate,Pputida,2,28,0.3023
+1.05,beta-Hydroxybutyric acid,L-Malate,Pputida,2,28,0.3023
+0.881,Serine,L-Malate,Pputida,2,28,0.3023
+0,Asparagine,L-Malate,Pputida,2,28,0.3023
+0,alpha-Ketoglutaric acid,L-Malate,Pputida,2,28,0.3023
+0,Putrescine,L-Malate,Pputida,2,28,0.3023
+1.03,Valeric acid,L-Malate,Pputida,2,28,0.3023
+0,Glycine,L-Malate,Pputida,2,28,0.3023
+3.64,Butyric acid,L-Malate,Pputida,2,28,0.3023
+0.147,Methionine,L-Malate,Pputida,2,28,0.3023
+0.187,Hippuric acid,L-Malate,Pputida,2,28,0.3023
+161,Acetic acid,L-Malate,Pputida,2,28,0.3023
+0,Lactic acid,L-Malate,Pputida,2,28,0.3023
+0.138,Fumaric acid,L-Malate,Pputida,2,28,0.3023
+2.62,Citric acid,L-Malate,Pputida,2,28,0.3023
+0,Valine,L-Malate,Pputida,1,48,0.2462
+4.07,Butyric acid,L-Malate,Pputida,1,48,0.2462
+0.511,beta-Hydroxybutyric acid,L-Malate,Pputida,1,48,0.2462
+0,Alanine,L-Malate,Pputida,1,48,0.2462
+0.309,Asparagine,L-Malate,Pputida,1,48,0.2462
+0.183,Succinic acid,L-Malate,Pputida,1,48,0.2462
+2.42,Serine,L-Malate,Pputida,1,48,0.2462
+0.133,Fumaric acid,L-Malate,Pputida,1,48,0.2462
+10.4,Propionic acid,L-Malate,Pputida,1,48,0.2462
+1.15,Pyruvic acid,L-Malate,Pputida,1,48,0.2462
+0,Lactic acid,L-Malate,Pputida,1,48,0.2462
+0,Putrescine,L-Malate,Pputida,1,48,0.2462
+1.11,Valeric acid,L-Malate,Pputida,1,48,0.2462
+2.27,Citric acid,L-Malate,Pputida,1,48,0.2462
+0,alpha-Ketoglutaric acid,L-Malate,Pputida,1,48,0.2462
+0.296,Hippuric acid,L-Malate,Pputida,1,48,0.2462
+0.205,Methionine,L-Malate,Pputida,1,48,0.2462
+0,Glycine,L-Malate,Pputida,1,48,0.2462
+1.58,Acetyl-ornithine,L-Malate,Pputida,1,48,0.2462
+321,Acetic acid,L-Malate,Pputida,1,48,0.2462
+0,alpha-Ketoglutaric acid,L-Malate,Pputida,2,48,0.261
+12.8,Propionic acid,L-Malate,Pputida,2,48,0.261
+1.27,Pyruvic acid,L-Malate,Pputida,2,48,0.261
+0,Valine,L-Malate,Pputida,2,48,0.261
+0,Serine,L-Malate,Pputida,2,48,0.261
+0,Alanine,L-Malate,Pputida,2,48,0.261
+0,Asparagine,L-Malate,Pputida,2,48,0.261
+0.508,beta-Hydroxybutyric acid,L-Malate,Pputida,2,48,0.261
+1.9,Acetyl-ornithine,L-Malate,Pputida,2,48,0.261
+0.156,Fumaric acid,L-Malate,Pputida,2,48,0.261
+0.229,Succinic acid,L-Malate,Pputida,2,48,0.261
+0,Lactic acid,L-Malate,Pputida,2,48,0.261
+0,Methionine,L-Malate,Pputida,2,48,0.261
+0,Glycine,L-Malate,Pputida,2,48,0.261
+2.15,Citric acid,L-Malate,Pputida,2,48,0.261
+4.78,Butyric acid,L-Malate,Pputida,2,48,0.261
+1.1,Valeric acid,L-Malate,Pputida,2,48,0.261
+0,Putrescine,L-Malate,Pputida,2,48,0.261
+0.235,Hippuric acid,L-Malate,Pputida,2,48,0.261
+258,Acetic acid,L-Malate,Pputida,2,48,0.261
+3.94,Propionic acid,L-Malate,Pseudomonas,1,16,0.0934
+5.92,alpha-Ketoglutaric acid,L-Malate,Pseudomonas,1,16,0.0934
+0.422,Acetyl-ornithine,L-Malate,Pseudomonas,1,16,0.0934
+373,Pyruvic acid,L-Malate,Pseudomonas,1,16,0.0934
+0,Asparagine,L-Malate,Pseudomonas,1,16,0.0934
+0.879,Butyric acid,L-Malate,Pseudomonas,1,16,0.0934
+1.46,beta-Hydroxybutyric acid,L-Malate,Pseudomonas,1,16,0.0934
+0,Valine,L-Malate,Pseudomonas,1,16,0.0934
+0,Alanine,L-Malate,Pseudomonas,1,16,0.0934
+0,Putrescine,L-Malate,Pseudomonas,1,16,0.0934
+0.123,Hippuric acid,L-Malate,Pseudomonas,1,16,0.0934
+1.47,Serine,L-Malate,Pseudomonas,1,16,0.0934
+62.6,Acetic acid,L-Malate,Pseudomonas,1,16,0.0934
+6.35,Citric acid,L-Malate,Pseudomonas,1,16,0.0934
+0,Lactic acid,L-Malate,Pseudomonas,1,16,0.0934
+0,Methionine,L-Malate,Pseudomonas,1,16,0.0934
+0,Glycine,L-Malate,Pseudomonas,1,16,0.0934
+0.207,Valeric acid,L-Malate,Pseudomonas,1,16,0.0934
+33.6,Succinic acid,L-Malate,Pseudomonas,1,16,0.0934
+8.79,Fumaric acid,L-Malate,Pseudomonas,1,16,0.0934
+0.876,Serine,L-Malate,Pseudomonas,2,16,0.1312
+371,Pyruvic acid,L-Malate,Pseudomonas,2,16,0.1312
+98.1,Succinic acid,L-Malate,Pseudomonas,2,16,0.1312
+0,Lactic acid,L-Malate,Pseudomonas,2,16,0.1312
+0,Alanine,L-Malate,Pseudomonas,2,16,0.1312
+44.8,Fumaric acid,L-Malate,Pseudomonas,2,16,0.1312
+15.1,alpha-Ketoglutaric acid,L-Malate,Pseudomonas,2,16,0.1312
+0,Valine,L-Malate,Pseudomonas,2,16,0.1312
+0,Glycine,L-Malate,Pseudomonas,2,16,0.1312
+1.45,beta-Hydroxybutyric acid,L-Malate,Pseudomonas,2,16,0.1312
+0,Asparagine,L-Malate,Pseudomonas,2,16,0.1312
+0,Valeric acid,L-Malate,Pseudomonas,2,16,0.1312
+0,Putrescine,L-Malate,Pseudomonas,2,16,0.1312
+0,Propionic acid,L-Malate,Pseudomonas,2,16,0.1312
+0.336,Acetyl-ornithine,L-Malate,Pseudomonas,2,16,0.1312
+0.216,Methionine,L-Malate,Pseudomonas,2,16,0.1312
+0.117,Hippuric acid,L-Malate,Pseudomonas,2,16,0.1312
+4.07,Citric acid,L-Malate,Pseudomonas,2,16,0.1312
+0,Butyric acid,L-Malate,Pseudomonas,2,16,0.1312
+77.4,Acetic acid,L-Malate,Pseudomonas,2,16,0.1312
+0,Valine,L-Malate,Pseudomonas,1,28,0.1721
+0,Glycine,L-Malate,Pseudomonas,1,28,0.1721
+0,Lactic acid,L-Malate,Pseudomonas,1,28,0.1721
+2.37,beta-Hydroxybutyric acid,L-Malate,Pseudomonas,1,28,0.1721
+0.365,Succinic acid,L-Malate,Pseudomonas,1,28,0.1721
+7.41,Propionic acid,L-Malate,Pseudomonas,1,28,0.1721
+2.94,Butyric acid,L-Malate,Pseudomonas,1,28,0.1721
+0.242,Methionine,L-Malate,Pseudomonas,1,28,0.1721
+2.45,Serine,L-Malate,Pseudomonas,1,28,0.1721
+0.00854,Alanine,L-Malate,Pseudomonas,1,28,0.1721
+139,Acetic acid,L-Malate,Pseudomonas,1,28,0.1721
+371,Pyruvic acid,L-Malate,Pseudomonas,1,28,0.1721
+1.4,Acetyl-ornithine,L-Malate,Pseudomonas,1,28,0.1721
+0,Putrescine,L-Malate,Pseudomonas,1,28,0.1721
+0.813,Asparagine,L-Malate,Pseudomonas,1,28,0.1721
+0.169,Fumaric acid,L-Malate,Pseudomonas,1,28,0.1721
+0.0897,alpha-Ketoglutaric acid,L-Malate,Pseudomonas,1,28,0.1721
+0.79,Valeric acid,L-Malate,Pseudomonas,1,28,0.1721
+3.23,Citric acid,L-Malate,Pseudomonas,1,28,0.1721
+0.228,Hippuric acid,L-Malate,Pseudomonas,1,28,0.1721
+0,Alanine,L-Malate,Pseudomonas,2,28,0.1059
+2.46,beta-Hydroxybutyric acid,L-Malate,Pseudomonas,2,28,0.1059
+7.21,Propionic acid,L-Malate,Pseudomonas,2,28,0.1059
+2.72,alpha-Ketoglutaric acid,L-Malate,Pseudomonas,2,28,0.1059
+0,Putrescine,L-Malate,Pseudomonas,2,28,0.1059
+0,Valine,L-Malate,Pseudomonas,2,28,0.1059
+393,Pyruvic acid,L-Malate,Pseudomonas,2,28,0.1059
+1.94,Butyric acid,L-Malate,Pseudomonas,2,28,0.1059
+0.269,Methionine,L-Malate,Pseudomonas,2,28,0.1059
+2.19,Acetyl-ornithine,L-Malate,Pseudomonas,2,28,0.1059
+2.67,Glycine,L-Malate,Pseudomonas,2,28,0.1059
+87,Succinic acid,L-Malate,Pseudomonas,2,28,0.1059
+16.5,Fumaric acid,L-Malate,Pseudomonas,2,28,0.1059
+0,Serine,L-Malate,Pseudomonas,2,28,0.1059
+136,Acetic acid,L-Malate,Pseudomonas,2,28,0.1059
+0,Asparagine,L-Malate,Pseudomonas,2,28,0.1059
+4.35,Citric acid,L-Malate,Pseudomonas,2,28,0.1059
+0,Lactic acid,L-Malate,Pseudomonas,2,28,0.1059
+0.207,Hippuric acid,L-Malate,Pseudomonas,2,28,0.1059
+0.492,Valeric acid,L-Malate,Pseudomonas,2,28,0.1059
+0.325,Serine,L-Malate,Pseudomonas,1,48,0.195
+0.555,beta-Hydroxybutyric acid,L-Malate,Pseudomonas,1,48,0.195
+0.532,Pyruvic acid,L-Malate,Pseudomonas,1,48,0.195
+0,Lactic acid,L-Malate,Pseudomonas,1,48,0.195
+0.153,Fumaric acid,L-Malate,Pseudomonas,1,48,0.195
+0,Valine,L-Malate,Pseudomonas,1,48,0.195
+2.65,Citric acid,L-Malate,Pseudomonas,1,48,0.195
+0,alpha-Ketoglutaric acid,L-Malate,Pseudomonas,1,48,0.195
+0,Putrescine,L-Malate,Pseudomonas,1,48,0.195
+1.28,Valeric acid,L-Malate,Pseudomonas,1,48,0.195
+0,Alanine,L-Malate,Pseudomonas,1,48,0.195
+0.19,Succinic acid,L-Malate,Pseudomonas,1,48,0.195
+0,Glycine,L-Malate,Pseudomonas,1,48,0.195
+1.46,Acetyl-ornithine,L-Malate,Pseudomonas,1,48,0.195
+0,Asparagine,L-Malate,Pseudomonas,1,48,0.195
+4.7,Butyric acid,L-Malate,Pseudomonas,1,48,0.195
+11.4,Propionic acid,L-Malate,Pseudomonas,1,48,0.195
+194,Acetic acid,L-Malate,Pseudomonas,1,48,0.195
+0.269,Hippuric acid,L-Malate,Pseudomonas,1,48,0.195
+0.0974,Methionine,L-Malate,Pseudomonas,1,48,0.195
+0,Serine,L-Malate,Pseudomonas,2,48,0.2058
+0.869,beta-Hydroxybutyric acid,L-Malate,Pseudomonas,2,48,0.2058
+0,Valine,L-Malate,Pseudomonas,2,48,0.2058
+0,Alanine,L-Malate,Pseudomonas,2,48,0.2058
+0.24,Succinic acid,L-Malate,Pseudomonas,2,48,0.2058
+0,Lactic acid,L-Malate,Pseudomonas,2,48,0.2058
+0.139,Fumaric acid,L-Malate,Pseudomonas,2,48,0.2058
+0,Glycine,L-Malate,Pseudomonas,2,48,0.2058
+276,Acetic acid,L-Malate,Pseudomonas,2,48,0.2058
+4.62,Butyric acid,L-Malate,Pseudomonas,2,48,0.2058
+0.107,Methionine,L-Malate,Pseudomonas,2,48,0.2058
+0,alpha-Ketoglutaric acid,L-Malate,Pseudomonas,2,48,0.2058
+12.3,Propionic acid,L-Malate,Pseudomonas,2,48,0.2058
+148,Pyruvic acid,L-Malate,Pseudomonas,2,48,0.2058
+1.59,Citric acid,L-Malate,Pseudomonas,2,48,0.2058
+4.33,Acetyl-ornithine,L-Malate,Pseudomonas,2,48,0.2058
+1.18,Valeric acid,L-Malate,Pseudomonas,2,48,0.2058
+0,Asparagine,L-Malate,Pseudomonas,2,48,0.2058
+0.22,Hippuric acid,L-Malate,Pseudomonas,2,48,0.2058
+0,Putrescine,L-Malate,Pseudomonas,2,48,0.2058
+0,Serine,Acetate,Pputida,1,48,0.3093
+0,Alanine,Acetate,Pputida,1,48,0.3093
+0,Valine,Acetate,Pputida,1,48,0.3093
+1.83,Butyric acid,Acetate,Pputida,1,48,0.3093
+1.19,beta-Hydroxybutyric acid,Acetate,Pputida,1,48,0.3093
+2.91,Glycine,Acetate,Pputida,1,48,0.3093
+0.253,Succinic acid,Acetate,Pputida,1,48,0.3093
+8.18,Propionic acid,Acetate,Pputida,1,48,0.3093
+0,Lactic acid,Acetate,Pputida,1,48,0.3093
+0.108,Fumaric acid,Acetate,Pputida,1,48,0.3093
+3060,Acetic acid,Acetate,Pputida,1,48,0.3093
+0,Asparagine,Acetate,Pputida,1,48,0.3093
+0.284,Methionine,Acetate,Pputida,1,48,0.3093
+1.31,Acetyl-ornithine,Acetate,Pputida,1,48,0.3093
+0,Hippuric acid,Acetate,Pputida,1,48,0.3093
+0.877,Valeric acid,Acetate,Pputida,1,48,0.3093
+0,Pyruvic acid,Acetate,Pputida,1,48,0.3093
+0,alpha-Ketoglutaric acid,Acetate,Pputida,1,48,0.3093
+0,Putrescine,Acetate,Pputida,1,48,0.3093
+4.62,Citric acid,Acetate,Pputida,1,48,0.3093
+10.8,Propionic acid,Acetate,Pputida,2,48,0.345
+0,alpha-Ketoglutaric acid,Acetate,Pputida,2,48,0.345
+2.65,Glycine,Acetate,Pputida,2,48,0.345
+0,Valine,Acetate,Pputida,2,48,0.345
+1.89,Butyric acid,Acetate,Pputida,2,48,0.345
+1.35,beta-Hydroxybutyric acid,Acetate,Pputida,2,48,0.345
+1.54,Acetyl-ornithine,Acetate,Pputida,2,48,0.345
+0,Pyruvic acid,Acetate,Pputida,2,48,0.345
+0,Alanine,Acetate,Pputida,2,48,0.345
+0.0708,Fumaric acid,Acetate,Pputida,2,48,0.345
+0,Serine,Acetate,Pputida,2,48,0.345
+1770,Acetic acid,Acetate,Pputida,2,48,0.345
+0,Asparagine,Acetate,Pputida,2,48,0.345
+0,Putrescine,Acetate,Pputida,2,48,0.345
+0,Hippuric acid,Acetate,Pputida,2,48,0.345
+0.651,Valeric acid,Acetate,Pputida,2,48,0.345
+0.164,Methionine,Acetate,Pputida,2,48,0.345
+0,Lactic acid,Acetate,Pputida,2,48,0.345
+0.221,Succinic acid,Acetate,Pputida,2,48,0.345
+3.7,Citric acid,Acetate,Pputida,2,48,0.345
+0,Serine,Acetate,Pseudomonas,1,48,0.1041
+0.0766,Fumaric acid,Acetate,Pseudomonas,1,48,0.1041
+0,Lactic acid,Acetate,Pseudomonas,1,48,0.1041
+0,Alanine,Acetate,Pseudomonas,1,48,0.1041
+1.11,beta-Hydroxybutyric acid,Acetate,Pseudomonas,1,48,0.1041
+0.465,Succinic acid,Acetate,Pseudomonas,1,48,0.1041
+2.16,Butyric acid,Acetate,Pseudomonas,1,48,0.1041
+2.61,Glycine,Acetate,Pseudomonas,1,48,0.1041
+9.86,Propionic acid,Acetate,Pseudomonas,1,48,0.1041
+0,Asparagine,Acetate,Pseudomonas,1,48,0.1041
+0,Pyruvic acid,Acetate,Pseudomonas,1,48,0.1041
+0,alpha-Ketoglutaric acid,Acetate,Pseudomonas,1,48,0.1041
+0,Valine,Acetate,Pseudomonas,1,48,0.1041
+9.39,Citric acid,Acetate,Pseudomonas,1,48,0.1041
+0,Putrescine,Acetate,Pseudomonas,1,48,0.1041
+6560,Acetic acid,Acetate,Pseudomonas,1,48,0.1041
+0.539,Valeric acid,Acetate,Pseudomonas,1,48,0.1041
+0,Methionine,Acetate,Pseudomonas,1,48,0.1041
+0.749,Acetyl-ornithine,Acetate,Pseudomonas,1,48,0.1041
+0,Hippuric acid,Acetate,Pseudomonas,1,48,0.1041
+0.708,Acetyl-ornithine,Acetate,Pseudomonas,2,48,0.1758
+0,Pyruvic acid,Acetate,Pseudomonas,2,48,0.1758
+3.25,Glycine,Acetate,Pseudomonas,2,48,0.1758
+3.19,beta-Hydroxybutyric acid,Acetate,Pseudomonas,2,48,0.1758
+0,Hippuric acid,Acetate,Pseudomonas,2,48,0.1758
+0,Asparagine,Acetate,Pseudomonas,2,48,0.1758
+0.109,alpha-Ketoglutaric acid,Acetate,Pseudomonas,2,48,0.1758
+0,Serine,Acetate,Pseudomonas,2,48,0.1758
+0,Valine,Acetate,Pseudomonas,2,48,0.1758
+0,Alanine,Acetate,Pseudomonas,2,48,0.1758
+3.56,Butyric acid,Acetate,Pseudomonas,2,48,0.1758
+0.0957,Methionine,Acetate,Pseudomonas,2,48,0.1758
+0.223,Fumaric acid,Acetate,Pseudomonas,2,48,0.1758
+12840,Acetic acid,Acetate,Pseudomonas,2,48,0.1758
+7.12,Succinic acid,Acetate,Pseudomonas,2,48,0.1758
+0,Lactic acid,Acetate,Pseudomonas,2,48,0.1758
+0.0338,Putrescine,Acetate,Pseudomonas,2,48,0.1758
+5.65,Citric acid,Acetate,Pseudomonas,2,48,0.1758
+11.7,Propionic acid,Acetate,Pseudomonas,2,48,0.1758
+0.728,Valeric acid,Acetate,Pseudomonas,2,48,0.1758
+0,Alanine,D-Fructose,Ecoli,1,16,0.0165
+2.78,Glycine,D-Fructose,Ecoli,1,16,0.0165
+0,beta-Hydroxybutyric acid,D-Fructose,Ecoli,1,16,0.0165
+0.11,Putrescine,D-Fructose,Ecoli,1,16,0.0165
+0,Valine,D-Fructose,Ecoli,1,16,0.0165
+0.0168,Methionine,D-Fructose,Ecoli,1,16,0.0165
+0,Acetyl-ornithine,D-Fructose,Ecoli,1,16,0.0165
+0.826,Pyruvic acid,D-Fructose,Ecoli,1,16,0.0165
+0.747,Succinic acid,D-Fructose,Ecoli,1,16,0.0165
+0,Lactic acid,D-Fructose,Ecoli,1,16,0.0165
+0,Hippuric acid,D-Fructose,Ecoli,1,16,0.0165
+635,Acetic acid,D-Fructose,Ecoli,1,16,0.0165
+0.772,Asparagine,D-Fructose,Ecoli,1,16,0.0165
+0,alpha-Ketoglutaric acid,D-Fructose,Ecoli,1,16,0.0165
+0,Serine,D-Fructose,Ecoli,1,16,0.0165
+0.378,Fumaric acid,D-Fructose,Ecoli,1,16,0.0165
+0.25,Valeric acid,D-Fructose,Ecoli,1,16,0.0165
+0.508,Butyric acid,D-Fructose,Ecoli,1,16,0.0165
+5.19,Propionic acid,D-Fructose,Ecoli,1,16,0.0165
+0.598,Citric acid,D-Fructose,Ecoli,1,16,0.0165
+0.809,Pyruvic acid,D-Fructose,Ecoli,2,16,0.0215
+0,Serine,D-Fructose,Ecoli,2,16,0.0215
+0,beta-Hydroxybutyric acid,D-Fructose,Ecoli,2,16,0.0215
+630,Acetic acid,D-Fructose,Ecoli,2,16,0.0215
+0.207,Valeric acid,D-Fructose,Ecoli,2,16,0.0215
+0.0983,Putrescine,D-Fructose,Ecoli,2,16,0.0215
+0,Asparagine,D-Fructose,Ecoli,2,16,0.0215
+0,Alanine,D-Fructose,Ecoli,2,16,0.0215
+0.844,Succinic acid,D-Fructose,Ecoli,2,16,0.0215
+5.97,Propionic acid,D-Fructose,Ecoli,2,16,0.0215
+0,Valine,D-Fructose,Ecoli,2,16,0.0215
+0,Lactic acid,D-Fructose,Ecoli,2,16,0.0215
+0.355,Fumaric acid,D-Fructose,Ecoli,2,16,0.0215
+3.01,Glycine,D-Fructose,Ecoli,2,16,0.0215
+0,Hippuric acid,D-Fructose,Ecoli,2,16,0.0215
+0,alpha-Ketoglutaric acid,D-Fructose,Ecoli,2,16,0.0215
+0.291,Methionine,D-Fructose,Ecoli,2,16,0.0215
+0,Acetyl-ornithine,D-Fructose,Ecoli,2,16,0.0215
+0.103,Butyric acid,D-Fructose,Ecoli,2,16,0.0215
+0.648,Citric acid,D-Fructose,Ecoli,2,16,0.0215
+305,Pyruvic acid,D-Fructose,Ecoli,1,28,0.1247
+0,Serine,D-Fructose,Ecoli,1,28,0.1247
+1.17,beta-Hydroxybutyric acid,D-Fructose,Ecoli,1,28,0.1247
+3.06,Glycine,D-Fructose,Ecoli,1,28,0.1247
+97.2,Succinic acid,D-Fructose,Ecoli,1,28,0.1247
+0.325,Butyric acid,D-Fructose,Ecoli,1,28,0.1247
+4.67,Valine,D-Fructose,Ecoli,1,28,0.1247
+441,Lactic acid,D-Fructose,Ecoli,1,28,0.1247
+0,Alanine,D-Fructose,Ecoli,1,28,0.1247
+29.2,Propionic acid,D-Fructose,Ecoli,1,28,0.1247
+18.3,Fumaric acid,D-Fructose,Ecoli,1,28,0.1247
+0,alpha-Ketoglutaric acid,D-Fructose,Ecoli,1,28,0.1247
+3.23,Acetyl-ornithine,D-Fructose,Ecoli,1,28,0.1247
+4190,Acetic acid,D-Fructose,Ecoli,1,28,0.1247
+0,Asparagine,D-Fructose,Ecoli,1,28,0.1247
+4.53,Citric acid,D-Fructose,Ecoli,1,28,0.1247
+2.61,Valeric acid,D-Fructose,Ecoli,1,28,0.1247
+2.6,Putrescine,D-Fructose,Ecoli,1,28,0.1247
+0,Hippuric acid,D-Fructose,Ecoli,1,28,0.1247
+0.0432,Methionine,D-Fructose,Ecoli,1,28,0.1247
+40.6,Succinic acid,D-Fructose,Ecoli,2,28,0.1403
+6.03,Glycine,D-Fructose,Ecoli,2,28,0.1403
+0,alpha-Ketoglutaric acid,D-Fructose,Ecoli,2,28,0.1403
+0,Alanine,D-Fructose,Ecoli,2,28,0.1403
+3.26,Valine,D-Fructose,Ecoli,2,28,0.1403
+24.4,Propionic acid,D-Fructose,Ecoli,2,28,0.1403
+1.01,Butyric acid,D-Fructose,Ecoli,2,28,0.1403
+3.2,Acetyl-ornithine,D-Fructose,Ecoli,2,28,0.1403
+0,Hippuric acid,D-Fructose,Ecoli,2,28,0.1403
+247,Pyruvic acid,D-Fructose,Ecoli,2,28,0.1403
+3350,Acetic acid,D-Fructose,Ecoli,2,28,0.1403
+0.779,beta-Hydroxybutyric acid,D-Fructose,Ecoli,2,28,0.1403
+112,Lactic acid,D-Fructose,Ecoli,2,28,0.1403
+0,Serine,D-Fructose,Ecoli,2,28,0.1403
+7.4,Fumaric acid,D-Fructose,Ecoli,2,28,0.1403
+0.16,Asparagine,D-Fructose,Ecoli,2,28,0.1403
+3.86,Citric acid,D-Fructose,Ecoli,2,28,0.1403
+0.0244,Methionine,D-Fructose,Ecoli,2,28,0.1403
+1.98,Putrescine,D-Fructose,Ecoli,2,28,0.1403
+1.63,Valeric acid,D-Fructose,Ecoli,2,28,0.1403
+0.0687,Asparagine,D-Fructose,Ecoli,1,48,0.2046
+1230,Lactic acid,D-Fructose,Ecoli,1,48,0.2046
+24.9,Valine,D-Fructose,Ecoli,1,48,0.2046
+0.947,Pyruvic acid,D-Fructose,Ecoli,1,48,0.2046
+0,alpha-Ketoglutaric acid,D-Fructose,Ecoli,1,48,0.2046
+4.88,Valeric acid,D-Fructose,Ecoli,1,48,0.2046
+6660,Acetic acid,D-Fructose,Ecoli,1,48,0.2046
+1.39,Butyric acid,D-Fructose,Ecoli,1,48,0.2046
+5.35,beta-Hydroxybutyric acid,D-Fructose,Ecoli,1,48,0.2046
+29.9,Acetyl-ornithine,D-Fructose,Ecoli,1,48,0.2046
+0,Alanine,D-Fructose,Ecoli,1,48,0.2046
+309,Succinic acid,D-Fructose,Ecoli,1,48,0.2046
+59.5,Propionic acid,D-Fructose,Ecoli,1,48,0.2046
+5.61,Citric acid,D-Fructose,Ecoli,1,48,0.2046
+0,Hippuric acid,D-Fructose,Ecoli,1,48,0.2046
+0,Serine,D-Fructose,Ecoli,1,48,0.2046
+2.78,Glycine,D-Fructose,Ecoli,1,48,0.2046
+1.26,Putrescine,D-Fructose,Ecoli,1,48,0.2046
+79,Fumaric acid,D-Fructose,Ecoli,1,48,0.2046
+0,Methionine,D-Fructose,Ecoli,1,48,0.2046
+25.5,Valine,D-Fructose,Ecoli,2,48,0.1846
+3.92,beta-Hydroxybutyric acid,D-Fructose,Ecoli,2,48,0.1846
+0,Serine,D-Fructose,Ecoli,2,48,0.1846
+353,Succinic acid,D-Fructose,Ecoli,2,48,0.1846
+1460,Lactic acid,D-Fructose,Ecoli,2,48,0.1846
+69.7,Fumaric acid,D-Fructose,Ecoli,2,48,0.1846
+0.695,Pyruvic acid,D-Fructose,Ecoli,2,48,0.1846
+105,Alanine,D-Fructose,Ecoli,2,48,0.1846
+0,alpha-Ketoglutaric acid,D-Fructose,Ecoli,2,48,0.1846
+0.121,Methionine,D-Fructose,Ecoli,2,48,0.1846
+4.57,Valeric acid,D-Fructose,Ecoli,2,48,0.1846
+2.37,Putrescine,D-Fructose,Ecoli,2,48,0.1846
+2.22,Butyric acid,D-Fructose,Ecoli,2,48,0.1846
+0,Asparagine,D-Fructose,Ecoli,2,48,0.1846
+4.46,Citric acid,D-Fructose,Ecoli,2,48,0.1846
+30.9,Acetyl-ornithine,D-Fructose,Ecoli,2,48,0.1846
+50.8,Propionic acid,D-Fructose,Ecoli,2,48,0.1846
+6340,Acetic acid,D-Fructose,Ecoli,2,48,0.1846
+4.36,Glycine,D-Fructose,Ecoli,2,48,0.1846
+0,Hippuric acid,D-Fructose,Ecoli,2,48,0.1846
+0.103,Butyric acid,D-Fructose,Enterobacter,1,16,0.252
+0,Serine,D-Fructose,Enterobacter,1,16,0.252
+7.47,Valine,D-Fructose,Enterobacter,1,16,0.252
+170,Succinic acid,D-Fructose,Enterobacter,1,16,0.252
+0.995,Acetyl-ornithine,D-Fructose,Enterobacter,1,16,0.252
+3.11,Glycine,D-Fructose,Enterobacter,1,16,0.252
+388,Pyruvic acid,D-Fructose,Enterobacter,1,16,0.252
+0.045,alpha-Ketoglutaric acid,D-Fructose,Enterobacter,1,16,0.252
+0.507,beta-Hydroxybutyric acid,D-Fructose,Enterobacter,1,16,0.252
+0,Hippuric acid,D-Fructose,Enterobacter,1,16,0.252
+0,Asparagine,D-Fructose,Enterobacter,1,16,0.252
+3.8,Citric acid,D-Fructose,Enterobacter,1,16,0.252
+0.1,Methionine,D-Fructose,Enterobacter,1,16,0.252
+26.7,Fumaric acid,D-Fructose,Enterobacter,1,16,0.252
+32.5,Alanine,D-Fructose,Enterobacter,1,16,0.252
+5,Propionic acid,D-Fructose,Enterobacter,1,16,0.252
+2000,Lactic acid,D-Fructose,Enterobacter,1,16,0.252
+0.366,Putrescine,D-Fructose,Enterobacter,1,16,0.252
+0.601,Valeric acid,D-Fructose,Enterobacter,1,16,0.252
+4160,Acetic acid,D-Fructose,Enterobacter,1,16,0.252
+35.6,Alanine,D-Fructose,Enterobacter,2,16,0.2626
+9.95,Valine,D-Fructose,Enterobacter,2,16,0.2626
+6,Propionic acid,D-Fructose,Enterobacter,2,16,0.2626
+0.0694,alpha-Ketoglutaric acid,D-Fructose,Enterobacter,2,16,0.2626
+0,Serine,D-Fructose,Enterobacter,2,16,0.2626
+3.57,Glycine,D-Fructose,Enterobacter,2,16,0.2626
+0.804,Valeric acid,D-Fructose,Enterobacter,2,16,0.2626
+169,Succinic acid,D-Fructose,Enterobacter,2,16,0.2626
+1.24,Asparagine,D-Fructose,Enterobacter,2,16,0.2626
+0.56,beta-Hydroxybutyric acid,D-Fructose,Enterobacter,2,16,0.2626
+1.95,Acetyl-ornithine,D-Fructose,Enterobacter,2,16,0.2626
+394,Pyruvic acid,D-Fructose,Enterobacter,2,16,0.2626
+1970,Lactic acid,D-Fructose,Enterobacter,2,16,0.2626
+0.834,Putrescine,D-Fructose,Enterobacter,2,16,0.2626
+25.3,Fumaric acid,D-Fructose,Enterobacter,2,16,0.2626
+0.659,Butyric acid,D-Fructose,Enterobacter,2,16,0.2626
+0.0311,Methionine,D-Fructose,Enterobacter,2,16,0.2626
+0,Hippuric acid,D-Fructose,Enterobacter,2,16,0.2626
+3980,Acetic acid,D-Fructose,Enterobacter,2,16,0.2626
+3.92,Citric acid,D-Fructose,Enterobacter,2,16,0.2626
+29,Valine,D-Fructose,Enterobacter,1,28,0.3309
+3,beta-Hydroxybutyric acid,D-Fructose,Enterobacter,1,28,0.3309
+3800,Lactic acid,D-Fructose,Enterobacter,1,28,0.3309
+0,Asparagine,D-Fructose,Enterobacter,1,28,0.3309
+242,Succinic acid,D-Fructose,Enterobacter,1,28,0.3309
+5.73,Alanine,D-Fructose,Enterobacter,1,28,0.3309
+8.31,Propionic acid,D-Fructose,Enterobacter,1,28,0.3309
+2.67,Pyruvic acid,D-Fructose,Enterobacter,1,28,0.3309
+0,Serine,D-Fructose,Enterobacter,1,28,0.3309
+3.65,Glycine,D-Fructose,Enterobacter,1,28,0.3309
+13.1,Acetyl-ornithine,D-Fructose,Enterobacter,1,28,0.3309
+6.26,Citric acid,D-Fructose,Enterobacter,1,28,0.3309
+5910,Acetic acid,D-Fructose,Enterobacter,1,28,0.3309
+35.2,Fumaric acid,D-Fructose,Enterobacter,1,28,0.3309
+0,Putrescine,D-Fructose,Enterobacter,1,28,0.3309
+0,alpha-Ketoglutaric acid,D-Fructose,Enterobacter,1,28,0.3309
+0.166,Methionine,D-Fructose,Enterobacter,1,28,0.3309
+0.551,Valeric acid,D-Fructose,Enterobacter,1,28,0.3309
+1.31,Butyric acid,D-Fructose,Enterobacter,1,28,0.3309
+0,Hippuric acid,D-Fructose,Enterobacter,1,28,0.3309
+5.3,Pyruvic acid,D-Fructose,Enterobacter,2,28,0.2995
+9.48,Acetyl-ornithine,D-Fructose,Enterobacter,2,28,0.2995
+15.3,Alanine,D-Fructose,Enterobacter,2,28,0.2995
+29.3,Valine,D-Fructose,Enterobacter,2,28,0.2995
+0,Asparagine,D-Fructose,Enterobacter,2,28,0.2995
+253,Succinic acid,D-Fructose,Enterobacter,2,28,0.2995
+0,Serine,D-Fructose,Enterobacter,2,28,0.2995
+4.52,Glycine,D-Fructose,Enterobacter,2,28,0.2995
+9.43,Propionic acid,D-Fructose,Enterobacter,2,28,0.2995
+6.74,Citric acid,D-Fructose,Enterobacter,2,28,0.2995
+0,Methionine,D-Fructose,Enterobacter,2,28,0.2995
+2.88,beta-Hydroxybutyric acid,D-Fructose,Enterobacter,2,28,0.2995
+0,Hippuric acid,D-Fructose,Enterobacter,2,28,0.2995
+2.11,Butyric acid,D-Fructose,Enterobacter,2,28,0.2995
+4110,Lactic acid,D-Fructose,Enterobacter,2,28,0.2995
+36,Fumaric acid,D-Fructose,Enterobacter,2,28,0.2995
+0.738,Valeric acid,D-Fructose,Enterobacter,2,28,0.2995
+6220,Acetic acid,D-Fructose,Enterobacter,2,28,0.2995
+0,alpha-Ketoglutaric acid,D-Fructose,Enterobacter,2,28,0.2995
+0.0933,Putrescine,D-Fructose,Enterobacter,2,28,0.2995
+186,Succinic acid,D-Fructose,Enterobacter,1,48,0.3436
+0,Alanine,D-Fructose,Enterobacter,1,48,0.3436
+0.955,Pyruvic acid,D-Fructose,Enterobacter,1,48,0.3436
+0,Serine,D-Fructose,Enterobacter,1,48,0.3436
+3.87,Valine,D-Fructose,Enterobacter,1,48,0.3436
+16,Propionic acid,D-Fructose,Enterobacter,1,48,0.3436
+15.2,Citric acid,D-Fructose,Enterobacter,1,48,0.3436
+0,Putrescine,D-Fructose,Enterobacter,1,48,0.3436
+10.1,beta-Hydroxybutyric acid,D-Fructose,Enterobacter,1,48,0.3436
+0.848,Valeric acid,D-Fructose,Enterobacter,1,48,0.3436
+0,alpha-Ketoglutaric acid,D-Fructose,Enterobacter,1,48,0.3436
+0.137,Methionine,D-Fructose,Enterobacter,1,48,0.3436
+2.98,Glycine,D-Fructose,Enterobacter,1,48,0.3436
+15.5,Acetyl-ornithine,D-Fructose,Enterobacter,1,48,0.3436
+2.55,Butyric acid,D-Fructose,Enterobacter,1,48,0.3436
+694,Lactic acid,D-Fructose,Enterobacter,1,48,0.3436
+37,Fumaric acid,D-Fructose,Enterobacter,1,48,0.3436
+5970,Acetic acid,D-Fructose,Enterobacter,1,48,0.3436
+0.388,Asparagine,D-Fructose,Enterobacter,1,48,0.3436
+0,Hippuric acid,D-Fructose,Enterobacter,1,48,0.3436
+9.5,beta-Hydroxybutyric acid,D-Fructose,Enterobacter,2,48,0.3325
+217,Succinic acid,D-Fructose,Enterobacter,2,48,0.3325
+11.5,Valine,D-Fructose,Enterobacter,2,48,0.3325
+0,Serine,D-Fructose,Enterobacter,2,48,0.3325
+0,Alanine,D-Fructose,Enterobacter,2,48,0.3325
+1.87,Asparagine,D-Fructose,Enterobacter,2,48,0.3325
+40.6,Fumaric acid,D-Fructose,Enterobacter,2,48,0.3325
+739,Lactic acid,D-Fructose,Enterobacter,2,48,0.3325
+0,Putrescine,D-Fructose,Enterobacter,2,48,0.3325
+19,Propionic acid,D-Fructose,Enterobacter,2,48,0.3325
+0,Hippuric acid,D-Fructose,Enterobacter,2,48,0.3325
+0,alpha-Ketoglutaric acid,D-Fructose,Enterobacter,2,48,0.3325
+0.966,Valeric acid,D-Fructose,Enterobacter,2,48,0.3325
+3.05,Glycine,D-Fructose,Enterobacter,2,48,0.3325
+1.6,Pyruvic acid,D-Fructose,Enterobacter,2,48,0.3325
+2.11,Butyric acid,D-Fructose,Enterobacter,2,48,0.3325
+0.0821,Methionine,D-Fructose,Enterobacter,2,48,0.3325
+14.6,Citric acid,D-Fructose,Enterobacter,2,48,0.3325
+5960,Acetic acid,D-Fructose,Enterobacter,2,48,0.3325
+14.2,Acetyl-ornithine,D-Fructose,Enterobacter,2,48,0.3325
+0.115,Asparagine,D-Fructose,Pputida,1,16,0.0113
+0,beta-Hydroxybutyric acid,D-Fructose,Pputida,1,16,0.0113
+0.0209,Fumaric acid,D-Fructose,Pputida,1,16,0.0113
+0,Alanine,D-Fructose,Pputida,1,16,0.0113
+0.251,Butyric acid,D-Fructose,Pputida,1,16,0.0113
+0.198,Methionine,D-Fructose,Pputida,1,16,0.0113
+0.108,Valine,D-Fructose,Pputida,1,16,0.0113
+0,Serine,D-Fructose,Pputida,1,16,0.0113
+2.82,Propionic acid,D-Fructose,Pputida,1,16,0.0113
+0.0452,Succinic acid,D-Fructose,Pputida,1,16,0.0113
+0,Lactic acid,D-Fructose,Pputida,1,16,0.0113
+0,Putrescine,D-Fructose,Pputida,1,16,0.0113
+196,Acetic acid,D-Fructose,Pputida,1,16,0.0113
+0,Pyruvic acid,D-Fructose,Pputida,1,16,0.0113
+0,alpha-Ketoglutaric acid,D-Fructose,Pputida,1,16,0.0113
+0,Acetyl-ornithine,D-Fructose,Pputida,1,16,0.0113
+3.07,Glycine,D-Fructose,Pputida,1,16,0.0113
+0.36,Citric acid,D-Fructose,Pputida,1,16,0.0113
+0.34,Valeric acid,D-Fructose,Pputida,1,16,0.0113
+0,Hippuric acid,D-Fructose,Pputida,1,16,0.0113
+0,Pyruvic acid,D-Fructose,Pputida,2,16,0.0116
+0,Alanine,D-Fructose,Pputida,2,16,0.0116
+0.0262,Fumaric acid,D-Fructose,Pputida,2,16,0.0116
+0,Valine,D-Fructose,Pputida,2,16,0.0116
+3.81,Propionic acid,D-Fructose,Pputida,2,16,0.0116
+0,beta-Hydroxybutyric acid,D-Fructose,Pputida,2,16,0.0116
+0,Putrescine,D-Fructose,Pputida,2,16,0.0116
+0,Acetyl-ornithine,D-Fructose,Pputida,2,16,0.0116
+3.35,Glycine,D-Fructose,Pputida,2,16,0.0116
+0,alpha-Ketoglutaric acid,D-Fructose,Pputida,2,16,0.0116
+0.00814,Succinic acid,D-Fructose,Pputida,2,16,0.0116
+0,Lactic acid,D-Fructose,Pputida,2,16,0.0116
+0,Serine,D-Fructose,Pputida,2,16,0.0116
+0,Asparagine,D-Fructose,Pputida,2,16,0.0116
+0.482,Butyric acid,D-Fructose,Pputida,2,16,0.0116
+0.0101,Methionine,D-Fructose,Pputida,2,16,0.0116
+0,Hippuric acid,D-Fructose,Pputida,2,16,0.0116
+0.226,Valeric acid,D-Fructose,Pputida,2,16,0.0116
+0.342,Citric acid,D-Fructose,Pputida,2,16,0.0116
+286,Acetic acid,D-Fructose,Pputida,2,16,0.0116
+0.0231,Succinic acid,D-Fructose,Pputida,1,28,0.0469
+0,Alanine,D-Fructose,Pputida,1,28,0.0469
+0,Serine,D-Fructose,Pputida,1,28,0.0469
+0,Acetyl-ornithine,D-Fructose,Pputida,1,28,0.0469
+2.6,Glycine,D-Fructose,Pputida,1,28,0.0469
+0,Lactic acid,D-Fructose,Pputida,1,28,0.0469
+0.0374,Fumaric acid,D-Fructose,Pputida,1,28,0.0469
+4.24,Propionic acid,D-Fructose,Pputida,1,28,0.0469
+0.175,Methionine,D-Fructose,Pputida,1,28,0.0469
+0,Hippuric acid,D-Fructose,Pputida,1,28,0.0469
+0,Valine,D-Fructose,Pputida,1,28,0.0469
+0,Pyruvic acid,D-Fructose,Pputida,1,28,0.0469
+0,alpha-Ketoglutaric acid,D-Fructose,Pputida,1,28,0.0469
+0,beta-Hydroxybutyric acid,D-Fructose,Pputida,1,28,0.0469
+0.337,Valeric acid,D-Fructose,Pputida,1,28,0.0469
+0,Asparagine,D-Fructose,Pputida,1,28,0.0469
+0.354,Butyric acid,D-Fructose,Pputida,1,28,0.0469
+0,Putrescine,D-Fructose,Pputida,1,28,0.0469
+0.493,Citric acid,D-Fructose,Pputida,1,28,0.0469
+625,Acetic acid,D-Fructose,Pputida,1,28,0.0469
+0,Valine,D-Fructose,Pputida,2,28,0.0511
+0,Alanine,D-Fructose,Pputida,2,28,0.0511
+0.686,Butyric acid,D-Fructose,Pputida,2,28,0.0511
+0,beta-Hydroxybutyric acid,D-Fructose,Pputida,2,28,0.0511
+0.0365,Fumaric acid,D-Fructose,Pputida,2,28,0.0511
+0,Serine,D-Fructose,Pputida,2,28,0.0511
+303,Acetic acid,D-Fructose,Pputida,2,28,0.0511
+0,Asparagine,D-Fructose,Pputida,2,28,0.0511
+0.0112,Methionine,D-Fructose,Pputida,2,28,0.0511
+2.67,Glycine,D-Fructose,Pputida,2,28,0.0511
+5.25,Propionic acid,D-Fructose,Pputida,2,28,0.0511
+0.0426,Succinic acid,D-Fructose,Pputida,2,28,0.0511
+0,Lactic acid,D-Fructose,Pputida,2,28,0.0511
+0,Putrescine,D-Fructose,Pputida,2,28,0.0511
+0.436,Valeric acid,D-Fructose,Pputida,2,28,0.0511
+0,Pyruvic acid,D-Fructose,Pputida,2,28,0.0511
+0,alpha-Ketoglutaric acid,D-Fructose,Pputida,2,28,0.0511
+0.666,Acetyl-ornithine,D-Fructose,Pputida,2,28,0.0511
+0.538,Citric acid,D-Fructose,Pputida,2,28,0.0511
+0,Hippuric acid,D-Fructose,Pputida,2,28,0.0511
+0,Alanine,D-Fructose,Pputida,1,48,0.2368
+0,beta-Hydroxybutyric acid,D-Fructose,Pputida,1,48,0.2368
+0,Valine,D-Fructose,Pputida,1,48,0.2368
+0,alpha-Ketoglutaric acid,D-Fructose,Pputida,1,48,0.2368
+0,Asparagine,D-Fructose,Pputida,1,48,0.2368
+0.0378,Fumaric acid,D-Fructose,Pputida,1,48,0.2368
+3.21,Glycine,D-Fructose,Pputida,1,48,0.2368
+0,Pyruvic acid,D-Fructose,Pputida,1,48,0.2368
+5.78,Propionic acid,D-Fructose,Pputida,1,48,0.2368
+0,Putrescine,D-Fructose,Pputida,1,48,0.2368
+0,Serine,D-Fructose,Pputida,1,48,0.2368
+0,Hippuric acid,D-Fructose,Pputida,1,48,0.2368
+718,Acetic acid,D-Fructose,Pputida,1,48,0.2368
+0.0138,Succinic acid,D-Fructose,Pputida,1,48,0.2368
+0,Lactic acid,D-Fructose,Pputida,1,48,0.2368
+1.83,Acetyl-ornithine,D-Fructose,Pputida,1,48,0.2368
+0.11,Methionine,D-Fructose,Pputida,1,48,0.2368
+0.582,Citric acid,D-Fructose,Pputida,1,48,0.2368
+0.919,Butyric acid,D-Fructose,Pputida,1,48,0.2368
+0.405,Valeric acid,D-Fructose,Pputida,1,48,0.2368
+0,Serine,D-Fructose,Pputida,2,48,0.2571
+0,Lactic acid,D-Fructose,Pputida,2,48,0.2571
+0,beta-Hydroxybutyric acid,D-Fructose,Pputida,2,48,0.2571
+0,Alanine,D-Fructose,Pputida,2,48,0.2571
+0.0109,Succinic acid,D-Fructose,Pputida,2,48,0.2571
+6.57,Propionic acid,D-Fructose,Pputida,2,48,0.2571
+1.11,Acetyl-ornithine,D-Fructose,Pputida,2,48,0.2571
+0,Pyruvic acid,D-Fructose,Pputida,2,48,0.2571
+0,Valine,D-Fructose,Pputida,2,48,0.2571
+0.0239,Fumaric acid,D-Fructose,Pputida,2,48,0.2571
+0.573,Citric acid,D-Fructose,Pputida,2,48,0.2571
+2.75,Glycine,D-Fructose,Pputida,2,48,0.2571
+0.37,Valeric acid,D-Fructose,Pputida,2,48,0.2571
+0,alpha-Ketoglutaric acid,D-Fructose,Pputida,2,48,0.2571
+0,Asparagine,D-Fructose,Pputida,2,48,0.2571
+0,Hippuric acid,D-Fructose,Pputida,2,48,0.2571
+1.17,Butyric acid,D-Fructose,Pputida,2,48,0.2571
+0.116,Methionine,D-Fructose,Pputida,2,48,0.2571
+0,Putrescine,D-Fructose,Pputida,2,48,0.2571
+358,Acetic acid,D-Fructose,Pputida,2,48,0.2571
+0,Asparagine,D-Fructose,Pseudomonas,1,16,0.0138
+0,Valine,D-Fructose,Pseudomonas,1,16,0.0138
+0,Serine,D-Fructose,Pseudomonas,1,16,0.0138
+0,Alanine,D-Fructose,Pseudomonas,1,16,0.0138
+0.0149,Succinic acid,D-Fructose,Pseudomonas,1,16,0.0138
+0,Lactic acid,D-Fructose,Pseudomonas,1,16,0.0138
+0.21,Valeric acid,D-Fructose,Pseudomonas,1,16,0.0138
+0,Pyruvic acid,D-Fructose,Pseudomonas,1,16,0.0138
+0,alpha-Ketoglutaric acid,D-Fructose,Pseudomonas,1,16,0.0138
+2.73,Glycine,D-Fructose,Pseudomonas,1,16,0.0138
+0.279,Citric acid,D-Fructose,Pseudomonas,1,16,0.0138
+0,Hippuric acid,D-Fructose,Pseudomonas,1,16,0.0138
+0,beta-Hydroxybutyric acid,D-Fructose,Pseudomonas,1,16,0.0138
+0.022,Fumaric acid,D-Fructose,Pseudomonas,1,16,0.0138
+217,Acetic acid,D-Fructose,Pseudomonas,1,16,0.0138
+2.7,Propionic acid,D-Fructose,Pseudomonas,1,16,0.0138
+0.0183,Putrescine,D-Fructose,Pseudomonas,1,16,0.0138
+0,Acetyl-ornithine,D-Fructose,Pseudomonas,1,16,0.0138
+0.129,Methionine,D-Fructose,Pseudomonas,1,16,0.0138
+0.121,Butyric acid,D-Fructose,Pseudomonas,1,16,0.0138
+0,Serine,D-Fructose,Pseudomonas,2,16,0.0067
+0,Alanine,D-Fructose,Pseudomonas,2,16,0.0067
+0,Pyruvic acid,D-Fructose,Pseudomonas,2,16,0.0067
+0,Valine,D-Fructose,Pseudomonas,2,16,0.0067
+0,Lactic acid,D-Fructose,Pseudomonas,2,16,0.0067
+0,beta-Hydroxybutyric acid,D-Fructose,Pseudomonas,2,16,0.0067
+0.0228,Succinic acid,D-Fructose,Pseudomonas,2,16,0.0067
+0.652,Butyric acid,D-Fructose,Pseudomonas,2,16,0.0067
+0.0777,Methionine,D-Fructose,Pseudomonas,2,16,0.0067
+3.34,Glycine,D-Fructose,Pseudomonas,2,16,0.0067
+0.641,Asparagine,D-Fructose,Pseudomonas,2,16,0.0067
+4.82,Propionic acid,D-Fructose,Pseudomonas,2,16,0.0067
+0.279,Citric acid,D-Fructose,Pseudomonas,2,16,0.0067
+0.0269,Fumaric acid,D-Fructose,Pseudomonas,2,16,0.0067
+0,Hippuric acid,D-Fructose,Pseudomonas,2,16,0.0067
+214,Acetic acid,D-Fructose,Pseudomonas,2,16,0.0067
+0.192,Valeric acid,D-Fructose,Pseudomonas,2,16,0.0067
+0.0258,Putrescine,D-Fructose,Pseudomonas,2,16,0.0067
+0,Acetyl-ornithine,D-Fructose,Pseudomonas,2,16,0.0067
+0,alpha-Ketoglutaric acid,D-Fructose,Pseudomonas,2,16,0.0067
+0,Serine,D-Fructose,Pseudomonas,1,28,0.046
+5.24,Propionic acid,D-Fructose,Pseudomonas,1,28,0.046
+2.77,Glycine,D-Fructose,Pseudomonas,1,28,0.046
+0.0248,Succinic acid,D-Fructose,Pseudomonas,1,28,0.046
+0,Alanine,D-Fructose,Pseudomonas,1,28,0.046
+0,alpha-Ketoglutaric acid,D-Fructose,Pseudomonas,1,28,0.046
+0,beta-Hydroxybutyric acid,D-Fructose,Pseudomonas,1,28,0.046
+0,Valine,D-Fructose,Pseudomonas,1,28,0.046
+0,Pyruvic acid,D-Fructose,Pseudomonas,1,28,0.046
+0.501,Butyric acid,D-Fructose,Pseudomonas,1,28,0.046
+0.0176,Putrescine,D-Fructose,Pseudomonas,1,28,0.046
+0,Acetyl-ornithine,D-Fructose,Pseudomonas,1,28,0.046
+0.128,Asparagine,D-Fructose,Pseudomonas,1,28,0.046
+355,Acetic acid,D-Fructose,Pseudomonas,1,28,0.046
+0.0964,Methionine,D-Fructose,Pseudomonas,1,28,0.046
+0.0372,Fumaric acid,D-Fructose,Pseudomonas,1,28,0.046
+0,Hippuric acid,D-Fructose,Pseudomonas,1,28,0.046
+0.27,Citric acid,D-Fructose,Pseudomonas,1,28,0.046
+0,Lactic acid,D-Fructose,Pseudomonas,1,28,0.046
+0.253,Valeric acid,D-Fructose,Pseudomonas,1,28,0.046
+0,beta-Hydroxybutyric acid,D-Fructose,Pseudomonas,2,28,0.0173
+0,Asparagine,D-Fructose,Pseudomonas,2,28,0.0173
+1.25,Butyric acid,D-Fructose,Pseudomonas,2,28,0.0173
+0,Serine,D-Fructose,Pseudomonas,2,28,0.0173
+0,Alanine,D-Fructose,Pseudomonas,2,28,0.0173
+0.0363,Succinic acid,D-Fructose,Pseudomonas,2,28,0.0173
+0,Lactic acid,D-Fructose,Pseudomonas,2,28,0.0173
+0,Valine,D-Fructose,Pseudomonas,2,28,0.0173
+0,Pyruvic acid,D-Fructose,Pseudomonas,2,28,0.0173
+0,alpha-Ketoglutaric acid,D-Fructose,Pseudomonas,2,28,0.0173
+0.0258,Fumaric acid,D-Fructose,Pseudomonas,2,28,0.0173
+186,Acetic acid,D-Fructose,Pseudomonas,2,28,0.0173
+0.308,Citric acid,D-Fructose,Pseudomonas,2,28,0.0173
+2.7,Glycine,D-Fructose,Pseudomonas,2,28,0.0173
+0,Putrescine,D-Fructose,Pseudomonas,2,28,0.0173
+0,Acetyl-ornithine,D-Fructose,Pseudomonas,2,28,0.0173
+0.116,Methionine,D-Fructose,Pseudomonas,2,28,0.0173
+6.55,Propionic acid,D-Fructose,Pseudomonas,2,28,0.0173
+0.362,Valeric acid,D-Fructose,Pseudomonas,2,28,0.0173
+0,Hippuric acid,D-Fructose,Pseudomonas,2,28,0.0173
+0,beta-Hydroxybutyric acid,D-Fructose,Pseudomonas,1,48,0.1075
+0,Pyruvic acid,D-Fructose,Pseudomonas,1,48,0.1075
+0,Alanine,D-Fructose,Pseudomonas,1,48,0.1075
+0,alpha-Ketoglutaric acid,D-Fructose,Pseudomonas,1,48,0.1075
+0,Serine,D-Fructose,Pseudomonas,1,48,0.1075
+458,Acetic acid,D-Fructose,Pseudomonas,1,48,0.1075
+0.0192,Succinic acid,D-Fructose,Pseudomonas,1,48,0.1075
+0,Acetyl-ornithine,D-Fructose,Pseudomonas,1,48,0.1075
+0,Valine,D-Fructose,Pseudomonas,1,48,0.1075
+2.45,Glycine,D-Fructose,Pseudomonas,1,48,0.1075
+0.0657,Asparagine,D-Fructose,Pseudomonas,1,48,0.1075
+0,Lactic acid,D-Fructose,Pseudomonas,1,48,0.1075
+0.0398,Fumaric acid,D-Fructose,Pseudomonas,1,48,0.1075
+0.41,Citric acid,D-Fructose,Pseudomonas,1,48,0.1075
+5.64,Propionic acid,D-Fructose,Pseudomonas,1,48,0.1075
+0.142,Methionine,D-Fructose,Pseudomonas,1,48,0.1075
+0.248,Valeric acid,D-Fructose,Pseudomonas,1,48,0.1075
+0,Hippuric acid,D-Fructose,Pseudomonas,1,48,0.1075
+0.721,Butyric acid,D-Fructose,Pseudomonas,1,48,0.1075
+0,Putrescine,D-Fructose,Pseudomonas,1,48,0.1075
+0,beta-Hydroxybutyric acid,D-Fructose,Pseudomonas,2,48,0.2383
+0,Alanine,D-Fructose,Pseudomonas,2,48,0.2383
+0,Valine,D-Fructose,Pseudomonas,2,48,0.2383
+0,Lactic acid,D-Fructose,Pseudomonas,2,48,0.2383
+0.062,Succinic acid,D-Fructose,Pseudomonas,2,48,0.2383
+2.85,Glycine,D-Fructose,Pseudomonas,2,48,0.2383
+6.49,Propionic acid,D-Fructose,Pseudomonas,2,48,0.2383
+0,Asparagine,D-Fructose,Pseudomonas,2,48,0.2383
+0,Pyruvic acid,D-Fructose,Pseudomonas,2,48,0.2383
+0.028,Fumaric acid,D-Fructose,Pseudomonas,2,48,0.2383
+0,Serine,D-Fructose,Pseudomonas,2,48,0.2383
+0.874,Acetyl-ornithine,D-Fructose,Pseudomonas,2,48,0.2383
+0,Putrescine,D-Fructose,Pseudomonas,2,48,0.2383
+0,Hippuric acid,D-Fructose,Pseudomonas,2,48,0.2383
+237,Acetic acid,D-Fructose,Pseudomonas,2,48,0.2383
+0,Methionine,D-Fructose,Pseudomonas,2,48,0.2383
+0.361,Citric acid,D-Fructose,Pseudomonas,2,48,0.2383
+0,alpha-Ketoglutaric acid,D-Fructose,Pseudomonas,2,48,0.2383
+1.23,Butyric acid,D-Fructose,Pseudomonas,2,48,0.2383
+0.346,Valeric acid,D-Fructose,Pseudomonas,2,48,0.2383
+0,alpha-Ketoglutaric acid,D-Galactose,Ecoli,1,48,0.1824
+4.03,Glycine,D-Galactose,Ecoli,1,48,0.1824
+101,Alanine,D-Galactose,Ecoli,1,48,0.1824
+298,Succinic acid,D-Galactose,Ecoli,1,48,0.1824
+11.1,beta-Hydroxybutyric acid,D-Galactose,Ecoli,1,48,0.1824
+19.9,Valine,D-Galactose,Ecoli,1,48,0.1824
+0.956,Pyruvic acid,D-Galactose,Ecoli,1,48,0.1824
+0,Serine,D-Galactose,Ecoli,1,48,0.1824
+2.48,Butyric acid,D-Galactose,Ecoli,1,48,0.1824
+15.7,Acetyl-ornithine,D-Galactose,Ecoli,1,48,0.1824
+57.9,Propionic acid,D-Galactose,Ecoli,1,48,0.1824
+7190,Acetic acid,D-Galactose,Ecoli,1,48,0.1824
+45.1,Fumaric acid,D-Galactose,Ecoli,1,48,0.1824
+0,Hippuric acid,D-Galactose,Ecoli,1,48,0.1824
+0,Methionine,D-Galactose,Ecoli,1,48,0.1824
+1.47,Putrescine,D-Galactose,Ecoli,1,48,0.1824
+0.113,Asparagine,D-Galactose,Ecoli,1,48,0.1824
+789,Lactic acid,D-Galactose,Ecoli,1,48,0.1824
+3.67,Valeric acid,D-Galactose,Ecoli,1,48,0.1824
+5,Citric acid,D-Galactose,Ecoli,1,48,0.1824
+1130,Lactic acid,D-Galactose,Ecoli,2,48,0.1532
+321,Succinic acid,D-Galactose,Ecoli,2,48,0.1532
+0,Asparagine,D-Galactose,Ecoli,2,48,0.1532
+54.6,Propionic acid,D-Galactose,Ecoli,2,48,0.1532
+4.21,Glycine,D-Galactose,Ecoli,2,48,0.1532
+9.61,beta-Hydroxybutyric acid,D-Galactose,Ecoli,2,48,0.1532
+0.823,Pyruvic acid,D-Galactose,Ecoli,2,48,0.1532
+0,alpha-Ketoglutaric acid,D-Galactose,Ecoli,2,48,0.1532
+105,Alanine,D-Galactose,Ecoli,2,48,0.1532
+19,Valine,D-Galactose,Ecoli,2,48,0.1532
+6310,Acetic acid,D-Galactose,Ecoli,2,48,0.1532
+3.41,Butyric acid,D-Galactose,Ecoli,2,48,0.1532
+13.7,Acetyl-ornithine,D-Galactose,Ecoli,2,48,0.1532
+3.23,Valeric acid,D-Galactose,Ecoli,2,48,0.1532
+0.2,Methionine,D-Galactose,Ecoli,2,48,0.1532
+0.0538,Serine,D-Galactose,Ecoli,2,48,0.1532
+42.1,Fumaric acid,D-Galactose,Ecoli,2,48,0.1532
+0,Hippuric acid,D-Galactose,Ecoli,2,48,0.1532
+2.01,Putrescine,D-Galactose,Ecoli,2,48,0.1532
+4.05,Citric acid,D-Galactose,Ecoli,2,48,0.1532
+0,Pyruvic acid,D-Galactose,Enterobacter,1,48,0.2044
+18.3,Propionic acid,D-Galactose,Enterobacter,1,48,0.2044
+0,Valine,D-Galactose,Enterobacter,1,48,0.2044
+0,Alanine,D-Galactose,Enterobacter,1,48,0.2044
+0,alpha-Ketoglutaric acid,D-Galactose,Enterobacter,1,48,0.2044
+29,beta-Hydroxybutyric acid,D-Galactose,Enterobacter,1,48,0.2044
+2.7,Acetyl-ornithine,D-Galactose,Enterobacter,1,48,0.2044
+0,Serine,D-Galactose,Enterobacter,1,48,0.2044
+0.205,Asparagine,D-Galactose,Enterobacter,1,48,0.2044
+49,Lactic acid,D-Galactose,Enterobacter,1,48,0.2044
+0.0219,Methionine,D-Galactose,Enterobacter,1,48,0.2044
+3.13,Glycine,D-Galactose,Enterobacter,1,48,0.2044
+0,Hippuric acid,D-Galactose,Enterobacter,1,48,0.2044
+0.174,Succinic acid,D-Galactose,Enterobacter,1,48,0.2044
+6.76,Butyric acid,D-Galactose,Enterobacter,1,48,0.2044
+0.0574,Fumaric acid,D-Galactose,Enterobacter,1,48,0.2044
+0,Putrescine,D-Galactose,Enterobacter,1,48,0.2044
+0.329,Citric acid,D-Galactose,Enterobacter,1,48,0.2044
+4770,Acetic acid,D-Galactose,Enterobacter,1,48,0.2044
+0.675,Valeric acid,D-Galactose,Enterobacter,1,48,0.2044
+0,Alanine,D-Galactose,Enterobacter,2,48,0.2361
+58.5,Lactic acid,D-Galactose,Enterobacter,2,48,0.2361
+0,Pyruvic acid,D-Galactose,Enterobacter,2,48,0.2361
+0.136,Succinic acid,D-Galactose,Enterobacter,2,48,0.2361
+3.73,Glycine,D-Galactose,Enterobacter,2,48,0.2361
+19.8,Propionic acid,D-Galactose,Enterobacter,2,48,0.2361
+0.12,Asparagine,D-Galactose,Enterobacter,2,48,0.2361
+0.507,Serine,D-Galactose,Enterobacter,2,48,0.2361
+0,Valine,D-Galactose,Enterobacter,2,48,0.2361
+0.676,Valeric acid,D-Galactose,Enterobacter,2,48,0.2361
+1.95,Acetyl-ornithine,D-Galactose,Enterobacter,2,48,0.2361
+0,Putrescine,D-Galactose,Enterobacter,2,48,0.2361
+0,Hippuric acid,D-Galactose,Enterobacter,2,48,0.2361
+0.0583,Fumaric acid,D-Galactose,Enterobacter,2,48,0.2361
+0.302,Citric acid,D-Galactose,Enterobacter,2,48,0.2361
+0,Methionine,D-Galactose,Enterobacter,2,48,0.2361
+27.8,beta-Hydroxybutyric acid,D-Galactose,Enterobacter,2,48,0.2361
+0,alpha-Ketoglutaric acid,D-Galactose,Enterobacter,2,48,0.2361
+6.71,Butyric acid,D-Galactose,Enterobacter,2,48,0.2361
+3890,Acetic acid,D-Galactose,Enterobacter,2,48,0.2361
+1.38,beta-Hydroxybutyric acid,D-Ribose,Ecoli,1,28,0.0228
+0.503,Serine,D-Ribose,Ecoli,1,28,0.0228
+0,Alanine,D-Ribose,Ecoli,1,28,0.0228
+0.117,Succinic acid,D-Ribose,Ecoli,1,28,0.0228
+0,Lactic acid,D-Ribose,Ecoli,1,28,0.0228
+0,Glycine,D-Ribose,Ecoli,1,28,0.0228
+0.376,Asparagine,D-Ribose,Ecoli,1,28,0.0228
+0,Pyruvic acid,D-Ribose,Ecoli,1,28,0.0228
+3.23,Butyric acid,D-Ribose,Ecoli,1,28,0.0228
+0.119,Putrescine,D-Ribose,Ecoli,1,28,0.0228
+11.1,Propionic acid,D-Ribose,Ecoli,1,28,0.0228
+1.46,Citric acid,D-Ribose,Ecoli,1,28,0.0228
+0.14,Fumaric acid,D-Ribose,Ecoli,1,28,0.0228
+0.144,Methionine,D-Ribose,Ecoli,1,28,0.0228
+0,Valine,D-Ribose,Ecoli,1,28,0.0228
+411,Acetic acid,D-Ribose,Ecoli,1,28,0.0228
+0,alpha-Ketoglutaric acid,D-Ribose,Ecoli,1,28,0.0228
+0,Acetyl-ornithine,D-Ribose,Ecoli,1,28,0.0228
+0.475,Valeric acid,D-Ribose,Ecoli,1,28,0.0228
+0.19,Hippuric acid,D-Ribose,Ecoli,1,28,0.0228
+0,Glycine,D-Ribose,Ecoli,2,28,0.0236
+1.58,Serine,D-Ribose,Ecoli,2,28,0.0236
+0,Valine,D-Ribose,Ecoli,2,28,0.0236
+0,Pyruvic acid,D-Ribose,Ecoli,2,28,0.0236
+5.67,Butyric acid,D-Ribose,Ecoli,2,28,0.0236
+0,Acetyl-ornithine,D-Ribose,Ecoli,2,28,0.0236
+0.32,Hippuric acid,D-Ribose,Ecoli,2,28,0.0236
+0.826,Asparagine,D-Ribose,Ecoli,2,28,0.0236
+0.163,Succinic acid,D-Ribose,Ecoli,2,28,0.0236
+1.34,beta-Hydroxybutyric acid,D-Ribose,Ecoli,2,28,0.0236
+0.157,Fumaric acid,D-Ribose,Ecoli,2,28,0.0236
+0,Alanine,D-Ribose,Ecoli,2,28,0.0236
+1.35,Citric acid,D-Ribose,Ecoli,2,28,0.0236
+0,alpha-Ketoglutaric acid,D-Ribose,Ecoli,2,28,0.0236
+0.242,Putrescine,D-Ribose,Ecoli,2,28,0.0236
+16.7,Propionic acid,D-Ribose,Ecoli,2,28,0.0236
+0.143,Methionine,D-Ribose,Ecoli,2,28,0.0236
+0.788,Valeric acid,D-Ribose,Ecoli,2,28,0.0236
+504,Acetic acid,D-Ribose,Ecoli,2,28,0.0236
+0,Lactic acid,D-Ribose,Ecoli,2,28,0.0236
+12.6,Lactic acid,D-Ribose,Ecoli,1,48,0.1397
+2.75,Succinic acid,D-Ribose,Ecoli,1,48,0.1397
+30.7,Propionic acid,D-Ribose,Ecoli,1,48,0.1397
+32.8,Pyruvic acid,D-Ribose,Ecoli,1,48,0.1397
+12.1,Acetyl-ornithine,D-Ribose,Ecoli,1,48,0.1397
+2.43,Serine,D-Ribose,Ecoli,1,48,0.1397
+0,Glycine,D-Ribose,Ecoli,1,48,0.1397
+0,Asparagine,D-Ribose,Ecoli,1,48,0.1397
+9.24,Citric acid,D-Ribose,Ecoli,1,48,0.1397
+0,Alanine,D-Ribose,Ecoli,1,48,0.1397
+8.55,beta-Hydroxybutyric acid,D-Ribose,Ecoli,1,48,0.1397
+0,alpha-Ketoglutaric acid,D-Ribose,Ecoli,1,48,0.1397
+2.06,Putrescine,D-Ribose,Ecoli,1,48,0.1397
+1.45,Valine,D-Ribose,Ecoli,1,48,0.1397
+4.98,Butyric acid,D-Ribose,Ecoli,1,48,0.1397
+0.115,Methionine,D-Ribose,Ecoli,1,48,0.1397
+0.309,Hippuric acid,D-Ribose,Ecoli,1,48,0.1397
+3390,Acetic acid,D-Ribose,Ecoli,1,48,0.1397
+1.5,Valeric acid,D-Ribose,Ecoli,1,48,0.1397
+0.649,Fumaric acid,D-Ribose,Ecoli,1,48,0.1397
+0.266,Methionine,D-Ribose,Ecoli,2,48,0.1061
+1.37,Succinic acid,D-Ribose,Ecoli,2,48,0.1061
+0,Valine,D-Ribose,Ecoli,2,48,0.1061
+4.34,Pyruvic acid,D-Ribose,Ecoli,2,48,0.1061
+7.07,beta-Hydroxybutyric acid,D-Ribose,Ecoli,2,48,0.1061
+0,Asparagine,D-Ribose,Ecoli,2,48,0.1061
+0.252,Hippuric acid,D-Ribose,Ecoli,2,48,0.1061
+4.19,Serine,D-Ribose,Ecoli,2,48,0.1061
+0,Alanine,D-Ribose,Ecoli,2,48,0.1061
+7.43,Citric acid,D-Ribose,Ecoli,2,48,0.1061
+0,Lactic acid,D-Ribose,Ecoli,2,48,0.1061
+1.26,Valeric acid,D-Ribose,Ecoli,2,48,0.1061
+0,alpha-Ketoglutaric acid,D-Ribose,Ecoli,2,48,0.1061
+0.358,Fumaric acid,D-Ribose,Ecoli,2,48,0.1061
+0,Glycine,D-Ribose,Ecoli,2,48,0.1061
+6.44,Acetyl-ornithine,D-Ribose,Ecoli,2,48,0.1061
+3180,Acetic acid,D-Ribose,Ecoli,2,48,0.1061
+1.98,Putrescine,D-Ribose,Ecoli,2,48,0.1061
+5.91,Butyric acid,D-Ribose,Ecoli,2,48,0.1061
+28.8,Propionic acid,D-Ribose,Ecoli,2,48,0.1061
+1.59,beta-Hydroxybutyric acid,D-Ribose,Enterobacter,1,28,0.3031
+1820,Lactic acid,D-Ribose,Enterobacter,1,28,0.3031
+11.4,Propionic acid,D-Ribose,Enterobacter,1,28,0.3031
+333,Succinic acid,D-Ribose,Enterobacter,1,28,0.3031
+0,Glycine,D-Ribose,Enterobacter,1,28,0.3031
+0,alpha-Ketoglutaric acid,D-Ribose,Enterobacter,1,28,0.3031
+39.2,Alanine,D-Ribose,Enterobacter,1,28,0.3031
+0.44,Asparagine,D-Ribose,Enterobacter,1,28,0.3031
+3.74,Butyric acid,D-Ribose,Enterobacter,1,28,0.3031
+0.859,Valeric acid,D-Ribose,Enterobacter,1,28,0.3031
+6.19,Acetyl-ornithine,D-Ribose,Enterobacter,1,28,0.3031
+0.208,Methionine,D-Ribose,Enterobacter,1,28,0.3031
+0.245,Hippuric acid,D-Ribose,Enterobacter,1,28,0.3031
+32,Fumaric acid,D-Ribose,Enterobacter,1,28,0.3031
+0.483,Pyruvic acid,D-Ribose,Enterobacter,1,28,0.3031
+6.26,Valine,D-Ribose,Enterobacter,1,28,0.3031
+1.36,Serine,D-Ribose,Enterobacter,1,28,0.3031
+5.77,Citric acid,D-Ribose,Enterobacter,1,28,0.3031
+5160,Acetic acid,D-Ribose,Enterobacter,1,28,0.3031
+0.19,Putrescine,D-Ribose,Enterobacter,1,28,0.3031
+1.76,beta-Hydroxybutyric acid,D-Ribose,Enterobacter,2,28,0.3116
+4.01,Acetyl-ornithine,D-Ribose,Enterobacter,2,28,0.3116
+1890,Lactic acid,D-Ribose,Enterobacter,2,28,0.3116
+5.51,Valine,D-Ribose,Enterobacter,2,28,0.3116
+0.917,Asparagine,D-Ribose,Enterobacter,2,28,0.3116
+5110,Acetic acid,D-Ribose,Enterobacter,2,28,0.3116
+0,alpha-Ketoglutaric acid,D-Ribose,Enterobacter,2,28,0.3116
+31.8,Fumaric acid,D-Ribose,Enterobacter,2,28,0.3116
+2.05,Serine,D-Ribose,Enterobacter,2,28,0.3116
+41.4,Alanine,D-Ribose,Enterobacter,2,28,0.3116
+5.27,Butyric acid,D-Ribose,Enterobacter,2,28,0.3116
+0.244,Methionine,D-Ribose,Enterobacter,2,28,0.3116
+0,Putrescine,D-Ribose,Enterobacter,2,28,0.3116
+15.1,Propionic acid,D-Ribose,Enterobacter,2,28,0.3116
+252,Succinic acid,D-Ribose,Enterobacter,2,28,0.3116
+1,Valeric acid,D-Ribose,Enterobacter,2,28,0.3116
+1.01,Pyruvic acid,D-Ribose,Enterobacter,2,28,0.3116
+0,Glycine,D-Ribose,Enterobacter,2,28,0.3116
+5.75,Citric acid,D-Ribose,Enterobacter,2,28,0.3116
+0.296,Hippuric acid,D-Ribose,Enterobacter,2,28,0.3116
+0,Alanine,D-Ribose,Enterobacter,1,48,0.2805
+0,Valine,D-Ribose,Enterobacter,1,48,0.2805
+0,Glycine,D-Ribose,Enterobacter,1,48,0.2805
+4.81,beta-Hydroxybutyric acid,D-Ribose,Enterobacter,1,48,0.2805
+17.2,Propionic acid,D-Ribose,Enterobacter,1,48,0.2805
+0,alpha-Ketoglutaric acid,D-Ribose,Enterobacter,1,48,0.2805
+0,Putrescine,D-Ribose,Enterobacter,1,48,0.2805
+1.94,Serine,D-Ribose,Enterobacter,1,48,0.2805
+0,Pyruvic acid,D-Ribose,Enterobacter,1,48,0.2805
+5.79,Butyric acid,D-Ribose,Enterobacter,1,48,0.2805
+0.245,Methionine,D-Ribose,Enterobacter,1,48,0.2805
+12.6,Acetyl-ornithine,D-Ribose,Enterobacter,1,48,0.2805
+5120,Acetic acid,D-Ribose,Enterobacter,1,48,0.2805
+1.06,Valeric acid,D-Ribose,Enterobacter,1,48,0.2805
+207,Succinic acid,D-Ribose,Enterobacter,1,48,0.2805
+415,Lactic acid,D-Ribose,Enterobacter,1,48,0.2805
+0.317,Hippuric acid,D-Ribose,Enterobacter,1,48,0.2805
+0,Asparagine,D-Ribose,Enterobacter,1,48,0.2805
+8.3,Citric acid,D-Ribose,Enterobacter,1,48,0.2805
+22.8,Fumaric acid,D-Ribose,Enterobacter,1,48,0.2805
+1.79,Serine,D-Ribose,Enterobacter,2,48,0.2944
+0,Asparagine,D-Ribose,Enterobacter,2,48,0.2944
+400,Lactic acid,D-Ribose,Enterobacter,2,48,0.2944
+0,Valine,D-Ribose,Enterobacter,2,48,0.2944
+9.27,Citric acid,D-Ribose,Enterobacter,2,48,0.2944
+0,Pyruvic acid,D-Ribose,Enterobacter,2,48,0.2944
+0,alpha-Ketoglutaric acid,D-Ribose,Enterobacter,2,48,0.2944
+5.73,beta-Hydroxybutyric acid,D-Ribose,Enterobacter,2,48,0.2944
+0,Alanine,D-Ribose,Enterobacter,2,48,0.2944
+5870,Acetic acid,D-Ribose,Enterobacter,2,48,0.2944
+1.1,Valeric acid,D-Ribose,Enterobacter,2,48,0.2944
+0,Putrescine,D-Ribose,Enterobacter,2,48,0.2944
+14.4,Acetyl-ornithine,D-Ribose,Enterobacter,2,48,0.2944
+238,Succinic acid,D-Ribose,Enterobacter,2,48,0.2944
+16.6,Propionic acid,D-Ribose,Enterobacter,2,48,0.2944
+0.247,Hippuric acid,D-Ribose,Enterobacter,2,48,0.2944
+5.24,Butyric acid,D-Ribose,Enterobacter,2,48,0.2944
+28.8,Fumaric acid,D-Ribose,Enterobacter,2,48,0.2944
+0,Glycine,D-Ribose,Enterobacter,2,48,0.2944
+0.145,Methionine,D-Ribose,Enterobacter,2,48,0.2944
+1.7,beta-Hydroxybutyric acid,L-Arabinose,Ecoli,1,28,0.1147
+46.1,Succinic acid,L-Arabinose,Ecoli,1,28,0.1147
+0.79,Serine,L-Arabinose,Ecoli,1,28,0.1147
+0,Alanine,L-Arabinose,Ecoli,1,28,0.1147
+209,Pyruvic acid,L-Arabinose,Ecoli,1,28,0.1147
+0,alpha-Ketoglutaric acid,L-Arabinose,Ecoli,1,28,0.1147
+0,Asparagine,L-Arabinose,Ecoli,1,28,0.1147
+1.89,Valine,L-Arabinose,Ecoli,1,28,0.1147
+22.3,Propionic acid,L-Arabinose,Ecoli,1,28,0.1147
+2850,Acetic acid,L-Arabinose,Ecoli,1,28,0.1147
+139,Lactic acid,L-Arabinose,Ecoli,1,28,0.1147
+0,Glycine,L-Arabinose,Ecoli,1,28,0.1147
+1.64,Valeric acid,L-Arabinose,Ecoli,1,28,0.1147
+1.33,Acetyl-ornithine,L-Arabinose,Ecoli,1,28,0.1147
+8.71,Fumaric acid,L-Arabinose,Ecoli,1,28,0.1147
+0.292,Hippuric acid,L-Arabinose,Ecoli,1,28,0.1147
+1.36,Putrescine,L-Arabinose,Ecoli,1,28,0.1147
+0.113,Methionine,L-Arabinose,Ecoli,1,28,0.1147
+4.93,Butyric acid,L-Arabinose,Ecoli,1,28,0.1147
+2.4,Citric acid,L-Arabinose,Ecoli,1,28,0.1147
+1.42,beta-Hydroxybutyric acid,L-Arabinose,Ecoli,2,28,0.105
+12.4,Succinic acid,L-Arabinose,Ecoli,2,28,0.105
+0.44,Valine,L-Arabinose,Ecoli,2,28,0.105
+0,Alanine,L-Arabinose,Ecoli,2,28,0.105
+0,Asparagine,L-Arabinose,Ecoli,2,28,0.105
+0,Lactic acid,L-Arabinose,Ecoli,2,28,0.105
+0,Serine,L-Arabinose,Ecoli,2,28,0.105
+0,Glycine,L-Arabinose,Ecoli,2,28,0.105
+21.7,Propionic acid,L-Arabinose,Ecoli,2,28,0.105
+82.2,Pyruvic acid,L-Arabinose,Ecoli,2,28,0.105
+6.71,Butyric acid,L-Arabinose,Ecoli,2,28,0.105
+2.3,Fumaric acid,L-Arabinose,Ecoli,2,28,0.105
+1.41,Valeric acid,L-Arabinose,Ecoli,2,28,0.105
+2.04,Citric acid,L-Arabinose,Ecoli,2,28,0.105
+1700,Acetic acid,L-Arabinose,Ecoli,2,28,0.105
+1.16,Acetyl-ornithine,L-Arabinose,Ecoli,2,28,0.105
+0.38,Hippuric acid,L-Arabinose,Ecoli,2,28,0.105
+0,alpha-Ketoglutaric acid,L-Arabinose,Ecoli,2,28,0.105
+1.45,Putrescine,L-Arabinose,Ecoli,2,28,0.105
+0.233,Methionine,L-Arabinose,Ecoli,2,28,0.105
+25.6,Valine,L-Arabinose,Ecoli,1,48,0.1549
+1.3,Putrescine,L-Arabinose,Ecoli,1,48,0.1549
+4.14,beta-Hydroxybutyric acid,L-Arabinose,Ecoli,1,48,0.1549
+2.98,Serine,L-Arabinose,Ecoli,1,48,0.1549
+306,Succinic acid,L-Arabinose,Ecoli,1,48,0.1549
+0,alpha-Ketoglutaric acid,L-Arabinose,Ecoli,1,48,0.1549
+29.9,Acetyl-ornithine,L-Arabinose,Ecoli,1,48,0.1549
+40.8,Alanine,L-Arabinose,Ecoli,1,48,0.1549
+0,Pyruvic acid,L-Arabinose,Ecoli,1,48,0.1549
+6.05,Butyric acid,L-Arabinose,Ecoli,1,48,0.1549
+840,Lactic acid,L-Arabinose,Ecoli,1,48,0.1549
+58.6,Fumaric acid,L-Arabinose,Ecoli,1,48,0.1549
+40.3,Propionic acid,L-Arabinose,Ecoli,1,48,0.1549
+3.63,Citric acid,L-Arabinose,Ecoli,1,48,0.1549
+0.152,Methionine,L-Arabinose,Ecoli,1,48,0.1549
+0,Glycine,L-Arabinose,Ecoli,1,48,0.1549
+0,Asparagine,L-Arabinose,Ecoli,1,48,0.1549
+5710,Acetic acid,L-Arabinose,Ecoli,1,48,0.1549
+1.92,Valeric acid,L-Arabinose,Ecoli,1,48,0.1549
+0.456,Hippuric acid,L-Arabinose,Ecoli,1,48,0.1549
+3.35,Serine,L-Arabinose,Ecoli,2,48,0.2032
+1130,Lactic acid,L-Arabinose,Ecoli,2,48,0.2032
+87,Alanine,L-Arabinose,Ecoli,2,48,0.2032
+0,alpha-Ketoglutaric acid,L-Arabinose,Ecoli,2,48,0.2032
+3.7,beta-Hydroxybutyric acid,L-Arabinose,Ecoli,2,48,0.2032
+35.5,Propionic acid,L-Arabinose,Ecoli,2,48,0.2032
+312,Succinic acid,L-Arabinose,Ecoli,2,48,0.2032
+6.58,Butyric acid,L-Arabinose,Ecoli,2,48,0.2032
+4.73,Glycine,L-Arabinose,Ecoli,2,48,0.2032
+21.3,Acetyl-ornithine,L-Arabinose,Ecoli,2,48,0.2032
+0.378,Pyruvic acid,L-Arabinose,Ecoli,2,48,0.2032
+3.16,Citric acid,L-Arabinose,Ecoli,2,48,0.2032
+42.9,Fumaric acid,L-Arabinose,Ecoli,2,48,0.2032
+22.4,Valine,L-Arabinose,Ecoli,2,48,0.2032
+0,Asparagine,L-Arabinose,Ecoli,2,48,0.2032
+5650,Acetic acid,L-Arabinose,Ecoli,2,48,0.2032
+1.36,Putrescine,L-Arabinose,Ecoli,2,48,0.2032
+0.362,Hippuric acid,L-Arabinose,Ecoli,2,48,0.2032
+0.0953,Methionine,L-Arabinose,Ecoli,2,48,0.2032
+1.77,Valeric acid,L-Arabinose,Ecoli,2,48,0.2032
+0,Alanine,L-Arabinose,Enterobacter,1,28,0.1571
+36.5,Pyruvic acid,L-Arabinose,Enterobacter,1,28,0.1571
+0,Valine,L-Arabinose,Enterobacter,1,28,0.1571
+0,Glycine,L-Arabinose,Enterobacter,1,28,0.1571
+7.07,Fumaric acid,L-Arabinose,Enterobacter,1,28,0.1571
+1.16,Serine,L-Arabinose,Enterobacter,1,28,0.1571
+17.9,Propionic acid,L-Arabinose,Enterobacter,1,28,0.1571
+4.94,beta-Hydroxybutyric acid,L-Arabinose,Enterobacter,1,28,0.1571
+0.0899,Putrescine,L-Arabinose,Enterobacter,1,28,0.1571
+1.81,Acetyl-ornithine,L-Arabinose,Enterobacter,1,28,0.1571
+0.348,Hippuric acid,L-Arabinose,Enterobacter,1,28,0.1571
+182,Lactic acid,L-Arabinose,Enterobacter,1,28,0.1571
+0.257,Methionine,L-Arabinose,Enterobacter,1,28,0.1571
+6.53,Butyric acid,L-Arabinose,Enterobacter,1,28,0.1571
+3600,Acetic acid,L-Arabinose,Enterobacter,1,28,0.1571
+0.0925,alpha-Ketoglutaric acid,L-Arabinose,Enterobacter,1,28,0.1571
+61.1,Succinic acid,L-Arabinose,Enterobacter,1,28,0.1571
+1.61,Citric acid,L-Arabinose,Enterobacter,1,28,0.1571
+0,Asparagine,L-Arabinose,Enterobacter,1,28,0.1571
+1.29,Valeric acid,L-Arabinose,Enterobacter,1,28,0.1571
+0,Valine,L-Arabinose,Enterobacter,2,28,0.1714
+0,Alanine,L-Arabinose,Enterobacter,2,28,0.1714
+52.2,Succinic acid,L-Arabinose,Enterobacter,2,28,0.1714
+0,Serine,L-Arabinose,Enterobacter,2,28,0.1714
+16.9,Propionic acid,L-Arabinose,Enterobacter,2,28,0.1714
+0,Glycine,L-Arabinose,Enterobacter,2,28,0.1714
+6.26,Fumaric acid,L-Arabinose,Enterobacter,2,28,0.1714
+0.117,Putrescine,L-Arabinose,Enterobacter,2,28,0.1714
+3.1,Acetyl-ornithine,L-Arabinose,Enterobacter,2,28,0.1714
+0,Asparagine,L-Arabinose,Enterobacter,2,28,0.1714
+173,Lactic acid,L-Arabinose,Enterobacter,2,28,0.1714
+0,Methionine,L-Arabinose,Enterobacter,2,28,0.1714
+1.1,Valeric acid,L-Arabinose,Enterobacter,2,28,0.1714
+6.14,Butyric acid,L-Arabinose,Enterobacter,2,28,0.1714
+0.148,alpha-Ketoglutaric acid,L-Arabinose,Enterobacter,2,28,0.1714
+0.378,Hippuric acid,L-Arabinose,Enterobacter,2,28,0.1714
+37.7,Pyruvic acid,L-Arabinose,Enterobacter,2,28,0.1714
+4010,Acetic acid,L-Arabinose,Enterobacter,2,28,0.1714
+5.75,beta-Hydroxybutyric acid,L-Arabinose,Enterobacter,2,28,0.1714
+1.63,Citric acid,L-Arabinose,Enterobacter,2,28,0.1714
+13.7,beta-Hydroxybutyric acid,L-Arabinose,Enterobacter,1,48,0.2348
+0,Pyruvic acid,L-Arabinose,Enterobacter,1,48,0.2348
+1.51,Serine,L-Arabinose,Enterobacter,1,48,0.2348
+121,Lactic acid,L-Arabinose,Enterobacter,1,48,0.2348
+0,Valine,L-Arabinose,Enterobacter,1,48,0.2348
+0,Alanine,L-Arabinose,Enterobacter,1,48,0.2348
+58.4,Succinic acid,L-Arabinose,Enterobacter,1,48,0.2348
+6.83,Butyric acid,L-Arabinose,Enterobacter,1,48,0.2348
+10.6,Fumaric acid,L-Arabinose,Enterobacter,1,48,0.2348
+0,Glycine,L-Arabinose,Enterobacter,1,48,0.2348
+0.539,Asparagine,L-Arabinose,Enterobacter,1,48,0.2348
+19.1,Propionic acid,L-Arabinose,Enterobacter,1,48,0.2348
+0.142,Methionine,L-Arabinose,Enterobacter,1,48,0.2348
+0,alpha-Ketoglutaric acid,L-Arabinose,Enterobacter,1,48,0.2348
+4260,Acetic acid,L-Arabinose,Enterobacter,1,48,0.2348
+6.91,Citric acid,L-Arabinose,Enterobacter,1,48,0.2348
+9.63,Acetyl-ornithine,L-Arabinose,Enterobacter,1,48,0.2348
+0.426,Hippuric acid,L-Arabinose,Enterobacter,1,48,0.2348
+1.24,Valeric acid,L-Arabinose,Enterobacter,1,48,0.2348
+0,Putrescine,L-Arabinose,Enterobacter,1,48,0.2348
+0,Alanine,L-Arabinose,Enterobacter,2,48,0.2771
+74.9,Succinic acid,L-Arabinose,Enterobacter,2,48,0.2771
+1.32,Glycine,L-Arabinose,Enterobacter,2,48,0.2771
+6.85,Acetyl-ornithine,L-Arabinose,Enterobacter,2,48,0.2771
+0,Pyruvic acid,L-Arabinose,Enterobacter,2,48,0.2771
+0,alpha-Ketoglutaric acid,L-Arabinose,Enterobacter,2,48,0.2771
+14.2,beta-Hydroxybutyric acid,L-Arabinose,Enterobacter,2,48,0.2771
+20.5,Propionic acid,L-Arabinose,Enterobacter,2,48,0.2771
+7.14,Butyric acid,L-Arabinose,Enterobacter,2,48,0.2771
+0,Putrescine,L-Arabinose,Enterobacter,2,48,0.2771
+0,Valine,L-Arabinose,Enterobacter,2,48,0.2771
+0,Asparagine,L-Arabinose,Enterobacter,2,48,0.2771
+4720,Acetic acid,L-Arabinose,Enterobacter,2,48,0.2771
+0.221,Methionine,L-Arabinose,Enterobacter,2,48,0.2771
+0.337,Hippuric acid,L-Arabinose,Enterobacter,2,48,0.2771
+1.21,Serine,L-Arabinose,Enterobacter,2,48,0.2771
+13.4,Fumaric acid,L-Arabinose,Enterobacter,2,48,0.2771
+7.3,Citric acid,L-Arabinose,Enterobacter,2,48,0.2771
+154,Lactic acid,L-Arabinose,Enterobacter,2,48,0.2771
+1.06,Valeric acid,L-Arabinose,Enterobacter,2,48,0.2771
+5.82,Propionic acid,Glycerol,Ecoli,1,16,0.0071
+0,Valine,Glycerol,Ecoli,1,16,0.0071
+0.151,Succinic acid,Glycerol,Ecoli,1,16,0.0071
+0,Alanine,Glycerol,Ecoli,1,16,0.0071
+0,beta-Hydroxybutyric acid,Glycerol,Ecoli,1,16,0.0071
+2.78,Glycine,Glycerol,Ecoli,1,16,0.0071
+0,Lactic acid,Glycerol,Ecoli,1,16,0.0071
+0.0113,Putrescine,Glycerol,Ecoli,1,16,0.0071
+0,Serine,Glycerol,Ecoli,1,16,0.0071
+0,alpha-Ketoglutaric acid,Glycerol,Ecoli,1,16,0.0071
+0.136,Methionine,Glycerol,Ecoli,1,16,0.0071
+0,Acetyl-ornithine,Glycerol,Ecoli,1,16,0.0071
+0.922,Butyric acid,Glycerol,Ecoli,1,16,0.0071
+0,Pyruvic acid,Glycerol,Ecoli,1,16,0.0071
+0.142,Fumaric acid,Glycerol,Ecoli,1,16,0.0071
+0,Hippuric acid,Glycerol,Ecoli,1,16,0.0071
+0.5,Asparagine,Glycerol,Ecoli,1,16,0.0071
+0.459,Citric acid,Glycerol,Ecoli,1,16,0.0071
+390,Acetic acid,Glycerol,Ecoli,1,16,0.0071
+0.347,Valeric acid,Glycerol,Ecoli,1,16,0.0071
+0,Serine,Glycerol,Ecoli,2,16,0.0145
+0.234,Asparagine,Glycerol,Ecoli,2,16,0.0145
+0,Lactic acid,Glycerol,Ecoli,2,16,0.0145
+0,beta-Hydroxybutyric acid,Glycerol,Ecoli,2,16,0.0145
+0,Alanine,Glycerol,Ecoli,2,16,0.0145
+0,alpha-Ketoglutaric acid,Glycerol,Ecoli,2,16,0.0145
+0,Putrescine,Glycerol,Ecoli,2,16,0.0145
+0,Valine,Glycerol,Ecoli,2,16,0.0145
+0.45,Citric acid,Glycerol,Ecoli,2,16,0.0145
+1.29,Butyric acid,Glycerol,Ecoli,2,16,0.0145
+0,Methionine,Glycerol,Ecoli,2,16,0.0145
+0,Acetyl-ornithine,Glycerol,Ecoli,2,16,0.0145
+8.85,Propionic acid,Glycerol,Ecoli,2,16,0.0145
+2.56,Glycine,Glycerol,Ecoli,2,16,0.0145
+0,Hippuric acid,Glycerol,Ecoli,2,16,0.0145
+0.483,Valeric acid,Glycerol,Ecoli,2,16,0.0145
+0.139,Succinic acid,Glycerol,Ecoli,2,16,0.0145
+0.134,Fumaric acid,Glycerol,Ecoli,2,16,0.0145
+0,Pyruvic acid,Glycerol,Ecoli,2,16,0.0145
+405,Acetic acid,Glycerol,Ecoli,2,16,0.0145
+0.344,beta-Hydroxybutyric acid,Glycerol,Ecoli,1,28,0.0289
+0,Valine,Glycerol,Ecoli,1,28,0.0289
+1.17,Citric acid,Glycerol,Ecoli,1,28,0.0289
+0,Serine,Glycerol,Ecoli,1,28,0.0289
+0,Lactic acid,Glycerol,Ecoli,1,28,0.0289
+0.164,Fumaric acid,Glycerol,Ecoli,1,28,0.0289
+2.94,Glycine,Glycerol,Ecoli,1,28,0.0289
+1060,Acetic acid,Glycerol,Ecoli,1,28,0.0289
+0,alpha-Ketoglutaric acid,Glycerol,Ecoli,1,28,0.0289
+0.0973,Putrescine,Glycerol,Ecoli,1,28,0.0289
+0.616,Butyric acid,Glycerol,Ecoli,1,28,0.0289
+0,Alanine,Glycerol,Ecoli,1,28,0.0289
+0,Asparagine,Glycerol,Ecoli,1,28,0.0289
+0.0527,Methionine,Glycerol,Ecoli,1,28,0.0289
+0.406,Acetyl-ornithine,Glycerol,Ecoli,1,28,0.0289
+11.9,Propionic acid,Glycerol,Ecoli,1,28,0.0289
+0.632,Succinic acid,Glycerol,Ecoli,1,28,0.0289
+0.629,Valeric acid,Glycerol,Ecoli,1,28,0.0289
+0,Pyruvic acid,Glycerol,Ecoli,1,28,0.0289
+0,Hippuric acid,Glycerol,Ecoli,1,28,0.0289
+0,Alanine,Glycerol,Ecoli,2,28,0.0438
+0,Valine,Glycerol,Ecoli,2,28,0.0438
+12.1,Propionic acid,Glycerol,Ecoli,2,28,0.0438
+2.73,Glycine,Glycerol,Ecoli,2,28,0.0438
+0,Pyruvic acid,Glycerol,Ecoli,2,28,0.0438
+0,beta-Hydroxybutyric acid,Glycerol,Ecoli,2,28,0.0438
+0.207,Fumaric acid,Glycerol,Ecoli,2,28,0.0438
+0,Serine,Glycerol,Ecoli,2,28,0.0438
+0,Lactic acid,Glycerol,Ecoli,2,28,0.0438
+0.121,Putrescine,Glycerol,Ecoli,2,28,0.0438
+0.415,Acetyl-ornithine,Glycerol,Ecoli,2,28,0.0438
+0,Hippuric acid,Glycerol,Ecoli,2,28,0.0438
+836,Acetic acid,Glycerol,Ecoli,2,28,0.0438
+0.0707,Methionine,Glycerol,Ecoli,2,28,0.0438
+0,alpha-Ketoglutaric acid,Glycerol,Ecoli,2,28,0.0438
+0.849,Succinic acid,Glycerol,Ecoli,2,28,0.0438
+1.49,Butyric acid,Glycerol,Ecoli,2,28,0.0438
+0,Asparagine,Glycerol,Ecoli,2,28,0.0438
+0.939,Citric acid,Glycerol,Ecoli,2,28,0.0438
+0.726,Valeric acid,Glycerol,Ecoli,2,28,0.0438
+0,Alanine,Glycerol,Ecoli,1,48,0.1098
+2.12,Succinic acid,Glycerol,Ecoli,1,48,0.1098
+52.2,Glycine,Glycerol,Ecoli,1,48,0.1098
+0.676,Asparagine,Glycerol,Ecoli,1,48,0.1098
+0,Hippuric acid,Glycerol,Ecoli,1,48,0.1098
+0,Serine,Glycerol,Ecoli,1,48,0.1098
+3.68,beta-Hydroxybutyric acid,Glycerol,Ecoli,1,48,0.1098
+16.4,Pyruvic acid,Glycerol,Ecoli,1,48,0.1098
+40.8,Propionic acid,Glycerol,Ecoli,1,48,0.1098
+0.764,Putrescine,Glycerol,Ecoli,1,48,0.1098
+1.67,Valine,Glycerol,Ecoli,1,48,0.1098
+3200,Acetic acid,Glycerol,Ecoli,1,48,0.1098
+1.9,Valeric acid,Glycerol,Ecoli,1,48,0.1098
+0.193,Methionine,Glycerol,Ecoli,1,48,0.1098
+6.47,Acetyl-ornithine,Glycerol,Ecoli,1,48,0.1098
+0,Lactic acid,Glycerol,Ecoli,1,48,0.1098
+0.632,Fumaric acid,Glycerol,Ecoli,1,48,0.1098
+6.51,Citric acid,Glycerol,Ecoli,1,48,0.1098
+0,alpha-Ketoglutaric acid,Glycerol,Ecoli,1,48,0.1098
+1.81,Butyric acid,Glycerol,Ecoli,1,48,0.1098
+0,Serine,Glycerol,Ecoli,2,48,0.096
+2.61,Butyric acid,Glycerol,Ecoli,2,48,0.096
+2.42,Citric acid,Glycerol,Ecoli,2,48,0.096
+0,Valine,Glycerol,Ecoli,2,48,0.096
+0,Pyruvic acid,Glycerol,Ecoli,2,48,0.096
+1.72,Succinic acid,Glycerol,Ecoli,2,48,0.096
+1.28,beta-Hydroxybutyric acid,Glycerol,Ecoli,2,48,0.096
+0.348,Fumaric acid,Glycerol,Ecoli,2,48,0.096
+0,Asparagine,Glycerol,Ecoli,2,48,0.096
+1900,Acetic acid,Glycerol,Ecoli,2,48,0.096
+25.6,Propionic acid,Glycerol,Ecoli,2,48,0.096
+0.406,Putrescine,Glycerol,Ecoli,2,48,0.096
+2.9,Glycine,Glycerol,Ecoli,2,48,0.096
+0,Alanine,Glycerol,Ecoli,2,48,0.096
+0.826,Valeric acid,Glycerol,Ecoli,2,48,0.096
+0,Hippuric acid,Glycerol,Ecoli,2,48,0.096
+0,Lactic acid,Glycerol,Ecoli,2,48,0.096
+2.77,Acetyl-ornithine,Glycerol,Ecoli,2,48,0.096
+0,alpha-Ketoglutaric acid,Glycerol,Ecoli,2,48,0.096
+0,Methionine,Glycerol,Ecoli,2,48,0.096
+0,Alanine,Glycerol,Enterobacter,1,16,0.2156
+0,Serine,Glycerol,Enterobacter,1,16,0.2156
+0,Pyruvic acid,Glycerol,Enterobacter,1,16,0.2156
+0.125,Fumaric acid,Glycerol,Enterobacter,1,16,0.2156
+0.266,Acetyl-ornithine,Glycerol,Enterobacter,1,16,0.2156
+7.15,Propionic acid,Glycerol,Enterobacter,1,16,0.2156
+0.357,Asparagine,Glycerol,Enterobacter,1,16,0.2156
+1.24,Butyric acid,Glycerol,Enterobacter,1,16,0.2156
+0,Lactic acid,Glycerol,Enterobacter,1,16,0.2156
+2.81,Glycine,Glycerol,Enterobacter,1,16,0.2156
+0.654,Succinic acid,Glycerol,Enterobacter,1,16,0.2156
+0.176,alpha-Ketoglutaric acid,Glycerol,Enterobacter,1,16,0.2156
+0,beta-Hydroxybutyric acid,Glycerol,Enterobacter,1,16,0.2156
+0,Valine,Glycerol,Enterobacter,1,16,0.2156
+0.955,Citric acid,Glycerol,Enterobacter,1,16,0.2156
+837,Acetic acid,Glycerol,Enterobacter,1,16,0.2156
+0.141,Methionine,Glycerol,Enterobacter,1,16,0.2156
+0.994,Putrescine,Glycerol,Enterobacter,1,16,0.2156
+0,Hippuric acid,Glycerol,Enterobacter,1,16,0.2156
+0.482,Valeric acid,Glycerol,Enterobacter,1,16,0.2156
+1.09,Succinic acid,Glycerol,Enterobacter,2,16,0.196
+2.65,Glycine,Glycerol,Enterobacter,2,16,0.196
+0,Pyruvic acid,Glycerol,Enterobacter,2,16,0.196
+0.143,alpha-Ketoglutaric acid,Glycerol,Enterobacter,2,16,0.196
+0,Serine,Glycerol,Enterobacter,2,16,0.196
+0,Asparagine,Glycerol,Enterobacter,2,16,0.196
+0.834,Butyric acid,Glycerol,Enterobacter,2,16,0.196
+0.328,Acetyl-ornithine,Glycerol,Enterobacter,2,16,0.196
+0,Alanine,Glycerol,Enterobacter,2,16,0.196
+8.54,Propionic acid,Glycerol,Enterobacter,2,16,0.196
+0,Lactic acid,Glycerol,Enterobacter,2,16,0.196
+0.0971,beta-Hydroxybutyric acid,Glycerol,Enterobacter,2,16,0.196
+0,Valine,Glycerol,Enterobacter,2,16,0.196
+1.31,Citric acid,Glycerol,Enterobacter,2,16,0.196
+1090,Acetic acid,Glycerol,Enterobacter,2,16,0.196
+1.35,Putrescine,Glycerol,Enterobacter,2,16,0.196
+0,Hippuric acid,Glycerol,Enterobacter,2,16,0.196
+0.101,Methionine,Glycerol,Enterobacter,2,16,0.196
+0.141,Fumaric acid,Glycerol,Enterobacter,2,16,0.196
+0.738,Valeric acid,Glycerol,Enterobacter,2,16,0.196
+0,Valine,Glycerol,Enterobacter,1,28,0.2607
+2.72,beta-Hydroxybutyric acid,Glycerol,Enterobacter,1,28,0.2607
+0,Serine,Glycerol,Enterobacter,1,28,0.2607
+7.44,Succinic acid,Glycerol,Enterobacter,1,28,0.2607
+158,Lactic acid,Glycerol,Enterobacter,1,28,0.2607
+80.4,Pyruvic acid,Glycerol,Enterobacter,1,28,0.2607
+1.78,alpha-Ketoglutaric acid,Glycerol,Enterobacter,1,28,0.2607
+0.906,Fumaric acid,Glycerol,Enterobacter,1,28,0.2607
+2390,Acetic acid,Glycerol,Enterobacter,1,28,0.2607
+0,Alanine,Glycerol,Enterobacter,1,28,0.2607
+0,Asparagine,Glycerol,Enterobacter,1,28,0.2607
+11.9,Propionic acid,Glycerol,Enterobacter,1,28,0.2607
+3.18,Glycine,Glycerol,Enterobacter,1,28,0.2607
+1.75,Valeric acid,Glycerol,Enterobacter,1,28,0.2607
+2.49,Butyric acid,Glycerol,Enterobacter,1,28,0.2607
+3.74,Putrescine,Glycerol,Enterobacter,1,28,0.2607
+2.86,Acetyl-ornithine,Glycerol,Enterobacter,1,28,0.2607
+0,Hippuric acid,Glycerol,Enterobacter,1,28,0.2607
+0.0528,Methionine,Glycerol,Enterobacter,1,28,0.2607
+14.2,Citric acid,Glycerol,Enterobacter,1,28,0.2607
+0,Alanine,Glycerol,Enterobacter,2,28,0.2659
+86.3,Pyruvic acid,Glycerol,Enterobacter,2,28,0.2659
+0,Serine,Glycerol,Enterobacter,2,28,0.2659
+3.03,Glycine,Glycerol,Enterobacter,2,28,0.2659
+141,Lactic acid,Glycerol,Enterobacter,2,28,0.2659
+0.841,Fumaric acid,Glycerol,Enterobacter,2,28,0.2659
+3.68,beta-Hydroxybutyric acid,Glycerol,Enterobacter,2,28,0.2659
+2.21,Butyric acid,Glycerol,Enterobacter,2,28,0.2659
+6.75,Acetyl-ornithine,Glycerol,Enterobacter,2,28,0.2659
+0,Valine,Glycerol,Enterobacter,2,28,0.2659
+8.11,Succinic acid,Glycerol,Enterobacter,2,28,0.2659
+11.3,Propionic acid,Glycerol,Enterobacter,2,28,0.2659
+1.83,alpha-Ketoglutaric acid,Glycerol,Enterobacter,2,28,0.2659
+0,Hippuric acid,Glycerol,Enterobacter,2,28,0.2659
+0,Asparagine,Glycerol,Enterobacter,2,28,0.2659
+12.3,Citric acid,Glycerol,Enterobacter,2,28,0.2659
+0,Methionine,Glycerol,Enterobacter,2,28,0.2659
+5.25,Putrescine,Glycerol,Enterobacter,2,28,0.2659
+1.2,Valeric acid,Glycerol,Enterobacter,2,28,0.2659
+2380,Acetic acid,Glycerol,Enterobacter,2,28,0.2659
+67.9,Succinic acid,Glycerol,Enterobacter,1,48,0.2991
+0,Serine,Glycerol,Enterobacter,1,48,0.2991
+0,Alanine,Glycerol,Enterobacter,1,48,0.2991
+0.715,alpha-Ketoglutaric acid,Glycerol,Enterobacter,1,48,0.2991
+0,Asparagine,Glycerol,Enterobacter,1,48,0.2991
+0,Valine,Glycerol,Enterobacter,1,48,0.2991
+13,Acetyl-ornithine,Glycerol,Enterobacter,1,48,0.2991
+3.02,Butyric acid,Glycerol,Enterobacter,1,48,0.2991
+0.0839,Methionine,Glycerol,Enterobacter,1,48,0.2991
+3.12,Glycine,Glycerol,Enterobacter,1,48,0.2991
+13.9,Propionic acid,Glycerol,Enterobacter,1,48,0.2991
+0.799,Pyruvic acid,Glycerol,Enterobacter,1,48,0.2991
+1060,Lactic acid,Glycerol,Enterobacter,1,48,0.2991
+14,beta-Hydroxybutyric acid,Glycerol,Enterobacter,1,48,0.2991
+1.63,Valeric acid,Glycerol,Enterobacter,1,48,0.2991
+5940,Acetic acid,Glycerol,Enterobacter,1,48,0.2991
+18,Citric acid,Glycerol,Enterobacter,1,48,0.2991
+0.337,Putrescine,Glycerol,Enterobacter,1,48,0.2991
+0,Hippuric acid,Glycerol,Enterobacter,1,48,0.2991
+8.35,Fumaric acid,Glycerol,Enterobacter,1,48,0.2991
+4.13,Butyric acid,Glycerol,Enterobacter,2,48,0.3335
+0,Valine,Glycerol,Enterobacter,2,48,0.3335
+0,Alanine,Glycerol,Enterobacter,2,48,0.3335
+15.4,beta-Hydroxybutyric acid,Glycerol,Enterobacter,2,48,0.3335
+948,Lactic acid,Glycerol,Enterobacter,2,48,0.3335
+0.578,Asparagine,Glycerol,Enterobacter,2,48,0.3335
+4860,Acetic acid,Glycerol,Enterobacter,2,48,0.3335
+8.03,Citric acid,Glycerol,Enterobacter,2,48,0.3335
+0.0884,alpha-Ketoglutaric acid,Glycerol,Enterobacter,2,48,0.3335
+0,Serine,Glycerol,Enterobacter,2,48,0.3335
+3.03,Glycine,Glycerol,Enterobacter,2,48,0.3335
+16.2,Propionic acid,Glycerol,Enterobacter,2,48,0.3335
+52,Succinic acid,Glycerol,Enterobacter,2,48,0.3335
+6.39,Fumaric acid,Glycerol,Enterobacter,2,48,0.3335
+1.33,Valeric acid,Glycerol,Enterobacter,2,48,0.3335
+0.905,Pyruvic acid,Glycerol,Enterobacter,2,48,0.3335
+0.0386,Putrescine,Glycerol,Enterobacter,2,48,0.3335
+16.3,Acetyl-ornithine,Glycerol,Enterobacter,2,48,0.3335
+0,Methionine,Glycerol,Enterobacter,2,48,0.3335
+0,Hippuric acid,Glycerol,Enterobacter,2,48,0.3335
+0.106,Asparagine,Glycerol,Pputida,1,16,0.0176
+0.0414,Methionine,Glycerol,Pputida,1,16,0.0176
+0,Valine,Glycerol,Pputida,1,16,0.0176
+0.0412,Succinic acid,Glycerol,Pputida,1,16,0.0176
+0.151,Butyric acid,Glycerol,Pputida,1,16,0.0176
+0,beta-Hydroxybutyric acid,Glycerol,Pputida,1,16,0.0176
+0,Serine,Glycerol,Pputida,1,16,0.0176
+212,Acetic acid,Glycerol,Pputida,1,16,0.0176
+0,Alanine,Glycerol,Pputida,1,16,0.0176
+0,Pyruvic acid,Glycerol,Pputida,1,16,0.0176
+2.84,Glycine,Glycerol,Pputida,1,16,0.0176
+0,Hippuric acid,Glycerol,Pputida,1,16,0.0176
+0.355,Valeric acid,Glycerol,Pputida,1,16,0.0176
+0.335,Citric acid,Glycerol,Pputida,1,16,0.0176
+0,Lactic acid,Glycerol,Pputida,1,16,0.0176
+0.052,Fumaric acid,Glycerol,Pputida,1,16,0.0176
+0,Putrescine,Glycerol,Pputida,1,16,0.0176
+5.61,Propionic acid,Glycerol,Pputida,1,16,0.0176
+0,alpha-Ketoglutaric acid,Glycerol,Pputida,1,16,0.0176
+0,Acetyl-ornithine,Glycerol,Pputida,1,16,0.0176
+0,Valine,Glycerol,Pputida,2,16,0.0162
+0,Pyruvic acid,Glycerol,Pputida,2,16,0.0162
+0,Acetyl-ornithine,Glycerol,Pputida,2,16,0.0162
+0.298,Asparagine,Glycerol,Pputida,2,16,0.0162
+0,Putrescine,Glycerol,Pputida,2,16,0.0162
+0,beta-Hydroxybutyric acid,Glycerol,Pputida,2,16,0.0162
+0,Alanine,Glycerol,Pputida,2,16,0.0162
+6.31,Propionic acid,Glycerol,Pputida,2,16,0.0162
+0,alpha-Ketoglutaric acid,Glycerol,Pputida,2,16,0.0162
+0.0424,Succinic acid,Glycerol,Pputida,2,16,0.0162
+0,Serine,Glycerol,Pputida,2,16,0.0162
+223,Acetic acid,Glycerol,Pputida,2,16,0.0162
+0.421,Butyric acid,Glycerol,Pputida,2,16,0.0162
+0.36,Citric acid,Glycerol,Pputida,2,16,0.0162
+0,Hippuric acid,Glycerol,Pputida,2,16,0.0162
+2.63,Glycine,Glycerol,Pputida,2,16,0.0162
+0,Lactic acid,Glycerol,Pputida,2,16,0.0162
+0.0388,Fumaric acid,Glycerol,Pputida,2,16,0.0162
+0.639,Valeric acid,Glycerol,Pputida,2,16,0.0162
+0.195,Methionine,Glycerol,Pputida,2,16,0.0162
+0,Pyruvic acid,Glycerol,Pputida,1,28,0.0697
+0,beta-Hydroxybutyric acid,Glycerol,Pputida,1,28,0.0697
+0.0128,Succinic acid,Glycerol,Pputida,1,28,0.0697
+0,Serine,Glycerol,Pputida,1,28,0.0697
+0,Alanine,Glycerol,Pputida,1,28,0.0697
+0.404,Valeric acid,Glycerol,Pputida,1,28,0.0697
+0.0646,Fumaric acid,Glycerol,Pputida,1,28,0.0697
+0,Lactic acid,Glycerol,Pputida,1,28,0.0697
+0,Valine,Glycerol,Pputida,1,28,0.0697
+0,Acetyl-ornithine,Glycerol,Pputida,1,28,0.0697
+0,Asparagine,Glycerol,Pputida,1,28,0.0697
+0,alpha-Ketoglutaric acid,Glycerol,Pputida,1,28,0.0697
+3.92,Propionic acid,Glycerol,Pputida,1,28,0.0697
+0.543,Citric acid,Glycerol,Pputida,1,28,0.0697
+0,Methionine,Glycerol,Pputida,1,28,0.0697
+4.89,Glycine,Glycerol,Pputida,1,28,0.0697
+0,Hippuric acid,Glycerol,Pputida,1,28,0.0697
+0.137,Butyric acid,Glycerol,Pputida,1,28,0.0697
+0,Putrescine,Glycerol,Pputida,1,28,0.0697
+217,Acetic acid,Glycerol,Pputida,1,28,0.0697
+0,beta-Hydroxybutyric acid,Glycerol,Pputida,2,28,0.0658
+0.0562,Fumaric acid,Glycerol,Pputida,2,28,0.0658
+0,Valine,Glycerol,Pputida,2,28,0.0658
+0.0725,Succinic acid,Glycerol,Pputida,2,28,0.0658
+7.19,Propionic acid,Glycerol,Pputida,2,28,0.0658
+0.603,Acetyl-ornithine,Glycerol,Pputida,2,28,0.0658
+2.62,Glycine,Glycerol,Pputida,2,28,0.0658
+0,Alanine,Glycerol,Pputida,2,28,0.0658
+0.608,Asparagine,Glycerol,Pputida,2,28,0.0658
+0,Lactic acid,Glycerol,Pputida,2,28,0.0658
+0,Methionine,Glycerol,Pputida,2,28,0.0658
+0,Serine,Glycerol,Pputida,2,28,0.0658
+1.02,Butyric acid,Glycerol,Pputida,2,28,0.0658
+0,Pyruvic acid,Glycerol,Pputida,2,28,0.0658
+0,alpha-Ketoglutaric acid,Glycerol,Pputida,2,28,0.0658
+0,Putrescine,Glycerol,Pputida,2,28,0.0658
+209,Acetic acid,Glycerol,Pputida,2,28,0.0658
+0.622,Citric acid,Glycerol,Pputida,2,28,0.0658
+0,Hippuric acid,Glycerol,Pputida,2,28,0.0658
+0.451,Valeric acid,Glycerol,Pputida,2,28,0.0658
+0,Alanine,Glycerol,Pputida,1,48,0.2776
+0,Pyruvic acid,Glycerol,Pputida,1,48,0.2776
+1.27,Acetyl-ornithine,Glycerol,Pputida,1,48,0.2776
+0,Hippuric acid,Glycerol,Pputida,1,48,0.2776
+6.3,Propionic acid,Glycerol,Pputida,1,48,0.2776
+0,beta-Hydroxybutyric acid,Glycerol,Pputida,1,48,0.2776
+0.0488,Fumaric acid,Glycerol,Pputida,1,48,0.2776
+0,Valine,Glycerol,Pputida,1,48,0.2776
+0,Asparagine,Glycerol,Pputida,1,48,0.2776
+0,alpha-Ketoglutaric acid,Glycerol,Pputida,1,48,0.2776
+0,Putrescine,Glycerol,Pputida,1,48,0.2776
+0,Lactic acid,Glycerol,Pputida,1,48,0.2776
+3.21,Glycine,Glycerol,Pputida,1,48,0.2776
+1.01,Butyric acid,Glycerol,Pputida,1,48,0.2776
+0,Methionine,Glycerol,Pputida,1,48,0.2776
+0,Serine,Glycerol,Pputida,1,48,0.2776
+371,Acetic acid,Glycerol,Pputida,1,48,0.2776
+0.0504,Succinic acid,Glycerol,Pputida,1,48,0.2776
+1.19,Citric acid,Glycerol,Pputida,1,48,0.2776
+0.456,Valeric acid,Glycerol,Pputida,1,48,0.2776
+0,Valine,Glycerol,Pputida,2,48,0.2595
+0.0645,Succinic acid,Glycerol,Pputida,2,48,0.2595
+0,Pyruvic acid,Glycerol,Pputida,2,48,0.2595
+0,Serine,Glycerol,Pputida,2,48,0.2595
+0,Alanine,Glycerol,Pputida,2,48,0.2595
+2.84,Glycine,Glycerol,Pputida,2,48,0.2595
+0,beta-Hydroxybutyric acid,Glycerol,Pputida,2,48,0.2595
+0.659,Valeric acid,Glycerol,Pputida,2,48,0.2595
+2.03,Acetyl-ornithine,Glycerol,Pputida,2,48,0.2595
+1.23,Citric acid,Glycerol,Pputida,2,48,0.2595
+0,Lactic acid,Glycerol,Pputida,2,48,0.2595
+0.0526,Fumaric acid,Glycerol,Pputida,2,48,0.2595
+9.64,Propionic acid,Glycerol,Pputida,2,48,0.2595
+0,alpha-Ketoglutaric acid,Glycerol,Pputida,2,48,0.2595
+0,Putrescine,Glycerol,Pputida,2,48,0.2595
+0,Asparagine,Glycerol,Pputida,2,48,0.2595
+0.0963,Methionine,Glycerol,Pputida,2,48,0.2595
+0,Hippuric acid,Glycerol,Pputida,2,48,0.2595
+1.69,Butyric acid,Glycerol,Pputida,2,48,0.2595
+362,Acetic acid,Glycerol,Pputida,2,48,0.2595
+0.0497,Succinic acid,Glycerol,Pseudomonas,1,16,0.0177
+0.795,Butyric acid,Glycerol,Pseudomonas,1,16,0.0177
+0,Asparagine,Glycerol,Pseudomonas,1,16,0.0177
+0,Valine,Glycerol,Pseudomonas,1,16,0.0177
+0,Serine,Glycerol,Pseudomonas,1,16,0.0177
+0,Alanine,Glycerol,Pseudomonas,1,16,0.0177
+6.87,Propionic acid,Glycerol,Pseudomonas,1,16,0.0177
+3.79,Glycine,Glycerol,Pseudomonas,1,16,0.0177
+0,Acetyl-ornithine,Glycerol,Pseudomonas,1,16,0.0177
+0.0512,Fumaric acid,Glycerol,Pseudomonas,1,16,0.0177
+0.482,Valeric acid,Glycerol,Pseudomonas,1,16,0.0177
+0,Pyruvic acid,Glycerol,Pseudomonas,1,16,0.0177
+0,beta-Hydroxybutyric acid,Glycerol,Pseudomonas,1,16,0.0177
+0,Putrescine,Glycerol,Pseudomonas,1,16,0.0177
+0,Hippuric acid,Glycerol,Pseudomonas,1,16,0.0177
+0.304,Citric acid,Glycerol,Pseudomonas,1,16,0.0177
+247,Acetic acid,Glycerol,Pseudomonas,1,16,0.0177
+0.174,Methionine,Glycerol,Pseudomonas,1,16,0.0177
+0,Lactic acid,Glycerol,Pseudomonas,1,16,0.0177
+0,alpha-Ketoglutaric acid,Glycerol,Pseudomonas,1,16,0.0177
+0,alpha-Ketoglutaric acid,Glycerol,Pseudomonas,2,16,0.009
+1.16,Butyric acid,Glycerol,Pseudomonas,2,16,0.009
+0,Pyruvic acid,Glycerol,Pseudomonas,2,16,0.009
+0,Serine,Glycerol,Pseudomonas,2,16,0.009
+0,Alanine,Glycerol,Pseudomonas,2,16,0.009
+0,Asparagine,Glycerol,Pseudomonas,2,16,0.009
+0,Valine,Glycerol,Pseudomonas,2,16,0.009
+0,Acetyl-ornithine,Glycerol,Pseudomonas,2,16,0.009
+0.0539,Fumaric acid,Glycerol,Pseudomonas,2,16,0.009
+0.0858,Succinic acid,Glycerol,Pseudomonas,2,16,0.009
+0,beta-Hydroxybutyric acid,Glycerol,Pseudomonas,2,16,0.009
+0,Putrescine,Glycerol,Pseudomonas,2,16,0.009
+0.74,Valeric acid,Glycerol,Pseudomonas,2,16,0.009
+0.356,Citric acid,Glycerol,Pseudomonas,2,16,0.009
+8.44,Propionic acid,Glycerol,Pseudomonas,2,16,0.009
+0.152,Methionine,Glycerol,Pseudomonas,2,16,0.009
+2.63,Glycine,Glycerol,Pseudomonas,2,16,0.009
+0,Hippuric acid,Glycerol,Pseudomonas,2,16,0.009
+279,Acetic acid,Glycerol,Pseudomonas,2,16,0.009
+0,Lactic acid,Glycerol,Pseudomonas,2,16,0.009
+0,beta-Hydroxybutyric acid,Glycerol,Pseudomonas,1,28,0.0565
+0,Lactic acid,Glycerol,Pseudomonas,1,28,0.0565
+6.5,Propionic acid,Glycerol,Pseudomonas,1,28,0.0565
+0,Valine,Glycerol,Pseudomonas,1,28,0.0565
+0,alpha-Ketoglutaric acid,Glycerol,Pseudomonas,1,28,0.0565
+2.66,Glycine,Glycerol,Pseudomonas,1,28,0.0565
+0.0443,Succinic acid,Glycerol,Pseudomonas,1,28,0.0565
+0,Acetyl-ornithine,Glycerol,Pseudomonas,1,28,0.0565
+0,Serine,Glycerol,Pseudomonas,1,28,0.0565
+0.0493,Fumaric acid,Glycerol,Pseudomonas,1,28,0.0565
+0,Pyruvic acid,Glycerol,Pseudomonas,1,28,0.0565
+0.63,Asparagine,Glycerol,Pseudomonas,1,28,0.0565
+1.04,Butyric acid,Glycerol,Pseudomonas,1,28,0.0565
+0,Putrescine,Glycerol,Pseudomonas,1,28,0.0565
+222,Acetic acid,Glycerol,Pseudomonas,1,28,0.0565
+0,Alanine,Glycerol,Pseudomonas,1,28,0.0565
+0,Hippuric acid,Glycerol,Pseudomonas,1,28,0.0565
+0.336,Citric acid,Glycerol,Pseudomonas,1,28,0.0565
+0.045,Methionine,Glycerol,Pseudomonas,1,28,0.0565
+0.388,Valeric acid,Glycerol,Pseudomonas,1,28,0.0565
+0.127,Methionine,Glycerol,Pseudomonas,2,28,0.0659
+0,Valine,Glycerol,Pseudomonas,2,28,0.0659
+0.185,Succinic acid,Glycerol,Pseudomonas,2,28,0.0659
+0.0391,Fumaric acid,Glycerol,Pseudomonas,2,28,0.0659
+0,Alanine,Glycerol,Pseudomonas,2,28,0.0659
+0,Lactic acid,Glycerol,Pseudomonas,2,28,0.0659
+0,Asparagine,Glycerol,Pseudomonas,2,28,0.0659
+1.31,Butyric acid,Glycerol,Pseudomonas,2,28,0.0659
+0,Serine,Glycerol,Pseudomonas,2,28,0.0659
+7.85,Propionic acid,Glycerol,Pseudomonas,2,28,0.0659
+0,Pyruvic acid,Glycerol,Pseudomonas,2,28,0.0659
+0,alpha-Ketoglutaric acid,Glycerol,Pseudomonas,2,28,0.0659
+2.61,Glycine,Glycerol,Pseudomonas,2,28,0.0659
+0.517,Valeric acid,Glycerol,Pseudomonas,2,28,0.0659
+0.376,Citric acid,Glycerol,Pseudomonas,2,28,0.0659
+187,Acetic acid,Glycerol,Pseudomonas,2,28,0.0659
+0,beta-Hydroxybutyric acid,Glycerol,Pseudomonas,2,28,0.0659
+0,Hippuric acid,Glycerol,Pseudomonas,2,28,0.0659
+0,Acetyl-ornithine,Glycerol,Pseudomonas,2,28,0.0659
+0,Putrescine,Glycerol,Pseudomonas,2,28,0.0659
+0,Putrescine,Glycerol,Pseudomonas,1,48,0.1397
+0.0494,Methionine,Glycerol,Pseudomonas,1,48,0.1397
+0,Valine,Glycerol,Pseudomonas,1,48,0.1397
+0,Alanine,Glycerol,Pseudomonas,1,48,0.1397
+0,Pyruvic acid,Glycerol,Pseudomonas,1,48,0.1397
+0,alpha-Ketoglutaric acid,Glycerol,Pseudomonas,1,48,0.1397
+0,Serine,Glycerol,Pseudomonas,1,48,0.1397
+0,Asparagine,Glycerol,Pseudomonas,1,48,0.1397
+0.97,Butyric acid,Glycerol,Pseudomonas,1,48,0.1397
+0,Lactic acid,Glycerol,Pseudomonas,1,48,0.1397
+3.09,Glycine,Glycerol,Pseudomonas,1,48,0.1397
+0.0495,Succinic acid,Glycerol,Pseudomonas,1,48,0.1397
+7.77,Propionic acid,Glycerol,Pseudomonas,1,48,0.1397
+0,beta-Hydroxybutyric acid,Glycerol,Pseudomonas,1,48,0.1397
+0.502,Valeric acid,Glycerol,Pseudomonas,1,48,0.1397
+1.61,Citric acid,Glycerol,Pseudomonas,1,48,0.1397
+290,Acetic acid,Glycerol,Pseudomonas,1,48,0.1397
+0.711,Acetyl-ornithine,Glycerol,Pseudomonas,1,48,0.1397
+0,Hippuric acid,Glycerol,Pseudomonas,1,48,0.1397
+0.0517,Fumaric acid,Glycerol,Pseudomonas,1,48,0.1397
+0,Serine,Glycerol,Pseudomonas,2,48,0.3341
+0,Putrescine,Glycerol,Pseudomonas,2,48,0.3341
+0,Valine,Glycerol,Pseudomonas,2,48,0.3341
+0,Lactic acid,Glycerol,Pseudomonas,2,48,0.3341
+0,beta-Hydroxybutyric acid,Glycerol,Pseudomonas,2,48,0.3341
+8.99,Propionic acid,Glycerol,Pseudomonas,2,48,0.3341
+0,alpha-Ketoglutaric acid,Glycerol,Pseudomonas,2,48,0.3341
+2.68,Glycine,Glycerol,Pseudomonas,2,48,0.3341
+0.177,Succinic acid,Glycerol,Pseudomonas,2,48,0.3341
+0,Alanine,Glycerol,Pseudomonas,2,48,0.3341
+1.96,Butyric acid,Glycerol,Pseudomonas,2,48,0.3341
+0.0514,Fumaric acid,Glycerol,Pseudomonas,2,48,0.3341
+0,Pyruvic acid,Glycerol,Pseudomonas,2,48,0.3341
+0.757,Asparagine,Glycerol,Pseudomonas,2,48,0.3341
+403,Acetic acid,Glycerol,Pseudomonas,2,48,0.3341
+0.117,Methionine,Glycerol,Pseudomonas,2,48,0.3341
+1.57,Acetyl-ornithine,Glycerol,Pseudomonas,2,48,0.3341
+0,Hippuric acid,Glycerol,Pseudomonas,2,48,0.3341
+1.95,Citric acid,Glycerol,Pseudomonas,2,48,0.3341
+1.05,Valeric acid,Glycerol,Pseudomonas,2,48,0.3341
+0.706,Serine,Pyruvate,Ecoli,1,16,0.0049
+0,Lactic acid,Pyruvate,Ecoli,1,16,0.0049
+0.0474,alpha-Ketoglutaric acid,Pyruvate,Ecoli,1,16,0.0049
+1.12,Citric acid,Pyruvate,Ecoli,1,16,0.0049
+0.137,Succinic acid,Pyruvate,Ecoli,1,16,0.0049
+0,beta-Hydroxybutyric acid,Pyruvate,Ecoli,1,16,0.0049
+0,Asparagine,Pyruvate,Ecoli,1,16,0.0049
+0,Alanine,Pyruvate,Ecoli,1,16,0.0049
+376,Pyruvic acid,Pyruvate,Ecoli,1,16,0.0049
+0,Propionic acid,Pyruvate,Ecoli,1,16,0.0049
+0,Valine,Pyruvate,Ecoli,1,16,0.0049
+0,Valeric acid,Pyruvate,Ecoli,1,16,0.0049
+73.6,Acetic acid,Pyruvate,Ecoli,1,16,0.0049
+0,Glycine,Pyruvate,Ecoli,1,16,0.0049
+0.271,Fumaric acid,Pyruvate,Ecoli,1,16,0.0049
+0,Acetyl-ornithine,Pyruvate,Ecoli,1,16,0.0049
+0.127,Methionine,Pyruvate,Ecoli,1,16,0.0049
+0,Putrescine,Pyruvate,Ecoli,1,16,0.0049
+0,Butyric acid,Pyruvate,Ecoli,1,16,0.0049
+0.112,Hippuric acid,Pyruvate,Ecoli,1,16,0.0049
+0,Valine,Pyruvate,Ecoli,2,16,0.0036
+0.806,Serine,Pyruvate,Ecoli,2,16,0.0036
+0,beta-Hydroxybutyric acid,Pyruvate,Ecoli,2,16,0.0036
+363,Pyruvic acid,Pyruvate,Ecoli,2,16,0.0036
+0,Asparagine,Pyruvate,Ecoli,2,16,0.0036
+0,Lactic acid,Pyruvate,Ecoli,2,16,0.0036
+0.127,Methionine,Pyruvate,Ecoli,2,16,0.0036
+0,Alanine,Pyruvate,Ecoli,2,16,0.0036
+0.132,Succinic acid,Pyruvate,Ecoli,2,16,0.0036
+0,Butyric acid,Pyruvate,Ecoli,2,16,0.0036
+0.203,Fumaric acid,Pyruvate,Ecoli,2,16,0.0036
+0,Glycine,Pyruvate,Ecoli,2,16,0.0036
+53.6,Acetic acid,Pyruvate,Ecoli,2,16,0.0036
+0,Propionic acid,Pyruvate,Ecoli,2,16,0.0036
+1.14,Citric acid,Pyruvate,Ecoli,2,16,0.0036
+0,alpha-Ketoglutaric acid,Pyruvate,Ecoli,2,16,0.0036
+0,Hippuric acid,Pyruvate,Ecoli,2,16,0.0036
+0,Valeric acid,Pyruvate,Ecoli,2,16,0.0036
+0.14,Acetyl-ornithine,Pyruvate,Ecoli,2,16,0.0036
+0,Putrescine,Pyruvate,Ecoli,2,16,0.0036
+0,Alanine,Pyruvate,Ecoli,1,28,0.0143
+0.178,Succinic acid,Pyruvate,Ecoli,1,28,0.0143
+0,Glycine,Pyruvate,Ecoli,1,28,0.0143
+0,Propionic acid,Pyruvate,Ecoli,1,28,0.0143
+391,Pyruvic acid,Pyruvate,Ecoli,1,28,0.0143
+0,Putrescine,Pyruvate,Ecoli,1,28,0.0143
+0,Valine,Pyruvate,Ecoli,1,28,0.0143
+0,Asparagine,Pyruvate,Ecoli,1,28,0.0143
+0.0459,Methionine,Pyruvate,Ecoli,1,28,0.0143
+0.216,Acetyl-ornithine,Pyruvate,Ecoli,1,28,0.0143
+276,Acetic acid,Pyruvate,Ecoli,1,28,0.0143
+0,alpha-Ketoglutaric acid,Pyruvate,Ecoli,1,28,0.0143
+0,beta-Hydroxybutyric acid,Pyruvate,Ecoli,1,28,0.0143
+1.12,Serine,Pyruvate,Ecoli,1,28,0.0143
+0.238,Fumaric acid,Pyruvate,Ecoli,1,28,0.0143
+0.0583,Butyric acid,Pyruvate,Ecoli,1,28,0.0143
+1.18,Citric acid,Pyruvate,Ecoli,1,28,0.0143
+0.125,Hippuric acid,Pyruvate,Ecoli,1,28,0.0143
+0.109,Valeric acid,Pyruvate,Ecoli,1,28,0.0143
+0,Lactic acid,Pyruvate,Ecoli,1,28,0.0143
+0,Asparagine,Pyruvate,Ecoli,2,28,0.0111
+0,Alanine,Pyruvate,Ecoli,2,28,0.0111
+398,Pyruvic acid,Pyruvate,Ecoli,2,28,0.0111
+0,beta-Hydroxybutyric acid,Pyruvate,Ecoli,2,28,0.0111
+3.2,Serine,Pyruvate,Ecoli,2,28,0.0111
+0,Valine,Pyruvate,Ecoli,2,28,0.0111
+1.25,Citric acid,Pyruvate,Ecoli,2,28,0.0111
+0,Butyric acid,Pyruvate,Ecoli,2,28,0.0111
+0.118,Putrescine,Pyruvate,Ecoli,2,28,0.0111
+0,Acetyl-ornithine,Pyruvate,Ecoli,2,28,0.0111
+0.23,Succinic acid,Pyruvate,Ecoli,2,28,0.0111
+0,Lactic acid,Pyruvate,Ecoli,2,28,0.0111
+0,Propionic acid,Pyruvate,Ecoli,2,28,0.0111
+0,Valeric acid,Pyruvate,Ecoli,2,28,0.0111
+0.216,Fumaric acid,Pyruvate,Ecoli,2,28,0.0111
+0,alpha-Ketoglutaric acid,Pyruvate,Ecoli,2,28,0.0111
+0.114,Hippuric acid,Pyruvate,Ecoli,2,28,0.0111
+204,Acetic acid,Pyruvate,Ecoli,2,28,0.0111
+0,Glycine,Pyruvate,Ecoli,2,28,0.0111
+0.223,Methionine,Pyruvate,Ecoli,2,28,0.0111
+1.81,Serine,Pyruvate,Ecoli,1,48,0.1127
+0,Valine,Pyruvate,Ecoli,1,48,0.1127
+391,Pyruvic acid,Pyruvate,Ecoli,1,48,0.1127
+10.1,Succinic acid,Pyruvate,Ecoli,1,48,0.1127
+5.15,beta-Hydroxybutyric acid,Pyruvate,Ecoli,1,48,0.1127
+1.06,Fumaric acid,Pyruvate,Ecoli,1,48,0.1127
+0,Glycine,Pyruvate,Ecoli,1,48,0.1127
+0,Alanine,Pyruvate,Ecoli,1,48,0.1127
+0,alpha-Ketoglutaric acid,Pyruvate,Ecoli,1,48,0.1127
+3.92,Acetyl-ornithine,Pyruvate,Ecoli,1,48,0.1127
+0.0665,Methionine,Pyruvate,Ecoli,1,48,0.1127
+0,Valeric acid,Pyruvate,Ecoli,1,48,0.1127
+13.4,Propionic acid,Pyruvate,Ecoli,1,48,0.1127
+628,Lactic acid,Pyruvate,Ecoli,1,48,0.1127
+2.44,Citric acid,Pyruvate,Ecoli,1,48,0.1127
+0,Asparagine,Pyruvate,Ecoli,1,48,0.1127
+0.435,Butyric acid,Pyruvate,Ecoli,1,48,0.1127
+4680,Acetic acid,Pyruvate,Ecoli,1,48,0.1127
+0,Putrescine,Pyruvate,Ecoli,1,48,0.1127
+0.138,Hippuric acid,Pyruvate,Ecoli,1,48,0.1127
+2.8,beta-Hydroxybutyric acid,Pyruvate,Ecoli,2,48,0.1141
+2.28,Succinic acid,Pyruvate,Ecoli,2,48,0.1141
+0,Alanine,Pyruvate,Ecoli,2,48,0.1141
+5.53,Propionic acid,Pyruvate,Ecoli,2,48,0.1141
+402,Pyruvic acid,Pyruvate,Ecoli,2,48,0.1141
+320,Lactic acid,Pyruvate,Ecoli,2,48,0.1141
+0,Glycine,Pyruvate,Ecoli,2,48,0.1141
+0,Valine,Pyruvate,Ecoli,2,48,0.1141
+1.42,Acetyl-ornithine,Pyruvate,Ecoli,2,48,0.1141
+0.376,Fumaric acid,Pyruvate,Ecoli,2,48,0.1141
+0.109,Hippuric acid,Pyruvate,Ecoli,2,48,0.1141
+0.328,Serine,Pyruvate,Ecoli,2,48,0.1141
+0,Asparagine,Pyruvate,Ecoli,2,48,0.1141
+0,alpha-Ketoglutaric acid,Pyruvate,Ecoli,2,48,0.1141
+0,Putrescine,Pyruvate,Ecoli,2,48,0.1141
+0.609,Butyric acid,Pyruvate,Ecoli,2,48,0.1141
+0.271,Methionine,Pyruvate,Ecoli,2,48,0.1141
+2740,Acetic acid,Pyruvate,Ecoli,2,48,0.1141
+1.88,Citric acid,Pyruvate,Ecoli,2,48,0.1141
+0.12,Valeric acid,Pyruvate,Ecoli,2,48,0.1141
+0,beta-Hydroxybutyric acid,Pyruvate,Enterobacter,1,16,0.0248
+395,Pyruvic acid,Pyruvate,Enterobacter,1,16,0.0248
+0,Alanine,Pyruvate,Enterobacter,1,16,0.0248
+0,Asparagine,Pyruvate,Enterobacter,1,16,0.0248
+245,Acetic acid,Pyruvate,Enterobacter,1,16,0.0248
+0.173,Succinic acid,Pyruvate,Enterobacter,1,16,0.0248
+0,Valine,Pyruvate,Enterobacter,1,16,0.0248
+0,Propionic acid,Pyruvate,Enterobacter,1,16,0.0248
+0,Lactic acid,Pyruvate,Enterobacter,1,16,0.0248
+0.511,Serine,Pyruvate,Enterobacter,1,16,0.0248
+0,Valeric acid,Pyruvate,Enterobacter,1,16,0.0248
+0.114,Hippuric acid,Pyruvate,Enterobacter,1,16,0.0248
+0.144,alpha-Ketoglutaric acid,Pyruvate,Enterobacter,1,16,0.0248
+0,Putrescine,Pyruvate,Enterobacter,1,16,0.0248
+0,Glycine,Pyruvate,Enterobacter,1,16,0.0248
+0.984,Citric acid,Pyruvate,Enterobacter,1,16,0.0248
+0,Acetyl-ornithine,Pyruvate,Enterobacter,1,16,0.0248
+0.272,Fumaric acid,Pyruvate,Enterobacter,1,16,0.0248
+0.0873,Methionine,Pyruvate,Enterobacter,1,16,0.0248
+0,Butyric acid,Pyruvate,Enterobacter,1,16,0.0248
+0,beta-Hydroxybutyric acid,Pyruvate,Enterobacter,2,16,0.02
+0,Valine,Pyruvate,Enterobacter,2,16,0.02
+0,Butyric acid,Pyruvate,Enterobacter,2,16,0.02
+0.227,Fumaric acid,Pyruvate,Enterobacter,2,16,0.02
+367,Pyruvic acid,Pyruvate,Enterobacter,2,16,0.02
+0.126,Succinic acid,Pyruvate,Enterobacter,2,16,0.02
+0,Alanine,Pyruvate,Enterobacter,2,16,0.02
+0,Asparagine,Pyruvate,Enterobacter,2,16,0.02
+0.204,Serine,Pyruvate,Enterobacter,2,16,0.02
+0,Acetyl-ornithine,Pyruvate,Enterobacter,2,16,0.02
+2.17,Glycine,Pyruvate,Enterobacter,2,16,0.02
+0,Propionic acid,Pyruvate,Enterobacter,2,16,0.02
+0,Lactic acid,Pyruvate,Enterobacter,2,16,0.02
+152,Acetic acid,Pyruvate,Enterobacter,2,16,0.02
+0,Putrescine,Pyruvate,Enterobacter,2,16,0.02
+0.138,Valeric acid,Pyruvate,Enterobacter,2,16,0.02
+0.986,Citric acid,Pyruvate,Enterobacter,2,16,0.02
+0.113,Methionine,Pyruvate,Enterobacter,2,16,0.02
+0,Hippuric acid,Pyruvate,Enterobacter,2,16,0.02
+0.16,alpha-Ketoglutaric acid,Pyruvate,Enterobacter,2,16,0.02
+2.04,Succinic acid,Pyruvate,Enterobacter,1,28,0.1136
+1.04,alpha-Ketoglutaric acid,Pyruvate,Enterobacter,1,28,0.1136
+0,Glycine,Pyruvate,Enterobacter,1,28,0.1136
+2.51,Propionic acid,Pyruvate,Enterobacter,1,28,0.1136
+0.711,Butyric acid,Pyruvate,Enterobacter,1,28,0.1136
+0,Alanine,Pyruvate,Enterobacter,1,28,0.1136
+0,Valine,Pyruvate,Enterobacter,1,28,0.1136
+0.138,Hippuric acid,Pyruvate,Enterobacter,1,28,0.1136
+411,Pyruvic acid,Pyruvate,Enterobacter,1,28,0.1136
+0.545,Acetyl-ornithine,Pyruvate,Enterobacter,1,28,0.1136
+0,Serine,Pyruvate,Enterobacter,1,28,0.1136
+0.317,Fumaric acid,Pyruvate,Enterobacter,1,28,0.1136
+0,Asparagine,Pyruvate,Enterobacter,1,28,0.1136
+1.31,Citric acid,Pyruvate,Enterobacter,1,28,0.1136
+0.0842,Methionine,Pyruvate,Enterobacter,1,28,0.1136
+0,Putrescine,Pyruvate,Enterobacter,1,28,0.1136
+0,Valeric acid,Pyruvate,Enterobacter,1,28,0.1136
+2.26,beta-Hydroxybutyric acid,Pyruvate,Enterobacter,1,28,0.1136
+229,Lactic acid,Pyruvate,Enterobacter,1,28,0.1136
+4040,Acetic acid,Pyruvate,Enterobacter,1,28,0.1136
+136,Lactic acid,Pyruvate,Enterobacter,2,28,0.1068
+1.78,alpha-Ketoglutaric acid,Pyruvate,Enterobacter,2,28,0.1068
+1.58,beta-Hydroxybutyric acid,Pyruvate,Enterobacter,2,28,0.1068
+0,Asparagine,Pyruvate,Enterobacter,2,28,0.1068
+0.404,Butyric acid,Pyruvate,Enterobacter,2,28,0.1068
+0.666,Propionic acid,Pyruvate,Enterobacter,2,28,0.1068
+1.88,Succinic acid,Pyruvate,Enterobacter,2,28,0.1068
+0,Valine,Pyruvate,Enterobacter,2,28,0.1068
+0,Serine,Pyruvate,Enterobacter,2,28,0.1068
+0,Valeric acid,Pyruvate,Enterobacter,2,28,0.1068
+400,Pyruvic acid,Pyruvate,Enterobacter,2,28,0.1068
+0.716,Acetyl-ornithine,Pyruvate,Enterobacter,2,28,0.1068
+0.128,Putrescine,Pyruvate,Enterobacter,2,28,0.1068
+0,Glycine,Pyruvate,Enterobacter,2,28,0.1068
+1.38,Citric acid,Pyruvate,Enterobacter,2,28,0.1068
+2890,Acetic acid,Pyruvate,Enterobacter,2,28,0.1068
+0,Alanine,Pyruvate,Enterobacter,2,28,0.1068
+0.351,Fumaric acid,Pyruvate,Enterobacter,2,28,0.1068
+0.173,Methionine,Pyruvate,Enterobacter,2,28,0.1068
+0.104,Hippuric acid,Pyruvate,Enterobacter,2,28,0.1068
+0,Valine,Pyruvate,Enterobacter,1,48,0.1578
+15.4,beta-Hydroxybutyric acid,Pyruvate,Enterobacter,1,48,0.1578
+0.158,Fumaric acid,Pyruvate,Enterobacter,1,48,0.1578
+586,Lactic acid,Pyruvate,Enterobacter,1,48,0.1578
+0.166,Methionine,Pyruvate,Enterobacter,1,48,0.1578
+0.225,alpha-Ketoglutaric acid,Pyruvate,Enterobacter,1,48,0.1578
+0.222,Succinic acid,Pyruvate,Enterobacter,1,48,0.1578
+0.665,Serine,Pyruvate,Enterobacter,1,48,0.1578
+0,Alanine,Pyruvate,Enterobacter,1,48,0.1578
+7.4,Propionic acid,Pyruvate,Enterobacter,1,48,0.1578
+1.47,Pyruvic acid,Pyruvate,Enterobacter,1,48,0.1578
+1.55,Butyric acid,Pyruvate,Enterobacter,1,48,0.1578
+6290,Acetic acid,Pyruvate,Enterobacter,1,48,0.1578
+0,Glycine,Pyruvate,Enterobacter,1,48,0.1578
+0.463,Asparagine,Pyruvate,Enterobacter,1,48,0.1578
+3.47,Citric acid,Pyruvate,Enterobacter,1,48,0.1578
+0,Putrescine,Pyruvate,Enterobacter,1,48,0.1578
+4.16,Acetyl-ornithine,Pyruvate,Enterobacter,1,48,0.1578
+0.274,Valeric acid,Pyruvate,Enterobacter,1,48,0.1578
+0.117,Hippuric acid,Pyruvate,Enterobacter,1,48,0.1578
+0,Alanine,Pyruvate,Enterobacter,2,48,0.2159
+0,Glycine,Pyruvate,Enterobacter,2,48,0.2159
+0,Putrescine,Pyruvate,Enterobacter,2,48,0.2159
+0,Valine,Pyruvate,Enterobacter,2,48,0.2159
+0.103,Methionine,Pyruvate,Enterobacter,2,48,0.2159
+3.75,Acetyl-ornithine,Pyruvate,Enterobacter,2,48,0.2159
+5.91,Propionic acid,Pyruvate,Enterobacter,2,48,0.2159
+0.197,Succinic acid,Pyruvate,Enterobacter,2,48,0.2159
+0.148,Fumaric acid,Pyruvate,Enterobacter,2,48,0.2159
+0.105,Hippuric acid,Pyruvate,Enterobacter,2,48,0.2159
+634,Lactic acid,Pyruvate,Enterobacter,2,48,0.2159
+1.35,Pyruvic acid,Pyruvate,Enterobacter,2,48,0.2159
+0.203,alpha-Ketoglutaric acid,Pyruvate,Enterobacter,2,48,0.2159
+1.67,Serine,Pyruvate,Enterobacter,2,48,0.2159
+0,Asparagine,Pyruvate,Enterobacter,2,48,0.2159
+1.09,Butyric acid,Pyruvate,Enterobacter,2,48,0.2159
+6250,Acetic acid,Pyruvate,Enterobacter,2,48,0.2159
+15,beta-Hydroxybutyric acid,Pyruvate,Enterobacter,2,48,0.2159
+0.224,Valeric acid,Pyruvate,Enterobacter,2,48,0.2159
+7.91,Citric acid,Pyruvate,Enterobacter,2,48,0.2159
+0,Alanine,Pyruvate,Pputida,1,16,0.0266
+0,Propionic acid,Pyruvate,Pputida,1,16,0.0266
+0.181,Succinic acid,Pyruvate,Pputida,1,16,0.0266
+0,Valine,Pyruvate,Pputida,1,16,0.0266
+1.36,Serine,Pyruvate,Pputida,1,16,0.0266
+412,Pyruvic acid,Pyruvate,Pputida,1,16,0.0266
+0,beta-Hydroxybutyric acid,Pyruvate,Pputida,1,16,0.0266
+0,Valeric acid,Pyruvate,Pputida,1,16,0.0266
+0,Glycine,Pyruvate,Pputida,1,16,0.0266
+0,alpha-Ketoglutaric acid,Pyruvate,Pputida,1,16,0.0266
+0,Putrescine,Pyruvate,Pputida,1,16,0.0266
+0.218,Fumaric acid,Pyruvate,Pputida,1,16,0.0266
+0,Acetyl-ornithine,Pyruvate,Pputida,1,16,0.0266
+0,Lactic acid,Pyruvate,Pputida,1,16,0.0266
+0.134,Methionine,Pyruvate,Pputida,1,16,0.0266
+1.32,Citric acid,Pyruvate,Pputida,1,16,0.0266
+0,Hippuric acid,Pyruvate,Pputida,1,16,0.0266
+0,Butyric acid,Pyruvate,Pputida,1,16,0.0266
+0,Asparagine,Pyruvate,Pputida,1,16,0.0266
+0,Acetic acid,Pyruvate,Pputida,1,16,0.0266
+0,Valine,Pyruvate,Pputida,2,16,0.019
+0,beta-Hydroxybutyric acid,Pyruvate,Pputida,2,16,0.019
+0,Alanine,Pyruvate,Pputida,2,16,0.019
+0,Propionic acid,Pyruvate,Pputida,2,16,0.019
+0.0741,Succinic acid,Pyruvate,Pputida,2,16,0.019
+0.365,Serine,Pyruvate,Pputida,2,16,0.019
+0.157,Fumaric acid,Pyruvate,Pputida,2,16,0.019
+0.0944,Putrescine,Pyruvate,Pputida,2,16,0.019
+0.247,Asparagine,Pyruvate,Pputida,2,16,0.019
+0,Lactic acid,Pyruvate,Pputida,2,16,0.019
+0.063,Hippuric acid,Pyruvate,Pputida,2,16,0.019
+0.255,Methionine,Pyruvate,Pputida,2,16,0.019
+0,Glycine,Pyruvate,Pputida,2,16,0.019
+0,alpha-Ketoglutaric acid,Pyruvate,Pputida,2,16,0.019
+0,Acetyl-ornithine,Pyruvate,Pputida,2,16,0.019
+1.35,Citric acid,Pyruvate,Pputida,2,16,0.019
+0,Butyric acid,Pyruvate,Pputida,2,16,0.019
+0.171,Valeric acid,Pyruvate,Pputida,2,16,0.019
+384,Pyruvic acid,Pyruvate,Pputida,2,16,0.019
+0,Acetic acid,Pyruvate,Pputida,2,16,0.019
+0,Asparagine,Pyruvate,Pputida,1,28,0.1474
+0,Alanine,Pyruvate,Pputida,1,28,0.1474
+0.592,Propionic acid,Pyruvate,Pputida,1,28,0.1474
+0,Serine,Pyruvate,Pputida,1,28,0.1474
+1.67,beta-Hydroxybutyric acid,Pyruvate,Pputida,1,28,0.1474
+0,Valine,Pyruvate,Pputida,1,28,0.1474
+1.67,Citric acid,Pyruvate,Pputida,1,28,0.1474
+0.548,Acetyl-ornithine,Pyruvate,Pputida,1,28,0.1474
+0.128,Methionine,Pyruvate,Pputida,1,28,0.1474
+0,Glycine,Pyruvate,Pputida,1,28,0.1474
+0.453,Butyric acid,Pyruvate,Pputida,1,28,0.1474
+0,Lactic acid,Pyruvate,Pputida,1,28,0.1474
+0.169,Fumaric acid,Pyruvate,Pputida,1,28,0.1474
+27.2,Acetic acid,Pyruvate,Pputida,1,28,0.1474
+0,alpha-Ketoglutaric acid,Pyruvate,Pputida,1,28,0.1474
+0,Putrescine,Pyruvate,Pputida,1,28,0.1474
+0.126,Hippuric acid,Pyruvate,Pputida,1,28,0.1474
+0,Valeric acid,Pyruvate,Pputida,1,28,0.1474
+0.192,Succinic acid,Pyruvate,Pputida,1,28,0.1474
+409,Pyruvic acid,Pyruvate,Pputida,1,28,0.1474
+398,Pyruvic acid,Pyruvate,Pputida,2,28,0.1247
+0,Propionic acid,Pyruvate,Pputida,2,28,0.1247
+0,Alanine,Pyruvate,Pputida,2,28,0.1247
+1.74,Citric acid,Pyruvate,Pputida,2,28,0.1247
+2.22,Serine,Pyruvate,Pputida,2,28,0.1247
+1.9,beta-Hydroxybutyric acid,Pyruvate,Pputida,2,28,0.1247
+0,Valine,Pyruvate,Pputida,2,28,0.1247
+0,alpha-Ketoglutaric acid,Pyruvate,Pputida,2,28,0.1247
+0,Putrescine,Pyruvate,Pputida,2,28,0.1247
+0,Glycine,Pyruvate,Pputida,2,28,0.1247
+1.3,Acetyl-ornithine,Pyruvate,Pputida,2,28,0.1247
+18.9,Acetic acid,Pyruvate,Pputida,2,28,0.1247
+0,Lactic acid,Pyruvate,Pputida,2,28,0.1247
+0.124,Fumaric acid,Pyruvate,Pputida,2,28,0.1247
+0.386,Butyric acid,Pyruvate,Pputida,2,28,0.1247
+0,Hippuric acid,Pyruvate,Pputida,2,28,0.1247
+0,Asparagine,Pyruvate,Pputida,2,28,0.1247
+0.18,Methionine,Pyruvate,Pputida,2,28,0.1247
+0,Valeric acid,Pyruvate,Pputida,2,28,0.1247
+0.106,Succinic acid,Pyruvate,Pputida,2,28,0.1247
+0,Valine,Pyruvate,Pputida,1,48,0.2606
+0.276,Succinic acid,Pyruvate,Pputida,1,48,0.2606
+2.44,beta-Hydroxybutyric acid,Pyruvate,Pputida,1,48,0.2606
+0,Alanine,Pyruvate,Pputida,1,48,0.2606
+0.118,Hippuric acid,Pyruvate,Pputida,1,48,0.2606
+1.37,Serine,Pyruvate,Pputida,1,48,0.2606
+0,Glycine,Pyruvate,Pputida,1,48,0.2606
+393,Pyruvic acid,Pyruvate,Pputida,1,48,0.2606
+0,Lactic acid,Pyruvate,Pputida,1,48,0.2606
+0.122,Fumaric acid,Pyruvate,Pputida,1,48,0.2606
+0,Putrescine,Pyruvate,Pputida,1,48,0.2606
+0.0678,Asparagine,Pyruvate,Pputida,1,48,0.2606
+30.8,Acetic acid,Pyruvate,Pputida,1,48,0.2606
+1.16,Propionic acid,Pyruvate,Pputida,1,48,0.2606
+0.24,Methionine,Pyruvate,Pputida,1,48,0.2606
+0,alpha-Ketoglutaric acid,Pyruvate,Pputida,1,48,0.2606
+0.263,Valeric acid,Pyruvate,Pputida,1,48,0.2606
+2.97,Acetyl-ornithine,Pyruvate,Pputida,1,48,0.2606
+0.937,Butyric acid,Pyruvate,Pputida,1,48,0.2606
+4.76,Citric acid,Pyruvate,Pputida,1,48,0.2606
+0.815,Butyric acid,Pyruvate,Pputida,2,48,0.285
+0,Serine,Pyruvate,Pputida,2,48,0.285
+0,Alanine,Pyruvate,Pputida,2,48,0.285
+0.154,Succinic acid,Pyruvate,Pputida,2,48,0.285
+3.06,Acetyl-ornithine,Pyruvate,Pputida,2,48,0.285
+1.9,beta-Hydroxybutyric acid,Pyruvate,Pputida,2,48,0.285
+0,Valine,Pyruvate,Pputida,2,48,0.285
+394,Pyruvic acid,Pyruvate,Pputida,2,48,0.285
+4.66,Citric acid,Pyruvate,Pputida,2,48,0.285
+0.143,Methionine,Pyruvate,Pputida,2,48,0.285
+0,Glycine,Pyruvate,Pputida,2,48,0.285
+0,Asparagine,Pyruvate,Pputida,2,48,0.285
+0.652,Propionic acid,Pyruvate,Pputida,2,48,0.285
+0,Valeric acid,Pyruvate,Pputida,2,48,0.285
+0.0964,Fumaric acid,Pyruvate,Pputida,2,48,0.285
+0,Hippuric acid,Pyruvate,Pputida,2,48,0.285
+33.9,Acetic acid,Pyruvate,Pputida,2,48,0.285
+0,Putrescine,Pyruvate,Pputida,2,48,0.285
+0,Lactic acid,Pyruvate,Pputida,2,48,0.285
+0,alpha-Ketoglutaric acid,Pyruvate,Pputida,2,48,0.285
+1,beta-Hydroxybutyric acid,Pyruvate,Pseudomonas,1,16,0.0678
+397,Pyruvic acid,Pyruvate,Pseudomonas,1,16,0.0678
+0.22,alpha-Ketoglutaric acid,Pyruvate,Pseudomonas,1,16,0.0678
+0,Putrescine,Pyruvate,Pseudomonas,1,16,0.0678
+0,Valine,Pyruvate,Pseudomonas,1,16,0.0678
+0,Alanine,Pyruvate,Pseudomonas,1,16,0.0678
+0,Propionic acid,Pyruvate,Pseudomonas,1,16,0.0678
+0.131,Succinic acid,Pyruvate,Pseudomonas,1,16,0.0678
+0.174,Fumaric acid,Pyruvate,Pseudomonas,1,16,0.0678
+0.561,Serine,Pyruvate,Pseudomonas,1,16,0.0678
+0,Glycine,Pyruvate,Pseudomonas,1,16,0.0678
+0,Asparagine,Pyruvate,Pseudomonas,1,16,0.0678
+0,Butyric acid,Pyruvate,Pseudomonas,1,16,0.0678
+0.224,Acetyl-ornithine,Pyruvate,Pseudomonas,1,16,0.0678
+0.25,Methionine,Pyruvate,Pseudomonas,1,16,0.0678
+1.36,Citric acid,Pyruvate,Pseudomonas,1,16,0.0678
+0,Lactic acid,Pyruvate,Pseudomonas,1,16,0.0678
+0,Valeric acid,Pyruvate,Pseudomonas,1,16,0.0678
+0,Hippuric acid,Pyruvate,Pseudomonas,1,16,0.0678
+0,Acetic acid,Pyruvate,Pseudomonas,1,16,0.0678
+0.423,Serine,Pyruvate,Pseudomonas,2,16,0.096
+0,Lactic acid,Pyruvate,Pseudomonas,2,16,0.096
+0,Alanine,Pyruvate,Pseudomonas,2,16,0.096
+0.0378,Succinic acid,Pyruvate,Pseudomonas,2,16,0.096
+0.14,Fumaric acid,Pyruvate,Pseudomonas,2,16,0.096
+377,Pyruvic acid,Pyruvate,Pseudomonas,2,16,0.096
+0.212,alpha-Ketoglutaric acid,Pyruvate,Pseudomonas,2,16,0.096
+0,Glycine,Pyruvate,Pseudomonas,2,16,0.096
+0.268,Acetyl-ornithine,Pyruvate,Pseudomonas,2,16,0.096
+0,Asparagine,Pyruvate,Pseudomonas,2,16,0.096
+0,Butyric acid,Pyruvate,Pseudomonas,2,16,0.096
+2.49,beta-Hydroxybutyric acid,Pyruvate,Pseudomonas,2,16,0.096
+0,Propionic acid,Pyruvate,Pseudomonas,2,16,0.096
+0,Valine,Pyruvate,Pseudomonas,2,16,0.096
+1.36,Citric acid,Pyruvate,Pseudomonas,2,16,0.096
+0.062,Hippuric acid,Pyruvate,Pseudomonas,2,16,0.096
+0,Acetic acid,Pyruvate,Pseudomonas,2,16,0.096
+0.162,Putrescine,Pyruvate,Pseudomonas,2,16,0.096
+0.231,Methionine,Pyruvate,Pseudomonas,2,16,0.096
+0,Valeric acid,Pyruvate,Pseudomonas,2,16,0.096
+0,Valine,Pyruvate,Pseudomonas,1,28,0.116
+6.26,beta-Hydroxybutyric acid,Pyruvate,Pseudomonas,1,28,0.116
+0.16,Methionine,Pyruvate,Pseudomonas,1,28,0.116
+0,Serine,Pyruvate,Pseudomonas,1,28,0.116
+31.4,Acetic acid,Pyruvate,Pseudomonas,1,28,0.116
+0.196,Succinic acid,Pyruvate,Pseudomonas,1,28,0.116
+0,Lactic acid,Pyruvate,Pseudomonas,1,28,0.116
+0.469,Butyric acid,Pyruvate,Pseudomonas,1,28,0.116
+411,Pyruvic acid,Pyruvate,Pseudomonas,1,28,0.116
+0.294,alpha-Ketoglutaric acid,Pyruvate,Pseudomonas,1,28,0.116
+0.125,Fumaric acid,Pyruvate,Pseudomonas,1,28,0.116
+0,Valeric acid,Pyruvate,Pseudomonas,1,28,0.116
+0.409,Asparagine,Pyruvate,Pseudomonas,1,28,0.116
+2.22,Citric acid,Pyruvate,Pseudomonas,1,28,0.116
+0,Glycine,Pyruvate,Pseudomonas,1,28,0.116
+0.904,Acetyl-ornithine,Pyruvate,Pseudomonas,1,28,0.116
+0,Alanine,Pyruvate,Pseudomonas,1,28,0.116
+0.663,Propionic acid,Pyruvate,Pseudomonas,1,28,0.116
+0,Putrescine,Pyruvate,Pseudomonas,1,28,0.116
+0.101,Hippuric acid,Pyruvate,Pseudomonas,1,28,0.116
+0,Valine,Pyruvate,Pseudomonas,2,28,0.1001
+0,Alanine,Pyruvate,Pseudomonas,2,28,0.1001
+15.2,beta-Hydroxybutyric acid,Pyruvate,Pseudomonas,2,28,0.1001
+0.715,Serine,Pyruvate,Pseudomonas,2,28,0.1001
+402,Pyruvic acid,Pyruvate,Pseudomonas,2,28,0.1001
+0.4,alpha-Ketoglutaric acid,Pyruvate,Pseudomonas,2,28,0.1001
+0,Putrescine,Pyruvate,Pseudomonas,2,28,0.1001
+0,Lactic acid,Pyruvate,Pseudomonas,2,28,0.1001
+0,Glycine,Pyruvate,Pseudomonas,2,28,0.1001
+6.14,Acetic acid,Pyruvate,Pseudomonas,2,28,0.1001
+0.16,Succinic acid,Pyruvate,Pseudomonas,2,28,0.1001
+0.188,Butyric acid,Pyruvate,Pseudomonas,2,28,0.1001
+0.11,Fumaric acid,Pyruvate,Pseudomonas,2,28,0.1001
+0.123,Hippuric acid,Pyruvate,Pseudomonas,2,28,0.1001
+0,Propionic acid,Pyruvate,Pseudomonas,2,28,0.1001
+1.45,Acetyl-ornithine,Pyruvate,Pseudomonas,2,28,0.1001
+0.103,Methionine,Pyruvate,Pseudomonas,2,28,0.1001
+0,Valeric acid,Pyruvate,Pseudomonas,2,28,0.1001
+0,Asparagine,Pyruvate,Pseudomonas,2,28,0.1001
+3.07,Citric acid,Pyruvate,Pseudomonas,2,28,0.1001
+0.408,Serine,Pyruvate,Pseudomonas,1,48,0.2047
+423,Pyruvic acid,Pyruvate,Pseudomonas,1,48,0.2047
+0,Lactic acid,Pyruvate,Pseudomonas,1,48,0.2047
+0,Alanine,Pyruvate,Pseudomonas,1,48,0.2047
+0.372,Succinic acid,Pyruvate,Pseudomonas,1,48,0.2047
+5.48,beta-Hydroxybutyric acid,Pyruvate,Pseudomonas,1,48,0.2047
+1.66,Acetyl-ornithine,Pyruvate,Pseudomonas,1,48,0.2047
+0.33,alpha-Ketoglutaric acid,Pyruvate,Pseudomonas,1,48,0.2047
+0.123,Fumaric acid,Pyruvate,Pseudomonas,1,48,0.2047
+0,Propionic acid,Pyruvate,Pseudomonas,1,48,0.2047
+0.415,Valeric acid,Pyruvate,Pseudomonas,1,48,0.2047
+0.502,Butyric acid,Pyruvate,Pseudomonas,1,48,0.2047
+0,Asparagine,Pyruvate,Pseudomonas,1,48,0.2047
+0,Valine,Pyruvate,Pseudomonas,1,48,0.2047
+0,Hippuric acid,Pyruvate,Pseudomonas,1,48,0.2047
+8.84,Acetic acid,Pyruvate,Pseudomonas,1,48,0.2047
+0.096,Methionine,Pyruvate,Pseudomonas,1,48,0.2047
+0,Glycine,Pyruvate,Pseudomonas,1,48,0.2047
+3.92,Citric acid,Pyruvate,Pseudomonas,1,48,0.2047
+0,Putrescine,Pyruvate,Pseudomonas,1,48,0.2047
+0.511,Succinic acid,Pyruvate,Pseudomonas,2,48,0.242
+0,Valine,Pyruvate,Pseudomonas,2,48,0.242
+0,Asparagine,Pyruvate,Pseudomonas,2,48,0.242
+1.22,Butyric acid,Pyruvate,Pseudomonas,2,48,0.242
+0,Glycine,Pyruvate,Pseudomonas,2,48,0.242
+0,Alanine,Pyruvate,Pseudomonas,2,48,0.242
+27.9,beta-Hydroxybutyric acid,Pyruvate,Pseudomonas,2,48,0.242
+0,Lactic acid,Pyruvate,Pseudomonas,2,48,0.242
+1.24,Serine,Pyruvate,Pseudomonas,2,48,0.242
+43,Acetic acid,Pyruvate,Pseudomonas,2,48,0.242
+0.0672,Methionine,Pyruvate,Pseudomonas,2,48,0.242
+0.329,alpha-Ketoglutaric acid,Pyruvate,Pseudomonas,2,48,0.242
+4.14,Acetyl-ornithine,Pyruvate,Pseudomonas,2,48,0.242
+0,Hippuric acid,Pyruvate,Pseudomonas,2,48,0.242
+11.3,Citric acid,Pyruvate,Pseudomonas,2,48,0.242
+382,Pyruvic acid,Pyruvate,Pseudomonas,2,48,0.242
+1.25,Fumaric acid,Pyruvate,Pseudomonas,2,48,0.242
+1.46,Propionic acid,Pyruvate,Pseudomonas,2,48,0.242
+0,Putrescine,Pyruvate,Pseudomonas,2,48,0.242
+0.107,Valeric acid,Pyruvate,Pseudomonas,2,48,0.242
+0,Valine,Succinate,Pputida,1,28,0.2997
+13.8,Propionic acid,Succinate,Pputida,1,28,0.2997
+0,Pyruvic acid,Succinate,Pputida,1,28,0.2997
+1.1,Acetyl-ornithine,Succinate,Pputida,1,28,0.2997
+0,Alanine,Succinate,Pputida,1,28,0.2997
+0,Asparagine,Succinate,Pputida,1,28,0.2997
+5.65,Butyric acid,Succinate,Pputida,1,28,0.2997
+0,Serine,Succinate,Pputida,1,28,0.2997
+0,Glycine,Succinate,Pputida,1,28,0.2997
+1.43,Valeric acid,Succinate,Pputida,1,28,0.2997
+0.156,Succinic acid,Succinate,Pputida,1,28,0.2997
+0.213,Methionine,Succinate,Pputida,1,28,0.2997
+0.851,beta-Hydroxybutyric acid,Succinate,Pputida,1,28,0.2997
+0.323,Hippuric acid,Succinate,Pputida,1,28,0.2997
+5.38,Citric acid,Succinate,Pputida,1,28,0.2997
+0,alpha-Ketoglutaric acid,Succinate,Pputida,1,28,0.2997
+0,Lactic acid,Succinate,Pputida,1,28,0.2997
+0.251,Fumaric acid,Succinate,Pputida,1,28,0.2997
+182,Acetic acid,Succinate,Pputida,1,28,0.2997
+0,Putrescine,Succinate,Pputida,1,28,0.2997
+0,Asparagine,Succinate,Pputida,2,28,0.3119
+0,Serine,Succinate,Pputida,2,28,0.3119
+16,Propionic acid,Succinate,Pputida,2,28,0.3119
+1840,Succinic acid,Succinate,Pputida,2,28,0.3119
+0,Valine,Succinate,Pputida,2,28,0.3119
+0,Putrescine,Succinate,Pputida,2,28,0.3119
+0,Glycine,Succinate,Pputida,2,28,0.3119
+1.96,Pyruvic acid,Succinate,Pputida,2,28,0.3119
+0,alpha-Ketoglutaric acid,Succinate,Pputida,2,28,0.3119
+0,Alanine,Succinate,Pputida,2,28,0.3119
+1.1,beta-Hydroxybutyric acid,Succinate,Pputida,2,28,0.3119
+7.22,Citric acid,Succinate,Pputida,2,28,0.3119
+0,Lactic acid,Succinate,Pputida,2,28,0.3119
+0.182,Methionine,Succinate,Pputida,2,28,0.3119
+1.39,Valeric acid,Succinate,Pputida,2,28,0.3119
+0.475,Hippuric acid,Succinate,Pputida,2,28,0.3119
+6.79,Butyric acid,Succinate,Pputida,2,28,0.3119
+1.64,Acetyl-ornithine,Succinate,Pputida,2,28,0.3119
+210,Acetic acid,Succinate,Pputida,2,28,0.3119
+9.49,Fumaric acid,Succinate,Pputida,2,28,0.3119
+0,Valine,Succinate,Pputida,1,48,0.3982
+0,Lactic acid,Succinate,Pputida,1,48,0.3982
+0.872,beta-Hydroxybutyric acid,Succinate,Pputida,1,48,0.3982
+0,alpha-Ketoglutaric acid,Succinate,Pputida,1,48,0.3982
+0,Serine,Succinate,Pputida,1,48,0.3982
+162,Acetic acid,Succinate,Pputida,1,48,0.3982
+0,Asparagine,Succinate,Pputida,1,48,0.3982
+6.69,Butyric acid,Succinate,Pputida,1,48,0.3982
+0,Glycine,Succinate,Pputida,1,48,0.3982
+0,Alanine,Succinate,Pputida,1,48,0.3982
+376,Succinic acid,Succinate,Pputida,1,48,0.3982
+17,Propionic acid,Succinate,Pputida,1,48,0.3982
+1.98,Fumaric acid,Succinate,Pputida,1,48,0.3982
+1.56,Valeric acid,Succinate,Pputida,1,48,0.3982
+0,Pyruvic acid,Succinate,Pputida,1,48,0.3982
+0,Putrescine,Succinate,Pputida,1,48,0.3982
+1.58,Acetyl-ornithine,Succinate,Pputida,1,48,0.3982
+4.16,Citric acid,Succinate,Pputida,1,48,0.3982
+0.125,Methionine,Succinate,Pputida,1,48,0.3982
+0.504,Hippuric acid,Succinate,Pputida,1,48,0.3982
+0,Pyruvic acid,Succinate,Pputida,2,48,0.4123
+0,Valine,Succinate,Pputida,2,48,0.4123
+0,Alanine,Succinate,Pputida,2,48,0.4123
+0.561,beta-Hydroxybutyric acid,Succinate,Pputida,2,48,0.4123
+0,Lactic acid,Succinate,Pputida,2,48,0.4123
+0.66,Serine,Succinate,Pputida,2,48,0.4123
+0,Glycine,Succinate,Pputida,2,48,0.4123
+0,alpha-Ketoglutaric acid,Succinate,Pputida,2,48,0.4123
+2.15,Acetyl-ornithine,Succinate,Pputida,2,48,0.4123
+0.397,Fumaric acid,Succinate,Pputida,2,48,0.4123
+244,Acetic acid,Succinate,Pputida,2,48,0.4123
+0.588,Succinic acid,Succinate,Pputida,2,48,0.4123
+7.01,Butyric acid,Succinate,Pputida,2,48,0.4123
+0,Putrescine,Succinate,Pputida,2,48,0.4123
+0.376,Hippuric acid,Succinate,Pputida,2,48,0.4123
+0,Asparagine,Succinate,Pputida,2,48,0.4123
+17.6,Propionic acid,Succinate,Pputida,2,48,0.4123
+0.193,Methionine,Succinate,Pputida,2,48,0.4123
+1.63,Valeric acid,Succinate,Pputida,2,48,0.4123
+1.19,Citric acid,Succinate,Pputida,2,48,0.4123
+0,Valine,Succinate,Pseudomonas,1,28,0.142
+0.664,Serine,Succinate,Pseudomonas,1,28,0.142
+0,Glycine,Succinate,Pseudomonas,1,28,0.142
+0,Asparagine,Succinate,Pseudomonas,1,28,0.142
+5.75,Butyric acid,Succinate,Pseudomonas,1,28,0.142
+0,Alanine,Succinate,Pseudomonas,1,28,0.142
+12.4,Fumaric acid,Succinate,Pseudomonas,1,28,0.142
+140,Acetic acid,Succinate,Pseudomonas,1,28,0.142
+0.83,beta-Hydroxybutyric acid,Succinate,Pseudomonas,1,28,0.142
+0,Putrescine,Succinate,Pseudomonas,1,28,0.142
+0.748,Acetyl-ornithine,Succinate,Pseudomonas,1,28,0.142
+0.443,Hippuric acid,Succinate,Pseudomonas,1,28,0.142
+4.89,Citric acid,Succinate,Pseudomonas,1,28,0.142
+0.212,Methionine,Succinate,Pseudomonas,1,28,0.142
+0,Lactic acid,Succinate,Pseudomonas,1,28,0.142
+14.6,Propionic acid,Succinate,Pseudomonas,1,28,0.142
+3480,Succinic acid,Succinate,Pseudomonas,1,28,0.142
+0.41,alpha-Ketoglutaric acid,Succinate,Pseudomonas,1,28,0.142
+1.24,Valeric acid,Succinate,Pseudomonas,1,28,0.142
+7.05,Pyruvic acid,Succinate,Pseudomonas,1,28,0.142
+0.312,Serine,Succinate,Pseudomonas,2,28,0.1307
+0,Alanine,Succinate,Pseudomonas,2,28,0.1307
+1.48,alpha-Ketoglutaric acid,Succinate,Pseudomonas,2,28,0.1307
+0,Valine,Succinate,Pseudomonas,2,28,0.1307
+10.1,Pyruvic acid,Succinate,Pseudomonas,2,28,0.1307
+16.8,Propionic acid,Succinate,Pseudomonas,2,28,0.1307
+0.6,beta-Hydroxybutyric acid,Succinate,Pseudomonas,2,28,0.1307
+0,Glycine,Succinate,Pseudomonas,2,28,0.1307
+198,Acetic acid,Succinate,Pseudomonas,2,28,0.1307
+0,Asparagine,Succinate,Pseudomonas,2,28,0.1307
+12.1,Fumaric acid,Succinate,Pseudomonas,2,28,0.1307
+0.289,Acetyl-ornithine,Succinate,Pseudomonas,2,28,0.1307
+0.448,Hippuric acid,Succinate,Pseudomonas,2,28,0.1307
+1.52,Valeric acid,Succinate,Pseudomonas,2,28,0.1307
+0,Putrescine,Succinate,Pseudomonas,2,28,0.1307
+0,Lactic acid,Succinate,Pseudomonas,2,28,0.1307
+0.241,Methionine,Succinate,Pseudomonas,2,28,0.1307
+4420,Succinic acid,Succinate,Pseudomonas,2,28,0.1307
+6.66,Butyric acid,Succinate,Pseudomonas,2,28,0.1307
+2.56,Citric acid,Succinate,Pseudomonas,2,28,0.1307
+0,Pyruvic acid,Succinate,Pseudomonas,1,48,0.201
+0,Asparagine,Succinate,Pseudomonas,1,48,0.201
+7.06,Butyric acid,Succinate,Pseudomonas,1,48,0.201
+0,Serine,Succinate,Pseudomonas,1,48,0.201
+0,Alanine,Succinate,Pseudomonas,1,48,0.201
+1680,Succinic acid,Succinate,Pseudomonas,1,48,0.201
+0,Lactic acid,Succinate,Pseudomonas,1,48,0.201
+0,Valine,Succinate,Pseudomonas,1,48,0.201
+10.5,Fumaric acid,Succinate,Pseudomonas,1,48,0.201
+0.439,alpha-Ketoglutaric acid,Succinate,Pseudomonas,1,48,0.201
+1.15,beta-Hydroxybutyric acid,Succinate,Pseudomonas,1,48,0.201
+1.38,Valeric acid,Succinate,Pseudomonas,1,48,0.201
+150,Acetic acid,Succinate,Pseudomonas,1,48,0.201
+0,Glycine,Succinate,Pseudomonas,1,48,0.201
+0,Putrescine,Succinate,Pseudomonas,1,48,0.201
+1.25,Acetyl-ornithine,Succinate,Pseudomonas,1,48,0.201
+0.0587,Methionine,Succinate,Pseudomonas,1,48,0.201
+14.9,Propionic acid,Succinate,Pseudomonas,1,48,0.201
+11,Citric acid,Succinate,Pseudomonas,1,48,0.201
+0.511,Hippuric acid,Succinate,Pseudomonas,1,48,0.201
+0,Valine,Succinate,Pseudomonas,2,48,0.186
+2780,Succinic acid,Succinate,Pseudomonas,2,48,0.186
+0.545,beta-Hydroxybutyric acid,Succinate,Pseudomonas,2,48,0.186
+0,Glycine,Succinate,Pseudomonas,2,48,0.186
+5.16,Pyruvic acid,Succinate,Pseudomonas,2,48,0.186
+0,Serine,Succinate,Pseudomonas,2,48,0.186
+0,Lactic acid,Succinate,Pseudomonas,2,48,0.186
+19.2,Fumaric acid,Succinate,Pseudomonas,2,48,0.186
+1.39,Valeric acid,Succinate,Pseudomonas,2,48,0.186
+16.8,Propionic acid,Succinate,Pseudomonas,2,48,0.186
+2.46,alpha-Ketoglutaric acid,Succinate,Pseudomonas,2,48,0.186
+0.0709,Methionine,Succinate,Pseudomonas,2,48,0.186
+1.88,Acetyl-ornithine,Succinate,Pseudomonas,2,48,0.186
+0,Alanine,Succinate,Pseudomonas,2,48,0.186
+6.41,Butyric acid,Succinate,Pseudomonas,2,48,0.186
+0,Asparagine,Succinate,Pseudomonas,2,48,0.186
+4.53,Citric acid,Succinate,Pseudomonas,2,48,0.186
+0,Putrescine,Succinate,Pseudomonas,2,48,0.186
+285,Acetic acid,Succinate,Pseudomonas,2,48,0.186
+0.366,Hippuric acid,Succinate,Pseudomonas,2,48,0.186
+769,Fumaric acid,Fumarate,Pputida,1,28,0.2512
+0,Valine,Fumarate,Pputida,1,28,0.2512
+2.22,beta-Hydroxybutyric acid,Fumarate,Pputida,1,28,0.2512
+142,Succinic acid,Fumarate,Pputida,1,28,0.2512
+25,Lactic acid,Fumarate,Pputida,1,28,0.2512
+0,Alanine,Fumarate,Pputida,1,28,0.2512
+16.7,Propionic acid,Fumarate,Pputida,1,28,0.2512
+48.5,Pyruvic acid,Fumarate,Pputida,1,28,0.2512
+8.45,Butyric acid,Fumarate,Pputida,1,28,0.2512
+0.271,Serine,Fumarate,Pputida,1,28,0.2512
+0,Glycine,Fumarate,Pputida,1,28,0.2512
+0,Asparagine,Fumarate,Pputida,1,28,0.2512
+8.32,Citric acid,Fumarate,Pputida,1,28,0.2512
+0.0392,alpha-Ketoglutaric acid,Fumarate,Pputida,1,28,0.2512
+0,Putrescine,Fumarate,Pputida,1,28,0.2512
+1.66,Valeric acid,Fumarate,Pputida,1,28,0.2512
+237,Acetic acid,Fumarate,Pputida,1,28,0.2512
+0.958,Acetyl-ornithine,Fumarate,Pputida,1,28,0.2512
+0.392,Hippuric acid,Fumarate,Pputida,1,28,0.2512
+0.209,Methionine,Fumarate,Pputida,1,28,0.2512
+0,Alanine,Fumarate,Pputida,2,28,0.2772
+1.43,Acetyl-ornithine,Fumarate,Pputida,2,28,0.2772
+881,Fumaric acid,Fumarate,Pputida,2,28,0.2772
+0,Glycine,Fumarate,Pputida,2,28,0.2772
+154,Succinic acid,Fumarate,Pputida,2,28,0.2772
+0.14,alpha-Ketoglutaric acid,Fumarate,Pputida,2,28,0.2772
+0.488,Serine,Fumarate,Pputida,2,28,0.2772
+18.4,Propionic acid,Fumarate,Pputida,2,28,0.2772
+51.2,Pyruvic acid,Fumarate,Pputida,2,28,0.2772
+9.64,Butyric acid,Fumarate,Pputida,2,28,0.2772
+0.186,Methionine,Fumarate,Pputida,2,28,0.2772
+0,Valine,Fumarate,Pputida,2,28,0.2772
+0,Asparagine,Fumarate,Pputida,2,28,0.2772
+8.57,Citric acid,Fumarate,Pputida,2,28,0.2772
+30.9,Lactic acid,Fumarate,Pputida,2,28,0.2772
+0.529,Hippuric acid,Fumarate,Pputida,2,28,0.2772
+1.79,Valeric acid,Fumarate,Pputida,2,28,0.2772
+197,Acetic acid,Fumarate,Pputida,2,28,0.2772
+2.42,beta-Hydroxybutyric acid,Fumarate,Pputida,2,28,0.2772
+0,Putrescine,Fumarate,Pputida,2,28,0.2772
+0,Serine,Fumarate,Pputida,1,48,0.3843
+0.623,beta-Hydroxybutyric acid,Fumarate,Pputida,1,48,0.3843
+0,Alanine,Fumarate,Pputida,1,48,0.3843
+0.384,Succinic acid,Fumarate,Pputida,1,48,0.3843
+18.3,Propionic acid,Fumarate,Pputida,1,48,0.3843
+0,Lactic acid,Fumarate,Pputida,1,48,0.3843
+0,Pyruvic acid,Fumarate,Pputida,1,48,0.3843
+0,Valine,Fumarate,Pputida,1,48,0.3843
+1.46,Valeric acid,Fumarate,Pputida,1,48,0.3843
+2.26,Acetyl-ornithine,Fumarate,Pputida,1,48,0.3843
+0,Glycine,Fumarate,Pputida,1,48,0.3843
+0.522,Hippuric acid,Fumarate,Pputida,1,48,0.3843
+0,Asparagine,Fumarate,Pputida,1,48,0.3843
+0,alpha-Ketoglutaric acid,Fumarate,Pputida,1,48,0.3843
+0.264,Fumaric acid,Fumarate,Pputida,1,48,0.3843
+7.23,Butyric acid,Fumarate,Pputida,1,48,0.3843
+0,Putrescine,Fumarate,Pputida,1,48,0.3843
+157,Acetic acid,Fumarate,Pputida,1,48,0.3843
+0.116,Methionine,Fumarate,Pputida,1,48,0.3843
+1.23,Citric acid,Fumarate,Pputida,1,48,0.3843
+7.6,Butyric acid,Fumarate,Pputida,2,48,0.3934
+0,Alanine,Fumarate,Pputida,2,48,0.3934
+0,Valine,Fumarate,Pputida,2,48,0.3934
+0.301,Succinic acid,Fumarate,Pputida,2,48,0.3934
+293,Acetic acid,Fumarate,Pputida,2,48,0.3934
+0.595,beta-Hydroxybutyric acid,Fumarate,Pputida,2,48,0.3934
+0,Serine,Fumarate,Pputida,2,48,0.3934
+0,Asparagine,Fumarate,Pputida,2,48,0.3934
+0,Glycine,Fumarate,Pputida,2,48,0.3934
+2.26,Acetyl-ornithine,Fumarate,Pputida,2,48,0.3934
+0.294,Fumaric acid,Fumarate,Pputida,2,48,0.3934
+19.5,Propionic acid,Fumarate,Pputida,2,48,0.3934
+0,Pyruvic acid,Fumarate,Pputida,2,48,0.3934
+0,Lactic acid,Fumarate,Pputida,2,48,0.3934
+0,Putrescine,Fumarate,Pputida,2,48,0.3934
+1.49,Valeric acid,Fumarate,Pputida,2,48,0.3934
+1.27,Citric acid,Fumarate,Pputida,2,48,0.3934
+0,alpha-Ketoglutaric acid,Fumarate,Pputida,2,48,0.3934
+0.224,Methionine,Fumarate,Pputida,2,48,0.3934
+0.395,Hippuric acid,Fumarate,Pputida,2,48,0.3934
+0.173,Serine,Fumarate,Pseudomonas,1,28,0.1528
+270,Succinic acid,Fumarate,Pseudomonas,1,28,0.1528
+0,Lactic acid,Fumarate,Pseudomonas,1,28,0.1528
+0,Alanine,Fumarate,Pseudomonas,1,28,0.1528
+0,Asparagine,Fumarate,Pseudomonas,1,28,0.1528
+0.526,Hippuric acid,Fumarate,Pseudomonas,1,28,0.1528
+1.37,beta-Hydroxybutyric acid,Fumarate,Pseudomonas,1,28,0.1528
+0,Glycine,Fumarate,Pseudomonas,1,28,0.1528
+244,Pyruvic acid,Fumarate,Pseudomonas,1,28,0.1528
+17.9,Propionic acid,Fumarate,Pseudomonas,1,28,0.1528
+2200,Fumaric acid,Fumarate,Pseudomonas,1,28,0.1528
+0.778,Acetyl-ornithine,Fumarate,Pseudomonas,1,28,0.1528
+163,Acetic acid,Fumarate,Pseudomonas,1,28,0.1528
+0,Valine,Fumarate,Pseudomonas,1,28,0.1528
+2.37,Valeric acid,Fumarate,Pseudomonas,1,28,0.1528
+12.6,Citric acid,Fumarate,Pseudomonas,1,28,0.1528
+0,Methionine,Fumarate,Pseudomonas,1,28,0.1528
+0,Putrescine,Fumarate,Pseudomonas,1,28,0.1528
+1.7,alpha-Ketoglutaric acid,Fumarate,Pseudomonas,1,28,0.1528
+14.9,Butyric acid,Fumarate,Pseudomonas,1,28,0.1528
+0,Alanine,Fumarate,Pseudomonas,2,28,0.1157
+30.1,Pyruvic acid,Fumarate,Pseudomonas,2,28,0.1157
+16.3,Butyric acid,Fumarate,Pseudomonas,2,28,0.1157
+0.603,beta-Hydroxybutyric acid,Fumarate,Pseudomonas,2,28,0.1157
+0,Valine,Fumarate,Pseudomonas,2,28,0.1157
+0,Asparagine,Fumarate,Pseudomonas,2,28,0.1157
+204,Succinic acid,Fumarate,Pseudomonas,2,28,0.1157
+0.139,Methionine,Fumarate,Pseudomonas,2,28,0.1157
+0,Glycine,Fumarate,Pseudomonas,2,28,0.1157
+202,Acetic acid,Fumarate,Pseudomonas,2,28,0.1157
+2.7,Citric acid,Fumarate,Pseudomonas,2,28,0.1157
+4160,Fumaric acid,Fumarate,Pseudomonas,2,28,0.1157
+0.291,Serine,Fumarate,Pseudomonas,2,28,0.1157
+0.496,Hippuric acid,Fumarate,Pseudomonas,2,28,0.1157
+18.3,Propionic acid,Fumarate,Pseudomonas,2,28,0.1157
+0.888,Acetyl-ornithine,Fumarate,Pseudomonas,2,28,0.1157
+0,Putrescine,Fumarate,Pseudomonas,2,28,0.1157
+2.54,Valeric acid,Fumarate,Pseudomonas,2,28,0.1157
+0,Lactic acid,Fumarate,Pseudomonas,2,28,0.1157
+2.18,alpha-Ketoglutaric acid,Fumarate,Pseudomonas,2,28,0.1157
+0,Alanine,Fumarate,Pseudomonas,1,48,0.193
+18.4,Propionic acid,Fumarate,Pseudomonas,1,48,0.193
+0,Glycine,Fumarate,Pseudomonas,1,48,0.193
+0,Valine,Fumarate,Pseudomonas,1,48,0.193
+2.42,beta-Hydroxybutyric acid,Fumarate,Pseudomonas,1,48,0.193
+1.16,Acetyl-ornithine,Fumarate,Pseudomonas,1,48,0.193
+343,Succinic acid,Fumarate,Pseudomonas,1,48,0.193
+40,Lactic acid,Fumarate,Pseudomonas,1,48,0.193
+627,Fumaric acid,Fumarate,Pseudomonas,1,48,0.193
+354,Pyruvic acid,Fumarate,Pseudomonas,1,48,0.193
+1.05,alpha-Ketoglutaric acid,Fumarate,Pseudomonas,1,48,0.193
+0,Putrescine,Fumarate,Pseudomonas,1,48,0.193
+0.385,Serine,Fumarate,Pseudomonas,1,48,0.193
+11.6,Butyric acid,Fumarate,Pseudomonas,1,48,0.193
+0.116,Methionine,Fumarate,Pseudomonas,1,48,0.193
+0.577,Hippuric acid,Fumarate,Pseudomonas,1,48,0.193
+197,Acetic acid,Fumarate,Pseudomonas,1,48,0.193
+0,Asparagine,Fumarate,Pseudomonas,1,48,0.193
+24.5,Citric acid,Fumarate,Pseudomonas,1,48,0.193
+1.69,Valeric acid,Fumarate,Pseudomonas,1,48,0.193
+0,Asparagine,Fumarate,Pseudomonas,2,48,0.1571
+6.73,Citric acid,Fumarate,Pseudomonas,2,48,0.1571
+0,Serine,Fumarate,Pseudomonas,2,48,0.1571
+0.614,beta-Hydroxybutyric acid,Fumarate,Pseudomonas,2,48,0.1571
+2.4,Acetyl-ornithine,Fumarate,Pseudomonas,2,48,0.1571
+0,Alanine,Fumarate,Pseudomonas,2,48,0.1571
+298,Succinic acid,Fumarate,Pseudomonas,2,48,0.1571
+0,Lactic acid,Fumarate,Pseudomonas,2,48,0.1571
+1640,Fumaric acid,Fumarate,Pseudomonas,2,48,0.1571
+0,Valine,Fumarate,Pseudomonas,2,48,0.1571
+56.6,Pyruvic acid,Fumarate,Pseudomonas,2,48,0.1571
+0.973,alpha-Ketoglutaric acid,Fumarate,Pseudomonas,2,48,0.1571
+0,Putrescine,Fumarate,Pseudomonas,2,48,0.1571
+2.14,Valeric acid,Fumarate,Pseudomonas,2,48,0.1571
+301,Acetic acid,Fumarate,Pseudomonas,2,48,0.1571
+11.1,Butyric acid,Fumarate,Pseudomonas,2,48,0.1571
+0.155,Methionine,Fumarate,Pseudomonas,2,48,0.1571
+0.397,Hippuric acid,Fumarate,Pseudomonas,2,48,0.1571
+18.5,Propionic acid,Fumarate,Pseudomonas,2,48,0.1571
+0,Glycine,Fumarate,Pseudomonas,2,48,0.1571
