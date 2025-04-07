@@ -1,0 +1,418 @@
+,Metabolite,Carbon source,Rate [mmol/gDW/h],Species,Dataset,Std. Err [mmol/gDW/h],Rate [mmol C/gDW/h],Rate [g/gDW/h]
+0,"1,3-diaminopropane",Galactose,,E. coli,SINTEF-23,,,
+1,"1,3-diaminopropane",L-malate,,E. coli,SINTEF-23,,,
+2,"1,3-diaminopropane",L-alanine,,E. coli,SINTEF-23,,,
+3,"2,5-dihydroxybenzoate",Galactose,,E. coli,SINTEF-23,,,
+4,"2,5-dihydroxybenzoate",L-malate,,E. coli,SINTEF-23,,,
+5,"2,5-dihydroxybenzoate",L-alanine,,E. coli,SINTEF-23,,,
+6,2-aminoisobutyrate,Galactose,,E. coli,SINTEF-23,,,
+7,2-aminoisobutyrate,L-malate,,E. coli,SINTEF-23,,,
+8,2-aminoisobutyrate,L-alanine,,E. coli,SINTEF-23,,,
+9,2-hydroxybutyrate,Galactose,,E. coli,SINTEF-23,,,
+10,2-hydroxybutyrate,L-malate,,E. coli,SINTEF-23,,,
+11,2-hydroxybutyrate,L-alanine,,E. coli,SINTEF-23,,,
+12,2-hydroxyglutaric acid,Galactose,,E. coli,SINTEF-23,,,
+13,2-hydroxyglutaric acid,L-malate,,E. coli,SINTEF-23,,,
+14,2-hydroxyglutaric acid,L-alanine,,E. coli,SINTEF-23,,,
+15,2-phosphoglycerate,Glucose,0.0003232301996616,E. coli,Paczia-13,1.5433750699483736e-05,0.0009696905989848,5.916192921457569e-05
+18,3-(4-hydroxyphenyl)pyruvate,Galactose,,E. coli,SINTEF-23,,,
+19,3-(4-hydroxyphenyl)pyruvate,L-malate,,E. coli,SINTEF-23,,,
+20,3-(4-hydroxyphenyl)pyruvate,L-alanine,,E. coli,SINTEF-23,,,
+21,3-hydroxyanthranilate,Galactose,,E. coli,SINTEF-23,,,
+22,3-hydroxyanthranilate,L-malate,,E. coli,SINTEF-23,,,
+23,3-hydroxyanthranilate,L-alanine,,E. coli,SINTEF-23,,,
+24,3-hydroxybutyrate,Galactose,,E. coli,SINTEF-23,,,
+25,3-hydroxybutyrate,L-malate,,E. coli,SINTEF-23,,,
+26,3-hydroxybutyrate,L-alanine,,E. coli,SINTEF-23,,,
+27,3-hydroxyglutaric acid,Galactose,,E. coli,SINTEF-23,,,
+28,3-hydroxyglutaric acid,L-malate,,E. coli,SINTEF-23,,,
+29,3-hydroxyglutaric acid,L-alanine,,E. coli,SINTEF-23,,,
+30,3-hydroxyphenylacetate,Galactose,,E. coli,SINTEF-23,,,
+31,3-hydroxyphenylacetate,L-malate,,E. coli,SINTEF-23,,,
+32,3-hydroxyphenylacetate,L-alanine,,E. coli,SINTEF-23,,,
+33,3-phosphoglycerate,Glucose,0.0003232301996616,E. coli,Paczia-13,1.5433750699483736e-05,0.0009696905989848,5.916192921457569e-05
+36,4-acetamidobutanoate,Galactose,,E. coli,SINTEF-23,,,
+37,4-acetamidobutanoate,L-malate,,E. coli,SINTEF-23,,,
+38,4-acetamidobutanoate,L-alanine,,E. coli,SINTEF-23,,,
+39,4-imidazoleacetate,Galactose,,E. coli,SINTEF-23,,,
+40,4-imidazoleacetate,L-malate,,E. coli,SINTEF-23,,,
+41,4-imidazoleacetate,L-alanine,,E. coli,SINTEF-23,,,
+42,Acetate,Galactose,0.2037245636129564,E. coli,SINTEF-23,0.1067708730988282,0.4074491272259128,0.012028717208454671
+43,Acetate,L-malate,0.6140630198971179,E. coli,SINTEF-23,0.2666269001649362,1.2281260397942357,0.03625674922806583
+44,Acetate,L-alanine,2.114485185426341,E. coli,SINTEF-23,0.4731117577039285,4.228970370852682,0.12484770557801661
+45,Acetate,Glucose,1.544754107109071,E. coli,Paczia-13,0.1880194933834042,3.089508214218142,0.09120849239523013
+95,Adenosine,Galactose,,E. coli,SINTEF-23,,,
+96,Adenosine,L-malate,,E. coli,SINTEF-23,,,
+97,Adenosine,L-alanine,,E. coli,SINTEF-23,,,
+98,"Adenosine 3',5'-cyclic phosphate",Galactose,,E. coli,SINTEF-23,,,
+99,"Adenosine 3',5'-cyclic phosphate",L-malate,,E. coli,SINTEF-23,,,
+100,"Adenosine 3',5'-cyclic phosphate",L-alanine,,E. coli,SINTEF-23,,,
+101,Adipate,Galactose,,E. coli,SINTEF-23,,,
+102,Adipate,L-malate,,E. coli,SINTEF-23,,,
+103,Adipate,L-alanine,,E. coli,SINTEF-23,,,
+104,Aicar,Galactose,,E. coli,SINTEF-23,,,
+105,Aicar,L-malate,,E. coli,SINTEF-23,,,
+106,Aicar,L-alanine,,E. coli,SINTEF-23,,,
+107,Alanine,Galactose,-0.0005832213060638,E. coli,SINTEF-23,0.0001477202193286,-0.0017496639181914001,-5.196104080097723e-05
+108,Alanine,L-malate,-0.0024235603365261,E. coli,SINTEF-23,0.0002999839734221,-0.007270681009578299,-0.00021592269730298042
+109,Alanine,L-alanine,-17.25209652088157,E. coli,SINTEF-23,0.6062022748175045,-51.75628956264471,-1.5370441407122755
+110,Alanine,Glucose,9.975274134111496e-05,E. coli,Paczia-13,1.1566108023206015e-05,0.0002992582240233449,8.887288939797398e-06
+118,Allantoin,Galactose,,E. coli,SINTEF-23,,,
+119,Allantoin,L-malate,,E. coli,SINTEF-23,,,
+120,Allantoin,L-alanine,,E. coli,SINTEF-23,,,
+121,Alpha-aminoadipate,Galactose,2.8487276957775643e-05,E. coli,SINTEF-23,1.6495722382413477e-05,,
+122,Alpha-aminoadipate,L-malate,4.220041571529238e-05,E. coli,SINTEF-23,4.062508752669296e-05,,
+123,Alpha-aminoadipate,L-alanine,6.407048415693967e-05,E. coli,SINTEF-23,2.352562132024874e-05,,
+124,Alpha-aminobutyrate,Galactose,,E. coli,SINTEF-23,,,
+125,Alpha-aminobutyrate,L-malate,,E. coli,SINTEF-23,,,
+126,Alpha-aminobutyrate,L-alanine,0.187598139539883,E. coli,SINTEF-23,0.0204495612209364,,
+127,Alpha-glucose (cl adduct),Galactose,,E. coli,SINTEF-23,,,
+128,Alpha-glucose (cl adduct),L-malate,,E. coli,SINTEF-23,,,
+129,Alpha-glucose (cl adduct),L-alanine,,E. coli,SINTEF-23,,,
+130,Alpha-ketoglutarate,Glucose,0.0041229772095017,E. coli,Paczia-13,0.0014549530569801,0.0206148860475085,0.0005940478742734985
+144,Anthranilate,Galactose,,E. coli,SINTEF-23,,,
+145,Anthranilate,L-malate,,E. coli,SINTEF-23,,,
+146,Anthranilate,L-alanine,,E. coli,SINTEF-23,,,
+147,Arginine,Galactose,,E. coli,SINTEF-23,,,
+148,Arginine,L-malate,,E. coli,SINTEF-23,,,
+149,Arginine,L-alanine,,E. coli,SINTEF-23,,,
+150,Arginine,Glucose,0.0019029966397408,E. coli,Paczia-13,0.0002019901757975,0.0114179798384448,0.0003334219479526818
+153,Asparagine,Galactose,-0.0001275852261206,E. coli,SINTEF-23,5.146304912611781e-05,-0.0005103409044824,-1.685629469778334e-05
+154,Asparagine,L-malate,0.0002789290738312,E. coli,SINTEF-23,5.111952900929199e-05,0.0011157162953248,3.685152906210458e-05
+155,Asparagine,L-alanine,0.0058211604135597,E. coli,SINTEF-23,0.0020077294926925,0.0232846416542388,0.0007690796058258474
+167,Aspartate,Galactose,0.0001207495262639,E. coli,SINTEF-23,1.6477292772447458e-05,0.0004829981050556,1.595037727695304e-05
+168,Aspartate,L-malate,-0.0005115587115999,E. coli,SINTEF-23,0.0010423289095384,-0.0020462348463996,-6.757421500352377e-05
+169,Aspartate,L-alanine,2.971381365949496e-05,E. coli,SINTEF-23,4.491512203120389e-05,0.00011885525463797984,3.925038489759435e-06
+170,Aspartate,Glucose,5.305955540511345e-05,E. coli,Paczia-13,2.580828915557572e-06,0.0002122382216204538,7.008888175754056e-06
+173,Beta-alanine,Galactose,2.8280178505571022e-05,E. coli,SINTEF-23,8.84636560823318e-06,8.484053551671307e-05,2.5195710340289704e-06
+174,Beta-alanine,L-malate,0.00011752165575,E. coli,SINTEF-23,7.195674508941424e-05,0.00035256496725,1.0470378029632786e-05
+175,Beta-alanine,L-alanine,0.0004901797682445,E. coli,SINTEF-23,2.2739449751748166e-05,0.0014705393047335,4.367167432456553e-05
+216,Cdp-ethanolamine,Galactose,,E. coli,SINTEF-23,,,
+217,Cdp-ethanolamine,L-malate,,E. coli,SINTEF-23,,,
+218,Cdp-ethanolamine,L-alanine,,E. coli,SINTEF-23,,,
+219,Cis-aconitate,Galactose,0.0001023582400319,E. coli,SINTEF-23,5.8127661641750005e-06,0.0006141494401914,1.7511900128078393e-05
+220,Cis-aconitate,L-malate,0.0004389141665854,E. coli,SINTEF-23,3.5824051606598675e-05,0.0026334849995124,7.509137562004653e-05
+221,Cis-aconitate,L-alanine,0.0009137946959113,E. coli,SINTEF-23,8.546694149480005e-05,0.005482768175467801,0.00015633603554906115
+222,Cis-aconitate,Glucose,0.0006318435324293,E. coli,Paczia-13,5.215580232814383e-05,0.0037910611945758,0.00010809858427641797
+224,Citrate,Galactose,,E. coli,SINTEF-23,,,
+225,Citrate,L-malate,,E. coli,SINTEF-23,,,
+226,Citrate,L-alanine,-0.0018524358357555,E. coli,SINTEF-23,0.0032462317052894,-0.011114615014533,-0.00035029506081061434
+227,Citrate,Glucose,0.0063218848988221,E. coli,Paczia-13,0.0004632948145419,0.0379313093929326,0.0011954665378017895
+256,Citrulline,Galactose,,E. coli,SINTEF-23,,,
+257,Citrulline,L-malate,,E. coli,SINTEF-23,,,
+258,Citrulline,L-alanine,,E. coli,SINTEF-23,,,
+259,Creatine,Galactose,1.0291182650784851e-06,E. coli,SINTEF-23,3.431744826211689e-07,,
+260,Creatine,L-malate,-2.2487734505036237e-07,E. coli,SINTEF-23,4.485056849624404e-07,,
+261,Creatine,L-alanine,-3.380730550542571e-06,E. coli,SINTEF-23,1.4107414695685445e-06,,
+262,Creatinine,Galactose,,E. coli,SINTEF-23,,,
+263,Creatinine,L-malate,,E. coli,SINTEF-23,,,
+264,Creatinine,L-alanine,,E. coli,SINTEF-23,,,
+265,Cyclic gmp,Galactose,,E. coli,SINTEF-23,,,
+266,Cyclic gmp,L-malate,,E. coli,SINTEF-23,,,
+267,Cyclic gmp,L-alanine,,E. coli,SINTEF-23,,,
+268,Deoxycarnitine,Galactose,0.0002969192152782,E. coli,SINTEF-23,7.82757466810869e-05,,
+269,Deoxycarnitine,L-malate,0.000901709297034,E. coli,SINTEF-23,0.0002831622376374,,
+270,Deoxycarnitine,L-alanine,-0.0001135375090242,E. coli,SINTEF-23,0.0001045758289572,,
+271,Dethiobiotin,Galactose,,E. coli,SINTEF-23,,,
+272,Dethiobiotin,L-malate,,E. coli,SINTEF-23,,,
+273,Dethiobiotin,L-alanine,,E. coli,SINTEF-23,,,
+274,Diaminopimelate,Galactose,,E. coli,SINTEF-23,,,
+275,Diaminopimelate,L-malate,,E. coli,SINTEF-23,,,
+276,Diaminopimelate,L-alanine,,E. coli,SINTEF-23,,,
+277,Diethanolamine,Galactose,,E. coli,SINTEF-23,,,
+278,Diethanolamine,L-malate,,E. coli,SINTEF-23,,,
+279,Diethanolamine,L-alanine,,E. coli,SINTEF-23,,,
+280,Dihydroorotate,Galactose,,E. coli,SINTEF-23,,,
+281,Dihydroorotate,L-malate,,E. coli,SINTEF-23,,,
+282,Dihydroorotate,L-alanine,,E. coli,SINTEF-23,,,
+283,Dihydrouracil,Galactose,,E. coli,SINTEF-23,,,
+284,Dihydrouracil,L-malate,,E. coli,SINTEF-23,,,
+285,Dihydrouracil,L-alanine,,E. coli,SINTEF-23,,,
+286,Dihydroxyacetone phosphate,Glucose,0.0017999966338154,E. coli,Paczia-13,6.091112532875142e-05,0.0053999899014462,0.0003024749641397387
+290,Erythrose-4-phosphate,Glucose,4.188499356045229e-05,E. coli,Paczia-13,5.6048719531770575e-06,0.00016753997424180916,8.296074433317044e-06
+294,Ethanolamine,Galactose,,E. coli,SINTEF-23,,,
+295,Ethanolamine,L-malate,,E. coli,SINTEF-23,,,
+296,Ethanolamine,L-alanine,,E. coli,SINTEF-23,,,
+297,Formate,Galactose,0.3572547265283111,E. coli,SINTEF-23,0.1608922166600057,0.3572547265283111,0.016082693216204653
+298,Formate,L-malate,0.0772184218873558,E. coli,SINTEF-23,0.0889565976202292,0.0772184218873558,0.0034761756742087264
+299,Formate,L-alanine,0.0739535300445149,E. coli,SINTEF-23,0.0256153670060576,0.0739535300445149,0.0033291986015671466
+300,"Fructose-1,6-bisphosphate",Glucose,0.0025478428588481,E. coli,Paczia-13,0.00049191187648,0.0152870571530886,0.0008562890206413619
+304,Fructose-6-phosphate,Galactose,,E. coli,SINTEF-23,,,
+305,Fructose-6-phosphate,L-malate,,E. coli,SINTEF-23,,,
+306,Fructose-6-phosphate,L-alanine,,E. coli,SINTEF-23,,,
+307,Fructose-6-phosphate,Glucose,0.0016153662214265,E. coli,Paczia-13,0.0001008914510995,0.009692197328558999,0.00041695816915335234
+311,Fumarate,Glucose,0.0004645776802017,E. coli,Paczia-13,6.642699763370193e-05,0.0018583107208068,5.298800197483555e-05
+339,Gamma-aminobutyrate,Galactose,9.163202652281302e-06,E. coli,SINTEF-23,7.119288765890873e-05,3.665281060912521e-05,9.449072583346114e-07
+340,Gamma-aminobutyrate,L-malate,0.00014222372355,E. coli,SINTEF-23,0.0004000436572218,0.0005688948942,1.4666076238782348e-05
+341,Gamma-aminobutyrate,L-alanine,0.0027288209281544,E. coli,SINTEF-23,0.0015715889974817,0.0109152837126176,0.00028139535919425896
+342,Gluconate,Galactose,,E. coli,SINTEF-23,,,
+343,Gluconate,L-malate,,E. coli,SINTEF-23,,,
+344,Gluconate,L-alanine,,E. coli,SINTEF-23,,,
+345,Gluconolactone,Galactose,,E. coli,SINTEF-23,,,
+346,Gluconolactone,L-malate,,E. coli,SINTEF-23,,,
+347,Gluconolactone,L-alanine,,E. coli,SINTEF-23,,,
+348,Glucose-6-phosphate,Glucose,0.0008679562459956,E. coli,Paczia-13,6.511208903732151e-05,0.0052077374759735996,0.00022403678028871593
+352,Glutamate,Galactose,0.0017859625823931,E. coli,SINTEF-23,0.0007148314193258,0.0089298129119655,0.0002609672100098885
+353,Glutamate,L-malate,0.0012275255593944,E. coli,SINTEF-23,0.0010868961162441,0.006137627796972,0.00017936765507244816
+354,Glutamate,L-alanine,0.000625407020368,E. coli,SINTEF-23,0.0005533367537687,0.0031270351018399998,9.138529935343903e-05
+355,Glutamate,Glucose,-3.5240390733026476e-06,E. coli,Paczia-13,0.0001015895027584,-1.7620195366513237e-05,-5.149372411225597e-07
+359,Glutamine,Galactose,,E. coli,SINTEF-23,,,
+360,Glutamine,L-malate,,E. coli,SINTEF-23,,,
+361,Glutamine,L-alanine,0.0001897721242672,E. coli,SINTEF-23,3.411963372761633e-05,0.000948860621336,2.773415221496781e-05
+365,Glutarate,Galactose,,E. coli,SINTEF-23,,,
+366,Glutarate,L-malate,-0.0002462740899398,E. coli,SINTEF-23,0.0002699305157881,,
+367,Glutarate,L-alanine,,E. coli,SINTEF-23,,,
+368,Glutarylcarnitine,Galactose,4.0969533772205486e-05,E. coli,SINTEF-23,1.832174015181135e-05,,
+369,Glutarylcarnitine,L-malate,-8.758019796774997e-05,E. coli,SINTEF-23,4.223680305388608e-05,,
+370,Glutarylcarnitine,L-alanine,3.2580820221340103e-05,E. coli,SINTEF-23,2.844819243582459e-05,,
+371,Glyceraldehyde-3-phosphate,Glucose,0.0004985091116639,E. coli,Paczia-13,1.5918456722824232e-05,0.0014955273349917,8.377044870036973e-05
+374,Glycerol,Galactose,,E. coli,SINTEF-23,,,
+375,Glycerol,L-malate,,E. coli,SINTEF-23,,,
+376,Glycerol,L-alanine,,E. coli,SINTEF-23,,,
+377,Glycerol 3-phosphate,Galactose,,E. coli,SINTEF-23,,,
+378,Glycerol 3-phosphate,L-malate,,E. coli,SINTEF-23,,,
+379,Glycerol 3-phosphate,L-alanine,,E. coli,SINTEF-23,,,
+380,Glycine,Galactose,,E. coli,SINTEF-23,,,
+381,Glycine,L-malate,,E. coli,SINTEF-23,,,
+382,Glycine,L-alanine,0.0190982449411261,E. coli,SINTEF-23,0.0070607136227162,0.0381964898822522,0.0014336403136975364
+383,Glycine,Glucose,1.2953816171825433e-05,E. coli,Paczia-13,6.549541399545044e-06,2.5907632343650865e-05,9.72398937043951e-07
+400,Guanidinosuccinate/n-acetylaspartate,Galactose,,E. coli,SINTEF-23,,,
+401,Guanidinosuccinate/n-acetylaspartate,L-malate,,E. coli,SINTEF-23,,,
+402,Guanidinosuccinate/n-acetylaspartate,L-alanine,,E. coli,SINTEF-23,,,
+403,Guanine,Galactose,,E. coli,SINTEF-23,,,
+404,Guanine,L-malate,,E. coli,SINTEF-23,,,
+405,Guanine,L-alanine,,E. coli,SINTEF-23,,,
+406,Hexanoate,Galactose,,E. coli,SINTEF-23,,,
+407,Hexanoate,L-malate,,E. coli,SINTEF-23,,,
+408,Hexanoate,L-alanine,,E. coli,SINTEF-23,,,
+409,Hexanoylcarnitine (c6),Galactose,,E. coli,SINTEF-23,,,
+410,Hexanoylcarnitine (c6),L-malate,,E. coli,SINTEF-23,,,
+411,Hexanoylcarnitine (c6),L-alanine,,E. coli,SINTEF-23,,,
+412,Hexoses,Galactose,-7.1203888512711115,E. coli,SINTEF-23,0.9605961200186004,,
+413,Hexoses,L-malate,,E. coli,SINTEF-23,,,
+414,Hexoses,L-alanine,,E. coli,SINTEF-23,,,
+415,Histidine,Galactose,,E. coli,SINTEF-23,,,
+416,Histidine,L-malate,,E. coli,SINTEF-23,,,
+417,Histidine,L-alanine,,E. coli,SINTEF-23,,,
+418,Histidine,Glucose,0.0009334716981224,E. coli,Paczia-13,0.0002075931446913,0.0056008301887344,0.0001448323905946338
+420,Homoserine,Galactose,,E. coli,SINTEF-23,,,
+421,Homoserine,L-malate,,E. coli,SINTEF-23,,,
+422,Homoserine,L-alanine,,E. coli,SINTEF-23,,,
+423,Homoserine,Glucose,0.000111140228376,E. coli,Paczia-13,5.003405520352499e-06,0.000444560913504,1.3238930646357284e-05
+426,Hydroxyphenyllactate,Galactose,,E. coli,SINTEF-23,,,
+427,Hydroxyphenyllactate,L-malate,,E. coli,SINTEF-23,,,
+428,Hydroxyphenyllactate,L-alanine,,E. coli,SINTEF-23,,,
+429,Hypoxanthine,Galactose,,E. coli,SINTEF-23,,,
+430,Hypoxanthine,L-malate,,E. coli,SINTEF-23,,,
+431,Hypoxanthine,L-alanine,,E. coli,SINTEF-23,,,
+432,Inosine,Galactose,,E. coli,SINTEF-23,,,
+433,Inosine,L-malate,,E. coli,SINTEF-23,,,
+434,Inosine,L-alanine,,E. coli,SINTEF-23,,,
+435,Isocitrate,Galactose,4.324173436473357e-05,E. coli,SINTEF-23,1.719485047236147e-05,0.0002594504061884014,8.17699899585081e-06
+436,Isocitrate,L-malate,0.00097224264302,E. coli,SINTEF-23,0.0001126050051381,0.00583345585812,0.00018385079212228912
+437,Isocitrate,L-alanine,0.0006959753687172,E. coli,SINTEF-23,5.963313509199155e-05,0.0041758522123032,0.00013160873343181194
+438,Isocitrate,Glucose,0.0011373945039967,E. coli,Paczia-13,3.930593026472414e-05,0.006824367023980199,0.0002150809594874248
+440,Isoleucine,Galactose,-1.3247284293248264e-05,E. coli,SINTEF-23,4.1429196520266454e-06,-7.948370575948958e-05,-1.7376849628155108e-06
+441,Isoleucine,L-malate,-6.360339202932218e-05,E. coli,SINTEF-23,1.9975952187943013e-05,-0.0003816203521759331,-8.343042654390915e-06
+442,Isoleucine,L-alanine,0.0004757879917272,E. coli,SINTEF-23,0.0001163842823947,0.0028547279503632,6.241050017579266e-05
+443,Isoleucine,Glucose,6.574863343863602e-05,E. coli,Paczia-13,2.861466041033785e-06,0.0003944918006318161,8.624440234155527e-06
+446,Isovalerylcarnitine (c5/ic5),Galactose,,E. coli,SINTEF-23,,,
+447,Isovalerylcarnitine (c5/ic5),L-malate,,E. coli,SINTEF-23,,,
+448,Isovalerylcarnitine (c5/ic5),L-alanine,,E. coli,SINTEF-23,,,
+449,Kynurenate,Galactose,,E. coli,SINTEF-23,,,
+450,Kynurenate,L-malate,,E. coli,SINTEF-23,,,
+451,Kynurenate,L-alanine,,E. coli,SINTEF-23,,,
+452,Lactate,Galactose,-0.0001574116795548,E. coli,SINTEF-23,0.0001488453447022,-0.0004722350386644,-1.4020658297946036e-05
+453,Lactate,L-malate,0.0004045855227541,E. coli,SINTEF-23,0.0005916464909173,0.0012137565682623,3.603643251170768e-05
+454,Lactate,L-alanine,0.0003714299501629,E. coli,SINTEF-23,0.0002603006123042,0.0011142898504887,3.30832656610095e-05
+462,Leucine,Galactose,8.521009805714772e-05,E. coli,SINTEF-23,5.517440135045256e-05,0.0005112605883428863,1.1177257375642391e-05
+463,Leucine,L-malate,5.3718661800049125e-05,E. coli,SINTEF-23,6.415498854425805e-06,0.00032231197080029474,7.046433726804899e-06
+464,Leucine,L-alanine,8.086757910605357e-05,E. coli,SINTEF-23,9.478473647857492e-05,0.0004852054746363214,1.0607636484672034e-05
+465,Leucine,Glucose,6.353027333903078e-05,E. coli,Paczia-13,3.571997805753534e-06,0.0003811816400341847,8.333451462278817e-06
+468,Lysine,Galactose,0.0001000602778115,E. coli,SINTEF-23,0.0001550442043273,0.000600361666869,1.472842262260265e-05
+469,Lysine,L-malate,,E. coli,SINTEF-23,,,
+470,Lysine,L-alanine,-0.0031079362678179,E. coli,SINTEF-23,0.0008453458224754,-0.0186476176069074,-0.00045747423290958976
+473,Malate,Galactose,0.000202909461231,E. coli,SINTEF-23,0.0002898936075936,0.000811637844924,2.6798569083537692e-05
+474,Malate,L-malate,-16.505573637017203,E. coli,SINTEF-23,1.1085374712367562,-66.02229454806881,-2.179916858935736
+475,Malate,L-alanine,0.0011053227098385,E. coli,SINTEF-23,0.0005612605437161,0.004421290839354,0.00014598169459179806
+476,Malonylcarnitine (c3:dc),Galactose,,E. coli,SINTEF-23,,,
+477,Malonylcarnitine (c3:dc),L-malate,,E. coli,SINTEF-23,,,
+478,Malonylcarnitine (c3:dc),L-alanine,,E. coli,SINTEF-23,,,
+479,Metanephrine,Galactose,,E. coli,SINTEF-23,,,
+480,Metanephrine,L-malate,,E. coli,SINTEF-23,,,
+481,Metanephrine,L-alanine,,E. coli,SINTEF-23,,,
+482,Methionine,Galactose,3.4297833023755024e-06,E. coli,SINTEF-23,4.6963789456042765e-06,1.7148916511877512e-05,5.117625624570739e-07
+483,Methionine,L-malate,2.6751163367459648e-05,E. coli,SINTEF-23,1.4458360610245969e-05,0.00013375581683729824,3.9915769326175664e-06
+484,Methionine,L-alanine,1.6246111072901327e-05,E. coli,SINTEF-23,6.105613584581524e-06,8.123055536450664e-05,2.424104002976445e-06
+485,Methionine,Glucose,1.2369073857577402e-05,E. coli,Paczia-13,8.498375210008457e-07,6.184536928788701e-05,1.8456060848480934e-06
+509,Methylglutarate,Galactose,,E. coli,SINTEF-23,,,
+510,Methylglutarate,L-malate,,E. coli,SINTEF-23,,,
+511,Methylglutarate,L-alanine,,E. coli,SINTEF-23,,,
+512,Methylguanidine,Galactose,,E. coli,SINTEF-23,,,
+513,Methylguanidine,L-malate,,E. coli,SINTEF-23,,,
+514,Methylguanidine,L-alanine,,E. coli,SINTEF-23,,,
+515,Methylthioadenosine,Galactose,,E. coli,SINTEF-23,,,
+516,Methylthioadenosine,L-malate,,E. coli,SINTEF-23,,,
+517,Methylthioadenosine,L-alanine,,E. coli,SINTEF-23,,,
+518,N-acetylalanine,Galactose,,E. coli,SINTEF-23,,,
+519,N-acetylalanine,L-malate,,E. coli,SINTEF-23,,,
+520,N-acetylalanine,L-alanine,,E. coli,SINTEF-23,,,
+521,N-acetylglutamate,Galactose,,E. coli,SINTEF-23,,,
+522,N-acetylglutamate,L-malate,,E. coli,SINTEF-23,,,
+523,N-acetylglutamate,L-alanine,,E. coli,SINTEF-23,,,
+524,N-acetylleucine,Galactose,,E. coli,SINTEF-23,,,
+525,N-acetylleucine,L-malate,,E. coli,SINTEF-23,,,
+526,N-acetylleucine,L-alanine,,E. coli,SINTEF-23,,,
+527,N-acetylphenylalanine,Galactose,,E. coli,SINTEF-23,,,
+528,N-acetylphenylalanine,L-malate,,E. coli,SINTEF-23,,,
+529,N-acetylphenylalanine,L-alanine,,E. coli,SINTEF-23,,,
+530,N-acetylputrescine,Galactose,,E. coli,SINTEF-23,,,
+531,N-acetylputrescine,L-malate,,E. coli,SINTEF-23,,,
+532,N-acetylputrescine,L-alanine,,E. coli,SINTEF-23,,,
+533,N-acetylserine,Galactose,,E. coli,SINTEF-23,,,
+534,N-acetylserine,L-malate,,E. coli,SINTEF-23,,,
+535,N-acetylserine,L-alanine,,E. coli,SINTEF-23,,,
+536,N-alpha-acetyllysine,Galactose,,E. coli,SINTEF-23,,,
+537,N-alpha-acetyllysine,L-malate,,E. coli,SINTEF-23,,,
+538,N-alpha-acetyllysine,L-alanine,,E. coli,SINTEF-23,,,
+539,NAD,Galactose,1.0128878631752534e-05,E. coli,SINTEF-23,5.5666095308638235e-06,0.00021270645126680323,6.709543037487957e-06
+540,NAD,L-malate,6.6810901388295255e-06,E. coli,SINTEF-23,5.1538623281905964e-06,0.00014030289291542004,4.425668768829641e-06
+541,NAD,L-alanine,-8.906082192125148e-06,E. coli,SINTEF-23,7.478924120218408e-06,-0.00018702772603462813,-5.89954169024628e-06
+542,Nicotinamide,Galactose,,E. coli,SINTEF-23,,,
+543,Nicotinamide,L-malate,,E. coli,SINTEF-23,,,
+544,Nicotinamide,L-alanine,,E. coli,SINTEF-23,,,
+545,Nicotinate,Galactose,,E. coli,SINTEF-23,,,
+546,Nicotinate,L-malate,,E. coli,SINTEF-23,,,
+547,Nicotinate,L-alanine,,E. coli,SINTEF-23,,,
+548,O-acetylserine,Galactose,,E. coli,SINTEF-23,,,
+549,O-acetylserine,L-malate,,E. coli,SINTEF-23,,,
+550,O-acetylserine,L-alanine,,E. coli,SINTEF-23,,,
+551,O-succinyl-homoserine,Galactose,,E. coli,SINTEF-23,,,
+552,O-succinyl-homoserine,L-malate,,E. coli,SINTEF-23,,,
+553,O-succinyl-homoserine,L-alanine,,E. coli,SINTEF-23,,,
+554,Ophthalmate,Galactose,,E. coli,SINTEF-23,,,
+555,Ophthalmate,L-malate,,E. coli,SINTEF-23,,,
+556,Ophthalmate,L-alanine,,E. coli,SINTEF-23,,,
+557,Orotate,Galactose,,E. coli,SINTEF-23,,,
+558,Orotate,L-malate,,E. coli,SINTEF-23,,,
+559,Orotate,L-alanine,,E. coli,SINTEF-23,,,
+560,Orotate,Glucose,0.1174873575842236,E. coli,Paczia-13,0.0080188620214602,0.587436787921118,0.0182209169089765
+563,Oxaloacetate,Glucose,0.0003189150030846,E. coli,Paczia-13,5.189960843045336e-05,0.0012756600123384,4.147670758836975e-05
+564,Oxoproline,Galactose,,E. coli,SINTEF-23,,,
+565,Oxoproline,L-malate,,E. coli,SINTEF-23,,,
+566,Oxoproline,L-alanine,,E. coli,SINTEF-23,,,
+567,P-hydroxyphenylacetate,Galactose,,E. coli,SINTEF-23,,,
+568,P-hydroxyphenylacetate,L-malate,,E. coli,SINTEF-23,,,
+569,P-hydroxyphenylacetate,L-alanine,,E. coli,SINTEF-23,,,
+570,Pantothenate,Galactose,,E. coli,SINTEF-23,,,
+571,Pantothenate,L-malate,,E. coli,SINTEF-23,,,
+572,Pantothenate,L-alanine,,E. coli,SINTEF-23,,,
+573,Phenylacetaldehyde,Galactose,,E. coli,SINTEF-23,,,
+574,Phenylacetaldehyde,L-malate,,E. coli,SINTEF-23,,,
+575,Phenylacetaldehyde,L-alanine,,E. coli,SINTEF-23,,,
+576,Phenylalanine,Galactose,1.2177108158589878e-05,E. coli,SINTEF-23,3.1300706636973253e-06,0.0001095939734273089,2.0115260244044456e-06
+577,Phenylalanine,L-malate,1.363297399268134e-05,E. coli,SINTEF-23,4.710674548522922e-06,0.00012269676593413206,2.2520192494933967e-06
+578,Phenylalanine,L-alanine,1.4041800388890892e-05,E. coli,SINTEF-23,5.9840895508096555e-06,0.00012637620350001804,2.3195529302925516e-06
+579,Phenylalanine,Glucose,1.7278650555083446e-05,E. coli,Paczia-13,1.4974062598291824e-06,0.00015550785499575102,2.854245425554757e-06
+582,Phosphoenolpyruvate,Glucose,0.0001992079065286,E. coli,Paczia-13,1.877104139078012e-05,0.0005976237195858,3.2872918407851335e-05
+584,Pipecolic acid,Galactose,4.50316486782669e-06,E. coli,SINTEF-23,1.0365687742671482e-06,,
+585,Pipecolic acid,L-malate,9.02354328522043e-06,E. coli,SINTEF-23,1.0208891859250378e-05,,
+586,Pipecolic acid,L-alanine,1.9262204695207297e-05,E. coli,SINTEF-23,1.9339801190807515e-06,,
+587,Proline,Galactose,3.798474846007428e-06,E. coli,SINTEF-23,3.8483288387222615e-06,1.899237423003714e-05,4.3732015631926433e-07
+588,Proline,L-malate,7.895081779118543e-06,E. coli,SINTEF-23,4.133663780183554e-06,3.9475408895592716e-05,9.089643969675363e-07
+589,Proline,L-alanine,0.0002292960214957,E. coli,SINTEF-23,6.109455054119868e-05,0.0011464801074785001,2.639895643096983e-05
+590,Proline,Glucose,3.0548781357195924e-05,E. coli,Paczia-13,4.968749484875416e-06,0.00015274390678597964,3.517095250093391e-06
+594,Propionate,Galactose,,E. coli,SINTEF-23,,,
+595,Propionate,L-malate,0.0819709654873278,E. coli,SINTEF-23,0.0138580866473435,0.2459128964619834,0.0059896676307383346
+596,Propionate,L-alanine,0.1142596805206377,E. coli,SINTEF-23,0.0148372236050565,0.3427790415619131,0.00834902341145131
+619,Putrescine,Galactose,,E. coli,SINTEF-23,,,
+620,Putrescine,L-malate,,E. coli,SINTEF-23,,,
+621,Putrescine,L-alanine,,E. coli,SINTEF-23,,,
+633,Pyruvate,Galactose,,E. coli,SINTEF-23,,,
+634,Pyruvate,L-malate,0.0579557874565107,E. coli,SINTEF-23,0.0323950754589295,0.1738673623695321,0.005045290075933577
+635,Pyruvate,L-alanine,,E. coli,SINTEF-23,,,
+636,Pyruvate,Glucose,0.5845960167902361,E. coli,Paczia-13,0.0280168968173776,1.7537880503707082,0.05089149179717923
+653,Quinate,Galactose,,E. coli,SINTEF-23,,,
+654,Quinate,L-malate,,E. coli,SINTEF-23,,,
+655,Quinate,L-alanine,,E. coli,SINTEF-23,,,
+656,Ribose-5-phosphate,Glucose,0.0002760278398864,E. coli,Paczia-13,1.8089337318432788e-05,0.0013801391994319998,6.296027230484917e-05
+659,Ribulose-5-phosphate,Glucose,6.441220288905058e-05,E. coli,Paczia-13,5.120836186872538e-06,0.0003220610144452529,1.4692031917211074e-05
+662,S-adenosylhomocysteine,Galactose,,E. coli,SINTEF-23,,,
+663,S-adenosylhomocysteine,L-malate,,E. coli,SINTEF-23,,,
+664,S-adenosylhomocysteine,L-alanine,,E. coli,SINTEF-23,,,
+665,S-adenosylmethionine,Galactose,,E. coli,SINTEF-23,,,
+666,S-adenosylmethionine,L-malate,,E. coli,SINTEF-23,,,
+667,S-adenosylmethionine,L-alanine,,E. coli,SINTEF-23,,,
+668,Salicylate,Galactose,,E. coli,SINTEF-23,,,
+669,Salicylate,L-malate,,E. coli,SINTEF-23,,,
+670,Salicylate,L-alanine,,E. coli,SINTEF-23,,,
+671,Sebacoyl-l-carnitine,Galactose,1.7689465610756607e-06,E. coli,SINTEF-23,4.3314528353783875e-06,,
+672,Sebacoyl-l-carnitine,L-malate,-8.52483827331007e-07,E. coli,SINTEF-23,7.775330211818929e-06,,
+673,Sebacoyl-l-carnitine,L-alanine,-6.602403041745538e-06,E. coli,SINTEF-23,8.236564359811227e-06,,
+675,Serine,Galactose,,E. coli,SINTEF-23,,,
+676,Serine,L-malate,0.0016683711545459,E. coli,SINTEF-23,0.0004423859247972,0.0050051134636377,0.00017533342902880736
+677,Serine,L-alanine,0.0004324756204459,E. coli,SINTEF-23,0.0001655268163612,0.0012974268613377,4.544997873976038e-05
+678,Serine,Glucose,1.2143358869049868e-05,E. coli,Paczia-13,2.556147317414283e-06,3.64300766071496e-05,1.2761769134143327e-06
+693,Stearoylcarnitine (c18),Galactose,,E. coli,SINTEF-23,,,
+694,Stearoylcarnitine (c18),L-malate,,E. coli,SINTEF-23,,,
+695,Stearoylcarnitine (c18),L-alanine,,E. coli,SINTEF-23,,,
+696,Succinate,Galactose,0.0183791658781734,E. coli,SINTEF-23,0.0238317159506849,0.0735166635126936,0.0021333094824778835
+697,Succinate,L-malate,-0.1853129193524463,E. coli,SINTEF-23,0.1389357998747534,-0.7412516774097851,-0.021509670825144243
+698,Succinate,L-alanine,0.0055647692992136,E. coli,SINTEF-23,0.0069225331435558,0.0222590771968544,0.0006459147924614088
+725,Thiamine monophosphate,Galactose,,E. coli,SINTEF-23,,,
+726,Thiamine monophosphate,L-malate,,E. coli,SINTEF-23,,,
+727,Thiamine monophosphate,L-alanine,,E. coli,SINTEF-23,,,
+728,Threonine,Galactose,,E. coli,SINTEF-23,,,
+729,Threonine,L-malate,,E. coli,SINTEF-23,,,
+730,Threonine,L-alanine,,E. coli,SINTEF-23,,,
+731,Threonine,Glucose,0.0001068174699021,E. coli,Paczia-13,7.390987958884974e-06,0.0004272698796084,1.2724007288063433e-05
+733,Thymine,Galactose,,E. coli,SINTEF-23,,,
+734,Thymine,L-malate,,E. coli,SINTEF-23,,,
+735,Thymine,L-alanine,,E. coli,SINTEF-23,,,
+736,Trans-aconitate,Galactose,5.562698919226019e-06,E. coli,SINTEF-23,7.409493269105592e-07,3.337619351535611e-05,9.516911182304103e-07
+737,Trans-aconitate,L-malate,1.2322667056276784e-05,E. coli,SINTEF-23,2.2376153971769514e-06,7.39360023376607e-05,2.108216346176221e-06
+738,Trans-aconitate,L-alanine,2.1347825932737253e-05,E. coli,SINTEF-23,5.224154205574185e-06,0.00012808695559642352,3.652280417963312e-06
+739,Trigonelline,Galactose,,E. coli,SINTEF-23,,,
+740,Trigonelline,L-malate,,E. coli,SINTEF-23,,,
+741,Trigonelline,L-alanine,,E. coli,SINTEF-23,,,
+742,Trimethylamine,Galactose,,E. coli,SINTEF-23,,,
+743,Trimethylamine,L-malate,,E. coli,SINTEF-23,,,
+744,Trimethylamine,L-alanine,,E. coli,SINTEF-23,,,
+745,Tryptophan,Glucose,2.055161141422716e-05,E. coli,Paczia-13,1.3931494548436595e-06,0.00022606772555649877,4.197156540360596e-06
+747,Tyramine,Galactose,,E. coli,SINTEF-23,,,
+748,Tyramine,L-malate,,E. coli,SINTEF-23,,,
+749,Tyramine,L-alanine,,E. coli,SINTEF-23,,,
+750,Tyrosine,Galactose,,E. coli,SINTEF-23,,,
+751,Tyrosine,L-malate,,E. coli,SINTEF-23,,,
+752,Tyrosine,L-alanine,3.280663263925048e-05,E. coli,SINTEF-23,2.485236405518526e-05,0.0002952596937532543,5.944185870222141e-06
+753,Tyrosine,Glucose,1.1653593475313149e-05,E. coli,Paczia-13,8.085399525156322e-07,0.00010488234127781833,2.1114975875455153e-06
+756,Uracil,Galactose,,E. coli,SINTEF-23,,,
+757,Uracil,L-malate,,E. coli,SINTEF-23,,,
+758,Uracil,L-alanine,,E. coli,SINTEF-23,,,
+759,Uracil,Glucose,0.0131415648985356,E. coli,Paczia-13,0.0027787213490176,0.0525662595941424,0.0014729954308065841
+762,Ureidopropionate,Galactose,,E. coli,SINTEF-23,,,
+763,Ureidopropionate,L-malate,,E. coli,SINTEF-23,,,
+764,Ureidopropionate,L-alanine,,E. coli,SINTEF-23,,,
+765,Uridine diphosphate hexose,Galactose,,E. coli,SINTEF-23,,,
+766,Uridine diphosphate hexose,L-malate,,E. coli,SINTEF-23,,,
+767,Uridine diphosphate hexose,L-alanine,,E. coli,SINTEF-23,,,
+768,Uridine monophosphate,Galactose,,E. coli,SINTEF-23,,,
+769,Uridine monophosphate,L-malate,,E. coli,SINTEF-23,,,
+770,Uridine monophosphate,L-alanine,,E. coli,SINTEF-23,,,
+771,Urocanate,Galactose,,E. coli,SINTEF-23,,,
+772,Urocanate,L-malate,,E. coli,SINTEF-23,,,
+773,Urocanate,L-alanine,,E. coli,SINTEF-23,,,
+796,Valine,Galactose,2.2405885573628385e-06,E. coli,SINTEF-23,8.643821351116012e-06,1.1202942786814193e-05,2.624767489409366e-07
+797,Valine,L-malate,,E. coli,SINTEF-23,,,
+798,Valine,L-alanine,-0.0004579203667387,E. coli,SINTEF-23,0.0004524236614816,-0.0022896018336935,-5.364369497489644e-05
+799,Valine,Glucose,6.091824542702503e-05,E. coli,Paczia-13,3.5803213943023236e-06,0.00030459122713512516,7.13634949099772e-06
+808,Xanthine,Galactose,,E. coli,SINTEF-23,,,
+809,Xanthine,L-malate,,E. coli,SINTEF-23,,,
+810,Xanthine,L-alanine,,E. coli,SINTEF-23,,,
+811,Xanthosine,Galactose,,E. coli,SINTEF-23,,,
+812,Xanthosine,L-malate,,E. coli,SINTEF-23,,,
+813,Xanthosine,L-alanine,,E. coli,SINTEF-23,,,
+814,Xylulose-5-phosphate,Glucose,6.441220288905058e-05,E. coli,Paczia-13,5.120836186872538e-06,0.0003220610144452529,1.4692031917211074e-05
+817,cAMP,Galactose,,E. coli,SINTEF-23,,,
+818,cAMP,L-malate,,E. coli,SINTEF-23,,,
+819,cAMP,L-alanine,,E. coli,SINTEF-23,,,
