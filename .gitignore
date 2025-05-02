@@ -171,3 +171,4 @@ code/meta_sequencing/.snakemake/
 # Cluster logs
 code/isolate_sequncing/slurm*
 /notebooks/archive
+/Figures
