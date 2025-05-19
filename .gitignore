@@ -172,3 +172,5 @@ code/meta_sequencing/.snakemake/
 code/isolate_sequncing/slurm*
 /notebooks/archive
 /Figures
+data/fuhrer_2017/zscore_neg.tsv
+data/fuhrer_2017/zscore_pos.tsv
