@@ -1,0 +1,25 @@
+,Timepoint,Tube label,Full medium,Medium short,Common sample ID,Hours after inoculation,OD at sampling
+0,1,1A,M9 20 mM Galactose,Gal,1A-Gal-T1,2,0.034
+1,1,1B,M9 20 mM Galactose,Gal,1B-Gal-T1,2,0.03
+2,1,1C,M9 20 mM Galactose,Gal,1C-Gal-T1,2,0.032
+3,1,1D,M9 20 mM Galactose,Gal,1D-Gal-T1,2,0.033
+4,1,2A,M9 30 mM L-malic acid,Mal,2A-Mal-T1,2,0.022
+5,1,2B,M9 30 mM L-malic acid,Mal,2B-Mal-T1,2,0.02
+6,1,2C,M9 30 mM L-malic acid,Mal,2C-Mal-T1,2,0.02
+7,1,2D,M9 30 mM L-malic acid,Mal,2D-Mal-T1,2,0.023
+8,1,3A,M9 40 mM L-alanine,Ala,3A-Ala-T1,2,0.013
+9,1,3B,M9 40 mM L-alanine,Ala,3B-Ala-T1,2,0.012
+10,1,3C,M9 40 mM L-alanine,Ala,3C-Ala-T1,2,0.013
+11,1,3D,M9 40 mM L-alanine,Ala,3D-Ala-T1,2,0.014
+12,4,1A,M9 20 mM Galactose,Gal,1A-Gal-T4,13,1.22
+13,4,1B,M9 20 mM Galactose,Gal,1B-Gal-T4,13,1.171
+14,4,1C,M9 20 mM Galactose,Gal,1C-Gal-T4,13,1.206
+15,4,1D,M9 20 mM Galactose,Gal,1D-Gal-T4,13,1.212
+16,4,2A,M9 30 mM L-malic acid,Mal,2A-Mal-T4,14,1.091
+17,4,2B,M9 30 mM L-malic acid,Mal,2B-Mal-T4,14,1.092
+18,4,2C,M9 30 mM L-malic acid,Mal,2C-Mal-T4,14,1.114
+19,4,2D,M9 30 mM L-malic acid,Mal,2D-Mal-T4,14,1.109
+20,4,3A,M9 40 mM L-alanine,Ala,3A-Ala-T4,34,1.08
+21,4,3B,M9 40 mM L-alanine,Ala,3B-Ala-T4,34,1.076
+22,4,3C,M9 40 mM L-alanine,Ala,3C-Ala-T4,34,1.046
+23,4,3D,M9 40 mM L-alanine,Ala,3D-Ala-T4,34,1.022

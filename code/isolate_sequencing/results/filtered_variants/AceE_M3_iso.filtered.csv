@@ -1,0 +1,6 @@
+chrom,pos,qual,depth,freq,alt,alt_count,ref,type,len,eff,gene,product,linegroup,sample
+CP009273,696432,7277.51,209,1.0,"Substitution(type_='SNV', value='A')",209,C,snp,1,missense_variant,nagC,N-acetylglucosamine-inducible nag divergent operon transcriptional repressor,CP009273.696432.AceE_M3_iso,AceE_M3_iso
+CP009273,1622605,7981.89,226,1.0,"Substitution(type_='SNV', value='G')",226,A,snp,1,,,,CP009273.1622605.AceE_M3_iso,AceE_M3_iso
+CP009273,1664690,6762.89,192,1.0,"Substitution(type_='SNV', value='C')",192,A,snp,1,synonymous_variant,ynfM,putative arabinose efflux transporter,CP009273.1664690.AceE_M3_iso,AceE_M3_iso
+CP009273,2719426,6251.79,182,1.0,"Substitution(type_='SNV', value='C')",182,T,snp,1,,,,CP009273.2719426.AceE_M3_iso,AceE_M3_iso
+CP009273,3652871,8123.5,230,1.0,"Substitution(type_='SNV', value='A')",230,C,snp,1,missense_variant,mdtE,"anaerobic multidrug efflux transporter, ArcA-regulated",CP009273.3652871.AceE_M3_iso,AceE_M3_iso

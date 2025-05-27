@@ -1,0 +1,7 @@
+chrom,pos,qual,depth,freq,alt,alt_count,ref,type,len,eff,gene,product,linegroup,sample
+CP009273,447145,5191.86,147,1.0,"Substitution(type_='SNV', value='A')",147,C,snp,1,,,,CP009273.447145.SucB_M6_iso,SucB_M6_iso
+CP009273,2719426,5215.55,151,1.0,"Substitution(type_='SNV', value='C')",151,T,snp,1,,,,CP009273.2719426.SucB_M6_iso,SucB_M6_iso
+CP009273,3081560,6450.74,186,1.0,"Substitution(type_='SNV', value='A')",186,C,snp,1,,,,CP009273.3081560.SucB_M6_iso,SucB_M6_iso
+CP009273,3782776,6329.78,179,1.0,"Substitution(type_='SNV', value='A')",179,C,snp,1,synonymous_variant,waaH,LPS(HepIII)-glucuronic acid glycosyltransferase,CP009273.3782776.SucB_M6_iso,SucB_M6_iso
+CP009273,4209467,7773.93,220,1.0,"Substitution(type_='SNV', value='A')",220,C,snp,1,missense_variant,aceK,isocitrate dehydrogenase kinase/phosphatase,CP009273.4209467.SucB_M6_iso,SucB_M6_iso
+CP009273,4538904,7974.41,235,0.9957446808510638,"Substitution(type_='SNV', value='T')",234,G,snp,1,missense_variant,fimH,minor component of type 1 fimbriae,CP009273.4538904.SucB_M6_iso,SucB_M6_iso

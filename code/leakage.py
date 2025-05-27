@@ -4,26 +4,12 @@ import pandas as pd
 from pathlib import Path
 import scipy.stats as st
 import seaborn as sns
-# import leakage
+import reframed
+import cobra
 
 from scipy.interpolate import CubicSpline, UnivariateSpline
 
-"""
-E. coli
-OD to gDW -  multiple values used
-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3663833/ [0.396,0.515]
-- https://www.sciencedirect.com/science/article/pii/S1096717618303537?via%3Dihub 0.32 # 
-"""
 
-b_subtilis_N_per_OD =  2*1e8 #cells per mL at OD660 = 1 https://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&v=4&id=105286
-b_subtilis_weight = 2.2*1e-13 # https://bionumbers.hms.harvard.edu/bionumber.aspx?id=115203&ver=1&trm=bacillus+weight&org=
-
-gDW_per_OD = {
-    'e_coli': 0.32, # gDW/L https://www.sciencedirect.com/science/article/pii/S1096717618303537?via%3Dihub
-    'yeast' : np.mean([0.644, 0.848]),
-    'b_licheniformis': 0.32, # Assume same weight as E.coli (but I think it is bigger -> maybe higher number?), calculation is worng #b_subtilis_weight*b_subtilis_N_per_OD*1000
-    'c_glutamicum': 0.32 #Assume same as E. coli
-}
 
 def get_concentrations(data_folder, organism):
     exometabolites_folder = Path(data_folder)
@@ -273,5 +259,64 @@ def estimate_shadow_prices(model, intracellular_only = True, delta = 0.1, metabo
             old_lb = r.lower_bound
             r.bounds = (old_lb + delta, 1000)
             shadow_prices[m.id] = (model.slim_optimize()-wt_growth_rate)/delta
+    return shadow_prices
+
+
+def estimate_shadow_prices_reframed(model, constraints, intracellular_only = True, delta = 0.01, metabolites = []):
+    intracellular_only = True
+    solution = reframed.FBA(model, constraints=constraints)
+    # Check if metabolite is already being secreted
+
+    wt_growth_rate = solution.fobj
+    shadow_prices = {}
+    if not len(metabolites):
+        metabolites = [m for m in model.metabolites]
+
+    temp = model.copy()
+    for i, m_id in enumerate(metabolites):
+        try:
+            r = temp.reactions[f'DM_{m_id}']
+        except KeyError:
+            temp.add_reaction_from_str(f'DM_{m_id}: {m_id} -->  [0, 0]')
+
+    for i, m_id in enumerate(metabolites):
+        predicted_flux, r_secretion = get_predicted_metabolite_secretion_reframed(model, solution, m_id)
+        # print(i, m_id)
+        m = model.metabolites[m_id]
+        if intracellular_only:
+            if m.compartment != 'c':
+                continue
+        if m.name.startswith('M_prot_'):
+            continue
+        sp_constraints = {f'DM_{m_id}': (delta, 10)}
+        sp_constraints.update(constraints)
+        if predicted_flux != 0:
+            sp_constraints.update({r_secretion:(predicted_flux, predicted_flux)})
+
+        sp_solution = reframed.FBA(temp, constraints=sp_constraints)
+        if isinstance(sp_solution.fobj, float):
+            shadow_prices[m_id] = (sp_solution.fobj-wt_growth_rate)/delta
+        else:
+            shadow_prices[m_id] = np.nan
+        
+    return shadow_prices
+
+
+def get_predicted_metabolite_secretion_reframed(model, solution, m_id):
+    mc_name = model.metabolites[m_id].name.split(" ")[0]
+    predicted_flux = 0
+    r_id = None
+    for r_id in model.get_exchange_reactions():
+        flux = solution.values[r_id]
+        r = model.reactions[r_id]
+        if  np.abs(flux) >1e-3:
+            # print(r_id, r.name, flux, r.lb, r.ub)
+            me_id = r.get_substrates()
+            if len(me_id):
+                me_name = model.metabolites[me_id[0]].name.split(' ')[0]
+                if me_name == mc_name:
+                    predicted_flux = flux
+                    break
+    return predicted_flux, r_id
         
     return shadow_prices

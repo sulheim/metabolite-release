@@ -1,0 +1,274 @@
+,sample,pos,chrom,gene,freq,type,len,eff,product
+0,AceE_M2_iso,904878,CP009273,poxB,0.9953271028037384,snp,1,missense_variant,"pyruvate dehydrogenase (pyruvate oxidase), thiamine triphosphate-binding, FAD-binding"
+3,AceE_M2_iso,2235029,CP009273,galS,1.0,snp,1,missense_variant,galactose- and fucose-inducible galactose regulon transcriptional isorepressor; mgl operon transcriptional repressor; autorepressor
+5,AceE_M2_iso,3528650,CP009273,envZ,1.0,snp,1,missense_variant,sensory histidine kinase in two-component regulatory system with OmpR
+6,AceE_M2_iso,3574489,CP009273,,1.0,snp,1,,
+0,AceE_M3_iso,696432,CP009273,nagC,1.0,snp,1,missense_variant,N-acetylglucosamine-inducible nag divergent operon transcriptional repressor
+4,AceE_M3_iso,3652871,CP009273,mdtE,1.0,snp,1,missense_variant,"anaerobic multidrug efflux transporter, ArcA-regulated"
+0,AceE_M4_iso,1455,CP009273,thrA,1.0,snp,1,synonymous_variant,Bifunctional aspartokinase/homoserine dehydrogenase 1
+1,AceE_M4_iso,2297,CP009273,thrA,1.0,snp,1,missense_variant,Bifunctional aspartokinase/homoserine dehydrogenase 1
+2,AceE_M4_iso,9100,CP009273,talB,1.0,snp,1,missense_variant,transaldolase B
+3,AceE_M4_iso,9125,CP009273,talB,1.0,snp,1,synonymous_variant,transaldolase B
+4,AceE_M4_iso,22360,CP009273,,0.995967741935484,snp,1,,
+5,AceE_M4_iso,27823,CP009273,rihC,0.9927536231884058,snp,1,synonymous_variant,ribonucleoside hydrolase 3
+6,AceE_M4_iso,64494,CP009273,polB,1.0,snp,1,synonymous_variant,DNA polymerase II
+7,AceE_M4_iso,67812,CP009273,,0.99609375,snp,1,,
+8,AceE_M4_iso,83578,CP009273,ilvI,0.99625468164794,snp,1,missense_variant,acetolactate synthase 3 large subunit
+9,AceE_M4_iso,88507,CP009273,ftsI,1.0,snp,1,missense_variant,transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3)
+10,AceE_M4_iso,107669,CP009273,mutT,1.0,snp,1,missense_variant,"nucleoside triphosphate pyrophosphohydrolase, marked preference for dGTP"
+11,AceE_M4_iso,117970,CP009273,aroP,1.0,snp,1,synonymous_variant,aromatic amino acid transporter
+12,AceE_M4_iso,147600,CP009273,yadK,0.9963503649635036,snp,1,missense_variant,putative fimbrial-like adhesin protein
+13,AceE_M4_iso,188232,CP009273,,1.0,snp,1,,
+14,AceE_M4_iso,192761,CP009273,cdsA,1.0,snp,1,missense_variant,CDP-diglyceride synthase
+15,AceE_M4_iso,203801,CP009273,dnaE,1.0,snp,1,missense_variant,DNA polymerase III alpha subunit
+16,AceE_M4_iso,205263,CP009273,accA,1.0,snp,1,synonymous_variant,"acetyl-CoA carboxylase, carboxytransferase, alpha subunit"
+17,AceE_M4_iso,215599,CP009273,tsaA,1.0,snp,1,missense_variant,"tRNA-Thr(GGU) m(6)t(6)A37 methyltransferase, SAM-dependent"
+18,AceE_M4_iso,232593,CP009273,dnaQ,1.0,snp,1,missense_variant,DNA polymerase III epsilon subunit
+19,AceE_M4_iso,267783,CP009273,insN,1.0,snp,1,synonymous_variant,
+20,AceE_M4_iso,310401,CP009273,eaeH,1.0,snp,1,missense_variant,
+21,AceE_M4_iso,313830,CP009273,rclC,1.0,snp,1,synonymous_variant,reactive chlorine species (RCS) stress resistance inner membrane protein
+22,AceE_M4_iso,324027,CP009273,betB,1.0,snp,1,missense_variant,"betaine aldehyde dehydrogenase, NAD-dependent"
+23,AceE_M4_iso,336416,CP009273,yahI,0.996415770609319,snp,1,missense_variant,carbamate kinase-like protein
+24,AceE_M4_iso,345045,CP009273,prpB,1.0,snp,1,missense_variant,2-methylisocitrate lyase
+25,AceE_M4_iso,356163,CP009273,cynX,1.0,snp,1,missense_variant,putative cyanate transporter
+26,AceE_M4_iso,379298,CP009273,yaiP,1.0,snp,1,missense_variant,putative family 2 glycosyltransferase
+27,AceE_M4_iso,392294,CP009273,sbmA,1.0,snp,1,missense_variant,microcin B17 transporter
+28,AceE_M4_iso,406407,CP009273,mak,1.0,snp,1,stop_gained,manno(fructo)kinase
+29,AceE_M4_iso,438265,CP009273,thiI,1.0,snp,1,missense_variant,tRNA s(4)U8 sulfurtransferase
+30,AceE_M4_iso,462390,CP009273,ybaE,1.0,del,1,frameshift_variant,putative ABC superfamily transporter periplasmic-binding protein
+31,AceE_M4_iso,496845,CP009273,gsk,1.0,snp,1,missense_variant,inosine/guanosine kinase
+32,AceE_M4_iso,509739,CP009273,cueR,1.0,snp,1,missense_variant,copper-responsive regulon transcriptional regulator
+33,AceE_M4_iso,533606,CP009273,ybbW,0.9955156950672646,snp,1,missense_variant,putative allantoin transporter
+34,AceE_M4_iso,539239,CP009273,allE,1.0,snp,1,synonymous_variant,S-ureidoglycine aminohydrolase
+35,AceE_M4_iso,540908,CP009273,allD,1.0,snp,1,synonymous_variant,ureidoglycolate dehydrogenase
+36,AceE_M4_iso,552650,CP009273,folD,1.0,snp,1,missense_variant,"bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/ 5,10-methylene-tetrahydrofolate cyclohydrolase"
+37,AceE_M4_iso,555816,CP009273,sfmD,1.0,snp,1,missense_variant,
+38,AceE_M4_iso,562124,CP009273,peaD,0.9954545454545456,snp,1,missense_variant,
+39,AceE_M4_iso,573574,CP009273,rzpD,1.0,snp,1,synonymous_variant,DLP12 prophage; putative murein endopeptidase
+40,AceE_M4_iso,580161,CP009273,ompT,1.0,snp,1,missense_variant,DLP12 prophage; outer membrane protease VII (outer membrane protein 3b)
+41,AceE_M4_iso,581129,CP009273,,0.9897959183673468,del,1,,
+42,AceE_M4_iso,581325,CP009273,,1.0,snp,1,,
+43,AceE_M4_iso,593892,CP009273,cusB,1.0,snp,1,missense_variant,"copper/silver efflux system, membrane fusion protein"
+44,AceE_M4_iso,600341,CP009273,nfsB,0.9953917050691244,snp,1,missense_variant,"dihydropteridine reductase, NAD(P)H-dependent, oxygen-insensitive"
+45,AceE_M4_iso,601826,CP009273,ybdK,1.0,snp,1,synonymous_variant,weak gamma-glutamyl:cysteine ligase
+46,AceE_M4_iso,637509,CP009273,,1.0,snp,1,,
+47,AceE_M4_iso,644803,CP009273,citF,1.0,snp,1,synonymous_variant,"citrate lyase, citrate-ACP transferase (alpha) subunit"
+48,AceE_M4_iso,678686,CP009273,hscC,1.0,snp,1,missense_variant,"Hsp70 family chaperone Hsc62, binds to RpoD and inhibits transcription"
+49,AceE_M4_iso,696861,CP009273,nagC,1.0,snp,1,stop_gained,N-acetylglucosamine-inducible nag divergent operon transcriptional repressor
+50,AceE_M4_iso,702594,CP009273,glnS,1.0,snp,1,missense_variant,glutamyl-tRNA synthetase
+51,AceE_M4_iso,721662,CP009273,kdpB,1.0,snp,1,synonymous_variant,"potassium translocating ATPase, subunit B"
+52,AceE_M4_iso,722821,CP009273,kdpA,1.0,snp,1,synonymous_variant,"potassium translocating ATPase, subunit A"
+53,AceE_M4_iso,736269,CP009273,phr,1.0,snp,1,missense_variant,"deoxyribodipyrimidine photolyase, FAD-binding"
+54,AceE_M4_iso,761607,CP009273,mngA,1.0,snp,1,synonymous_variant,fused 2-O-a-mannosyl-D-glycerate specific PTS enzymes: IIA component/IIB component/IIC component
+55,AceE_M4_iso,823880,CP009273,ybhF,1.0,snp,1,synonymous_variant,putative transporter subunit of ABC superfamily: ATP-binding component
+56,AceE_M4_iso,856256,CP009273,ybiW,1.0,snp,1,missense_variant,putative pyruvate formate lyase
+57,AceE_M4_iso,857049,CP009273,ybiW,0.9955947136563876,snp,1,synonymous_variant,putative pyruvate formate lyase
+58,AceE_M4_iso,869113,CP009273,yliE,1.0,snp,1,missense_variant,putative membrane-anchored cyclic-di-GMP phosphodiesterase
+59,AceE_M4_iso,923742,CP009273,cydC,1.0,snp,1,missense_variant,"fused glutathione, cysteine exporter subunits of ABC superfamily: membrane component/ATP-binding component"
+60,AceE_M4_iso,933509,CP009273,rarA,1.0,snp,1,missense_variant,DNA-dependent ATPase involved in processing recombination intermediates at replication forks
+61,AceE_M4_iso,960387,CP009273,ycaI,1.0,snp,1,synonymous_variant,ComEC family inner membrane protein
+62,AceE_M4_iso,977328,CP009273,ldtD,0.9957446808510638,snp,1,missense_variant,"murein L,D-transpeptidase"
+63,AceE_M4_iso,984871,CP009273,pncB,1.0,snp,1,synonymous_variant,nicotinate phosphoribosyltransferase
+64,AceE_M4_iso,987651,CP009273,pepN,1.0,snp,1,missense_variant,aminopeptidase N
+65,AceE_M4_iso,1015521,CP009273,,1.0,snp,1,,
+66,AceE_M4_iso,1019949,CP009273,helD,0.9846743295019156,snp,1,missense_variant,DNA helicase IV
+67,AceE_M4_iso,1023739,CP009273,yccU,1.0,snp,1,missense_variant,putative CoA-binding protein
+68,AceE_M4_iso,1024480,CP009273,rlmI,1.0,snp,1,missense_variant,"23S rRNA m(5)C1962 methyltransferase, SAM-dependent"
+69,AceE_M4_iso,1097837,CP009273,csgE,0.9955357142857144,snp,1,missense_variant,curlin secretion specificity factor
+70,AceE_M4_iso,1108750,CP009273,opgH,0.9959839357429718,snp,1,missense_variant,"membrane glycosyltransferase; nutrient-dependent cell size regulator, FtsZ assembly antagonist"
+71,AceE_M4_iso,1120870,CP009273,,1.0,snp,1,,
+72,AceE_M4_iso,1142576,CP009273,yceD,1.0,snp,1,synonymous_variant,DUF177 family protein
+73,AceE_M4_iso,1186402,CP009273,purB,1.0,snp,1,synonymous_variant,adenylosuccinate lyase
+74,AceE_M4_iso,1206046,CP009273,mcrA,1.0,snp,1,missense_variant,putative 5-methylcytosine/5-hydroxymethylcytosine-specific restriction nuclease; 5-methylcytosine DNA binding protein; e14 prophage gene
+75,AceE_M4_iso,1217296,CP009273,ycgH,1.0,snp,1,missense_variant,
+76,AceE_M4_iso,1233372,CP009273,dadA,0.99609375,snp,1,missense_variant,D-amino acid dehydrogenase
+77,AceE_M4_iso,1274030,CP009273,narK,0.9954954954954957,del,1,frameshift_variant,nitrate/nitrite transporter
+78,AceE_M4_iso,1308962,CP009273,,1.0,snp,1,,
+79,AceE_M4_iso,1349568,CP009273,sapB,0.992337164750958,snp,1,missense_variant,antimicrobial peptide transport ABC transporter permease
+80,AceE_M4_iso,1350768,CP009273,sapA,1.0,snp,1,missense_variant,antimicrobial peptide transport ABC transporter periplasmic binding protein
+81,AceE_M4_iso,1371174,CP009273,ycjS,0.9956709956709956,snp,1,missense_variant,putative NADH-binding oxidoreductase
+82,AceE_M4_iso,1436496,CP009273,ldhA,0.9911894273127754,snp,1,missense_variant,"fermentative D-lactate dehydrogenase, NAD-dependent"
+83,AceE_M4_iso,1436705,CP009273,ldhA,1.0,snp,1,missense_variant,"fermentative D-lactate dehydrogenase, NAD-dependent"
+84,AceE_M4_iso,1483183,CP009273,aldA,1.0,snp,1,missense_variant,"aldehyde dehydrogenase A, NAD-linked"
+85,AceE_M4_iso,1494040,CP009273,ydcK,1.0,snp,1,missense_variant,uncharacterized protein
+86,AceE_M4_iso,1503215,CP009273,yncJ,1.0,snp,1,missense_variant,uncharacterized protein
+87,AceE_M4_iso,1526809,CP009273,ydcC,1.0,snp,1,missense_variant,H repeat-associated putative transposase
+88,AceE_M4_iso,1537604,CP009273,narU,1.0,snp,1,synonymous_variant,nitrate/nitrite transporter
+89,AceE_M4_iso,1539351,CP009273,yddK,1.0,snp,1,synonymous_variant,
+90,AceE_M4_iso,1566263,CP009273,gadB,1.0,snp,1,missense_variant,"glutamate decarboxylase B, PLP-dependent"
+91,AceE_M4_iso,1576415,CP009273,ydeN,1.0,snp,1,missense_variant,putative Ser-type periplasmic non-aryl sulfatase
+92,AceE_M4_iso,1582473,CP009273,ydeR,1.0,snp,1,synonymous_variant,putative fimbrial-like adhesin protein
+93,AceE_M4_iso,1583141,CP009273,ydeT,1.0,snp,1,stop_gained,
+94,AceE_M4_iso,1592506,CP009273,,1.0,snp,1,,
+95,AceE_M4_iso,1604713,CP009273,uxaB,0.9959016393442623,snp,1,synonymous_variant,"altronate oxidoreductase, NAD-dependent"
+97,AceE_M4_iso,1626172,CP009273,ydfJ,1.0,snp,1,missense_variant,
+98,AceE_M4_iso,1642667,CP009273,ydfJ,1.0,snp,1,intron_variant,
+99,AceE_M4_iso,1649642,CP009273,ynfA,1.0,snp,1,missense_variant,UPF0060 family inner membrane protein
+101,AceE_M4_iso,1669505,CP009273,pntB,0.9957627118644068,snp,1,missense_variant,"pyridine nucleotide transhydrogenase, beta subunit"
+102,AceE_M4_iso,1685376,CP009273,ydgA,1.0,snp,1,missense_variant,DUF945 family protein
+103,AceE_M4_iso,1696366,CP009273,malY,1.0,snp,1,missense_variant,"bifunctional beta-cystathionase, PLP-dependent/ regulator of maltose regulon"
+104,AceE_M4_iso,1698782,CP009273,,1.0,snp,1,,
+105,AceE_M4_iso,1720380,CP009273,nemR,1.0,snp,1,stop_gained,"transcriptional repressor for the nemRA-gloA operon, quinone-, glyoxal-, and HOCl-activated"
+106,AceE_M4_iso,1725360,CP009273,lhr,1.0,snp,1,missense_variant,putative ATP-dependent helicase
+107,AceE_M4_iso,1736014,CP009273,cfa,1.0,snp,1,synonymous_variant,cyclopropane fatty acyl phospholipid synthase (unsaturated-phospholipid methyltransferase)
+108,AceE_M4_iso,1743894,CP009273,ydhU,1.0,snp,1,missense_variant,putative cytochrome b subunit of YdhYVWXUT oxidoreductase complex
+109,AceE_M4_iso,1834783,CP009273,ynjE,0.9957805907172996,snp,1,missense_variant,molybdopterin synthase sulfurtransferase
+110,AceE_M4_iso,1847556,CP009273,ydjE,1.0,snp,1,missense_variant,putative transporter
+111,AceE_M4_iso,1881324,CP009273,rnd,0.9951456310679612,snp,1,missense_variant,ribonuclease D
+112,AceE_M4_iso,1883556,CP009273,fadD,1.0,snp,1,missense_variant,acyl-CoA synthetase (long-chain-fatty-acid--CoA ligase)
+113,AceE_M4_iso,1914914,CP009273,rsmF,1.0,snp,1,synonymous_variant,"16S rRNA m(5)C1407 methyltransferase, SAM-dependent"
+114,AceE_M4_iso,1916011,CP009273,,1.0,snp,1,,
+115,AceE_M4_iso,1977516,CP009273,araG,1.0,snp,1,missense_variant,fused L-arabinose transporter subunits of ABC superfamily: ATP-binding components
+116,AceE_M4_iso,1985894,CP009273,pgsA,1.0,snp,1,missense_variant,phosphatidylglycerophosphate synthetase
+117,AceE_M4_iso,2000420,CP009273,amyA,1.0,snp,1,missense_variant,cytoplasmic alpha-amylase
+118,AceE_M4_iso,2005444,CP009273,yedN,1.0,snp,1,missense_variant,
+119,AceE_M4_iso,2006738,CP009273,fliF,1.0,snp,1,missense_variant,flagellar basal-body MS-ring and collar protein
+120,AceE_M4_iso,2034711,CP009273,,1.0,snp,1,,
+121,AceE_M4_iso,2048531,CP009273,,0.9908675799086758,snp,1,,
+122,AceE_M4_iso,2118666,CP009273,wcaI,1.0,snp,1,missense_variant,putative glycosyl transferase
+123,AceE_M4_iso,2120336,CP009273,wcaG,1.0,snp,1,synonymous_variant,bifunctional GDP-fucose synthetase: GDP-4-dehydro-6-deoxy-D-mannose epimerase/ GDP-4-dehydro-6-L-deoxygalactose reductase
+124,AceE_M4_iso,2122203,CP009273,wcaF,1.0,snp,1,missense_variant,putative acyl transferase
+125,AceE_M4_iso,2123924,CP009273,wcaD,1.0,snp,1,missense_variant,putative colanic acid polymerase
+126,AceE_M4_iso,2134026,CP009273,asmA,1.0,snp,1,synonymous_variant,suppressor of OmpF assembly mutants; putative outer membrane protein assembly factor; inner membrane-anchored periplasmic protein
+127,AceE_M4_iso,2161103,CP009273,yegZ,1.0,snp,1,missense_variant,
+128,AceE_M4_iso,2173128,CP009273,yegT,1.0,snp,1,missense_variant,"nucleoside transporter, low affinity"
+129,AceE_M4_iso,2181050,CP009273,yehA,1.0,snp,1,missense_variant,putative fimbrial-like adhesin protein
+130,AceE_M4_iso,2185654,CP009273,yehD,1.0,snp,1,missense_variant,putative fimbrial-like adhesin protein
+131,AceE_M4_iso,2211053,CP009273,yehY,1.0,snp,1,synonymous_variant,inner membrane putative ABC superfamily transporter permease
+132,AceE_M4_iso,2234711,CP009273,galS,1.0,snp,1,missense_variant,galactose- and fucose-inducible galactose regulon transcriptional isorepressor; mgl operon transcriptional repressor; autorepressor
+133,AceE_M4_iso,2236285,CP009273,yeiB,0.9950738916256158,snp,1,synonymous_variant,DUF418 family putative inner membrane protein
+134,AceE_M4_iso,2315071,CP009273,atoS,1.0,snp,1,missense_variant,sensory histidine kinase in two-component regulatory system with AtoC
+135,AceE_M4_iso,2324219,CP009273,yfaS,1.0,snp,1,synonymous_variant,
+136,AceE_M4_iso,2325364,CP009273,yfaS,1.0,snp,1,missense_variant,
+137,AceE_M4_iso,2360124,CP009273,arnB,1.0,snp,1,missense_variant,"uridine 5'-(beta-1-threo-pentapyranosyl-4-ulose diphosphate) aminotransferase, PLP-dependent"
+138,AceE_M4_iso,2417637,CP009273,hisP,1.0,snp,1,missense_variant,histidine/lysine/arginine/ornithine transporter subunit
+139,AceE_M4_iso,2456436,CP009273,,1.0,snp,1,,
+140,AceE_M4_iso,2462257,CP009273,gtrB,0.9953051643192488,snp,1,missense_variant,CPS-53 (KpLE1) prophage; bactoprenol glucosyl transferase
+141,AceE_M4_iso,2463278,CP009273,gtrS,1.0,snp,1,synonymous_variant,"serotype-specific glucosyl transferase, CPS-53 (KpLE1) prophage"
+142,AceE_M4_iso,2463918,CP009273,gtrS,1.0,snp,1,missense_variant,"serotype-specific glucosyl transferase, CPS-53 (KpLE1) prophage"
+143,AceE_M4_iso,2463996,CP009273,,1.0,snp,1,,
+144,AceE_M4_iso,2475256,CP009273,emrY,1.0,snp,1,missense_variant,putative multidrug efflux system
+145,AceE_M4_iso,2478593,CP009273,evgS,1.0,snp,1,synonymous_variant,hybrid sensory histidine kinase in two-component regulatory system with EvgA
+146,AceE_M4_iso,2482347,CP009273,yfdE,1.0,snp,1,missense_variant,acetyl-CoA:oxalate CoA-transferase
+147,AceE_M4_iso,2487470,CP009273,yfdX,1.0,snp,1,missense_variant,uncharacterized protein
+148,AceE_M4_iso,2510986,CP009273,yfeA,1.0,snp,1,missense_variant,putative diguanylate cyclase
+149,AceE_M4_iso,2529524,CP009273,crr,1.0,snp,1,missense_variant,glucose-specific enzyme IIA component of PTS
+150,AceE_M4_iso,2532192,CP009273,cysM,1.0,snp,1,missense_variant,cysteine synthase B (O-acetylserine sulfhydrolase B)
+151,AceE_M4_iso,2571967,CP009273,,0.991304347826087,snp,1,,
+152,AceE_M4_iso,2591613,CP009273,bamC,1.0,snp,1,synonymous_variant,BamABCDE complex OM biogenesis lipoprotein
+153,AceE_M4_iso,2600952,CP009273,hyfF,0.9844961240310076,snp,1,missense_variant,"hydrogenase 4, membrane subunit"
+154,AceE_M4_iso,2612635,CP009273,uraA,1.0,snp,1,missense_variant,uracil permease
+155,AceE_M4_iso,2622562,CP009273,,1.0,snp,1,,
+156,AceE_M4_iso,2654461,CP009273,iscS,1.0,snp,1,missense_variant,"cysteine desulfurase (tRNA sulfurtransferase), PLP-dependent"
+157,AceE_M4_iso,2658259,CP009273,yfhR,1.0,snp,1,missense_variant,putative S9 family prolyl oligopeptidase
+158,AceE_M4_iso,2661572,CP009273,hcaR,1.0,snp,1,synonymous_variant,hca operon transcriptional regulator
+159,AceE_M4_iso,2665654,CP009273,hcaD,1.0,snp,1,synonymous_variant,"phenylpropionate dioxygenase, ferredoxin reductase subunit"
+160,AceE_M4_iso,2690259,CP009273,mltF,1.0,snp,1,missense_variant,
+161,AceE_M4_iso,2709626,CP009273,grcA,1.0,snp,1,synonymous_variant,autonomous glycyl radical cofactor
+163,AceE_M4_iso,2734001,CP009273,aroF,0.9963235294117648,snp,1,stop_gained,"3-deoxy-D-arabino-heptulosonate-7-phosphate synthase, tyrosine-repressible"
+164,AceE_M4_iso,2738127,CP009273,trmD,1.0,snp,1,missense_variant,"tRNA m(1)G37 methyltransferase, SAM-dependent"
+165,AceE_M4_iso,2753767,CP009273,,1.0,snp,1,,
+166,AceE_M4_iso,2763080,CP009273,yfjR,1.0,snp,1,missense_variant,CP4-57 prophage; putative DNA-binding transcriptional regulator
+167,AceE_M4_iso,2786576,CP009273,gabT,1.0,snp,1,synonymous_variant,"4-aminobutyrate aminotransferase, PLP-dependent"
+168,AceE_M4_iso,2796014,CP009273,nrdE,1.0,snp,1,missense_variant,"ribonucleoside-diphosphate reductase 2, alpha subunit"
+169,AceE_M4_iso,2802902,CP009273,,0.99609375,snp,1,,
+170,AceE_M4_iso,2815245,CP009273,alaS,1.0,snp,1,synonymous_variant,alanyl-tRNA synthetase
+171,AceE_M4_iso,2815648,CP009273,recX,1.0,snp,1,missense_variant,regulatory protein for RecA
+172,AceE_M4_iso,2843841,CP009273,,0.995967741935484,snp,1,,
+173,AceE_M4_iso,2844554,CP009273,hypB,0.9886792452830188,snp,1,synonymous_variant,GTP hydrolase involved in nickel liganding into hydrogenases
+174,AceE_M4_iso,2849271,CP009273,fhlA,1.0,snp,1,synonymous_variant,formate hydrogenlyase transcriptional activator
+175,AceE_M4_iso,2876084,CP009273,casA,1.0,snp,1,missense_variant,CRISP RNA (crRNA) containing Cascade antiviral complex protein
+176,AceE_M4_iso,2877611,CP009273,,1.0,snp,1,,
+177,AceE_M4_iso,2892708,CP009273,ygcU,1.0,snp,1,missense_variant,putative FAD-containing dehydrogenase
+178,AceE_M4_iso,2941568,CP009273,amiC,1.0,snp,1,missense_variant,N-acetylmuramoyl-L-alanine amidase
+179,AceE_M4_iso,2956714,CP009273,ppdB,1.0,snp,1,missense_variant,putative prepilin peptidase-dependent protein
+180,AceE_M4_iso,2963728,CP009273,,1.0,snp,1,,
+181,AceE_M4_iso,2999482,CP009273,,1.0,snp,1,,
+182,AceE_M4_iso,2999531,CP009273,,1.0,snp,1,,
+183,AceE_M4_iso,3004459,CP009273,hyuA,1.0,snp,1,missense_variant,D-stereospecific phenylhydantoinase
+184,AceE_M4_iso,3046853,CP009273,ubiH,1.0,snp,1,missense_variant,"2-octaprenyl-6-methoxyphenol hydroxylase, FAD/NAD(P)-binding"
+185,AceE_M4_iso,3050405,CP009273,,0.9954128440366972,snp,1,,
+186,AceE_M4_iso,3066297,CP009273,epd,1.0,snp,1,missense_variant,D-erythrose 4-phosphate dehydrogenase
+187,AceE_M4_iso,3067165,CP009273,,1.0,snp,1,,
+188,AceE_M4_iso,3094698,CP009273,yggN,0.995475113122172,snp,1,synonymous_variant,DUF2884 family putative periplasmic protein
+189,AceE_M4_iso,3119951,CP009273,glcD,1.0,snp,1,missense_variant,"glycolate oxidase subunit, FAD-linked"
+190,AceE_M4_iso,3128866,CP009273,pitB,1.0,snp,1,missense_variant,phosphate transporter
+191,AceE_M4_iso,3172700,CP009273,tolC,1.0,snp,1,synonymous_variant,transport channel
+192,AceE_M4_iso,3182183,CP009273,yqiG,0.961038961038961,ins,1,frameshift_variant,
+193,AceE_M4_iso,3243618,CP009273,yqjK,1.0,snp,1,synonymous_variant,uncharacterized protein
+194,AceE_M4_iso,3245064,CP009273,yqjG,1.0,snp,1,missense_variant,putative S-transferase
+195,AceE_M4_iso,3340105,CP009273,ptsN,1.0,snp,1,synonymous_variant,sugar-specific enzyme IIA component of PTS
+196,AceE_M4_iso,3342597,CP009273,mtgA,0.9914893617021276,del,1,frameshift_variant,biosynthetic peptidoglycan transglycosylase
+197,AceE_M4_iso,3360572,CP009273,yhcF,1.0,snp,1,synonymous_variant,putative transcriptional regulator
+198,AceE_M4_iso,3411608,CP009273,,1.0,snp,1,,
+199,AceE_M4_iso,3433474,CP009273,rpoA,1.0,snp,1,missense_variant,"RNA polymerase, alpha subunit"
+200,AceE_M4_iso,3434777,CP009273,rpsD,1.0,snp,1,synonymous_variant,30S ribosomal subunit protein S4
+201,AceE_M4_iso,3470179,CP009273,fkpA,1.0,snp,1,synonymous_variant,FKBP-type peptidyl-prolyl cis-trans isomerase (rotamase)
+202,AceE_M4_iso,3524897,CP009273,yhgE,1.0,snp,1,missense_variant,DUF4153 family putative inner membrane protein
+203,AceE_M4_iso,3544231,CP009273,malP,1.0,snp,1,missense_variant,maltodextrin phosphorylase
+204,AceE_M4_iso,3598111,CP009273,rsmD,1.0,snp,1,missense_variant,"16S rRNA m(2)G966 methyltransferase, SAM-dependent"
+205,AceE_M4_iso,3598933,CP009273,yhhM,1.0,snp,1,missense_variant,DUF2500 family protein
+206,AceE_M4_iso,3601280,CP009273,zntA,1.0,snp,1,synonymous_variant,"zinc, cobalt and lead efflux system"
+207,AceE_M4_iso,3606966,CP009273,,1.0,snp,1,,
+208,AceE_M4_iso,3622757,CP009273,rbbA,0.9956709956709956,snp,1,missense_variant,ribosome-associated ATPase: ATP-binding protein/ATP-binding membrane protein
+209,AceE_M4_iso,3625169,CP009273,yhiJ,1.0,snp,1,missense_variant,DUF4049 family protein
+210,AceE_M4_iso,3626122,CP009273,,1.0,snp,1,,
+211,AceE_M4_iso,3626956,CP009273,yhiL,0.9950248756218906,snp,1,stop_gained,
+212,AceE_M4_iso,3647307,CP009273,,1.0,snp,1,,
+213,AceE_M4_iso,3661522,CP009273,yhjA,1.0,snp,1,missense_variant,putative cytochrome C peroxidase
+214,AceE_M4_iso,3709030,CP009273,bisC,1.0,snp,1,missense_variant,biotin sulfoxide reductase
+215,AceE_M4_iso,3738180,CP009273,yiaN,1.0,snp,1,missense_variant,"2,3-diketo-L-gulonate TRAP transporter large permease protein"
+216,AceE_M4_iso,3738993,CP009273,yiaN,1.0,snp,1,missense_variant,"2,3-diketo-L-gulonate TRAP transporter large permease protein"
+217,AceE_M4_iso,3790557,CP009273,waaL,0.9943181818181818,snp,1,missense_variant,O-antigen ligase
+218,AceE_M4_iso,3792548,CP009273,waaU,1.0,snp,1,missense_variant,lipopolysaccharide core biosynthesis
+219,AceE_M4_iso,3809291,CP009273,rph,1.0,snp,1,stop_gained,
+220,AceE_M4_iso,3810734,CP009273,yicC,1.0,snp,1,synonymous_variant,UPF0701 family protein
+221,AceE_M4_iso,3812104,CP009273,,1.0,snp,1,,
+222,AceE_M4_iso,3827805,CP009273,yicI,1.0,snp,1,missense_variant,putative alpha-glucosidase
+223,AceE_M4_iso,3830802,CP009273,setC,0.9956709956709956,snp,1,missense_variant,putative arabinose efflux transporter
+224,AceE_M4_iso,3847239,CP009273,,1.0,snp,1,,
+225,AceE_M4_iso,3886814,CP009273,yidZ,1.0,snp,1,synonymous_variant,putative DNA-binding transcriptional regulator
+226,AceE_M4_iso,3894950,CP009273,bglH,0.9919678714859438,snp,1,missense_variant,"carbohydrate-specific outer membrane porin, cryptic"
+227,AceE_M4_iso,3902074,CP009273,pstA,1.0,snp,1,missense_variant,phosphate transporter subunit
+228,AceE_M4_iso,3907230,CP009273,glmU,1.0,snp,1,missense_variant,fused N-acetyl glucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyl transferase
+229,AceE_M4_iso,3931770,CP009273,rbsR,0.9865470852017936,snp,1,missense_variant,transcriptional repressor of ribose metabolism
+230,AceE_M4_iso,3971684,CP009273,wecF,0.9926470588235294,snp,1,missense_variant,TDP-Fuc4NAc:lipidIIFuc4NAc transferase
+231,AceE_M4_iso,3972638,CP009273,wzyE,1.0,snp,1,synonymous_variant,putative ECA polysaccharide chain elongation protein
+232,AceE_M4_iso,3972857,CP009273,wzyE,1.0,snp,1,synonymous_variant,putative ECA polysaccharide chain elongation protein
+233,AceE_M4_iso,3987789,CP009273,,1.0,snp,1,,
+234,AceE_M4_iso,3996397,CP009273,yigG,0.9904306220095692,snp,1,missense_variant,PRK11371 family inner membrane protein
+235,AceE_M4_iso,3998521,CP009273,pldA,0.9958333333333332,snp,1,synonymous_variant,outer membrane phospholipase A
+236,AceE_M4_iso,4016785,CP009273,tatC,0.9953917050691244,snp,1,synonymous_variant,TatABCE protein translocation system subunit
+237,AceE_M4_iso,4026802,CP009273,trkH,1.0,snp,1,missense_variant,potassium transporter
+238,AceE_M4_iso,4061628,CP009273,yihQ,1.0,snp,1,missense_variant,alpha-glucosidase
+239,AceE_M4_iso,4076204,CP009273,fdoG,1.0,snp,1,synonymous_variant,"formate dehydrogenase-O, large subunit"
+240,AceE_M4_iso,4086696,CP009273,rhaM,0.9961977186311788,snp,1,missense_variant,L-rhamnose mutarotase
+241,AceE_M4_iso,4120213,CP009273,metL,1.0,snp,1,missense_variant,Bifunctional aspartokinase/homoserine dehydrogenase 2
+242,AceE_M4_iso,4124473,CP009273,katG,1.0,snp,1,synonymous_variant,"catalase-peroxidase HPI, heme b-containing"
+243,AceE_M4_iso,4146016,CP009273,argB,0.9924242424242424,snp,1,missense_variant,acetylglutamate kinase
+244,AceE_M4_iso,4180610,CP009273,,1.0,del,1,,
+245,AceE_M4_iso,4181951,CP009273,thiG,1.0,snp,1,missense_variant,thiamine biosynthesis ThiGH complex subunit
+246,AceE_M4_iso,4194483,CP009273,zraR,1.0,snp,1,synonymous_variant,fused DNA-binding response regulator in two-component regulatory system with ZraS: response regulator/sigma54 interaction protein
+247,AceE_M4_iso,4209364,CP009273,aceK,1.0,snp,1,missense_variant,isocitrate dehydrogenase kinase/phosphatase
+248,AceE_M4_iso,4245633,CP009273,plsB,1.0,snp,1,missense_variant,glycerol-3-phosphate O-acyltransferase
+249,AceE_M4_iso,4274926,CP009273,yjcH,1.0,snp,1,missense_variant,DUF485 family inner membrane protein
+250,AceE_M4_iso,4277352,CP009273,,0.9555555555555556,ins,1,,
+251,AceE_M4_iso,4339935,CP009273,dcuS,1.0,snp,1,synonymous_variant,"sensory histidine kinase in two-component regulatory system with DcuR, regulator of anaerobic fumarate respiration"
+252,AceE_M4_iso,4353352,CP009273,dsbD,1.0,snp,1,missense_variant,fused thiol:disulfide interchange protein: activator of DsbC/conserved protein
+253,AceE_M4_iso,4363074,CP009273,,1.0,snp,1,,
+254,AceE_M4_iso,4373521,CP009273,,1.0,snp,1,,
+255,AceE_M4_iso,4376355,CP009273,mscM,1.0,snp,1,missense_variant,"mechanosensitive channel protein, miniconductance"
+256,AceE_M4_iso,4415006,CP009273,rpsF,1.0,snp,1,synonymous_variant,30S ribosomal subunit protein S6
+257,AceE_M4_iso,4416936,CP009273,yjfZ,1.0,snp,1,missense_variant,uncharacterized protein
+258,AceE_M4_iso,4428333,CP009273,ytfI,1.0,snp,1,synonymous_variant,uncharacterized protein
+259,AceE_M4_iso,4430817,CP009273,ytfL,0.9957805907172996,snp,1,synonymous_variant,UPF0053 family inner membrane protein
+260,AceE_M4_iso,4432043,CP009273,,1.0,snp,1,,
+261,AceE_M4_iso,4442381,CP009273,,1.0,snp,1,,
+262,AceE_M4_iso,4465054,CP009273,tabA,1.0,snp,1,missense_variant,"biofilm modulator regulated by toxins; DUF386 family protein, cupin superfamily"
+263,AceE_M4_iso,4466069,CP009273,yjgL,1.0,snp,1,synonymous_variant,uncharacterized protein
+264,AceE_M4_iso,4502966,CP009273,fecC,1.0,snp,1,missense_variant,iron-dicitrate transporter subunit
+265,AceE_M4_iso,4532543,CP009273,,1.0,snp,1,,
+266,AceE_M4_iso,4538883,CP009273,fimH,0.9959349593495936,snp,1,missense_variant,minor component of type 1 fimbriae
+267,AceE_M4_iso,4559788,CP009273,,1.0,snp,1,,
+268,AceE_M4_iso,4579955,CP009273,yjiY,0.9927272727272728,snp,1,missense_variant,putative transporter
+269,AceE_M4_iso,4596332,CP009273,,1.0,snp,1,,

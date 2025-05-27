@@ -1,0 +1,5 @@
+chrom,pos,qual,depth,freq,alt,alt_count,ref,type,len,eff,gene,product,linegroup,sample
+CP009273,447145,17623.4,500,1.0,"Substitution(type_='SNV', value='A')",500,C,snp,1,,,,CP009273.447145.SucB_M5_iso,SucB_M5_iso
+CP009273,1191242,11185.7,350,0.9771428571428571,"Substitution(type_='INDEL', value='CGTGACTCTG')",342,CGTGACTCTGTGACTCTG,del,8,frameshift_variant,icd,"e14 prophage; isocitrate dehydrogenase, specific for NADP+",CP009273.1191242.SucB_M5_iso,SucB_M5_iso
+CP009273,2719426,13575.4,386,1.0,"Substitution(type_='SNV', value='C')",386,T,snp,1,,,,CP009273.2719426.SucB_M5_iso,SucB_M5_iso
+CP009273,4538904,15851.3,469,0.9850746268656716,"Substitution(type_='SNV', value='A')",462,G,snp,1,missense_variant,fimH,minor component of type 1 fimbriae,CP009273.4538904.SucB_M5_iso,SucB_M5_iso

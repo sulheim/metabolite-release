@@ -76,6 +76,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.virtual_documents
 
 # IPython
 profile_default/
@@ -156,6 +157,8 @@ notebooks/paczia_et_al_2013/paczia_13_rates_ecoli_130524.csv
 notebooks/ecoli_rates.csv
 notebooks/rates_and_values.csv
 
+
+
 # Sequencing data
 data/isolate_sequencing/
 data/references_sequencing/
@@ -167,3 +170,7 @@ code/meta_sequencing/.snakemake/
 
 # Cluster logs
 code/isolate_sequncing/slurm*
+/notebooks/archive
+/Figures
+data/fuhrer_2017/zscore_neg.tsv
+data/fuhrer_2017/zscore_pos.tsv

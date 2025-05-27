@@ -1,0 +1,28 @@
+Strain abbrv.,Replicate,Strain ID,Sampling time,Sample OD
+WT,A,E. coli BW25113,19.5,1.03
+WT,B,E. coli BW25113,19.5,1.043
+WT,C,E. coli BW25113,20.5,1.038
+aceE,A,aceE-Ancestor,64.92,1.022
+aceE,B,aceE-Ancestor,64.5,1.034
+aceE,C,aceE-Ancestor,64.92,0.996
+aceE-M2,A,aceE-M2-D44-2,14.5,0.99
+aceE-M2,B,aceE-M2-D44-2,14.5,0.995
+aceE-M2,C,aceE-M2-D44-2,14.5,1.002
+aceE-M3,A,aceE-M3-D44-3,36.0,1.011
+aceE-M3,B,aceE-M3-D44-3,37.0,1.009
+aceE-M3,C,aceE-M3-D44-3,37.0,1.008
+aceE-M4,A,aceE-M4-D44-1,30.5,1.032
+aceE-M4,B,aceE-M4-D44-1,28.0,0.996
+aceE-M4,C,aceE-M4-D44-1,35.0,1.004
+sucB,A,sucB-Ancestor,41.17,1.002
+sucB,B,sucB-Ancestor,40.5,1.072
+sucB,C,sucB-Ancestor,40.5,1.038
+sucB-M5,A,sucB-M5-D30-4,13.42,1.001
+sucB-M5,B,sucB-M5-D30-4,13.92,0.991
+sucB-M5,C,sucB-M5-D30-4,13.92,1.0
+sucB-M6,A,sucB-M6-D30-6,11.17,1.002
+sucB-M6,B,sucB-M6-D30-6,11.17,1.041
+sucB-M6,C,sucB-M6-D30-6,11.17,1.029
+sucB-M7,A,sucB-M7-D30-4,12.0,1.002
+sucB-M7,B,sucB-M7-D30-4,12.0,1.001
+sucB-M7,C,sucB-M7-D30-4,12.0,1.001

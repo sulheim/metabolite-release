@@ -1,0 +1,7 @@
+chrom,pos,qual,depth,freq,alt,alt_count,ref,type,len,eff,gene,product,linegroup,sample
+CP009273,447145,6736.76,193,1.0,"Substitution(type_='SNV', value='A')",193,C,snp,1,,,,CP009273.447145.SucB_M7_iso,SucB_M7_iso
+CP009273,752345,6971.83,198,1.0,"Substitution(type_='SNV', value='T')",198,C,snp,1,missense_variant,sdhA,"succinate dehydrogenase, flavoprotein subunit",CP009273.752345.SucB_M7_iso,SucB_M7_iso
+CP009273,2234612,3502.85,112,1.0,"Substitution(type_='INDEL', value='AG')",112,ATACGTTGATG,del,9,disruptive_inframe_deletion,galS,galactose- and fucose-inducible galactose regulon transcriptional isorepressor; mgl operon transcriptional repressor; autorepressor,CP009273.2234612.SucB_M7_iso,SucB_M7_iso
+CP009273,2719426,5151.6,147,1.0,"Substitution(type_='SNV', value='C')",147,T,snp,1,,,,CP009273.2719426.SucB_M7_iso,SucB_M7_iso
+CP009273,3782776,8405.95,238,1.0,"Substitution(type_='SNV', value='A')",238,C,snp,1,synonymous_variant,waaH,LPS(HepIII)-glucuronic acid glycosyltransferase,CP009273.3782776.SucB_M7_iso,SucB_M7_iso
+CP009273,4209467,7904.26,224,1.0,"Substitution(type_='SNV', value='A')",224,C,snp,1,missense_variant,aceK,isocitrate dehydrogenase kinase/phosphatase,CP009273.4209467.SucB_M7_iso,SucB_M7_iso
