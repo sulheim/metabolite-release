@@ -1,0 +1,11 @@
+,sample,pos,chrom,gene,freq,type,len,eff,product
+1,SucB_M5_iso,1191242,CP009273,icd,0.9771428571428572,del,8,frameshift_variant,"e14 prophage; isocitrate dehydrogenase, specific for NADP+"
+3,SucB_M5_iso,4538904,CP009273,fimH,0.9850746268656716,snp,1,missense_variant,minor component of type 1 fimbriae
+2,SucB_M6_iso,3081560,CP009273,,1.0,snp,1,,
+3,SucB_M6_iso,3782776,CP009273,waaH,1.0,snp,1,synonymous_variant,LPS(HepIII)-glucuronic acid glycosyltransferase
+4,SucB_M6_iso,4209467,CP009273,aceK,1.0,snp,1,missense_variant,isocitrate dehydrogenase kinase/phosphatase
+5,SucB_M6_iso,4538904,CP009273,fimH,0.9957446808510638,snp,1,missense_variant,minor component of type 1 fimbriae
+1,SucB_M7_iso,752345,CP009273,sdhA,1.0,snp,1,missense_variant,"succinate dehydrogenase, flavoprotein subunit"
+2,SucB_M7_iso,2234612,CP009273,galS,1.0,del,9,disruptive_inframe_deletion,galactose- and fucose-inducible galactose regulon transcriptional isorepressor; mgl operon transcriptional repressor; autorepressor
+4,SucB_M7_iso,3782776,CP009273,waaH,1.0,snp,1,synonymous_variant,LPS(HepIII)-glucuronic acid glycosyltransferase
+5,SucB_M7_iso,4209467,CP009273,aceK,1.0,snp,1,missense_variant,isocitrate dehydrogenase kinase/phosphatase
