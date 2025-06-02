@@ -174,3 +174,4 @@ code/isolate_sequncing/slurm*
 /Figures
 data/fuhrer_2017/zscore_neg.tsv
 data/fuhrer_2017/zscore_pos.tsv
+SupplementalFigures/ols_summary_fixed.csv
