@@ -20,6 +20,8 @@ This folder contains the original and modified genome-scale metabolic models use
 - _P. putida_
 - _S. cerevisiae_
 
+# Reference
+If you use these results, analyses or data please cite the associated publication ...
 
 
 
