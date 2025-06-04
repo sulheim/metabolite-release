@@ -4,7 +4,7 @@ This repository contains data (except raw sequencing data), jupyter notebooks an
 
 # Repository folder structure
 ## Data
-This folder contains all data (except sequencing data) used for the analyses and plots presented in the associated paper, including experimental data generated in this project and data collected from other sources.
+This folder contains all data (except sequencing data) used for the analyses and plots presented in the associated paper, including experimental data generated in this project and data collected from other sources. The raw sequencing data is available in the [NCBI SRA database](https://www.ncbi.nlm.nih.gov/sra) under the BioProject ID PRJNA1270783.
 
 ## Notebooks
 All jupyter notebooks used for the analyses and plots presented in the associated paper.
