@@ -1,44 +1,129 @@
-﻿Metabolite,BiGG ID
-Sebacoyl-l-carnitine (c10-dc),
-Deoxycarnitine (deoxy-c0),gbbtn
-Glutarylcarnitine (c5-dc),
-Alpha-aminobutyrate,
-Creatine,crn
+Metabolite,BiGG ID
+"1,3-diaminopropane",13dampp
+"2,5-dihydroxybenzoate",23dhb
+2-aminoisobutyrate,
+2-hydroxybutyrate,ghb
+2-hydroxyglutaric acid,S2hglut
+3-(4-hydroxyphenyl)pyruvate,34hpp
+3-hydroxyanthranilate,
+3-hydroxybutyrate,ghb
+3-hydroxyglutaric acid,S2hglut
+3-hydroxyphenylacetate,
+4-acetamidobutanoate,4aabutn
+4-imidazoleacetate,im4ac
+Acetate,ac
+Adenosine,and
+"Adenosine 3',5'-cyclic phosphate",23camp
+Adipate,
+Aicar,aicar
+Alanine,ala__L
+Allantoin,alltn
 Alpha-aminoadipate,
-Cis-aconitate,acon_C
-Citrate,cit
-Hexoses including glucose and fructose,fru
-Glutarate,glutar
-Isocitrate,icit
-Lactate,lac__D
-Malate,mal__L
-NAD,nad
-Succinate,succ
-Trans-aconitate,acon_T
+Alpha-aminobutyrate,
+Alpha-glucose (cl adduct),glc__D
+Anthranilate,anth
+Arginine,arg__L
 Asparagine,asn__L
 Aspartate,asp__L
 Beta-alanine,ala_B
+Cdp-ethanolamine,cdpea
+Cis-aconitate,acon_C
+Citrate,cit
+Citrulline,citr__L
+Creatine,crn
+Creatinine,crtn
+Cyclic gmp,23cgmp
+Deoxycarnitine (deoxy-c0),gbbtn
+Dethiobiotin,dtbt
+Diaminopimelate,
+Diethanolamine,
+Dihydroorotate,dhor__S
+Dihydrouracil,56dura
+Ethanolamine,etha
+Formate,for
+Fructose-6-phosphate,f6p
 Gamma-aminobutyrate,4abut
+Gluconate,glcn
+Gluconolactone,
+Glucose-6-phosphate,g6p
 Glutamate,glu__L
 Glutamine,gln__L
+Glutarate,glutar
+Glutarylcarnitine (c5-dc),
+Glycerol,glyc
+Glycerol 3-phosphate,g3p
 Glycine,gly
+Guanidinosuccinate/n-acetylaspartate,
+Guanine,gua
+Hexanoate,hxa
+Hexanoylcarnitine (c6),
+Hexoses,
+Hexoses including glucose and fructose,fru
+Histidine,his__L
+Homoserine,hom__L
+Hydroxyphenyllactate,2hyoxplac
+Hypoxanthine,hxan
+Inosine,ins
+Isocitrate,icit
 Isoleucine,ile__L
+Isovalerylcarnitine (c5/ic5),
+Kynurenate,
+Lactate,lac__D
 Leucine,leu__L
 Lysine,lys__L
+Malate,mal__L
+Malonylcarnitine (c3:dc),
+Metanephrine,mepi
 Methionine,met__L
+Methylglutarate,3mglutr
+Methylguanidine,
+Methylthioadenosine,5mta
+N-acetylalanine,
+N-acetylglutamate,acglu
+N-acetylleucine,acleu__L
+N-acetylphenylalanine,
+N-acetylputrescine,aprut
+N-acetylserine,acser
+N-alpha-acetyllysine,aclys
+NAD,nad
+Nicotinamide,ncam
+Nicotinate,nac
+O-acetylserine,acser
+O-succinyl-homoserine,suchms
+Ophthalmate,
+Orotate,orot
+Oxoproline,5oxpro
+P-hydroxyphenylacetate,4hphac
+Pantothenate,pnto__R
+Phenylacetaldehyde,pacald
 Phenylalanine,phe__L
 Pipecolic acid,
 Proline,pro__L
-Serine,ser__L
-Tyrosine,tyr__L
-Valine,val__L
-Alanine,ala__L
-Pyruvate,pyr
-Citrulline,citr__L
-Histidine,his__L
-Malonylcarnitine (c3:dc),
-Fructose-6-phosphate,f6p
-Glucose-6-phosphate,g6p
 Propionate,ppa
-Formate,for
-Acetate,ac
+Putrescine,ptrc
+Pyruvate,pyr
+Quinate,quin
+S-adenosylhomocysteine,ahcys
+S-adenosylmethionine,amet
+Salicylate,salc
+Sebacoyl-l-carnitine (c10-dc),
+Serine,ser__L
+Stearoylcarnitine (c18),
+Succinate,succ
+Thiamine monophosphate,thmmp
+Threonine,thr__L
+Thymine,thym
+Trans-aconitate,acon_T
+Trigonelline ,
+Trimethylamine,tma
+Tyramine,tym
+Tyrosine,tyr__L
+Uracil,ura
+Ureidopropionate,
+Uridine diphosphate hexose,
+Uridine monophosphate,ump
+Urocanate,urcan
+Valine,val__L
+Xanthine,xan
+Xanthosine,xtsn
+cAMP,camp
