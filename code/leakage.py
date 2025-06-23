@@ -291,6 +291,7 @@ def estimate_shadow_prices_reframed(model, constraints, intracellular_only = Tru
         sp_constraints = {f'DM_{m_id}': (delta, 10)}
         sp_constraints.update(constraints)
         if predicted_flux != 0:
+            print(f'{i+1}/{len(metabolites)}: {m_id}, predicted flux: {predicted_flux}, secretion reaction: {r_secretion}')
             sp_constraints.update({r_secretion:(predicted_flux, predicted_flux)})
 
         sp_solution = reframed.FBA(temp, constraints=sp_constraints)
@@ -319,4 +320,3 @@ def get_predicted_metabolite_secretion_reframed(model, solution, m_id):
                     break
     return predicted_flux, r_id
         
-    return shadow_prices
