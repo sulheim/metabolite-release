@@ -20,7 +20,7 @@
 18,"Fructose-1,6-bisphosphate",336.083922,fdp,-4,2,0.0152,Phosphorylated sugar,"Bennet et al, glucose",,7,12,6,203,0,-5.6,10267,C6H14O12P2,340.12,"Fructose 1,6-bisphosphate",ECMDB20123,"fructose-1,6-bisphosphate","F1,6BP"
 19,Fructose-6-phosphate,258.119901,f6p,-2,1,0.002916667,Phosphorylated sugar,"Bennet et al, glucose",,6,9,7,165,0,-4.3,69507,C6H13O9P,260.14,Fructose 6-phosphate,ECMDB00124,fructose-6-phosphate[c]*,F6P
 20,Fumarate,114.05628,fum,-2,0,0.000115,Carboxylic acid,"Bennet et al, glucose",,0,4,0,80.3,-2,1,5460307,C4H2O4-2,114.06,Fumaric acid,ECMDB00176,fumarate[c]*,Fum
-21,Gamma-aminobutyrate,103.11976,,0,0,4.40E-05,Other,Ishii et al.,https://ecmdb.ca/compounds/M2MDB000561,2,3,3,63.3,0,-3.2,119,C4H9NO2,103.12,gamma-Aminobutyric acid,ECMDB04017,,
+21,Gamma-aminobutyrate,103.11976,4abut,0,0,4.40E-05,Other,Ishii et al.,https://ecmdb.ca/compounds/M2MDB000561,2,3,3,63.3,0,-3.2,119,C4H9NO2,103.12,gamma-Aminobutyric acid,ECMDB04017,,
 22,Glucose-6-phosphate,258.119901,g6p,-2,1,0.002916667,Phosphorylated sugar,"Bennet et al, glucose",,6,9,3,157,0,-4.2,5958,C6H13O9P,260.14,Glucose 6-phosphate,ECMDB01401,glucose-6-phosphate[c]*,G6P
 23,Glutamate,146.12132,glu__L,-1,0,0.096,Amino acid,"Bennet et al, glucose",,3,5,4,101,0,-3.7,33032,C5H9NO4,147.13,L-Glutamate,ECMDB00148,glutamate,Glu
 24,Glutamine,146.1445,gln__L,0,0,0.00381,Amino acid,"Bennet et al, glucose",,3,4,4,106,0,-3.1,5961,C5H10N2O3,146.14,L-Glutamine,ECMDB00641,glutamine,Gln
