@@ -28,4 +28,5 @@ Relative exometabolome data from _E. coli_ from [Zampieri et al., 2019 (Nature c
 
 ## other
 Other data, most importantly a compiled collection of metabolite values and release rates generated in this project and a copy of the [ECMDB](https://ecmdb.ca/) database. 
+This is also where the compiled spreadsheet with estimated rates for all metabolites in all three datasets is found. 
 
