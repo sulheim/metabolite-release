@@ -1,0 +1,68 @@
+JW ID,Gene Name,Annotation,Location,Type,Expected direction,Metabolite class,Transported metabolites
+JW0401,tsx,"nucleoside channel, receptor of phage T6 and colicin K",Outer membrane,Porin,Both,Nucleoside,Nucleoside
+JW2203,ompC,outer membrane porin protein C,Outer membrane,Porin,Both,Unspecific,Unspecific
+JW0912,ompF,outer membrane porin 1a (Ia;b;F),Outer membrane,Porin,Both,Unspecific,Unspecific
+JW1469,yddG,aromatic amino acid exporter,Inner membrane,Uniport,Export,Amino acid,broad range of amino acids
+JW0590,cstA,carbon starvation protein,Inner membrane,Proton symport,Import,Organic acid,Pyruvate
+JW3641,uhpT,hexose phosphate transporter,Inner membrane,Antiport (other),Import,Phosphorylated sugar,"glucose 6-phosphate, but potentially also fructose 6-phosphate, phosphoenolpyruvate, glyceraldehyde 3-phosphate"
+JW2234,glpT,sn-glycerol-3-phosphate transporter,Inner membrane,Antiport (other),Import,Phosphorylated sugar,"glycerol-3-phosphate, potentially also glycerol-2-phosphate"
+JW4028,actP,acetate transporter,Inner membrane,Sodium symport,Import,Organic acid,"Acetate, glycolate"
+JW3729,rbsC,ribose ABC transporter membrane subunit,Inner membrane,ABC,Import,Sugar,Ribose
+JW3628,gltS,glutamate transporter,Inner membrane,Sodium symport,Import,Amino acid,L and D-glutamate
+JW3496,dctA,"C4-dicarboxylic acid, orotate and citrate transporter",Inner membrane,Proton symport,Import,Organic acid,"Malate, aspartate, orotate, fumarate, succinate"
+JW3422,livH,leucine/isoleucine/valine transporter subunit,Inner membrane,ABC,Import,Amino acid,"L-leucine, L-valine, L-isoleucine, L-phenylalanine, L-threonine"
+JW3417,ugpA,glycerol-3-phosphate transporter subunit,Inner membrane,ABC,Import,Phosphorylated sugar,"glycerol-3-phosphate, potentially also glycerol-2-phosphate"
+JW3252,mscL,"mechanosensitive channel protein, high conductance",Inner membrane,Channel,Export,Unspecific,Unspecific
+JW3130,mtr,tryptophan transporter of high affinity,Inner membrane,Proton symport,Import,Amino acid,Tryptophan
+JW3087,tdcC,L-threonine/L-serine transporter,Inner membrane,Proton symport,Import,Amino acid,Threonine and serine
+JW2932,nupG,nucleoside transporter,Inner membrane,Proton symport,Import,Nucleoside,"Nucleosides, including adenosine, cytidine, thymidine, uridine, inosine, etc"
+JW2890,argO,arginine transporter,Inner membrane,Proton antiport,Export,Amino acid,L-arginine
+JW2891,mscS,"mechanosensitive channel protein, small conductance",Inner membrane,Channel,Export,Unspecific,Unspecific
+JW2657,ygaZ,"probable L-valine exporter, norvaline resistance",Inner membrane,Proton antiport,Export,Amino acid,L-valine
+JW2661,emrB,multidrug efflux system protein,Inner membrane,Proton antiport,Export,Drug,Wide variety of toxic compounds
+JW2571,kgtP,alpha-ketoglutarate transporter,Inner membrane,Proton symport,Import,Other,alpha-ketoglutarate
+JW2389,nupC,nucleoside (except guanosine) transporter,Inner membrane,Proton symport,Import,Nucleoside,nucleosides except guanosine
+JW2305,hisQ,histidine/lysine/arginine/ornithine transporter permease subunit,Inner membrane,ABC,Import,Amino acid,"the basic amino acids lysine, arginine, ornithine and histidine"
+JW0108,aroP,aromatic amino acid transporter,Inner membrane,Proton symport,Import,Amino acid,"phenylalanine, tyrosine, and tryptophan"
+JW0194,metI,DL-methionine transporter subunit,Inner membrane,ABC,Import,Amino acid,Methionine
+JW0320,yahN,"amino acid exporter for proline, lysine, glutamate, homoserine",Inner membrane,Proton antiport,Export,Amino acid,L-homoserine
+JW0451,acrB,multidrug efflux system,Inner membrane,Proton antiport,Export,Unspecific,Diverse
+JW0565,pheP,phenylalanine transporter,Inner membrane,Proton symport,Import,Amino acid,Phenylalanine
+JW0649,gltJ,"glutamate, aspartate ABC transporter permease subunit",Inner membrane,ABC,Import,Amino acid,Glutamate and Aspertate
+JW0795,glnP,glutamine transporter subunit,Inner membrane,ABC,Import,Amino acid,Glutamine
+JW0798,rhtA,threonine and homoserine efflux system,Inner membrane,Proton antiport,Export,Amino acid,L-homoserine and L-threonine
+JW0846,artQ,arginine transporter subunit,Inner membrane,ABC,Import,Amino acid,L-arginine
+JW0887,focA,formate channel,Inner membrane,Uniport,Both,Organic acid,formate
+JW1235,oppA,oligopeptide transporter subunit,Inner membrane,ABC,Import,Peptide,Oligopeptides
+JW1787,yeaS,neutral amino-acid efflux system,Inner membrane,Proton antiport,Export,Amino acid,"Leucine, Methionine"
+JW1942,yedA,"amino acid exporter for phenylalanine, threonine",Inner membrane,Proton antiport,Export,Amino acid,"Drug, phenylalanine, threonine"
+JW2143,lysP,lysine transporter,Inner membrane,Proton symport,Import,Amino acid,Lysine
+JW2767,sdaC,predicted serine transporter,Inner membrane,Proton symport,Import,Amino acid,Serine
+JW3512,dppB,dipeptide/heme transporter,Inner membrane,ABC,Import,Peptide,Dipeptide
+JW3692,adeP,"adenine permease, high affinity",Inner membrane,Proton symport,Import,Nucleobase,Adenine
+JW4072,proP,proline/glycine betaine transporter,Inner membrane,Proton symport,Import,Amino acid,"proline, glycine betaine"
+JW4166,cycA,D-alanine/D-serine/glycine transporter,Inner membrane,Proton symport,Import,Amino acid,"D-alanine, D-serine, glycine, L-alanine, beta-alanine"
+JW5234,ansP,L-asparagine transporter,Inner membrane,Proton symport,Import,Amino acid,L-asparagine
+JW5503,tolC,transport channel,Outer membrane,Porin,,Drug,Large variety of toxic compounds and metabolites
+JW5585,rhtB,"homoserine, homoserine lactone and S-methyl-methionine efflux pump",Inner membrane,Proton antiport,Export,Amino acid,"L-homoserine, L-homoserine lactone, L-threonine"
+JW5586,rhtC,threonine efflux pump,Inner membrane,Proton antiport,Export,Amino acid,L-threonine
+JW0858,ybjE,L-lysine/thialysine exporter,Inner membrane,Proton antiport,Export,Amino acid,Lysine
+JW1087,ptsG,fused glucose-specific PTS enzymes: IIB component/IIC component,Inner membrane,PTS,Import,Sugar,glucose
+JW0327,codB,cytosine transporter,Inner membrane,Proton symport,Import,Nucleobase,cytosine
+JW0391,brnQ,"Branched-chain amino acid transport system 2 carrier protein; LIV-II transport system for Ile, Leu, and Val",Inner membrane,Sodium symport,Import,Amino acid,"L-valine, L-leucine, L-isoleucine"
+JW1848,znuB,zinc transporter subunit: membrane component of ABC superfamily,Inner membrane,ABC,Import,Other,Zinc
+JW3491,yhjE,"inner membrane protein, predicted transporter",Inner membrane,Proton symport,Import,Unknown,
+JW5250,eamA,cysteine and O-acetyl-L-serine efflux system,Inner membrane,Uniport,Export,Amino acid,"Cysteine, O-acetyl-L-serine, glutamine, asparagine"
+JW2154,fruA,fused fructose-specific PTS enzymes: IIBcomponent/IIC components,Inner membrane,PTS,Import,Sugar,Fructose
+JW1807,manY,mannose-specific enzyme IIC component of PTS,Inner membrane,PTS,Import,Sugar,Mannose
+JW0665,nagE,"fused N-acetyl glucosamine specific PTS enzyme: IIC, IIB, and IIA components",Inner membrane,PTS,Import,Sugar,N-acetyl glucosamine
+JW0069,setA,broad specificity sugar efflux system,Inner membrane,Proton antiport,Export,Sugar,"Lactose, glucose"
+JW3898,glpF,glycerol facilitator,Inner membrane,Uniport,Both,Other,"Glycerol, glyceraldehyde, glycine, urea"
+JW1001,putP,proline:sodium symporter,Inner membrane,Sodium symport,Import,Amino acid,Proline
+JW1487,gadC,predicted glutamate:gamma-aminobutyric acid antiporter,Inner membrane,Antiport (other),Both,Amino acid,"Glutamate, 4-aminobutanoate"
+JW3060,sstT,sodium:serine/threonine symporter,Inner membrane,Sodium symport,Import,Amino acid,"L-serine, L-threonine"
+JW5735,dcuA,C4-dicarboxylate antiporter,Inner membrane,Antiport (other),Both,Organic acid,"L-aspartate, fumarate, succinate, malate"
+JW4038,gltP,glutamate/aspartate:proton symporter,Inner membrane,Proton symport,Import,Amino acid,"L-aspartate, L-glutamate"
+JW0009,satP,acetate/succinate:H+ symporter,Inner membrane,Proton symport,Both,Organic acid,"Acetate, succinate"
+JW2910,galP,D-galactose transporter,Inner membrane,Proton symport,Import,Sugar,"Galactose, D-glucose"
+JW1652,punC,predicted transporter,Inner membrane,Proton symport,Import,Nucleobase,Purines
