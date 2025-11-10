@@ -37,8 +37,8 @@ app.layout = dbc.Container(
         ),
         dbc.Row(
             [
-                dbc.Col([sidebar], class_name="ps-5 pt-4", width=2),
-                dbc.Col([dash.page_container], class_name="ps-5 pt-4", width=10),
+                dbc.Col([sidebar], class_name="ps-5 pt-4", width=1.),
+                dbc.Col([dash.page_container], class_name="ps-5 pt-4",width=11.),
             ]
         ),
     ],

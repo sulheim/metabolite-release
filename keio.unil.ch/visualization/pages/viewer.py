@@ -34,26 +34,81 @@ min_effect = 3
 sel_idx = (dis_mz['Rel. distance'].abs() > min_effect)&(dis_mz['p-value rel'] < max_pval)
 sel_df = dis_mz.loc[sel_idx].copy()
 
+default_bar_figure = go.Figure(layout=go.Layout(
+        margin=dict(l=0, r=50, t=50, b=10),
+        xaxis=dict(title="Effect"),
+    ))
+default_bar_figure.update_xaxes(range=(-15,15))
+default_bar_figure.update_yaxes(showticklabels=False)
+
+
 def plot_bar_1(selected_strain,fig_layout):
     idx = sel_df.Strain == selected_strain
     plot_data = sel_df.loc[idx].copy()
     # print(plot_data.head())
     plot_data.sort_values(by='Rel. distance', ascending=False, inplace=True)
+
+    xdata = plot_data['Rel. distance'][::-1]
+    ydata = plot_data['Metabolite'][::-1]
+
     
     fig = go.Figure(layout=fig_layout)
     fig.add_trace(
         go.Bar(
-            x=plot_data['Metabolite'],
-            y=plot_data['Rel. distance'],
+            y=ydata,
+            x=xdata,
             marker_color="#0D5379",
-            name='Effect size'
+            name='Effect size',
+            width=0.9,
+            orientation='h',
         )
     )
-    fig.update_layout(
-        xaxis_title="Metabolite",
-        yaxis_title="Effect",
-        title=f"Significant effect for {selected_strain} (P < {max_pval}, |Effect| > {min_effect})",
+
+    for y_cat, x_val, label in zip(ydata, xdata, ydata):
+        if x_val >= 0:
+            # Right side of positive bar
+            fig.add_annotation(
+                x=x_val,
+                y=y_cat,
+                text=label,
+                showarrow=False,
+                xanchor="left",
+                yanchor="middle",
+                xshift=5  # pixels to the right
+            )
+        else:
+            # Left side of negative bar
+            fig.add_annotation(
+                x=x_val,
+                y=y_cat,
+                text=label,
+                showarrow=False,
+                xanchor="right",
+                yanchor="middle",
+                xshift=-5  # pixels to the left
+            )
+
+
+    fig.add_vline(
+        x=0,
+        line_width=1,
+        line_dash="dash",
+        line_color="black",
     )
+    fig.update_layout(
+        yaxis_title="Metabolite",
+        xaxis_title="Effect",
+    )
+    if(len(plot_data['Metabolite'])>25):
+        fig.update_yaxes(range=[len(plot_data['Metabolite'])-0.5, -0.5])
+    else:
+        fig.update_yaxes(range=[25-0.5, -0.5])
+    min_y,max_y = np.min(plot_data['Rel. distance']), np.max(plot_data['Rel. distance'])
+    range_min = min(-15,min_y)
+    range_max = max(15,max_y)
+    fig.update_xaxes(range=(range_min,range_max))
+
+    fig.update_yaxes(showticklabels=False)
     return fig
 
 def plot_bar_2(selected_metabolite,fig_layout):
@@ -64,23 +119,35 @@ def plot_bar_2(selected_metabolite,fig_layout):
     fig = go.Figure(layout=fig_layout)
     fig.add_trace(
         go.Bar(
-            x=plot_data['Strain'],
-            y=plot_data['Rel. distance'],
+            y=plot_data['Strain'][::-1],
+            x=plot_data['Rel. distance'][::-1],
             marker_color="#0D5379",
-            name='Effect size'
+            name='Effect size',
+            width=0.9,
+            orientation='h',
         )
     )
-    fig.update_layout(
-        xaxis_title="Metabolite",
-        yaxis_title="Effect",
-        title=f"Significant effect for {selected_metabolite} (P < {max_pval}, |Effect| > {min_effect})",
+    fig.add_vline(
+        x=0,
+        line_width=1,
+        line_dash="dash",
+        line_color="black",
     )
+    fig.update_layout(
+        yaxis_title="Strain",
+        xaxis_title="Effect",
+    )
+    if(len(plot_data['Strain'])>25):
+        fig.update_yaxes(range=[len(plot_data['Strain'])-0.5, -0.5])
+    else:
+        fig.update_yaxes(range=[25-0.5, -0.5])
+
+    min_y,max_y = np.min(plot_data['Rel. distance']), np.max(plot_data['Rel. distance'])
+    range_min = min(-15,min_y)
+    range_max = max(15,max_y)
+    fig.update_xaxes(range=(range_min,range_max))
+
     return fig
-
-
-
-
-
 
 def plot_function(selected_strain,selected_metabolite,fig_layout):
     combined_data = data_dict[selected_strain][selected_metabolite]    
@@ -140,67 +207,76 @@ def plot_function(selected_strain,selected_metabolite,fig_layout):
             showlegend=False,
         )
     )
+    fig.update_layout(legend=dict(
+    yanchor="top",
+    y=0.99,
+    xanchor="left",
+    x=0.01
+    ))
     return fig
 
 
 # Dash layout
-dash.register_page(__name__, path="/", name="Home", order=1)  # '/' is home page
+dash.register_page(__name__, path="/", name="Browse the data", order=1)  # '/' is home page
 
 layout = html.Div(
-    [
-        dbc.Row(html.H2("Data viewer"), class_name="pb-2"),
+    [dbc.Row([   
+        # Column for strain
         dbc.Col(
-            [
-                dbc.Row(
-                    html.Span("Select mutant and metabolite:"),
-                    class_name="pb-1",
-                ),
-                dbc.Row(
-                    dcc.Dropdown(
+            [   
+                dbc.Label("Strain Selection"),
+                dcc.Dropdown(
                         options=all_strains,
                         placeholder="Select strain",
                         id="strain-dropdown",
                         multi=False,
                     ),
-                    class_name="pb-1",
-                ),
                 dbc.Row(
-                    dcc.Dropdown(
+                    dcc.Graph(
+                        figure=default_bar_figure,
+                        id="bar-1",
+                    ),
+                    style={"height":"80vh"},
+                )           
+            ],
+            width=5,
+        ),
+
+        # Column for metabolite
+        dbc.Col(
+            [   
+                dbc.Label("Metabolite Selection"),
+                dcc.Dropdown(
                         options=all_metabolites,
                         placeholder="Select metabolite",
                         id="metabolite-dropdown",
                         multi=False,
                     ),
-                    class_name="pb-1",
-                ),
+                dbc.Row(                    
+                        dcc.Graph(
+                            figure=default_bar_figure,
+                            id="bar-2",
+                        ),
+                        style={"height":"80vh"},                    
+                ),                    
             ],
-            width=6,
+            width=4,
         ),
-        dbc.Col(
-            dcc.Graph(
-                figure={},
-                id="controls-and-graph",
+
+        # Column for plot
+         dbc.Col(
+                dcc.Graph(
+                    figure={},
+                    id="controls-and-graph",
+                    style={"width":"100%", "height":"30vh"}
+                ),
+                width=3,
+                style={"height":"80vh","justify-content": "center", "align-items": "center", "display": "flex","padding-left":"2vw"},
             ),
-            width=11,
-            class_name="pb-3",
-        ),
-        dbc.Col(
-            dcc.Graph(
-                figure={},
-                id="bar-1",
-            ),
-            width=11,
-            class_name="pb-3",
-        ),
-        dbc.Col(
-            dcc.Graph(
-                figure={},
-                id="bar-2",
-            ),
-            width=11,
-            class_name="pb-3",
-        ),
-        dbc.Col(
+        
+
+    ],),
+    dbc.Col(
             html.Details(
                 [
                     html.Summary(html.Span("Metadata")),
@@ -211,8 +287,7 @@ layout = html.Div(
                 ],
             ),
             width=11,
-        ),
-    ]
+    ),],
 )
 
 
@@ -237,6 +312,7 @@ def update_graph_view(
         xaxis=dict(title="AUC OD"),
         yaxis=dict(title="Median Z-score"),
     )
+    
     if (
         chosen_strains == "Select Strain"
         or chosen_strains == None
@@ -262,15 +338,13 @@ def update_graph_view(
 def update_bar_graph1(chosen_strains):
     fig_layout = go.Layout(
         margin=dict(l=0, r=50, t=50, b=10),
-        # xaxis=dict(title="AUC OD"),
-        yaxis=dict(title="Effect"),
+        xaxis=dict(title="Effect"),
     )
     if (
         chosen_strains == "Select Strain"
         or chosen_strains == None
     ):
-        fig = go.Figure(layout=fig_layout)
-        return fig
+        return default_bar_figure
     fig = plot_bar_1(chosen_strains,fig_layout=fig_layout)
 
     return fig
@@ -284,15 +358,13 @@ def update_bar_graph1(chosen_strains):
 def update_bar_graph2(chosen_metabolites):
     fig_layout = go.Layout(
         margin=dict(l=0, r=50, t=50, b=10),
-        # xaxis=dict(title="AUC OD"),
-        yaxis=dict(title="Effect"),
+        xaxis=dict(title="Effect"),
     )
     if (
         chosen_metabolites == "Select Metabolite"
         or chosen_metabolites == None
     ):
-        fig = go.Figure(layout=fig_layout)
-        return fig
+        return default_bar_figure
     fig = plot_bar_2(chosen_metabolites,fig_layout=fig_layout)
 
     return fig
@@ -305,7 +377,7 @@ def update_bar_graph2(chosen_metabolites):
 def update_metabolite_dropdown_on_bar_click(clickData):
     if clickData is None:
         return dash.no_update
-    clicked_metabolite = clickData["points"][0]["x"]
+    clicked_metabolite = clickData["points"][0]["y"]
     return clicked_metabolite
 
 @callback(
@@ -316,5 +388,5 @@ def update_metabolite_dropdown_on_bar_click(clickData):
 def update_strain_dropdown_on_bar_click(clickData):
     if clickData is None:
         return dash.no_update
-    clicked_strain = clickData["points"][0]["x"]
+    clicked_strain = clickData["points"][0]["y"]
     return clicked_strain
