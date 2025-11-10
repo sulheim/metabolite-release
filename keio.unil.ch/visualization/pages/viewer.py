@@ -23,7 +23,8 @@ ionMz_annotation_fn = 'data/H_ionMz_annotation.csv'
 df_ionMz = pd.read_csv(ionMz_annotation_fn)
 df_ionMz.drop_duplicates(subset=['ionMz'], inplace=True)
 
-
+mutant_color = "#0D5379"
+wt_color = "#991717"
 
 distance_fn = 'data/K_timecurve_comparison_TIC_norm_lam_10_AUC OD.csv'
 dis_df = pd.read_csv(distance_fn, index_col=0)
@@ -42,7 +43,7 @@ default_bar_figure.update_xaxes(range=(-15,15))
 default_bar_figure.update_yaxes(showticklabels=False)
 
 
-def plot_bar_1(selected_strain,fig_layout):
+def plot_bar_1(selected_strain,fig_layout,selected_metabolite=None,showMetaboliteFlag=False):
     idx = sel_df.Strain == selected_strain
     plot_data = sel_df.loc[idx].copy()
     # print(plot_data.head())
@@ -63,32 +64,31 @@ def plot_bar_1(selected_strain,fig_layout):
             orientation='h',
         )
     )
-
-    for y_cat, x_val, label in zip(ydata, xdata, ydata):
-        if x_val >= 0:
-            # Right side of positive bar
-            fig.add_annotation(
-                x=x_val,
-                y=y_cat,
-                text=label,
-                showarrow=False,
-                xanchor="left",
-                yanchor="middle",
-                xshift=5  # pixels to the right
-            )
-        else:
-            # Left side of negative bar
-            fig.add_annotation(
-                x=x_val,
-                y=y_cat,
-                text=label,
-                showarrow=False,
-                xanchor="right",
-                yanchor="middle",
-                xshift=-5  # pixels to the left
-            )
-
-
+    if showMetaboliteFlag:
+        for y_cat, x_val, label in zip(ydata, xdata, ydata):
+            if x_val >= 0:
+                # Right side of positive bar
+                fig.add_annotation(
+                    x=-0.5,
+                    y=y_cat,
+                    text=label,
+                    showarrow=False,
+                    xanchor="right",
+                    yanchor="middle",
+                    xshift=5  # pixels to the right
+                )
+            else:
+                # Left side of negative bar
+                fig.add_annotation(
+                    x=0.5,
+                    y=y_cat,
+                    text=label,
+                    showarrow=False,
+                    xanchor="left",
+                    yanchor="middle",
+                    xshift=-5  # pixels to the left
+                )
+    
     fig.add_vline(
         x=0,
         line_width=1,
@@ -109,18 +109,33 @@ def plot_bar_1(selected_strain,fig_layout):
     fig.update_xaxes(range=(range_min,range_max))
 
     fig.update_yaxes(showticklabels=False)
+
+    if (selected_metabolite is not None) and (selected_metabolite != "Select Metabolite"):
+        fig.add_shape(
+            type="rect",
+            x0 = range_min,
+            y0 = np.where(ydata.values == selected_metabolite)[0][0]-0.5,
+            x1 = range_max,
+            y1 = np.where(ydata.values == selected_metabolite)[0][0]+0.5,
+            line=dict(color=wt_color,width=2,dash="dashdot"),
+        )
+
+
     return fig
 
-def plot_bar_2(selected_metabolite,fig_layout):
+def plot_bar_2(selected_metabolite,fig_layout,selected_strain=None):
     idx = sel_df.Metabolite == selected_metabolite
     plot_data = sel_df.loc[idx].copy()
     plot_data.sort_values(by='Rel. distance', ascending=False, inplace=True)
+
+    xdata = plot_data['Rel. distance'][::-1]
+    ydata = plot_data['Strain'][::-1]
     
     fig = go.Figure(layout=fig_layout)
     fig.add_trace(
         go.Bar(
-            y=plot_data['Strain'][::-1],
-            x=plot_data['Rel. distance'][::-1],
+            y=ydata,
+            x=xdata,
             marker_color="#0D5379",
             name='Effect size',
             width=0.9,
@@ -142,10 +157,46 @@ def plot_bar_2(selected_metabolite,fig_layout):
     else:
         fig.update_yaxes(range=[25-0.5, -0.5])
 
+    for y_cat, x_val, label in zip(ydata, xdata, ydata):
+        if x_val >= 0:
+            # Right side of positive bar
+            fig.add_annotation(
+                x=-0.5,
+                y=y_cat,
+                text=label,
+                showarrow=False,
+                xanchor="right",
+                yanchor="middle",
+                xshift=5  # pixels to the right
+            )
+        else:
+            # Left side of negative bar
+            fig.add_annotation(
+                x=0.5,
+                y=y_cat,
+                text=label,
+                showarrow=False,
+                xanchor="left",
+                yanchor="middle",
+                xshift=-5  # pixels to the left
+            )
+
     min_y,max_y = np.min(plot_data['Rel. distance']), np.max(plot_data['Rel. distance'])
     range_min = min(-15,min_y)
     range_max = max(15,max_y)
     fig.update_xaxes(range=(range_min,range_max))
+
+    fig.update_yaxes(showticklabels=False)
+
+    if(selected_strain is not None) and (selected_strain != "Select Strain"):
+        fig.add_shape(
+            type="rect",
+            x0 = range_min,
+            y0 = np.where(ydata.values == selected_strain)[0][0]-0.5,
+            x1 = range_max,
+            y1 = np.where(ydata.values == selected_strain)[0][0]+0.5,
+            line=dict(color=wt_color,width=2,dash="dashdot"),
+        )
 
     return fig
 
@@ -167,8 +218,7 @@ def plot_function(selected_strain,selected_metabolite,fig_layout):
     mutant_spline = make_smoothing_spline(mutant_data[0], mutant_data[1], w = 1/np.square(mutant_data[2]), lam = 10)
     wt_spline = make_smoothing_spline(wt_data[0], wt_data[1], w=1/np.square(wt_data[2]), lam = 10)
 
-    mutant_color = "#0D5379"
-    wt_color = "#991717"
+    
 
     fig = go.Figure(layout=fig_layout)
     fig.add_trace(
@@ -231,6 +281,11 @@ layout = html.Div(
                         id="strain-dropdown",
                         multi=False,
                     ),
+                dbc.Checklist(
+                    options={"label":"Show metabolite names"},
+                    value=["label"],
+                    id="metabolite-name-flag"
+                ),
                 dbc.Row(
                     dcc.Graph(
                         figure=default_bar_figure,
@@ -239,7 +294,7 @@ layout = html.Div(
                     style={"height":"80vh"},
                 )           
             ],
-            width=5,
+            width=4,
         ),
 
         # Column for metabolite
@@ -268,9 +323,9 @@ layout = html.Div(
                 dcc.Graph(
                     figure={},
                     id="controls-and-graph",
-                    style={"width":"100%", "height":"30vh"}
+                    style={"width":"100%", "height":"40vh"}
                 ),
-                width=3,
+                width=4,
                 style={"height":"80vh","justify-content": "center", "align-items": "center", "display": "flex","padding-left":"2vw"},
             ),
         
@@ -332,10 +387,12 @@ def update_graph_view(
 @callback(
         Output(component_id="bar-1", component_property="figure"),
         Input("strain-dropdown", "value"),
+        Input("metabolite-dropdown", "value"),
+        Input("metabolite-name-flag", "value"),
 )
         
         
-def update_bar_graph1(chosen_strains):
+def update_bar_graph1(chosen_strains, chosen_metabolites, show_metabolite_flag):
     fig_layout = go.Layout(
         margin=dict(l=0, r=50, t=50, b=10),
         xaxis=dict(title="Effect"),
@@ -345,7 +402,7 @@ def update_bar_graph1(chosen_strains):
         or chosen_strains == None
     ):
         return default_bar_figure
-    fig = plot_bar_1(chosen_strains,fig_layout=fig_layout)
+    fig = plot_bar_1(chosen_strains,fig_layout=fig_layout,selected_metabolite=chosen_metabolites,showMetaboliteFlag=show_metabolite_flag)
 
     return fig
 
@@ -353,9 +410,10 @@ def update_bar_graph1(chosen_strains):
 @callback(
         Output(component_id="bar-2", component_property="figure"),
         Input("metabolite-dropdown", "value"),
+        Input("strain-dropdown", "value"),
 )
 
-def update_bar_graph2(chosen_metabolites):
+def update_bar_graph2(chosen_metabolites, chosen_strains):
     fig_layout = go.Layout(
         margin=dict(l=0, r=50, t=50, b=10),
         xaxis=dict(title="Effect"),
@@ -365,7 +423,7 @@ def update_bar_graph2(chosen_metabolites):
         or chosen_metabolites == None
     ):
         return default_bar_figure
-    fig = plot_bar_2(chosen_metabolites,fig_layout=fig_layout)
+    fig = plot_bar_2(chosen_metabolites,fig_layout=fig_layout,selected_strain=chosen_strains)
 
     return fig
 
