@@ -517,6 +517,7 @@ layout = html.Div(
                             id="bar-2",
                         ),
                         style={"height":"80vh", "marginTop":"3vh"},                    
+
                 ),                    
             ],
             width=3,
