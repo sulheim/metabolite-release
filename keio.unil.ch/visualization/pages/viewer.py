@@ -1,12 +1,34 @@
 import dash
-from dash import dcc, html, callback, Output, Input
+from dash import dcc, html, callback, Output, Input, dash_table
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
+import plotly.express as px
 import numpy as np
 from scipy.interpolate import make_smoothing_spline
 import pandas as pd
 import bz2
 import _pickle as cPickle
+
+# Colors
+colormap = px.colors.qualitative.Set2
+mutant_color = colormap[1]#"#0D5379"
+wt_color = colormap[0]#"#991717"
+selected_color = colormap[1]
+bar_color = colormap[2]
+
+# Label size
+label_dict = dict(
+            # family="Arial, sans-serif",
+            size=16,  # Global font size
+            color="black"
+        )
+
+# Starting point for data loading
+first_strain = 'putP'
+first_metabolite = 'Proline'
+strain_placeholder = '-'
+metabolite_placeholder = '-'
+
 
 def load_compressed_pickle(filename):
     data = bz2.BZ2File(filename + '.pbz2', 'rb')
@@ -18,17 +40,30 @@ data_dict = load_compressed_pickle('data/data_dict_keio_all_strains_with_std')
 all_strains = load_compressed_pickle("data/keio_non_wt_strains_list")
 all_metabolites = load_compressed_pickle("data/keio_all_metabolites_list")
 
-## load mz_
+# Add delta
+strain_options = [{"label": f"Δ{strain}", "value": strain} for strain in all_strains]
+
+## load metabolite metadata
 ionMz_annotation_fn = 'data/H_ionMz_annotation.csv'
 df_ionMz = pd.read_csv(ionMz_annotation_fn)
 df_ionMz.drop_duplicates(subset=['ionMz'], inplace=True)
 
-mutant_color = "#0D5379"
-wt_color = "#991717"
-
+# Load estimated effects
 distance_fn = 'data/K_timecurve_comparison_TIC_norm_lam_10_AUC OD.csv'
 dis_df = pd.read_csv(distance_fn, index_col=0)
 dis_mz = dis_df.merge(df_ionMz, on='ionMz', how='left')
+
+# Load sample metadata
+sample_metadata_fn = 'data/I_sample_metadata_keio.csv'
+sample_metadata_df = pd.read_csv(sample_metadata_fn, index_col=0)
+sample_od_mean = sample_metadata_df.groupby(['Strain','Hours','Batch']).agg({'OD':['mean','std']}).reset_index()
+sample_od_mean.columns = ['Strain','Hours','Batch','OD_mean','OD_std']
+
+# Load transporter metadata
+transporter_metadata_fn = 'data/C_transporters_short_metadata.csv'
+transporter_metadata_df = pd.read_csv(transporter_metadata_fn)
+
+
 
 max_pval = 0.005
 min_effect = 3
@@ -52,20 +87,34 @@ def plot_bar_1(selected_strain,fig_layout,selected_metabolite=None,showMetabolit
     xdata = plot_data['Rel. distance'][::-1]
     ydata = plot_data['Metabolite'][::-1]
 
+    # Default color for all bars
+    colors = [bar_color] * len(ydata)
+    # Highlight selected metabolite
+    if (selected_metabolite is not None) and (selected_metabolite != "-"):
+        selected_idx = np.where(ydata.values == selected_metabolite)[0]
+        if len(selected_idx):
+            colors[selected_idx[0]] = selected_color#"#991717"  # Use wt_color or any highlight color
+
+
     
     fig = go.Figure(layout=fig_layout)
+    # fig.
     fig.add_trace(
         go.Bar(
             y=ydata,
             x=xdata,
-            marker_color="#0D5379",
+            marker_color=colors,
             name='Effect size',
             width=0.9,
             orientation='h',
         )
     )
+    # Truncate to 20 characters
+    max_length = 22
+    truncated_labels = [label[:max_length] + "..." if len(label) > max_length+3 else label for label in ydata]
+
     if showMetaboliteFlag:
-        for y_cat, x_val, label in zip(ydata, xdata, ydata):
+        for y_cat, x_val, label in zip(ydata, xdata, truncated_labels):
             if x_val >= 0:
                 # Right side of positive bar
                 fig.add_annotation(
@@ -92,13 +141,23 @@ def plot_bar_1(selected_strain,fig_layout,selected_metabolite=None,showMetabolit
     fig.add_vline(
         x=0,
         line_width=1,
-        line_dash="dash",
+        # line_dash="dash",
         line_color="black",
     )
+    fig.add_annotation(x=0.01, y=1,
+            text="Click on a bar to select that metabolite",
+            xref="paper", yref="paper",
+            xanchor="left", yanchor="bottom",
+            # bgcolor = "white",
+            showarrow=False,
+            font=dict(size=20, color="gray")
+            )
     fig.update_layout(
         yaxis_title="Metabolite",
         xaxis_title="Effect",
+        font=label_dict
     )
+
     if(len(plot_data['Metabolite'])>25):
         fig.update_yaxes(range=[len(plot_data['Metabolite'])-0.5, -0.5])
     else:
@@ -107,19 +166,7 @@ def plot_bar_1(selected_strain,fig_layout,selected_metabolite=None,showMetabolit
     range_min = min(-15,min_y)
     range_max = max(15,max_y)
     fig.update_xaxes(range=(range_min,range_max))
-
     fig.update_yaxes(showticklabels=False)
-
-    if (selected_metabolite is not None) and (selected_metabolite != "Select Metabolite"):
-        fig.add_shape(
-            type="rect",
-            x0 = range_min,
-            y0 = np.where(ydata.values == selected_metabolite)[0][0]-0.5,
-            x1 = range_max,
-            y1 = np.where(ydata.values == selected_metabolite)[0][0]+0.5,
-            line=dict(color=wt_color,width=2,dash="dashdot"),
-        )
-
 
     return fig
 
@@ -130,13 +177,21 @@ def plot_bar_2(selected_metabolite,fig_layout,selected_strain=None):
 
     xdata = plot_data['Rel. distance'][::-1]
     ydata = plot_data['Strain'][::-1]
+
+    # Default color for all bars
+    colors = [bar_color] * len(ydata)
+    # Highlight selected metabolite
+    if (selected_strain is not None) and (selected_strain != "-"):
+        selected_idx = np.where(ydata.values == selected_strain)[0]
+        if len(selected_idx):
+            colors[selected_idx[0]] = selected_color#"#991717"  # Use wt_color or any highlight color
     
     fig = go.Figure(layout=fig_layout)
     fig.add_trace(
         go.Bar(
             y=ydata,
             x=xdata,
-            marker_color="#0D5379",
+            marker_color=colors,
             name='Effect size',
             width=0.9,
             orientation='h',
@@ -145,19 +200,21 @@ def plot_bar_2(selected_metabolite,fig_layout,selected_strain=None):
     fig.add_vline(
         x=0,
         line_width=1,
-        line_dash="dash",
+        # line_dash="dash",
         line_color="black",
     )
     fig.update_layout(
         yaxis_title="Strain",
         xaxis_title="Effect",
+        font=label_dict
     )
     if(len(plot_data['Strain'])>25):
         fig.update_yaxes(range=[len(plot_data['Strain'])-0.5, -0.5])
     else:
         fig.update_yaxes(range=[25-0.5, -0.5])
 
-    for y_cat, x_val, label in zip(ydata, xdata, ydata):
+    ytext = [f'Δ{strain}' for strain in ydata]
+    for y_cat, x_val, label in zip(ydata, xdata, ytext):
         if x_val >= 0:
             # Right side of positive bar
             fig.add_annotation(
@@ -180,7 +237,14 @@ def plot_bar_2(selected_metabolite,fig_layout,selected_strain=None):
                 yanchor="middle",
                 xshift=-5  # pixels to the left
             )
-
+    fig.add_annotation(x=0.01, y=1,
+            text="Click on a bar to select that KO mutant",
+            xref="paper", yref="paper",
+            xanchor="left", yanchor="bottom",
+            # bgcolor = "white",
+            showarrow=False,
+            font=dict(size=20, color="gray")
+            )
     min_y,max_y = np.min(plot_data['Rel. distance']), np.max(plot_data['Rel. distance'])
     range_min = min(-15,min_y)
     range_max = max(15,max_y)
@@ -188,25 +252,17 @@ def plot_bar_2(selected_metabolite,fig_layout,selected_strain=None):
 
     fig.update_yaxes(showticklabels=False)
 
-    if(selected_strain is not None) and (selected_strain != "Select Strain"):
-        fig.add_shape(
-            type="rect",
-            x0 = range_min,
-            y0 = np.where(ydata.values == selected_strain)[0][0]-0.5,
-            x1 = range_max,
-            y1 = np.where(ydata.values == selected_strain)[0][0]+0.5,
-            line=dict(color=wt_color,width=2,dash="dashdot"),
-        )
-
     return fig
 
-def plot_function(selected_strain,selected_metabolite,fig_layout):
+def plot_function(selected_strain,selected_metabolite,fig_layout, xaxis_type='AUC OD'):
     combined_data = data_dict[selected_strain][selected_metabolite]    
     if(combined_data is None):
         fig = go.Figure(layout=fig_layout)
         fig.add_annotation(
             x=0.5,
             y=0.5,
+            xref='paper',
+            yref='paper',
             text="No data available for the selected strain and metabolite.",
             showarrow=False,
             font=dict(size=16),
@@ -227,7 +283,7 @@ def plot_function(selected_strain,selected_metabolite,fig_layout):
             y=mutant_data[1],
             mode='markers',
             marker=dict(color=mutant_color,size=12,opacity=0.6,line=dict(width=1, color='DarkSlateGrey')),
-            name = "Mutant Strain",
+            name = f"Δ{selected_strain}",
         )
     )
     fig.add_trace(
@@ -258,12 +314,153 @@ def plot_function(selected_strain,selected_metabolite,fig_layout):
         )
     )
     fig.update_layout(legend=dict(
-    yanchor="top",
-    y=0.99,
-    xanchor="left",
-    x=0.01
-    ))
+        yanchor="top",
+        y=0.99,
+        xanchor="left",
+        x=0.01,
+        font = {'size':18}
+        ),
+    font = label_dict
+    )
     return fig
+
+def metadata_function(selected_strain, selected_metabolite):
+    # Get transporter info
+    mutant_info = transporter_metadata_df.loc[transporter_metadata_df['Gene Name'] == selected_strain]
+    if mutant_info.empty:
+        return html.Span("No metadata available.")
+    mutant_info = mutant_info.iloc[0]
+
+    # Get metabolite info
+    metabolite_info = df_ionMz.loc[df_ionMz['Metabolite'] == selected_metabolite]
+    if metabolite_info.empty:
+        return html.Span("No metadata available.")
+    metabolite_info = metabolite_info.iloc[0]
+
+    # Transporter metadata table
+    transporter_df = pd.DataFrame({
+        "Property": [
+            "Gene",
+            "JW ID",
+            "Annotation",
+            "Location",
+            "Type",
+        ],
+        "Value": [
+            selected_strain,
+            mutant_info['JW ID'],
+            mutant_info['Annotation'].capitalize(),
+            mutant_info['Location'].capitalize(),
+            mutant_info['Type'],
+        ]
+    })
+
+    # Metabolite metadata table
+    metabolite_df = pd.DataFrame({
+        "Property": [
+            "Name",
+            "Ion m/z",
+            "All KEGG IDs",
+            "All annotations",
+            "Class"
+        ],
+        "Value": [
+            selected_metabolite,
+            metabolite_info['ionMz'],
+            metabolite_info['KEGG'],
+            metabolite_info['All metabolite names'],
+            'XXX'
+        ]
+    })
+
+    return dbc.Row([
+        dbc.Label("Metadata", style={"fontWeight": "regular", "fontSize": "20px", "marginBottom": "0vh"}),
+        dbc.Col(
+            dash_table.DataTable(
+                data=transporter_df.to_dict('records'),
+                columns=[{"name": "KO mutant", "id": "Property"}, {"name": "", "id": "Value"}],
+                style_cell={'textAlign': 'left', 'padding': '2px'},
+                style_header={'backgroundColor': mutant_color, 'fontWeight': 'bold'},
+                style_as_list_view=True,
+                style_cell_conditional=[
+                    {'if': {'column_id': 'Property'}, 'width': '30%'},
+                    # {'if': {'column_id': 'Value'}, 'width': '200px'},
+                ],
+            ),
+            width=6,
+        ),
+        dbc.Col(
+            dash_table.DataTable(
+                data=metabolite_df.to_dict('records'),
+                columns=[{"name": "Metabolite", "id": "Property"}, {"name": "", "id": "Value"}],
+                style_cell={'textAlign': 'left', 'padding': '2px'},
+                style_header={'backgroundColor': bar_color, 'fontWeight': 'bold'},
+                style_cell_conditional=[
+                    {'if': {'column_id': 'Property'}, 'width': '40%'},
+                    # {'if': {'column_id': 'Value'}, 'width': '200px'},
+                ],
+                style_as_list_view=True,
+            ),
+            width=6,
+        ),
+    ],
+    style={"marginTop": "1vh", "marginBottom": "1vh", "marginRight":"2vw"}
+    )
+
+def plot_OD(selected_strain,fig_layout):
+        
+    if(selected_strain is None) or (selected_strain == "-"):
+        fig = go.Figure(layout=fig_layout)
+        fig.add_annotation(
+            x=0.5,
+            y=0.5,
+            xref='paper',
+            yref='paper',
+            text="No KO mutant selected.",
+            showarrow=False,
+            font=dict(size=16),
+        )
+        return fig
+    
+    mutant_data = sample_od_mean.loc[sample_od_mean.Strain==selected_strain]
+    batch = mutant_data.Batch.unique()[0]    
+    wt_data = sample_od_mean.loc[(sample_od_mean.Strain=='WT')&(sample_od_mean.Batch==batch)]
+    
+
+
+    fig = go.Figure(layout=fig_layout)
+    fig.add_trace(
+        go.Scatter(
+            x=mutant_data['Hours'],
+            y=mutant_data['OD_mean'],
+            mode='markers+lines',
+            error_y = dict(type='data', array=mutant_data['OD_std'], visible=True),
+            marker=dict(color=mutant_color,size=12,opacity=0.6,line=dict(width=1, color='DarkSlateGrey')),
+            name = f"Δ{selected_strain}",
+        )
+    )
+    fig.add_trace(
+        go.Scatter(
+            x=wt_data['Hours'],
+            y=wt_data['OD_mean'],
+            mode='markers+lines',
+            error_y = dict(type='data', array=wt_data['OD_std'], visible=True),
+            marker=dict(color=wt_color,size=12,opacity=0.6,line=dict(width=1, color='DarkSlateGrey')),
+            name = "Wild Type"
+        )
+    )
+
+    fig.update_layout(legend=dict(
+        yanchor="top",
+        y=0.99,
+        xanchor="left",
+        x=0.01,
+        font = {'size':18}
+        ),
+    font = label_dict
+    )
+    return fig
+
 
 
 # Dash layout
@@ -274,27 +471,32 @@ layout = html.Div(
         # Column for strain
         dbc.Col(
             [   
-                dbc.Label("Strain Selection"),
+                dbc.Label("Select transporter KO mutant",),
                 dcc.Dropdown(
-                        options=all_strains,
-                        placeholder="Select strain",
+                        options=strain_options,
+                        placeholder="-",
                         id="strain-dropdown",
+                        value = first_strain,
                         multi=False,
+                        className='dropdownS',
+                        style = {"marginBottom":"0vh"}
                     ),
                 dbc.Checklist(
                     options={"label":"Show metabolite names"},
                     value=["label"],
-                    id="metabolite-name-flag"
+                    id="metabolite-name-flag",
+                    style={"marginTop":"0vh", "marginBottom":"0vh"},
                 ),
-                dbc.Row(
-                    dcc.Graph(
-                        figure=default_bar_figure,
-                        id="bar-1",
-                    ),
-                    style={"height":"80vh"},
-                )           
+                # dbc.Row(
+                dcc.Graph(
+                    figure=default_bar_figure,
+                    id="bar-1",
+                    style={"height":"80vh", "marginTop":"0vh"}
+                ),
+                    
+                # )           
             ],
-            width=4,
+            width=3,
         ),
 
         # Column for metabolite
@@ -303,60 +505,74 @@ layout = html.Div(
                 dbc.Label("Metabolite Selection"),
                 dcc.Dropdown(
                         options=all_metabolites,
-                        placeholder="Select metabolite",
+                        placeholder="-",
                         id="metabolite-dropdown",
+                        value = first_metabolite,
                         multi=False,
+                        className='dropdownM'
                     ),
                 dbc.Row(                    
                         dcc.Graph(
                             figure=default_bar_figure,
                             id="bar-2",
                         ),
-                        style={"height":"80vh"},                    
+                        style={"height":"80vh", "marginTop":"3vh"},                    
                 ),                    
             ],
-            width=4,
+            width=3,
         ),
 
-        # Column for plot
-         dbc.Col(
+        # Column for plot and metadata
+        dbc.Col(
+            [
+                dbc.Label("Select x-axis"),
+                dcc.Dropdown(
+                    options=['Time [h]', 'AUC OD'],
+                    value="AUC OD",  # default value
+                    id="xaxis-dropdown",
+                    className="dropdownM",
+                    clearable=False,
+                ),
                 dcc.Graph(
                     figure={},
                     id="controls-and-graph",
-                    style={"width":"100%", "height":"40vh"}
+                    style={"width":"100%", "height":"30vh", "marginTop":"3vh"},
                 ),
-                width=4,
-                style={"height":"80vh","justify-content": "center", "align-items": "center", "display": "flex","padding-left":"2vw"},
-            ),
-        
-
+                dcc.Graph(
+                    figure={},
+                    id="od-graph",
+                    style={"width":"100%", "height":"30vh", "marginTop":"0vh"},
+                ),
+                # html.Details(
+                #     [
+                # html.Summary(html.Span("Metadata")),
+                        html.Span(
+                            children=[""],
+                            id="metadata-table",
+                            style={"marginTop": "1vh", "marginBottom": '1vh'}
+                        ),
+                    # ],
+                    # style={"marginTop": "0vh", "marginBottom": '1vh'}  #
+                # ),
+            ],
+            width=6,
+            style={"height":"80vh","padding-left":"2vw"},
+        ),
     ],),
-    dbc.Col(
-            html.Details(
-                [
-                    html.Summary(html.Span("Metadata")),
-                    html.Span(
-                        children=[""],
-                        id="metadata-table",
-                    ),
-                ],
-            ),
-            width=11,
-    ),],
+    # Remove the separate dbc.Col for metadata here
+]
 )
-
 
 # Callback for plotting the selected data
 @callback(
-    [
         Output(component_id="controls-and-graph", component_property="figure"),
-        Output(component_id="metadata-table", component_property="children"),
-    ],
+        # Output(component_id="metadata-table", component_property="children"),
     [
         Input("strain-dropdown", "value"),
         Input("metabolite-dropdown", "value"),
     ],
 )
+
 
         # Output(component_id="bar-2", component_property="figure"),
 def update_graph_view(
@@ -371,17 +587,33 @@ def update_graph_view(
     if (
         chosen_strains == "Select Strain"
         or chosen_strains == None
-        or chosen_metabolites == "Select Metabolite"
+        or chosen_metabolites == "-"
         or chosen_metabolites == None
     ):
         fig = go.Figure(layout=fig_layout)
-        return fig, []
+        return fig
 
     fig = plot_function(chosen_strains, chosen_metabolites, fig_layout)
+    return fig
 
-    return (
-        fig, []
+
+
+# Plot OD
+@callback(
+    Output(component_id="od-graph", component_property="figure"),
+    Input("strain-dropdown", "value"),
+)
+def update_od_graph(selected_strain):
+    fig_layout = go.Layout(
+        margin=dict(l=0, r=50, t=50, b=10),
+        xaxis=dict(title="Time [h]"),
+        yaxis=dict(title="OD600"),
     )
+    if (selected_strain == None) or (selected_strain == "-"):
+        fig = go.Figure(layout=fig_layout)
+        return fig
+    fig = plot_OD(selected_strain, fig_layout)
+    return fig
 
 # Callback for plotting the selected data
 @callback(
@@ -394,11 +626,11 @@ def update_graph_view(
         
 def update_bar_graph1(chosen_strains, chosen_metabolites, show_metabolite_flag):
     fig_layout = go.Layout(
-        margin=dict(l=0, r=50, t=50, b=10),
+        margin=dict(l=0, r=10, t=50, b=10),
         xaxis=dict(title="Effect"),
     )
     if (
-        chosen_strains == "Select Strain"
+        chosen_strains == "-"
         or chosen_strains == None
     ):
         return default_bar_figure
@@ -415,11 +647,11 @@ def update_bar_graph1(chosen_strains, chosen_metabolites, show_metabolite_flag):
 
 def update_bar_graph2(chosen_metabolites, chosen_strains):
     fig_layout = go.Layout(
-        margin=dict(l=0, r=50, t=50, b=10),
+        margin=dict(l=0, r=10, t=50, b=10),
         xaxis=dict(title="Effect"),
     )
     if (
-        chosen_metabolites == "Select Metabolite"
+        chosen_metabolites == "-"
         or chosen_metabolites == None
     ):
         return default_bar_figure
@@ -448,3 +680,12 @@ def update_strain_dropdown_on_bar_click(clickData):
         return dash.no_update
     clicked_strain = clickData["points"][0]["y"]
     return clicked_strain
+
+# Callback for updating metadata
+@callback(
+    Output("metadata-table", "children"),
+    Input("strain-dropdown", "value"),
+    Input("metabolite-dropdown", "value"),
+)
+def update_metadata_table(selected_strain, selected_metabolite):
+    return metadata_function(selected_strain, selected_metabolite)

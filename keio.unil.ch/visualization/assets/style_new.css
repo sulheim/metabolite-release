@@ -10,9 +10,29 @@ h1 {
     text-align: left;
 }
 
-.dropdown {
-    margin: 10px 0;
-    padding-top: 10px;
-    border-top: 1px solid #dee2e6;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.nav-link, .dash-page-link {
+    font-size: 24px;
+    /* font-weight: bold; */
+}
+
+.dropdownS {
+    /* margin: 10px 0; */
+    padding-bottom: 1px;
+    font-size: 20px;
+    font-style: italic;
+    /* border-top: 1px solid #dee2e6; */
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+.dropdownM {
+    /* margin: 10px 0;
+    padding-top: 10px; */
+    font-size: 20px;
+    /* font-style: italic; */
+    /* border-top: 1px solid #dee2e6; */
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+label {
+    font-size: 20px; /* Increase label font size */
+    font-weight: normal;
+    /* margin-bottom: 2px; */
 }
