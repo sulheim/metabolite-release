@@ -516,7 +516,7 @@ layout = html.Div(
                             figure=default_bar_figure,
                             id="bar-2",
                         ),
-                        style={"height":"80vh", "marginTop":"3vh"},                    
+                        style={"height":"80vh", "marginTop":"2.5vh"},                    
 
                 ),                    
             ],
@@ -537,7 +537,7 @@ layout = html.Div(
                 dcc.Graph(
                     figure={},
                     id="controls-and-graph",
-                    style={"width":"100%", "height":"30vh", "marginTop":"3vh"},
+                    style={"width":"100%", "height":"30vh", "marginTop":"2.5vh"},
                 ),
                 dcc.Graph(
                     figure={},
