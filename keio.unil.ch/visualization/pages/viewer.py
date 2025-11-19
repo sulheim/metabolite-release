@@ -312,7 +312,7 @@ layout = html.Div(
                             figure=default_bar_figure,
                             id="bar-2",
                         ),
-                        style={"height":"80vh"},                    
+                        style={"height":"80vh","margin-top":"2.5vh"},                    
                 ),                    
             ],
             width=4,
