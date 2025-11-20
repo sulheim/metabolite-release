@@ -35,7 +35,7 @@ def load_compressed_pickle(filename):
     data = cPickle.load(data)
     return data
 
-data_dict = load_compressed_pickle('data/data_dict_keio_all_strains_with_std')
+data_dict = load_compressed_pickle('data/new_data_dict_keio_all_strains_with_std')
 
 all_strains = load_compressed_pickle("data/keio_non_wt_strains_list")
 all_metabolites = load_compressed_pickle("data/keio_all_metabolites_list")
@@ -54,10 +54,8 @@ dis_df = pd.read_csv(distance_fn, index_col=0)
 dis_mz = dis_df.merge(df_ionMz, on='ionMz', how='left')
 
 # Load sample metadata
-sample_metadata_fn = 'data/I_sample_metadata_keio.csv'
-sample_metadata_df = pd.read_csv(sample_metadata_fn, index_col=0)
-sample_od_mean = sample_metadata_df.groupby(['Strain','Hours','Batch']).agg({'OD':['mean','std']}).reset_index()
-sample_od_mean.columns = ['Strain','Hours','Batch','OD_mean','OD_std']
+# sample_metadata_fn = 'data/I_sample_metadata_keio.csv'
+# sample_metadata_df = pd.read_csv(sample_metadata_fn, index_col=0)
 
 # Load transporter metadata
 transporter_metadata_fn = 'data/C_transporters_short_metadata.csv'
@@ -110,7 +108,7 @@ def plot_bar_1(selected_strain,fig_layout,selected_metabolite=None,showMetabolit
         )
     )
     # Truncate to 20 characters
-    max_length = 22
+    max_length = 20
     truncated_labels = [label[:max_length] + "..." if len(label) > max_length+3 else label for label in ydata]
 
     if showMetaboliteFlag:
@@ -270,17 +268,29 @@ def plot_function(selected_strain,selected_metabolite,fig_layout, xaxis_type='AU
         return fig
     
     mutant_data, wt_data = combined_data
-    t_common =  np.linspace(max(mutant_data[0].min(), wt_data[0].min()), min(mutant_data[0].max(), wt_data[0].max()), 1000, endpoint=True)
-    mutant_spline = make_smoothing_spline(mutant_data[0], mutant_data[1], w = 1/np.square(mutant_data[2]), lam = 10)
-    wt_spline = make_smoothing_spline(wt_data[0], wt_data[1], w=1/np.square(wt_data[2]), lam = 10)
+    zi = 1
+    zsi = 3
+    if xaxis_type == 'Time [h]':
+        xi = 0
+    else:
+        xi = 2
+
+    wt_data = wt_data[:, np.argsort(wt_data[xi])]
+    mutant_data = mutant_data[:, np.argsort(mutant_data[xi])]
+    
+    t_m = np.linspace(mutant_data[xi].min(), mutant_data[xi].max(), 100, endpoint=True)
+    t_wt = np.linspace(wt_data[xi].min(), wt_data[xi].max(), 100, endpoint=True)
+
+    mutant_spline = make_smoothing_spline(mutant_data[xi], mutant_data[zi], w = 1/np.square(mutant_data[zsi]), lam = 10)
+    wt_spline = make_smoothing_spline(wt_data[xi], wt_data[zi], w=1/np.square(wt_data[zsi]), lam = 10)
 
     
 
     fig = go.Figure(layout=fig_layout)
     fig.add_trace(
         go.Scatter(
-            x=mutant_data[0],
-            y=mutant_data[1],
+            x=mutant_data[xi],
+            y=mutant_data[zi],
             mode='markers',
             marker=dict(color=mutant_color,size=12,opacity=0.6,line=dict(width=1, color='DarkSlateGrey')),
             name = f"Δ{selected_strain}",
@@ -288,8 +298,8 @@ def plot_function(selected_strain,selected_metabolite,fig_layout, xaxis_type='AU
     )
     fig.add_trace(
         go.Scatter(
-            x=wt_data[0],
-            y=wt_data[1],
+            x=wt_data[xi],
+            y=wt_data[zi],
             mode='markers',
             marker=dict(color=wt_color,size=12,opacity=0.6,line=dict(width=1, color='DarkSlateGrey')),
             name = "Wild Type"
@@ -297,8 +307,8 @@ def plot_function(selected_strain,selected_metabolite,fig_layout, xaxis_type='AU
     )
     fig.add_trace(
         go.Scatter(
-            x=t_common,
-            y=mutant_spline(t_common),
+            x=t_m,
+            y=mutant_spline(t_m),
             mode='lines',
             line=dict(color=mutant_color),
             showlegend=False,
@@ -306,8 +316,8 @@ def plot_function(selected_strain,selected_metabolite,fig_layout, xaxis_type='AU
     )
     fig.add_trace(
         go.Scatter(
-            x=t_common,
-            y=wt_spline(t_common),
+            x=t_wt,
+            y=wt_spline(t_wt),
             mode='lines',
             line=dict(color=wt_color),
             showlegend=False,
@@ -361,15 +371,15 @@ def metadata_function(selected_strain, selected_metabolite):
             "Name",
             "Ion m/z",
             "All KEGG IDs",
-            "All annotations",
+            "Other annotations",
             "Class"
         ],
         "Value": [
             selected_metabolite,
             metabolite_info['ionMz'],
             metabolite_info['KEGG'],
-            metabolite_info['All metabolite names'],
-            'XXX'
+            metabolite_info['Alt. annotations'],
+            metabolite_info['Classification']
         ]
     })
 
@@ -422,29 +432,28 @@ def plot_OD(selected_strain,fig_layout):
         )
         return fig
     
-    mutant_data = sample_od_mean.loc[sample_od_mean.Strain==selected_strain]
-    batch = mutant_data.Batch.unique()[0]    
-    wt_data = sample_od_mean.loc[(sample_od_mean.Strain=='WT')&(sample_od_mean.Batch==batch)]
-    
-
+    mutant_data, wt_data = data_dict[selected_strain]['OD']
+    xi = 0
+    yi = 1
+    ysi = 2
 
     fig = go.Figure(layout=fig_layout)
     fig.add_trace(
         go.Scatter(
-            x=mutant_data['Hours'],
-            y=mutant_data['OD_mean'],
+            x=mutant_data[xi],
+            y=mutant_data[yi],
             mode='markers+lines',
-            error_y = dict(type='data', array=mutant_data['OD_std'], visible=True),
+            error_y = dict(type='data', array=mutant_data[ysi], visible=True),
             marker=dict(color=mutant_color,size=12,opacity=0.6,line=dict(width=1, color='DarkSlateGrey')),
             name = f"Δ{selected_strain}",
         )
     )
     fig.add_trace(
         go.Scatter(
-            x=wt_data['Hours'],
-            y=wt_data['OD_mean'],
+            x=wt_data[xi],
+            y=wt_data[yi],
             mode='markers+lines',
-            error_y = dict(type='data', array=wt_data['OD_std'], visible=True),
+            error_y = dict(type='data', array=wt_data[ysi], visible=True),
             marker=dict(color=wt_color,size=12,opacity=0.6,line=dict(width=1, color='DarkSlateGrey')),
             name = "Wild Type"
         )
@@ -571,17 +580,18 @@ layout = html.Div(
     [
         Input("strain-dropdown", "value"),
         Input("metabolite-dropdown", "value"),
+        Input("xaxis-dropdown", "value")
     ],
 )
 
 
         # Output(component_id="bar-2", component_property="figure"),
 def update_graph_view(
-    chosen_strains, chosen_metabolites
+    chosen_strains, chosen_metabolites, xaxis_type
 ):
     fig_layout = go.Layout(
         margin=dict(l=0, r=50, t=50, b=10),
-        xaxis=dict(title="AUC OD"),
+        xaxis=dict(title=xaxis_type),
         yaxis=dict(title="Median Z-score"),
     )
     
@@ -594,7 +604,7 @@ def update_graph_view(
         fig = go.Figure(layout=fig_layout)
         return fig
 
-    fig = plot_function(chosen_strains, chosen_metabolites, fig_layout)
+    fig = plot_function(chosen_strains, chosen_metabolites, fig_layout, xaxis_type=xaxis_type)
     return fig
 
 
