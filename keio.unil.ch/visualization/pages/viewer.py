@@ -494,7 +494,7 @@ layout = html.Div(
                     options={"label":"Show metabolite names"},
                     value=["label"],
                     id="metabolite-name-flag",
-                    style={"marginTop":"0vh", "marginBottom":"0vh"},
+                    style={"marginTop":"0vh", "marginBottom":"0vh","height":"5vh"},
                 ),
                 # dbc.Row(
                 dcc.Graph(
@@ -525,7 +525,7 @@ layout = html.Div(
                             figure=default_bar_figure,
                             id="bar-2",
                         ),
-                        style={"height":"80vh", "marginTop":"2.5vh"},                    
+                        style={"height":"80vh", "marginTop":"5vh"},                    
 
                 ),                    
             ],
@@ -568,7 +568,8 @@ layout = html.Div(
             width=6,
             style={"height":"80vh","padding-left":"2vw"},
         ),
-    ],),
+    ],
+    style={"marginLeft":"1vw"}),
     # Remove the separate dbc.Col for metadata here
 ]
 )
