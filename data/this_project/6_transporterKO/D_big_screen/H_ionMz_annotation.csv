@@ -1,499 +1,499 @@
-ionMz,Metabolite,KEGG,All metabolite names
-57.0346,Propanal,C00479,Propanal
-59.0135,Acetatic acid,C00033;C00266,Acetic acid / Glycolaldehyde
-71.0141,Pyruvaldehyde,C00546,Pyruvaldehyde
-72.0093,Iminoacetate,C15809,2-iminoacetate
-72.9932,Glyoxylic acid,C00048,Glyoxylic acid
-73.0297,C3:0 (Propionic acid),C00163;C00424;C00937;C05999,(S)-Lactaldehyde / Lactaldehyde / Propionic acid
-74.025,Glycine,C00037,Glycine
-75.0089,Glycolate,C00160,Glycolate
-85.0297,Diacetyl,C00741,Diacetyl
-87.0088,Pyruvate,C00022;C00222,Malonic semialdehyde / Pyruvic acid
-87.0452,C4:0 (Butyric acid),C00246;C00466,Acetoin / Butyric acid
-88.0406,Alanine,C00041;C00099;C00133;C00213,Alanine / Sarcosine / beta-Alanine
-89.0247,Lactate,C00184;C00186;C00256;C00577;C01013;C02426,3-Hydroxypropanoate / Dihydroxyacetone / Glyceraldehyde / Lactic acid
-91.0402,Glycerol,C00116,Glycerol
-93.0347,Phenol,C15584,Phenol
-100.0407,2-Aminobut-2-enoate,C17234,2-Aminobut-2-enoate
-101.0245,Oxobutanoic acid,C00109;C00164;C00232;C00349;C06002,(S)-Methylmalonic acid semialdehyde / 2-Ketobutyric acid / 2-Methyl-3-oxopropanoate / Acetoacetic acid / Succinic acid semialdehyde
-101.061,Pentanoic acid,C08262,Isovaleric acid
-102.0199,2-Aminomalonate semialdehyde,C11822;C20249,2-Aminomalonate semialdehyde / Peroxyaminoacrylate
-102.0562,Aminobutanoic acid (ABA),C00334;C01026;C03284;C03665,"(S)-b-aminoisobutyric acid / 2-Aminoisobutyric acid / N,N-Dimethylglycine / gamma-Aminobutyric acid"
-103.04,Hydroxybutanoic acid,C00989;C01089;C01188;C01991,3-Hydroxybutyric acid / 3-Hydroxyisobutyric acid / 4-Hydroxybutanoic acid / gamma-Hydroxybutyrate
-104.0355,Serine,C00065;C00740,Serine
-105.0196,D-Glyceric acid,C00258,Glyceric acid
-107.05,Benzyl alcohol,C00556;C01468,Benzyl alcohol / p-Cresol
-109.0295,Catechol,C15571,Pyrocatechol
-110.0358,Cytosine,C00380,Cytosine
-110.9762,Monomethyl sulfate,C02704,Methyl sulfate
-111.0203,Uracil,C00106,Uracil
-113.0245,"2-Hydroxy-2,4-pentadienoic acid",C00596;C07091,"2-Hydroxy-2,4-pentadienoate / cis-Acetylacrylate"
-113.0358,Dihydrouracil,C00429;C02512,3-Cyano-alanine / Dihydrouracil
-114.056,Proline,C00148,Proline
-115.0038,Fumarate,C00122,Fumaric acid
-115.0402,Ketovaline,C00141,a-Ketoisovaleric acid / alpha-Ketoisovaleric acid
-115.0767,Hexanoate (N-C6:0),C01585,Hexanoate (N-C6:0)
-116.0356,Aspartate semialdehyde,C00441;C03508;C20250,(Z)-2-Methyl-peroxyaminoacrylate / 2-Amino-3-oxobutanoic acid / Aspartate-semialdehyde
-116.0718,Valine,C00183;C00719,Betaine / Valine
-117.0194,Succinate,C00042,Succinic acid
-117.0676,"L-2,4-Diaminobutanoic acid",C03283,"2,4-Diaminobutyric acid"
-118.0513,Threonine,C00188;C00263;C00820;C05519,Allothreonine / Homoserine / Threonine
-118.9807,Mercaptopyruvic acid,C00957,3-Mercaptopyruvic acid
-119.0503,Phenylacetaldehyde,C00601,Phenylacetaldehyde
-120.0127,Cys,C00097;C00793,Cysteine
-121.0409,Nicotinamide,C00153,Niacinamide
-124.0076,Taurine,C00245,Taurine
-125.0354,Thymine,C00178,Thymine
-125.0466,5-Amino-4-imidazolecarboxyamide,C04051,5-Amino-4-imidazolecarboxyamide
-127.0403,"2-Hydroxy-cis-hex-2,4-dienoate",C11354,"2-Hydroxy-cis-hex-2,4-dienoate"
-127.0523,Dihydrothymine,C00906,Dihydrothymine
-128.0353,Pyrrolidonecarboxylic acid,C02237;C04281,Pyrrolidonecarboxylic acid / Pyrroline hydroxycarboxylic acid
-128.0719,Pipecolate,C00408,Pipecolic acid
-129.0194,Itaconate,C00490;C02226,Citraconic acid / Itaconic acid
-129.056,4-Methyl-2-oxopentanoate,C00233;C00671;C03465,2-Keto-3-methyl-valerate / 3-Methyl-2-oxovaleric acid / Ketoleucine
-129.1035,N-Acetylputrescine,C02714,N-Acetylputrescine
-130.0511,5-Aminolevulinic acid,C00430;C01157;C01165;C03741,(S)-4-Amino-5-oxopentanoate / 5-Aminolevulinic acid / Glutamic-gamma-semialdehyde / Hydroxyproline
-130.0876,(Iso)Leucine,C00123;C00407,Isoleucine / Leucine
-131.035,Glutarate,C00489;C00900;C03589;C04181;C06010;C11838,"(4S)-4,5-Dihydroxypentan-2,3-dione / (S)-2-Acetolactate / 2-Acetolactate / 3-Hydroxy-3-methyl-2-oxobutanoic acid / 4-Hydroxy-2-oxopentanoate / Glutaric acid"
-131.0466,Asparagine,C00152;C02642,Asparagine / Ureidopropionic acid
-131.0828,Ornithine,C00077;C01602,Ornithine
-132.0305,Aspartate,C00049,Aspartic acid
-133.0144,Malate,C00149;C00497,(R)-Malate / Malic acid
-133.0508,Deoxyribose,C01801;C04039;C04272;C06257,"(R)-2,3-Dihydroxy-isovalerate / 1-Deoxy-xylulose / 2,3-Dihydroxyisovaleric acid / Deoxyribose"
-135.031,Hypoxanthine,C00262,Hypoxanthine
-135.0456,Phenyl acetate,C03765;C07086,4-Hydroxyphenylacetaldehyde / Benzeneacetic acid
-136.0404,2-Aminobenzoic acid,C00108;C00568,2-Aminobenzoic acid / p-Aminobenzoic acid
-138.9798,Acetyl-P,C00227;C05682,Acetylphosphate / Phosphonoacetate
-139.976,Carbamoyl phosphate,C00169,Carbamoylphosphate
-142.0873,Crotonobetaine,C04114;C10172,Crotonobetaine / Stachydrine
-143.108,Octanoic acid,C06423,Caprylic acid
-145.0145,Oxoglutarate,C00026,Oxoglutaric acid / alpha-Ketoglutarate
-145.0508,2-Aceto-2-hydroxybutanoate,C00966;C06006;C06762;C14463;C16272,(R)-3-Hydroxy-3-methyl-2-oxopentanoate / 2-Aceto-2-hydroxy-butyrate / 2-Dehydropantoate / 3-Hydroxy-5-oxohexanoate / 4-Hydroxy-2-oxohexanoic acid
-145.0621,Glutamine,C00064;C00819;C05100,Glutamine / Ureidoisobutyric acid
-145.0986,Lysine,C00047,Lysine
-145.1098,gamma-Butyrobetaine,C01181,gamma-Butyrobetaine
-146.046,Glutamate,C00025;C00217;C00979,Glutamate / Glutamic acid / O-Acetylserine
-147.0299,Hydroxyglutarate,C02630;C03196;C06032,2-Hydroxyglutaric acid / Erythro-3-Methylmalate
-147.0664,"(R) 2,3-Dihydroxy-3-methylvalerate",C00522;C06007,"(R) 2,3-Dihydroxy-3-methylvalerate / (R)-Pantoate"
-148.044,Methionine,C00073;C00855,Methionine
-149.0096,Tartaric acid,C00552;C00898,Meso-Tartaric acid / Tartaric acid
-149.0455,Pentose,C00121;C00181;C00216;C00259;C00309;C00310;C00312;C00476;C00508;C01508;C08353;C16639,Arabinose / Lyxose / Ribose / Ribulose / Threo-2-pentulose / Xylose / Xylulose / beta-Ribopyranose / beta-ribofuranose
-150.0425,Guanine,C00242,Guanine
-151.0264,Xanthine,C00385,Xanthine
-151.0609,Xylitol,C00474;C00532,Arabitol / Ribitol
-152.0021,3-Sulfino-L-alanine,C00606,3-Sulfinoalanine
-152.0356,3-Hydroxyanthranilate,C00632,3-Hydroxyanthranilic acid
-152.0716,Dopamine,C03758,Dopamine
-153.0193,2-Pyrocatechuic acid,C00196,2-Pyrocatechuic acid
-154.0623,Histidine,C00135,Histidine
-154.9751,2-Phosphoglycolate,C00988,Phosphoglycolic acid
-155.0099,Orotate,C00295,Orotic acid
-157.0256,Dihydroorotate,C00337,"4,5-Dihydroorotic acid"
-157.0504,Isopropylmaleate,C02631,Isopropylmaleate
-157.0646,(2-Naphthyl)methanol,C02909;C14089,(2-Naphthyl)methanol / 1-Hydroxymethylnaphthalene
-159.03,Oxoadipate,C00322,Oxoadipic acid
-159.0773,Alanyl-alanine,C00993,Alanyl-alanine
-160.0616,Aminoadipate,C00956,Aminoadipic acid
-161.0455,2-Dehydro-3-deoxy-rhamnonate,C02488;C03979,2-Dehydro-3-deoxy-rhamnonate / 2-Ethylmalate
-163.0397,3-Hydroxycinnamic acid,C00166;C12621,3-Hydroxycinnamic acid / Phenylpyruvic acid
-163.0614,2-Deoxyglucose,C00507;C00586;C00861;C01019;C01721;C02338;C02476;C20835;C20836,2-Deoxyglucose / Fucose / Fuculose / Rhamnose / Rhamnulose / alpha-Fucopyranose / alpha-Fucose / alpha-Rhamnose / beta-Fucopyranose / beta-Rhamnose
-164.038,Met-oxide,C02989;C15998;C15999,Methionine (R)-S-oxide / Methionine sulfoxide / methionine (S)-S-oxide
-164.0717,Phenylalanine,C00079;C02265,Phenylalanine
-165.0551,3-(2-Hydroxyphenyl)propanoate,C05607;C11457,3-(3-Hydroxyphenyl)propanoic acid / 3-(3-Hydroxyphenyl)propionate / Phenyllactic acid
-166.0507,Pyridoxal,C00250,Pyridoxal
-166.9752,Phosphoenolpyruvate,C00074,Phosphoenolpyruvic acid
-167.021,Urate,C00366,Uric acid
-167.0827,Pyridoxamine,C00534,Pyridoxamine
-168.0667,Pyridoxine,C00314,Pyridoxine
-169.0503,"3,4-Dihydroxyphenylethyleneglycol",C05576,"3,4-Dihydroxyphenylglycol"
-170.0454,"2,3,4,5-Tetrahydrodipicolinate",C03972,Tetrahydrodipicolinate
-170.0825,Homoserine lactone,C11837,Homoserine lactone
-171.0064,sn-Glycerol 3-phosphate,C00093;C00623;C02979;C03189,Glycerol 2-phosphate / Glycerol 3-phosphate / Sn-Glycerol-1-phosphate / glycerol-3-phosphate
-172.0615,Acetyl-Glu-semialdehyde,C01250,N-Acetyl-glutamate 5-semialdehyde
-173.0092,Aconitate,C00417;C02341,cis-Aconitic acid / trans-Aconitic acid
-173.0455,Shikimate,C00493;C04236,2-Isopropyl-3-oxosuccinate / Shikimic acid
-173.0932,Acetylornithine,C00437,N-Acetylornithine
-173.1041,Arginine,C00062,Arginine
-174.0409,Acetyl-Asp,C01042,N-Acetyl-aspartic acid
-174.088,Citrulline,C00327,Citrulline
-175.0245,Hexuronic acid,C00072;C04053;C04349,"(4S)-4,6-Dihydroxy-2,5-dioxohexanoate / 5-Dehydro-4-deoxy-glucuronate / Ascorbic acid"
-175.0364,Ureidosuccinic acid,C00438,Ureidosuccinic acid
-175.061,3-Propylmalate,C02504;C04411,2-Isopropylmalic acid / 3-Carboxy-3-hydroxy-isocaproate / 3-Isopropylmalate
-177.0405,Glucono-lactone,C00198;C00204;C01216;C03383;C03926,2-Dehydro-3-deoxy-galactonate / 2-Keto-3-deoxy-gluconic acid / 3-Dehydro-2-deoxy-gluconate / Galactonolactone / Gluconolactone
-178.017,S-Carboxymethyl-Cys,C03727,S-Carboxymethyl-cysteine
-178.051,N-Acetylanthranilate,C06332,N-Acetylanthranilate
-179.036,3-(4-Hydroxyphenyl)pyruvate,C01179;C12623,"4-Hydroxyphenylpyruvic acid / Trans-2,3-Dihydroxycinnamate"
-179.0561,2-Deoxygluconate,C00031;C00095;C00124;C00137;C00159;C00221;C00247;C00267;C00962;C00984;C01487;C01934;C02782,2-Deoxygluconate / Allose / Alpha-Galactose / Fructose / Galactose / Glucose / Inositol / Mannose / Myoinositol / Rhamnonate / Sorbose / alpha-Glucose / b-Glucose / beta-Galactose
-180.0664,Tyrosine,C00082;C06420,Tyrosine
-181.051,3-(4-Hydroxyphenyl)lactate,C04044;C12622,"3-(2,3-Dihydroxyphenyl)propanoate / 3-(2,3-Dihydroxyphenyl)propionic acid / cis-3-(3-Carboxyethenyl)-3,5-cyclohexadiene-1,2-diol"
-183.0061,"L-3,4-Dihydroxybutan-2-one 4-P",C15556,"1-Deoxy-glycero-tetrulose 4-phosphate / 3,4-Dihydroxy-2-butanone-4-P / 3,4-Dihydroxybutan-2-one 4-phosphate"
-184.0017,Phosphoserine,C01005;C02532,O-Phospho-serine / Phosphoserine
-184.9853,Phosphoglycerate,C00197;C00597;C00631,2-Phospho-glyceric acid / 3-Phospho-glycerate / 3-Phosphoglycerate
-187.1459,"7,8-Diaminononanoate",C01037,"7,8-Diaminononanoate"
-188.0566,Acetyl-Glu,C00624,N-Acetylglutamic acid
-189.0022,Oxalosuccinate,C05379,Oxalosuccinic acid
-189.0404,3-Dehydroquinate,C00944,3-Dehydroquinate
-189.088,Diaminopimelate,C00666;C00680,"Diaminopimelic acid / Meso-2,6-Diaminoheptanedioate"
-190.055,Acetyl-Met,C02712,N-Acetyl-methionine
-191.0196,(Iso)Citrate,C00158;C00311;C00679;C02780;C03921;C04575,"2,3-Diketo-gulonate / 2,5-Diketo-gluconate / 2-Dehydro-3-deoxy-glucarate / 5-Dehydro-4-deoxy-glucarate / Citric acid / Isocitric acid"
-191.0561,Quinate,C00296,Quinate
-192.0666,3-Carbamoyl-2-phenylpropionaldehyde,C16587;C16595,"3-Carbamoyl-2-phenylpropionaldehyde / 4-Hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one"
-193.0352,Hexuronate,C00191;C00333;C00558;C00618;C00905;C01062;C06473,2-Dehydro-gluconate / 3-Dehydro-gulonate / 5-Keto-gluconate / Fructuronate / Galacturonate / Glucuronic acid / Tagaturonate
-193.0719,Methyl-beta-galactoside,C03619,Methyl-beta-galactoside
-194.0686,"2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine",C01300,"2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine / 6-Hydroxymethyl dihydropterin"
-195.0508,Hexonic acid,C00257;C00514;C00770;C00800;C00817;C00880;C15930,Altronate / Galactonate / Galactonic acid / Gluconic acid / Gulonate / Idonate / Mannonate
-198.088,gamma-Glutamyl-beta-aminopropiononitrile,C06114,gamma-Glutamyl-beta-aminopropiononitrile
-199.0014,D-Erythrose 4-phosphate,C00279,Erythrose 4-phosphate
-199.1703,Dodecanoic acid (FA12:0),C02679,Dodecanoate (N-C12:0)
-203.0348,"1,4-Dihydroxy-2-naphthoate",C03657,"1,4-Dihydroxy-2-naphthoic acid"
-203.0824,Tryptophan,C00078,Tryptophan
-204.0508,Lipoamide,C00248,Lipoamide
-205.0353,"(R)-2-Hydroxybutane-1,2,4-tricarboxylate",C00725;C02225;C04593;C16241,"(2R,3S)-2-Hydroxybutane-1,2,3-tricarboxylate / Lipoic acid / Methylcitric acid / Methylisocitric acid / lipoate"
-211.9967,2-Amino-3-oxo-4-phosphonooxybutyrate,C03082;C07335,2-Amino-3-oxo-4-phosphonooxybutyrate / Aspartyl-4-phosphate
-212.9812,2-Oxo-3-hydroxy-4-phosphobutanoate,C06054,2-Oxo-3-hydroxy-4-phosphobutanoic acid
-213.0161,2-Deoxy-D-ribose 1-phosphate,C00672;C00673;C11437,1-Deoxy-xylulose 5-phosphate / Deoxyribose 1-phosphate / Deoxyribose 5-phosphate
-214.0117,O-Phospho-4-hydroxy-L-threonine,C06055,O-Phospho-4-hydroxy-threonine
-214.0491,sn-Glycero-3-phosphoethanolamine,C01233,Glycerylphosphorylethanolamine
-215.0326,2-C-Methyl-D-erythritol 4-phosphate,C11434,2-C-Methyl-erythritol-4-phosphate
-216.1344,gamma-Glutamyl-putrescine,C15699,gamma-Glutamyl-putrescine
-218.0332,4-Amino-2-methyl-5-phosphomethylpyrimidine,C04556,4-Amino-2-methyl-5-phosphomethylpyrimidine / 4-amino-5-phosphonooxymethyl-2-methylpyrimidine
-218.1034,Pantothenate,C00864,Pantothenic acid
-220.0487,L-Histidinol phosphate,C01100,Histidinol phosphate
-220.0825,N-Acetyl-D-glucosamine,C00140;C00645;C05021,N-Acetyl-b-galactosamine / N-Acetyl-glucosamine / N-Acetylglucosamine / N-Acetylmannosamine
-221.0668,6-Acetyl-D-glucose,C02655,6-Acetyl-glucose
-225.0403,Chorismate,C00251;C00254;C00885,Chorismate / Isochorismate / Prephenate
-226.0125,L-Glutamyl 5-phosphate,C03287,Glutamic acid 5-phosphate
-227.2016,Myristic acid,C06424,Myristic acid
-228.0266,5-Phosphoribosylamine,C03090,5-Phosphoribosylamine
-229.0119,Arabinose 5-phosphate,C00117;C00199;C00231;C00620;C01101;C01112;C03291,Arabinose 5-phosphate / Ribose-1-phosphate / Ribose-5-phosphate / Ribulose 5-phosphate / Xylulose 5-phosphate
-230.0676,N2-Succinyl-glutamic acid 5-semialdehyde,C05932,N2-Succinyl-glutamic acid 5-semialdehyde
-236.0782,Sepiapterin,C03684,Dyspropterin
-237.0611,3-Deoxy-D-manno-octulosonate,C01187,3-Deoxy-manno-octulosonate
-240.0514,"N-(2,3-Dihydroxybenzoyl)-L-serine",C04204,"2,3-Dihydroxybenzoylserine"
-241.0834,Thymidine,C00214,Thymidine
-242.079,Cytidine,C00475;C05711,Cytidine / gamma-Glutamyl-beta-cyanoalanine
-243.0632,Uridine,C00299;C02067,Pseudouridine / Uridine
-253.0119,Shikimate 3-phosphate,C03175,Shikimate 3-phosphate
-253.0499,5-L-Glutamyl-taurine,C05844,5-Glutamyl-taurine
-254.9905,L-Ascorbate 6-phosphate,C16186,Ascorbate 6-phosphate
-257.0063,"D-Glucono-1,5-lactone 6-phosphate",C01236;C01286;C04442,2-Dehydro-3-deoxy-galactonate 6-phosphate / 2-Dehydro-3-deoxy-galactonate-6-phosphate / 2-Keto-3-deoxy-6-phosphogluconic acid / 6-Phosphonoglucono-lactone
-257.1027,sn-Glycero-3-phosphocholine,C00670,Glycerophosphocholine
-259.0226,Allose 6-phosphate,C00085;C00092;C00103;C00275;C00446;C00636;C00663;C00668;C01094;C01097;C01172;C01177;C02962;C03267;C03546;C04006;C05345;C06312,Allose 6-phosphate / Alpha-glucose 6-phosphate / Fructose 1-phosphate / Fructose 6-phosphate / Galactose 1-phosphate / Glucose 1-phosphate / Glucose 6-phosphate / Mannose 1-phosphate / Mannose 6-phosphate / Myo-inositol (1)-monophosphate / Myo-inositol 1-phosphate / Myo-inositol 4-phosphate / Tagatose 6-phosphate / Tagatose-6-phosphate / beta-Fructose 2-phosphate / beta-Fructose 6-phosphate / beta-Glucose 1-phosphate / beta-Glucose 6-phosphate
-261.0382,D-Mannitol 1-phosphate,C00644;C01096;C02810;C06311,Galactitol 1-phosphate / Mannitol 1-phosphate / Sorbitol 6-phosphate / Sorbitol-6-phosphate
-264.9518,3-Phospho-D-glyceroyl phosphate,C00236;C01159,"2,3-Diphosphoglyceric acid / 3-phospho-glyceroyl phosphate"
-266.0704,S-Ribosyl-L-homocysteine,C03539,S-Ribosyl-homocysteine
-267.072,2(alpha-D-Mannosyl)-D-glycerate,C11544,2(alpha-Mannosyl)-glycerate
-267.2327,omega-Cyclohexylundecanoic acid,C16536,Heptadecenoic acid
-273.0016,3-Dehydro-gulonate 6-phosphate,C05385;C14899,3-Dehydro-gulonate 6-phosphate / Glucuronate 1-phosphate
-274.0932,"1,6-Anhydro-N-acetyl-beta-muramate",C19769,"1,6-Anhydro-N-acetyl-beta-muramate"
-275.0168,6-Phosphogluconate,C00345,6-Phosphogluconic acid
-275.1015,5-Amino-6-(1-D-ribitylamino)uracil,C04732,5-Amino-6-ribitylamino uracil / 5-amino-6-(ribitylamino)uracil
-282.0845,Guanosine,C00387,Guanosine
-288.0726,N-Succinyl-2-L-amino-6-oxoheptanedioate,C04462,N-Succinyl-2-amino-6-ketopimelate
-289.0331,Sedoheptulose P,C05382;C07836;C07838;C19882,Glycero-manno-heptose 1-phosphate / Glycero-manno-heptose 7-phosphate / Sedoheptulose 7-phosphate / glycero-beta-manno-heptose 7-phosphate
-289.1043,"N-Succinyl-LL-2,6-diaminoheptanedioate",C04421,"N-Succinyl-L,2,6-diaminopimelate"
-290.9669,"alpha-D-Ribose 1,2-cyclic phosphate 5-phosphate",C20440,"alpha-Ribose 1,2-cyclic phosphate 5-phosphate"
-304.0351,"3',5'-Cyclic CMP",C02354,"2',3'-Cyclic CMP"
-305.0193,"2',3'-Cyclic UMP",C02355,"2',3'-Cyclic UMP"
-305.0297,"2-(3,4-dihydroxybenzoyloxy)-4,6-dihydroxybenzoate",C04524,"2-(3,4-dihydroxybenzoyloxy)-4,6-dihydroxybenzoate"
-306.0491,dCMP,C00239,dCMP
-306.0762,Glutathione,C00051,Glutathione
-308.0986,N-Acetylneuraminate,C00270;C19909;C19910,N-Acetyl-alpha-neuraminate / N-Acetylneuraminic acid / N-acetylneuraminate / alpha-N-acetylneuraminate
-308.9787,D-Ribose 5-diphosphate,C01151;C01182,"Ribose 1,5-bisphosphate / Ribulose 1,5-bisphosphate"
-313.0438,5'-Phosphoribosyl-N-formylglycineamide,C04376,5'-Phosphoribosyl-N-formylglycineamide
-321.0495,dTMP,C00364,5-Thymidylic acid
-321.1113,N-((R)-Pantothenoyl)-L-cysteine,C04079,Pantothenoyl-cysteine
-322.0444,CMP,C00055;C05822,3'-CMP / Cytidine monophosphate
-323.0285,UMP,C00105;C01168;C01368,3'-UMP / Pseudouridine 5'-phosphate / Uridine 5'-monophosphate
-327.0738,2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate,C16519,2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate
-328.0452,"3',5'-Cyclic AMP",C00575;C02353,"Adenosine 2',3'-cyclic phosphate / Cyclic AMP"
-333.0999,Glutathione episulfonium ion,C14874,Glutathione episulfonium ion
-334.0723,S-Formylglutathione,C01031,S-Formylglutathione
-337.0545,AICAR,C04677,AICAR
-338.0392,1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate,C04751;C15667,5-Amino-1-(5-phospho-ribosyl)imidazole-4-carboxylate / 5-carboxyamino-1-(5-phospho-ribosyl)imidazole
-338.9888,"Fructose 1,6-bisphosphate",C00354;C01231;C03785;C05378,"Fructose 1,6-bisphosphate / Tagatose 1,6-bisphosphate / alpha-Glucose 1,6-bisphosphate / beta-Fructose 1,6-bisphosphate"
-341.1089,Cellobiose,C00089;C00185;C00208;C00243;C00252;C01083;C05402,Cellobiose / Isomaltose / Maltose / Melibiose / Sucrose / Trehalose / alpha-Lactose
-344.04,cGMP,C00942;C06194,"Cyclic GMP / Guanosine 2',3'-cyclic phosphate"
-346.0556,AMP,C00020;C00362;C01367,2'-Deoxyguanosine 5'-monophosphate / 3'-AMP / Adenosine monophosphate
-347.0398,IMP,C00130,Inosinic acid
-348.0874,S-(Formylmethyl)glutathione,C14871,S-(Formylmethyl)glutathione
-357.089,Pantetheine 4'-phosphate,C01134,Pantetheine 4'-phosphate / pantotheine 4'-phosphate
-362.0506,GMP,C00144;C06193;C18239;C19968,8-oxo-dGMP / Cyclic pyranopterin monophosphate / Guanosine 3'-phosphate / Guanosine monophosphate
-375.131,Riboflavin,C00255,Riboflavin
-383.1181,Acetyl-maltose,C02130,Acetyl-maltose
-386.999,dUDP,C01346,dUDP
-388.9444,Phosphoribosyl pyrophosphate,C00119,Phosphoribosyl pyrophosphate
-401.0173,dTDP,C00363,dTDP
-402.0107,CDP,C00112,CDP
-402.9949,UDP,C00015,Uridine 5'-diphosphate
-426.0221,ADP,C00008;C00054;C00361,"ADP / Adenosine 3',5'-diphosphate / dGDP"
-442.0169,GDP,C00035,Guanosine diphosphate
-443.0014,XDP,C01337,XDP
-466.9674,dUTP,C00460,Deoxyuridine triphosphate
-481.9773,CTP,C00063,Cytidine triphosphate
-482.9616,UTP,C00075,Uridine triphosphate
-503.1623,Gal alpha 1->6Gal alpha 1->6Glucose,C01835;C05404,Gal alpha 1->6Gal alpha 1->6Glucose / Maltotriose
-505.9887,ATP,C00002;C00286,Adenosine triphosphate / dGTP
-521.9834,GTP,C00044;C19967,8-oxo-dGTP / Guanosine triphosphate
-547.0754,dTDP-6-deoxy-beta-L-talose,C03319,Deoxythymidine diphosphate-rhamnose
-563.0683,dTDP-hexose,C00842;C02097,dTDP-Galactose / dTDP-Glucose
-565.0479,UDP-hexose,C00029;C00052;C03733,"UDP-Galacto-1,4-furanose / UDP-Glucose / Uridine diphosphategalactose"
-578.8873,"1D-myo-Inositol 1,3,4,5,6-pentakisphosphate",C04563;C04579,"1-Myo-inositol 1,2,3,4,5-pentakisphosphate / Inositol 1,2,3,5,6-pentakisphosphate / Myo-inositol 1,2,4,5,6-pentakisphosphate"
-611.1447,Glutathione disulfide,C00127,Glutathione disulfide
-665.2152,Glycogen,C00182;C02052,Glycogen / Maltotetraose
-707.097,Linear dimeric GMP,C18076,Linear dimeric GMP
-784.1499,FAD (ox),C00016,FAD
-864.1454,2-Methylacetoacetyl-CoA,C03344,2-Methylacetoacetyl-CoA
-866.1233,Succinyl-CoA,C00091;C00683;C01213,(R)-Methylmalonyl-CoA / (S)-Methylmalonyl-CoA / Succinyl-CoA
-57.0342,Propanal,C00479,Propanal
-58.0295,Aminoacetaldehyde,C06735,Aminoacetaldehyde
-71.0137,Pyruvaldehyde,C00546,Pyruvaldehyde
-73.0293,C3:0 (Propionic acid),C00163;C00424;C00937;C05999,(S)-Lactaldehyde / Lactaldehyde / Propionic acid
-74.0247,Glycine,C00037,Glycine
-75.0087,Glycolate,C00160,Glycolate
-85.0295,Diacetyl,C00741,Diacetyl
-87.0451,C4:0 (Butyric acid),C00246;C00466,Acetoin / Butyric acid
-88.0403,Alanine,C00041;C00099;C00133;C00213,Alanine / Sarcosine / beta-Alanine
-88.9883,Oxalic acid,C00209,Oxalic acid
-89.0244,Lactate,C00184;C00186;C00256;C00577;C01013;C02426,3-Hydroxypropanoate / Dihydroxyacetone / Glyceraldehyde / Lactic acid
-93.0338,Phenol,C15584,Phenol
-94.9761,Methanesulfonic acid,C11145,Methanesulfonate
-94.9806,Methanesulfonic acid,C11145,Methanesulfonate
-101.0242,Oxobutanoic acid,C00109;C00164;C00232;C00349;C06002,(S)-Methylmalonic acid semialdehyde / 2-Ketobutyric acid / 2-Methyl-3-oxopropanoate / Acetoacetic acid / Succinic acid semialdehyde
-101.0607,Pentanoic acid,C08262,Isovaleric acid
-102.056,Aminobutanoic acid (ABA),C00334;C01026;C03284;C03665,"(S)-b-aminoisobutyric acid / 2-Aminoisobutyric acid / N,N-Dimethylglycine / gamma-Aminobutyric acid"
-103.0402,Hydroxybutanoic acid,C00989;C01089;C01188;C01991,3-Hydroxybutyric acid / 3-Hydroxyisobutyric acid / 4-Hydroxybutanoic acid / gamma-Hydroxybutyrate
-103.0509,"2,3-Diaminopropanoate",C06393,"2,3-Diaminopropanoate"
-104.0352,Serine,C00065;C00740,Serine
-105.0193,D-Glyceric acid,C00258,Glyceric acid
-107.0503,Benzyl alcohol,C00556;C01468,Benzyl alcohol / p-Cresol
-110.9758,Monomethyl sulfate,C02704,Methyl sulfate
-111.02,Uracil,C00106,Uracil
-113.0244,"2-Hydroxy-2,4-pentadienoic acid",C00596;C07091,"2-Hydroxy-2,4-pentadienoate / cis-Acetylacrylate"
-113.0357,Dihydrouracil,C00429;C02512,3-Cyano-alanine / Dihydrouracil
-115.0037,Fumarate,C00122,Fumaric acid
-115.0764,Hexanoate (N-C6:0),C01585,Hexanoate (N-C6:0)
-116.0354,Aspartate semialdehyde,C00441;C03508;C20250,(Z)-2-Methyl-peroxyaminoacrylate / 2-Amino-3-oxobutanoic acid / Aspartate-semialdehyde
-116.0717,Valine,C00183;C00719,Betaine / Valine
-118.0508,Threonine,C00188;C00263;C00820;C05519,Allothreonine / Homoserine / Threonine
-118.9804,Mercaptopyruvic acid,C00957,3-Mercaptopyruvic acid
-119.0009,Hydroxymalonic acid,C02287,2-Hydroxymalonate
-122.0248,Nicotinate,C00253,Nicotinic acid
-124.0075,Taurine,C00245,Taurine
-125.0439,5-Amino-4-imidazolecarboxyamide,C04051,5-Amino-4-imidazolecarboxyamide
-127.0401,"2-Hydroxy-cis-hex-2,4-dienoate",C11354,"2-Hydroxy-cis-hex-2,4-dienoate"
-128.0354,Pyrrolidonecarboxylic acid,C02237;C04281,Pyrrolidonecarboxylic acid / Pyrroline hydroxycarboxylic acid
-128.0711,Pipecolate,C00408,Pipecolic acid
-129.0193,Itaconate,C00490;C02226,Citraconic acid / Itaconic acid
-129.0556,4-Methyl-2-oxopentanoate,C00233;C00671;C03465,2-Keto-3-methyl-valerate / 3-Methyl-2-oxovaleric acid / Ketoleucine
-130.0142,Iminoaspartic acid,C05840,Iminoaspartic acid
-130.0509,5-Aminolevulinic acid,C00430;C01157;C01165;C03741,(S)-4-Amino-5-oxopentanoate / 5-Aminolevulinic acid / Glutamic-gamma-semialdehyde / Hydroxyproline
-130.0874,(Iso)Leucine,C00123;C00407,Isoleucine / Leucine
-131.0008,Oxaloacetic acid,C00036,Oxalacetic acid
-131.0123,Oxaluric acid,C00802,Oxalureate
-131.0462,Asparagine,C00152;C02642,Asparagine / Ureidopropionic acid
-132.0302,Aspartate,C00049,Aspartic acid
-133.0142,Malate,C00149;C00497,(R)-Malate / Malic acid
-133.0257,(-)-Ureidoglycolate,C00603,(S)-Ureidoglycolic acid
-133.0505,Deoxyribose,C01801;C04039;C04272;C06257,"(R)-2,3-Dihydroxy-isovalerate / 1-Deoxy-xylulose / 2,3-Dihydroxyisovaleric acid / Deoxyribose"
-134.0472,4-Hydroxy-threonine,C06056,4-Hydroxy-threonine
-135.0302,Hypoxanthine,C00262,Hypoxanthine
-135.0453,Phenyl acetate,C03765;C07086,4-Hydroxyphenylacetaldehyde / Benzeneacetic acid
-136.0767,Tyramine,C00483,Tyramine
-137.0239,4-Hydroxybenzoate,C00156;C00805,4-Hydroxybenzoic acid / Salicylic acid
-137.0357,Urocanate,C00785,Urocanic acid
-138.9789,Acetyl-P,C00227;C05682,Acetylphosphate / Phosphonoacetate
-139.0014,cis-4-Carboxymethylenebut-2-en-4-olide,C04431;C12838,Cis-4-Carboxymethylenebut-2-en-4-olide / Trans-4-Carboxymethylenebut-2-en-4-olide
-139.0067,cis-4-Carboxymethylenebut-2-en-4-olide,C04431;C12838,Cis-4-Carboxymethylenebut-2-en-4-olide / Trans-4-Carboxymethylenebut-2-en-4-olide
-141.0676,Ectoine,C06231,Ectoine
-143.1077,Octanoic acid,C06423,Caprylic acid
-145.0141,Oxoglutarate,C00026,Oxoglutaric acid / alpha-Ketoglutarate
-145.0506,2-Aceto-2-hydroxybutanoate,C00966;C06006;C06762;C14463;C16272,(R)-3-Hydroxy-3-methyl-2-oxopentanoate / 2-Aceto-2-hydroxy-butyrate / 2-Dehydropantoate / 3-Hydroxy-5-oxohexanoate / 4-Hydroxy-2-oxohexanoic acid
-145.0623,Glutamine,C00064;C00819;C05100,Glutamine / Ureidoisobutyric acid
-145.0982,Lysine,C00047,Lysine
-145.1106,gamma-Butyrobetaine,C01181,gamma-Butyrobetaine
-146.0459,Glutamate,C00025;C00217;C00979,Glutamate / Glutamic acid / O-Acetylserine
-147.0298,Hydroxyglutarate,C02630;C03196;C06032,2-Hydroxyglutaric acid / Erythro-3-Methylmalate
-147.0662,"(R) 2,3-Dihydroxy-3-methylvalerate",C00522;C06007,"(R) 2,3-Dihydroxy-3-methylvalerate / (R)-Pantoate"
-149.0092,Tartaric acid,C00552;C00898,Meso-Tartaric acid / Tartaric acid
-149.0456,Pentose,C00121;C00181;C00216;C00259;C00309;C00310;C00312;C00476;C00508;C01508;C08353;C16639,Arabinose / Lyxose / Ribose / Ribulose / Threo-2-pentulose / Xylose / Xylulose / beta-Ribopyranose / beta-ribofuranose
-149.0608,Hydrocinnamic acid,C05629,Hydrocinnamic acid
-150.0422,Guanine,C00242,Guanine
-150.9707,3-Sulfinylpyruvate,C05527,3-Sulfinylpyruvic acid
-151.0259,Xanthine,C00385,Xanthine
-151.04,4-Hydroxyphenylacetate,C04043,"3,4-Dihydroxyphenylacetaldehyde"
-151.06,Xylitol,C00474;C00532,Arabitol / Ribitol
-152.0353,3-Hydroxyanthranilate,C00632,3-Hydroxyanthranilic acid
-153.0192,2-Pyrocatechuic acid,C00196,2-Pyrocatechuic acid
-154.062,Histidine,C00135,Histidine
-155.0099,Orotate,C00295,Orotic acid
-157.0128,2-Maleylacetate,C02222,2-Maleylacetate
-157.0255,Dihydroorotate,C00337,"4,5-Dihydroorotic acid"
-157.0379,Allantoin,C01551;C02350,(S)(+)-Allantoin / Allantoin
-159.0297,Oxoadipate,C00322,Oxoadipic acid
-159.0775,Alanyl-alanine,C00993,Alanyl-alanine
-161.0453,2-Dehydro-3-deoxy-rhamnonate,C02488;C03979,2-Dehydro-3-deoxy-rhamnonate / 2-Ethylmalate
-162.0424,Pterin,C00715,Pterin
-163.0351,3-Hydroxycinnamic acid,C00166;C12621,3-Hydroxycinnamic acid / Phenylpyruvic acid
-163.0398,3-Hydroxycinnamic acid,C00166;C12621,3-Hydroxycinnamic acid / Phenylpyruvic acid
-163.0611,2-Deoxyglucose,C00507;C00586;C00861;C01019;C01721;C02338;C02476;C20835;C20836,2-Deoxyglucose / Fucose / Fuculose / Rhamnose / Rhamnulose / alpha-Fucopyranose / alpha-Fucose / alpha-Rhamnose / beta-Fucopyranose / beta-Rhamnose
-164.0716,Phenylalanine,C00079;C02265,Phenylalanine
-165.0556,3-(2-Hydroxyphenyl)propanoate,C05607;C11457,3-(3-Hydroxyphenyl)propanoic acid / 3-(3-Hydroxyphenyl)propionate / Phenyllactic acid
-166.0508,Pyridoxal,C00250,Pyridoxal
-166.9759,Phosphoenolpyruvate,C00074,Phosphoenolpyruvic acid
-167.0207,Urate,C00366,Uric acid
-167.0828,Pyridoxamine,C00534,Pyridoxamine
-168.0277,"L-2,3-Dihydrodipicolinate",C03340,"2,3-Dihydrodipicolinic acid"
-168.0664,Pyridoxine,C00314,Pyridoxine
-170.0455,"2,3,4,5-Tetrahydrodipicolinate",C03972,Tetrahydrodipicolinate
-171.0065,sn-Glycerol 3-phosphate,C00093;C00623;C02979;C03189,Glycerol 2-phosphate / Glycerol 3-phosphate / Sn-Glycerol-1-phosphate / glycerol-3-phosphate
-171.0092,sn-Glycerol 3-phosphate,C00093;C00623;C02979;C03189,Glycerol 2-phosphate / Glycerol 3-phosphate / Sn-Glycerol-1-phosphate / glycerol-3-phosphate
-171.0284,3-Dehydroshikimate,C02637,3-Dehydro-shikimate
-171.1388,Decanoic acid (FA10:0),C01571,Decanoate (N-C10:0)
-172.0616,Acetyl-Glu-semialdehyde,C01250,N-Acetyl-glutamate 5-semialdehyde
-172.962,"cis-2-Chloro-4-carboxymethylenebut-2-en-1,4-olide",C04706,"Cis-2-Chloro-4-carboxymethylenebut-2-en-1,4-olide"
-172.9909,Phenol sulfate,C00850,Aryl sulfate
-173.0089,Aconitate,C00417;C02341,cis-Aconitic acid / trans-Aconitic acid
-173.0453,Shikimate,C00493;C04236,2-Isopropyl-3-oxosuccinate / Shikimic acid
-173.0579,Menadiol,C07126,Menadiol
-174.0407,Acetyl-Asp,C01042;C15996,7-Cyano-7-carbaguanine / N-Acetyl-aspartic acid
-175.022,Hexuronic acid,C00072;C04053;C04349,"(4S)-4,6-Dihydroxy-2,5-dioxohexanoate / 5-Dehydro-4-deoxy-glucuronate / Ascorbic acid"
-175.0361,Ureidosuccinic acid,C00438,Ureidosuccinic acid
-175.0611,3-Propylmalate,C02504;C04411,2-Isopropylmalic acid / 3-Carboxy-3-hydroxy-isocaproate / 3-Isopropylmalate
-177.0402,Glucono-lactone,C00198;C00204;C01216;C03383;C03926,2-Dehydro-3-deoxy-galactonate / 2-Keto-3-deoxy-gluconic acid / 3-Dehydro-2-deoxy-gluconate / Galactonolactone / Gluconolactone
-178.0175,S-Carboxymethyl-Cys,C03727,S-Carboxymethyl-cysteine
-178.0509,N-Acetylanthranilate,C06332,N-Acetylanthranilate
-179.0348,3-(4-Hydroxyphenyl)pyruvate,C01179;C12623,"4-Hydroxyphenylpyruvic acid / Trans-2,3-Dihydroxycinnamate"
-180.0663,Tyrosine,C00082;C06420,Tyrosine
-181.0505,3-(4-Hydroxyphenyl)lactate,C04044;C12622,"3-(2,3-Dihydroxyphenyl)propanoate / 3-(2,3-Dihydroxyphenyl)propionic acid / cis-3-(3-Carboxyethenyl)-3,5-cyclohexadiene-1,2-diol"
-182.9725,3-Phosphonooxypyruvate,C03232,Phosphohydroxypyruvic acid
-183.0661,"Cis-3-(3-carboxyethyl)-3,5-cyclohexadiene-1,2-diol",C11588,"Cis-3-(3-carboxyethyl)-3,5-cyclohexadiene-1,2-diol / cis-3-(Carboxy-ethyl)-3,5-cyclo-hexadiene-1,2-diol"
-184.9856,Phosphoglycerate,C00197;C00597;C00631,2-Phospho-glyceric acid / 3-Phospho-glycerate / 3-Phosphoglycerate
-185.0057,2-Carboxymuconate,C03666,2-Carboxymuconate
-186.1136,8-Amino-7-oxononanoate,C01092,8-Amino-7-oxononanoate
-187.0234,(E)-3-(Methoxycarbonyl)pent-2-enedioate,C04225;C11514,(E)-3-(Methoxycarbonyl)pent-2-enedioate / Cis-2-Methylaconitate / E-3-Carboxy-2-pentenedioate 6-methyl ester
-187.0976,Azelaic acid,C08261,Azelaic acid
-188.035,"1-Nitronaphthalene-5,6-oxide",C14800;C14802,"1-Nitronaphthalene-5,6-oxide / 1-Nitronaphthalene-7,8-oxide"
-188.0565,Acetyl-Glu,C00624,N-Acetylglutamic acid
-189.0405,3-Dehydroquinate,C00944,3-Dehydroquinate
-190.0558,Acetyl-Met,C02712,N-Acetyl-methionine
-191.0197,(Iso)Citrate,C00158;C00311;C00679;C02780;C03921;C04575,"2,3-Diketo-gulonate / 2,5-Diketo-gluconate / 2-Dehydro-3-deoxy-glucarate / 5-Dehydro-4-deoxy-glucarate / Citric acid / Isocitric acid"
-192.0663,3-Carbamoyl-2-phenylpropionaldehyde,C16587;C16595,"3-Carbamoyl-2-phenylpropionaldehyde / 4-Hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one"
-193.0349,Hexuronate,C00191;C00333;C00558;C00618;C00905;C01062;C06473;C20248,2-Dehydro-gluconate / 3-Dehydro-gulonate / 5-Keto-gluconate / 7-Deaza-7-carboxyguanine / Fructuronate / Galacturonate / Glucuronic acid / Tagaturonate
-194.0682,"2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine",C01300,"2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine / 6-Hydroxymethyl dihydropterin"
-194.0822,"2-Phenyl-1,3-propanediol monocarbamate",C16586,"2-Phenyl-1,3-propanediol monocarbamate"
-195.0509,Hexonic acid,C00257;C00514;C00770;C00800;C00817;C00880;C15930,Altronate / Galactonate / Galactonic acid / Gluconic acid / Gulonate / Idonate / Mannonate
-196.0603,Dihydroxy-Phe,C00355,"3,4-Dihydroxy-phenylalanine"
-198.0182,P-homoserine,C01102;C12147,O-Phosphohomoserine / Threonine O-3-phosphate
-199.0019,D-Erythrose 4-phosphate,C00279,Erythrose 4-phosphate
-199.1701,Dodecanoic acid (FA12:0),C02679,Dodecanoate (N-C12:0)
-200.9937,Benzoyl phosphate,C06206,Benzoyl phosphate
-203.0826,Tryptophan,C00078,Tryptophan
-204.0498,Lipoamide,C00248,Lipoamide
-205.0351,"(R)-2-Hydroxybutane-1,2,4-tricarboxylate",C00725;C02225;C04593;C16241,"(2R,3S)-2-Hydroxybutane-1,2,3-tricarboxylate / Lipoic acid / Methylcitric acid / Methylisocitric acid / lipoate"
-209.0292,D-Glucarate,C00818;C00879,Galactaric acid / Glucaric acid
-211.0235,2-Hydroxy-6-ketononatrienedioate,C12624,2-Hydroxy-6-ketononatrienedioate
-211.9968,2-Amino-3-oxo-4-phosphonooxybutyrate,C03082;C07335,2-Amino-3-oxo-4-phosphonooxybutyrate / Aspartyl-4-phosphate
-212.9807,2-Oxo-3-hydroxy-4-phosphobutanoate,C06054,2-Oxo-3-hydroxy-4-phosphobutanoic acid
-213.014,2-Deoxy-D-ribose 1-phosphate,C00672;C00673;C11437,1-Deoxy-xylulose 5-phosphate / Deoxyribose 1-phosphate / Deoxyribose 5-phosphate
-213.0384,2-Hydroxy-6-ketononadienedicarboxylate,C04479,2-Hydroxy-6-ketononadienedicarboxylate
-213.1252,Dethiobiotin,C01909,Dethiobiotin
-214.0488,sn-Glycero-3-phosphoethanolamine,C01233,Glycerylphosphorylethanolamine
-215.0331,2-C-Methyl-D-erythritol 4-phosphate,C11434,2-C-Methyl-erythritol-4-phosphate
-216.1351,gamma-Glutamyl-putrescine,C15699,gamma-Glutamyl-putrescine
-218.0335,4-Amino-2-methyl-5-phosphomethylpyrimidine,C04556,4-Amino-2-methyl-5-phosphomethylpyrimidine / 4-amino-5-phosphonooxymethyl-2-methylpyrimidine
-218.1034,Pantothenate,C00864,Pantothenic acid
-220.0828,N-Acetyl-D-glucosamine,C00140;C00645;C05021,N-Acetyl-b-galactosamine / N-Acetyl-glucosamine / N-Acetylglucosamine / N-Acetylmannosamine
-221.0443,2-Succinylbenzoate,C02730,2-Succinylbenzoate
-221.0664,6-Acetyl-D-glucose,C02655,6-Acetyl-glucose
-225.0399,Chorismate,C00251;C00254;C00885,Chorismate / Isochorismate / Prephenate
-225.0861,Porphobilinogen,C00931,Porphobilinogen
-225.0901,Porphobilinogen,C00931,Porphobilinogen
-226.0135,L-Glutamyl 5-phosphate,C03287,Glutamic acid 5-phosphate
-228.0501,"4-(L-Alanin-3-yl)-2-hydroxy-cis,cis-muconate 6-semialdehyde",C04796,"4-(Alanin-3-yl)-2-hydroxy-cis,cis-muconate 6-semialdehyde"
-229.0122,Arabinose 5-phosphate,C00117;C00199;C00231;C00620;C01101;C01112;C03291,Arabinose 5-phosphate / Ribose-1-phosphate / Ribose-5-phosphate / Ribulose 5-phosphate / Xylulose 5-phosphate
-237.0614,3-Deoxy-D-manno-octulosonate,C01187,3-Deoxy-manno-octulosonate
-240.0515,"N-(2,3-Dihydroxybenzoyl)-L-serine",C04204,"2,3-Dihydroxybenzoylserine"
-241.0844,Thymidine,C00214,Thymidine
-242.0804,Cytidine,C00475;C05711,Cytidine / gamma-Glutamyl-beta-cyanoalanine
-243.029,L-Fuculose 1-phosphate,C01099;C01131;C06369,2-Deoxy-glucose 6-phosphate / Fuculose 1-phosphate / Rhamnulose 1-phosphate
-243.0625,Uridine,C00299;C02067,Pseudouridine / Uridine
-245.0444,Glycerophosphoglycerol,C03274,Glycerophosphoglycerol
-246.0198,Pyridoxal phosphate,C00018,Pyridoxal 5'-phosphate
-246.064,N-Succinyl-L-glutamate,C05931,N-Succinyl-glutamate
-248.08,S-Acetyldihydrolipoamide,C01136,S-Acetyldihydrolipoamide
-251.0816,Deoxyinosine,C05512;C15586,Deoxyinosine / Purine nucleoside
-253.0499,5-L-Glutamyl-taurine,C05844,5-Glutamyl-taurine
-253.2173,(9Z)-Hexadecenoic acid,C08362,Palmitoleic acid
-257.0072,"D-Glucono-1,5-lactone 6-phosphate",C01236;C01286;C04442,2-Dehydro-3-deoxy-galactonate 6-phosphate / 2-Dehydro-3-deoxy-galactonate-6-phosphate / 2-Keto-3-deoxy-6-phosphogluconic acid / 6-Phosphonoglucono-lactone
-257.1028,sn-Glycero-3-phosphocholine,C00670,Glycerophosphocholine
-259.0227,Allose 6-phosphate,C00085;C00092;C00103;C00275;C00446;C00636;C00663;C00668;C01094;C01097;C01172;C01177;C02962;C03267;C03546;C04006;C05345;C06312,Allose 6-phosphate / Alpha-glucose 6-phosphate / Fructose 1-phosphate / Fructose 6-phosphate / Galactose 1-phosphate / Glucose 1-phosphate / Glucose 6-phosphate / Mannose 1-phosphate / Mannose 6-phosphate / Myo-inositol (1)-monophosphate / Myo-inositol 1-phosphate / Myo-inositol 4-phosphate / Tagatose 6-phosphate / Tagatose-6-phosphate / beta-Fructose 2-phosphate / beta-Fructose 6-phosphate / beta-Glucose 1-phosphate / beta-Glucose 6-phosphate
-261.0385,D-Mannitol 1-phosphate,C00644;C01096;C02810;C06311,Galactitol 1-phosphate / Mannitol 1-phosphate / Sorbitol 6-phosphate / Sorbitol-6-phosphate
-266.0703,S-Ribosyl-L-homocysteine,C03539,S-Ribosyl-homocysteine
-267.0724,2(alpha-D-Mannosyl)-D-glycerate,C00294;C11544,2(alpha-Mannosyl)-glycerate / Inosine
-267.2328,omega-Cyclohexylundecanoic acid,C16536,Heptadecenoic acid
-268.02,N-Acetyl-L-glutamate 5-phosphate,C04133,N-Acetyl-5-glutamyl phosphate / N-Acetyl-glutamyl 5-phosphate
-273.0021,3-Dehydro-gulonate 6-phosphate,C05385;C14899,3-Dehydro-gulonate 6-phosphate / Glucuronate 1-phosphate
-274.0933,"1,6-Anhydro-N-acetyl-beta-muramate",C19769,"1,6-Anhydro-N-acetyl-beta-muramate"
-275.0184,6-Phosphogluconate,C00345,6-Phosphogluconic acid
-275.0991,5-Amino-6-(1-D-ribitylamino)uracil,C04732,5-Amino-6-ribitylamino uracil / 5-amino-6-(ribitylamino)uracil
-277.1207,alpha-Ribazole,C00831;C05775,"N1-(alpha-ribosyl)-5,6-dimethyl-benzimidazole / Pantetheine"
-277.2169,"(6Z,9Z,12Z)-Octadecatrienoic acid",C06427,alpha-Linolenic acid
-282.0839,Guanosine,C00387,Guanosine
-283.2063,Retinal,C00376,Retinal
-285.0972,Salicin,C01451,Salicin
-287.0157,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate,C04691,2-Dehydro-3-deoxy-arabino-heptonate 7-phosphate
-288.0725,N-Succinyl-2-L-amino-6-oxoheptanedioate,C04462,N-Succinyl-2-amino-6-ketopimelate
-289.0333,Sedoheptulose P,C05382;C07836;C07838;C19882,Glycero-manno-heptose 1-phosphate / Glycero-manno-heptose 7-phosphate / Sedoheptulose 7-phosphate / glycero-beta-manno-heptose 7-phosphate
-289.1044,"N-Succinyl-LL-2,6-diaminoheptanedioate",C04421,"N-Succinyl-L,2,6-diaminopimelate"
-290.9677,"alpha-D-Ribose 1,2-cyclic phosphate 5-phosphate",C20440,"alpha-Ribose 1,2-cyclic phosphate 5-phosphate"
-294.0479,Aminoimidazole ribotide,C03373,5-Aminoimidazole ribonucleotide
-300.0509,Acetylglucosamine P,C00357;C04256;C04257;C04501;C06376;C18060,Glucosamine-1P / N-Acetyl-Glucosamine 6-Phosphate / N-Acetyl-galactosamine 1-phosphate / N-Acetyl-galactosamine 6-phosphate / N-Acetyl-glucosamine 1-phosphate / N-Acetyl-mannosamine 6-phosphate
-301.0333,Quercetin,C00389,Quercetin
-305.0207,"2',3'-Cyclic UMP",C02355,"2',3'-Cyclic UMP"
-306.0481,dCMP,C00239,dCMP
-306.0765,Glutathione,C00051,Glutathione
-313.0441,5'-Phosphoribosyl-N-formylglycineamide,C04376,5'-Phosphoribosyl-N-formylglycineamide
-313.1037,Dihydropteroate,C00921,"7,8-Dihydropteroic acid"
-317.026,3-Deoxy-D-manno-octulosonate 8-phosphate,C04478,3-Deoxy-manno-octulosonate 8-phosphate
-323.0256,UMP,C00105;C01168;C01368,3'-UMP / Pseudouridine 5'-phosphate / Uridine 5'-monophosphate
-325.1163,"6,7-Dimethyl-8-(D-ribityl)luma...",C04332,"6,7-Dimethyl-8-(1-ribityl)lumazine"
-328.0457,"3',5'-Cyclic AMP",C00575;C02353,"Adenosine 2',3'-cyclic phosphate / Cyclic AMP"
-333.0589,sn-Glycero-3-phospho-1-inositol,C01225,Sn-Glycero-3-phospho-1-inositol
-335.2224,5(S)-Hydroperoxyeicosatetraenoic acid,C05356,5(S)-Hydroperoxyeicosatetraenoic acid
-338.9884,"Fructose 1,6-bisphosphate",C00354;C01231;C03785;C05378,"Fructose 1,6-bisphosphate / Tagatose 1,6-bisphosphate / alpha-Glucose 1,6-bisphosphate / beta-Fructose 1,6-bisphosphate"
-344.0393,cGMP,C00942;C06194,"Cyclic GMP / Guanosine 2',3'-cyclic phosphate"
-348.087,S-(Formylmethyl)glutathione,C14871,S-(Formylmethyl)glutathione
-353.0489,5-Amino-6-(5'-phosphoribosylamino)uracil,C01268,5-Amino-6-(5'-phosphoribosylamino)uracil
-375.131,Riboflavin,C00255,Riboflavin
-377.1496,Reduced riboflavin,C01007,Reduced riboflavin
-383.1188,Acetyl-maltose,C02130,Acetyl-maltose
-388.9416,Phosphoribosyl pyrophosphate,C00119,Phosphoribosyl pyrophosphate
-388.9442,Phosphoribosyl pyrophosphate,C00119,Phosphoribosyl pyrophosphate
-391.2848,Chenodeoxycholate,C04483,Deoxycholic acid
-401.0756,(R)-4'-Phosphopantothenoyl-L-cysteine,C04352,4-Phosphopantothenoylcysteine
-407.2795,Cholate,C00695,"3-Alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholanate / Cholic acid"
-409.2338,1-Palmitoylglycerol 3-phosphate,C04036,1-hexadecanoyl-sn-glycerol 3-phosphate
-421.0743,"alpha,alpha'-Trehalose 6-phosphate",C00689;C02995;C04534;C16688,"6-Phospho-beta-glucosyl-(1,4)-glucose / Cellobiose-6-phosphate / Maltose 6'-phosphate / Sucrose-6-phosphate / Trehalose 6-phosphate / alpha,alpha-Trehalose 6-phosphate"
-426.0222,ADP,C00008;C00054;C00361,"ADP / Adenosine 3',5'-diphosphate / dGDP"
-442.9997,XDP,C01337,XDP
-466.9657,dUTP,C00460,Deoxyuridine triphosphate
-490.9787,dITP,C01345,2'-Deoxyinosine triphosphate
-503.1614,Gal alpha 1->6Gal alpha 1->6Glucose,C01835;C05404,Gal alpha 1->6Gal alpha 1->6Glucose / Maltotriose
-547.0731,dTDP-6-deoxy-beta-L-talose,C03319,Deoxythymidine diphosphate-rhamnose
-565.0471,UDP-hexose,C00029;C00052;C03733,"UDP-Galacto-1,4-furanose / UDP-Glucose / Uridine diphosphategalactose"
-578.8872,"1D-myo-Inositol 1,3,4,5,6-pentakisphosphate",C04563;C04579,"1-Myo-inositol 1,2,3,4,5-pentakisphosphate / Inositol 1,2,3,5,6-pentakisphosphate / Myo-inositol 1,2,4,5,6-pentakisphosphate"
-579.0269,UDP-glucuronate,C00167,UDP-Glucuronic acid / Uridine diphosphate glucuronic acid
-612.2549,Ferroxamine,C07597,Ferroxamine
-659.307,Coproporphyrinogen III,C03263;C05768,Coproporphyrin III / Coproporphyrinogen I / Coproporphyrinogen III
-664.0939,Nicotinamide hypoxanthine dinucleotide,C00857;C04423,Nicotinamide hypoxanthine dinucleotide / Nicotinic acid adenine dinucleotide
-665.2144,Glycogen,C00182;C02052,Glycogen / Maltotetraose
-668.1374,Enterochelin,C05821,Enterochelin
-790.2568,UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine,C06022,UDP-3-O-(3-Hydroxytetradecanoyl)-glucosamine
-835.0407,"P1,P4-Bis(5'-adenosyl)tetraphosphate",C01260,Diadenosine tetraphosphate
-849.2765,Precorrin 1,C15527,Precorrin-1
-861.6729,Ubiquinone-10,C11378,Ubiquinone-10
-863.2971,Precorrin 2,C02463,Precorrin 2
-864.1473,2-Methylacetoacetyl-CoA,C03344,2-Methylacetoacetyl-CoA
-974.2935,trans-Tetradec-2-enoyl-CoA,C05273,(2E)-Tetradecenoyl-CoA
-976.7162,undecaprenyl phosphate-4-amino-4-deoxy-arabinose,C16157,undecaprenyl phosphate-4-amino-4-deoxy-arabinose
+ionMz,Metabolite,KEGG,All metabolite names,Alt. annotations,Classes,Classification
+57.0346,Propanal,C00479,Propanal,,Organic oxygen compounds,Organic oxygen compounds
+59.0135,Acetatic acid,C00033;C00266,Acetatic acid / Glycolaldehyde,Glycolaldehyde,Organic oxygen compounds;Carboxylic acids,Mixed
+71.0141,Pyruvaldehyde,C00546,Pyruvaldehyde,,Organic oxygen compounds,Organic oxygen compounds
+72.0093,Iminoacetate,C15809,Iminoacetate,,Unknown,Unknown
+72.9932,Glyoxylic acid,C00048,Glyoxylic acid,,Carboxylic acids,Carboxylic acids
+73.0297,C3:0 (Propionic acid),C00163;C00424;C00937;C05999,(S)-Lactaldehyde / Lactaldehyde / C3:0 (Propionic acid),(S)-Lactaldehyde / Lactaldehyde,Organic oxygen compounds;Carboxylic acids,Mixed
+74.025,Glycine,C00037,Glycine,,Amino acids,Amino acids
+75.0089,Glycolate,C00160,Glycolate,,Unknown,Unknown
+85.0297,Diacetyl,C00741,Diacetyl,,Unknown,Unknown
+87.0088,Pyruvate,C00022;C00222,Malonic semialdehyde / Pyruvate,Malonic semialdehyde,Organic oxygen compounds;Keto / hydroxy acids,Mixed
+87.0452,C4:0 (Butyric acid),C00246;C00466,Acetoin / C4:0 (Butyric acid),Acetoin,Lipid-like molecules,Lipid-like molecules
+88.0406,Alanine,C00041;C00099;C00133;C00213,Alanine / Sarcosine / beta-Alanine,Sarcosine / beta-Alanine,Amino acids,Amino acids
+89.0247,Lactate,C00184;C00186;C00256;C00577;C01013;C02426,3-Hydroxypropanoate / Dihydroxyacetone / Glyceraldehyde / Lactate,3-Hydroxypropanoate / Dihydroxyacetone / Glyceraldehyde,Organic oxygen compounds;Keto / hydroxy acids,Mixed
+91.0402,Glycerol,C00116,Glycerol,,Organic oxygen compounds,Organic oxygen compounds
+93.0347,Phenol,C15584,Phenol,,Unknown,Unknown
+100.0407,2-Aminobut-2-enoate,C17234,2-Aminobut-2-enoate,,Unknown,Unknown
+101.0245,Oxobutanoic acid,C00109;C00164;C00232;C00349;C06002,Oxobutanoic acid / 2-Ketobutyric acid / 2-Methyl-3-oxopropanoate / Acetoacetic acid / Succinic acid semialdehyde,2-Ketobutyric acid / 2-Methyl-3-oxopropanoate / Acetoacetic acid / Succinic acid semialdehyde,Lipid-like molecules;Organic oxygen compounds;Keto / hydroxy acids,Mixed
+101.061,Pentanoic acid,C08262,Pentanoic acid,,Unknown,Unknown
+102.0199,2-Aminomalonate semialdehyde,C11822;C20249,2-Aminomalonate semialdehyde / Peroxyaminoacrylate,Peroxyaminoacrylate,Unknown,Unknown
+102.0562,Aminobutanoic acid (ABA),C00334;C01026;C03284;C03665,"Aminobutanoic acid (ABA) / 2-Aminoisobutyric acid / N,N-Dimethylglycine / gamma-Aminobutyric acid","2-Aminoisobutyric acid / N,N-Dimethylglycine / gamma-Aminobutyric acid",Amino acids,Amino acids
+103.04,Hydroxybutanoic acid,C00989;C01089;C01188;C01991,Hydroxybutanoic acid / 3-Hydroxyisobutyric acid / 4-Hydroxybutanoic acid / gamma-Hydroxybutyrate,3-Hydroxyisobutyric acid / 4-Hydroxybutanoic acid / gamma-Hydroxybutyrate,Lipid-like molecules,Lipid-like molecules
+104.0355,Serine,C00065;C00740,Serine,,Amino acids,Amino acids
+105.0196,D-Glyceric acid,C00258,D-Glyceric acid,,Organic oxygen compounds,Organic oxygen compounds
+107.05,Benzyl alcohol,C00556;C01468,Benzyl alcohol / p-Cresol,p-Cresol,Benzenoids,Other
+109.0295,Catechol,C15571,Catechol,,Unknown,Unknown
+110.0358,Cytosine,C00380,Cytosine,,Organoheterocyclic compounds,Organoheterocyclic compounds
+110.9762,Monomethyl sulfate,C02704,Monomethyl sulfate,,Unknown,Unknown
+111.0203,Uracil,C00106,Uracil,,Organoheterocyclic compounds,Organoheterocyclic compounds
+113.0245,"2-Hydroxy-2,4-pentadienoic acid",C00596;C07091,"2-Hydroxy-2,4-pentadienoic acid / cis-Acetylacrylate",cis-Acetylacrylate,Lipid-like molecules,Lipid-like molecules
+113.0358,Dihydrouracil,C00429;C02512,3-Cyano-alanine / Dihydrouracil,3-Cyano-alanine,Amino acids;Organoheterocyclic compounds,Mixed
+114.056,Proline,C00148,Proline,,Amino acids,Amino acids
+115.0038,Fumarate,C00122,Fumarate,,Carboxylic acids,Carboxylic acids
+115.0402,Ketovaline,C00141,Ketovaline / alpha-Ketoisovaleric acid,alpha-Ketoisovaleric acid,Keto / hydroxy acids,Keto / hydroxy acids
+115.0767,Hexanoate (N-C6:0),C01585,Hexanoate (N-C6:0),,Lipid-like molecules,Lipid-like molecules
+116.0356,Aspartate semialdehyde,C00441;C03508;C20250,(Z)-2-Methyl-peroxyaminoacrylate / 2-Amino-3-oxobutanoic acid / Aspartate semialdehyde,(Z)-2-Methyl-peroxyaminoacrylate / 2-Amino-3-oxobutanoic acid,Amino acids,Amino acids
+116.0718,Valine,C00183;C00719,Betaine / Valine,Betaine,Amino acids,Amino acids
+117.0194,Succinate,C00042,Succinate,,Carboxylic acids,Carboxylic acids
+117.0676,"L-2,4-Diaminobutanoic acid",C03283,"L-2,4-Diaminobutanoic acid",,Unknown,Unknown
+118.0513,Threonine,C00188;C00263;C00820;C05519,Allothreonine / Homoserine / Threonine,Allothreonine / Homoserine,Amino acids,Amino acids
+118.9807,Mercaptopyruvic acid,C00957,Mercaptopyruvic acid,,Keto / hydroxy acids,Keto / hydroxy acids
+119.0503,Phenylacetaldehyde,C00601,Phenylacetaldehyde,,Benzenoids,Other
+120.0127,Cys,C00097;C00793,Cys,,Amino acids,Amino acids
+121.0409,Nicotinamide,C00153,Nicotinamide,,Organoheterocyclic compounds,Organoheterocyclic compounds
+124.0076,Taurine,C00245,Taurine,,Other organic acids,Other
+125.0354,Thymine,C00178,Thymine,,Organoheterocyclic compounds,Organoheterocyclic compounds
+125.0466,5-Amino-4-imidazolecarboxyamide,C04051,5-Amino-4-imidazolecarboxyamide,,Carboxylic acids,Carboxylic acids
+127.0403,"2-Hydroxy-cis-hex-2,4-dienoate",C11354,"2-Hydroxy-cis-hex-2,4-dienoate",,Unknown,Unknown
+127.0523,Dihydrothymine,C00906,Dihydrothymine,,Organoheterocyclic compounds,Organoheterocyclic compounds
+128.0353,Pyrrolidonecarboxylic acid,C02237;C04281,Pyrrolidonecarboxylic acid / Pyrroline hydroxycarboxylic acid,Pyrroline hydroxycarboxylic acid,Amino acids,Amino acids
+128.0719,Pipecolate,C00408,Pipecolate,,Unknown,Unknown
+129.0194,Itaconate,C00490;C02226,Citraconic acid / Itaconate,Citraconic acid,Lipid-like molecules,Lipid-like molecules
+129.056,4-Methyl-2-oxopentanoate,C00233;C00671;C03465,2-Keto-3-methyl-valerate / 4-Methyl-2-oxopentanoate / Ketoleucine,2-Keto-3-methyl-valerate / Ketoleucine,Keto / hydroxy acids,Keto / hydroxy acids
+129.1035,N-Acetylputrescine,C02714,N-Acetylputrescine,,Carboxylic acids,Carboxylic acids
+130.0511,5-Aminolevulinic acid,C00430;C01157;C01165;C03741,(S)-4-Amino-5-oxopentanoate / 5-Aminolevulinic acid / Glutamic-gamma-semialdehyde / Hydroxyproline,(S)-4-Amino-5-oxopentanoate / Glutamic-gamma-semialdehyde / Hydroxyproline,Amino acids,Amino acids
+130.0876,(Iso)Leucine,C00123;C00407,Isoleucine / (Iso)Leucine,Isoleucine,Amino acids,Amino acids
+131.035,Glutarate,C00489;C00900;C03589;C04181;C06010;C11838,"(4S)-4,5-Dihydroxypentan-2,3-dione / (S)-2-Acetolactate / 2-Acetolactate / 3-Hydroxy-3-methyl-2-oxobutanoic acid / 4-Hydroxy-2-oxopentanoate / Glutarate","(4S)-4,5-Dihydroxypentan-2,3-dione / (S)-2-Acetolactate / 2-Acetolactate / 3-Hydroxy-3-methyl-2-oxobutanoic acid / 4-Hydroxy-2-oxopentanoate",Keto / hydroxy acids;Carboxylic acids,Mixed
+131.0466,Asparagine,C00152;C02642,Asparagine / Ureidopropionic acid,Ureidopropionic acid,Amino acids;Other organic acids,Mixed
+131.0828,Ornithine,C00077;C01602,Ornithine,,Amino acids,Amino acids
+132.0305,Aspartate,C00049,Aspartate,,Amino acids,Amino acids
+133.0144,Malate,C00149;C00497,Malate / Malic acid,Malic acid,Keto / hydroxy acids,Keto / hydroxy acids
+133.0508,Deoxyribose,C01801;C04039;C04272;C06257,"(R)-2,3-Dihydroxy-isovalerate / 1-Deoxy-xylulose / 2,3-Dihydroxyisovaleric acid / Deoxyribose","(R)-2,3-Dihydroxy-isovalerate / 1-Deoxy-xylulose / 2,3-Dihydroxyisovaleric acid",Lipid-like molecules;Organic oxygen compounds,Mixed
+135.031,Hypoxanthine,C00262,Hypoxanthine,,Organoheterocyclic compounds,Organoheterocyclic compounds
+135.0456,Phenyl acetate,C03765;C07086,Phenyl acetate / Benzeneacetic acid,Benzeneacetic acid,Benzenoids,Other
+136.0404,2-Aminobenzoic acid,C00108;C00568,2-Aminobenzoic acid / p-Aminobenzoic acid,p-Aminobenzoic acid,Benzenoids,Other
+138.9798,Acetyl-P,C00227;C05682,Acetyl-P / Phosphonoacetate,Phosphonoacetate,Other organic acids,Other
+139.976,Carbamoyl phosphate,C00169,Carbamoyl phosphate,,Other organic acids,Other
+142.0873,Crotonobetaine,C04114;C10172,Crotonobetaine / Stachydrine,Stachydrine,Unknown,Unknown
+143.108,Octanoic acid,C06423,Octanoic acid,,Lipid-like molecules,Lipid-like molecules
+145.0145,Oxoglutarate,C00026,Oxoglutarate / alpha-Ketoglutarate,alpha-Ketoglutarate,Keto / hydroxy acids,Keto / hydroxy acids
+145.0508,2-Aceto-2-hydroxybutanoate,C00966;C06006;C06762;C14463;C16272,(R)-3-Hydroxy-3-methyl-2-oxopentanoate / 2-Aceto-2-hydroxybutanoate / 2-Dehydropantoate / 3-Hydroxy-5-oxohexanoate / 4-Hydroxy-2-oxohexanoic acid,(R)-3-Hydroxy-3-methyl-2-oxopentanoate / 2-Dehydropantoate / 3-Hydroxy-5-oxohexanoate / 4-Hydroxy-2-oxohexanoic acid,Keto / hydroxy acids,Keto / hydroxy acids
+145.0621,Glutamine,C00064;C00819;C05100,Glutamine / Ureidoisobutyric acid,Ureidoisobutyric acid,Amino acids,Amino acids
+145.0986,Lysine,C00047,Lysine,,Amino acids,Amino acids
+145.1098,gamma-Butyrobetaine,C01181,gamma-Butyrobetaine,,Lipid-like molecules,Lipid-like molecules
+146.046,Glutamate,C00025;C00217;C00979,Glutamate / Glutamic acid / O-Acetylserine,Glutamic acid / O-Acetylserine,Amino acids,Amino acids
+147.0299,Hydroxyglutarate,C02630;C03196;C06032,Hydroxyglutarate / Erythro-3-Methylmalate,Erythro-3-Methylmalate,Lipid-like molecules,Lipid-like molecules
+147.0664,"(R) 2,3-Dihydroxy-3-methylvalerate",C00522;C06007,"(R) 2,3-Dihydroxy-3-methylvalerate / (R)-Pantoate",(R)-Pantoate,Lipid-like molecules,Lipid-like molecules
+148.044,Methionine,C00073;C00855,Methionine,,Amino acids,Amino acids
+149.0096,Tartaric acid,C00552;C00898,Tartaric acid / Tartaric acid,,Keto / hydroxy acids,Keto / hydroxy acids
+149.0455,Pentose,C00121;C00181;C00216;C00259;C00309;C00310;C00312;C00476;C00508;C01508;C08353;C16639,Pentose / Lyxose / Ribose / Ribulose / Threo-2-pentulose / Xylose / Xylulose / beta-Ribopyranose / beta-ribofuranose,Lyxose / Ribose / Ribulose / Threo-2-pentulose / Xylose / Xylulose / beta-Ribopyranose / beta-ribofuranose,Organoheterocyclic compounds;Organic oxygen compounds,Mixed
+150.0425,Guanine,C00242,Guanine,,Organoheterocyclic compounds,Organoheterocyclic compounds
+151.0264,Xanthine,C00385,Xanthine,,Organoheterocyclic compounds,Organoheterocyclic compounds
+151.0609,Xylitol,C00474;C00532,Xylitol / Ribitol,Ribitol,Unknown,Unknown
+152.0021,3-Sulfino-L-alanine,C00606,3-Sulfino-L-alanine,,Amino acids,Amino acids
+152.0356,3-Hydroxyanthranilate,C00632,3-Hydroxyanthranilate,,Benzenoids,Other
+152.0716,Dopamine,C03758,Dopamine,,Benzenoids,Other
+153.0193,2-Pyrocatechuic acid,C00196,2-Pyrocatechuic acid,,Benzenoids,Other
+154.0623,Histidine,C00135,Histidine,,Amino acids,Amino acids
+154.9751,2-Phosphoglycolate,C00988,2-Phosphoglycolate,,Other organic acids,Other
+155.0099,Orotate,C00295,Orotate,,Organoheterocyclic compounds,Organoheterocyclic compounds
+157.0256,Dihydroorotate,C00337,Dihydroorotate,,Amino acids,Amino acids
+157.0504,Isopropylmaleate,C02631,Isopropylmaleate,,Lipid-like molecules,Lipid-like molecules
+157.0646,(2-Naphthyl)methanol,C02909;C14089,(2-Naphthyl)methanol / 1-Hydroxymethylnaphthalene,1-Hydroxymethylnaphthalene,Benzenoids,Other
+159.03,Oxoadipate,C00322,Oxoadipate,,Keto / hydroxy acids,Keto / hydroxy acids
+159.0773,Alanyl-alanine,C00993,Alanyl-alanine,,Amino acids,Amino acids
+160.0616,Aminoadipate,C00956,Aminoadipate,,Unknown,Unknown
+161.0455,2-Dehydro-3-deoxy-rhamnonate,C02488;C03979,2-Dehydro-3-deoxy-rhamnonate / 2-Ethylmalate,2-Ethylmalate,Unknown,Unknown
+163.0397,3-Hydroxycinnamic acid,C00166;C12621,3-Hydroxycinnamic acid / Phenylpyruvic acid,Phenylpyruvic acid,Phenylpropanoids and polyketides;Benzenoids,Other
+163.0614,2-Deoxyglucose,C00507;C00586;C00861;C01019;C01721;C02338;C02476;C20835;C20836,2-Deoxyglucose / Fucose / Fuculose / Rhamnose / Rhamnulose / alpha-Fucopyranose / alpha-Fucose / alpha-Rhamnose / beta-Fucopyranose / beta-Rhamnose,Fucose / Fuculose / Rhamnose / Rhamnulose / alpha-Fucopyranose / alpha-Fucose / alpha-Rhamnose / beta-Fucopyranose / beta-Rhamnose,Lipid-like molecules;Organic oxygen compounds,Mixed
+164.038,Met-oxide,C02989;C15998;C15999,Methionine (R)-S-oxide / Met-oxide / methionine (S)-S-oxide,Methionine (R)-S-oxide / methionine (S)-S-oxide,Amino acids,Amino acids
+164.0717,Phenylalanine,C00079;C02265,Phenylalanine,,Amino acids,Amino acids
+165.0551,3-(2-Hydroxyphenyl)propanoate,C05607;C11457,3-(2-Hydroxyphenyl)propanoate / 3-(3-Hydroxyphenyl)propionate / Phenyllactic acid,3-(3-Hydroxyphenyl)propionate / Phenyllactic acid,Phenylpropanoids and polyketides,Other
+166.0507,Pyridoxal,C00250,Pyridoxal,,Organoheterocyclic compounds,Organoheterocyclic compounds
+166.9752,Phosphoenolpyruvate,C00074,Phosphoenolpyruvate,,Other organic acids,Other
+167.021,Urate,C00366,Urate,,Organoheterocyclic compounds,Organoheterocyclic compounds
+167.0827,Pyridoxamine,C00534,Pyridoxamine,,Organoheterocyclic compounds,Organoheterocyclic compounds
+168.0667,Pyridoxine,C00314,Pyridoxine,,Organoheterocyclic compounds,Organoheterocyclic compounds
+169.0503,"3,4-Dihydroxyphenylethyleneglycol",C05576,"3,4-Dihydroxyphenylethyleneglycol",,Benzenoids,Other
+170.0454,"2,3,4,5-Tetrahydrodipicolinate",C03972,"2,3,4,5-Tetrahydrodipicolinate",,Amino acids,Amino acids
+170.0825,Homoserine lactone,C11837,Homoserine lactone,,Unknown,Unknown
+171.0064,sn-Glycerol 3-phosphate,C00093;C00623;C02979;C03189,Glycerol 2-phosphate / sn-Glycerol 3-phosphate / Sn-Glycerol-1-phosphate / glycerol-3-phosphate,Glycerol 2-phosphate / Sn-Glycerol-1-phosphate / glycerol-3-phosphate,Lipid-like molecules,Lipid-like molecules
+172.0615,Acetyl-Glu-semialdehyde,C01250,Acetyl-Glu-semialdehyde,,Amino acids,Amino acids
+173.0092,Aconitate,C00417;C02341,Aconitate / trans-Aconitic acid,trans-Aconitic acid,Carboxylic acids,Carboxylic acids
+173.0455,Shikimate,C00493;C04236,2-Isopropyl-3-oxosuccinate / Shikimate,2-Isopropyl-3-oxosuccinate,Organic oxygen compounds;Keto / hydroxy acids,Mixed
+173.0932,Acetylornithine,C00437,Acetylornithine,,Amino acids,Amino acids
+173.1041,Arginine,C00062,Arginine,,Amino acids,Amino acids
+174.0409,Acetyl-Asp,C01042,Acetyl-Asp,,Unknown,Unknown
+174.088,Citrulline,C00327,Citrulline,,Amino acids,Amino acids
+175.0245,Hexuronic acid,C00072;C04053;C04349,"(4S)-4,6-Dihydroxy-2,5-dioxohexanoate / 5-Dehydro-4-deoxy-glucuronate / Hexuronic acid","(4S)-4,6-Dihydroxy-2,5-dioxohexanoate / 5-Dehydro-4-deoxy-glucuronate",Organoheterocyclic compounds;Keto / hydroxy acids,Mixed
+175.0364,Ureidosuccinic acid,C00438,Ureidosuccinic acid,,Amino acids,Amino acids
+175.061,3-Propylmalate,C02504;C04411,2-Isopropylmalic acid / 3-Carboxy-3-hydroxy-isocaproate / 3-Propylmalate,2-Isopropylmalic acid / 3-Carboxy-3-hydroxy-isocaproate,Lipid-like molecules;Keto / hydroxy acids,Mixed
+177.0405,Glucono-lactone,C00198;C00204;C01216;C03383;C03926,2-Dehydro-3-deoxy-galactonate / 2-Keto-3-deoxy-gluconic acid / 3-Dehydro-2-deoxy-gluconate / Galactonolactone / Glucono-lactone,2-Dehydro-3-deoxy-galactonate / 2-Keto-3-deoxy-gluconic acid / 3-Dehydro-2-deoxy-gluconate / Galactonolactone,Organic oxygen compounds;Keto / hydroxy acids,Mixed
+178.017,S-Carboxymethyl-Cys,C03727,S-Carboxymethyl-Cys,,Unknown,Unknown
+178.051,N-Acetylanthranilate,C06332,N-Acetylanthranilate,,Benzenoids,Other
+179.036,3-(4-Hydroxyphenyl)pyruvate,C01179;C12623,"3-(4-Hydroxyphenyl)pyruvate / Trans-2,3-Dihydroxycinnamate","Trans-2,3-Dihydroxycinnamate",Phenylpropanoids and polyketides;Benzenoids,Other
+179.0561,2-Deoxygluconate,C00031;C00095;C00124;C00137;C00159;C00221;C00247;C00267;C00962;C00984;C01487;C01934;C02782,2-Deoxygluconate / Allose / Alpha-Galactose / Fructose / Galactose / Glucose / Inositol / Mannose / Myoinositol / Rhamnonate / Sorbose / alpha-Glucose / b-Glucose / beta-Galactose,Allose / Alpha-Galactose / Fructose / Galactose / Glucose / Inositol / Mannose / Myoinositol / Rhamnonate / Sorbose / alpha-Glucose / b-Glucose / beta-Galactose,Organic oxygen compounds;Keto / hydroxy acids,Mixed
+180.0664,Tyrosine,C00082;C06420,Tyrosine,,Amino acids,Amino acids
+181.051,3-(4-Hydroxyphenyl)lactate,C04044;C12622,"3-(2,3-Dihydroxyphenyl)propanoate / 3-(4-Hydroxyphenyl)lactate / cis-3-(3-Carboxyethenyl)-3,5-cyclohexadiene-1,2-diol","3-(2,3-Dihydroxyphenyl)propanoate / cis-3-(3-Carboxyethenyl)-3,5-cyclohexadiene-1,2-diol",Unknown,Unknown
+183.0061,"L-3,4-Dihydroxybutan-2-one 4-P",C15556,"1-Deoxy-glycero-tetrulose 4-phosphate / 3,4-Dihydroxy-2-butanone-4-P / L-3,4-Dihydroxybutan-2-one 4-P","1-Deoxy-glycero-tetrulose 4-phosphate / 3,4-Dihydroxy-2-butanone-4-P",Other organic acids,Other
+184.0017,Phosphoserine,C01005;C02532,O-Phospho-serine / Phosphoserine,O-Phospho-serine,Amino acids,Amino acids
+184.9853,Phosphoglycerate,C00197;C00597;C00631,2-Phospho-glyceric acid / 3-Phospho-glycerate / Phosphoglycerate,2-Phospho-glyceric acid / 3-Phospho-glycerate,Organic oxygen compounds,Organic oxygen compounds
+187.1459,"7,8-Diaminononanoate",C01037,"7,8-Diaminononanoate",,Lipid-like molecules,Lipid-like molecules
+188.0566,Acetyl-Glu,C00624,Acetyl-Glu,,Amino acids,Amino acids
+189.0022,Oxalosuccinate,C05379,Oxalosuccinate,,Carboxylic acids,Carboxylic acids
+189.0404,3-Dehydroquinate,C00944,3-Dehydroquinate,,Keto / hydroxy acids,Keto / hydroxy acids
+189.088,Diaminopimelate,C00666;C00680,"Diaminopimelate / Meso-2,6-Diaminoheptanedioate","Meso-2,6-Diaminoheptanedioate",Amino acids,Amino acids
+190.055,Acetyl-Met,C02712,Acetyl-Met,,Unknown,Unknown
+191.0196,(Iso)Citrate,C00158;C00311;C00679;C02780;C03921;C04575,"2,3-Diketo-gulonate / 2,5-Diketo-gluconate / 2-Dehydro-3-deoxy-glucarate / 5-Dehydro-4-deoxy-glucarate / Citric acid / (Iso)Citrate","2,3-Diketo-gulonate / 2,5-Diketo-gluconate / 2-Dehydro-3-deoxy-glucarate / 5-Dehydro-4-deoxy-glucarate / Citric acid",Keto / hydroxy acids;Carboxylic acids,Mixed
+191.0561,Quinate,C00296,Quinate,,Organic oxygen compounds,Organic oxygen compounds
+192.0666,3-Carbamoyl-2-phenylpropionaldehyde,C16587;C16595,"3-Carbamoyl-2-phenylpropionaldehyde / 4-Hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one","4-Hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one",Benzenoids,Other
+193.0352,Hexuronate,C00191;C00333;C00558;C00618;C00905;C01062;C06473,2-Dehydro-gluconate / 3-Dehydro-gulonate / 5-Keto-gluconate / Hexuronate / Galacturonate / Glucuronic acid / Tagaturonate,2-Dehydro-gluconate / 3-Dehydro-gulonate / 5-Keto-gluconate / Galacturonate / Glucuronic acid / Tagaturonate,Organic oxygen compounds;Keto / hydroxy acids,Mixed
+193.0719,Methyl-beta-galactoside,C03619,Methyl-beta-galactoside,,Unknown,Unknown
+194.0686,"2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine",C01300,"2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine / 6-Hydroxymethyl dihydropterin",6-Hydroxymethyl dihydropterin,Organoheterocyclic compounds,Organoheterocyclic compounds
+195.0508,Hexonic acid,C00257;C00514;C00770;C00800;C00817;C00880;C15930,Altronate / Galactonate / Hexonic acid / Gluconic acid / Gulonate / Idonate / Mannonate,Altronate / Galactonate / Gluconic acid / Gulonate / Idonate / Mannonate,Keto / hydroxy acids,Keto / hydroxy acids
+198.088,gamma-Glutamyl-beta-aminopropiononitrile,C06114,gamma-Glutamyl-beta-aminopropiononitrile,,Amino acids,Amino acids
+199.0014,D-Erythrose 4-phosphate,C00279,D-Erythrose 4-phosphate,,Other organic acids,Other
+199.1703,Dodecanoic acid (FA12:0),C02679,Dodecanoic acid (FA12:0),,Unknown,Unknown
+203.0348,"1,4-Dihydroxy-2-naphthoate",C03657,"1,4-Dihydroxy-2-naphthoate",,Benzenoids,Other
+203.0824,Tryptophan,C00078,Tryptophan,,Amino acids,Amino acids
+204.0508,Lipoamide,C00248,Lipoamide,,Organoheterocyclic compounds,Organoheterocyclic compounds
+205.0353,"(R)-2-Hydroxybutane-1,2,4-tricarboxylate",C00725;C02225;C04593;C16241,"(R)-2-Hydroxybutane-1,2,4-tricarboxylate / Lipoate / Methylcitric acid / Methylisocitric acid / lipoate",Lipoate / Methylcitric acid / Methylisocitric acid / lipoate,Organoheterocyclic compounds;Carboxylic acids,Mixed
+211.9967,2-Amino-3-oxo-4-phosphonooxybutyrate,C03082;C07335,2-Amino-3-oxo-4-phosphonooxybutyrate / Aspartyl-4-phosphate,Aspartyl-4-phosphate,Amino acids,Amino acids
+212.9812,2-Oxo-3-hydroxy-4-phosphobutanoate,C06054,2-Oxo-3-hydroxy-4-phosphobutanoate,,Keto / hydroxy acids,Keto / hydroxy acids
+213.0161,2-Deoxy-D-ribose 1-phosphate,C00672;C00673;C11437,1-Deoxy-xylulose 5-phosphate / 2-Deoxy-D-ribose 1-phosphate / Deoxyribose 5-phosphate,1-Deoxy-xylulose 5-phosphate / Deoxyribose 5-phosphate,Other organic acids;Organic oxygen compounds,Mixed
+214.0117,O-Phospho-4-hydroxy-L-threonine,C06055,O-Phospho-4-hydroxy-L-threonine,,Amino acids,Amino acids
+214.0491,sn-Glycero-3-phosphoethanolamine,C01233,sn-Glycero-3-phosphoethanolamine,,Lipid-like molecules,Lipid-like molecules
+215.0326,2-C-Methyl-D-erythritol 4-phosphate,C11434,2-C-Methyl-D-erythritol 4-phosphate,,Other organic acids,Other
+216.1344,gamma-Glutamyl-putrescine,C15699,gamma-Glutamyl-putrescine,,Amino acids,Amino acids
+218.0332,4-Amino-2-methyl-5-phosphomethylpyrimidine,C04556,4-Amino-2-methyl-5-phosphomethylpyrimidine / 4-amino-5-phosphonooxymethyl-2-methylpyrimidine,4-amino-5-phosphonooxymethyl-2-methylpyrimidine,Other organic acids,Other
+218.1034,Pantothenate,C00864,Pantothenate,,Amino acids,Amino acids
+220.0487,L-Histidinol phosphate,C01100,L-Histidinol phosphate,,Other organic acids,Other
+220.0825,N-Acetyl-D-glucosamine,C00140;C00645;C05021,N-Acetyl-b-galactosamine / N-Acetyl-D-glucosamine / N-Acetylglucosamine / N-Acetylmannosamine,N-Acetyl-b-galactosamine / N-Acetylglucosamine / N-Acetylmannosamine,Organic oxygen compounds,Organic oxygen compounds
+221.0668,6-Acetyl-D-glucose,C02655,6-Acetyl-D-glucose,,Unknown,Unknown
+225.0403,Chorismate,C00251;C00254;C00885,Chorismate / Isochorismate / Prephenate,Isochorismate / Prephenate,Keto / hydroxy acids;Carboxylic acids,Mixed
+226.0125,L-Glutamyl 5-phosphate,C03287,L-Glutamyl 5-phosphate,,Amino acids,Amino acids
+227.2016,Myristic acid,C06424,Myristic acid,,Unknown,Unknown
+228.0266,5-Phosphoribosylamine,C03090,5-Phosphoribosylamine,,Organic oxygen compounds,Organic oxygen compounds
+229.0119,Arabinose 5-phosphate,C00117;C00199;C00231;C00620;C01101;C01112;C03291,Arabinose 5-phosphate / Ribose-1-phosphate / Ribose-5-phosphate / Ribulose 5-phosphate / Xylulose 5-phosphate,Ribose-1-phosphate / Ribose-5-phosphate / Ribulose 5-phosphate / Xylulose 5-phosphate,Other organic acids;Organic oxygen compounds,Mixed
+230.0676,N2-Succinyl-glutamic acid 5-semialdehyde,C05932,N2-Succinyl-glutamic acid 5-semialdehyde,,Amino acids,Amino acids
+236.0782,Sepiapterin,C03684,Sepiapterin,,Organoheterocyclic compounds,Organoheterocyclic compounds
+237.0611,3-Deoxy-D-manno-octulosonate,C01187,3-Deoxy-D-manno-octulosonate,,Keto / hydroxy acids,Keto / hydroxy acids
+240.0514,"N-(2,3-Dihydroxybenzoyl)-L-serine",C04204,"N-(2,3-Dihydroxybenzoyl)-L-serine",,Unknown,Unknown
+241.0834,Thymidine,C00214,Thymidine,,Nucleotides / nucleosides,Nucleotides / nucleosides
+242.079,Cytidine,C00475;C05711,Cytidine / gamma-Glutamyl-beta-cyanoalanine,gamma-Glutamyl-beta-cyanoalanine,Amino acids;Nucleotides / nucleosides,Mixed
+243.0632,Uridine,C00299;C02067,Pseudouridine / Uridine,Pseudouridine,Nucleotides / nucleosides;Organoheterocyclic compounds,Mixed
+253.0119,Shikimate 3-phosphate,C03175,Shikimate 3-phosphate,,Other organic acids,Other
+253.0499,5-L-Glutamyl-taurine,C05844,5-L-Glutamyl-taurine,,Amino acids,Amino acids
+254.9905,L-Ascorbate 6-phosphate,C16186,L-Ascorbate 6-phosphate,,Unknown,Unknown
+257.0063,"D-Glucono-1,5-lactone 6-phosphate",C01236;C01286;C04442,"D-Glucono-1,5-lactone 6-phosphate / 2-Dehydro-3-deoxy-galactonate-6-phosphate / 2-Keto-3-deoxy-6-phosphogluconic acid / 6-Phosphonoglucono-lactone",2-Dehydro-3-deoxy-galactonate-6-phosphate / 2-Keto-3-deoxy-6-phosphogluconic acid / 6-Phosphonoglucono-lactone,Organic oxygen compounds;Keto / hydroxy acids,Mixed
+257.1027,sn-Glycero-3-phosphocholine,C00670,sn-Glycero-3-phosphocholine,,Lipid-like molecules,Lipid-like molecules
+259.0226,Allose 6-phosphate,C00085;C00092;C00103;C00275;C00446;C00636;C00663;C00668;C01094;C01097;C01172;C01177;C02962;C03267;C03546;C04006;C05345;C06312,Allose 6-phosphate / Alpha-glucose 6-phosphate / Fructose 1-phosphate / Fructose 6-phosphate / Galactose 1-phosphate / Glucose 1-phosphate / Glucose 6-phosphate / Mannose 1-phosphate / Mannose 6-phosphate / Myo-inositol (1)-monophosphate / Myo-inositol 1-phosphate / Myo-inositol 4-phosphate / Tagatose 6-phosphate / Tagatose-6-phosphate / beta-Fructose 2-phosphate / beta-Fructose 6-phosphate / beta-Glucose 1-phosphate / beta-Glucose 6-phosphate,Alpha-glucose 6-phosphate / Fructose 1-phosphate / Fructose 6-phosphate / Galactose 1-phosphate / Glucose 1-phosphate / Glucose 6-phosphate / Mannose 1-phosphate / Mannose 6-phosphate / Myo-inositol (1)-monophosphate / Myo-inositol 1-phosphate / Myo-inositol 4-phosphate / Tagatose 6-phosphate / Tagatose-6-phosphate / beta-Fructose 2-phosphate / beta-Fructose 6-phosphate / beta-Glucose 1-phosphate / beta-Glucose 6-phosphate,Lipid-like molecules;Other organic acids;Organic oxygen compounds,Mixed
+261.0382,D-Mannitol 1-phosphate,C00644;C01096;C02810;C06311,D-Mannitol 1-phosphate / Mannitol 1-phosphate / Sorbitol 6-phosphate / Sorbitol-6-phosphate,Mannitol 1-phosphate / Sorbitol 6-phosphate / Sorbitol-6-phosphate,Other organic acids,Other
+264.9518,3-Phospho-D-glyceroyl phosphate,C00236;C01159,"2,3-Diphosphoglyceric acid / 3-Phospho-D-glyceroyl phosphate","2,3-Diphosphoglyceric acid",Other organic acids,Other
+266.0704,S-Ribosyl-L-homocysteine,C03539,S-Ribosyl-L-homocysteine,,Unknown,Unknown
+267.072,2(alpha-D-Mannosyl)-D-glycerate,C11544,2(alpha-D-Mannosyl)-D-glycerate,,Unknown,Unknown
+267.2327,omega-Cyclohexylundecanoic acid,C16536,omega-Cyclohexylundecanoic acid,,Unknown,Unknown
+273.0016,3-Dehydro-gulonate 6-phosphate,C05385;C14899,3-Dehydro-gulonate 6-phosphate / Glucuronate 1-phosphate,Glucuronate 1-phosphate,Organic oxygen compounds,Organic oxygen compounds
+274.0932,"1,6-Anhydro-N-acetyl-beta-muramate",C19769,"1,6-Anhydro-N-acetyl-beta-muramate",,Organoheterocyclic compounds,Organoheterocyclic compounds
+275.0168,6-Phosphogluconate,C00345,6-Phosphogluconate,,Keto / hydroxy acids,Keto / hydroxy acids
+275.1015,5-Amino-6-(1-D-ribitylamino)uracil,C04732,5-Amino-6-ribitylamino uracil / 5-Amino-6-(1-D-ribitylamino)uracil,5-Amino-6-ribitylamino uracil,Organoheterocyclic compounds,Organoheterocyclic compounds
+282.0845,Guanosine,C00387,Guanosine,,Nucleotides / nucleosides,Nucleotides / nucleosides
+288.0726,N-Succinyl-2-L-amino-6-oxoheptanedioate,C04462,N-Succinyl-2-L-amino-6-oxoheptanedioate,,Amino acids,Amino acids
+289.0331,Sedoheptulose P,C05382;C07836;C07838;C19882,Glycero-manno-heptose 1-phosphate / Glycero-manno-heptose 7-phosphate / Sedoheptulose P / glycero-beta-manno-heptose 7-phosphate,Glycero-manno-heptose 1-phosphate / Glycero-manno-heptose 7-phosphate / glycero-beta-manno-heptose 7-phosphate,Organic oxygen compounds,Organic oxygen compounds
+289.1043,"N-Succinyl-LL-2,6-diaminoheptanedioate",C04421,"N-Succinyl-LL-2,6-diaminoheptanedioate",,Amino acids,Amino acids
+290.9669,"alpha-D-Ribose 1,2-cyclic phosphate 5-phosphate",C20440,"alpha-D-Ribose 1,2-cyclic phosphate 5-phosphate",,Unknown,Unknown
+304.0351,"3',5'-Cyclic CMP",C02354,"3',5'-Cyclic CMP",,Unknown,Unknown
+305.0193,"2',3'-Cyclic UMP",C02355,"2',3'-Cyclic UMP",,Nucleotides / nucleosides,Nucleotides / nucleosides
+305.0297,"2-(3,4-dihydroxybenzoyloxy)-4,6-dihydroxybenzoate",C04524,"2-(3,4-dihydroxybenzoyloxy)-4,6-dihydroxybenzoate",,Unknown,Unknown
+306.0491,dCMP,C00239,dCMP,,Nucleotides / nucleosides,Nucleotides / nucleosides
+306.0762,Glutathione,C00051,Glutathione,,Amino acids,Amino acids
+308.0986,N-Acetylneuraminate,C00270;C19909;C19910,N-Acetyl-alpha-neuraminate / N-Acetylneuraminate / N-acetylneuraminate / alpha-N-acetylneuraminate,N-Acetyl-alpha-neuraminate / N-acetylneuraminate / alpha-N-acetylneuraminate,Organic oxygen compounds,Organic oxygen compounds
+308.9787,D-Ribose 5-diphosphate,C01151;C01182,"D-Ribose 5-diphosphate / Ribulose 1,5-bisphosphate","Ribulose 1,5-bisphosphate",Organic oxygen compounds,Organic oxygen compounds
+313.0438,5'-Phosphoribosyl-N-formylglycineamide,C04376,5'-Phosphoribosyl-N-formylglycineamide,,Nucleotides / nucleosides,Nucleotides / nucleosides
+321.0495,dTMP,C00364,5-Thymidylic acid,5-Thymidylic acid,Nucleotides / nucleosides,Nucleotides / nucleosides
+321.1113,N-((R)-Pantothenoyl)-L-cysteine,C04079,N-((R)-Pantothenoyl)-L-cysteine,,Other organic acids,Other
+322.0444,CMP,C00055;C05822,3'-CMP / Cytidine monophosphate,3'-CMP / Cytidine monophosphate,Nucleotides / nucleosides,Nucleotides / nucleosides
+323.0285,UMP,C00105;C01168;C01368,3'-UMP / Pseudouridine 5'-phosphate / Uridine 5'-monophosphate,3'-UMP / Pseudouridine 5'-phosphate / Uridine 5'-monophosphate,Nucleotides / nucleosides;Organic oxygen compounds,Mixed
+327.0738,2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate,C16519,2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate,,Carboxylic acids,Carboxylic acids
+328.0452,"3',5'-Cyclic AMP",C00575;C02353,"Adenosine 2',3'-cyclic phosphate / 3',5'-Cyclic AMP","Adenosine 2',3'-cyclic phosphate",Nucleotides / nucleosides,Nucleotides / nucleosides
+333.0999,Glutathione episulfonium ion,C14874,Glutathione episulfonium ion,,Amino acids,Amino acids
+334.0723,S-Formylglutathione,C01031,S-Formylglutathione,,Amino acids,Amino acids
+337.0545,AICAR,C04677,AICAR,,Nucleotides / nucleosides,Nucleotides / nucleosides
+338.0392,1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate,C04751;C15667,1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate / 5-carboxyamino-1-(5-phospho-ribosyl)imidazole,5-carboxyamino-1-(5-phospho-ribosyl)imidazole,Organic oxygen compounds,Organic oxygen compounds
+338.9888,"Fructose 1,6-bisphosphate",C00354;C01231;C03785;C05378,"Fructose 1,6-bisphosphate / Tagatose 1,6-bisphosphate / alpha-Glucose 1,6-bisphosphate / beta-Fructose 1,6-bisphosphate","Tagatose 1,6-bisphosphate / alpha-Glucose 1,6-bisphosphate / beta-Fructose 1,6-bisphosphate",Organic oxygen compounds,Organic oxygen compounds
+341.1089,Cellobiose,C00089;C00185;C00208;C00243;C00252;C01083;C05402,Cellobiose / Isomaltose / Maltose / Melibiose / Sucrose / Trehalose / alpha-Lactose,Isomaltose / Maltose / Melibiose / Sucrose / Trehalose / alpha-Lactose,Organic oxygen compounds,Organic oxygen compounds
+344.04,cGMP,C00942;C06194,"cGMP / Guanosine 2',3'-cyclic phosphate","Guanosine 2',3'-cyclic phosphate",Nucleotides / nucleosides,Nucleotides / nucleosides
+346.0556,AMP,C00020;C00362;C01367,2'-Deoxyguanosine 5'-monophosphate / 3'-AMP / Adenosine monophosphate,2'-Deoxyguanosine 5'-monophosphate / 3'-AMP / Adenosine monophosphate,Nucleotides / nucleosides;Organic oxygen compounds,Mixed
+347.0398,IMP,C00130,Inosinic acid,Inosinic acid,Nucleotides / nucleosides,Nucleotides / nucleosides
+348.0874,S-(Formylmethyl)glutathione,C14871,S-(Formylmethyl)glutathione,,Amino acids,Amino acids
+357.089,Pantetheine 4'-phosphate,C01134,Pantetheine 4'-phosphate / pantotheine 4'-phosphate,pantotheine 4'-phosphate,Amino acids,Amino acids
+362.0506,GMP,C00144;C06193;C18239;C19968,8-oxo-dGMP / Cyclic pyranopterin monophosphate / Guanosine 3'-phosphate / Guanosine monophosphate,8-oxo-dGMP / Cyclic pyranopterin monophosphate / Guanosine 3'-phosphate / Guanosine monophosphate,Nucleotides / nucleosides;Organoheterocyclic compounds,Mixed
+375.131,Riboflavin,C00255,Riboflavin,,Organoheterocyclic compounds,Organoheterocyclic compounds
+383.1181,Acetyl-maltose,C02130,Acetyl-maltose,,Unknown,Unknown
+386.999,dUDP,C01346,dUDP,,Organic oxygen compounds,Organic oxygen compounds
+388.9444,Phosphoribosyl pyrophosphate,C00119,Phosphoribosyl pyrophosphate,,Organic oxygen compounds,Organic oxygen compounds
+401.0173,dTDP,C00363,dTDP,,Organic oxygen compounds,Organic oxygen compounds
+402.0107,CDP,C00112,CDP,,Nucleotides / nucleosides,Nucleotides / nucleosides
+402.9949,UDP,C00015,Uridine 5'-diphosphate,Uridine 5'-diphosphate,Nucleotides / nucleosides,Nucleotides / nucleosides
+426.0221,ADP,C00008;C00054;C00361,"ADP / Adenosine 3',5'-diphosphate / dGDP","Adenosine 3',5'-diphosphate / dGDP",Nucleotides / nucleosides,Nucleotides / nucleosides
+442.0169,GDP,C00035,Guanosine diphosphate,Guanosine diphosphate,Nucleotides / nucleosides,Nucleotides / nucleosides
+443.0014,XDP,C01337,XDP,,Unknown,Unknown
+466.9674,dUTP,C00460,Deoxyuridine triphosphate,Deoxyuridine triphosphate,Nucleotides / nucleosides,Nucleotides / nucleosides
+481.9773,CTP,C00063,Cytidine triphosphate,Cytidine triphosphate,Nucleotides / nucleosides,Nucleotides / nucleosides
+482.9616,UTP,C00075,Uridine triphosphate,Uridine triphosphate,Nucleotides / nucleosides,Nucleotides / nucleosides
+503.1623,Gal alpha 1->6Gal alpha 1->6Glucose,C01835;C05404,Gal alpha 1->6Gal alpha 1->6Glucose / Maltotriose,Maltotriose,Organic oxygen compounds,Organic oxygen compounds
+505.9887,ATP,C00002;C00286,Adenosine triphosphate / ATP,Adenosine triphosphate,Nucleotides / nucleosides;Organic oxygen compounds,Mixed
+521.9834,GTP,C00044;C19967,8-oxo-dGTP / Guanosine triphosphate,8-oxo-dGTP / Guanosine triphosphate,Nucleotides / nucleosides,Nucleotides / nucleosides
+547.0754,dTDP-6-deoxy-beta-L-talose,C03319,Deoxythymidine diphosphate-rhamnose,Deoxythymidine diphosphate-rhamnose,Organic oxygen compounds,Organic oxygen compounds
+563.0683,dTDP-hexose,C00842;C02097,dTDP-Galactose / dTDP-Glucose,dTDP-Galactose / dTDP-Glucose,Organic oxygen compounds,Organic oxygen compounds
+565.0479,UDP-hexose,C00029;C00052;C03733,"UDP-Galacto-1,4-furanose / UDP-Glucose / Uridine diphosphategalactose","UDP-Galacto-1,4-furanose / UDP-Glucose / Uridine diphosphategalactose",Nucleotides / nucleosides;Other,Mixed
+578.8873,"1D-myo-Inositol 1,3,4,5,6-pentakisphosphate",C04563;C04579,"1D-myo-Inositol 1,3,4,5,6-pentakisphosphate / Inositol 1,2,3,5,6-pentakisphosphate / Myo-inositol 1,2,4,5,6-pentakisphosphate","Inositol 1,2,3,5,6-pentakisphosphate / Myo-inositol 1,2,4,5,6-pentakisphosphate",Unknown,Unknown
+611.1447,Glutathione disulfide,C00127,Glutathione disulfide,,Amino acids,Amino acids
+665.2152,Glycogen,C00182;C02052,Glycogen / Maltotetraose,Maltotetraose,Organic oxygen compounds,Organic oxygen compounds
+707.097,Linear dimeric GMP,C18076,Linear dimeric GMP,,Unknown,Unknown
+784.1499,FAD (ox),C00016,FAD (ox),,Nucleotides / nucleosides,Nucleotides / nucleosides
+864.1454,2-Methylacetoacetyl-CoA,C03344,2-Methylacetoacetyl-CoA,,Lipid-like molecules,Lipid-like molecules
+866.1233,Succinyl-CoA,C00091;C00683;C01213,(R)-Methylmalonyl-CoA / (S)-Methylmalonyl-CoA / Succinyl-CoA,(R)-Methylmalonyl-CoA / (S)-Methylmalonyl-CoA,Lipid-like molecules,Lipid-like molecules
+57.0342,Propanal,C00479,Propanal,,Organic oxygen compounds,Organic oxygen compounds
+58.0295,Aminoacetaldehyde,C06735,Aminoacetaldehyde,,Organic nitrogen compounds,Other
+71.0137,Pyruvaldehyde,C00546,Pyruvaldehyde,,Organic oxygen compounds,Organic oxygen compounds
+73.0293,C3:0 (Propionic acid),C00163;C00424;C00937;C05999,(S)-Lactaldehyde / Lactaldehyde / C3:0 (Propionic acid),(S)-Lactaldehyde / Lactaldehyde,Organic oxygen compounds;Carboxylic acids,Mixed
+74.0247,Glycine,C00037,Glycine,,Amino acids,Amino acids
+75.0087,Glycolate,C00160,Glycolate,,Unknown,Unknown
+85.0295,Diacetyl,C00741,Diacetyl,,Unknown,Unknown
+87.0451,C4:0 (Butyric acid),C00246;C00466,Acetoin / C4:0 (Butyric acid),Acetoin,Lipid-like molecules,Lipid-like molecules
+88.0403,Alanine,C00041;C00099;C00133;C00213,Alanine / Sarcosine / beta-Alanine,Sarcosine / beta-Alanine,Amino acids,Amino acids
+88.9883,Oxalic acid,C00209,Oxalic acid,,Carboxylic acids,Carboxylic acids
+89.0244,Lactate,C00184;C00186;C00256;C00577;C01013;C02426,3-Hydroxypropanoate / Dihydroxyacetone / Glyceraldehyde / Lactate,3-Hydroxypropanoate / Dihydroxyacetone / Glyceraldehyde,Organic oxygen compounds;Keto / hydroxy acids,Mixed
+93.0338,Phenol,C15584,Phenol,,Unknown,Unknown
+94.9761,Methanesulfonic acid,C11145,Methanesulfonic acid,,Other organic acids,Other
+94.9806,Methanesulfonic acid,C11145,Methanesulfonic acid,,Other organic acids,Other
+101.0242,Oxobutanoic acid,C00109;C00164;C00232;C00349;C06002,Oxobutanoic acid / 2-Ketobutyric acid / 2-Methyl-3-oxopropanoate / Acetoacetic acid / Succinic acid semialdehyde,2-Ketobutyric acid / 2-Methyl-3-oxopropanoate / Acetoacetic acid / Succinic acid semialdehyde,Lipid-like molecules;Organic oxygen compounds;Keto / hydroxy acids,Mixed
+101.0607,Pentanoic acid,C08262,Pentanoic acid,,Unknown,Unknown
+102.056,Aminobutanoic acid (ABA),C00334;C01026;C03284;C03665,"Aminobutanoic acid (ABA) / 2-Aminoisobutyric acid / N,N-Dimethylglycine / gamma-Aminobutyric acid","2-Aminoisobutyric acid / N,N-Dimethylglycine / gamma-Aminobutyric acid",Amino acids,Amino acids
+103.0402,Hydroxybutanoic acid,C00989;C01089;C01188;C01991,Hydroxybutanoic acid / 3-Hydroxyisobutyric acid / 4-Hydroxybutanoic acid / gamma-Hydroxybutyrate,3-Hydroxyisobutyric acid / 4-Hydroxybutanoic acid / gamma-Hydroxybutyrate,Lipid-like molecules,Lipid-like molecules
+103.0509,"2,3-Diaminopropanoate",C06393,"2,3-Diaminopropanoate",,Unknown,Unknown
+104.0352,Serine,C00065;C00740,Serine,,Amino acids,Amino acids
+105.0193,D-Glyceric acid,C00258,D-Glyceric acid,,Organic oxygen compounds,Organic oxygen compounds
+107.0503,Benzyl alcohol,C00556;C01468,Benzyl alcohol / p-Cresol,p-Cresol,Benzenoids,Other
+110.9758,Monomethyl sulfate,C02704,Monomethyl sulfate,,Unknown,Unknown
+111.02,Uracil,C00106,Uracil,,Organoheterocyclic compounds,Organoheterocyclic compounds
+113.0244,"2-Hydroxy-2,4-pentadienoic acid",C00596;C07091,"2-Hydroxy-2,4-pentadienoic acid / cis-Acetylacrylate",cis-Acetylacrylate,Lipid-like molecules,Lipid-like molecules
+113.0357,Dihydrouracil,C00429;C02512,3-Cyano-alanine / Dihydrouracil,3-Cyano-alanine,Amino acids;Organoheterocyclic compounds,Mixed
+115.0037,Fumarate,C00122,Fumarate,,Carboxylic acids,Carboxylic acids
+115.0764,Hexanoate (N-C6:0),C01585,Hexanoate (N-C6:0),,Lipid-like molecules,Lipid-like molecules
+116.0354,Aspartate semialdehyde,C00441;C03508;C20250,(Z)-2-Methyl-peroxyaminoacrylate / 2-Amino-3-oxobutanoic acid / Aspartate semialdehyde,(Z)-2-Methyl-peroxyaminoacrylate / 2-Amino-3-oxobutanoic acid,Amino acids,Amino acids
+116.0717,Valine,C00183;C00719,Betaine / Valine,Betaine,Amino acids,Amino acids
+118.0508,Threonine,C00188;C00263;C00820;C05519,Allothreonine / Homoserine / Threonine,Allothreonine / Homoserine,Amino acids,Amino acids
+118.9804,Mercaptopyruvic acid,C00957,Mercaptopyruvic acid,,Keto / hydroxy acids,Keto / hydroxy acids
+119.0009,Hydroxymalonic acid,C02287,Hydroxymalonic acid,,Unknown,Unknown
+122.0248,Nicotinate,C00253,Nicotinate,,Organoheterocyclic compounds,Organoheterocyclic compounds
+124.0075,Taurine,C00245,Taurine,,Other organic acids,Other
+125.0439,5-Amino-4-imidazolecarboxyamide,C04051,5-Amino-4-imidazolecarboxyamide,,Carboxylic acids,Carboxylic acids
+127.0401,"2-Hydroxy-cis-hex-2,4-dienoate",C11354,"2-Hydroxy-cis-hex-2,4-dienoate",,Unknown,Unknown
+128.0354,Pyrrolidonecarboxylic acid,C02237;C04281,Pyrrolidonecarboxylic acid / Pyrroline hydroxycarboxylic acid,Pyrroline hydroxycarboxylic acid,Amino acids,Amino acids
+128.0711,Pipecolate,C00408,Pipecolate,,Unknown,Unknown
+129.0193,Itaconate,C00490;C02226,Citraconic acid / Itaconate,Citraconic acid,Lipid-like molecules,Lipid-like molecules
+129.0556,4-Methyl-2-oxopentanoate,C00233;C00671;C03465,2-Keto-3-methyl-valerate / 4-Methyl-2-oxopentanoate / Ketoleucine,2-Keto-3-methyl-valerate / Ketoleucine,Keto / hydroxy acids,Keto / hydroxy acids
+130.0142,Iminoaspartic acid,C05840,Iminoaspartic acid,,Carboxylic acids,Carboxylic acids
+130.0509,5-Aminolevulinic acid,C00430;C01157;C01165;C03741,(S)-4-Amino-5-oxopentanoate / 5-Aminolevulinic acid / Glutamic-gamma-semialdehyde / Hydroxyproline,(S)-4-Amino-5-oxopentanoate / Glutamic-gamma-semialdehyde / Hydroxyproline,Amino acids,Amino acids
+130.0874,(Iso)Leucine,C00123;C00407,Isoleucine / (Iso)Leucine,Isoleucine,Amino acids,Amino acids
+131.0008,Oxaloacetic acid,C00036,Oxaloacetic acid,,Keto / hydroxy acids,Keto / hydroxy acids
+131.0123,Oxaluric acid,C00802,Oxaluric acid,,Carboxylic acids,Carboxylic acids
+131.0462,Asparagine,C00152;C02642,Asparagine / Ureidopropionic acid,Ureidopropionic acid,Amino acids;Other organic acids,Mixed
+132.0302,Aspartate,C00049,Aspartate,,Amino acids,Amino acids
+133.0142,Malate,C00149;C00497,Malate / Malic acid,Malic acid,Keto / hydroxy acids,Keto / hydroxy acids
+133.0257,(-)-Ureidoglycolate,C00603,(-)-Ureidoglycolate,,Amino acids,Amino acids
+133.0505,Deoxyribose,C01801;C04039;C04272;C06257,"(R)-2,3-Dihydroxy-isovalerate / 1-Deoxy-xylulose / 2,3-Dihydroxyisovaleric acid / Deoxyribose","(R)-2,3-Dihydroxy-isovalerate / 1-Deoxy-xylulose / 2,3-Dihydroxyisovaleric acid",Lipid-like molecules;Organic oxygen compounds,Mixed
+134.0472,4-Hydroxy-threonine,C06056,4-Hydroxy-threonine,,Unknown,Unknown
+135.0302,Hypoxanthine,C00262,Hypoxanthine,,Organoheterocyclic compounds,Organoheterocyclic compounds
+135.0453,Phenyl acetate,C03765;C07086,Phenyl acetate / Benzeneacetic acid,Benzeneacetic acid,Benzenoids,Other
+136.0767,Tyramine,C00483,Tyramine,,Benzenoids,Other
+137.0239,4-Hydroxybenzoate,C00156;C00805,4-Hydroxybenzoate / Salicylic acid,Salicylic acid,Benzenoids,Other
+137.0357,Urocanate,C00785,Urocanate,,Unknown,Unknown
+138.9789,Acetyl-P,C00227;C05682,Acetyl-P / Phosphonoacetate,Phosphonoacetate,Other organic acids,Other
+139.0014,cis-4-Carboxymethylenebut-2-en-4-olide,C04431;C12838,cis-4-Carboxymethylenebut-2-en-4-olide / Trans-4-Carboxymethylenebut-2-en-4-olide,Trans-4-Carboxymethylenebut-2-en-4-olide,Organoheterocyclic compounds,Organoheterocyclic compounds
+139.0067,cis-4-Carboxymethylenebut-2-en-4-olide,C04431;C12838,cis-4-Carboxymethylenebut-2-en-4-olide / Trans-4-Carboxymethylenebut-2-en-4-olide,Trans-4-Carboxymethylenebut-2-en-4-olide,Organoheterocyclic compounds,Organoheterocyclic compounds
+141.0676,Ectoine,C06231,Ectoine,,Unknown,Unknown
+143.1077,Octanoic acid,C06423,Octanoic acid,,Lipid-like molecules,Lipid-like molecules
+145.0141,Oxoglutarate,C00026,Oxoglutarate / alpha-Ketoglutarate,alpha-Ketoglutarate,Keto / hydroxy acids,Keto / hydroxy acids
+145.0506,2-Aceto-2-hydroxybutanoate,C00966;C06006;C06762;C14463;C16272,(R)-3-Hydroxy-3-methyl-2-oxopentanoate / 2-Aceto-2-hydroxybutanoate / 2-Dehydropantoate / 3-Hydroxy-5-oxohexanoate / 4-Hydroxy-2-oxohexanoic acid,(R)-3-Hydroxy-3-methyl-2-oxopentanoate / 2-Dehydropantoate / 3-Hydroxy-5-oxohexanoate / 4-Hydroxy-2-oxohexanoic acid,Keto / hydroxy acids,Keto / hydroxy acids
+145.0623,Glutamine,C00064;C00819;C05100,Glutamine / Ureidoisobutyric acid,Ureidoisobutyric acid,Amino acids,Amino acids
+145.0982,Lysine,C00047,Lysine,,Amino acids,Amino acids
+145.1106,gamma-Butyrobetaine,C01181,gamma-Butyrobetaine,,Lipid-like molecules,Lipid-like molecules
+146.0459,Glutamate,C00025;C00217;C00979,Glutamate / Glutamic acid / O-Acetylserine,Glutamic acid / O-Acetylserine,Amino acids,Amino acids
+147.0298,Hydroxyglutarate,C02630;C03196;C06032,Hydroxyglutarate / Erythro-3-Methylmalate,Erythro-3-Methylmalate,Lipid-like molecules,Lipid-like molecules
+147.0662,"(R) 2,3-Dihydroxy-3-methylvalerate",C00522;C06007,"(R) 2,3-Dihydroxy-3-methylvalerate / (R)-Pantoate",(R)-Pantoate,Lipid-like molecules,Lipid-like molecules
+149.0092,Tartaric acid,C00552;C00898,Tartaric acid / Tartaric acid,,Keto / hydroxy acids,Keto / hydroxy acids
+149.0456,Pentose,C00121;C00181;C00216;C00259;C00309;C00310;C00312;C00476;C00508;C01508;C08353;C16639,Pentose / Lyxose / Ribose / Ribulose / Threo-2-pentulose / Xylose / Xylulose / beta-Ribopyranose / beta-ribofuranose,Lyxose / Ribose / Ribulose / Threo-2-pentulose / Xylose / Xylulose / beta-Ribopyranose / beta-ribofuranose,Organoheterocyclic compounds;Organic oxygen compounds,Mixed
+149.0608,Hydrocinnamic acid,C05629,Hydrocinnamic acid,,Phenylpropanoids and polyketides,Other
+150.0422,Guanine,C00242,Guanine,,Organoheterocyclic compounds,Organoheterocyclic compounds
+150.9707,3-Sulfinylpyruvate,C05527,3-Sulfinylpyruvate,,Keto / hydroxy acids,Keto / hydroxy acids
+151.0259,Xanthine,C00385,Xanthine,,Organoheterocyclic compounds,Organoheterocyclic compounds
+151.04,4-Hydroxyphenylacetate,C04043,4-Hydroxyphenylacetate,,Benzenoids,Other
+151.06,Xylitol,C00474;C00532,Xylitol / Ribitol,Ribitol,Unknown,Unknown
+152.0353,3-Hydroxyanthranilate,C00632,3-Hydroxyanthranilate,,Benzenoids,Other
+153.0192,2-Pyrocatechuic acid,C00196,2-Pyrocatechuic acid,,Benzenoids,Other
+154.062,Histidine,C00135,Histidine,,Amino acids,Amino acids
+155.0099,Orotate,C00295,Orotate,,Organoheterocyclic compounds,Organoheterocyclic compounds
+157.0128,2-Maleylacetate,C02222,2-Maleylacetate,,Keto / hydroxy acids,Keto / hydroxy acids
+157.0255,Dihydroorotate,C00337,Dihydroorotate,,Amino acids,Amino acids
+157.0379,Allantoin,C01551;C02350,Allantoin / Allantoin,,Organoheterocyclic compounds,Organoheterocyclic compounds
+159.0297,Oxoadipate,C00322,Oxoadipate,,Keto / hydroxy acids,Keto / hydroxy acids
+159.0775,Alanyl-alanine,C00993,Alanyl-alanine,,Amino acids,Amino acids
+161.0453,2-Dehydro-3-deoxy-rhamnonate,C02488;C03979,2-Dehydro-3-deoxy-rhamnonate / 2-Ethylmalate,2-Ethylmalate,Unknown,Unknown
+162.0424,Pterin,C00715,Pterin,,Unknown,Unknown
+163.0351,3-Hydroxycinnamic acid,C00166;C12621,3-Hydroxycinnamic acid / Phenylpyruvic acid,Phenylpyruvic acid,Phenylpropanoids and polyketides;Benzenoids,Other
+163.0398,3-Hydroxycinnamic acid,C00166;C12621,3-Hydroxycinnamic acid / Phenylpyruvic acid,Phenylpyruvic acid,Phenylpropanoids and polyketides;Benzenoids,Other
+163.0611,2-Deoxyglucose,C00507;C00586;C00861;C01019;C01721;C02338;C02476;C20835;C20836,2-Deoxyglucose / Fucose / Fuculose / Rhamnose / Rhamnulose / alpha-Fucopyranose / alpha-Fucose / alpha-Rhamnose / beta-Fucopyranose / beta-Rhamnose,Fucose / Fuculose / Rhamnose / Rhamnulose / alpha-Fucopyranose / alpha-Fucose / alpha-Rhamnose / beta-Fucopyranose / beta-Rhamnose,Lipid-like molecules;Organic oxygen compounds,Mixed
+164.0716,Phenylalanine,C00079;C02265,Phenylalanine,,Amino acids,Amino acids
+165.0556,3-(2-Hydroxyphenyl)propanoate,C05607;C11457,3-(2-Hydroxyphenyl)propanoate / 3-(3-Hydroxyphenyl)propionate / Phenyllactic acid,3-(3-Hydroxyphenyl)propionate / Phenyllactic acid,Phenylpropanoids and polyketides,Other
+166.0508,Pyridoxal,C00250,Pyridoxal,,Organoheterocyclic compounds,Organoheterocyclic compounds
+166.9759,Phosphoenolpyruvate,C00074,Phosphoenolpyruvate,,Other organic acids,Other
+167.0207,Urate,C00366,Urate,,Organoheterocyclic compounds,Organoheterocyclic compounds
+167.0828,Pyridoxamine,C00534,Pyridoxamine,,Organoheterocyclic compounds,Organoheterocyclic compounds
+168.0277,"L-2,3-Dihydrodipicolinate",C03340,"L-2,3-Dihydrodipicolinate",,Amino acids,Amino acids
+168.0664,Pyridoxine,C00314,Pyridoxine,,Organoheterocyclic compounds,Organoheterocyclic compounds
+170.0455,"2,3,4,5-Tetrahydrodipicolinate",C03972,"2,3,4,5-Tetrahydrodipicolinate",,Amino acids,Amino acids
+171.0065,sn-Glycerol 3-phosphate,C00093;C00623;C02979;C03189,Glycerol 2-phosphate / sn-Glycerol 3-phosphate / Sn-Glycerol-1-phosphate / glycerol-3-phosphate,Glycerol 2-phosphate / Sn-Glycerol-1-phosphate / glycerol-3-phosphate,Lipid-like molecules,Lipid-like molecules
+171.0092,sn-Glycerol 3-phosphate,C00093;C00623;C02979;C03189,Glycerol 2-phosphate / sn-Glycerol 3-phosphate / Sn-Glycerol-1-phosphate / glycerol-3-phosphate,Glycerol 2-phosphate / Sn-Glycerol-1-phosphate / glycerol-3-phosphate,Lipid-like molecules,Lipid-like molecules
+171.0284,3-Dehydroshikimate,C02637,3-Dehydroshikimate,,Organic oxygen compounds,Organic oxygen compounds
+171.1388,Decanoic acid (FA10:0),C01571,Decanoic acid (FA10:0),,Unknown,Unknown
+172.0616,Acetyl-Glu-semialdehyde,C01250,Acetyl-Glu-semialdehyde,,Amino acids,Amino acids
+172.962,"cis-2-Chloro-4-carboxymethylenebut-2-en-1,4-olide",C04706,"cis-2-Chloro-4-carboxymethylenebut-2-en-1,4-olide",,Organoheterocyclic compounds,Organoheterocyclic compounds
+172.9909,Phenol sulfate,C00850,Phenol sulfate,,Unknown,Unknown
+173.0089,Aconitate,C00417;C02341,Aconitate / trans-Aconitic acid,trans-Aconitic acid,Carboxylic acids,Carboxylic acids
+173.0453,Shikimate,C00493;C04236,2-Isopropyl-3-oxosuccinate / Shikimate,2-Isopropyl-3-oxosuccinate,Organic oxygen compounds;Keto / hydroxy acids,Mixed
+173.0579,Menadiol,C07126,Menadiol,,Unknown,Unknown
+174.0407,Acetyl-Asp,C01042;C15996,7-Cyano-7-carbaguanine / Acetyl-Asp,7-Cyano-7-carbaguanine,Organoheterocyclic compounds,Organoheterocyclic compounds
+175.022,Hexuronic acid,C00072;C04053;C04349,"(4S)-4,6-Dihydroxy-2,5-dioxohexanoate / 5-Dehydro-4-deoxy-glucuronate / Hexuronic acid","(4S)-4,6-Dihydroxy-2,5-dioxohexanoate / 5-Dehydro-4-deoxy-glucuronate",Organoheterocyclic compounds;Keto / hydroxy acids,Mixed
+175.0361,Ureidosuccinic acid,C00438,Ureidosuccinic acid,,Amino acids,Amino acids
+175.0611,3-Propylmalate,C02504;C04411,2-Isopropylmalic acid / 3-Carboxy-3-hydroxy-isocaproate / 3-Propylmalate,2-Isopropylmalic acid / 3-Carboxy-3-hydroxy-isocaproate,Lipid-like molecules;Keto / hydroxy acids,Mixed
+177.0402,Glucono-lactone,C00198;C00204;C01216;C03383;C03926,2-Dehydro-3-deoxy-galactonate / 2-Keto-3-deoxy-gluconic acid / 3-Dehydro-2-deoxy-gluconate / Galactonolactone / Glucono-lactone,2-Dehydro-3-deoxy-galactonate / 2-Keto-3-deoxy-gluconic acid / 3-Dehydro-2-deoxy-gluconate / Galactonolactone,Organic oxygen compounds;Keto / hydroxy acids,Mixed
+178.0175,S-Carboxymethyl-Cys,C03727,S-Carboxymethyl-Cys,,Unknown,Unknown
+178.0509,N-Acetylanthranilate,C06332,N-Acetylanthranilate,,Benzenoids,Other
+179.0348,3-(4-Hydroxyphenyl)pyruvate,C01179;C12623,"3-(4-Hydroxyphenyl)pyruvate / Trans-2,3-Dihydroxycinnamate","Trans-2,3-Dihydroxycinnamate",Phenylpropanoids and polyketides;Benzenoids,Other
+180.0663,Tyrosine,C00082;C06420,Tyrosine,,Amino acids,Amino acids
+181.0505,3-(4-Hydroxyphenyl)lactate,C04044;C12622,"3-(2,3-Dihydroxyphenyl)propanoate / 3-(4-Hydroxyphenyl)lactate / cis-3-(3-Carboxyethenyl)-3,5-cyclohexadiene-1,2-diol","3-(2,3-Dihydroxyphenyl)propanoate / cis-3-(3-Carboxyethenyl)-3,5-cyclohexadiene-1,2-diol",Unknown,Unknown
+182.9725,3-Phosphonooxypyruvate,C03232,3-Phosphonooxypyruvate,,Organic oxygen compounds,Organic oxygen compounds
+183.0661,"Cis-3-(3-carboxyethyl)-3,5-cyclohexadiene-1,2-diol",C11588,"Cis-3-(3-carboxyethyl)-3,5-cyclohexadiene-1,2-diol / cis-3-(Carboxy-ethyl)-3,5-cyclo-hexadiene-1,2-diol","cis-3-(Carboxy-ethyl)-3,5-cyclo-hexadiene-1,2-diol",Unknown,Unknown
+184.9856,Phosphoglycerate,C00197;C00597;C00631,2-Phospho-glyceric acid / 3-Phospho-glycerate / Phosphoglycerate,2-Phospho-glyceric acid / 3-Phospho-glycerate,Organic oxygen compounds,Organic oxygen compounds
+185.0057,2-Carboxymuconate,C03666,2-Carboxymuconate,,Unknown,Unknown
+186.1136,8-Amino-7-oxononanoate,C01092,8-Amino-7-oxononanoate,,Lipid-like molecules,Lipid-like molecules
+187.0234,(E)-3-(Methoxycarbonyl)pent-2-enedioate,C04225;C11514,(E)-3-(Methoxycarbonyl)pent-2-enedioate / Cis-2-Methylaconitate / E-3-Carboxy-2-pentenedioate 6-methyl ester,Cis-2-Methylaconitate / E-3-Carboxy-2-pentenedioate 6-methyl ester,Carboxylic acids,Carboxylic acids
+187.0976,Azelaic acid,C08261,Azelaic acid,,Unknown,Unknown
+188.035,"1-Nitronaphthalene-5,6-oxide",C14800;C14802,"1-Nitronaphthalene-5,6-oxide / 1-Nitronaphthalene-7,8-oxide","1-Nitronaphthalene-7,8-oxide",Benzenoids,Other
+188.0565,Acetyl-Glu,C00624,Acetyl-Glu,,Amino acids,Amino acids
+189.0405,3-Dehydroquinate,C00944,3-Dehydroquinate,,Keto / hydroxy acids,Keto / hydroxy acids
+190.0558,Acetyl-Met,C02712,Acetyl-Met,,Unknown,Unknown
+191.0197,(Iso)Citrate,C00158;C00311;C00679;C02780;C03921;C04575,"2,3-Diketo-gulonate / 2,5-Diketo-gluconate / 2-Dehydro-3-deoxy-glucarate / 5-Dehydro-4-deoxy-glucarate / Citric acid / (Iso)Citrate","2,3-Diketo-gulonate / 2,5-Diketo-gluconate / 2-Dehydro-3-deoxy-glucarate / 5-Dehydro-4-deoxy-glucarate / Citric acid",Keto / hydroxy acids;Carboxylic acids,Mixed
+192.0663,3-Carbamoyl-2-phenylpropionaldehyde,C16587;C16595,"3-Carbamoyl-2-phenylpropionaldehyde / 4-Hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one","4-Hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one",Benzenoids,Other
+193.0349,Hexuronate,C00191;C00333;C00558;C00618;C00905;C01062;C06473;C20248,2-Dehydro-gluconate / 3-Dehydro-gulonate / 5-Keto-gluconate / 7-Carboxy-7-carbaguanine / Hexuronate / Galacturonate / Glucuronic acid / Tagaturonate,2-Dehydro-gluconate / 3-Dehydro-gulonate / 5-Keto-gluconate / 7-Carboxy-7-carbaguanine / Galacturonate / Glucuronic acid / Tagaturonate,Organic oxygen compounds;Keto / hydroxy acids,Mixed
+194.0682,"2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine",C01300,"2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine / 6-Hydroxymethyl dihydropterin",6-Hydroxymethyl dihydropterin,Organoheterocyclic compounds,Organoheterocyclic compounds
+194.0822,"2-Phenyl-1,3-propanediol monocarbamate",C16586,"2-Phenyl-1,3-propanediol monocarbamate",,Benzenoids,Other
+195.0509,Hexonic acid,C00257;C00514;C00770;C00800;C00817;C00880;C15930,"Altronate / Galactonate / 1,7-Dimethyluric acid / Gluconic acid / Gulonate / Idonate / Mannonate","Altronate / Galactonate / 1,7-Dimethyluric acid / Gluconic acid / Gulonate / Idonate / Mannonate",Keto / hydroxy acids,Keto / hydroxy acids
+196.0603,Dihydroxy-Phe,C00355,Dihydroxy-Phe,,Amino acids,Amino acids
+198.0182,P-homoserine,C01102;C12147,P-homoserine / Threonine O-3-phosphate,Threonine O-3-phosphate,Amino acids,Amino acids
+199.0019,D-Erythrose 4-phosphate,C00279,D-Erythrose 4-phosphate,,Other organic acids,Other
+199.1701,Dodecanoic acid (FA12:0),C02679,Dodecanoic acid (FA12:0),,Unknown,Unknown
+200.9937,Benzoyl phosphate,C06206,Benzoyl phosphate,,Benzenoids,Other
+203.0826,Tryptophan,C00078,Tryptophan,,Amino acids,Amino acids
+204.0498,Lipoamide,C00248,Lipoamide,,Organoheterocyclic compounds,Organoheterocyclic compounds
+205.0351,"(R)-2-Hydroxybutane-1,2,4-tricarboxylate",C00725;C02225;C04593;C16241,"(R)-2-Hydroxybutane-1,2,4-tricarboxylate / Lipoate / Methylcitric acid / Methylisocitric acid / lipoate",Lipoate / Methylcitric acid / Methylisocitric acid / lipoate,Organoheterocyclic compounds;Carboxylic acids,Mixed
+209.0292,D-Glucarate,C00818;C00879,Galactaric acid / D-Glucarate,Galactaric acid,Organic oxygen compounds,Organic oxygen compounds
+211.0235,2-Hydroxy-6-ketononatrienedioate,C12624,2-Hydroxy-6-ketononatrienedioate,,Unknown,Unknown
+211.9968,2-Amino-3-oxo-4-phosphonooxybutyrate,C03082;C07335,2-Amino-3-oxo-4-phosphonooxybutyrate / Aspartyl-4-phosphate,Aspartyl-4-phosphate,Amino acids,Amino acids
+212.9807,2-Oxo-3-hydroxy-4-phosphobutanoate,C06054,2-Oxo-3-hydroxy-4-phosphobutanoate,,Keto / hydroxy acids,Keto / hydroxy acids
+213.014,2-Deoxy-D-ribose 1-phosphate,C00672;C00673;C11437,1-Deoxy-xylulose 5-phosphate / 2-Deoxy-D-ribose 1-phosphate / Deoxyribose 5-phosphate,1-Deoxy-xylulose 5-phosphate / Deoxyribose 5-phosphate,Other organic acids;Organic oxygen compounds,Mixed
+213.0384,2-Hydroxy-6-ketononadienedicarboxylate,C04479,2-Hydroxy-6-ketononadienedicarboxylate,,Unknown,Unknown
+213.1252,Dethiobiotin,C01909,Dethiobiotin,,Lipid-like molecules,Lipid-like molecules
+214.0488,sn-Glycero-3-phosphoethanolamine,C01233,sn-Glycero-3-phosphoethanolamine,,Lipid-like molecules,Lipid-like molecules
+215.0331,2-C-Methyl-D-erythritol 4-phosphate,C11434,2-C-Methyl-D-erythritol 4-phosphate,,Other organic acids,Other
+216.1351,gamma-Glutamyl-putrescine,C15699,gamma-Glutamyl-putrescine,,Amino acids,Amino acids
+218.0335,4-Amino-2-methyl-5-phosphomethylpyrimidine,C04556,4-Amino-2-methyl-5-phosphomethylpyrimidine / 4-amino-5-phosphonooxymethyl-2-methylpyrimidine,4-amino-5-phosphonooxymethyl-2-methylpyrimidine,Other organic acids,Other
+218.1034,Pantothenate,C00864,Pantothenate,,Amino acids,Amino acids
+220.0828,N-Acetyl-D-glucosamine,C00140;C00645;C05021,N-Acetyl-b-galactosamine / N-Acetyl-D-glucosamine / N-Acetylglucosamine / N-Acetylmannosamine,N-Acetyl-b-galactosamine / N-Acetylglucosamine / N-Acetylmannosamine,Organic oxygen compounds,Organic oxygen compounds
+221.0443,2-Succinylbenzoate,C02730,2-Succinylbenzoate,,Organic oxygen compounds,Organic oxygen compounds
+221.0664,6-Acetyl-D-glucose,C02655,6-Acetyl-D-glucose,,Unknown,Unknown
+225.0399,Chorismate,C00251;C00254;C00885,Chorismate / Isochorismate / Prephenate,Isochorismate / Prephenate,Keto / hydroxy acids;Carboxylic acids,Mixed
+225.0861,Porphobilinogen,C00931,Porphobilinogen,,Carboxylic acids,Carboxylic acids
+225.0901,Porphobilinogen,C00931,Porphobilinogen,,Carboxylic acids,Carboxylic acids
+226.0135,L-Glutamyl 5-phosphate,C03287,L-Glutamyl 5-phosphate,,Amino acids,Amino acids
+228.0501,"4-(L-Alanin-3-yl)-2-hydroxy-cis,cis-muconate 6-semialdehyde",C04796,"4-(L-Alanin-3-yl)-2-hydroxy-cis,cis-muconate 6-semialdehyde",,Unknown,Unknown
+229.0122,Arabinose 5-phosphate,C00117;C00199;C00231;C00620;C01101;C01112;C03291,Arabinose 5-phosphate / Ribose-1-phosphate / Ribose-5-phosphate / Ribulose 5-phosphate / Xylulose 5-phosphate,Ribose-1-phosphate / Ribose-5-phosphate / Ribulose 5-phosphate / Xylulose 5-phosphate,Other organic acids;Organic oxygen compounds,Mixed
+237.0614,3-Deoxy-D-manno-octulosonate,C01187,3-Deoxy-D-manno-octulosonate,,Keto / hydroxy acids,Keto / hydroxy acids
+240.0515,"N-(2,3-Dihydroxybenzoyl)-L-serine",C04204,"N-(2,3-Dihydroxybenzoyl)-L-serine",,Unknown,Unknown
+241.0844,Thymidine,C00214,Thymidine,,Nucleotides / nucleosides,Nucleotides / nucleosides
+242.0804,Cytidine,C00475;C05711,Cytidine / gamma-Glutamyl-beta-cyanoalanine,gamma-Glutamyl-beta-cyanoalanine,Amino acids;Nucleotides / nucleosides,Mixed
+243.029,L-Fuculose 1-phosphate,C01099;C01131;C06369,2-Deoxy-glucose 6-phosphate / L-Fuculose 1-phosphate / Rhamnulose 1-phosphate,2-Deoxy-glucose 6-phosphate / Rhamnulose 1-phosphate,Unknown,Unknown
+243.0625,Uridine,C00299;C02067,Pseudouridine / Uridine,Pseudouridine,Nucleotides / nucleosides;Organoheterocyclic compounds,Mixed
+245.0444,Glycerophosphoglycerol,C03274,Glycerophosphoglycerol,,Unknown,Unknown
+246.0198,Pyridoxal phosphate,C00018,Pyridoxal phosphate,,Organoheterocyclic compounds,Organoheterocyclic compounds
+246.064,N-Succinyl-L-glutamate,C05931,N-Succinyl-L-glutamate,,Unknown,Unknown
+248.08,S-Acetyldihydrolipoamide,C01136,S-Acetyldihydrolipoamide,,Unknown,Unknown
+251.0816,Deoxyinosine,C05512;C15586,Deoxyinosine / Purine nucleoside,Purine nucleoside,Nucleotides / nucleosides,Nucleotides / nucleosides
+253.0499,5-L-Glutamyl-taurine,C05844,5-L-Glutamyl-taurine,,Amino acids,Amino acids
+253.2173,(9Z)-Hexadecenoic acid,C08362,(9Z)-Hexadecenoic acid,,Unknown,Unknown
+257.0072,"D-Glucono-1,5-lactone 6-phosphate",C01236;C01286;C04442,"D-Glucono-1,5-lactone 6-phosphate / 2-Dehydro-3-deoxy-galactonate-6-phosphate / 2-Keto-3-deoxy-6-phosphogluconic acid / 6-Phosphonoglucono-lactone",2-Dehydro-3-deoxy-galactonate-6-phosphate / 2-Keto-3-deoxy-6-phosphogluconic acid / 6-Phosphonoglucono-lactone,Organic oxygen compounds;Keto / hydroxy acids,Mixed
+257.1028,sn-Glycero-3-phosphocholine,C00670,sn-Glycero-3-phosphocholine,,Lipid-like molecules,Lipid-like molecules
+259.0227,Allose 6-phosphate,C00085;C00092;C00103;C00275;C00446;C00636;C00663;C00668;C01094;C01097;C01172;C01177;C02962;C03267;C03546;C04006;C05345;C06312,Allose 6-phosphate / Alpha-glucose 6-phosphate / Fructose 1-phosphate / Fructose 6-phosphate / Galactose 1-phosphate / Glucose 1-phosphate / Glucose 6-phosphate / Mannose 1-phosphate / Mannose 6-phosphate / Myo-inositol (1)-monophosphate / Myo-inositol 1-phosphate / Myo-inositol 4-phosphate / Tagatose 6-phosphate / Tagatose-6-phosphate / beta-Fructose 2-phosphate / beta-Fructose 6-phosphate / beta-Glucose 1-phosphate / beta-Glucose 6-phosphate,Alpha-glucose 6-phosphate / Fructose 1-phosphate / Fructose 6-phosphate / Galactose 1-phosphate / Glucose 1-phosphate / Glucose 6-phosphate / Mannose 1-phosphate / Mannose 6-phosphate / Myo-inositol (1)-monophosphate / Myo-inositol 1-phosphate / Myo-inositol 4-phosphate / Tagatose 6-phosphate / Tagatose-6-phosphate / beta-Fructose 2-phosphate / beta-Fructose 6-phosphate / beta-Glucose 1-phosphate / beta-Glucose 6-phosphate,Lipid-like molecules;Other organic acids;Organic oxygen compounds,Mixed
+261.0385,D-Mannitol 1-phosphate,C00644;C01096;C02810;C06311,D-Mannitol 1-phosphate / Mannitol 1-phosphate / Sorbitol 6-phosphate / Sorbitol-6-phosphate,Mannitol 1-phosphate / Sorbitol 6-phosphate / Sorbitol-6-phosphate,Other organic acids,Other
+266.0703,S-Ribosyl-L-homocysteine,C03539,S-Ribosyl-L-homocysteine,,Unknown,Unknown
+267.0724,2(alpha-D-Mannosyl)-D-glycerate,C00294;C11544,2(alpha-D-Mannosyl)-D-glycerate / Inosine,Inosine,Nucleotides / nucleosides,Nucleotides / nucleosides
+267.2328,omega-Cyclohexylundecanoic acid,C16536,omega-Cyclohexylundecanoic acid,,Unknown,Unknown
+268.02,N-Acetyl-L-glutamate 5-phosphate,C04133,N-Acetyl-5-glutamyl phosphate / N-Acetyl-L-glutamate 5-phosphate,N-Acetyl-5-glutamyl phosphate,Amino acids,Amino acids
+273.0021,3-Dehydro-gulonate 6-phosphate,C05385;C14899,3-Dehydro-gulonate 6-phosphate / Glucuronate 1-phosphate,Glucuronate 1-phosphate,Organic oxygen compounds,Organic oxygen compounds
+274.0933,"1,6-Anhydro-N-acetyl-beta-muramate",C19769,"1,6-Anhydro-N-acetyl-beta-muramate",,Organoheterocyclic compounds,Organoheterocyclic compounds
+275.0184,6-Phosphogluconate,C00345,6-Phosphogluconate,,Keto / hydroxy acids,Keto / hydroxy acids
+275.0991,5-Amino-6-(1-D-ribitylamino)uracil,C04732,5-Amino-6-ribitylamino uracil / 5-Amino-6-(1-D-ribitylamino)uracil,5-Amino-6-ribitylamino uracil,Organoheterocyclic compounds,Organoheterocyclic compounds
+277.1207,alpha-Ribazole,C00831;C05775,alpha-Ribazole / Pantetheine,Pantetheine,Amino acids;Nucleotides / nucleosides,Mixed
+277.2169,"(6Z,9Z,12Z)-Octadecatrienoic acid",C06427,"(6Z,9Z,12Z)-Octadecatrienoic acid",,Lipid-like molecules,Lipid-like molecules
+282.0839,Guanosine,C00387,Guanosine,,Nucleotides / nucleosides,Nucleotides / nucleosides
+283.2063,Retinal,C00376,Retinal,,Lipid-like molecules,Lipid-like molecules
+285.0972,Salicin,C01451,Salicin,,Benzenoids,Other
+287.0157,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate,C04691,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate,,Keto / hydroxy acids,Keto / hydroxy acids
+288.0725,N-Succinyl-2-L-amino-6-oxoheptanedioate,C04462,N-Succinyl-2-L-amino-6-oxoheptanedioate,,Amino acids,Amino acids
+289.0333,Sedoheptulose P,C05382;C07836;C07838;C19882,Glycero-manno-heptose 1-phosphate / Glycero-manno-heptose 7-phosphate / Sedoheptulose P / glycero-beta-manno-heptose 7-phosphate,Glycero-manno-heptose 1-phosphate / Glycero-manno-heptose 7-phosphate / glycero-beta-manno-heptose 7-phosphate,Organic oxygen compounds,Organic oxygen compounds
+289.1044,"N-Succinyl-LL-2,6-diaminoheptanedioate",C04421,"N-Succinyl-LL-2,6-diaminoheptanedioate",,Amino acids,Amino acids
+290.9677,"alpha-D-Ribose 1,2-cyclic phosphate 5-phosphate",C20440,"alpha-D-Ribose 1,2-cyclic phosphate 5-phosphate",,Unknown,Unknown
+294.0479,Aminoimidazole ribotide,C03373,Aminoimidazole ribotide,,Organic oxygen compounds,Organic oxygen compounds
+300.0509,Acetylglucosamine P,C00357;C04256;C04257;C04501;C06376;C18060,Glucosamine-1P / N-Acetyl-Glucosamine 6-Phosphate / N-Acetyl-galactosamine 1-phosphate / N-Acetyl-galactosamine 6-phosphate / Acetylglucosamine P / N-Acetyl-mannosamine 6-phosphate,Glucosamine-1P / N-Acetyl-Glucosamine 6-Phosphate / N-Acetyl-galactosamine 1-phosphate / N-Acetyl-galactosamine 6-phosphate / N-Acetyl-mannosamine 6-phosphate,Organic oxygen compounds,Organic oxygen compounds
+301.0333,Quercetin,C00389,Quercetin,,Phenylpropanoids and polyketides,Other
+305.0207,"2',3'-Cyclic UMP",C02355,"2',3'-Cyclic UMP",,Nucleotides / nucleosides,Nucleotides / nucleosides
+306.0481,dCMP,C00239,dCMP,,Nucleotides / nucleosides,Nucleotides / nucleosides
+306.0765,Glutathione,C00051,Glutathione,,Amino acids,Amino acids
+313.0441,5'-Phosphoribosyl-N-formylglycineamide,C04376,5'-Phosphoribosyl-N-formylglycineamide,,Nucleotides / nucleosides,Nucleotides / nucleosides
+313.1037,Dihydropteroate,C00921,Dihydropteroate,,Organoheterocyclic compounds,Organoheterocyclic compounds
+317.026,3-Deoxy-D-manno-octulosonate 8-phosphate,C04478,3-Deoxy-D-manno-octulosonate 8-phosphate,,Keto / hydroxy acids,Keto / hydroxy acids
+323.0256,UMP,C00105;C01168;C01368,3'-UMP / Pseudouridine 5'-phosphate / Uridine 5'-monophosphate,3'-UMP / Pseudouridine 5'-phosphate / Uridine 5'-monophosphate,Nucleotides / nucleosides;Organic oxygen compounds,Mixed
+325.1163,"6,7-Dimethyl-8-(D-ribityl)luma...",C04332,"6,7-Dimethyl-8-(D-ribityl)luma...",,Organoheterocyclic compounds,Organoheterocyclic compounds
+328.0457,"3',5'-Cyclic AMP",C00575;C02353,"Adenosine 2',3'-cyclic phosphate / 3',5'-Cyclic AMP","Adenosine 2',3'-cyclic phosphate",Nucleotides / nucleosides,Nucleotides / nucleosides
+333.0589,sn-Glycero-3-phospho-1-inositol,C01225,sn-Glycero-3-phospho-1-inositol,,Lipid-like molecules,Lipid-like molecules
+335.2224,5(S)-Hydroperoxyeicosatetraenoic acid,C05356,5(S)-Hydroperoxyeicosatetraenoic acid,,Unknown,Unknown
+338.9884,"Fructose 1,6-bisphosphate",C00354;C01231;C03785;C05378,"Fructose 1,6-bisphosphate / Tagatose 1,6-bisphosphate / alpha-Glucose 1,6-bisphosphate / beta-Fructose 1,6-bisphosphate","Tagatose 1,6-bisphosphate / alpha-Glucose 1,6-bisphosphate / beta-Fructose 1,6-bisphosphate",Organic oxygen compounds,Organic oxygen compounds
+344.0393,cGMP,C00942;C06194,"cGMP / Guanosine 2',3'-cyclic phosphate","Guanosine 2',3'-cyclic phosphate",Nucleotides / nucleosides,Nucleotides / nucleosides
+348.087,S-(Formylmethyl)glutathione,C14871,S-(Formylmethyl)glutathione,,Amino acids,Amino acids
+353.0489,5-Amino-6-(5'-phosphoribosylamino)uracil,C01268,5-Amino-6-(5'-phosphoribosylamino)uracil,,Unknown,Unknown
+375.131,Riboflavin,C00255,Riboflavin,,Organoheterocyclic compounds,Organoheterocyclic compounds
+377.1496,Reduced riboflavin,C01007,Reduced riboflavin,,Organoheterocyclic compounds,Organoheterocyclic compounds
+383.1188,Acetyl-maltose,C02130,Acetyl-maltose,,Unknown,Unknown
+388.9416,Phosphoribosyl pyrophosphate,C00119,Phosphoribosyl pyrophosphate,,Organic oxygen compounds,Organic oxygen compounds
+388.9442,Phosphoribosyl pyrophosphate,C00119,Phosphoribosyl pyrophosphate,,Organic oxygen compounds,Organic oxygen compounds
+391.2848,Chenodeoxycholate,C04483,Chenodeoxycholate,,Unknown,Unknown
+401.0756,(R)-4'-Phosphopantothenoyl-L-cysteine,C04352,(R)-4'-Phosphopantothenoyl-L-cysteine,,Other organic acids,Other
+407.2795,Cholate,C00695,"3-Alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholanate / Cholate","3-Alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholanate",Lipid-like molecules,Lipid-like molecules
+409.2338,1-Palmitoylglycerol 3-phosphate,C04036,1-Palmitoylglycerol 3-phosphate,,Unknown,Unknown
+421.0743,"alpha,alpha'-Trehalose 6-phosphate",C00689;C02995;C04534;C16688,"6-Phospho-beta-glucosyl-(1,4)-glucose / Cellobiose-6-phosphate / Maltose 6'-phosphate / Sucrose-6-phosphate / alpha,alpha'-Trehalose 6-phosphate / alpha,alpha-Trehalose 6-phosphate","6-Phospho-beta-glucosyl-(1,4)-glucose / Cellobiose-6-phosphate / Maltose 6'-phosphate / Sucrose-6-phosphate / alpha,alpha-Trehalose 6-phosphate",Organic oxygen compounds,Organic oxygen compounds
+426.0222,ADP,C00008;C00054;C00361,"ADP / Adenosine 3',5'-diphosphate / dGDP","Adenosine 3',5'-diphosphate / dGDP",Nucleotides / nucleosides,Nucleotides / nucleosides
+442.9997,XDP,C01337,XDP,,Unknown,Unknown
+466.9657,dUTP,C00460,Deoxyuridine triphosphate,Deoxyuridine triphosphate,Nucleotides / nucleosides,Nucleotides / nucleosides
+490.9787,dITP,C01345,2'-Deoxyinosine triphosphate,2'-Deoxyinosine triphosphate,Organic oxygen compounds,Organic oxygen compounds
+503.1614,Gal alpha 1->6Gal alpha 1->6Glucose,C01835;C05404,Gal alpha 1->6Gal alpha 1->6Glucose / Maltotriose,Maltotriose,Organic oxygen compounds,Organic oxygen compounds
+547.0731,dTDP-6-deoxy-beta-L-talose,C03319,Deoxythymidine diphosphate-rhamnose,Deoxythymidine diphosphate-rhamnose,Organic oxygen compounds,Organic oxygen compounds
+565.0471,UDP-hexose,C00029;C00052;C03733,"UDP-Galacto-1,4-furanose / UDP-Glucose / Uridine diphosphategalactose","UDP-Galacto-1,4-furanose / UDP-Glucose / Uridine diphosphategalactose",Nucleotides / nucleosides;Other,Mixed
+578.8872,"1D-myo-Inositol 1,3,4,5,6-pentakisphosphate",C04563;C04579,"1D-myo-Inositol 1,3,4,5,6-pentakisphosphate / Inositol 1,2,3,5,6-pentakisphosphate / Myo-inositol 1,2,4,5,6-pentakisphosphate","Inositol 1,2,3,5,6-pentakisphosphate / Myo-inositol 1,2,4,5,6-pentakisphosphate",Unknown,Unknown
+579.0269,UDP-glucuronate,C00167,UDP-Glucuronic acid / Uridine diphosphate glucuronic acid,UDP-Glucuronic acid / Uridine diphosphate glucuronic acid,Nucleotides / nucleosides,Nucleotides / nucleosides
+612.2549,Ferroxamine,C07597,Ferroxamine,,Carboxylic acids,Carboxylic acids
+659.307,Coproporphyrinogen III,C03263;C05768,Coproporphyrinogen III / Coproporphyrinogen I / Coproporphyrinogen III,Coproporphyrinogen I,Organoheterocyclic compounds,Organoheterocyclic compounds
+664.0939,Nicotinamide hypoxanthine dinucleotide,C00857;C04423,Nicotinamide hypoxanthine dinucleotide / Nicotinic acid adenine dinucleotide,Nicotinic acid adenine dinucleotide,Nucleotides / nucleosides,Nucleotides / nucleosides
+665.2144,Glycogen,C00182;C02052,Glycogen / Maltotetraose,Maltotetraose,Organic oxygen compounds,Organic oxygen compounds
+668.1374,Enterochelin,C05821,Enterochelin,,Other organic acids,Other
+790.2568,UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine,C06022,UDP-3-O-(3-Hydroxytetradecanoyl)-glucosamine,UDP-3-O-(3-Hydroxytetradecanoyl)-glucosamine,Unknown,Unknown
+835.0407,"P1,P4-Bis(5'-adenosyl)tetraphosphate",C01260,"P1,P4-Bis(5'-adenosyl)tetraphosphate",,Nucleotides / nucleosides,Nucleotides / nucleosides
+849.2765,Precorrin 1,C15527,Precorrin 1,,Unknown,Unknown
+861.6729,Ubiquinone-10,C11378,Ubiquinone-10,,Unknown,Unknown
+863.2971,Precorrin 2,C02463,Precorrin 2,,Unknown,Unknown
+864.1473,2-Methylacetoacetyl-CoA,C03344,2-Methylacetoacetyl-CoA,,Lipid-like molecules,Lipid-like molecules
+974.2935,trans-Tetradec-2-enoyl-CoA,C05273,trans-Tetradec-2-enoyl-CoA,,Lipid-like molecules,Lipid-like molecules
+976.7162,undecaprenyl phosphate-4-amino-4-deoxy-arabinose,C16157,undecaprenyl phosphate-4-amino-4-deoxy-arabinose,,Lipid-like molecules,Lipid-like molecules
