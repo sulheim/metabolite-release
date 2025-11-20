@@ -19,7 +19,7 @@ bar_color = colormap[2]
 # Label size
 label_dict = dict(
             # family="Arial, sans-serif",
-            size=16,  # Global font size
+            size=12,  # Global font size
             color="black"
         )
 
@@ -29,6 +29,7 @@ first_metabolite = 'Proline'
 strain_placeholder = '-'
 metabolite_placeholder = '-'
 
+default_font_size = 13
 
 def load_compressed_pickle(filename):
     data = bz2.BZ2File(filename + '.pbz2', 'rb')
@@ -148,7 +149,7 @@ def plot_bar_1(selected_strain,fig_layout,selected_metabolite=None,showMetabolit
             xanchor="left", yanchor="bottom",
             # bgcolor = "white",
             showarrow=False,
-            font=dict(size=20, color="gray")
+            font=dict(size=default_font_size, color="gray")
             )
     fig.update_layout(
         yaxis_title="Metabolite",
@@ -241,7 +242,7 @@ def plot_bar_2(selected_metabolite,fig_layout,selected_strain=None):
             xanchor="left", yanchor="bottom",
             # bgcolor = "white",
             showarrow=False,
-            font=dict(size=20, color="gray")
+            font=dict(size = default_font_size, color="gray")
             )
     min_y,max_y = np.min(plot_data['Rel. distance']), np.max(plot_data['Rel. distance'])
     range_min = min(-15,min_y)
@@ -328,7 +329,7 @@ def plot_function(selected_strain,selected_metabolite,fig_layout, xaxis_type='AU
         y=0.99,
         xanchor="left",
         x=0.01,
-        font = {'size':18}
+        font = {'size':default_font_size}
         ),
     font = label_dict
     )
@@ -384,7 +385,7 @@ def metadata_function(selected_strain, selected_metabolite):
     })
 
     return dbc.Row([
-        dbc.Label("Metadata", style={"fontWeight": "regular", "fontSize": "20px", "marginBottom": "0vh"}),
+        dbc.Label("Metadata", style={"fontWeight": "regular", "fontSize": "18px", "marginBottom": "0vh"}),
         dbc.Col(
             dash_table.DataTable(
                 data=transporter_df.to_dict('records'),
@@ -392,6 +393,7 @@ def metadata_function(selected_strain, selected_metabolite):
                 style_cell={'textAlign': 'left', 'padding': '2px'},
                 style_header={'backgroundColor': mutant_color, 'fontWeight': 'bold'},
                 style_as_list_view=True,
+                style_data={'fontSize': f'{default_font_size}px'},
                 style_cell_conditional=[
                     {'if': {'column_id': 'Property'}, 'width': '30%'},
                     # {'if': {'column_id': 'Value'}, 'width': '200px'},
@@ -404,7 +406,8 @@ def metadata_function(selected_strain, selected_metabolite):
                 data=metabolite_df.to_dict('records'),
                 columns=[{"name": "Metabolite", "id": "Property"}, {"name": "", "id": "Value"}],
                 style_cell={'textAlign': 'left', 'padding': '2px'},
-                style_header={'backgroundColor': bar_color, 'fontWeight': 'bold'},
+                style_header={'backgroundColor': bar_color, 'fontWeight': 'bold', 'fontSize': f'{default_font_size}px'},
+                style_data={'fontSize': f'{default_font_size}px'},
                 style_cell_conditional=[
                     {'if': {'column_id': 'Property'}, 'width': '40%'},
                     # {'if': {'column_id': 'Value'}, 'width': '200px'},
@@ -428,7 +431,7 @@ def plot_OD(selected_strain,fig_layout):
             yref='paper',
             text="No KO mutant selected.",
             showarrow=False,
-            font=dict(size=16),
+            font=dict(size=default_font_size),
         )
         return fig
     
@@ -464,7 +467,7 @@ def plot_OD(selected_strain,fig_layout):
         y=0.99,
         xanchor="left",
         x=0.01,
-        font = {'size':18}
+        font = {'size':default_font_size}
         ),
     font = label_dict
     )

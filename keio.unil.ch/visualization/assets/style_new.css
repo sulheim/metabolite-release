@@ -11,14 +11,14 @@ h1 {
 }
 
 .nav-link, .dash-page-link {
-    font-size: 24px;
+    font-size: 20px;
     /* font-weight: bold; */
 }
 
 .dropdownS {
     /* margin: 10px 0; */
     padding-bottom: 1px;
-    font-size: 20px;
+    font-size: 16px;
     font-style: italic;
     /* border-top: 1px solid #dee2e6; */
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
@@ -26,13 +26,13 @@ h1 {
 .dropdownM {
     /* margin: 10px 0;
     padding-top: 10px; */
-    font-size: 20px;
+    font-size: 16px;
     /* font-style: italic; */
     /* border-top: 1px solid #dee2e6; */
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 label {
-    font-size: 20px; /* Increase label font size */
+    font-size: 16px; /* Increase label font size */
     font-weight: normal;
     /* margin-bottom: 2px; */
 }
