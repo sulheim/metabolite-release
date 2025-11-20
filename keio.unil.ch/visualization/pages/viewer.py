@@ -19,9 +19,11 @@ bar_color = colormap[2]
 # Label size
 label_dict = dict(
             # family="Arial, sans-serif",
-            size=12,  # Global font size
+            size=14,  # Global font size
             color="black"
         )
+
+default_font_size = 14
 
 # Starting point for data loading
 first_strain = 'putP'
@@ -29,7 +31,6 @@ first_metabolite = 'Proline'
 strain_placeholder = '-'
 metabolite_placeholder = '-'
 
-default_font_size = 13
 
 def load_compressed_pickle(filename):
     data = bz2.BZ2File(filename + '.pbz2', 'rb')

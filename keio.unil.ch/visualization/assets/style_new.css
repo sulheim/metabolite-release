@@ -1,3 +1,7 @@
+html {
+    font-size: 14px !important;
+}
+
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: #ffffff00;
@@ -5,20 +9,24 @@ body {
     padding: 0;
 }
 
+body, body * {
+    font-size: 0.9rem !important;   /* adjust 0.85 → 85% of original */
+}
 
 h1 {
     text-align: left;
+    font-size: 2rem !important;
 }
 
 .nav-link, .dash-page-link {
-    font-size: 20px;
+    font-size: 24px;
     /* font-weight: bold; */
 }
 
 .dropdownS {
     /* margin: 10px 0; */
     padding-bottom: 1px;
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     /* border-top: 1px solid #dee2e6; */
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
@@ -26,13 +34,23 @@ h1 {
 .dropdownM {
     /* margin: 10px 0;
     padding-top: 10px; */
-    font-size: 16px;
+    font-size: 20px;
     /* font-style: italic; */
     /* border-top: 1px solid #dee2e6; */
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 label {
-    font-size: 16px; /* Increase label font size */
+    font-size: 20px; /* Increase label font size */
     font-weight: normal;
     /* margin-bottom: 2px; */
+}
+
+.nav-link {
+    background-color: white !important;  
+    color: #6c757d !important;                
+}
+
+.nav-link.active {
+    background-color: #6c757d !important;   
+    color: white !important;                
 }
