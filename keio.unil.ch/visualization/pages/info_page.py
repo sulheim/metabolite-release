@@ -19,7 +19,7 @@ layout = html.Div(
             html.Img(
                 src="assets/illustration.png", style={"width": "40%", "height": "auto"}
             ),
-            style={"textAlign": "left"},
+            style={"textAlign": "center"},
         ),
         dcc.Markdown(load_markdown_content("data/info.md")),
     ],
