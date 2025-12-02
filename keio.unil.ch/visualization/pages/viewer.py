@@ -42,7 +42,6 @@ data_dict = load_compressed_pickle("data/new_data_dict_keio_all_strains_with_std
 
 all_strains = load_compressed_pickle("data/keio_non_wt_strains_list")
 all_metabolites = load_compressed_pickle("data/keio_all_metabolites_list")
-
 # Add delta
 strain_options = [{"label": f"Δ{strain}", "value": strain} for strain in all_strains]
 
@@ -50,6 +49,10 @@ strain_options = [{"label": f"Δ{strain}", "value": strain} for strain in all_st
 ionMz_annotation_fn = "data/H_ionMz_annotation.csv"
 df_ionMz = pd.read_csv(ionMz_annotation_fn)
 df_ionMz.drop_duplicates(subset=["ionMz"], inplace=True)
+
+met_to_mz = df_ionMz.set_index("Metabolite")["ionMz"].to_dict()
+metabolite_selection_options = [{"label": f'{met} ({np.round(met_to_mz[met],3):.3f})', "value": met} for met in all_metabolites]
+
 
 # Load estimated effects
 distance_fn = "data/K_timecurve_comparison_TIC_norm_lam_10_AUC OD.csv"
@@ -387,7 +390,7 @@ def plot_function(
     fig.add_annotation(
         x=0.01,
         y=1,
-        text=f'{selected_metabolite} (m/z = {mz})',
+        text=f'm/z = {mz} ({selected_metabolite})',
         xref="paper",
         yref="paper",
         xanchor="left",
@@ -633,9 +636,9 @@ layout = html.Div(
                 # Column for metabolite
                 dbc.Col(
                     [
-                        dbc.Label("Metabolite Selection"),
+                        dbc.Label("Metabolite Selection (m/z)"),
                         dcc.Dropdown(
-                            options=all_metabolites,
+                            options=metabolite_selection_options,
                             placeholder="-",
                             id="metabolite-dropdown",
                             value=first_metabolite,
