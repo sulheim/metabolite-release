@@ -17,6 +17,9 @@ Growth and exometabolome data from [Paczia et al., 2012 (Microbial Cell Factorie
 ## park_2016
 Absolute intracellular concentrations of _E. coli_ from [Park et al., 2016 (Nature Chemical Biology)](https://pubmed.ncbi.nlm.nih.gov/27159581/)
 
+## mori_2021
+Protemoics data from _E. coli_ from [Mori et al., 2021 (Molecular Systems Biology)](https://pubmed.ncbi.nlm.nih.gov/34032011/)
+
 ## thorfinnsdottir_2022
 Absolute intracellular concentrations of _E. coli_ from [Thorfinnsdottir et al., 2022 (MDPI Metabolites)](https://www.mdpi.com/2218-1989/13/2/150)
 
