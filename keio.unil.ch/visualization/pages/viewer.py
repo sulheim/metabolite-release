@@ -165,12 +165,25 @@ def plot_bar_1(
         showarrow=False,
         font=dict(size=default_font_size, color="gray"),
     )
+    fig.add_annotation(
+        x=0.0,
+        y=0.0,
+        text=f"Only significant effects are shown (P<0.005, |Effect|>3)",
+        xref="paper",
+        yref="paper",
+        xanchor="left",
+        yanchor="bottom",
+        opacity=0.8,
+        showarrow=False,
+        bgcolor="white",
+        font=dict(size=default_font_size, color="black"),
+    )
     fig.update_layout(yaxis_title="Metabolite", xaxis_title="Effect", font=label_dict)
 
     if len(plot_data["Metabolite"]) > 25:
-        fig.update_yaxes(range=[len(plot_data["Metabolite"]) - 0.5, -0.5])
+        fig.update_yaxes(range=[len(plot_data["Metabolite"]) + 0.5, -0.5])
     else:
-        fig.update_yaxes(range=[25 - 0.5, -0.5])
+        fig.update_yaxes(range=[25 + 0.5, -0.5])
     min_y, max_y = np.min(plot_data["Rel. distance"]), np.max(
         plot_data["Rel. distance"]
     )
@@ -259,6 +272,19 @@ def plot_bar_2(selected_metabolite, fig_layout, selected_strain=None):
         showarrow=False,
         font=dict(size=default_font_size, color="gray"),
     )
+    fig.add_annotation(
+        x=0.0,
+        y=0.0,
+        text=f"Only significant effects are shown (P<0.005, |Effect|>3)",
+        xref="paper",
+        yref="paper",
+        xanchor="left",
+        yanchor="bottom",
+        opacity=0.8,
+        showarrow=False,
+        bgcolor="white",
+        font=dict(size=default_font_size, color="black"),
+    )
     min_y, max_y = np.min(plot_data["Rel. distance"]), np.max(
         plot_data["Rel. distance"]
     )
@@ -274,7 +300,7 @@ def plot_bar_2(selected_metabolite, fig_layout, selected_strain=None):
 def plot_function(
     selected_strain, selected_metabolite, fig_layout, xaxis_type="AUC OD"
 ):
-    combined_data = data_dict[selected_strain][selected_metabolite]
+    combined_data = data_dict[selected_strain].get(selected_metabolite, None)
     if combined_data is None:
         fig = go.Figure(layout=fig_layout)
         fig.add_annotation(
@@ -355,6 +381,20 @@ def plot_function(
             line=dict(color=wt_color),
             showlegend=False,
         )
+    )
+    metabolite_info = df_ionMz.loc[df_ionMz["Metabolite"] == selected_metabolite]
+    mz = np.round(metabolite_info["ionMz"].values[0], 3)
+    fig.add_annotation(
+        x=0.01,
+        y=1,
+        text=f'{selected_metabolite} (m/z = {mz})',
+        xref="paper",
+        yref="paper",
+        xanchor="left",
+        yanchor="bottom",
+        # bgcolor = "white",
+        showarrow=False,
+        font=dict(size=default_font_size, color="gray"),
     )
     fig.update_layout(
         legend=dict(
@@ -579,6 +619,7 @@ layout = html.Div(
                                 "height": "5vh",
                             },
                         ),
+
                         # dbc.Row(
                         dcc.Graph(
                             figure=default_bar_figure,

@@ -66,4 +66,4 @@ def sync_tabs_and_url(pathname, tab_value):
 
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(debug=True)
