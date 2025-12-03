@@ -12,7 +12,7 @@ https://github.com/Mitri-lab/metabolite-release
 Raw FIA-TOF MS data can be accessed on MassIVE under the dataset identifier MSV000097105.
 
 For further details, see our preprint:
-https://www.biorxiv.org/content/10.1101/2025.08.19.671024v1
+https://www.biorxiv.org/content/10.1101/2025.08.19.671024v2
 
 If you find this resource useful, please share it—and cite our work when using these results.
 
