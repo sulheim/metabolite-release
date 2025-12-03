@@ -628,6 +628,7 @@ layout = html.Div(
                             figure=default_bar_figure,
                             id="bar-1",
                             style={"height": "80vh", "marginTop": "0vh","minHeight": "350px"},
+                            config={"scrollZoom": False}
                         ),
                         # )
                     ],
@@ -649,6 +650,7 @@ layout = html.Div(
                             dcc.Graph(
                                 figure=default_bar_figure,
                                 id="bar-2",
+                                config={"scrollZoom": False}
                             ),
                             style={"height": "80vh", "marginTop": "5vh","minHeight": "350px"},
                         ),
@@ -675,6 +677,7 @@ layout = html.Div(
                                 "marginTop": "2.5vh",
                                 "minHeight": "280px",
                             },
+                            config={"scrollZoom": False}
                         ),
                         dcc.Graph(
                             figure={},
@@ -685,6 +688,7 @@ layout = html.Div(
                                 "marginTop": "0vh",
                                 "minHeight": "280px",
                             },
+                            config={"scrollZoom": False}
                         ),
                         # html.Details(
                         #     [
