@@ -26,8 +26,9 @@ This folder contains the original and modified genome-scale metabolic models use
 All jupyter notebooks used for the analyses and plots presented in the associated paper.
 
 # Reference
-If you use these results, analyses or data, please cite this preprint:
-[Sulheim, Snorre, Gunn Broli, Alisson Gillon, Julien S. Luneau, Andrew Quinn, Eric Ulrich, Margaret A. Vogel, Philipp Engel, and Sara Mitri. "Microbes release lower-value metabolites at higher rates." bioRxiv (2025): 2025-08.](https://www.biorxiv.org/content/10.1101/2025.08.19.671024v1)
+If you use these results, analyses or data, please cite [this preprint](https://www.biorxiv.org/content/10.1101/2025.08.19.671024v2):
+
+Snorre Sulheim, Gunn Broli, Peter F. Doubleday, Prajwal Padmanabha, Alisson Gillon, Julien S. Luneau, Andrew Quinn, Eric Ulrich, Margaret A. Vogel, Nicola Zamboni, Philipp Engel, and Sara Mitri. "Microbes use transporters to regulate the release of metabolites based on value.", bioRxiv (2025)
 
 
 
