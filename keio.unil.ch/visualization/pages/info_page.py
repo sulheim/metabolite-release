@@ -17,7 +17,7 @@ layout = html.Div(
         # html.H2("Information Page"),
         html.Div(
             html.Img(
-                src="assets/illustration.png", style={"width": "40%", "height": "auto"}
+                src="assets/illustration.png", style={"width": "90%", "maxWidth": "600px", "height": "auto"}
             ),
             style={"textAlign": "center"},
         ),

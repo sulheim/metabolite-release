@@ -59,3 +59,51 @@ label {
   font-size: 0.9rem !important;  
   line-height: 1.5 !important;    
 }
+
+
+@media (max-width: 768px) {
+
+  html {
+    font-size: 12px !important;
+  }
+
+  h1 {
+    font-size: 1.4rem !important;
+    text-align: center;
+    padding-left: 0 !important;
+  }
+
+  .dropdownS,
+  .dropdownM,
+  label {
+    font-size: 14px !important;
+  }
+
+  .tab {
+    padding: 4px 10px !important;
+    font-size: 0.8rem !important;
+  }
+
+  .nav-link {
+    font-size: 14px !important;
+  }
+
+  /* Reduce excessive padding applied via Bootstrap */
+  .ps-5 {
+    padding-left: 10px !important;
+  }
+
+  .pt-4, .pt-3 {
+    padding-top: 10px !important;
+  }
+
+  /* Make Dash tables fully readable */
+  .dash-table-container {
+    overflow-x: auto;
+  }
+
+  /* Prevent horizontal scrolling */
+  body {
+    overflow-x: hidden;
+  }
+}

@@ -496,7 +496,7 @@ def metadata_function(selected_strain, selected_metabolite):
                         # {'if': {'column_id': 'Value'}, 'width': '200px'},
                     ],
                 ),
-                width=6,
+                xs=12, md=6,
             ),
             dbc.Col(
                 dash_table.DataTable(
@@ -518,7 +518,7 @@ def metadata_function(selected_strain, selected_metabolite):
                     ],
                     style_as_list_view=True,
                 ),
-                width=6,
+                xs=12, md=6,
             ),
         ],
         style={"marginTop": "1vh", "marginBottom": "1vh", "marginRight": "2vw"},
@@ -627,11 +627,11 @@ layout = html.Div(
                         dcc.Graph(
                             figure=default_bar_figure,
                             id="bar-1",
-                            style={"height": "80vh", "marginTop": "0vh"},
+                            style={"height": "80vh", "marginTop": "0vh","minHeight": "350px"},
                         ),
                         # )
                     ],
-                    width=3,
+                    xs=12,md=3,
                 ),
                 # Column for metabolite
                 dbc.Col(
@@ -650,10 +650,10 @@ layout = html.Div(
                                 figure=default_bar_figure,
                                 id="bar-2",
                             ),
-                            style={"height": "80vh", "marginTop": "5vh"},
+                            style={"height": "80vh", "marginTop": "5vh","minHeight": "350px"},
                         ),
                     ],
-                    width=3,
+                    xs=12,md=3,
                 ),
                 # Column for plot and metadata
                 dbc.Col(
@@ -673,6 +673,7 @@ layout = html.Div(
                                 "width": "100%",
                                 "height": "30vh",
                                 "marginTop": "2.5vh",
+                                "minHeight": "280px",
                             },
                         ),
                         dcc.Graph(
@@ -682,6 +683,7 @@ layout = html.Div(
                                 "width": "100%",
                                 "height": "30vh",
                                 "marginTop": "0vh",
+                                "minHeight": "280px",
                             },
                         ),
                         # html.Details(
@@ -696,11 +698,12 @@ layout = html.Div(
                         # style={"marginTop": "0vh", "marginBottom": '1vh'}  #
                         # ),
                     ],
-                    width=6,
+                    xs=12,md=6,
                     style={"height": "80vh", "padding-left": "2vw"},
                 ),
             ],
             style={"marginLeft": "1vw"},
+            className="gx-2 gy-3",
         ),
         # Remove the separate dbc.Col for metadata here
     ]

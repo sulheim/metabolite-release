@@ -31,16 +31,16 @@ app.layout = dbc.Container(
         dbc.Row(
             html.H1(
                 "KEIO Metabolite Release Dashboard",
-                className="pt-4 ps-5",
+                 className="pt-3 text-center text-md-start",
             )
         ),
         dbc.Row(
             tabs,
-            class_name="ps-5 pt-3",
+            class_name="pt-2",
         ),
         dbc.Row(
             dash.page_container,
-            class_name="ps-5 pt-4",
+            class_name="pt-3",
         ),
     ],
     fluid=True,
