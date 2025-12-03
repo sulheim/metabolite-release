@@ -9,6 +9,11 @@ body {
     padding: 0;
 }
 
+html, body {
+  overscroll-behavior: auto;
+  touch-action: pan-y;
+}
+
 body, body * {
     font-size: 0.9rem !important;   /* adjust 0.85 → 85% of original */
 }
