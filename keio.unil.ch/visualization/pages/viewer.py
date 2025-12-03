@@ -79,6 +79,7 @@ default_bar_figure = go.Figure(
     layout=go.Layout(
         margin=dict(l=0, r=50, t=50, b=10),
         xaxis=dict(title="Effect"),
+        dragmode=False,   
     )
 )
 default_bar_figure.update_xaxes(range=(-15, 15))
@@ -732,6 +733,7 @@ def update_graph_view(chosen_strains, chosen_metabolites, xaxis_type):
         margin=dict(l=0, r=50, t=50, b=10),
         xaxis=dict(title=xaxis_type),
         yaxis=dict(title="Median Z-score"),
+        dragmode=False,   
     )
 
     if (
@@ -759,6 +761,7 @@ def update_od_graph(selected_strain):
         margin=dict(l=0, r=50, t=50, b=10),
         xaxis=dict(title="Time [h]"),
         yaxis=dict(title="OD600"),
+        dragmode=False,   
     )
     if (selected_strain == None) or (selected_strain == "-"):
         fig = go.Figure(layout=fig_layout)
@@ -778,6 +781,7 @@ def update_bar_graph1(chosen_strains, chosen_metabolites, show_metabolite_flag):
     fig_layout = go.Layout(
         margin=dict(l=0, r=10, t=50, b=10),
         xaxis=dict(title="Effect"),
+        dragmode=False,   
     )
     if chosen_strains == "-" or chosen_strains == None:
         return default_bar_figure
@@ -801,6 +805,7 @@ def update_bar_graph2(chosen_metabolites, chosen_strains):
     fig_layout = go.Layout(
         margin=dict(l=0, r=10, t=50, b=10),
         xaxis=dict(title="Effect"),
+        dragmode=False,   
     )
     if chosen_metabolites == "-" or chosen_metabolites == None:
         return default_bar_figure
