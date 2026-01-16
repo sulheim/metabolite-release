@@ -30,6 +30,5 @@ If you use these results, analyses or data, please cite [this preprint](https://
 
 Snorre Sulheim, Gunn Broli, Peter F. Doubleday, Prajwal Padmanabha, Alisson Gillon, Julien S. Luneau, Andrew Quinn, Eric Ulrich, Margaret A. Vogel, Nicola Zamboni, Philipp Engel, and Sara Mitri. "Microbes use transporters to regulate the release of metabolites based on value.", bioRxiv (2025)
 
-
-
-
+# Package versions
+See environment.yml
