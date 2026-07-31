@@ -1,145 +1,144 @@
-Metabolite,BiGG ID,ECMDB ID,ECMDB name,In iML1515,Ecocyc
-"1,3-diaminopropane",13dampp,,,False,
-"2, 5-dihydroxybenzoate",23dhb,,,TRUE,
-"2,5-dihydroxybenzoate",23dhb,,,True,
-2-aminoisobutyrate,,ECMDB21403,2-Aminoisobutyric acid,,0.0
-2-hydroxybutyrate,ghb,ECMDB24007,2-Hydroxybutyric acid,True,
-2-hydroxyglutaric acid,S2hglut,ECMDB00606,D-2-Hydroxyglutaric acid,True,
-2-oxobutanoate/acetoacetate,2obut,,,TRUE,
-3-(4-hydroxyphenyl)pyruvate,34hpp,ECMDB00707,4-Hydroxyphenylpyruvic acid,True,
-3-hydroxyanthranilate,,ECMDB01476,3-Hydroxyanthranilic acid,,0.0
-3-hydroxybutyrate,ghb,ECMDB21418,3-Hydroxybutyric acid,True,
-3-hydroxyglutaric acid,S2hglut,,,True,
-3-hydroxyphenylacetate,,,,,
-4-acetamidobutanoate,4aabutn,,,False,
-4-imidazoleacetate,im4ac,,,False,
-Acetate,ac,ECMDB00042,Acetic acid,True,
-Adenosine,adn,ECMDB00050,Adenosine,True,
-"Adenosine 3', 5'-cyclic phosphate",,,,TRUE,
-Adipate,,,,,
-Aicar,aicar,ECMDB01517,AICAR,True,
-Alanine,ala__L,ECMDB00161,L-Alanine,True,
-Allantoin,alltn,ECMDB00462,Allantoin,True,
-Alpha-aminoadipate,,ECMDB00510,Aminoadipic acid,,0.0
-Alpha-aminobutyrate,,,,,0.0
-Alpha-glucose (cl adduct),glc__D,ECMDB00122,D-Glucose,True,
-Anthranilate,anth,ECMDB01123,2-Aminobenzoic acid,True,
-Arginine,arg__L,ECMDB00517,L-Arginine,True,
-Asparagine,asn__L,ECMDB00168,L-Asparagine,True,
-Aspartate,asp__L,ECMDB00191,L-Aspartic acid,True,
-Beta-alanine,ala_B,ECMDB00056,beta-Alanine,True,
-Biotin,btn,,,TRUE,
-Cadaverine,15dap,,,TRUE,
-Carnitine (c0),crn,,,TRUE,
-Cdp-ethanolamine,cdpea,,,False,
-Choline,chol,,,TRUE,
-Cis-aconitate,acon_C,ECMDB00072,cis-Aconitic acid,True,
-Citrate,cit,ECMDB00094,Citric acid,True,
-Citrulline,citr__L,ECMDB00904,Citrulline,True,
-Creatine,crn,,,True,
-Creatinine,crtn,,,False,
-Cyclic gmp,35cgmp,ECMDB04034,Cyclic GMP,True,
-Deoxycarnitine (deoxy-c0),gbbtn,ECMDB21336,gamma-Butyrobetaine,True,
-Dethiobiotin,dtbt,ECMDB03581,Dethiobiotin,True,
-Diaminopimelate,,ECMDB21665,"Meso-2,6-Diaminoheptanedioate",,1.0
-Diethanolamine,,ECMDB21405,Diethanolamine,,
-Dihydroorotate,dhor__S,ECMDB00528,"4,5-Dihydroorotic acid",True,
-Dihydrouracil,56dura,ECMDB00076,Dihydrouracil,True,
-Ethanolamine,etha,ECMDB00149,Ethanolamine,True,
-FAD,fad,,,TRUE,
-Formate,for,ECMDB00142,Formic acid,True,
-Fructose-6-phosphate,f6p,ECMDB00124,Fructose 6-phosphate,True,
-Gamma-aminobutyrate,4abut,ECMDB04017,gamma-Aminobutyric acid,True,
-Gluconate,glcn,ECMDB00625,Gluconic acid,True,
-Gluconolactone,,ECMDB00150,Gluconolactone,,1.0
-Glucosamine 6-phosphate,gam6p,,,TRUE,
-Glucose-6-phosphate,g6p,ECMDB01401,Glucose 6-phosphate,True,
-Glutamate,glu__L,ECMDB00148,L-Glutamate,True,
-Glutamine,gln__L,ECMDB00641,L-Glutamine,True,
-Glutarate,glutar,ECMDB21425,Glutaric acid,False,1.0
-Glutarylcarnitine (c5-dc),,,,,
-Glutathione reduced,gthrd,,,TRUE,
-Glycerol,glyc,ECMDB00131,Glycerol,True,
-Glycerol 3-phosphate,g3p,ECMDB23140,glycerol-3-phosphate,True,
-Glycine,gly,ECMDB00123,Glycine,True,
-Guanidinosuccinate/n-acetylaspartate,,ECMDB21401,N-Acetyl-L-aspartic acid,,0.0
-Guanine,gua,ECMDB00132,Guanine,True,
-Hexanoate,hxa,ECMDB21229,Hexanoate (N-C6:0),True,
-Hexanoylcarnitine (c6),,,,,
-Hexoses,glc__D,,,True,
-Hexoses including glucose and fructose,fru,ECMDB00660,D-Fructose,True,
-Histidine,his__L,ECMDB00177,L-Histidine,True,
-Histidinol,histd,,,TRUE,
-Homoserine,hom__L,ECMDB02251,L-Homoserine,True,
-Hydroxyphenyllactate,2hyoxplac,,,False,
-Hypoxanthine,hxan,ECMDB00157,Hypoxanthine,True,
-Inosine,ins,ECMDB00195,Inosine,True,
-Isocitrate,icit,ECMDB04088,Isocitric acid,True,
-Isoleucine,ile__L,ECMDB00172,L-Isoleucine,True,
-Isovalerylcarnitine (c5/ic5),,,,,
-Kynurenate,,,,,
-Lactate,lac__D,ECMDB00190,L-Lactic acid,True,
-Leucine,leu__L,ECMDB00687,L-Leucine,True,
-Lysine,lys__L,ECMDB00182,L-Lysine,True,
-Malate,mal__L,ECMDB00156,L-Malic acid,True,
-Malonylcarnitine (c3:dc),,,,,
-Mannose,man,,,TRUE,
-Metanephrine,mepi,,,False,
-Methionine,met__L,ECMDB00696,L-Methionine,True,
-Methylglutarate,3mglutr,,,False,
-Methylguanidine,,,,,
-Methylthioadenosine,5mta,ECMDB01173,5'-Methylthioadenosine,True,
-N-acetylalanine,,ECMDB01138,N-Acetyl-L-alanine,,
-N-acetylglutamate,acglu,ECMDB21429,N-Acetylglutamic acid,True,
-N-acetylleucine,acleu__L,,,False,0.0
-N-acetylphenylalanine,,,,,0.0
-N-acetylputrescine,aprut,ECMDB02064,N-Acetylputrescine,False,0.0
-N-acetylserine,acser,ECMDB21441,N-Acetylserine,True,
-N-alpha-acetyllysine,aclys,ECMDB24023,N6-Acetyl-L-lysine,False,0.0
-NAD,nad,ECMDB00902,NAD,True,
-Nicotinamide,ncam,ECMDB01406,Niacinamide,True,
-Nicotinate,nac,ECMDB01488,Nicotinic acid,True,
-O-acetylserine,acser,ECMDB03011,O-Acetylserine,True,
-O-succinyl-homoserine,suchms,ECMDB01418,O-Succinyl-L-homoserine,True,
-Ophthalmate,,,,,
-Orotate,orot,ECMDB00226,Orotic acid,True,
-Oxoproline,5oxpro,,,False,
-P-hydroxyphenylacetate,4hphac,,,False,
-Pantothenate,pnto__R,ECMDB00210,Pantothenic acid,True,
-Phenylacetaldehyde,pacald,ECMDB06236,Phenylacetaldehyde,True,
-Phenylalanine,phe__L,ECMDB00159,L-Phenylalanine,True,
-Pipecolic acid,Lpipecol,ECMDB21385,Pipecolic acid,False,
-Proline,pro__L,ECMDB00162,L-Proline,True,
-Propionate,ppa,ECMDB00237,Propionic acid,True,
-Putrescine,ptrc,ECMDB01414,Putrescine,True,
-Pyridoxal,pydx,,,TRUE,
-Pyruvate,pyr,ECMDB00243,Pyruvic acid,True,
-Quinate,quin,ECMDB21278,Quinate,True,
-Riboflavin,ribflv,,,TRUE,
-Ribose 5-phosphate,r5p,,,TRUE,
-S-adenosylhomocysteine,ahcys,ECMDB00939,S-Adenosylhomocysteine,True,
-S-adenosylmethionine,amet,ECMDB01185,S-Adenosylmethionine,True,
-Salicylate,salc,ECMDB21437,Salicylic acid,False,
-Sebacoyl-l-carnitine (c10-dc),,,,,
-Sedoheptulose-7-phopsphate,s7p,,,TRUE,
-Serine,ser__L,ECMDB00187,L-Serine,True,
-Stearoylcarnitine (c18),,,,,
-Succinate,succ,ECMDB00254,Succinic acid,True,
-Thiamine monophosphate,thmmp,ECMDB02666,Thiamine monophosphate,True,
-Threonine,thr__L,ECMDB00167,L-Threonine,True,
-Thymine,thym,ECMDB00262,Thymine,True,
-Trans-aconitate,acon_T,ECMDB00958,trans-Aconitic acid,True,
-Trigonelline ,,,,,
-Trimethylamine,tma,ECMDB00906,Trimethylamine,True,
-Tyramine,tym,ECMDB00306,Tyramine,True,
-Tyrosine,tyr__L,ECMDB00158,L-Tyrosine,True,
-Uracil,ura,ECMDB00300,Uracil,True,
-Ureidopropionate,cala,ECMDB00026,Ureidopropionic acid,False,
-Uridine diphosphate glucuronic acid,udpglcur,,,TRUE,
-Uridine diphosphate hexose,udpg,ECMDB04171,UDP-Glucose,True,
-Uridine monophosphate,ump,ECMDB00288,Uridine 5'-monophosphate,True,
-Urocanate,urcan,ECMDB21396,Urocanic acid,False,
-Valine,val__L,ECMDB00883,L-Valine,True,
-Xanthine,xan,ECMDB00292,Xanthine,True,
-Xanthosine,xtsn,ECMDB00299,Xanthosine,True,
-cAMP,camp,ECMDB00058,Cyclic AMP,True,
+Metabolite,BiGG ID,ECMDB ID,KEGG_ID,IN ECMDB,From Mapping 1
+"1,3-diaminopropane",13dampp,,C00986,FALSE,TRUE
+"2, 5-dihydroxybenzoate",,,,FALSE,FALSE
+2-aminoisobutyrate,,ECMDB21403,C03665,TRUE,TRUE
+2-hydroxybutyrate,ghb,ECMDB24007,C05984,TRUE,TRUE
+2-hydroxyglutaric acid,S2hglut,ECMDB00606,C02630,TRUE,TRUE
+2-oxobutanoate/acetoacetate,2obut,ECMDB00005,C00109,TRUE,FALSE
+3-(4-hydroxyphenyl)pyruvate,34hpp,ECMDB00707,C01179,TRUE,TRUE
+3-hydroxyanthranilate,,ECMDB01476,C00632,TRUE,TRUE
+3-hydroxybutyrate,ghb,ECMDB21418,C01089,TRUE,TRUE
+3-hydroxyglutaric acid,S2hglut,,,FALSE,TRUE
+3-hydroxyphenylacetate,,,,FALSE,TRUE
+4-acetamidobutanoate,4aabutn,,,FALSE,TRUE
+4-imidazoleacetate,im4ac,,C02835,FALSE,TRUE
+Acetate,ac,ECMDB00042,C00033,TRUE,TRUE
+Adenosine,adn,ECMDB00050,C00212,TRUE,TRUE
+"Adenosine 3', 5'-cyclic phosphate",camp,ECMDB00058,C00575,TRUE,FALSE
+Adipate,,,C06104,FALSE,TRUE
+Aicar,aicar,ECMDB01517,C04677,TRUE,TRUE
+Alanine,ala__L,ECMDB00161,C00041,TRUE,TRUE
+Allantoin,alltn,ECMDB00462,C01551,TRUE,TRUE
+Alpha-aminoadipate,,ECMDB00510,C00956,TRUE,TRUE
+Alpha-aminobutyrate,,,C02356,FALSE,TRUE
+Alpha-glucose (cl adduct),glc__D,ECMDB00122,C00031,TRUE,TRUE
+Anthranilate,anth,ECMDB01123,C00108,TRUE,TRUE
+Arginine,arg__L,ECMDB00517,C00062,TRUE,TRUE
+Asparagine,asn__L,ECMDB00168,C00152,TRUE,TRUE
+Aspartate,asp__L,ECMDB00191,C00049,TRUE,TRUE
+Beta-alanine,ala_B,ECMDB00056,C00099,TRUE,TRUE
+Biotin,btn,ECMDB00030,C00120,TRUE,FALSE
+Cadaverine,15dap,ECMDB02322,C01672,TRUE,FALSE
+Carnitine (c0),crn,ECMDB23900,C00318,TRUE,FALSE
+Cdp-ethanolamine,cdpea,,C00570,FALSE,TRUE
+Choline,chol,ECMDB00097,C00114,TRUE,FALSE
+Cis-aconitate,acon_C,ECMDB00072,C00417,TRUE,TRUE
+Citrate,cit,ECMDB00094,C00158,TRUE,TRUE
+Citrulline,citr__L,ECMDB00904,C00327,TRUE,TRUE
+Creatine,creat,,C00300,FALSE,TRUE
+Creatinine,crtn,,C00791,FALSE,TRUE
+Cyclic gmp,35cgmp,ECMDB04034,C00942,TRUE,TRUE
+Deoxycarnitine (deoxy-c0),gbbtn,ECMDB21336,C01181,TRUE,TRUE
+Dethiobiotin,dtbt,ECMDB03581,C01909,TRUE,TRUE
+Diaminopimelate,,ECMDB21665,C00680,TRUE,TRUE
+Diethanolamine,,ECMDB21405,C06772,TRUE,TRUE
+Dihydroorotate,dhor__S,ECMDB00528,C00337,TRUE,TRUE
+Dihydrouracil,56dura,ECMDB00076,C00429,TRUE,TRUE
+Ethanolamine,etha,ECMDB00149,C00189,TRUE,TRUE
+FAD,fad,ECMDB01248,C00016,TRUE,FALSE
+Formate,for,ECMDB00142,C00058,TRUE,TRUE
+Fructose-6-phosphate,f6p,ECMDB00124,C00085,TRUE,TRUE
+Gamma-aminobutyrate,4abut,ECMDB04017,C00334,TRUE,TRUE
+Gluconate,glcn,ECMDB00625,C00257,TRUE,TRUE
+Gluconolactone,,ECMDB00150,C00198,TRUE,TRUE
+Glucosamine 6-phosphate,gam6p,ECMDB01254,C00352,TRUE,FALSE
+Glucose-6-phosphate,g6p,ECMDB01401,C00092,TRUE,TRUE
+Glutamate,glu__L,ECMDB00148,C00025,TRUE,TRUE
+Glutamine,gln__L,ECMDB00641,C00064,TRUE,TRUE
+Glutarate,glutar,ECMDB21425,C00489,TRUE,TRUE
+Glutarylcarnitine (c5-dc),,,,FALSE,TRUE
+Glutathione reduced,gthrd,ECMDB00125,C00051,TRUE,FALSE
+Glycerol,glyc,ECMDB00131,C00116,TRUE,TRUE
+Glycerol 3-phosphate,g3p,ECMDB23140,C03189,TRUE,TRUE
+Glycine,gly,ECMDB00123,C00037,TRUE,TRUE
+Guanidinosuccinate/n-acetylaspartate,,ECMDB21401,C01042,TRUE,TRUE
+Guanine,gua,ECMDB00132,C00242,TRUE,TRUE
+Hexanoate,hxa,ECMDB21229,C01585,TRUE,TRUE
+Hexanoylcarnitine (c6),,,,FALSE,TRUE
+Hexoses,gal,,C00124,TRUE,TRUE
+Hexoses including glucose and fructose,fru,ECMDB00660,C00095,TRUE,TRUE
+Histidine,his__L,ECMDB00177,C00135,TRUE,TRUE
+Histidinol,histd,ECMDB03431,C00860,TRUE,FALSE
+Homoserine,hom__L,ECMDB02251,C00263,TRUE,TRUE
+Hydroxyphenyllactate,2hyoxplac,,,FALSE,TRUE
+Hypoxanthine,hxan,ECMDB00157,C00262,TRUE,TRUE
+Inosine,ins,ECMDB00195,C00294,TRUE,TRUE
+Isocitrate,icit,ECMDB04088,C00311,TRUE,TRUE
+Isoleucine,ile__L,ECMDB00172,C00407,TRUE,TRUE
+Isovalerylcarnitine (c5/ic5),,,,FALSE,TRUE
+Kynurenate,,,C01717,FALSE,TRUE
+Lactate,lac__D,ECMDB00190,C00186,TRUE,TRUE
+Leucine,leu__L,ECMDB00687,C00123,TRUE,TRUE
+Lysine,lys__L,ECMDB00182,C00047,TRUE,TRUE
+Malate,mal__L,ECMDB00156,C00149,TRUE,TRUE
+Malonylcarnitine (c3:dc),,,,FALSE,TRUE
+Mannose,man,ECMDB00169,C00159,TRUE,FALSE
+Metanephrine,mepi,,C05588,FALSE,TRUE
+Methionine,met__L,ECMDB00696,C00073,TRUE,TRUE
+Methylglutarate,3mglutr,,,FALSE,TRUE
+Methylguanidine,,,C02294,FALSE,TRUE
+Methylthioadenosine,5mta,ECMDB01173,C00170,TRUE,TRUE
+N-acetylalanine,,ECMDB01138,,TRUE,TRUE
+N-acetylglutamate,acglu,ECMDB21429,C00624,TRUE,TRUE
+N-acetylleucine,acleu__L,,C02710,FALSE,TRUE
+N-acetylphenylalanine,,,,FALSE,TRUE
+N-acetylputrescine,aprut,ECMDB02064,C02714,TRUE,TRUE
+N-acetylserine,,ECMDB21441,,TRUE,TRUE
+N-alpha-acetyllysine,aclys,ECMDB24023,,TRUE,TRUE
+NAD,nad,ECMDB00902,C00003,TRUE,TRUE
+Nicotinamide,ncam,ECMDB01406,C00153,TRUE,TRUE
+Nicotinate,nac,ECMDB01488,C00253,TRUE,TRUE
+O-acetylserine,acser,ECMDB03011,C00979,TRUE,TRUE
+O-succinyl-homoserine,suchms,ECMDB01418,C01118,TRUE,TRUE
+Ophthalmate,,,,FALSE,TRUE
+Orotate,orot,ECMDB00226,C00295,TRUE,TRUE
+Oxoproline,5oxpro,,C01879,FALSE,TRUE
+P-hydroxyphenylacetate,4hphac,,C00642,FALSE,TRUE
+Pantothenate,pnto__R,ECMDB00210,C00864,TRUE,TRUE
+Phenylacetaldehyde,pacald,ECMDB06236,C00601,TRUE,TRUE
+Phenylalanine,phe__L,ECMDB00159,C00079,TRUE,TRUE
+Pipecolic acid,Lpipecol,ECMDB21385,C00408,TRUE,TRUE
+Proline,pro__L,ECMDB00162,C00148,TRUE,TRUE
+Propionate,ppa,ECMDB00237,C00163,TRUE,TRUE
+Putrescine,ptrc,ECMDB01414,C02896,TRUE,TRUE
+Pyridoxal,pydx,ECMDB01545,C00250,TRUE,FALSE
+Pyruvate,pyr,ECMDB00243,C00022,TRUE,TRUE
+Quinate,quin,ECMDB21278,C00296,TRUE,TRUE
+Riboflavin,ribflv,ECMDB00244,C00255,TRUE,FALSE
+Ribose 5-phosphate,r5p,ECMDB02033,C03736,TRUE,FALSE
+S-adenosylhomocysteine,ahcys,ECMDB00939,C00021,TRUE,TRUE
+S-adenosylmethionine,amet,ECMDB01185,C00019,TRUE,TRUE
+Salicylate,salc,ECMDB21437,C00805,TRUE,TRUE
+Sebacoyl-l-carnitine (c10-dc),,,,FALSE,TRUE
+Sedoheptulose-7-phopsphate,s7p,ECMDB01068,C05382,TRUE,FALSE
+Serine,ser__L,ECMDB00187,C00065,TRUE,TRUE
+Stearoylcarnitine (c18),,,,FALSE,TRUE
+Succinate,succ,ECMDB00254,C00042,TRUE,TRUE
+Thiamine monophosphate,thmmp,ECMDB02666,C01081,TRUE,TRUE
+Threonine,thr__L,ECMDB00167,C00188,TRUE,TRUE
+Thymine,thym,ECMDB00262,C00178,TRUE,TRUE
+Trans-aconitate,acon_T,ECMDB00958,C02341,TRUE,TRUE
+Trigonelline,,,C01004,FALSE,TRUE
+Trimethylamine,tma,ECMDB00906,C00565,TRUE,TRUE
+Tyramine,tym,ECMDB00306,C00483,TRUE,TRUE
+Tyrosine,tyr__L,ECMDB00158,C00082,TRUE,TRUE
+Uracil,ura,ECMDB00300,C00106,TRUE,TRUE
+Ureidopropionate,cala,ECMDB00026,C02642,TRUE,TRUE
+Uridine diphosphate glucuronic acid,udpglcur,ECMDB04166,C00167,TRUE,FALSE
+Uridine diphosphate hexose,udpg,ECMDB04171,C00029,TRUE,TRUE
+Uridine monophosphate,ump,ECMDB00288,C00105,TRUE,TRUE
+Urocanate,urcan,ECMDB21396,C00785,TRUE,TRUE
+Valine,val__L,ECMDB00883,C00183,TRUE,TRUE
+Xanthine,xan,ECMDB00292,C00385,TRUE,TRUE
+Xanthosine,xtsn,ECMDB00299,C01762,TRUE,TRUE
+cAMP,camp,ECMDB00058,C00575,TRUE,TRUE
