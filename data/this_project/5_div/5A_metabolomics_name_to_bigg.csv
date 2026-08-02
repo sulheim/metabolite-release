@@ -1,6 +1,6 @@
 Metabolite,BiGG ID,ECMDB ID,ECMDB name,In iML1515,Ecocyc,KEGG_ID,IN ECMDB
 "1,3-diaminopropane",13dampp,,,FALSE,,C00986,FALSE
-"2,5-dihydroxybenzoate",,,,FALSE,,C00628,FALSE
+"2,5-dihydroxybenzoate",,,,TRUE,,C00628,FALSE
 2-aminoisobutyrate,,ECMDB21403,2-Aminoisobutyric acid,,0,C03665,TRUE
 2-hydroxybutyrate,ghb,ECMDB24007,2-Hydroxybutyric acid,TRUE,,C05984,TRUE
 2-hydroxyglutaric acid,S2hglut,ECMDB00606,D-2-Hydroxyglutaric acid,TRUE,,C02630,TRUE
